@@ -1,0 +1,25 @@
+{
+  "index.qmd": {
+    "index.html": "359498eb"
+  },
+  "syllabus.qmd": {
+    "syllabus.html": "fda94fac"
+  },
+  "lectures/lecture_01.ipynb": {
+    "lecture_01.html": "6f433982"
+  },
+  "schedule.qmd": {
+    "schedule.html": "fc00fa10"
+  },
+  "lectures/lecture_01.qmd": {
+    "lecture_01.html": "fb2f2030"
+  },
+  "lectures/lecture_01/lecture_01.qmd": {
+    "lecture_01.html": "f3d6c9a2"
+  },
+  "lectures/lecture_01/01_bank.ipynb": {
+    "01_bank.html": "15c4a3cb",
+    "01_bank.out.ipynb": "b6f0deaa",
+    "01_bank-preview.html": "a75cfd47"
+  }
+}

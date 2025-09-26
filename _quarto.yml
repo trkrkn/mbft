@@ -1,0 +1,50 @@
+project:
+  type: website
+
+website:
+  title: "Modern Banking and Financial Technology"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: syllabus.qmd
+        text: Syllabus
+      - href: schedule.qmd
+        text: Schedule
+      - text: Lectures
+        menu:
+          - href: 'lectures/lecture_01/lecture_01.qmd'
+            text: Lecture 01 - Modern Banking pt. 1 
+          - href: ''
+            text: Lecture 02 - Modern Banking pt. 2 
+          - href: ''
+            text: Lecture 03 - Modern Banking pt. 3
+          - href: ''
+            text: Lecture 04 - Modern Banking pt. 4 
+          - href: ''
+            text: Lecture 05 - Modern Banking pt. 5 
+          - href: ''
+            text: Lecture 06 - Fintech
+          - href: ''
+            text: Lecture 07 - Platforms pt. 2
+          - href: ''
+            text: Lecture 08 - Machine Learning pt. 1
+          - href: ''
+            text: Lecture 09 - Machine Learning pt. 2
+          - href: ''
+            text: Lecture 10 - Crypto pt. 1
+          - href: ''
+            text: Lecture 11 - Crypto pt. 2
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-location: left
+    # number-sections: true
+
+bibliography: refs.bib
+
+
+

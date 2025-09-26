@@ -1,0 +1,352 @@
+[
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Professor: Tarik Roukny (tarik.roukny@kuleuven.be)\nLectures: Mondays\n\nTime blocks for sessions\n\n08.30 AM - 10.30 AM\n10.30 PM - 12.30 PM\n\nRoom HER1 - 04.4207\n\nOffice hours: by email appointment."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Modern Banking and Financial Technology",
+    "section": "",
+    "text": "This website accompanies the course of Modern Banking and Financial Technology (B-KUL-HMA68A)."
+  },
+  {
+    "objectID": "syllabus.html#course-description",
+    "href": "syllabus.html#course-description",
+    "title": "Syllabus",
+    "section": "Course Description",
+    "text": "Course Description\nThis course is a compulsory course for the International and Sustainable Finance Track in the Master of Business Administration curriculum at the Faculty of Economics and Business, Brussels Campus, KU Leuven.\nThe course objectives are:\n\nTo train students to produce scientifically based solutions to modern banking issues\nTo introduce trends in financial technologies\nTo provide students with a wide range of technological and policy challenges and opportunities in banking and finance\nTo induce both macro and micro assessments of the impact of new technologies for banking and the economy\n\nThe course features a balance between traditional banking issues (intermediation, money, payments, instruments, deposits, financial contracts, financial stability, liquidity, monetary policy, interest rates, bank runs, regulation, bail outs) and modern banking issues (digitalisation, platforms, crypto, AI, DeFi, smart contracts, shadow banking, macroprudential policy, Big Tech, open finance, CBDC). The ultimate objective is to convey a deep grasp of the past-present-future of the industry in order to prepare students for the ever changing landscape of banking and technology.\n\nPrerequisites\nThis course does not have mandatory prerequisites. It is however advised to have sufficient knowledge of basic economic modelling and completed the following courses first:\n\nFinancial Markets and Institutions\nCorporate Finance."
+  },
+  {
+    "objectID": "syllabus.html#learning-objectives",
+    "href": "syllabus.html#learning-objectives",
+    "title": "Syllabus",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives"
+  },
+  {
+    "objectID": "syllabus.html#section",
+    "href": "syllabus.html#section",
+    "title": "Syllabus",
+    "section": "…",
+    "text": "…"
+  },
+  {
+    "objectID": "lectures/lecture_01.html",
+    "href": "lectures/lecture_01.html",
+    "title": "Lecture 01",
+    "section": "",
+    "text": "Lecture 01"
+  },
+  {
+    "objectID": "lectures/lecture_01.html#the-origins-of-finance",
+    "href": "lectures/lecture_01.html#the-origins-of-finance",
+    "title": "Lecture 1 – Introduction",
+    "section": "The origins of finance",
+    "text": "The origins of finance"
+  },
+  {
+    "objectID": "lectures/lecture_01.html#dedalus-and-icarus",
+    "href": "lectures/lecture_01.html#dedalus-and-icarus",
+    "title": "Lecture 1 – Introduction",
+    "section": "Dedalus and Icarus",
+    "text": "Dedalus and Icarus\nIn the end"
+  },
+  {
+    "objectID": "lectures/test.html",
+    "href": "lectures/test.html",
+    "title": "Lecture 01 - Introduction to Python",
+    "section": "",
+    "text": "Python is a high-level, interpreted programming language known for its simplicity and readability.\nKey Features of Python\n\nEasy to Learn: Python’s syntax is straightforward.\nInterpreted Language: Python code is executed line by line, which makes debugging easier.\nDynamically Typed: You don’t need to declare variable types explicitly; Python handles it automatically.\nVersatile: Python is used in web development, data analysis, automation, and much more.\nHuge Ecosystem: Python has a large standard library and third-party modules for a wide variety of applications.\n\n\n\n\n\nData Handling: In finance, you often work with large datasets—Python’s libraries like pandas and NumPy are designed to handle and analyze financial data efficiently.\nAutomation: Python can automate repetitive tasks like data retrieval, report generation, and portfolio analysis.\nFinancial Modeling: Python is a great tool for building complex models such as forecasting, risk management, and pricing.\nIntegration with Data Science: Python is the most popular language for data science, offering extensive support for statistical analysis, machine learning, and data visualization.\n\n\n\n\n\n\n\n\n\n\nDownload Python from the official website.\nInstallation includes the Python interpreter and Integrated Development Environment (IDLE) for coding.\n\n\n\n\n\nAnaconda is a suite of useful tools and packages for Python development.\nDownload Anaconda from the official website\nOnce it is installed, confirm the following environments and packages are available:\n\nSpyder\nJupyter Notebook\n\n\n\n\n\n\nThere are multiple ways to run Python.\nConsider the following code line which instructs to simply print out “Hello World!”\n    print (\"Hello World!\")\n\n\n\nUse the Python IDLE (from terminal of from any IDE setting like Spyder)\nType the code and press Enter\nCheck the output\n\n\n\n\n\nOpen an empty file (Spyder, Sublime Text Editor, etc.)\nWrite the code\nSave file as helloworld.py\nRun the script\n\nFrom the terminal, run the script by typing\n\n    python helloworld.py\n\nFrom the IDE (like Spyder), launch the run\n\nCheck the output\n\n\n\n\nPlatforms like Jupyter Notebooks are widely used in data science for documenting and running code interactively. - Open Jupyter Notebook by typing in the terminal\n    Jupyter Notebook\n\nCreat a new notebook with a Python environment\nWrite the code in the first cell\nRun the cell\nCheck the output (see below)\n\n\nprint ('Hello World!')\n\n\n\n\n\n\n\n\n\n\n\n5000 + 250\n\n\n10000 * 1.05\n\n\n10000 / 2\n\nComments: Use comments (#) to explain code, particularly useful for documenting underlying logic.\n\n# Basic financial arithmetic\nprint(5000 + 250)    # Adding investment returns\nprint(10000 * 1.05)  # Calculating interest (5% growth)\nprint(10000 / 2) # Splitting an investment\n\n\n# This is a comment\nprint(\"Welcome to Python for Finance!\")  # This prints a message\n\n\n\n\n\nVariables: Store data for calculations.\n\nThe operation = assigns a value to a variable.\n\n# Variable assignment in a financial scenario\nstock_price = 150.25  # Price of a stock\ninvestment_amount = 10000  # Amount invested\nshares = investment_amount / stock_price  # Number of shares\n\n\nshares\n\n\nData types: Variables can be of different types.\n\nStrings (str): Text\nIntegers (int): Integer value\nFloats (float): Real value\nBooleans (bool): True or False\n\n\nBecause Python is dynamically typed, there is no need to explicitly mention the type of the variable. Yet, in some cases, it may be important to cast variables from one type to another.\nMore on this in the next lecture.\n\n\n\n\nControl structures allow to condition the sequence of action of a code on the particular value a variable exhibits at the time of execution.\nNote: tabs are organizational pillars of the Python code structure\n\n\nConditional statements consider the specific value of a variable at the time of execution and determine the outcome based on a logical operation.\nStructure\n    If CONDITON HOLDS:\n        OUTCOME 1\n    Elif OTHER CONDITION HOLDS:\n        OUTCOME 2\n    Else:\n        OUTCOME 3\nNote: check the tabs\n\nbalance = 5000\nif balance &gt;= 10000:\n    print(\"You are eligible for premium services.\")\nelse:\n    print(\"Standard services apply.\")\n\n\n\n\nLoops repeat a sequence of actions until a condition is satisfied. There are two types of loops:\n\nwhile\nfor\n\n\n\nStructure\n    While CONDITION HOLDS:\n        ACTION(s)\n\n# Use case: Simulating monthly deposit growth\nbalance = 1000\nmonths = 0\nwhile balance &lt; 2000:\n    balance += 100  # Monthly deposit\n    months += 1\nprint(f\"It took {months} months to double the balance.\")\n\n\n\n\nStructure\n    For CONDITION HOLDS | Increment action:\n        ACTION(s)\n\n# Use case: Summing up daily returns from a list\ndaily_returns = [0.01, -0.02, 0.03, 0.02, -0.01]\ntotal_return = 0\nfor r in daily_returns:\n    total_return += r\nprint(\"Total return for the week:\", total_return)\n\n\n\n\n\n\nA function is a reusable block of code that is saved up and can be called at multiple places in the main script.\nStructure\n    def my_function (parameters):\n        ACTION(s)\n        return VALUE\n\n# Function to calculate compound interest\ndef calculate_compound_interest(principal, rate, time):\n    return principal * (1 + rate) ** time\n\n\n# Example usage\nresult = calculate_compound_interest(1000, 0.05, 5)\nprint(\"Compound Interest:\", result)\n\n\n\n\n\n\nLists allow to store and treat mutliple data points into one variable\n\n# Example: List of daily stock prices\nstock_prices = [150.25, 153.50, 152.00, 155.00]\nprint(stock_prices[0])  # Accessing the first day's price\nstock_prices.append(157.25)  # Adding a new day's price\nprint(stock_prices)\n\n\n\n\nDictionnaries allow store and treat multiple pairs of data point associating keys and values.\n\n# Example: Dictionary to store portfolio allocation\nportfolio = {\n    \"AAPL\": 5000,\n    \"GOOGL\": 3000,\n    \"AMZN\": 2000\n}\nprint(portfolio[\"AAPL\"])  # Accessing allocation for AAPL\nportfolio[\"GOOGL\"] += 1000  # Updating allocation for GOOGL\nprint(portfolio)\n\n\n\n\n\nLibraries are pre-built packages of functions for tasks like data analysis and visualization.\n\n\n\nNumPy: For numerical computations matrix operations in portfolio analysis\npandas: Used for data manipulation handling financial datasets\nmatplotlib: For data visualization plotting stock prices\n\n\nimport numpy \n\nprint(numpy.sqrt(16))  # Square root\nprint(numpy.pi)        # Value of pi\n\n\n\n\nLibraries come with documentation.\nOn Notebooks, they can be directly accessed from the cell pressing maj + tab after the function.\n\n\n    Call signature:  numpy.sqrt(*args, **kwargs)\nType:            ufunc\nString form:     &lt;ufunc 'sqrt'&gt;\nFile:            ~/opt/anaconda3/lib/python3.9/site-packages/numpy/__init__.py\nDocstring:      \nsqrt(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature, extobj])\n\nReturn the non-negative square-root of an array, element-wise.\n\nParameters\n----------\nx : array_like\n    The values whose square-roots are required.\nout : ndarray, None, or tuple of ndarray and None, optional\n    A location into which the result is stored. If provided, it must have\n    a shape that the inputs broadcast to. If not provided or None,\n    a freshly-allocated array is returned. A tuple (possible only as a\n    keyword argument) must have length equal to the number of outputs.\nwhere : array_like, optional\n    This condition is broadcast over the input. At locations where the\n    condition is True, the `out` array will be set to the ufunc result.\n    Elsewhere, the `out` array will retain its original value.\n    Note that if an uninitialized `out` array is created via the default\n    ``out=None``, locations within it where the condition is False will\n    remain uninitialized.\n**kwargs\n    For other keyword-only arguments, see the\n    :ref:`ufunc docs &lt;ufuncs.kwargs&gt;`.\n\nReturns\n-------\ny : ndarray\n    An array of the same shape as `x`, containing the positive\n    square-root of each element in `x`.  If any element in `x` is\n    complex, a complex array is returned (and the square-roots of\n    negative reals are calculated).  If all of the elements in `x`\n    are real, so is `y`, with negative elements returning ``nan``.\n    If `out` was provided, `y` is a reference to it.\n    This is a scalar if `x` is a scalar.\n\nSee Also\n--------\nlib.scimath.sqrt\n    A version which returns complex numbers when given negative reals.\n\nNotes\n-----\n*sqrt* has--consistent with common convention--as its branch cut the\nreal \"interval\" [`-inf`, 0), and is continuous from above on it.\nA branch cut is a curve in the complex plane across which a given\ncomplex function fails to be continuous.\n\nExamples\n--------\n&gt;&gt;&gt; np.sqrt([1,4,9])\narray([ 1.,  2.,  3.])\n\n&gt;&gt;&gt; np.sqrt([4, -1, -3+4J])\narray([ 2.+0.j,  0.+1.j,  1.+2.j])\n\n&gt;&gt;&gt; np.sqrt([4, -1, np.inf])\narray([ 2., nan, inf])\nClass docstring:\nFunctions that operate element by element on whole arrays.\n\nTo see the documentation for a specific ufunc, use `info`.  For\nexample, ``np.info(np.sin)``.  Because ufuncs are written in C\n(for speed) and linked into Python with NumPy's ufunc facility,\nPython's help() function finds this page whenever help() is called\non a ufunc.\n\nA detailed explanation of ufuncs can be found in the docs for :ref:`ufuncs`.\n\n**Calling ufuncs:** ``op(*x[, out], where=True, **kwargs)``\n\nApply `op` to the arguments `*x` elementwise, broadcasting the arguments.\n\nThe broadcasting rules are:\n\n* Dimensions of length 1 may be prepended to either array.\n* Arrays may be repeated along dimensions of length 1.\n\nParameters\n----------\n*x : array_like\n    Input arrays.\nout : ndarray, None, or tuple of ndarray and None, optional\n    Alternate array object(s) in which to put the result; if provided, it\n    must have a shape that the inputs broadcast to. A tuple of arrays\n    (possible only as a keyword argument) must have length equal to the\n    number of outputs; use None for uninitialized outputs to be\n    allocated by the ufunc.\nwhere : array_like, optional\n    This condition is broadcast over the input. At locations where the\n    condition is True, the `out` array will be set to the ufunc result.\n    Elsewhere, the `out` array will retain its original value.\n    Note that if an uninitialized `out` array is created via the default\n    ``out=None``, locations within it where the condition is False will\n    remain uninitialized.\n**kwargs\n    For other keyword-only arguments, see the :ref:`ufunc docs &lt;ufuncs.kwargs&gt;`.\n\nReturns\n-------\nr : ndarray or tuple of ndarray\n    `r` will have the shape that the arrays in `x` broadcast to; if `out` is\n    provided, it will be returned. If not, `r` will be allocated and\n    may contain uninitialized values. If the function has more than one\n    output, then the result will be a tuple of arrays."
+  },
+  {
+    "objectID": "lectures/test.html#motivation",
+    "href": "lectures/test.html#motivation",
+    "title": "Lecture 01 - Introduction to Python",
+    "section": "",
+    "text": "Python is a high-level, interpreted programming language known for its simplicity and readability.\nKey Features of Python\n\nEasy to Learn: Python’s syntax is straightforward.\nInterpreted Language: Python code is executed line by line, which makes debugging easier.\nDynamically Typed: You don’t need to declare variable types explicitly; Python handles it automatically.\nVersatile: Python is used in web development, data analysis, automation, and much more.\nHuge Ecosystem: Python has a large standard library and third-party modules for a wide variety of applications.\n\n\n\n\n\nData Handling: In finance, you often work with large datasets—Python’s libraries like pandas and NumPy are designed to handle and analyze financial data efficiently.\nAutomation: Python can automate repetitive tasks like data retrieval, report generation, and portfolio analysis.\nFinancial Modeling: Python is a great tool for building complex models such as forecasting, risk management, and pricing.\nIntegration with Data Science: Python is the most popular language for data science, offering extensive support for statistical analysis, machine learning, and data visualization."
+  },
+  {
+    "objectID": "lectures/test.html#setting-up-the-environment",
+    "href": "lectures/test.html#setting-up-the-environment",
+    "title": "Lecture 01 - Introduction to Python",
+    "section": "",
+    "text": "Download Python from the official website.\nInstallation includes the Python interpreter and Integrated Development Environment (IDLE) for coding.\n\n\n\n\n\nAnaconda is a suite of useful tools and packages for Python development.\nDownload Anaconda from the official website\nOnce it is installed, confirm the following environments and packages are available:\n\nSpyder\nJupyter Notebook\n\n\n\n\n\n\nThere are multiple ways to run Python.\nConsider the following code line which instructs to simply print out “Hello World!”\n    print (\"Hello World!\")\n\n\n\nUse the Python IDLE (from terminal of from any IDE setting like Spyder)\nType the code and press Enter\nCheck the output\n\n\n\n\n\nOpen an empty file (Spyder, Sublime Text Editor, etc.)\nWrite the code\nSave file as helloworld.py\nRun the script\n\nFrom the terminal, run the script by typing\n\n    python helloworld.py\n\nFrom the IDE (like Spyder), launch the run\n\nCheck the output\n\n\n\n\nPlatforms like Jupyter Notebooks are widely used in data science for documenting and running code interactively. - Open Jupyter Notebook by typing in the terminal\n    Jupyter Notebook\n\nCreat a new notebook with a Python environment\nWrite the code in the first cell\nRun the cell\nCheck the output (see below)\n\n\nprint ('Hello World!')"
+  },
+  {
+    "objectID": "lectures/test.html#overview-of-the-python-environment",
+    "href": "lectures/test.html#overview-of-the-python-environment",
+    "title": "Lecture 01 - Introduction to Python",
+    "section": "",
+    "text": "5000 + 250\n\n\n10000 * 1.05\n\n\n10000 / 2\n\nComments: Use comments (#) to explain code, particularly useful for documenting underlying logic.\n\n# Basic financial arithmetic\nprint(5000 + 250)    # Adding investment returns\nprint(10000 * 1.05)  # Calculating interest (5% growth)\nprint(10000 / 2) # Splitting an investment\n\n\n# This is a comment\nprint(\"Welcome to Python for Finance!\")  # This prints a message\n\n\n\n\n\nVariables: Store data for calculations.\n\nThe operation = assigns a value to a variable.\n\n# Variable assignment in a financial scenario\nstock_price = 150.25  # Price of a stock\ninvestment_amount = 10000  # Amount invested\nshares = investment_amount / stock_price  # Number of shares\n\n\nshares\n\n\nData types: Variables can be of different types.\n\nStrings (str): Text\nIntegers (int): Integer value\nFloats (float): Real value\nBooleans (bool): True or False\n\n\nBecause Python is dynamically typed, there is no need to explicitly mention the type of the variable. Yet, in some cases, it may be important to cast variables from one type to another.\nMore on this in the next lecture.\n\n\n\n\nControl structures allow to condition the sequence of action of a code on the particular value a variable exhibits at the time of execution.\nNote: tabs are organizational pillars of the Python code structure\n\n\nConditional statements consider the specific value of a variable at the time of execution and determine the outcome based on a logical operation.\nStructure\n    If CONDITON HOLDS:\n        OUTCOME 1\n    Elif OTHER CONDITION HOLDS:\n        OUTCOME 2\n    Else:\n        OUTCOME 3\nNote: check the tabs\n\nbalance = 5000\nif balance &gt;= 10000:\n    print(\"You are eligible for premium services.\")\nelse:\n    print(\"Standard services apply.\")\n\n\n\n\nLoops repeat a sequence of actions until a condition is satisfied. There are two types of loops:\n\nwhile\nfor\n\n\n\nStructure\n    While CONDITION HOLDS:\n        ACTION(s)\n\n# Use case: Simulating monthly deposit growth\nbalance = 1000\nmonths = 0\nwhile balance &lt; 2000:\n    balance += 100  # Monthly deposit\n    months += 1\nprint(f\"It took {months} months to double the balance.\")\n\n\n\n\nStructure\n    For CONDITION HOLDS | Increment action:\n        ACTION(s)\n\n# Use case: Summing up daily returns from a list\ndaily_returns = [0.01, -0.02, 0.03, 0.02, -0.01]\ntotal_return = 0\nfor r in daily_returns:\n    total_return += r\nprint(\"Total return for the week:\", total_return)\n\n\n\n\n\n\nA function is a reusable block of code that is saved up and can be called at multiple places in the main script.\nStructure\n    def my_function (parameters):\n        ACTION(s)\n        return VALUE\n\n# Function to calculate compound interest\ndef calculate_compound_interest(principal, rate, time):\n    return principal * (1 + rate) ** time\n\n\n# Example usage\nresult = calculate_compound_interest(1000, 0.05, 5)\nprint(\"Compound Interest:\", result)\n\n\n\n\n\n\nLists allow to store and treat mutliple data points into one variable\n\n# Example: List of daily stock prices\nstock_prices = [150.25, 153.50, 152.00, 155.00]\nprint(stock_prices[0])  # Accessing the first day's price\nstock_prices.append(157.25)  # Adding a new day's price\nprint(stock_prices)\n\n\n\n\nDictionnaries allow store and treat multiple pairs of data point associating keys and values.\n\n# Example: Dictionary to store portfolio allocation\nportfolio = {\n    \"AAPL\": 5000,\n    \"GOOGL\": 3000,\n    \"AMZN\": 2000\n}\nprint(portfolio[\"AAPL\"])  # Accessing allocation for AAPL\nportfolio[\"GOOGL\"] += 1000  # Updating allocation for GOOGL\nprint(portfolio)\n\n\n\n\n\nLibraries are pre-built packages of functions for tasks like data analysis and visualization.\n\n\n\nNumPy: For numerical computations matrix operations in portfolio analysis\npandas: Used for data manipulation handling financial datasets\nmatplotlib: For data visualization plotting stock prices\n\n\nimport numpy \n\nprint(numpy.sqrt(16))  # Square root\nprint(numpy.pi)        # Value of pi\n\n\n\n\nLibraries come with documentation.\nOn Notebooks, they can be directly accessed from the cell pressing maj + tab after the function.\n\n\n    Call signature:  numpy.sqrt(*args, **kwargs)\nType:            ufunc\nString form:     &lt;ufunc 'sqrt'&gt;\nFile:            ~/opt/anaconda3/lib/python3.9/site-packages/numpy/__init__.py\nDocstring:      \nsqrt(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature, extobj])\n\nReturn the non-negative square-root of an array, element-wise.\n\nParameters\n----------\nx : array_like\n    The values whose square-roots are required.\nout : ndarray, None, or tuple of ndarray and None, optional\n    A location into which the result is stored. If provided, it must have\n    a shape that the inputs broadcast to. If not provided or None,\n    a freshly-allocated array is returned. A tuple (possible only as a\n    keyword argument) must have length equal to the number of outputs.\nwhere : array_like, optional\n    This condition is broadcast over the input. At locations where the\n    condition is True, the `out` array will be set to the ufunc result.\n    Elsewhere, the `out` array will retain its original value.\n    Note that if an uninitialized `out` array is created via the default\n    ``out=None``, locations within it where the condition is False will\n    remain uninitialized.\n**kwargs\n    For other keyword-only arguments, see the\n    :ref:`ufunc docs &lt;ufuncs.kwargs&gt;`.\n\nReturns\n-------\ny : ndarray\n    An array of the same shape as `x`, containing the positive\n    square-root of each element in `x`.  If any element in `x` is\n    complex, a complex array is returned (and the square-roots of\n    negative reals are calculated).  If all of the elements in `x`\n    are real, so is `y`, with negative elements returning ``nan``.\n    If `out` was provided, `y` is a reference to it.\n    This is a scalar if `x` is a scalar.\n\nSee Also\n--------\nlib.scimath.sqrt\n    A version which returns complex numbers when given negative reals.\n\nNotes\n-----\n*sqrt* has--consistent with common convention--as its branch cut the\nreal \"interval\" [`-inf`, 0), and is continuous from above on it.\nA branch cut is a curve in the complex plane across which a given\ncomplex function fails to be continuous.\n\nExamples\n--------\n&gt;&gt;&gt; np.sqrt([1,4,9])\narray([ 1.,  2.,  3.])\n\n&gt;&gt;&gt; np.sqrt([4, -1, -3+4J])\narray([ 2.+0.j,  0.+1.j,  1.+2.j])\n\n&gt;&gt;&gt; np.sqrt([4, -1, np.inf])\narray([ 2., nan, inf])\nClass docstring:\nFunctions that operate element by element on whole arrays.\n\nTo see the documentation for a specific ufunc, use `info`.  For\nexample, ``np.info(np.sin)``.  Because ufuncs are written in C\n(for speed) and linked into Python with NumPy's ufunc facility,\nPython's help() function finds this page whenever help() is called\non a ufunc.\n\nA detailed explanation of ufuncs can be found in the docs for :ref:`ufuncs`.\n\n**Calling ufuncs:** ``op(*x[, out], where=True, **kwargs)``\n\nApply `op` to the arguments `*x` elementwise, broadcasting the arguments.\n\nThe broadcasting rules are:\n\n* Dimensions of length 1 may be prepended to either array.\n* Arrays may be repeated along dimensions of length 1.\n\nParameters\n----------\n*x : array_like\n    Input arrays.\nout : ndarray, None, or tuple of ndarray and None, optional\n    Alternate array object(s) in which to put the result; if provided, it\n    must have a shape that the inputs broadcast to. A tuple of arrays\n    (possible only as a keyword argument) must have length equal to the\n    number of outputs; use None for uninitialized outputs to be\n    allocated by the ufunc.\nwhere : array_like, optional\n    This condition is broadcast over the input. At locations where the\n    condition is True, the `out` array will be set to the ufunc result.\n    Elsewhere, the `out` array will retain its original value.\n    Note that if an uninitialized `out` array is created via the default\n    ``out=None``, locations within it where the condition is False will\n    remain uninitialized.\n**kwargs\n    For other keyword-only arguments, see the :ref:`ufunc docs &lt;ufuncs.kwargs&gt;`.\n\nReturns\n-------\nr : ndarray or tuple of ndarray\n    `r` will have the shape that the arrays in `x` broadcast to; if `out` is\n    provided, it will be returned. If not, `r` will be allocated and\n    may contain uninitialized values. If the function has more than one\n    output, then the result will be a tuple of arrays."
+  },
+  {
+    "objectID": "01 - Introduction to Python.html",
+    "href": "01 - Introduction to Python.html",
+    "title": "Lecture 01 - Introduction to Python",
+    "section": "",
+    "text": "Python is a high-level, interpreted programming language known for its simplicity and readability.\nKey Features of Python\n\nEasy to Learn: Python’s syntax is straightforward.\nInterpreted Language: Python code is executed line by line, which makes debugging easier.\nDynamically Typed: You don’t need to declare variable types explicitly; Python handles it automatically.\nVersatile: Python is used in web development, data analysis, automation, and much more.\nHuge Ecosystem: Python has a large standard library and third-party modules for a wide variety of applications.\n\n\n\n\n\nData Handling: In finance, you often work with large datasets—Python’s libraries like pandas and NumPy are designed to handle and analyze financial data efficiently.\nAutomation: Python can automate repetitive tasks like data retrieval, report generation, and portfolio analysis.\nFinancial Modeling: Python is a great tool for building complex models such as forecasting, risk management, and pricing.\nIntegration with Data Science: Python is the most popular language for data science, offering extensive support for statistical analysis, machine learning, and data visualization."
+  },
+  {
+    "objectID": "01 - Introduction to Python.html#motivation",
+    "href": "01 - Introduction to Python.html#motivation",
+    "title": "Lecture 01 - Introduction to Python",
+    "section": "",
+    "text": "Python is a high-level, interpreted programming language known for its simplicity and readability.\nKey Features of Python\n\nEasy to Learn: Python’s syntax is straightforward.\nInterpreted Language: Python code is executed line by line, which makes debugging easier.\nDynamically Typed: You don’t need to declare variable types explicitly; Python handles it automatically.\nVersatile: Python is used in web development, data analysis, automation, and much more.\nHuge Ecosystem: Python has a large standard library and third-party modules for a wide variety of applications.\n\n\n\n\n\nData Handling: In finance, you often work with large datasets—Python’s libraries like pandas and NumPy are designed to handle and analyze financial data efficiently.\nAutomation: Python can automate repetitive tasks like data retrieval, report generation, and portfolio analysis.\nFinancial Modeling: Python is a great tool for building complex models such as forecasting, risk management, and pricing.\nIntegration with Data Science: Python is the most popular language for data science, offering extensive support for statistical analysis, machine learning, and data visualization."
+  },
+  {
+    "objectID": "01 - Introduction to Python.html#setting-up-the-environment",
+    "href": "01 - Introduction to Python.html#setting-up-the-environment",
+    "title": "Lecture 01 - Introduction to Python",
+    "section": "2. Setting up the environment",
+    "text": "2. Setting up the environment\n\n2.1 Installing a Python environment\n\nPython\n\nDownload Python from the official website.\nInstallation includes the Python interpreter and Integrated Development Environment (IDLE) for coding.\n\n\n\nInstalling Anaconda\n\nAnaconda is a suite of useful tools and packages for Python development.\nDownload Anaconda from the official website\nOnce it is installed, confirm the following environments and packages are available:\n\nSpyder\nJupyter Notebook\n\n\n\n\n\n2.2 Running Python Code\nThere are multiple ways to run Python.\nConsider the following code line which instructs to simply print out “Hello World!”\n    print (\"Hello World!\")\n\nPython Shell\n\nUse the Python IDLE (from terminal of from any IDE setting like Spyder)\nType the code and press Enter\nCheck the output\n\n\n\nPython Script\n\nOpen an empty file (Spyder, Sublime Text Editor, etc.)\nWrite the code\nSave file as helloworld.py\nRun the script\n\nFrom the terminal, run the script by typing\n\n    python helloworld.py\n\nFrom the IDE (like Spyder), launch the run\n\nCheck the output\n\n\n\nNotebook (This is a Notebook)\nPlatforms like Jupyter Notebooks are widely used in data science for documenting and running code interactively. - Open Jupyter Notebook by typing in the terminal\n    Jupyter Notebook\n\nCreat a new notebook with a Python environment\nWrite the code in the first cell\nRun the cell\nCheck the output (see below)\n\n\nprint ('Hello World!')"
+  },
+  {
+    "objectID": "01 - Introduction to Python.html#overview-of-the-python-environment",
+    "href": "01 - Introduction to Python.html#overview-of-the-python-environment",
+    "title": "Lecture 01 - Introduction to Python",
+    "section": "3. Overview of the Python environment",
+    "text": "3. Overview of the Python environment\n\n3.1 Syntax\n\n3.1.1 Python as a calculator\n\n5000 + 250\n\n\n10000 * 1.05\n\n\n10000 / 2\n\nComments: Use comments (#) to explain code, particularly useful for documenting underlying logic.\n\n# Basic financial arithmetic\nprint(5000 + 250)    # Adding investment returns\nprint(10000 * 1.05)  # Calculating interest (5% growth)\nprint(10000 / 2) # Splitting an investment\n\n\n# This is a comment\nprint(\"Welcome to Python for Finance!\")  # This prints a message\n\n\n\n3.1.2 Variables and Data Types\n\nVariables: Store data for calculations.\n\nThe operation = assigns a value to a variable.\n\n# Variable assignment in a financial scenario\nstock_price = 150.25  # Price of a stock\ninvestment_amount = 10000  # Amount invested\nshares = investment_amount / stock_price  # Number of shares\n\n\nshares\n\n\nData types: Variables can be of different types.\n\nStrings (str): Text\nIntegers (int): Integer value\nFloats (float): Real value\nBooleans (bool): True or False\n\n\nBecause Python is dynamically typed, there is no need to explicitly mention the type of the variable. Yet, in some cases, it may be important to cast variables from one type to another.\nMore on this in the next lecture.\n\n\n\n3.2 Control structures\nControl structures allow to condition the sequence of action of a code on the particular value a variable exhibits at the time of execution.\nNote: tabs are organizational pillars of the Python code structure\n\n3.2.1 Conditional statements\nConditional statements consider the specific value of a variable at the time of execution and determine the outcome based on a logical operation.\nStructure\n    If CONDITON HOLDS:\n        OUTCOME 1\n    Elif OTHER CONDITION HOLDS:\n        OUTCOME 2\n    Else:\n        OUTCOME 3\nNote: check the tabs\n\nbalance = 5000\nif balance &gt;= 10000:\n    print(\"You are eligible for premium services.\")\nelse:\n    print(\"Standard services apply.\")\n\n\n\n3.2.2 Loops\nLoops repeat a sequence of actions until a condition is satisfied. There are two types of loops:\n\nwhile\nfor\n\n\nWhile\nStructure\n    While CONDITION HOLDS:\n        ACTION(s)\n\n# Use case: Simulating monthly deposit growth\nbalance = 1000\nmonths = 0\nwhile balance &lt; 2000:\n    balance += 100  # Monthly deposit\n    months += 1\nprint(f\"It took {months} months to double the balance.\")\n\n\n\nFor\nStructure\n    For CONDITION HOLDS | Increment action:\n        ACTION(s)\n\n# Use case: Summing up daily returns from a list\ndaily_returns = [0.01, -0.02, 0.03, 0.02, -0.01]\ntotal_return = 0\nfor r in daily_returns:\n    total_return += r\nprint(\"Total return for the week:\", total_return)\n\n\n\n\n\n3.3 Functions\nA function is a reusable block of code that is saved up and can be called at multiple places in the main script.\nStructure\n    def my_function (parameters):\n        ACTION(s)\n        return VALUE\n\n# Function to calculate compound interest\ndef calculate_compound_interest(principal, rate, time):\n    return principal * (1 + rate) ** time\n\n\n# Example usage\nresult = calculate_compound_interest(1000, 0.05, 5)\nprint(\"Compound Interest:\", result)\n\n\n\n3.4 Data structures\n\n3.4.1 Lists\nLists allow to store and treat mutliple data points into one variable\n\n# Example: List of daily stock prices\nstock_prices = [150.25, 153.50, 152.00, 155.00]\nprint(stock_prices[0])  # Accessing the first day's price\nstock_prices.append(157.25)  # Adding a new day's price\nprint(stock_prices)\n\n\n\n3.4.2 Dictionaries\nDictionnaries allow store and treat multiple pairs of data point associating keys and values.\n\n# Example: Dictionary to store portfolio allocation\nportfolio = {\n    \"AAPL\": 5000,\n    \"GOOGL\": 3000,\n    \"AMZN\": 2000\n}\nprint(portfolio[\"AAPL\"])  # Accessing allocation for AAPL\nportfolio[\"GOOGL\"] += 1000  # Updating allocation for GOOGL\nprint(portfolio)\n\n\n\n\n3.5 Libraries\nLibraries are pre-built packages of functions for tasks like data analysis and visualization.\n\nKey Libraries for Finance\n\nNumPy: For numerical computations matrix operations in portfolio analysis\npandas: Used for data manipulation handling financial datasets\nmatplotlib: For data visualization plotting stock prices\n\n\nimport numpy \n\nprint(numpy.sqrt(16))  # Square root\nprint(numpy.pi)        # Value of pi\n\n\n\nDocumentation\nLibraries come with documentation.\nOn Notebooks, they can be directly accessed from the cell pressing maj + tab after the function.\n\nExample of documentation numpy.sqrt()\n    Call signature:  numpy.sqrt(*args, **kwargs)\nType:            ufunc\nString form:     &lt;ufunc 'sqrt'&gt;\nFile:            ~/opt/anaconda3/lib/python3.9/site-packages/numpy/__init__.py\nDocstring:      \nsqrt(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature, extobj])\n\nReturn the non-negative square-root of an array, element-wise.\n\nParameters\n----------\nx : array_like\n    The values whose square-roots are required.\nout : ndarray, None, or tuple of ndarray and None, optional\n    A location into which the result is stored. If provided, it must have\n    a shape that the inputs broadcast to. If not provided or None,\n    a freshly-allocated array is returned. A tuple (possible only as a\n    keyword argument) must have length equal to the number of outputs.\nwhere : array_like, optional\n    This condition is broadcast over the input. At locations where the\n    condition is True, the `out` array will be set to the ufunc result.\n    Elsewhere, the `out` array will retain its original value.\n    Note that if an uninitialized `out` array is created via the default\n    ``out=None``, locations within it where the condition is False will\n    remain uninitialized.\n**kwargs\n    For other keyword-only arguments, see the\n    :ref:`ufunc docs &lt;ufuncs.kwargs&gt;`.\n\nReturns\n-------\ny : ndarray\n    An array of the same shape as `x`, containing the positive\n    square-root of each element in `x`.  If any element in `x` is\n    complex, a complex array is returned (and the square-roots of\n    negative reals are calculated).  If all of the elements in `x`\n    are real, so is `y`, with negative elements returning ``nan``.\n    If `out` was provided, `y` is a reference to it.\n    This is a scalar if `x` is a scalar.\n\nSee Also\n--------\nlib.scimath.sqrt\n    A version which returns complex numbers when given negative reals.\n\nNotes\n-----\n*sqrt* has--consistent with common convention--as its branch cut the\nreal \"interval\" [`-inf`, 0), and is continuous from above on it.\nA branch cut is a curve in the complex plane across which a given\ncomplex function fails to be continuous.\n\nExamples\n--------\n&gt;&gt;&gt; np.sqrt([1,4,9])\narray([ 1.,  2.,  3.])\n\n&gt;&gt;&gt; np.sqrt([4, -1, -3+4J])\narray([ 2.+0.j,  0.+1.j,  1.+2.j])\n\n&gt;&gt;&gt; np.sqrt([4, -1, np.inf])\narray([ 2., nan, inf])\nClass docstring:\nFunctions that operate element by element on whole arrays.\n\nTo see the documentation for a specific ufunc, use `info`.  For\nexample, ``np.info(np.sin)``.  Because ufuncs are written in C\n(for speed) and linked into Python with NumPy's ufunc facility,\nPython's help() function finds this page whenever help() is called\non a ufunc.\n\nA detailed explanation of ufuncs can be found in the docs for :ref:`ufuncs`.\n\n**Calling ufuncs:** ``op(*x[, out], where=True, **kwargs)``\n\nApply `op` to the arguments `*x` elementwise, broadcasting the arguments.\n\nThe broadcasting rules are:\n\n* Dimensions of length 1 may be prepended to either array.\n* Arrays may be repeated along dimensions of length 1.\n\nParameters\n----------\n*x : array_like\n    Input arrays.\nout : ndarray, None, or tuple of ndarray and None, optional\n    Alternate array object(s) in which to put the result; if provided, it\n    must have a shape that the inputs broadcast to. A tuple of arrays\n    (possible only as a keyword argument) must have length equal to the\n    number of outputs; use None for uninitialized outputs to be\n    allocated by the ufunc.\nwhere : array_like, optional\n    This condition is broadcast over the input. At locations where the\n    condition is True, the `out` array will be set to the ufunc result.\n    Elsewhere, the `out` array will retain its original value.\n    Note that if an uninitialized `out` array is created via the default\n    ``out=None``, locations within it where the condition is False will\n    remain uninitialized.\n**kwargs\n    For other keyword-only arguments, see the :ref:`ufunc docs &lt;ufuncs.kwargs&gt;`.\n\nReturns\n-------\nr : ndarray or tuple of ndarray\n    `r` will have the shape that the arrays in `x` broadcast to; if `out` is\n    provided, it will be returned. If not, `r` will be allocated and\n    may contain uninitialized values. If the function has more than one\n    output, then the result will be a tuple of arrays."
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule Fall 2025",
+    "section": "",
+    "text": "Date\n#\nPart\nTopics\n\n\n\n\n22/09/2025\n0\nIntroduction\n\n\n\n29/09/2025\n1\nModern Banking\nMoney & Payment\n\n\n06/10/2025\n2\nModern Banking\nInformation & Deposit\n\n\n13/10/2025\n3\nModern Banking\nCredit\n\n\n20/10/2025\n4\nModern Banking\nPolicy & Regulation\n\n\n27/10/2025\n5\nModern Banking Guest lecture\nFinancial Networks\n\n\n03/11/2025\n6\nFintech\nOverview\n\n\n\n\nPlatforms\nDigital PlatformsBigTechPolicy\n\n\n10/11/2025\n7\nPlatforms Guest lecture\nFintech PlatformsOpen Banking\n\n\n17/11/2025\n8\nMachine Learning\nHistoryEconomics of MLPolicy\n\n\n24/11/2025\n9\nMachine Learning Guest lecture\nThe Technology of MLML Application in Finance\n\n\n01/12/2025\n10\nCrypto\nThe Technology of DLTSmart contractsStablecoinsDeFiPolicy\n\n\n08/12/2025\n11\nCrypto Guest lecture\nCentral Bank Digital Currencies\n\n\n15/12/2025\n\nQ&A"
+  },
+  {
+    "objectID": "syllabus.html#course-information",
+    "href": "syllabus.html#course-information",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Professor: Tarik Roukny (tarik.roukny@kuleuven.be)\nLectures: Mondays\n\nTime blocks for sessions\n\n08.30 AM - 10.30 AM\n10.30 PM - 12.30 PM\n\nRoom HER1 - 04.4207\n\nOffice hours: by email appointment."
+  },
+  {
+    "objectID": "syllabus.html#organization",
+    "href": "syllabus.html#organization",
+    "title": "Syllabus",
+    "section": "Organization",
+    "text": "Organization\nThis course consists of 6 ECTS amounting to 40 contact hours. Sessions are split between core material, live discussions, and guest lectures. All sessions are integral to the course.\n\n⚠No recordings from lectures\nSome additional video material may be provided for background and extra material\n\n\nMaterial\nThe class addresses the one key dimension of banking and financial technology: information frictions. As such, the material starts with the role played by information in every aspect of modern banking. Three key topics in the development of fintech are then studied: platforms, machine learning and crypto.\n\n\nOverview\nMap of topics\n\n\n\n\n\n\n\nSide\nTopics\n\n\n\n\nModern Banking\nMoney  Payment  Deposit  Systemic Risk  Policy & Regulation\n\n\nPlatforms\nDigital Platforms  Fintech Platforms  Bigtech  Open Banking\n\n\nMachine Learning\nHistory  Economics of ML  Technology of ML  Application of ML in Finance\n\n\nCrypto\nDistributed Ledger Technolonies  Smart Contracts  Stablecoins  Decentralised Finance  Central Bank Digital Currencies"
+  },
+  {
+    "objectID": "lectures/lecture_01/01_bank.html#two-core-activities",
+    "href": "lectures/lecture_01/01_bank.html#two-core-activities",
+    "title": "Modern Banking",
+    "section": "Two Core Activities",
+    "text": "Two Core Activities\n\nMoney → deposits, payments\n\nCredit → loans, lending"
+  },
+  {
+    "objectID": "lectures/lecture_01/01_bank.html#but-modern-banks-do-more",
+    "href": "lectures/lecture_01/01_bank.html#but-modern-banks-do-more",
+    "title": "Modern Banking",
+    "section": "But… Modern Banks Do More",
+    "text": "But… Modern Banks Do More\n\nOffer additional services (investment, insurance, advisory, etc.)\n\nNot the only providers of money & credit (shadow banks, fintech, bigtech)"
+  },
+  {
+    "objectID": "lectures/lecture_01/01_bank.html#what-makes-banks-unique",
+    "href": "lectures/lecture_01/01_bank.html#what-makes-banks-unique",
+    "title": "Modern Banking",
+    "section": "What Makes Banks Unique?",
+    "text": "What Makes Banks Unique?"
+  },
+  {
+    "objectID": "lectures/lecture_01/01_bank.html#core-definition",
+    "href": "lectures/lecture_01/01_bank.html#core-definition",
+    "title": "Modern Banking",
+    "section": "Core Definition",
+    "text": "Core Definition\n\nA financial institution whose current operations consist of granting loans and receiving deposits from the public.\n— Freixas and Rochet (2023)\n\n\nBreaking Down the Definition\n\nCurrent → main operations\n\nGranting loans → credit creation\n\nDeposits → savings + money\nWhat makes bank unique!\nPublic → uninformed depositors\nThis mean that access to payments → public good"
+  },
+  {
+    "objectID": "lectures/lecture_01/01_bank.html#why-regulate-banks",
+    "href": "lectures/lecture_01/01_bank.html#why-regulate-banks",
+    "title": "Modern Banking",
+    "section": "Why Regulate Banks?",
+    "text": "Why Regulate Banks?\n\nProtect depositors from loss and fraud\n\nEnsure trust in money & payments\n\nStability: banks sit at the core of financial system"
+  },
+  {
+    "objectID": "lectures/lecture_01/01_bank.html#money-changing",
+    "href": "lectures/lecture_01/01_bank.html#money-changing",
+    "title": "Modern Banking",
+    "section": "Money Changing",
+    "text": "Money Changing\nFirst activity of banks: money changing ### Etymology - Greek: trapeza = scale\n- Italian: banco = bench (for coins) - When a money changer failed → the bench was broken - Italian: bancarotta = broken bench (→ bankruptcy)"
+  },
+  {
+    "objectID": "lectures/lecture_01/01_bank.html#from-money-changing-to-safekeeping",
+    "href": "lectures/lecture_01/01_bank.html#from-money-changing-to-safekeeping",
+    "title": "Modern Banking",
+    "section": "From Money Changing to Safekeeping",
+    "text": "From Money Changing to Safekeeping\n\nMoney changers had safes for their own coins\n\nRealized they could store merchants’ deposits\n\nSafekeeping reduced risk of loss/robbery\n\n\nFirst bankers\n\nScriveners: literate advisors, brokers, lenders, deposit-takers\n\nGoldsmiths (17th c. England): safes for goldware → accepted deposits\n\nEarly trust-based intermediaries\n\nDeposits: No Return\n\nEarly deposits = zero or negative return\n\nPurpose: safety, not investment\n\nBankers had to maintain confidence not to misuse deposits"
+  },
+  {
+    "objectID": "lectures/lecture_01/01_bank.html#timeline",
+    "href": "lectures/lecture_01/01_bank.html#timeline",
+    "title": "Modern Banking",
+    "section": "Timeline",
+    "text": "Timeline\n\n1. Early Banking Practices\n\nMesopotamia (2000 BCE)\n\nHammurabi’s Code (Babylon) → regulated loans & debt &gt; Law 100: “If a merchant gives silver as a loan at interest, he shall take only 1 shekel of silver as interest on 1 shekel; if he takes more, he shall forfeit all.”\n\nLaw 117: “If a man be in debt and he sell his wife, son, or daughter, they shall serve for three years in the house of the purchaser or creditor; in the fourth year they shall regain their freedom.”\n\n\nAncient Greece: trapeza (money changers)\n\n\n\n2. Medieval & Renaissance (10th-15th c.)\n\nTemplars (12th–14th c.):\n\nCheque-like instruments for crusaders & pilgrims\n\nFirst international financial system\n\n\nItalian city-states (12th–15th c.): Florence, Venice, Genoa = trade hubs\n\nMedici Bank (1397–1494): first multinational bank\n\nPacioli’s innovation (1494): double-entry bookkeeping\n\n\n\n\n3. Colonial Expansion (15th–17th c.)\nFinance to support growth of trade - Banco di San Giorgio (1407) – Genoa - First public bank - Managed public debt, accepted deposits\n- Bank of Amsterdam (1609)\n- Standardized coinage, clearing bank, proto-central bank\n- Venetian banks: financed global trade & wars\n\n\n4. Industrial Revolution (19th c.)\n\nSavings & cooperative banks\n\nCheque system spread\n\n\n\n5. Rise of Modern Banking (20th - today c.)\n\nPost-WWII → retail banking boom\n\nChecking accounts, mortgages, consumer credit\n\n\nRegulation after crises (e.g., 1929)\n\nGlobalisation → multinational banking groups\nTechnological Innovation\n\n1950s: Payment cards (Diners Club, later Visa/MasterCard)\n\n1967: ATMs (Barclays, UK)\n\n1973: SWIFT messaging system"
+  },
+  {
+    "objectID": "lectures/lecture_01/01_bank.html#the-need-for-finance",
+    "href": "lectures/lecture_01/01_bank.html#the-need-for-finance",
+    "title": "Modern Banking",
+    "section": "The Need for Finance",
+    "text": "The Need for Finance\n\n“A well-developed, smoothly functioning financial system facilitates\nthe efficient life cycle allocation of household consumption and\nthe efficient allocation of physical capital to its most productive use in the business sector.”\n— Merton (1993)\n\nFor centuries… the job of banks\n\nIntermediated between savers and borrowers\n\nProvision money & credit at the core of the economy\n\nEnsured trust, stability, and payments"
+  },
+  {
+    "objectID": "lectures/lecture_01/01_bank.html#modern-developments",
+    "href": "lectures/lecture_01/01_bank.html#modern-developments",
+    "title": "Modern Banking",
+    "section": "Modern Developments",
+    "text": "Modern Developments\nSince 1970s - Financial markets developed rapidly\n- Wave of financial innovations\n- Entry of new players:\n- Investment banks & securities firms (bond issuance, securitization, derivatives)\n- Institutional investors (pension funds, mutual funds, insurance companies)\n- Fintechs (digital lending, payments, crowdfunding) - BigTechs (digital wallets, cloud, platform finance)\nBanks vs. Alternatives\n\nMany services once exclusive to banks are now offered by:\n\nCapital markets\n\nOther financial institutions\n\nTechnology platforms"
+  },
+  {
+    "objectID": "lectures/lecture_01/01_bank.html#core-question-why-banks-still-exist",
+    "href": "lectures/lecture_01/01_bank.html#core-question-why-banks-still-exist",
+    "title": "Modern Banking",
+    "section": "Core Question: Why Banks Still Exist?",
+    "text": "Core Question: Why Banks Still Exist?\nPaths to understand:\n\nFinancial markets are imperfect\n\nInformation frictions (asymmetric, incomplete, confidential)\n\n\nRegulation (entry barriers, public service, safety nets)\n\nCapacity to adapt\n\nBanks evolve with a dynamic financial landscape\n\nThe definition of “bank” and its core activities keeps morphing over time"
+  },
+  {
+    "objectID": "lectures/lecture_01/lecture_01.html",
+    "href": "lectures/lecture_01/lecture_01.html",
+    "title": "Lecture 01",
+    "section": "",
+    "text": "Lecture 01\n::: include 01_bank.ipynb :::"
+  },
+  {
+    "objectID": "lectures/lecture_01/lecture_01.html#introduction",
+    "href": "lectures/lecture_01/lecture_01.html#introduction",
+    "title": "Lecture 01",
+    "section": "1. Introduction",
+    "text": "1. Introduction"
+  },
+  {
+    "objectID": "lectures/lecture_01/lecture_01.html#two-core-activities",
+    "href": "lectures/lecture_01/lecture_01.html#two-core-activities",
+    "title": "Lecture 01",
+    "section": "Two Core Activities",
+    "text": "Two Core Activities\n\nMoney → deposits, payments\n\nCredit → loans, lending"
+  },
+  {
+    "objectID": "lectures/lecture_01/lecture_01.html#but-modern-banks-do-more",
+    "href": "lectures/lecture_01/lecture_01.html#but-modern-banks-do-more",
+    "title": "Lecture 01",
+    "section": "But… Modern Banks Do More",
+    "text": "But… Modern Banks Do More\n\nOffer additional services (investment, insurance, advisory, etc.)\n\nNot the only providers of money & credit (shadow banks, fintech, bigtech)"
+  },
+  {
+    "objectID": "lectures/lecture_01/lecture_01.html#what-makes-banks-unique",
+    "href": "lectures/lecture_01/lecture_01.html#what-makes-banks-unique",
+    "title": "Lecture 01",
+    "section": "What Makes Banks Unique?",
+    "text": "What Makes Banks Unique?"
+  },
+  {
+    "objectID": "lectures/lecture_01/lecture_01.html#core-definition",
+    "href": "lectures/lecture_01/lecture_01.html#core-definition",
+    "title": "Lecture 01",
+    "section": "Core Definition",
+    "text": "Core Definition\n\nA financial institution whose current operations consist of granting loans and receiving deposits from the public.\n— Freixas and Rochet (2023)\n\n\nBreaking Down the Definition\n\nCurrent → main operations\n\nGranting loans → credit creation\n\nDeposits → savings + money\nWhat makes bank unique!\nPublic → uninformed depositors\nThis mean that access to payments → public good"
+  },
+  {
+    "objectID": "lectures/lecture_01/lecture_01.html#why-regulate-banks",
+    "href": "lectures/lecture_01/lecture_01.html#why-regulate-banks",
+    "title": "Lecture 01",
+    "section": "Why Regulate Banks?",
+    "text": "Why Regulate Banks?\n\nProtect depositors from loss and fraud\n\nEnsure trust in money & payments\n\nStability: banks sit at the core of financial system"
+  },
+  {
+    "objectID": "lectures/lecture_01/lecture_01.html#money-changing",
+    "href": "lectures/lecture_01/lecture_01.html#money-changing",
+    "title": "Lecture 01",
+    "section": "Money Changing",
+    "text": "Money Changing\nFirst activity of banks: money changing ### Etymology - Greek: trapeza = scale\n- Italian: banco = bench (for coins) - When a money changer failed → the bench was broken - Italian: bancarotta = broken bench (→ bankruptcy)"
+  },
+  {
+    "objectID": "lectures/lecture_01/lecture_01.html#from-money-changing-to-safekeeping",
+    "href": "lectures/lecture_01/lecture_01.html#from-money-changing-to-safekeeping",
+    "title": "Lecture 01",
+    "section": "From Money Changing to Safekeeping",
+    "text": "From Money Changing to Safekeeping\n\nMoney changers had safes for their own coins\n\nRealized they could store merchants’ deposits\n\nSafekeeping reduced risk of loss/robbery\n\n\nFirst bankers\n\nScriveners: literate advisors, brokers, lenders, deposit-takers\n\nGoldsmiths (17th c. England): safes for goldware → accepted deposits\n\nEarly trust-based intermediaries\n\nDeposits: No Return\n\nEarly deposits = zero or negative return\n\nPurpose: safety, not investment\n\nBankers had to maintain confidence not to misuse deposits"
+  },
+  {
+    "objectID": "lectures/lecture_01/lecture_01.html#timeline",
+    "href": "lectures/lecture_01/lecture_01.html#timeline",
+    "title": "Lecture 01",
+    "section": "Timeline",
+    "text": "Timeline\n\n1. Early Banking Practices\n\nMesopotamia (2000 BCE)\n\nHammurabi’s Code (Babylon) → regulated loans & debt &gt; Law 100: “If a merchant gives silver as a loan at interest, he shall take only 1 shekel of silver as interest on 1 shekel; if he takes more, he shall forfeit all.”\n\nLaw 117: “If a man be in debt and he sell his wife, son, or daughter, they shall serve for three years in the house of the purchaser or creditor; in the fourth year they shall regain their freedom.”\n\n\nAncient Greece: trapeza (money changers)\n\n\n\n2. Medieval & Renaissance (10th-15th c.)\n\nTemplars (12th–14th c.):\n\nCheque-like instruments for crusaders & pilgrims\n\nFirst international financial system\n\n\nItalian city-states (12th–15th c.): Florence, Venice, Genoa = trade hubs\n\nMedici Bank (1397–1494): first multinational bank\n\nPacioli’s innovation (1494): double-entry bookkeeping\n\n\n\n\n3. Colonial Expansion (15th–17th c.)\nFinance to support growth of trade - Banco di San Giorgio (1407) – Genoa - First public bank - Managed public debt, accepted deposits\n- Bank of Amsterdam (1609)\n- Standardized coinage, clearing bank, proto-central bank\n- Venetian banks: financed global trade & wars\n\n\n4. Industrial Revolution (19th c.)\n\nSavings & cooperative banks\n\nCheque system spread\n\n\n\n5. Rise of Modern Banking (20th - today c.)\n\nPost-WWII → retail banking boom\n\nChecking accounts, mortgages, consumer credit\n\n\nRegulation after crises (e.g., 1929)\n\nGlobalisation → multinational banking groups\nTechnological Innovation\n\n1950s: Payment cards (Diners Club, later Visa/MasterCard)\n\n1967: ATMs (Barclays, UK)\n\n1973: SWIFT messaging system"
+  },
+  {
+    "objectID": "lectures/lecture_01/lecture_01.html#the-need-for-finance",
+    "href": "lectures/lecture_01/lecture_01.html#the-need-for-finance",
+    "title": "Lecture 01",
+    "section": "The Need for Finance",
+    "text": "The Need for Finance\n\n“A well-developed, smoothly functioning financial system facilitates\nthe efficient life cycle allocation of household consumption and\nthe efficient allocation of physical capital to its most productive use in the business sector.”\n— Merton (1993)\n\nFor centuries… the job of banks\n\nIntermediated between savers and borrowers\n\nProvision money & credit at the core of the economy\n\nEnsured trust, stability, and payments"
+  },
+  {
+    "objectID": "lectures/lecture_01/lecture_01.html#modern-developments",
+    "href": "lectures/lecture_01/lecture_01.html#modern-developments",
+    "title": "Lecture 01",
+    "section": "Modern Developments",
+    "text": "Modern Developments\nSince 1970s - Financial markets developed rapidly\n- Wave of financial innovations\n- Entry of new players:\n- Investment banks & securities firms (bond issuance, securitization, derivatives)\n- Institutional investors (pension funds, mutual funds, insurance companies)\n- Fintechs (digital lending, payments, crowdfunding) - BigTechs (digital wallets, cloud, platform finance)\nBanks vs. Alternatives\n\nMany services once exclusive to banks are now offered by:\n\nCapital markets\n\nOther financial institutions\n\nTechnology platforms"
+  },
+  {
+    "objectID": "lectures/lecture_01/lecture_01.html#core-question-why-banks-still-exist",
+    "href": "lectures/lecture_01/lecture_01.html#core-question-why-banks-still-exist",
+    "title": "Lecture 01",
+    "section": "Core Question: Why Banks Still Exist?",
+    "text": "Core Question: Why Banks Still Exist?\nPaths to understand:\n\nFinancial markets are imperfect\n\nInformation frictions (asymmetric, incomplete, confidential)\n\n\nRegulation (entry barriers, public service, safety nets)\n\nCapacity to adapt\n\nBanks evolve with a dynamic financial landscape\n\nThe definition of “bank” and its core activities keeps morphing over time"
+  },
+  {
+    "objectID": "lectures/lecture_01/01_bank.html",
+    "href": "lectures/lecture_01/01_bank.html",
+    "title": "Modern Banking - 1. Introduction",
+    "section": "",
+    "text": "Two Core Activities\n\nMoney → deposits, payments\n\nCredit → loans, lending\n\nBut… Modern Banks Do More\n\nOffer additional services (investment, insurance, advisory, etc.)\n\nNot the only providers of money & credit (shadow banks, fintech, bigtech)\n\n\n\n\n\n\n\nA financial institution whose current operations consist of granting loans and receiving deposits from the public.\n— Freixas and Rochet (2023)\n\n\n\n\nCurrent → main operations\n\nGranting loans → credit creation\n\nDeposits → savings + money\nWhat makes bank unique!\nPublic → uninformed depositors\nThis mean that access to payments → public good\n\n\n\n\n\n\nProtect depositors from loss and fraud\n\nEnsure trust in money & payments\n\nStability: banks sit at the core of financial system"
+  },
+  {
+    "objectID": "lectures/lecture_01/01_bank.html#what-is-a-bank",
+    "href": "lectures/lecture_01/01_bank.html#what-is-a-bank",
+    "title": "Modern Banking - 1. Introduction",
+    "section": "",
+    "text": "Two Core Activities\n\nMoney → deposits, payments\n\nCredit → loans, lending\n\nBut… Modern Banks Do More\n\nOffer additional services (investment, insurance, advisory, etc.)\n\nNot the only providers of money & credit (shadow banks, fintech, bigtech)\n\n\n\n\n\n\n\nA financial institution whose current operations consist of granting loans and receiving deposits from the public.\n— Freixas and Rochet (2023)\n\n\n\n\nCurrent → main operations\n\nGranting loans → credit creation\n\nDeposits → savings + money\nWhat makes bank unique!\nPublic → uninformed depositors\nThis mean that access to payments → public good\n\n\n\n\n\n\nProtect depositors from loss and fraud\n\nEnsure trust in money & payments\n\nStability: banks sit at the core of financial system"
+  },
+  {
+    "objectID": "lectures/lecture_01/01_bank.html#origins-of-modern-banking",
+    "href": "lectures/lecture_01/01_bank.html#origins-of-modern-banking",
+    "title": "Modern Banking - 1. Introduction",
+    "section": "Origins of Modern Banking",
+    "text": "Origins of Modern Banking\n\nMoney Changing\nFirst activity of banks: money changing #### Etymology - Greek: trapeza = scale\n- Italian: banco = bench (for coins) - When a money changer failed → the bench was broken - Italian: bancarotta = broken bench (→ bankruptcy)\n\n\nFrom Money Changing to Safekeeping\n\nMoney changers had safes for their own coins\n\nRealized they could store merchants’ deposits\n\nSafekeeping reduced risk of loss/robbery\n\n\nFirst bankers\n\nScriveners: literate advisors, brokers, lenders, deposit-takers\n\nGoldsmiths (17th c. England): safes for goldware → accepted deposits\n\nEarly trust-based intermediaries\n\nDeposits: No Return\n\nEarly deposits = zero or negative return\n\nPurpose: safety, not investment\n\nBankers had to maintain confidence not to misuse deposits\n\n\n\n\nTimeline\n\n1. Early Banking Practices\n\nMesopotamia (2000 BCE)\n\nHammurabi’s Code (Babylon) → regulated loans & debt &gt; Law 100: “If a merchant gives silver as a loan at interest, he shall take only 1 shekel of silver as interest on 1 shekel; if he takes more, he shall forfeit all.”\n\nLaw 117: “If a man be in debt and he sell his wife, son, or daughter, they shall serve for three years in the house of the purchaser or creditor; in the fourth year they shall regain their freedom.”\n\n\nAncient Greece: trapeza (money changers)\n\n\n\n2. Medieval & Renaissance (10th-15th c.)\n\nTemplars (12th–14th c.):\n\nCheque-like instruments for crusaders & pilgrims\n\nFirst international financial system\n\n\nItalian city-states (12th–15th c.): Florence, Venice, Genoa = trade hubs\n\nMedici Bank (1397–1494): first multinational bank\n\nPacioli’s innovation (1494): double-entry bookkeeping\n\n\n\n\n3. Colonial Expansion (15th–17th c.)\nFinance to support growth of trade - Banco di San Giorgio (1407) – Genoa - First public bank - Managed public debt, accepted deposits\n- Bank of Amsterdam (1609)\n- Standardized coinage, clearing bank, proto-central bank\n- Venetian banks: financed global trade & wars\n\n\n4. Industrial Revolution (19th c.)\n\nSavings & cooperative banks\n\nCheque system spread\n\n\n\n5. Rise of Modern Banking (20th - today c.)\n\nPost-WWII → retail banking boom\n\nChecking accounts, mortgages, consumer credit\n\n\nRegulation after crises (e.g., 1929)\n\nGlobalisation → multinational banking groups\nTechnological Innovation\n\n1950s: Payment cards (Diners Club, later Visa/MasterCard)\n\n1967: ATMs (Barclays, UK)\n\n1973: SWIFT messaging system"
+  },
+  {
+    "objectID": "lectures/lecture_01/01_bank.html#modern-banking",
+    "href": "lectures/lecture_01/01_bank.html#modern-banking",
+    "title": "Modern Banking - 1. Introduction",
+    "section": "Modern Banking",
+    "text": "Modern Banking\n\nThe Need for Finance\n\n“A well-developed, smoothly functioning financial system facilitates\nthe efficient life cycle allocation of household consumption and\nthe efficient allocation of physical capital to its most productive use in the business sector.”\n— Merton (1993)\n\nFor centuries… the job of banks\n\nIntermediated between savers and borrowers\n\nProvision money & credit at the core of the economy\n\nEnsured trust, stability, and payments\n\n\n\nModern Developments\nSince 1970s - Financial markets developed rapidly\n- Wave of financial innovations\n- Entry of new players:\n- Investment banks & securities firms (bond issuance, securitization, derivatives)\n- Institutional investors (pension funds, mutual funds, insurance companies)\n- Fintechs (digital lending, payments, crowdfunding) - BigTechs (digital wallets, cloud, platform finance)\nBanks vs. Alternatives\n\nMany services once exclusive to banks are now offered by:\n\nCapital markets\n\nOther financial institutions\n\nTechnology platforms\n\n\n\n\nCore Question: Why Banks Still Exist?\nPaths to understand:\n\nFinancial markets are imperfect\n\nInformation frictions (asymmetric, incomplete, confidential)\n\n\nRegulation (entry barriers, public service, safety nets)\n\nCapacity to adapt\n\nBanks evolve with a dynamic financial landscape\n\nThe definition of “bank” and its core activities keeps morphing over time"
+  },
+  {
+    "objectID": "lectures/lecture_01/lecture_01.html#what-is-a-bank",
+    "href": "lectures/lecture_01/lecture_01.html#what-is-a-bank",
+    "title": "Lecture 01",
+    "section": "What is a Bank?",
+    "text": "What is a Bank?\nTwo Core Activities\n\nMoney → deposits, payments\n\nCredit → loans, lending\n\nBut… Modern Banks Do More\n\nOffer additional services (investment, insurance, advisory, etc.)\n\nNot the only providers of money & credit (shadow banks, fintech, bigtech)\n\n\nWhat Makes Banks Unique?\n\n\nCore Definition\n\nA financial institution whose current operations consist of granting loans and receiving deposits from the public.\n— Freixas and Rochet (2023)\n\n\nBreaking Down the Definition\n\nCurrent → main operations\n\nGranting loans → credit creation\n\nDeposits → savings + money\nWhat makes bank unique!\nPublic → uninformed depositors\nThis mean that access to payments → public good\n\n\n\n\nWhy Regulate Banks?\n\nProtect depositors from loss and fraud\n\nEnsure trust in money & payments\n\nStability: banks sit at the core of financial system"
+  },
+  {
+    "objectID": "lectures/lecture_01/lecture_01.html#origins-of-modern-banking",
+    "href": "lectures/lecture_01/lecture_01.html#origins-of-modern-banking",
+    "title": "Lecture 01",
+    "section": "Origins of Modern Banking",
+    "text": "Origins of Modern Banking\n\nMoney Changing\nFirst activity of banks: money changing #### Etymology - Greek: trapeza = scale\n- Italian: banco = bench (for coins) - When a money changer failed → the bench was broken - Italian: bancarotta = broken bench (→ bankruptcy)\n\n\nFrom Money Changing to Safekeeping\n\nMoney changers had safes for their own coins\n\nRealized they could store merchants’ deposits\n\nSafekeeping reduced risk of loss/robbery\n\n\nFirst bankers\n\nScriveners: literate advisors, brokers, lenders, deposit-takers\n\nGoldsmiths (17th c. England): safes for goldware → accepted deposits\n\nEarly trust-based intermediaries\n\nDeposits: No Return\n\nEarly deposits = zero or negative return\n\nPurpose: safety, not investment\n\nBankers had to maintain confidence not to misuse deposits\n\n\n\n\nTimeline\n\n1. Early Banking Practices\n\nMesopotamia (2000 BCE)\n\nHammurabi’s Code (Babylon) → regulated loans & debt &gt; Law 100: “If a merchant gives silver as a loan at interest, he shall take only 1 shekel of silver as interest on 1 shekel; if he takes more, he shall forfeit all.”\n\nLaw 117: “If a man be in debt and he sell his wife, son, or daughter, they shall serve for three years in the house of the purchaser or creditor; in the fourth year they shall regain their freedom.”\n\n\nAncient Greece: trapeza (money changers)\n\n\n\n2. Medieval & Renaissance (10th-15th c.)\n\nTemplars (12th–14th c.):\n\nCheque-like instruments for crusaders & pilgrims\n\nFirst international financial system\n\n\nItalian city-states (12th–15th c.): Florence, Venice, Genoa = trade hubs\n\nMedici Bank (1397–1494): first multinational bank\n\nPacioli’s innovation (1494): double-entry bookkeeping\n\n\n\n\n3. Colonial Expansion (15th–17th c.)\nFinance to support growth of trade - Banco di San Giorgio (1407) – Genoa - First public bank - Managed public debt, accepted deposits\n- Bank of Amsterdam (1609)\n- Standardized coinage, clearing bank, proto-central bank\n- Venetian banks: financed global trade & wars\n\n\n4. Industrial Revolution (19th c.)\n\nSavings & cooperative banks\n\nCheque system spread\n\n\n\n5. Rise of Modern Banking (20th - today c.)\n\nPost-WWII → retail banking boom\n\nChecking accounts, mortgages, consumer credit\n\n\nRegulation after crises (e.g., 1929)\n\nGlobalisation → multinational banking groups\nTechnological Innovation\n\n1950s: Payment cards (Diners Club, later Visa/MasterCard)\n\n1967: ATMs (Barclays, UK)\n\n1973: SWIFT messaging system"
+  },
+  {
+    "objectID": "lectures/lecture_01/lecture_01.html#modern-banking",
+    "href": "lectures/lecture_01/lecture_01.html#modern-banking",
+    "title": "Lecture 01",
+    "section": "Modern Banking",
+    "text": "Modern Banking\n\nThe Need for Finance\n\n“A well-developed, smoothly functioning financial system facilitates\nthe efficient life cycle allocation of household consumption and\nthe efficient allocation of physical capital to its most productive use in the business sector.”\n— Merton (1993)\n\nFor centuries… the job of banks\n\nIntermediated between savers and borrowers\n\nProvision money & credit at the core of the economy\n\nEnsured trust, stability, and payments\n\n\n\nModern Developments\nSince 1970s - Financial markets developed rapidly\n- Wave of financial innovations\n- Entry of new players:\n- Investment banks & securities firms (bond issuance, securitization, derivatives)\n- Institutional investors (pension funds, mutual funds, insurance companies)\n- Fintechs (digital lending, payments, crowdfunding) - BigTechs (digital wallets, cloud, platform finance)\nBanks vs. Alternatives\n\nMany services once exclusive to banks are now offered by:\n\nCapital markets\n\nOther financial institutions\n\nTechnology platforms\n\n\n\n\nCore Question: Why Banks Still Exist?\nPaths to understand:\n\nFinancial markets are imperfect\n\nInformation frictions (asymmetric, incomplete, confidential)\n\n\nRegulation (entry barriers, public service, safety nets)\n\nCapacity to adapt\n\nBanks evolve with a dynamic financial landscape\n\nThe definition of “bank” and its core activities keeps morphing over time"
+  }
+]

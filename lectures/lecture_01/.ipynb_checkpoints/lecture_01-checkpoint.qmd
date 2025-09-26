@@ -1,0 +1,3 @@
+# Lecture 01
+
+{{< embed 01_bank.ipynb >}}

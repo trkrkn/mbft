@@ -1,0 +1,71 @@
+---
+title: "Syllabus"
+---
+
+## Course Information 
+
+**Professor:** Tarik Roukny (tarik.roukny@kuleuven.be)
+
+**Lectures:** Mondays
+
+- Time blocks for sessions
+    - 08.30 AM - 10.30 AM
+    - 10.30 PM - 12.30 PM
+- Room HER1 - 04.4207
+
+**Office hours:** by email appointment.
+
+## Course Description
+
+This course is a compulsory course for the International and Sustainable Finance Track in the Master of Business Administration curriculum at the Faculty of Economics and Business, Brussels Campus, KU Leuven.
+
+**The course objectives are:**
+
+- To train students to produce scientifically based solutions to modern banking issues
+- To introduce trends in financial technologies
+- To provide students with a wide range of technological and policy challenges and opportunities in banking and finance
+- To induce both macro and micro assessments of the impact of new technologies for banking and the economy
+
+The course features a balance between traditional banking issues (intermediation, money, payments, instruments, deposits, financial contracts, financial stability, liquidity, monetary policy, interest rates, bank runs, regulation, bail outs) and modern banking issues (digitalisation, platforms, crypto, AI, DeFi, smart contracts, shadow banking, macroprudential policy, Big Tech, open finance, CBDC). The ultimate objective is to convey a deep grasp of the past-present-future of the industry in order to prepare students for the ever changing landscape of banking and technology.
+
+### Prerequisites
+
+This course does not have mandatory prerequisites. It is however advised to have sufficient knowledge of basic economic modelling and completed the following courses first:
+
+- Financial Markets and Institutions
+- Corporate Finance.
+
+## Organization
+
+This course consists of 6 ECTS amounting to 40 contact hours. Sessions are split between core material, live discussions, and guest lectures. All sessions are integral to the course.
+
+> ⚠**No recordings from lectures**
+>
+> Some additional video material may be provided for background and extra material
+
+### Material
+
+The class addresses the one key dimension of banking and financial technology: information frictions. As such, the material starts with the role played by information in every aspect of modern banking. Three key topics in the development of fintech are then studied: platforms, machine learning and crypto. 
+
+### Overview
+
+Map of topics
+
+| Side | Topics |
+| --- | --- |
+| Modern Banking | Money <br> Payment <br> Deposit <br> Systemic Risk <br> Policy & Regulation |
+|Platforms| Digital Platforms <br> Fintech Platforms <br> Bigtech <br> Open Banking|
+|Machine Learning| History <br> Economics of ML <br> Technology of ML <br> Application of ML in Finance|
+|Crypto|Distributed Ledger Technolonies <br> Smart Contracts <br> Stablecoins <br> Decentralised Finance <br> Central Bank Digital Currencies|
+# Assessment
+
+This class values interactions and discussions. As such, students are expected to be active and engaging in live sessions. The examination is an individual written examination where the student demonstrates mastery of the class material as well as capacity to engage in transversal questions covering multiple parts of the course. The overall grading is done according to the following protocol:
+
+- Participation: +1/0 to the final grade
+    - Active role in the class discussion and guest sessions
+- Examination: Written individual exam
+    - Class material: (70%)
+        - Set of short and directed questions covering each part of the class focusing on trade-offs
+        - Open-ended transversal questions
+    - Assignment: Analysis of a fintech company (30%) 
+    	- *More info soon*
