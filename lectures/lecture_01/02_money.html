@@ -1,0 +1,1140 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Money – Modern Banking and Financial Technology</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Modern Banking and Financial Technology</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../syllabus.html"> 
+<span class="menu-text">Syllabus</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../schedule.html"> 
+<span class="menu-text">Schedule</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lectures" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lectures</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lectures">    
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_01/lecture_01.html">
+ <span class="dropdown-text">Lecture 01 - Modern Banking pt.&nbsp;1</span></a>
+  </li>  
+        <li class="dropdown-header">Lecture 02 - Modern Banking pt.&nbsp;2</li>
+        <li class="dropdown-header">Lecture 03 - Modern Banking pt.&nbsp;3</li>
+        <li class="dropdown-header">Lecture 04 - Modern Banking pt.&nbsp;4</li>
+        <li class="dropdown-header">Lecture 05 - Modern Banking pt.&nbsp;5</li>
+        <li class="dropdown-header">Lecture 06 - Fintech</li>
+        <li class="dropdown-header">Lecture 07 - Platforms pt.&nbsp;2</li>
+        <li class="dropdown-header">Lecture 08 - Machine Learning pt.&nbsp;1</li>
+        <li class="dropdown-header">Lecture 09 - Machine Learning pt.&nbsp;2</li>
+        <li class="dropdown-header">Lecture 10 - Crypto pt.&nbsp;1</li>
+        <li class="dropdown-header">Lecture 11 - Crypto pt.&nbsp;2</li>
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#key-questions" id="toc-key-questions" class="nav-link active" data-scroll-target="#key-questions">4 Key Questions</a></li>
+  <li><a href="#where-does-money-come-from" id="toc-where-does-money-come-from" class="nav-link" data-scroll-target="#where-does-money-come-from">1. Where Does Money Come From?</a></li>
+  <li><a href="#why-do-we-need-money" id="toc-why-do-we-need-money" class="nav-link" data-scroll-target="#why-do-we-need-money">2. Why Do We Need Money?</a></li>
+  <li><a href="#what-is-money" id="toc-what-is-money" class="nav-link" data-scroll-target="#what-is-money">3. What is Money?</a></li>
+  <li><a href="#how-to-control-money" id="toc-how-to-control-money" class="nav-link" data-scroll-target="#how-to-control-money">4. How to Control Money?</a></li>
+  <li><a href="#map" id="toc-map" class="nav-link" data-scroll-target="#map">Map</a></li>
+  <li><a href="#the-origins-of-money" id="toc-the-origins-of-money" class="nav-link" data-scroll-target="#the-origins-of-money">1. The Origins of Money</a>
+  <ul class="collapse">
+  <li><a href="#how-do-we-organise-exchange-debt-vs-barter" id="toc-how-do-we-organise-exchange-debt-vs-barter" class="nav-link" data-scroll-target="#how-do-we-organise-exchange-debt-vs-barter">How do we organise exchange? Debt vs Barter</a>
+  <ul class="collapse">
+  <li><a href="#metallist-theory" id="toc-metallist-theory" class="nav-link" data-scroll-target="#metallist-theory">Metallist Theory</a></li>
+  <li><a href="#chartalist-credit-theory" id="toc-chartalist-credit-theory" class="nav-link" data-scroll-target="#chartalist-credit-theory">Chartalist (Credit) Theory</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#a-model-of-money" id="toc-a-model-of-money" class="nav-link" data-scroll-target="#a-model-of-money">2. A Model of Money</a>
+  <ul class="collapse">
+  <li><a href="#model" id="toc-model" class="nav-link" data-scroll-target="#model">Model</a>
+  <ul class="collapse">
+  <li><a href="#utilities" id="toc-utilities" class="nav-link" data-scroll-target="#utilities">Utilities</a></li>
+  </ul></li>
+  <li><a href="#analysis" id="toc-analysis" class="nav-link" data-scroll-target="#analysis">Analysis</a>
+  <ul class="collapse">
+  <li><a href="#no-frictions" id="toc-no-frictions" class="nav-link" data-scroll-target="#no-frictions">1. No frictions</a></li>
+  <li><a href="#with-frictions" id="toc-with-frictions" class="nav-link" data-scroll-target="#with-frictions">2. With frictions</a></li>
+  <li><a href="#introducing-money" id="toc-introducing-money" class="nav-link" data-scroll-target="#introducing-money">3. Introducing money</a></li>
+  </ul></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a>
+  <ul class="collapse">
+  <li><a href="#note" id="toc-note" class="nav-link" data-scroll-target="#note">Note</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#the-need-for-money" id="toc-the-need-for-money" class="nav-link" data-scroll-target="#the-need-for-money">3. The Need for Money</a>
+  <ul class="collapse">
+  <li><a href="#issuance-of-money-and-debt" id="toc-issuance-of-money-and-debt" class="nav-link" data-scroll-target="#issuance-of-money-and-debt">Issuance of money and debt</a></li>
+  </ul></li>
+  <li><a href="#the-value-of-money" id="toc-the-value-of-money" class="nav-link" data-scroll-target="#the-value-of-money">4. The Value of Money</a>
+  <ul class="collapse">
+  <li><a href="#competing-views-of-value" id="toc-competing-views-of-value" class="nav-link" data-scroll-target="#competing-views-of-value">Competing Views of Value</a></li>
+  <li><a href="#complementarities" id="toc-complementarities" class="nav-link" data-scroll-target="#complementarities">Complementarities</a></li>
+  </ul></li>
+  <li><a href="#the-definition-of-money" id="toc-the-definition-of-money" class="nav-link" data-scroll-target="#the-definition-of-money">5. The definition of Money</a>
+  <ul class="collapse">
+  <li><a href="#the-three-features-of-money" id="toc-the-three-features-of-money" class="nav-link" data-scroll-target="#the-three-features-of-money">The Three Features of Money</a></li>
+  <li><a href="#means-of-payment" id="toc-means-of-payment" class="nav-link" data-scroll-target="#means-of-payment">1. Means of Payment</a></li>
+  <li><a href="#unit-of-account" id="toc-unit-of-account" class="nav-link" data-scroll-target="#unit-of-account">2. Unit of Account</a></li>
+  <li><a href="#store-of-value" id="toc-store-of-value" class="nav-link" data-scroll-target="#store-of-value">3. Store of Value</a></li>
+  </ul></li>
+  <li><a href="#the-governance-of-money" id="toc-the-governance-of-money" class="nav-link" data-scroll-target="#the-governance-of-money">6. The Governance of Money</a>
+  <ul class="collapse">
+  <li><a href="#liquidity" id="toc-liquidity" class="nav-link" data-scroll-target="#liquidity">Liquidity</a></li>
+  <li><a href="#inflation" id="toc-inflation" class="nav-link" data-scroll-target="#inflation">Inflation</a></li>
+  <li><a href="#quantity-theory-of-money" id="toc-quantity-theory-of-money" class="nav-link" data-scroll-target="#quantity-theory-of-money">Quantity Theory of Money</a>
+  <ul class="collapse">
+  <li><a href="#historical-origins" id="toc-historical-origins" class="nav-link" data-scroll-target="#historical-origins">Historical Origins</a></li>
+  <li><a href="#core-idea" id="toc-core-idea" class="nav-link" data-scroll-target="#core-idea">Core Idea</a></li>
+  <li><a href="#supply-and-demand-for-money" id="toc-supply-and-demand-for-money" class="nav-link" data-scroll-target="#supply-and-demand-for-money">Supply and Demand for Money</a></li>
+  <li><a href="#mechanism-long-run" id="toc-mechanism-long-run" class="nav-link" data-scroll-target="#mechanism-long-run">Mechanism (Long Run)</a></li>
+  </ul></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion">Discussion</a>
+  <ul class="collapse">
+  <li><a href="#inflation-costs-short-run" id="toc-inflation-costs-short-run" class="nav-link" data-scroll-target="#inflation-costs-short-run">Inflation Costs (Short Run)</a></li>
+  <li><a href="#special-cost-of-inflation" id="toc-special-cost-of-inflation" class="nav-link" data-scroll-target="#special-cost-of-inflation">Special Cost of Inflation</a></li>
+  <li><a href="#limitations-of-the-model" id="toc-limitations-of-the-model" class="nav-link" data-scroll-target="#limitations-of-the-model">Limitations of the Model</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Money</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="key-questions" class="level2">
+<h2 class="anchored" data-anchor-id="key-questions">4 Key Questions</h2>
+</section>
+<section id="where-does-money-come-from" class="level2">
+<h2 class="anchored" data-anchor-id="where-does-money-come-from">1. Where Does Money Come From?</h2>
+</section>
+<section id="why-do-we-need-money" class="level2">
+<h2 class="anchored" data-anchor-id="why-do-we-need-money">2. Why Do We Need Money?</h2>
+</section>
+<section id="what-is-money" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-money">3. What is Money?</h2>
+</section>
+<section id="how-to-control-money" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-control-money">4. How to Control Money?</h2>
+</section>
+<section id="map" class="level1">
+<h1>Map</h1>
+<ol type="1">
+<li>Origins of Money</li>
+<li>A Model of Money</li>
+<li>The Need for Money</li>
+<li>The Value of Money</li>
+<li>The Definition of Money</li>
+<li>The Governance of Money</li>
+</ol>
+</section>
+<section id="the-origins-of-money" class="level1">
+<h1>1. The Origins of Money</h1>
+<p>Once upon a time…<br>
+- Economy with <strong>heterogeneous skills and needs</strong><br>
+- Trade opportunities emerge due to:<br>
+- <strong>Shocks</strong><br>
+- <strong>Surplus</strong></p>
+<section id="how-do-we-organise-exchange-debt-vs-barter" class="level2">
+<h2 class="anchored" data-anchor-id="how-do-we-organise-exchange-debt-vs-barter">How do we organise exchange? Debt vs Barter</h2>
+<p>Two competing stories of the origin of money:<br>
+1. <strong>Metallist theory</strong> <code>Barter</code> 2. <strong>Chartalist theory</strong> <code>Credit</code></p>
+<section id="metallist-theory" class="level3">
+<h3 class="anchored" data-anchor-id="metallist-theory">Metallist Theory</h3>
+<ul>
+<li>Origin of money = <strong>Double coincidence of wants</strong><br>
+</li>
+<li>Rooted in <strong>commodity exchange</strong><br>
+&gt; A commodity which few people would be likely to refuse in exchange for the produce of their industry &gt; &gt; — Adam Smith</li>
+<li>Economists’ natural view:
+<ul>
+<li><strong>Decentralised impulse</strong></li>
+</ul></li>
+<li>Money as <strong>“lubricant”</strong></li>
+</ul>
+</section>
+<section id="chartalist-credit-theory" class="level3">
+<h3 class="anchored" data-anchor-id="chartalist-credit-theory">Chartalist (Credit) Theory</h3>
+<ul>
+<li>Origin of money = <strong>Debt / IOU’s</strong>
+<ul>
+<li>Socially enforced promises of repayment<br>
+</li>
+</ul></li>
+<li>Credit seems to have existed before money (Graeber, 2011)
+<ul>
+<li>In primitive communities where everyone knew each other → <strong>no need for money</strong></li>
+<li>Social pressure ensured repayment</li>
+<li>When trade with <strong>strangers</strong> began → <strong>money became useful</strong><br>
+</li>
+</ul></li>
+<li>Money resulting from public authorities:
+<ul>
+<li><strong>Centralised impulse</strong></li>
+</ul></li>
+<li>Money is “<strong>memory</strong>”: A snapshot of outstanding, directed and aggregated debt in the economy</li>
+</ul>
+</section>
+</section>
+</section>
+<section id="a-model-of-money" class="level1">
+<h1>2. A Model of Money</h1>
+<p>In an important 1998 article, “Money is memory,” Kocherlakota shows that <strong>money can be viewed as a way to keep track of promises</strong>.</p>
+<p><em>Here</em>: a simple variant of the Lagos and Wright (2005) model as proposed by Nosal and Rocheteau (2011) and Freixas and Rochet (2023).</p>
+<section id="model" class="level2">
+<h2 class="anchored" data-anchor-id="model">Model</h2>
+<p><strong>Environment</strong> - Time is discrete (days) - The economy is <strong>stationary</strong> - → the environment <strong>does not change over time</strong>:<br>
+- Preferences, technologies, and matching probabilities are constant.<br>
+- History doesn’t alter the structure of the economy.<br>
+- Each day looks the same as the previous one (e.g., days repeat infinitely)</p>
+<p><strong>Economy</strong> - 2 types of agents: <strong>buyers</strong> and <strong>sellers</strong> - 2 markets: <strong>centralised good</strong> and <strong>decentralised good</strong></p>
+<p><strong>Timing</strong><br>
+2 repeated periods for each date: 1. Day<br>
+<strong>Decentralised market</strong>: Each buyer searches for sellers. - Buyer meets seller with probability <span class="math inline">\(\sigma\)</span> - When meeting, decision to contract or not - Seller delivers good <strong>immediately</strong>: <span class="math inline">\(q\)</span> units - Buyer <strong>promises</strong> <span class="math inline">\(y\)</span> units of another good (in centralised) 3. Night<br>
+<strong>Centralized market</strong>: all agents meet and promised goods are delivered (or not).</p>
+<p><strong>Interpretation</strong> - Decentralized good ~ labour or merchant exchanges in fair (day) - Centralized good ~ consumption or clearing of merchants obligations (night)</p>
+<section id="utilities" class="level3">
+<h3 class="anchored" data-anchor-id="utilities">Utilities</h3>
+<p><em>Assume quasi-linear preferences</em></p>
+<p>If <strong>contract</strong> <span class="math inline">\((q, y)\)</span> is executed<br>
+- Utility of buyer</p>
+<p><span class="math display">\[U^b = u(q) - y\]</span></p>
+<ul>
+<li>Utility of seller</li>
+</ul>
+<p><span class="math display">\[U^s = y - c(q)\]</span></p>
+<p>where - <span class="math inline">\(u(.)\)</span> is a concave utility function - <span class="math inline">\(c(.)\)</span> a convex cost function.</p>
+</section>
+</section>
+<section id="analysis" class="level2">
+<h2 class="anchored" data-anchor-id="analysis">Analysis</h2>
+<ol type="1">
+<li>No friction in the payment</li>
+<li>Friction: buyers can renege on their promise
+<ul>
+<li>Community</li>
+<li>Strangers</li>
+</ul></li>
+<li>Introduction of money</li>
+</ol>
+<section id="no-frictions" class="level3">
+<h3 class="anchored" data-anchor-id="no-frictions">1. No frictions</h3>
+<p>In a world without frictions, all trade takes place simultaneously on the centralised market.</p>
+<p>A transaction <span class="math inline">\((q, y)\)</span> takes place <strong>if and only if it is mutually beneficial</strong> (i.e., it gives a positive net utility to both parties):</p>
+<p><span class="math display">\[c(q)\leq y \leq u(q)\]</span></p>
+</section>
+<section id="with-frictions" class="level3">
+<h3 class="anchored" data-anchor-id="with-frictions">2. With frictions</h3>
+<p>In a world with frictions, <strong>buyers can renege on their commitment to provide <span class="math inline">\(y\)</span> units</strong> of consumption to a seller in the centralised market.</p>
+<section id="close-knit-community" class="level4">
+<h4 class="anchored" data-anchor-id="close-knit-community">Close-knit community</h4>
+<p>Assume that reneging would provoke the <strong>exclusion of the buyer</strong>.</p>
+<p><strong>Exclusion</strong>: loss of the <strong>continuation payoff <span class="math inline">\(V^b\)</span></strong> associated with future trades.</p>
+<p><span class="math inline">\(V^b\)</span> obtains from stationarity:</p>
+<p><span class="math display">\[V^b = \sigma U^b + \frac{V^b}{1+r}\]</span></p>
+<p>where <span class="math inline">\(r\)</span> is the discount rate of the buyer.</p>
+<p>Solving in <span class="math inline">\(V^b\)</span>:</p>
+<p><span class="math display">\[ V^b = \frac{\sigma U^b(1+r)}{r} = \frac{\sigma(1+r)}{r}[u(q)-y] \]</span></p>
+<p><strong>Result</strong> - Buyer <strong>honours an obligation</strong> to pay the seller whenever the payment <span class="math inline">\(y\)</span> is lower than the discounted continuation pay-off <span class="math inline">\(\frac{V^b}{1+r}\)</span>:</p>
+<p><span class="math display">\[y \leq \frac{V^b}{1+r}\]</span></p>
+<center>
+↓
+</center>
+<p><span class="math display">\[y\leq \frac{\sigma u (q)}{r+\sigma}\]</span></p>
+<ul>
+<li>Comparing with <strong>no friction</strong> outcoume<br>
+→ <strong>set of feasible transactions is strictly smaller</strong></li>
+</ul>
+<p><span class="math display">\[c(q)\leq y \leq \frac{\sigma u (q)}{r+\sigma} \leq u(q)\]</span></p>
+<p><strong>Conclusion</strong><br>
+Even in a close-knit community, the <strong>impossibility to commit reduces the set of feasible transactions.</strong></p>
+</section>
+<section id="complete-strangers" class="level4">
+<h4 class="anchored" data-anchor-id="complete-strangers">Complete strangers</h4>
+<p>If the buyer and the seller are complete strangers because: <strong>the threat of exclusion has no bite</strong>.</p>
+<p><strong>Result</strong><br>
+<strong>No trade ever takes place</strong> because the seller knows that the buyer would never honour his payment obligation.</p>
+</section>
+</section>
+<section id="introducing-money" class="level3">
+<h3 class="anchored" data-anchor-id="introducing-money">3. Introducing money</h3>
+<p><strong>Inefficiency can be overcome with money</strong> (Kocherlakota, 1998; Lagos and Wright, 2005).</p>
+<p><strong>Adjustement to the set-up</strong></p>
+<p>Introduce <strong>tokens</strong> (coins or banknotes) that are accepted as <strong>means of payment by all agents</strong>. - The buyer can - Get <span class="math inline">\(y\)</span> tokens by producing <span class="math inline">\(y\)</span> units of the <strong>centralised good</strong> (normalise price to one token). - Later purchase <span class="math inline">\(q\)</span> units of the <strong>decentralised good</strong>. - The seller agrees to deliver in exchange for the tokens if <span class="math inline">\(V^t \geq y\)</span>: - The value <span class="math inline">\(V^t\)</span> that the buyer derives from the tokens is larger than the cost of producing <span class="math inline">\(y\)</span> units of the centralised good which is <span class="math inline">\(y\)</span>.</p>
+<p><strong>The continuation payoff <span class="math inline">\(V^t\)</span></strong> is given by: - Probability <span class="math inline">\(σ\)</span> that the buyer matches with a seller tomorrow and buys <span class="math inline">\(q\)</span> units of the decentralised good with the tokens; - Probability <span class="math inline">\((1 − σ)\)</span> that the buyer keeps the tokens to use them in the future</p>
+<p><span class="math display">\[V^t = \frac{\sigma u(q) + (1-\sigma)V^t}{1+r} \]</span></p>
+<center>
+↓
+</center>
+<p><span class="math display">\[V^t = \frac{\sigma u (q)}{r + \sigma} = V^b\]</span></p>
+<p><strong>Result</strong><br>
+Trade will take place with money if and only if:</p>
+<p><span class="math display">\[c(q)\leq y \leq \frac{\sigma u (q)}{r+\sigma} \leq u(q)\]</span></p>
+<p>which is exactly the same condition as in <strong>a close-knit community.</strong></p>
+</section>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<center>
+<b>Money allows strangers to trade as if they were members of the same community. </b>
+</center>
+<section id="note" class="level3">
+<h3 class="anchored" data-anchor-id="note">Note</h3>
+<p><strong>1. Shift in timing of trading</strong><br>
+The timing of the trades between strangers is opposite to what happens in the close-knit community: - <u>Close-knit community</u>: trade relies on <strong>credit</strong>, which is repaid because of the <strong>threat of exclusion</strong>. - <u>Among strangers</u>: the buyer needs to <strong>work first</strong> to obtain the <strong>tokens</strong>.</p>
+<p>Money then works as <strong>a record-keeping device</strong>: the tokens held by the buyer testify that the buyer has worked in the past.</p>
+<p><strong>2. Technological disruption</strong> - For many centuries, this record-keeping was provided by the government (i.e., central bank money) and the banks (i.e, deposit accounts). - Blockchain: promise of distributed ledger technologies is that payments can be registered without the intervention of any central authority.</p>
+</section>
+</section>
+</section>
+<section id="the-need-for-money" class="level1">
+<h1>3. The Need for Money</h1>
+<p>As <strong>societies grow</strong>, money becomes a key feature - Physical interaction and bilateral <strong>trust evaporates</strong> (economies of tokens) - The increase of number of transactions and population size (buyers and sellers) calls for something that makes <strong>payment final</strong> and whose value is <strong>easily verified</strong></p>
+<center>
+<img src="figures/uruk.png" width="700">
+</center>
+<section id="issuance-of-money-and-debt" class="level2">
+<h2 class="anchored" data-anchor-id="issuance-of-money-and-debt">Issuance of money and debt</h2>
+<p>Birthplace of writing and accounting</p>
+<blockquote class="blockquote">
+<p>“In the classic model of the Sumerian economy, the temple functioned as an administrative authority governing commodity production, collection, and redistribution. The discovery of administrative tablets from these complexes suggests that <strong>token use and consequently writing evolved as a tool of centralized economic governance</strong>.</p>
+<p>An economy based on <strong>large-scale redistribution of goods cannot function on goodwill</strong>. It requires <strong>pre-commitment—promises of delivery</strong> that allow planning.</p>
+<p>When people started living in large communities like Uruk, they shared their <strong>lives with strangers as well as friends</strong>. It may have been possible to know everyone in a large farming village, but not in a vast city, such as Uruk. <strong>What were once implicit agreements among neighbors now became explicit contractual agreements among strangers.</strong></p>
+<ul>
+<li>Goetzmann, William N.. Money Changes Everything. Princeton University Press. “</li>
+</ul>
+</blockquote>
+<p><strong>Tributary economies</strong> - Egypt, Mesopotamia:<br>
+- Goods and services flow mainly between rulers and subjects<br>
+- <strong>Money</strong>’s role tied to <strong>political authority</strong> and <strong>record-keeping</strong></p>
+<p><strong>Key player: The State</strong> - State as the main issuer of money - Coins = tokens of state debt<br>
+- Why trusted?<br>
+- State can levy taxes in the same medium<br>
+- Unique position: only the state ensures universal acceptance</p>
+<blockquote class="blockquote">
+<p>Say a king wishes to support a standing army of fifty thousand men. Under ancient or medieval conditions, feeding such a force was an enormous problem—unless they were on the march, one would need to employ almost as many men and animals just to locate, acquire, and transport the necessary provisions.</p>
+<p>On the other hand, if one simply <strong>hands out coins to the soldiers and then demands that every family in the kingdom was obliged to pay one of those coins back to you</strong>, one would, in one blow, turn one’s entire national economy into a vast machine for the provisioning of soldiers, since now every family, in order to get their hands on the coins, must find some way to contribute to the general effort to provide soldiers with things they want.</p>
+<p><strong>Markets are brought into existence as a side effect.</strong></p>
+<ul>
+<li>Graeber (2011)</li>
+</ul>
+</blockquote>
+</section>
+</section>
+<section id="the-value-of-money" class="level1">
+<h1>4. The Value of Money</h1>
+<section id="competing-views-of-value" class="level2">
+<h2 class="anchored" data-anchor-id="competing-views-of-value">Competing Views of Value</h2>
+<p><strong>Metallist theory</strong><br>
+- Money inherits the value of its material components<br>
+- Example: gold coins = worth as much as their metal content<br>
+- Problem: value fluctuates with metal supply</p>
+<p><strong>Credit theory</strong><br>
+- Money is a token of a promise - Money’s value is anchored in expectations and promises<br>
+- Token of debt: enforceable claim against issuer<br>
+- Trust is critical → repayment depends on issuer’s credibility</p>
+</section>
+<section id="complementarities" class="level2">
+<h2 class="anchored" data-anchor-id="complementarities">Complementarities</h2>
+<ul>
+<li>Both theories played a role historically:
+<ul>
+<li><strong>Metallist</strong> → explains early <strong>commodity-based currencies</strong><br>
+</li>
+<li><strong>Credit</strong> → explains money as <strong>obligations backed by trust</strong><br>
+</li>
+</ul></li>
+<li>Until 1971
+<ul>
+<li>Before: <code>gold standard</code> → metallist logic still relevant<br>
+</li>
+<li><strong>1971</strong>: Nixon ends gold convertibility (Bretton Woods collapse)<br>
+</li>
+</ul></li>
+<li>From then: credit theory dominates
+<ul>
+<li><strong>Fiat money = pure token of trust in state/central bank</strong></li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="the-definition-of-money" class="level1">
+<h1>5. The definition of Money</h1>
+<section id="the-three-features-of-money" class="level2">
+<h2 class="anchored" data-anchor-id="the-three-features-of-money">The Three Features of Money</h2>
+<p>Criteria any candidate form of money should satisfy: 1. <strong>Means of Payment</strong> 2. <strong>Unit of Account</strong> 3. <strong>Store of Value</strong></p>
+</section>
+<section id="means-of-payment" class="level2">
+<h2 class="anchored" data-anchor-id="means-of-payment">1. Means of Payment</h2>
+<ul>
+<li><strong>Money is a recognized medium to transfer value or promise of transfer</strong>
+<ul>
+<li>Used in exchange of goods and services</li>
+</ul></li>
+<li>Solves the <strong>double coincidence of wants</strong> problem
+<ul>
+<li>Transfers debt and reduces reliance on promises<br>
+</li>
+</ul></li>
+<li><strong>Information reduction</strong>:
+<ul>
+<li>Paying directly requires <strong>less information</strong> than exchanging IOUs<br>
+</li>
+</ul></li>
+<li><strong>Cuts chains of intermediation</strong>
+<ul>
+<li>Avoid overuse of promises and <strong>removes trust from certain exchanges</strong></li>
+<li><strong>Finalizes transactions</strong>: buyers and sellers have no further claims on each other</li>
+</ul></li>
+</ul>
+</section>
+<section id="unit-of-account" class="level2">
+<h2 class="anchored" data-anchor-id="unit-of-account">2. Unit of Account</h2>
+<ul>
+<li><strong>Money serves as a yardstick</strong>
+<ul>
+<li>Unit used to quote prices and record debt<br>
+</li>
+</ul></li>
+<li>Facilitates <strong>efficient pricing</strong> and <strong>information transmission</strong>
+<ul>
+<li><strong>Microeconomic principle</strong>: Relative pricing is inefficient
+<ul>
+<li>One single, stable unit of account is more efficient<br>
+</li>
+<li>“Goods cost money, not other goods”</li>
+</ul></li>
+<li>Combinatorial explosion when relative pricing for all goods
+<ul>
+<li>Example: with 100 goods → relative pricing requires 4,950 bilateral quotes</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="store-of-value" class="level2">
+<h2 class="anchored" data-anchor-id="store-of-value">3. Store of Value</h2>
+<ul>
+<li><strong>Money is used to transfer purchasing power into the future</strong><br>
+</li>
+<li>Relies on:
+<ul>
+<li><strong>Memory</strong><br>
+</li>
+<li><strong>Stability of value</strong> / <strong>durability</strong> of the medium</li>
+</ul></li>
+<li>Requires <strong>liquidity</strong> to ensure usability<br>
+</li>
+<li>Value is <strong>context-dependent</strong>:
+<ul>
+<li>Markets<br>
+</li>
+<li>Government<br>
+</li>
+<li>Broader environment<br>
+</li>
+</ul></li>
+<li>Money is by definition <strong>consensus driven</strong> — <strong>a coordination game</strong></li>
+</ul>
+</section>
+</section>
+<section id="the-governance-of-money" class="level1">
+<h1>6. The Governance of Money</h1>
+<p>The <strong>quantity</strong> and <strong>quality</strong> of money is circulation has en impact on the <strong>overall efficiency</strong> of an economy.</p>
+<p><strong>2 key concepts</strong>: - <strong>Liquidity</strong> - <strong>Inflation</strong></p>
+<section id="liquidity" class="level2">
+<h2 class="anchored" data-anchor-id="liquidity">Liquidity</h2>
+<p><strong>Definition</strong>: ease with which an asset can be turned into a means of payment (money)</p>
+<p>2 dimensions:<br>
+- <strong>Market liquidity</strong> → ability to sell the asset quickly at fair price<br>
+- <strong>Funding liquidity</strong> → ability to borrow against the asset</p>
+</section>
+<section id="inflation" class="level2">
+<h2 class="anchored" data-anchor-id="inflation">Inflation</h2>
+<p><strong>Definition</strong>: change in the value of money (price level)</p>
+<p>Classical framework: <strong>Quantity Theory of Money</strong><br>
+- Central issue: how does inflation work?<br>
+- Core concern of modern <strong>Monetary Policy</strong></p>
+</section>
+<section id="quantity-theory-of-money" class="level2">
+<h2 class="anchored" data-anchor-id="quantity-theory-of-money">Quantity Theory of Money</h2>
+<section id="historical-origins" class="level3">
+<h3 class="anchored" data-anchor-id="historical-origins">Historical Origins</h3>
+<ul>
+<li>Concept linked to <strong>Jean Bodin (1530–1596)</strong><br>
+</li>
+<li>Question: why had prices been increasing for one century?</li>
+</ul>
+<p><strong>Case Study: Spain in the 16th Century</strong> - Large influx of gold and silver from conquests in the Americas<br>
+- Result: <strong>sustained rise in money supply</strong> - Consequence: <strong>price level doubled in Spain between 1550 and 1600</strong></p>
+</section>
+<section id="core-idea" class="level3">
+<h3 class="anchored" data-anchor-id="core-idea">Core Idea</h3>
+<p><strong>The quantity of money determines the value of money</strong> - Explanation of the relationship between <strong>money supply</strong> and <strong>inflation</strong></p>
+<p><strong>Notation:</strong> - <strong>P</strong> = price level of a basket of goods (e.g.&nbsp;Consumer Price Index)<br>
+- <strong>1/P</strong> = value of money</p>
+<p><strong>Inflation</strong> → rise in <strong>P</strong> → fall in <strong>1/P</strong> (value of money)</p>
+</section>
+<section id="supply-and-demand-for-money" class="level3">
+<h3 class="anchored" data-anchor-id="supply-and-demand-for-money">Supply and Demand for Money</h3>
+<p><strong>Money Supply</strong><br>
+- Assume given (e.g., set by government)<br>
+<em>In reality: depends on central bank, banks, and consumers</em></p>
+<p><strong>Money Demand</strong><br>
+- How much wealth people want to hold in liquid form<br>
+<em>Determined by real income, interest rates, access to cash, etc.</em></p>
+<center>
+<img src="figures/quantity_theory_money_1.png" width="700">
+</center>
+<center>
+<img src="figures/quantity_theory_money_2.png" width="700">
+</center>
+When <strong>money supply</strong> increases:
+<center>
+Value of money decreases<br>
+→ More money needed to buy the same basket of goods
+</center>
+</section>
+<section id="mechanism-long-run" class="level3">
+<h3 class="anchored" data-anchor-id="mechanism-long-run">Mechanism (Long Run)</h3>
+<ul>
+<li>Increase in money supply → excess supply of money<br>
+</li>
+<li>Excess supply → more spending on goods and services<br>
+</li>
+<li>Supply of goods is fixed → <strong>prices must rise</strong><br>
+</li>
+<li>Adjustment works directly (spending) or indirectly (via credit)</li>
+</ul>
+</section>
+</section>
+<section id="discussion" class="level2">
+<h2 class="anchored" data-anchor-id="discussion">Discussion</h2>
+<section id="inflation-costs-short-run" class="level3">
+<h3 class="anchored" data-anchor-id="inflation-costs-short-run">Inflation Costs (Short Run)</h3>
+<ul>
+<li><strong>Wages are sticky</strong> → individual purchasing power initially reduced<br>
+</li>
+<li><strong>Uncertainty</strong> undermines planning
+<ul>
+<li>Money is a yardstick → lack of price predictability impedes financial decisions<br>
+</li>
+</ul></li>
+<li><strong>Menu costs</strong>: updating prices is costly</li>
+</ul>
+</section>
+<section id="special-cost-of-inflation" class="level3">
+<h3 class="anchored" data-anchor-id="special-cost-of-inflation">Special Cost of Inflation</h3>
+<ul>
+<li><strong>Arbitrary redistribution of wealth</strong><br>
+Unanticipated inflation <strong>transfers purchasing power between creditors and debtors</strong>
+<ul>
+<li>Higher-than-expected inflation → <strong>benefits debtors</strong> (real value of debt falls)<br>
+</li>
+<li>Lower-than-expected inflation → <strong>benefits creditors</strong> (real value of debt rises)<br>
+</li>
+</ul></li>
+<li>In practice: high inflation is more variable and less predictable<br>
+</li>
+<li>Key consequence: <strong>barrier to long-term contracts and financing in unstable economies</strong></li>
+</ul>
+</section>
+<section id="limitations-of-the-model" class="level3">
+<h3 class="anchored" data-anchor-id="limitations-of-the-model">Limitations of the Model</h3>
+<ul>
+<li>Abstracts from <strong>credit</strong> and <strong>behavioral dimensions</strong> under uncertainty<br>
+</li>
+<li>Prices can move even if money supply is fixed → role of expectations</li>
+</ul>
+<p>Examples:<br>
+- Medieval food prices fluctuated independently of money supply<br>
+- When uncertainty rises → liquidity hoarding (money as credit) → reduced spending</p>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/trkrkn\.github\.io\/mbft\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
