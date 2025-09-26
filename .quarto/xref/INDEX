@@ -21,5 +21,17 @@
     "01_bank.html": "15c4a3cb",
     "01_bank.out.ipynb": "b6f0deaa",
     "01_bank-preview.html": "a75cfd47"
+  },
+  "lectures/test.ipynb": {
+    "test.html": "270fbe3d"
+  },
+  "lectures/lecture_01/01_banking.ipynb": {
+    "01_banking.html": "83b08e0b"
+  },
+  "lectures/lecture_01/02_money.ipynb": {
+    "02_money.html": "ad95b407"
+  },
+  "lectures/lecture_01/03_payment.ipynb": {
+    "03_payment.html": "eab9a1bf"
   }
 }
