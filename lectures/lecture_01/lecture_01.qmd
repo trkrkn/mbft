@@ -1,3 +1,24 @@
-# Lecture 01
+---
+title: "Lecture 01"
+file_name: "01_banking"
+---
+## 1. Banking
+**Page**: [HTML](01_banking.html){target=_blank}
 
-{{< embed 01_bank.ipynb >}}
+**Slides**:
+[Reveal.js](01_banking.slides.html){target=_blank}
+[PDF](01_banking.slides.pdf){target=_blank}
+
+## 2. Money
+**Page**: [HTML](02_money.html){target=_blank}
+
+**Slides**
+[Reveal.js](02_money.html.slides.html){target=_blank}
+[PDF](02_money.html.slides.pdf){target=_blank}
+
+## 3. Payments
+**Page**: [HTML](03_payment.html){target=_blank}
+
+**Slides**
+[Reveal.js](03_payment.slides.html){target=_blank}
+[PDF](03_payment.slides.pdf){target=_blank}
