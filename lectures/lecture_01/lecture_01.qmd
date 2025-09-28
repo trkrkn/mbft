@@ -13,8 +13,8 @@ file_name: "01_banking"
 **Page**: [HTML](02_money.html){target=_blank}
 
 **Slides**
-[Reveal.js](02_money.html.slides.html){target=_blank}
-[PDF](02_money.html.slides.pdf){target=_blank}
+[Reveal.js](02_money.slides.html){target=_blank}
+[PDF](02_money.slides.pdf){target=_blank}
 
 ## 3. Payments
 **Page**: [HTML](03_payment.html){target=_blank}
