@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Deposits – Modern Banking and Financial Technology</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Modern Banking and Financial Technology</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../syllabus.html"> 
+<span class="menu-text">Syllabus</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../schedule.html"> 
+<span class="menu-text">Schedule</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lectures" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lectures</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lectures">    
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_01/lecture_01.html">
+ <span class="dropdown-text">Lecture 01 - Modern Banking pt.&nbsp;1</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_02/lecture_02.html">
+ <span class="dropdown-text">Lecture 02 - Modern Banking pt.&nbsp;2</span></a>
+  </li>  
+        <li class="dropdown-header">Lecture 03 - Modern Banking pt.&nbsp;3</li>
+        <li class="dropdown-header">Lecture 04 - Modern Banking pt.&nbsp;4</li>
+        <li class="dropdown-header">Lecture 05 - Modern Banking pt.&nbsp;5</li>
+        <li class="dropdown-header">Lecture 06 - Fintech</li>
+        <li class="dropdown-header">Lecture 07 - Platforms pt.&nbsp;2</li>
+        <li class="dropdown-header">Lecture 08 - Machine Learning pt.&nbsp;1</li>
+        <li class="dropdown-header">Lecture 09 - Machine Learning pt.&nbsp;2</li>
+        <li class="dropdown-header">Lecture 10 - Crypto pt.&nbsp;1</li>
+        <li class="dropdown-header">Lecture 11 - Crypto pt.&nbsp;2</li>
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#key-questions" id="toc-key-questions" class="nav-link active" data-scroll-target="#key-questions">5 Key Questions</a></li>
+  <li><a href="#what-are-deposits" id="toc-what-are-deposits" class="nav-link" data-scroll-target="#what-are-deposits">1. What are deposits?</a></li>
+  <li><a href="#why-do-we-need-deposits" id="toc-why-do-we-need-deposits" class="nav-link" data-scroll-target="#why-do-we-need-deposits">2. Why do we need deposits?</a></li>
+  <li><a href="#what-is-the-risk-of-offering-deposits" id="toc-what-is-the-risk-of-offering-deposits" class="nav-link" data-scroll-target="#what-is-the-risk-of-offering-deposits">3. What is the risk of offering deposits?</a></li>
+  <li><a href="#how-can-we-prevent-such-risk" id="toc-how-can-we-prevent-such-risk" class="nav-link" data-scroll-target="#how-can-we-prevent-such-risk">4. How can we prevent such risk?</a></li>
+  <li><a href="#what-are-shadow-banks" id="toc-what-are-shadow-banks" class="nav-link" data-scroll-target="#what-are-shadow-banks">5. What are shadow banks?</a></li>
+  <li><a href="#map" id="toc-map" class="nav-link" data-scroll-target="#map">Map</a></li>
+  <li><a href="#the-value-of-deposits" id="toc-the-value-of-deposits" class="nav-link" data-scroll-target="#the-value-of-deposits">1. The Value of Deposits</a>
+  <ul class="collapse">
+  <li><a href="#what-is-a-deposit" id="toc-what-is-a-deposit" class="nav-link" data-scroll-target="#what-is-a-deposit">What is a Deposit?</a></li>
+  <li><a href="#functions-and-implications" id="toc-functions-and-implications" class="nav-link" data-scroll-target="#functions-and-implications">Functions and Implications</a></li>
+  <li><a href="#importance-of-deposits" id="toc-importance-of-deposits" class="nav-link" data-scroll-target="#importance-of-deposits">Importance of Deposits</a>
+  <ul class="collapse">
+  <li><a href="#for-banks" id="toc-for-banks" class="nav-link" data-scroll-target="#for-banks">For Banks</a></li>
+  <li><a href="#for-the-economy" id="toc-for-the-economy" class="nav-link" data-scroll-target="#for-the-economy">For the Economy</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#a-model-of-deposits" id="toc-a-model-of-deposits" class="nav-link" data-scroll-target="#a-model-of-deposits">2. A Model of Deposits</a>
+  <ul class="collapse">
+  <li><a href="#economic-intuition" id="toc-economic-intuition" class="nav-link" data-scroll-target="#economic-intuition">Economic Intuition</a></li>
+  <li><a href="#the-environment" id="toc-the-environment" class="nav-link" data-scroll-target="#the-environment">The Environment</a></li>
+  <li><a href="#investment-strategies" id="toc-investment-strategies" class="nav-link" data-scroll-target="#investment-strategies">Investment Strategies</a></li>
+  <li><a href="#manufacturing-deposits" id="toc-manufacturing-deposits" class="nav-link" data-scroll-target="#manufacturing-deposits">Manufacturing Deposits</a>
+  <ul class="collapse">
+  <li><a href="#optimal-policy-for-the-bank" id="toc-optimal-policy-for-the-bank" class="nav-link" data-scroll-target="#optimal-policy-for-the-bank">Optimal Policy for the Bank</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#from-value-to-fragility" id="toc-from-value-to-fragility" class="nav-link" data-scroll-target="#from-value-to-fragility">3. From Value to Fragility</a>
+  <ul class="collapse">
+  <li><a href="#runs-and-self-fulfilling-prophecies" id="toc-runs-and-self-fulfilling-prophecies" class="nav-link" data-scroll-target="#runs-and-self-fulfilling-prophecies">Runs and Self-fulfilling Prophecies</a></li>
+  <li><a href="#when-do-late-types-run" id="toc-when-do-late-types-run" class="nav-link" data-scroll-target="#when-do-late-types-run">When Do Late Types Run?</a></li>
+  <li><a href="#from-runs-to-default" id="toc-from-runs-to-default" class="nav-link" data-scroll-target="#from-runs-to-default">From Runs to Default</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  </ul></li>
+  <li><a href="#policy-implications" id="toc-policy-implications" class="nav-link" data-scroll-target="#policy-implications">4. Policy Implications</a>
+  <ul class="collapse">
+  <li><a href="#instruments" id="toc-instruments" class="nav-link" data-scroll-target="#instruments">Instruments</a>
+  <ul class="collapse">
+  <li><a href="#public-commitment-disclosure" id="toc-public-commitment-disclosure" class="nav-link" data-scroll-target="#public-commitment-disclosure">1. Public Commitment / Disclosure</a></li>
+  <li><a href="#suspension-of-convertibility" id="toc-suspension-of-convertibility" class="nav-link" data-scroll-target="#suspension-of-convertibility">2. Suspension of Convertibility</a></li>
+  <li><a href="#lender-of-last-resort-lolr" id="toc-lender-of-last-resort-lolr" class="nav-link" data-scroll-target="#lender-of-last-resort-lolr">3. Lender of Last Resort (LOLR)</a></li>
+  <li><a href="#deposit-insurance" id="toc-deposit-insurance" class="nav-link" data-scroll-target="#deposit-insurance">4. Deposit Insurance</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#beyond-banks-shadow-banking-and-runs" id="toc-beyond-banks-shadow-banking-and-runs" class="nav-link" data-scroll-target="#beyond-banks-shadow-banking-and-runs">5. Beyond Banks: Shadow Banking and Runs</a>
+  <ul class="collapse">
+  <li><a href="#why-bank-regulation-exists" id="toc-why-bank-regulation-exists" class="nav-link" data-scroll-target="#why-bank-regulation-exists">Why Bank Regulation Exists</a></li>
+  <li><a href="#shadow-banks" id="toc-shadow-banks" class="nav-link" data-scroll-target="#shadow-banks">Shadow Banks</a></li>
+  <li><a href="#vulnerability" id="toc-vulnerability" class="nav-link" data-scroll-target="#vulnerability">Vulnerability</a></li>
+  <li><a href="#systemic-risk-link" id="toc-systemic-risk-link" class="nav-link" data-scroll-target="#systemic-risk-link">Systemic Risk Link</a></li>
+  </ul></li>
+  <li><a href="#information-runs" id="toc-information-runs" class="nav-link" data-scroll-target="#information-runs">6. Information &amp; Runs</a></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Deposits</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="key-questions" class="level2">
+<h2 class="anchored" data-anchor-id="key-questions">5 Key Questions</h2>
+</section>
+<section id="what-are-deposits" class="level2">
+<h2 class="anchored" data-anchor-id="what-are-deposits">1. What are deposits?</h2>
+</section>
+<section id="why-do-we-need-deposits" class="level2">
+<h2 class="anchored" data-anchor-id="why-do-we-need-deposits">2. Why do we need deposits?</h2>
+</section>
+<section id="what-is-the-risk-of-offering-deposits" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-the-risk-of-offering-deposits">3. What is the risk of offering deposits?</h2>
+</section>
+<section id="how-can-we-prevent-such-risk" class="level2">
+<h2 class="anchored" data-anchor-id="how-can-we-prevent-such-risk">4. How can we prevent such risk?</h2>
+</section>
+<section id="what-are-shadow-banks" class="level2">
+<h2 class="anchored" data-anchor-id="what-are-shadow-banks">5. What are shadow banks?</h2>
+</section>
+<section id="map" class="level1">
+<h1>Map</h1>
+<ol type="1">
+<li>Value of Deposits</li>
+<li>A Model of Deposits</li>
+<li>The Fragility of Deposits</li>
+<li>Policy Implications</li>
+<li>Shadow Banks</li>
+<li>Information and Runs</li>
+</ol>
+</section>
+<section id="the-value-of-deposits" class="level1">
+<h1>1. The Value of Deposits</h1>
+<section id="what-is-a-deposit" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-a-deposit">What is a Deposit?</h2>
+<ul>
+<li>Funds placed by customers at a bank</li>
+<li>Bank liability, withdrawable <strong>on demand</strong></li>
+<li>Earns an <strong>interest rate</strong> for the depositor</li>
+<li>Forms part of the <strong>money supply</strong> (means of payment)</li>
+</ul>
+</section>
+<section id="functions-and-implications" class="level2">
+<h2 class="anchored" data-anchor-id="functions-and-implications">Functions and Implications</h2>
+<ul>
+<li><strong>Liquidity creation</strong>: Banks hold <strong>illiquid loans/assets</strong> but issue <strong>liquid deposits</strong>.
+<ul>
+<li><strong>Shortest-maturity liability</strong> in the system</li>
+<li><strong>Only banks</strong> (and bank-like entities) issue them at scale → <em>unique service</em>.</li>
+</ul></li>
+<li><strong>Payment function</strong>: Deposits are directly usable for transfers and settlements.<br>
+</li>
+<li><strong>Fragility</strong>: Most <strong>runnable</strong> liability → central to <strong>banking crises</strong>.
+<ul>
+<li><strong>Regulatory core</strong>: Special protections (deposit insurance, prudential rules).</li>
+</ul></li>
+</ul>
+<center>
+<p>Deposits are the <b>defining liability of banks</b></p>
+</center></section>
+<section id="importance-of-deposits" class="level2">
+<h2 class="anchored" data-anchor-id="importance-of-deposits">Importance of Deposits</h2>
+<p>Deposits are not just cheap funding — they are the <strong>core of money, payments, and stability</strong> in modern economies.</p>
+<section id="for-banks" class="level3">
+<h3 class="anchored" data-anchor-id="for-banks">For Banks</h3>
+<ul>
+<li><strong>Main funding source</strong>:
+<ul>
+<li>In most banking systems, <strong>50–70% of bank liabilities are deposits</strong>.<br>
+</li>
+<li>Example: euro area banks in 2022 relied on <strong>~55% deposits</strong> for total funding (ECB, 2023).<br>
+</li>
+</ul></li>
+<li><strong>Lower cost of funds</strong>: Deposit rates typically below wholesale funding rates → key driver of net interest margin (BIS, 2022).<br>
+</li>
+<li><strong>Stability</strong>: Retail deposits are more “sticky” than wholesale markets, providing resilience in crises (Gatev &amp; Strahan, 2006).<br>
+</li>
+<li><strong>Crisis evidence</strong>: Banks with larger deposit bases were more stable in 2008 vs.&nbsp;wholesale-funded banks (Huang &amp; Ratnovski, 2011).</li>
+</ul>
+</section>
+<section id="for-the-economy" class="level3">
+<h3 class="anchored" data-anchor-id="for-the-economy">For the Economy</h3>
+<ul>
+<li><strong>Money supply backbone</strong>: Deposits are the dominant form of broad money.
+<ul>
+<li>In the euro area, about <strong>85% of the total stock of money</strong> in the economy consists of bank deposits (ECB, Statistical Data Warehouse, 2023)</li>
+</ul></li>
+<li><strong>Payment system</strong>: Deposits are the medium of most electronic payments and transfers.<br>
+</li>
+<li><strong>Monetary policy transmission</strong>: Deposit and lending rates are the key channels for central bank rate changes (Bernanke &amp; Blinder, 1992).<br>
+</li>
+<li><strong>Financial stability</strong>: Deposit runs have repeatedly triggered systemic crises (Calomiris &amp; Gorton, 1991; Shin, 2009; Federal Reserve Board, 2023 on SVB).</li>
+</ul>
+</section>
+</section>
+</section>
+<section id="a-model-of-deposits" class="level1">
+<h1>2. A Model of Deposits</h1>
+<p><strong>Diamond and Dybvig (1983)</strong> introduced a simple model of deposit contracts. &gt;10k citations; foundation for <strong>Nobel Prize (2022)</strong> in part (Diamond, Dybvig, Bernanke).</p>
+<p>The model explains <strong>why banks exist</strong> and <strong>why they are fragile</strong>.</p>
+<p><strong>Key insight</strong> - <code>incomplete information</code>: Because depositors don’t know when they’ll need money, banks provide an insurance: anyone can withdraw on demand. - Drawback: if depositors expect others to withdraw, they will rush to withdraw too → a <strong>self-fulfilling bank run</strong>. - Bank runs cause real economic damage because banks are forced to sell assets early at a loss.</p>
+<p><strong>Paper impact</strong> - It gave economists and policymakers a formal model showing that bank runs are not just random accidents, but a natural outcome of how banks work. - It explained the importance of <strong>deposit insurance</strong> and <strong>lenders of last resort</strong> - It shaped modern banking regulation and is one of the main reasons almost all countries insure deposits today.</p>
+<section id="economic-intuition" class="level2">
+<h2 class="anchored" data-anchor-id="economic-intuition">Economic Intuition</h2>
+<ul>
+<li>Investors face <strong>idiosyncratic, privately observed</strong> timing shocks (early vs late consumption).</li>
+<li>Markets alone can’t insure this (information is private).</li>
+<li><strong>Banks pool liquidity</strong> and offer a simple contract (demand deposits) that beats autarky/exchange.</li>
+<li>Downside: <strong>multiple equilibria</strong> including self-fulfilling runs.</li>
+</ul>
+</section>
+<section id="the-environment" class="level2">
+<h2 class="anchored" data-anchor-id="the-environment">The Environment</h2>
+<p>Three dates: <span class="math inline">\(T=0,1,2\)</span>.</p>
+<p>One <strong>illiquid asset</strong>: - <strong>Invest</strong> 1 unit at <span class="math inline">\(T=0\)</span>. - If <strong>liquidated</strong> early at <span class="math inline">\(T=1\)</span>: gross return <span class="math inline">\(1\)</span>. - If <strong>held to maturity</strong> at <span class="math inline">\(T=2\)</span>: gross return <span class="math inline">\(R&gt;1\)</span>. - Alternative <strong>storage technology</strong> (perfectly liquid): - Returns <strong>1</strong> at both dates.</p>
+<p><strong>Preferences &amp; Types</strong></p>
+<p>Investors are <strong>risk-averse</strong>: - Utility function <span class="math inline">\(U(c)\)</span> with <span class="math inline">\(U’’(c) &lt; 0 \quad \text{for all } c\)</span> (concave). - Example: <span class="math inline">\(U(c)=1-\frac{1}{c}\)</span></p>
+<p>There are <strong>two types</strong> of investors. - <code>Type 1</code> are <strong>early</strong> consumers: need to liquidate asset at <span class="math inline">\(T=1\)</span> - <code>Type 2</code> are <strong>late</strong> consumers: can liquidate asset at <span class="math inline">\(T=2\)</span></p>
+<p><strong>Expected utility</strong>:</p>
+<p>Let <span class="math inline">\(t\)</span> be the prob. of <code>Type 1</code>; <span class="math inline">\(1-t\)</span> be the prob. of <code>Type 2</code>.</p>
+<p>At <span class="math inline">\(T=0\)</span>, investors do not know their types (→ <code>incomplete information</code>):</p>
+<p><span class="math display">\[
+  \mathbb{E}[U] =  t\,U(c_1)+(1-t)\,U(c_2).
+  \]</span></p>
+</section>
+<section id="investment-strategies" class="level2">
+<h2 class="anchored" data-anchor-id="investment-strategies">Investment Strategies</h2>
+<p><u><strong>Without banks</strong></u> (Pure market allocation)</p>
+<p>Two “pure” investments: - <strong>Storage</strong>: <span class="math inline">\((1,1)\)</span> <code>autarky</code> - <strong>Illiquid asset</strong>: <span class="math inline">\((1,R)\)</span> (if not liquidated) <code>market</code></p>
+<p><u><strong>With banks</strong></u></p>
+<p><strong>Deposit contract</strong>: promise depositors <span class="math inline">\((r_1,r_2)\)</span> with <span class="math inline">\(r_1&lt;r_2\)</span>, where: - <code>Type 1</code> withdraws at <span class="math inline">\(T=1\)</span> → <span class="math inline">\(r_1\)</span> - <code>Type 2</code> waits to <span class="math inline">\(T=2\)</span> → <span class="math inline">\(r_2\)</span></p>
+<center>
+<u><b>Goal</b></u>: show that <b>bank deposits</b> offer superior option to <b>autarky</b> and <b>market</b>
+</center>
+<p>→ Implement <span class="math inline">\((r_1,r_2)\)</span> that <strong>Pareto-dominates</strong> market alternatives when <span class="math inline">\(1&lt;r_1&lt;r_2&lt;R\)</span>.</p>
+<ul>
+<li><strong>Risk-aversion</strong>: investors prefer <span class="math inline">\((r_1,r_2)\)</span> over <span class="math inline">\((1,R)\)</span> and <span class="math inline">\((1,1)\)</span></li>
+</ul>
+</section>
+<section id="manufacturing-deposits" class="level2">
+<h2 class="anchored" data-anchor-id="manufacturing-deposits">Manufacturing Deposits</h2>
+<p>Let <span class="math inline">\(N\)</span> investors deposit 1 each in the bank at <span class="math inline">\(T=0\)</span> → Bank invests <span class="math inline">\(N\)</span> into the illiquid asset.</p>
+<p>At <span class="math inline">\(T=1\)</span>: fraction <span class="math inline">\(t\)</span> withdraw; bank must repay <span class="math inline">\(r_1Nt\)</span>. - Liquidates fraction to raise <strong>1</strong> per unit. - Remaining position: <span class="math inline">\(N - r_1Nt = N(1 - r_1 t)\)</span>.</p>
+<p>At <span class="math inline">\(T=2\)</span>: remaining assets return <span class="math inline">\(R\)</span>. - Resources: <span class="math inline">\(R\,N(1 - r_1 t)\)</span>. - Must repay late withdrawals: <span class="math inline">\(r_2N(1-t)\)</span>.</p>
+<p><strong>Feasibility</strong>:</p>
+<p><span class="math display">\[r_2N(1-t) \le R\,(N - r_1Nt)\\
+\leftrightarrow \\
+r_2 \le \frac{R\,(1 - r_1 t)}{1-t},\quad \text{with } 1&lt;r_1&lt;r_2&lt;R.
+\]</span></p>
+<section id="optimal-policy-for-the-bank" class="level3">
+<h3 class="anchored" data-anchor-id="optimal-policy-for-the-bank">Optimal Policy for the Bank</h3>
+<p>Find the optimal risk sharing across dates:</p>
+<p><span class="math display">\[
+\max_{r_1,r_2} \; tU(r_1)+(1-t)U(r_2)
+\]</span> Subject to <u>feasibility constrain</u>: $ 0 ; 1 - t r_1 - r_2 ;$</p>
+<p><strong>Analysis</strong></p>
+<ul>
+<li><p>Set up the Lagrangian: <span class="math display">\[ \mathcal{L} = tU(r_1) + (1-t)U(r_2) + \lambda\Big(1 - t r_1 - \frac{1-t}{R}r_2 \Big)\]</span></p></li>
+<li><p>Differentiate w.r.t. <span class="math inline">\(r_1\)</span>: <span class="math inline">\(\frac{\partial \mathcal{L}}{\partial r_1} = tU’(r_1) - \lambda t = 0
+\quad \Rightarrow \quad U’(r_1) = \lambda.\)</span></p></li>
+<li><p>Differentiate w.r.t. <span class="math inline">\(r_2\)</span>: <span class="math inline">\(\frac{\partial \mathcal{L}}{\partial r_2} = (1-t)U’(r_2) - \lambda\frac{1-t}{R} = 0
+\quad \Rightarrow \quad U’(r_2) = \frac{\lambda}{R}.\)</span></p></li>
+</ul>
+<p><strong>Result</strong></p>
+<p><strong>Optimal policy</strong> → chose <span class="math inline">\((r_1,r_2)\)</span> such that: <span class="math display">\[
+\boxed{U'(r_1) \;=\; R\,U'(r_2)}
+\]</span></p>
+<p><strong>Intuition</strong></p>
+<p>A marginal unit consumed early costs <strong><span class="math inline">\(R\)</span></strong> units late → equate <strong>marginal utilities</strong> adjusted by <strong>opportunity cost</strong>.</p>
+<p><strong>Implication</strong></p>
+If the bank offers such <span class="math inline">\((r^*_1,r^*_2)\)</span>, then offer superior to the market and all investors chose the bank
+<center>
+→<b>Liquidity creation through pooling and insurance!</b>
+</center>
+</section>
+</section>
+</section>
+<section id="from-value-to-fragility" class="level1">
+<h1>3. From Value to Fragility</h1>
+<p><strong>Value Created</strong></p>
+<p>The model shows that - Deposit contracts optimally <strong>share risk</strong> between early and late consumers.<br>
+- They provide <strong>liquidity insurance</strong> and improve welfare compared to market allocations.<br>
+- <strong>Why banks exist</strong>: they create value by transforming illiquid assets into liquid deposits.</p>
+<p><strong>… But fragility emerges</strong> - This solution relies on <strong>beliefs about withdrawals</strong>.<br>
+- If everyone withdraws as expected (only true early types), the contract works perfectly.<br>
+- But if depositors <strong>fear others may run</strong>, they may rush to withdraw too (<strong>self-fulfilling prophecies</strong>)</p>
+<p><strong>Key:</strong> The very feature that makes deposits valuable (liquidity on demand) also makes them <strong>fragile</strong>.</p>
+<section id="runs-and-self-fulfilling-prophecies" class="level2">
+<h2 class="anchored" data-anchor-id="runs-and-self-fulfilling-prophecies">Runs and Self-fulfilling Prophecies</h2>
+<p><strong>Expectations</strong></p>
+<p>Let <span class="math inline">\(f\)</span> be the <strong>actual fraction withdrawing</strong> at <span class="math inline">\(T=1\)</span>.<br>
+Let <span class="math inline">\(\hat f\)</span> be the <strong>depositors’ expectation</strong> of <span class="math inline">\(f\)</span>.</p>
+<ul>
+<li>If everyone expects only <code>Type 1</code> withdraw <span class="math inline">\((\hat f = t)\)</span>, the <strong>good equilibrium</strong> is feasible.</li>
+<li>If <span class="math inline">\(\hat f\)</span> is high, <code>Type 2</code> may fear there won’t be enough left at <span class="math inline">\(T=2\)</span> and <strong>withdraw early</strong>, making <span class="math inline">\(f\)</span> rise → <strong>self-fulfilling run</strong>.</li>
+</ul>
+</section>
+<section id="when-do-late-types-run" class="level2">
+<h2 class="anchored" data-anchor-id="when-do-late-types-run">When Do Late Types Run?</h2>
+<p><code>Type 2</code> compares: - <strong>Wait</strong>: receive <span class="math inline">\(r_2(f)\)</span> at <span class="math inline">\(T=2\)</span> (declines with <span class="math inline">\(f\)</span>). - <strong>Run</strong>: receive <span class="math inline">\(r_1\)</span> at <span class="math inline">\(T=1\)</span>.</p>
+<p><strong>Run condition</strong>: <span class="math display">\[
+r_2(\hat f)\;&lt;\; r_1.
+\]</span></p>
+<p><strong>Run threshold</strong>: <span class="math inline">\(\hat f^*\)</span></p>
+<p>If <span class="math inline">\(\hat f&gt;\hat f^*\)</span> → <strong>run equilibrium</strong>.</p>
+<ol type="1">
+<li>Use the feasibility relation: <span class="math inline">\(r_2(f)=\frac{R\,(1-r_1 f)}{1-f}\)</span></li>
+<li>Set <span class="math inline">\(r_2(\hat f^*) = r_1\)</span> and solve for <span class="math inline">\(\hat f^*\)</span>:</li>
+</ol>
+<p><span class="math display">\[r_1=\frac{R(1-r_1 \hat f^*)}{1-\hat f^*}\]</span></p>
+<ol start="3" type="1">
+<li>Multiply both sides by <span class="math inline">\(1-\hat f^*\)</span>:</li>
+</ol>
+<p><span class="math display">\[r_1(1-\hat f^*)=R(1-r_1 \hat f^*)\]</span></p>
+<ol start="4" type="1">
+<li>Isolate <span class="math inline">\(\hat f^*\)</span>:</li>
+</ol>
+<p><span class="math display">\[\boxed{\;\hat f^* \;=\; \frac{R - r_1}{\,r_1\,(R-1)\,}\;}\]</span></p>
+<p><strong>Interpretation</strong></p>
+<p>If depositors expect more than <span class="math inline">\(\hat f^*\)</span> of investors to withdraw early, late types will prefer to withdraw too. This is an <strong>expectations-driven fragility</strong> threshold.</p>
+</section>
+<section id="from-runs-to-default" class="level2">
+<h2 class="anchored" data-anchor-id="from-runs-to-default">From Runs to Default</h2>
+<p>Bank fails at <span class="math inline">\(T=1\)</span> if cash demand exceeds what can be raised by early liquidation:</p>
+<p><span class="math display">\[
+r_1\,f\,N \;&gt;\; N \quad \Longleftrightarrow \quad f &gt; \frac{1}{r_1}.
+\]</span></p>
+<p><strong>Interpretation</strong></p>
+<p>If the actual fraction of withdrawals <span class="math inline">\(f\)</span> exceeds <span class="math inline">\(1/r_1\)</span>, the bank literally runs out of cash (<strong>defaults</strong>). This is a <strong>mechanical solvency threshold</strong>.</p>
+</section>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 52%">
+<col style="width: 26%">
+<col style="width: 21%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Threshold Comparison</th>
+<th>Condition</th>
+<th>Outcome</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Run threshold</strong> <span class="math inline">\(\hat f^*\)</span></td>
+<td><span class="math inline">\(\hat f \leq \hat f^*\)</span></td>
+<td>Only true early types withdraw → <strong>Good equilibrium</strong></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><span class="math inline">\(\hat f &gt; \hat f^*\)</span></td>
+<td>Late types also withdraw → <strong>Bad equilibrium (run)</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>Insolvency threshold</strong> <span class="math inline">\(1/r_1\)</span></td>
+<td><span class="math inline">\(f \leq 1/r_1\)</span></td>
+<td>Bank can still meet obligations (but inefficient liquidation)</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><span class="math inline">\(f &gt; 1/r_1\)</span></td>
+<td>Bank becomes <strong>insolvent and fails</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Cases</strong> - If <span class="math inline">\(f = t\)</span>: no problem, bank works as intended. - If <span class="math inline">\(\hat f^* &lt; f &lt; 1/r_1\)</span>: bank is still able to meet withdrawals, but value is destroyed by early liquidation → <strong>inefficient run</strong>. - If <span class="math inline">\(f \geq 1/r_1\)</span>: bank defaults because late types run, pushing withdrawals beyond what can be funded.</p>
+</section>
+</section>
+<section id="policy-implications" class="level1">
+<h1>4. Policy Implications</h1>
+<p><strong>“Feature, Not a Bug”</strong></p>
+<ul>
+<li><strong>Value</strong>: deposits <strong>insure</strong> private liquidity shocks and improve risk sharing.</li>
+<li><strong>Cost</strong>: admit a <strong>bad equilibrium</strong> (run) due to <strong>information frictions</strong> (private types) and <strong>coordination</strong>.</li>
+</ul>
+<center>
+How to mitigate the cost while enabling the value proprosition?
+</center>
+<section id="instruments" class="level2">
+<h2 class="anchored" data-anchor-id="instruments">Instruments</h2>
+<ol type="1">
+<li><strong>Public Commitment/Disclosure</strong></li>
+<li><strong>Suspension of convertibility</strong></li>
+<li><strong>Lender of last resort (LOLR)</strong></li>
+<li><strong>Deposit insurance</strong></li>
+</ol>
+<section id="public-commitment-disclosure" class="level3">
+<h3 class="anchored" data-anchor-id="public-commitment-disclosure">1. Public Commitment / Disclosure</h3>
+<ul>
+<li><strong>Idea</strong>: Use information policy to anchor beliefs <span class="math inline">\(\hat f\)</span> on the good equilibrium.<br>
+</li>
+<li><strong>Mechanism</strong>: Transparent disclosure of solvency, liquidity, and guarantees.<br>
+</li>
+<li><strong>Upside</strong>: Low-cost if credible; can prevent panic without direct intervention.<br>
+</li>
+<li><strong>Downside</strong>: Credibility is fragile — if information is delayed, partial, or mistrusted, it may backfire.<br>
+</li>
+<li><strong>Example</strong>: Central bank announcements during 2008 and 2023 crises (e.g., Fed’s joint statement on SVB deposit guarantees).</li>
+</ul>
+</section>
+<section id="suspension-of-convertibility" class="level3">
+<h3 class="anchored" data-anchor-id="suspension-of-convertibility">2. Suspension of Convertibility</h3>
+<ul>
+<li><strong>Idea</strong>: Temporarily freeze withdrawals, forcing all depositors to wait.<br>
+</li>
+<li><strong>Mechanism</strong>: Breaks the run dynamic since <span class="math inline">\(f\)</span> is fixed regardless of beliefs <span class="math inline">\(\hat f\)</span>.<br>
+</li>
+<li><strong>Upside</strong>: Stops panic instantly.<br>
+</li>
+<li><strong>Downside</strong>: Very costly → disrupts payments, destroys trust, can trigger broader panic.<br>
+</li>
+<li><strong>Historical use</strong>: 19th century U.S. banks and Argentina’s “corralito” in 2001.</li>
+</ul>
+</section>
+<section id="lender-of-last-resort-lolr" class="level3">
+<h3 class="anchored" data-anchor-id="lender-of-last-resort-lolr">3. Lender of Last Resort (LOLR)</h3>
+<ul>
+<li><strong>Idea</strong>: Central bank provides emergency liquidity when banks face sudden outflows.<br>
+</li>
+<li><strong>Mechanism</strong>: By lending against <strong>good collateral</strong>, the central bank substitutes for deposits that run away.<br>
+</li>
+<li><strong>Upside</strong>: Stabilizes funding without guaranteeing all deposits.<br>
+</li>
+<li><strong>Downside</strong>: Risk of lending to insolvent banks (“bailouts”); stigma can deter use.<br>
+</li>
+<li><strong>Example</strong>: Bank of England in 19th century (“Bagehot’s rule” — lend freely, against good collateral, at a penalty rate).</li>
+</ul>
+</section>
+<section id="deposit-insurance" class="level3">
+<h3 class="anchored" data-anchor-id="deposit-insurance">4. Deposit Insurance</h3>
+<ul>
+<li><strong>Idea</strong>: Government (or guarantee scheme) promises to repay depositors even if the bank fails.
+<ul>
+<li>Eligibility for such insurance is the definition of banking</li>
+</ul></li>
+<li><strong>Mechanism</strong>: Eliminates the late-type incentive to withdraw early → removes the bad equilibrium.<br>
+</li>
+<li><strong>Upside</strong>: Restores depositor confidence; cornerstone of modern banking systems.<br>
+</li>
+<li><strong>Downside</strong>: Creates <strong>moral hazard</strong> — banks and depositors may take more risk knowing deposits are guaranteed.<br>
+</li>
+<li><strong>Example</strong>: FDIC created in the U.S. in 1933 after widespread bank runs.</li>
+</ul>
+</section>
+</section>
+</section>
+<section id="beyond-banks-shadow-banking-and-runs" class="level1">
+<h1>5. Beyond Banks: Shadow Banking and Runs</h1>
+<section id="why-bank-regulation-exists" class="level2">
+<h2 class="anchored" data-anchor-id="why-bank-regulation-exists">Why Bank Regulation Exists</h2>
+<ul>
+<li>Classic banks issue <strong>demand deposits</strong>: short-term, liquid, withdrawable at par.<br>
+</li>
+<li>Because these liabilities are <strong>runnable</strong>, regulation is needed:
+<ul>
+<li><strong>Deposit insurance</strong><br>
+</li>
+<li><strong>Prudential oversight</strong><br>
+</li>
+<li><strong>Central bank support (LOLR)</strong></li>
+</ul></li>
+</ul>
+</section>
+<section id="shadow-banks" class="level2">
+<h2 class="anchored" data-anchor-id="shadow-banks">Shadow Banks</h2>
+<ul>
+<li>Financial institutions outside traditional banking system.<br>
+</li>
+<li>Examples: money market funds, structured investment vehicles (SIVs), repo dealers, stablecoin issuers.<br>
+</li>
+<li>Issue <strong>short-term liabilities</strong> (shares, repo contracts, tokens) that function like deposits:
+<ul>
+<li><strong>Redeemable on demand</strong><br>
+</li>
+<li>Promise a stable value<br>
+</li>
+<li>Backed by longer-term or opaque assets</li>
+</ul></li>
+</ul>
+</section>
+<section id="vulnerability" class="level2">
+<h2 class="anchored" data-anchor-id="vulnerability">Vulnerability</h2>
+<ul>
+<li>Same liquidity mismatch: short-term liabilities vs long-term assets.<br>
+</li>
+<li><strong>Runnable</strong> just like deposits.<br>
+</li>
+<li><strong>Key difference</strong>: no <strong>deposit insurance</strong> or direct central bank guarantee.<br>
+</li>
+<li>Policy gap: when runs occur, systemic risk can spread through the financial system.</li>
+</ul>
+</section>
+<section id="systemic-risk-link" class="level2">
+<h2 class="anchored" data-anchor-id="systemic-risk-link">Systemic Risk Link</h2>
+<ul>
+<li>Shadow banks are often <strong>interconnected with regulated banks</strong>:
+<ul>
+<li>Banks fund them (e.g., repo, credit lines).<br>
+</li>
+<li>Banks hold their liabilities (e.g., money market fund shares).<br>
+</li>
+</ul></li>
+<li>Runs in shadow banking can therefore destabilize banks.<br>
+</li>
+<li><strong>2008 evidence</strong>:
+<ul>
+<li>Run on money market funds (Reserve Primary Fund “broke the buck”).<br>
+</li>
+<li>Repo market freeze amplified bank funding crisis.</li>
+</ul></li>
+</ul>
+<blockquote class="blockquote">
+<p><strong>Insight:</strong> Deposit services are the reason banks are regulated.<br>
+Shadow banks perform <em>bank-like functions</em> without protections → systemic vulnerability.</p>
+</blockquote>
+</section>
+</section>
+<section id="information-runs" class="level1">
+<h1>6. Information &amp; Runs</h1>
+<p><strong>Silent Runs</strong></p>
+<ul>
+<li><strong>Idea</strong>: large outflows without visible queues (institutional/wholesale/online).</li>
+<li><strong>Implication</strong>: absence of lines ≠ stability; need <strong>real-time flow</strong> monitoring.</li>
+</ul>
+<p><strong>Social-Media Amplification</strong></p>
+<ul>
+<li>Expectations <span class="math inline">\(\hat f\)</span> form <strong>faster</strong>; common knowledge spreads <strong>virally</strong>.</li>
+<li><strong>Result</strong>: intervention window collapses; communications policy is pivotal.</li>
+</ul>
+<p><strong>Digital Assets &amp; Stablecoins</strong></p>
+<ul>
+<li>Stablecoins mimic deposit contracts: <strong>liquid redemption</strong> vs <strong>opaque/illiquid reserves</strong>.</li>
+<li>Same logic: liquidity mismatch + unverifiable backing → <strong>redemption runs</strong>.</li>
+</ul>
+<p><strong>Currency &amp; Cross-Border Deposits</strong></p>
+<ul>
+<li>FX expectations interact with run risk (e.g., fear of devaluation).</li>
+<li>Policy levers include convertibility limits and capital controls (costly).</li>
+</ul>
+<p><strong>Regulators vs Depositors: Info Gaps</strong></p>
+<ul>
+<li><strong>Depositors</strong> act on noisy/partial info; <strong>regulators</strong> have better data but communicate with <strong>lags</strong>.</li>
+<li>Credible, timely disclosure can anchor <span class="math inline">\(\hat f\)</span> to <span class="math inline">\(t\)</span>.</li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/trkrkn\.github\.io\/mbft\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
