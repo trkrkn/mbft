@@ -138,7 +138,10 @@ window.Quarto = {
     <a class="dropdown-item" href="../../lectures/lecture_01/lecture_01.html">
  <span class="dropdown-text">Lecture 01 - Modern Banking pt.&nbsp;1</span></a>
   </li>  
-        <li class="dropdown-header">Lecture 02 - Modern Banking pt.&nbsp;2</li>
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_02/lecture_02.html">
+ <span class="dropdown-text">Lecture 02 - Modern Banking pt.&nbsp;2</span></a>
+  </li>  
         <li class="dropdown-header">Lecture 03 - Modern Banking pt.&nbsp;3</li>
         <li class="dropdown-header">Lecture 04 - Modern Banking pt.&nbsp;4</li>
         <li class="dropdown-header">Lecture 05 - Modern Banking pt.&nbsp;5</li>
@@ -804,7 +807,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/trkrkn\.github\.io\/mbft\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

@@ -15,9 +15,9 @@ website:
         menu:
           - href: 'lectures/lecture_01/lecture_01.qmd'
             text: Lecture 01 - Modern Banking pt. 1 
-          - href: ''
+          - href: 'lectures/lecture_02/lecture_02.qmd'
             text: Lecture 02 - Modern Banking pt. 2 
-          - href: ''
+          - href: 'lectures/lecture_03/lecture_03.qmd'
             text: Lecture 03 - Modern Banking pt. 3
           - href: ''
             text: Lecture 04 - Modern Banking pt. 4 
@@ -35,6 +35,8 @@ website:
             text: Lecture 10 - Crypto pt. 1
           - href: ''
             text: Lecture 11 - Crypto pt. 2
+      - href: 'https://app.alldayta.com/katholieke-universiteit-leuven/mbft'
+        text: All Day TA (**new**)
 
 format:
   html:

@@ -1,0 +1,93 @@
+---
+title: "Lecture 02"
+---
+## Deposits
+**Page**: [HTML](04_deposits.html){target=_blank}
+
+**Slides**:
+[Reveal.js](04_deposits.slides.html){target=_blank}
+[PDF](04_deposits.slides.pdf){target=_blank}
+
+### Recordings
+#### 0. Intro
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    src="https://drive.google.com/file/d/1iBbSygy9qH9uiOZHs199cRWX5b6Ql_EC/preview"
+    frameborder="0"
+    allowfullscreen
+    style="position: absolute; top:0; left:0; width:100%; height:100%;">
+  </iframe>
+</div>
+
+#### 1. The Value of Deposits
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    src="https://drive.google.com/file/d/1EZvqTZW5Cslkud5fhpmghd0Qp752uoGD/preview"
+    frameborder="0"
+    allowfullscreen
+    style="position: absolute; top:0; left:0; width:100%; height:100%;">
+  </iframe>
+</div>
+
+#### 2. A Model of Deposits
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    src="https://drive.google.com/file/d/1ThzIJoEaUGtHl-YpWhxYZnvwHhOy3WMm/preview"
+    frameborder="0"
+    allowfullscreen
+    style="position: absolute; top:0; left:0; width:100%; height:100%;">
+  </iframe>
+</div>
+
+#### 3. From Value to Fragility
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    src="https://drive.google.com/file/d/1cPdPe3rudyc0RB5Xnp8gfN_Hvakj6w-i/preview"
+    frameborder="0"
+    allowfullscreen
+    style="position: absolute; top:0; left:0; width:100%; height:100%;">
+  </iframe>
+</div>
+
+#### 4. Policy Implications
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    src="https://drive.google.com/file/d/1RGWmLwMchA0zodZoszclHB33zxrMvhqy/preview"
+    frameborder="0"
+    allowfullscreen
+    style="position: absolute; top:0; left:0; width:100%; height:100%;">
+  </iframe>
+</div>
+
+
+#### 5. Shadow Banking and Runs
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    src="https://drive.google.com/file/d/1eC2jLbXmqtDgTc-0vDvvQ7qAW6OsG75g/preview"
+    frameborder="0"
+    allowfullscreen
+    style="position: absolute; top:0; left:0; width:100%; height:100%;">
+  </iframe>
+</div>
+
+#### 6. Information and Runs
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    src="https://drive.google.com/file/d/11lzaiG7AeAXsWm4GU9d0E1md63szXvCf/preview"
+    frameborder="0"
+    allowfullscreen
+    style="position: absolute; top:0; left:0; width:100%; height:100%;">
+  </iframe>
+</div>
+
+---
+# References
+{{< include references_deposit.md >}}
+

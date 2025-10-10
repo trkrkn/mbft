@@ -138,7 +138,10 @@ window.Quarto = {
     <a class="dropdown-item" href="../../lectures/lecture_01/lecture_01.html">
  <span class="dropdown-text">Lecture 01 - Modern Banking pt.&nbsp;1</span></a>
   </li>  
-        <li class="dropdown-header">Lecture 02 - Modern Banking pt.&nbsp;2</li>
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_02/lecture_02.html">
+ <span class="dropdown-text">Lecture 02 - Modern Banking pt.&nbsp;2</span></a>
+  </li>  
         <li class="dropdown-header">Lecture 03 - Modern Banking pt.&nbsp;3</li>
         <li class="dropdown-header">Lecture 04 - Modern Banking pt.&nbsp;4</li>
         <li class="dropdown-header">Lecture 05 - Modern Banking pt.&nbsp;5</li>
@@ -196,8 +199,6 @@ window.Quarto = {
   </ul></li>
   <li><a href="#credit-cards" id="toc-credit-cards" class="nav-link" data-scroll-target="#credit-cards">Credit Cards</a>
   <ul class="collapse">
-  <li><a href="#advantages-of-credit-cards" id="toc-advantages-of-credit-cards" class="nav-link" data-scroll-target="#advantages-of-credit-cards">Advantages of Credit Cards</a></li>
-  <li><a href="#challenges-and-risks" id="toc-challenges-and-risks" class="nav-link" data-scroll-target="#challenges-and-risks">Challenges and Risks</a></li>
   <li><a href="#key-players-in-credit-card-payments" id="toc-key-players-in-credit-card-payments" class="nav-link" data-scroll-target="#key-players-in-credit-card-payments">Key Players in Credit Card Payments</a></li>
   <li><a href="#steps-in-a-credit-card-payment" id="toc-steps-in-a-credit-card-payment" class="nav-link" data-scroll-target="#steps-in-a-credit-card-payment">Steps in a Credit Card Payment</a></li>
   <li><a href="#open-vs.-closed-loop-systems" id="toc-open-vs.-closed-loop-systems" class="nav-link" data-scroll-target="#open-vs.-closed-loop-systems">Open vs.&nbsp;Closed Loop Systems</a></li>
@@ -205,12 +206,13 @@ window.Quarto = {
   </ul></li>
   <li><a href="#a-model-of-payments" id="toc-a-model-of-payments" class="nav-link" data-scroll-target="#a-model-of-payments">3. A Model of Payments</a>
   <ul class="collapse">
-  <li><a href="#economics-of-payment-platforms" id="toc-economics-of-payment-platforms" class="nav-link" data-scroll-target="#economics-of-payment-platforms">Economics of Payment Platforms</a></li>
-  <li><a href="#rochet-tiroles-framework" id="toc-rochet-tiroles-framework" class="nav-link" data-scroll-target="#rochet-tiroles-framework">Rochet &amp; Tirole’s Framework</a>
+  <li><a href="#economics-of-payment-platforms" id="toc-economics-of-payment-platforms" class="nav-link" data-scroll-target="#economics-of-payment-platforms">Economics of Payment Platforms</a>
   <ul class="collapse">
-  <li><a href="#equilibrium-price" id="toc-equilibrium-price" class="nav-link" data-scroll-target="#equilibrium-price">Equilibrium price</a></li>
-  <li><a href="#the-balancing-principle" id="toc-the-balancing-principle" class="nav-link" data-scroll-target="#the-balancing-principle">The Balancing Principle</a></li>
-  <li><a href="#comparison-with-lerner-formula" id="toc-comparison-with-lerner-formula" class="nav-link" data-scroll-target="#comparison-with-lerner-formula">Comparison with Lerner Formula</a></li>
+  <li><a href="#key-ingredients" id="toc-key-ingredients" class="nav-link" data-scroll-target="#key-ingredients">2 key ingredients</a></li>
+  <li><a href="#rochet-tiroles-framework" id="toc-rochet-tiroles-framework" class="nav-link" data-scroll-target="#rochet-tiroles-framework">Rochet &amp; Tirole’s Framework</a></li>
+  <li><a href="#environment" id="toc-environment" class="nav-link" data-scroll-target="#environment">Environment</a></li>
+  <li><a href="#equilibrium" id="toc-equilibrium" class="nav-link" data-scroll-target="#equilibrium">Equilibrium</a></li>
+  <li><a href="#main-result" id="toc-main-result" class="nav-link" data-scroll-target="#main-result">Main Result</a></li>
   <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion">Discussion</a></li>
   </ul></li>
   </ul></li>
@@ -434,6 +436,9 @@ Shaped by - Technology<br>
 </section>
 <section id="backbone-of-modern-payment-systems" class="level2">
 <h2 class="anchored" data-anchor-id="backbone-of-modern-payment-systems">Backbone of Modern Payment Systems</h2>
+<center>
+<img src="figures/payment-backbone.png" width="700">
+</center>
 <p>Banks hold accounts at the <strong>central bank</strong> to enable interbank transfers (<strong>reserves</strong>) - Non-member banks can access indirectly via correspondent banks</p>
 <p><strong>Examples of central bank payment systems</strong><br>
 - Fedwire (US)<br>
@@ -511,85 +516,73 @@ RTGS and ACH are complementary<br>
 - Clearing and settlement arrangements<br>
 - Contracts and liability rules<br>
 - Creates complexity and interdependencies well beyond the buyer and seller</p>
-<section id="advantages-of-credit-cards" class="level3">
-<h3 class="anchored" data-anchor-id="advantages-of-credit-cards">Advantages of Credit Cards</h3>
-<ul>
-<li><strong>Defer payment</strong> → consumer buys now, pays later<br>
-</li>
-<li><strong>Online credentials</strong> enable e-commerce and remote transactions<br>
-</li>
-<li><strong>Global platform</strong> → accepted worldwide<br>
-</li>
-<li><strong>Cross-currency mobility</strong> → convenient for international travel and trade</li>
-</ul>
-</section>
-<section id="challenges-and-risks" class="level3">
-<h3 class="anchored" data-anchor-id="challenges-and-risks">Challenges and Risks</h3>
-<ul>
-<li>Exposure to <strong>cyber-criminality</strong><br>
-</li>
-<li><strong>Back-office costs</strong> rise with fraud monitoring and dispute resolution<br>
-</li>
-<li>Vulnerability to <strong>malware and fraudulent devices</strong> (e.g., skimmers, phishing)<br>
-</li>
-<li>Constant need for security upgrades and consumer protection measures</li>
-</ul>
-</section>
 <section id="key-players-in-credit-card-payments" class="level3">
 <h3 class="anchored" data-anchor-id="key-players-in-credit-card-payments">Key Players in Credit Card Payments</h3>
+<center>
+<img src="figures/credit-card.png" width="500">
+</center>
 <p><strong>Issuing bank</strong><br>
-- The bank that issues the credit card to the customer<br>
-- Extends credit and guarantees payment to the merchant (through the network)</p>
+- The bank that <strong>issues the credit card</strong> to the customer<br>
+- Extends <strong>credit</strong> and <strong>guarantees payment</strong> to the merchant (through the network)</p>
 <p><strong>Acquiring bank (merchant’s bank)</strong><br>
-- Provides payment services to the merchant<br>
+- Provides <strong>payment services</strong> to the merchant<br>
 - Collects authorization requests and forwards them through the network<br>
-- Ensures merchant receives funds (minus fees)</p>
+- Ensures merchant receives funds (minus <strong>fees</strong>)</p>
 <p><strong>Card network</strong><br>
 - Connects issuers and acquirers<br>
-- Routes authorization, clearing, and settlement messages<br>
+- Routes <strong>authorization, clearing, and settlement messages</strong><br>
 - Examples: Visa, Mastercard, American Express, Discover</p>
 </section>
 <section id="steps-in-a-credit-card-payment" class="level3">
 <h3 class="anchored" data-anchor-id="steps-in-a-credit-card-payment">Steps in a Credit Card Payment</h3>
 <ol type="1">
-<li><p>Authorization</p></li>
-<li><p>Authentication</p></li>
-<li><p>Clearing</p></li>
-<li><p>Settlement</p></li>
-<li><p><strong>Authorization</strong></p>
+<li>Authorization</li>
+<li>Authentication</li>
+<li>Clearing</li>
+<li>Settlement</li>
+</ol>
+<center>
+<img src="figures/credit-card-steps.png" width="400">
+</center>
+<ol type="1">
+<li><strong>Authorization</strong> &amp; <strong>Authentication</strong>
 <ul>
-<li>Cardholder presents card details to merchant<br>
+<li>Cardholder presents <strong>card details</strong> to merchant</li>
+<li><strong>Verification</strong> of cardholder identity
+<ul>
+<li>Methods: PIN, signature, 3-D Secure (e.g., SMS/biometric code for online payments)<br>
 </li>
-<li>Merchant sends request to acquiring bank → card network → issuing bank<br>
-</li>
-<li>Issuing bank checks available credit and approves or declines</li>
 </ul></li>
-<li><p><strong>Authentication</strong></p>
-<ul>
-<li>Additional verification of cardholder identity<br>
+<li>Merchant sends <strong>request</strong> to acquiring bank → card network → issuing bank<br>
 </li>
-<li>Methods: PIN, signature, 3-D Secure (e.g., SMS/biometric code for online payments)</li>
+<li>Issuing bank <strong>checks</strong> available credit and <strong>approves or declines</strong></li>
 </ul></li>
-<li><p><strong>Clearing</strong></p>
+<li><strong>Clearing</strong>
 <ul>
-<li>Transaction details transmitted through the card network<br>
+<li>Transaction <strong>details</strong> transmitted through the card network<br>
 </li>
-<li>Issuing and acquiring banks reconcile transaction records</li>
+<li>Issuing and acquiring banks <strong>reconcile transaction records</strong></li>
 </ul></li>
-<li><p><strong>Settlement</strong></p>
+<li><strong>Settlement</strong>
 <ul>
-<li>Actual transfer of funds between issuing and acquiring banks via interbank payment system<br>
+<li>Merchant <strong>receives funds</strong> (minus fees), cardholder <strong>owes</strong> issuer<br>
 </li>
-<li>Merchant receives funds (minus fees), cardholder owes issuer</li>
+<li>Actual <strong>transfer of funds</strong> between issuing and acquiring banks via interbank payment system</li>
 </ul></li>
 </ol>
 </section>
 <section id="open-vs.-closed-loop-systems" class="level3">
 <h3 class="anchored" data-anchor-id="open-vs.-closed-loop-systems">Open vs.&nbsp;Closed Loop Systems</h3>
+<center>
+<img src="figures/open-loop.png" width="400">
+</center>
 <p><strong>Open-loop systems</strong><br>
 - Involve multiple intermediaries: issuer, acquirer, card network, merchant<br>
 - Widely used global models<br>
 - Examples: <strong>Visa, Mastercard</strong></p>
+<center>
+<img src="figures/closed-loop.png" width="400">
+</center>
 <p><strong>Closed-loop systems</strong><br>
 - Issuer and network are the same entity<br>
 - Merchant often contracts directly with the card provider<br>
@@ -606,69 +599,144 @@ RTGS and ACH are complementary<br>
 <li><strong>Cardholders / consumers</strong> (paying side).</li>
 <li><strong>Merchants</strong> (receiving side).</li>
 </ul></li>
-<li>Value arises only if <strong>both sides adopt</strong> → classic <strong>two-sided market</strong> problem.</li>
+<li>Value arises only if <strong>both sides adopt</strong> → special <strong>two-sided market</strong> problem.</li>
 </ul>
+<center>
+→ Economic laws deviate from traditional settings
+</center>
 <p><strong>Central question</strong>: how should fees be set between consumers and merchants?</p>
 <section id="economics-of-payment-platforms" class="level2">
 <h2 class="anchored" data-anchor-id="economics-of-payment-platforms">Economics of Payment Platforms</h2>
+<section id="key-ingredients" class="level3">
+<h3 class="anchored" data-anchor-id="key-ingredients">2 key ingredients</h3>
 <p><strong>Network externalities:</strong> - More cardholders → more valuable for merchants. - More merchants → more valuable for cardholders.<br>
 <em>More on this in <code>Platform</code> part</em></p>
-<p><strong>Pricing structure matters more than total price:</strong> - Who pays (consumer vs merchant) influences adoption. - A card scheme must balance both sides to achieve adoption.</p>
+<p><strong>Pricing structure matters more than total price:</strong> - Who pays what (consumer vs merchant) influences adoption. - A card scheme must balance both sides to achieve adoption.</p>
 </section>
-<section id="rochet-tiroles-framework" class="level2">
-<h2 class="anchored" data-anchor-id="rochet-tiroles-framework">Rochet &amp; Tirole’s Framework</h2>
-<p>Rochet and Tirole (2003) introduced a fundemantal paper on payments which influenced the rest of the economy.</p>
-<p><strong>Model</strong> - Fees: <span class="math inline">\(f_b\)</span> (buyers) and <span class="math inline">\(f_s\)</span> (sellers). - Side-specific marginal costs: <span class="math inline">\(c_b\)</span>, <span class="math inline">\(c_s\)</span>. - Markups: - <span class="math inline">\(p_b \equiv f_b - c_b\)</span> - <span class="math inline">\(p_s \equiv f_s - c_s\)</span> - Adoption: - <span class="math inline">\(n_b = n_b(f_b)\)</span> with <span class="math inline">\(n_b’&lt;0\)</span> - <span class="math inline">\(n_s = n_s(f_s)\)</span> with <span class="math inline">\(n_s’&lt;0\)</span>. - Transactions (simple network tech): <span class="math inline">\(T(n_b,n_s) = n_b\,n_s\)</span>.</p>
-<p><strong>Payment platform’s profit</strong> <span class="math display">\[\Pi(f_b,f_s)=\big[(f_b-c_b)+(f_s-c_s)\big]\;n_b(f_b)\,n_s(f_s)
-= (p_b+p_s)\,n_b(f_b)\,n_s(f_s)\]</span></p>
-<section id="equilibrium-price" class="level3">
-<h3 class="anchored" data-anchor-id="equilibrium-price">Equilibrium price</h3>
-<p>Differentiate profit w.r.t. fees (keeping costs inside via <span class="math inline">\(p_i=f_i-c_i\)</span>):</p>
-<p><span class="math display">\[\frac{\partial \Pi}{\partial f_b}
-= n_b n_s + (p_b+p_s)\,n_s\,n_b’(f_b)
-= n_b n_s\!\left(1 + (p_b+p_s)\frac{n_b’(f_b)}{n_b}\right)=0\]</span></p>
-<p><span class="math display">\[\frac{\partial \Pi}{\partial f_s}
-= n_b n_s + (p_b+p_s)\,n_b\,n_s’(f_s)
-= n_b n_s\!\left(1 + (p_b+p_s)\frac{n_s’(f_s)}{n_s}\right)=0.
+<section id="rochet-tiroles-framework" class="level3">
+<h3 class="anchored" data-anchor-id="rochet-tiroles-framework">Rochet &amp; Tirole’s Framework</h3>
+<center>
+<img src="figures/tirole.png" width="400">
+</center>
+<p>Rochet and Tirole (2003) introduced a fundamental model of payments which influenced the rest of the digital economy.</p>
+</section>
+<section id="environment" class="level3">
+<h3 class="anchored" data-anchor-id="environment">Environment</h3>
+<p><strong>Economy</strong> - Buyers (cardholder) - Sellers (merchants) - Payment card system (monopoly platform)</p>
+<p><strong>Business model</strong></p>
+<ul>
+<li>Fees per transaction:
+<ul>
+<li><span class="math inline">\(a_b\)</span> to buyers (cardholders)<br>
+</li>
+<li><span class="math inline">\(a_s\)</span> to sellers (merchants)<br>
+</li>
+</ul></li>
+<li>Per-transaction cost: <span class="math inline">\(c\)</span>.</li>
+</ul>
+<p><strong>Agents</strong><br>
+| Role | Utility Function | Participation | |——–|——————|—————-| | Buyer | <span class="math inline">\(u_b = (\beta_b - a_b)\, n_s\)</span> | <span class="math inline">\(n_b = N_b(u_b), \quad N_b'(\cdot) &gt; 0\)</span> | | Seller | <span class="math inline">\(u_s = (\beta_s - a_s)\, n_b\)</span> | <span class="math inline">\(n_s = N_s(u_s), \quad N_s'(\cdot) &gt; 0\)</span> |</p>
+<p>Utilities scale with the other side’s size: acceptance/usage externality → <strong>network effect</strong></p>
+<p><strong>Platform profit</strong></p>
+<p>Transactions (simple network tech): <span class="math inline">\(T(n_b,n_s) = n_b\,n_s=N_b(u_b)\,N_s(u_s)\)</span>.</p>
+<p><span class="math display">\[
+\Pi(a_b,a_s) = (a_b+a_s-c)\,T(n_b,n_s)
 \]</span></p>
-<p>Divide by <span class="math inline">\(n_b n_s&gt;0\)</span>: <span class="math display">\[1 + M\frac{n_b’(f_b)}{n_b}=0,\qquad
-1 + M\frac{n_s’(f_s)}{n_s}=0,\]</span> where <span class="math inline">\(M\equiv p_b+p_s\)</span> is total per-transaction markup.</p>
-<p><strong>Adoption elasticities</strong></p>
-<p><span class="math display">\[\varepsilon_b^{\,p}\;\equiv\;-\frac{p_b}{n_b}\,n_b’(f_b)&gt;0\]</span> <span class="math display">\[\varepsilon_s^{\,p}\;\equiv\;-\frac{p_s}{n_s}\,n_s’(f_s)&gt;0\]</span></p>
-<p>Then <span class="math inline">\(\frac{n_b’(f_b)}{n_b}=-\frac{\varepsilon_b^{\,p}}{p_b}\)</span> and similarly for <span class="math inline">\(s\)</span>.</p>
-<p>Plugging into the FOCs: <span class="math display">\[1 - M\frac{\varepsilon_b^{\,p}}{p_b}=0 \;\Rightarrow\; M=\frac{p_b}{\varepsilon_b^{\,p}}\]</span></p>
-<p><span class="math display">\[1 - M\frac{\varepsilon_s^{\,p}}{p_s}=0 \;\Rightarrow\; M=\frac{p_s}{\varepsilon_s^{\,p}}\]</span></p>
 </section>
-<section id="the-balancing-principle" class="level3">
-<h3 class="anchored" data-anchor-id="the-balancing-principle">The Balancing Principle</h3>
+<section id="equilibrium" class="level3">
+<h3 class="anchored" data-anchor-id="equilibrium">Equilibrium</h3>
+<p><strong>Platform sets fees to maximizes profits</strong></p>
+<ol type="1">
+<li>Start by differentiating profit w.r.t. <span class="math inline">\(a_b\)</span> (buyer fee):</li>
+</ol>
+<p><span class="math display">\[
+\frac{\partial \Pi}{\partial a_b}
+= N_s\Big[N_b + (a_b+a_s-c)N_b'(u_b)\frac{\partial u_b}{\partial a_b}\Big]
+\]</span></p>
+<p>with <span class="math inline">\(\frac{\partial u_b}{\partial a_b}=-n_s\)</span>.</p>
+<ol start="2" type="1">
+<li>Set to zero and isolate fees and costs:</li>
+</ol>
+<p><span class="math display">\[
+N_s\Big[N_b + (a_b+a_s-c)N_b'(u_b)(-n_s)\Big] = 0\\
+\\
+\rightarrow
+\frac{1}{a_b+a_s-c} = -\frac{N_b'(u_b)}{N_b(u_b)}\,n_s
+\]</span></p>
+<ol start="3" type="1">
+<li>Define <strong>semi-elasticity in utility space</strong>:</li>
+</ol>
+<p><span class="math display">\[
+\varepsilon_b^{u} = -\frac{N_b'(u_b)}{N_b(u_b)}u_b
+\]</span></p>
+<p>where: <span class="math inline">\(u_b = (\beta_b - a_b)\, n_s\)</span></p>
+<p><span class="math display">\[
+\rightarrow \varepsilon_b^{u} = -\frac{N_b'(u_b)\,(\beta_b - a_b)\, n_s}{N_b(u_b)} \quad \leftrightarrow \frac{\varepsilon_b^{u}}{\beta_b-a_b} = -\frac{N_b'(u_b)}{N_b(u_b)}\,n_s
+\]</span></p>
+<ol start="4" type="1">
+<li>Plug elasticity expression in previous expression:</li>
+</ol>
+<p><span class="math display">\[
+\boxed{\frac{1}{a_b+a_s-c} = \frac{\varepsilon_b^{u}}{\beta_b-a_b}}
+\]</span></p>
+<p>By symmetry for the seller fee:</p>
+<p><span class="math display">\[
+\boxed{\frac{1}{a_b+a_s-c} = \frac{\varepsilon_s^{u}}{\beta_s-a_s}}
+\]</span></p>
+<p><strong>Express condition in terms of fee elasticities</strong></p>
+<p>Define fee elasticity:</p>
+<p><span class="math display">\[
+\eta_b^{a} = -\frac{N_b’(u_b)}{N_b(u_b)}\frac{\partial u_b}{\partial a_b}\,a_b
+\]</span></p>
+<p>Since <span class="math inline">\(\partial u_b/\partial a_b = -n_s,\)</span> we get:</p>
+<p><span class="math display">\[\eta_b^{a} = \frac{N_b’(u_b)}{N_b(u_b)}\,n_s\,a_b = \frac{a_b}{\beta_b-a_b}\,\varepsilon_b^{u}
+\]</span></p>
+<p>Plug back:</p>
+<p><span class="math display">\[
+\boxed{a_b+a_s-c = \frac{a_b}{\eta_b^{a}}}
+\]</span></p>
+<p>Similarly:</p>
+<p><span class="math display">\[
+\boxed{a_b+a_s-c = \frac{a_s}{\eta_s^{a}}}
+\]</span></p>
+</section>
+<section id="main-result" class="level3">
+<h3 class="anchored" data-anchor-id="main-result">Main Result</h3>
 <p><strong>Balancing condition</strong></p>
-<p><span class="math display">\[\boxed{\;\frac{p_b}{\varepsilon_b^{\,p}} \;=\; \frac{p_s}{\varepsilon_s^{\,p}} \;=\; M\;}
+<p><span class="math display">\[\boxed{\frac{a_b}{\eta_b^{a}} = \frac{a_s}{\eta_s^{a}}}
 \quad\Longleftrightarrow\quad
-\boxed{\;\frac{f_b - c_b}{\varepsilon_b^{\,p}} \;=\; \frac{f_s - c_s}{\varepsilon_s^{\,p}}\;}\]</span></p>
-<p>Intuition: - Raising <span class="math inline">\(f_b\)</span> changes profit via markup <span class="math inline">\(p_b\)</span> and hurts quantity via adoption elasticity $_b^{,p} $(which already includes network feedback). - Optimal pricing balances those marginal trade-offs across sides. - The more price-sensitive side gets a lower (even negative) price; the less elastic side bears more → matches consumer rewards + merchant fees.</p>
-</section>
-<section id="comparison-with-lerner-formula" class="level3">
-<h3 class="anchored" data-anchor-id="comparison-with-lerner-formula">Comparison with Lerner Formula</h3>
-<p><strong>Importance</strong>: The Lerner rule is a benchmark in industrial organization — it links <strong>market power</strong> directly to demand elasticity.</p>
-<p><strong>Traditional Lerner condition</strong>:<br>
-<span class="math display">\[\frac{p - c}{p} = \frac{1}{\varepsilon}\]</span><br>
-→ price–cost margin equals the inverse demand elasticity.</p>
-<p><strong>Difference</strong> - In two-sided markets, the platform <strong>must balance margins across both sides</strong>:<br>
-- Each side’s demand elasticity already reflects <strong>network externalities</strong>.<br>
-- No single Lerner condition holds — instead, a <strong>balancing condition</strong> across sides emerges.<br>
-- This explains why <strong>cardholders may receive subsidies</strong> (negative price, rewards) while <strong>merchants pay fees</strong>: the platform redistributes to maximize joint adoption.</p>
+\boxed{\frac{\beta_b-a_b}{\varepsilon_b^{u}} = \frac{\beta_s-a_s}{\varepsilon_s^{u}}}\]</span></p>
+<p><strong>Intuition</strong><br>
+Raising <span class="math inline">\(a_b\)</span> changes - Profit via markup <span class="math inline">\(a_b + a_s - c\)</span> - Quantity <span class="math inline">\(T(n_b,n_s)\)</span> via adoption elasticity <span class="math inline">\(\varepsilon_b^{\,u}\)</span> ↑ when <span class="math inline">\(a_b\)</span> ↑ - Which also impacts seller side since <span class="math inline">\(\varepsilon_s^{\,u}\)</span> ↑ given that <span class="math inline">\(n_b\)</span> ↓ - Which in turn would again impact the buyer side <span class="math inline">\(\varepsilon_b^{\,u}\)</span> ↑ when <span class="math inline">\(n_s\)</span> ↓ → <strong><u>Network Effects</u></strong></p>
+<center>
+→ Optimal pricing must balance those marginal trade-offs across sides.
+</center>
+<p><strong>Implication of</strong> <span class="math inline">\(\boxed{\frac{a_b}{\eta_b^{a}} = \frac{a_s}{\eta_s^{a}}}\)</span> - The <strong>more price-sensitive</strong> side gets a <strong>lower</strong> (even negative) price - The <strong>less elastic</strong> side <strong>bears</strong> more</p>
+<p><strong>In payments</strong> - <u>Buyers</u> (cardholders) usually have <strong>many alternatives</strong>: cash, debit, bank transfer, other cards.<br>
+→ If fees rise, they can easily switch → <strong>high elasticity</strong>.</p>
+<ul>
+<li><u>Merchants</u> face a tough choice: <strong>refusing</strong> cards can mean losing sales to <strong>all card-preferring buyers</strong>. → Their participation is relatively inelastic.</li>
+</ul>
+<p>That’s why empirically <span class="math inline">\(\eta_b^a &gt; \eta_s^a\)</span>, which in the model leads to <span class="math inline">\(a_b&lt;a_s\)</span>.</p>
+<center>
+This explains why consumers (price sensitive) pay less and evend get rewards while merchant (less elastic) pay higher fees.
+</center>
 </section>
 <section id="discussion" class="level3">
 <h3 class="anchored" data-anchor-id="discussion">Discussion</h3>
-<p><strong>Price structure</strong>: In two-sided markets, what matters is <strong>the division of fees</strong> (who pays what), not just the total.</p>
 <p><strong>Rochet &amp; Tirole’s key insight:</strong> - Optimal pricing structure balances participation on both sides. - Platform may subsidize one side to attract the other.</p>
-<p><strong>Example:</strong> - Credit card markets often subsidize cardholders (low or negative <span class="math inline">\(f_C\)</span>, via rewards). - Merchants bear higher fees (<span class="math inline">\(f_M\)</span>), since they gain from increased sales.</p>
-<p><strong>Social vs Private Optimum</strong></p>
+<p>In traditional monopoly settings, the <strong>Lerner rule</strong> is the benchmark in industrial organization: it links <strong>market power</strong> in pricing (mark up) directly to demand elasticity.</p>
+<p><span class="math display">\[\frac{p - c}{p} = \frac{1}{\eta}\]</span></p>
+<p>where <span class="math inline">\(p = a_b + a_s\)</span> → <strong>price level</strong></p>
+<p><u>Intuition</u>: price–cost margin must equal the inverse demand elasticity.</p>
+<p><strong>In two-sided markets</strong>: - <strong>Price structure</strong> is the key! - What matters is <strong>the division of fees</strong> (who pays what), not just the total. - The monopoly platform <strong>must balance margins across both sides</strong>: <span class="math inline">\(\frac{a_b}{\eta_b^{a}} = \frac{a_s}{\eta_s^{a}}\)</span> - Each side’s demand elasticity already reflects <strong>network externalities</strong>.<br>
+- No single Lerner condition holds — instead, a <strong>balancing condition</strong> across sides emerges.<br>
+- This explains why <strong>cardholders may receive subsidies</strong> (negative price, rewards) while <strong>merchants pay fees</strong>: the platform redistributes to maximize joint adoption.</p>
+<p><strong>Tension: Social vs Private Optimum</strong></p>
 <ul>
 <li><strong>Private platform objective:</strong> maximize profit = transaction volume × (fees – costs).</li>
 <li><strong>Social planner objective:</strong> maximize total welfare (consumer surplus + merchant surplus – costs).</li>
 <li>Distortion arises because platforms may overcharge one side or underprovide adoption.</li>
-<li>Raises <strong>policy questions</strong> about interchange fee regulation.</li>
 </ul>
 <p><strong>Policy Implications</strong></p>
 <ul>
@@ -685,13 +753,13 @@ RTGS and ACH are complementary<br>
 </section>
 <section id="information-in-payments" class="level1">
 <h1>4. Information in Payments</h1>
-<p>Payments are more than value transfers: they generate <strong>information flows</strong>.<br>
+<p>In the <strong>digital</strong> world, payments are more than value transfers: they generate <strong>information flows</strong>.<br>
 - Key tension: <strong>Privacy vs.&nbsp;Control</strong>.<br>
 - Central to debates about modern money, banking, and digital finance.</p>
 <section id="payments-as-information-flows" class="level2">
 <h2 class="anchored" data-anchor-id="payments-as-information-flows">Payments as Information Flows</h2>
 <ul>
-<li>Each transaction creates a <strong>data trail</strong>:
+<li>Each digital transaction creates a <strong>data trail</strong>:
 <ul>
 <li>Who pays whom<br>
 </li>
@@ -749,7 +817,7 @@ RTGS and ACH are complementary<br>
 <section id="current-debates" class="level3">
 <h3 class="anchored" data-anchor-id="current-debates">Current Debates</h3>
 <p>Balance <strong>privacy rights</strong> with <strong>financial integrity and security</strong>.</p>
-<p><strong>CBDCs</strong><br>
+<p><strong>Central Bank Digital Currencies (CBDC)</strong><br>
 - Likely built on centralized or semi-centralized ledgers.<br>
 - Key design question: allow anonymity like cash, or ensure full traceability?</p>
 <p><strong>Cryptocurrencies</strong><br>
@@ -858,7 +926,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/trkrkn\.github\.io\/mbft\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
