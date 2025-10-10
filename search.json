@@ -7,6 +7,20 @@
     "text": "Date\n#\nPart\nTopics\n\n\n\n\n22/09/2025\n0\nIntroduction\n\n\n\n29/09/2025\n1\nModern Banking\nMoney & Payment\n\n\n06/10/2025\n2\nModern Banking\nDeposit\n\n\n13/10/2025\n3\nModern Banking\nCredit\n\n\n20/10/2025\n4\nModern Banking\nPolicy & Regulation\n\n\n27/10/2025\n5\nModern Banking Guest lecture\nFinancial Networks\n\n\n03/11/2025\n6\nFintech\nOverview\n\n\n\n\nPlatforms\nDigital PlatformsBigTechPolicy\n\n\n10/11/2025\n7\nPlatforms Guest lecture\nFintech PlatformsOpen Banking\n\n\n17/11/2025\n8\nMachine Learning\nHistoryEconomics of MLPolicy\n\n\n24/11/2025\n9\nMachine Learning Guest lecture\nThe Technology of MLML Application in Finance\n\n\n01/12/2025\n10\nCrypto\nThe Technology of DLTSmart contractsStablecoinsDeFiPolicy\n\n\n08/12/2025\n11\nCrypto Guest lecture\nCentral Bank Digital Currencies\n\n\n15/12/2025\n\nQ&A"
   },
   {
+    "objectID": "lectures/lecture_03/references_credit.html",
+    "href": "lectures/lecture_03/references_credit.html",
+    "title": "Modern Banking and Financial Technology",
+    "section": "",
+    "text": "Akerlof, G. A. (1970). The market for “lemons”: Quality uncertainty and the market mechanism. Quarterly Journal of Economics, 84(3), 488–500.\nGale, D., & Hellwig, M. (1985). Incentive-compatible debt contracts: The one-period problem. Review of Economic Studies, 52(4), 647–663.\nHolmström, B., & Tirole, J. (1997). Financial intermediation, loanable funds, and the real sector. Quarterly Journal of Economics, 112(3), 663–691.\nStiglitz, J. E., & Weiss, A. (1981). Credit rationing in markets with imperfect information. American Economic Review, 71(3), 393–410.\nTirole, J. (2006). The theory of corporate finance. Princeton University Press.\nTirole, J. (2011). Illiquidity and all its friends. Journal of Economic Literature, 49(2), 287–325.\nTownsend, R. M. (1979). Optimal contracts and competitive markets with costly state verification. Journal of Economic Theory, 21(2), 265–293."
+  },
+  {
+    "objectID": "lectures/lecture_02/references_deposit.html",
+    "href": "lectures/lecture_02/references_deposit.html",
+    "title": "Modern Banking and Financial Technology",
+    "section": "",
+    "text": "Bernanke, B. S., & Blinder, A. S. (1992). The federal funds rate and the channels of monetary transmission. American Economic Review, 82(4), 901–921.\nBIS (2022). Annual Economic Report 2022: Monetary and financial stability in the digital age. (deposits as stable, low-cost funding).\nCalomiris, C. W., & Gorton, G. (1991). The origins of banking panics. In Financial Markets and Financial Crises. University of Chicago Press.\nDiamond, D. W., & Dybvig, P. H. (1983). Bank runs, deposit insurance, and liquidity. Journal of Political Economy, 91(3), 401–419.\nECB (2023). The role of deposits in bank funding. Economic Bulletin, Issue 5/2023. (deposit share in euro area bank funding ~55%).\nECB SDW (2023). Monetary aggregates (M3 composition: ~85% deposits).\nFederal Reserve Board (2023). Review of the Federal Reserve’s Supervision and Regulation of Silicon Valley Bank.\nGatev, E., & Strahan, P. (2006). Banks’ advantage in hedging liquidity risk. Journal of Finance, 61(2), 867–892.\nHuang, R., & Ratnovski, L. (2011). The dark side of bank wholesale funding. Journal of Financial Intermediation, 20(2), 248–263.\nShin, H. S. (2009). Reflections on Northern Rock. Journal of Economic Perspectives, 23(1), 101–119."
+  },
+  {
     "objectID": "lectures/lecture_02/04_deposits.html#what-are-deposits",
     "href": "lectures/lecture_02/04_deposits.html#what-are-deposits",
     "title": "Deposits",
@@ -154,11 +168,137 @@
     "text": "Systemic Risk Link\n\nShadow banks are often interconnected with regulated banks:\n\nBanks fund them (e.g., repo, credit lines).\n\nBanks hold their liabilities (e.g., money market fund shares).\n\n\nRuns in shadow banking can therefore destabilize banks.\n\n2008 evidence:\n\nRun on money market funds (Reserve Primary Fund “broke the buck”).\n\nRepo market freeze amplified bank funding crisis.\n\n\n\nInsight: Deposit services are the reason banks are regulated.\nShadow banks perform bank-like functions without protections → systemic vulnerability."
   },
   {
-    "objectID": "lectures/lecture_01/references.html",
-    "href": "lectures/lecture_01/references.html",
+    "objectID": "lectures/lecture_01/references_money_payment.html",
+    "href": "lectures/lecture_01/references_money_payment.html",
     "title": "Modern Banking and Financial Technology",
     "section": "",
     "text": "Cecchetti, S. G., & Schoenholtz, K. L. (2017). Money, banking, and financial markets (5th ed.). New York, NY: McGraw-Hill Education.\nFreixas, X., & Rochet, J.-C. (2008). Microeconomics of banking (3rd ed.). Cambridge, MA: MIT Press.\nGraeber, D. (2011). Debt: The first 5,000 years. Brooklyn, NY: Melville House.\nKocherlakota, N. R. (1998). Money is memory. Journal of Economic Theory, 81(2), 232–251.\nLagos, R., & Wright, R. (2005). A unified framework for monetary theory and policy analysis. Journal of Political Economy, 113(3), 463–484.\nMerton, R. C. (1993). Operation and regulation in financial intermediation: A functional perspective. In P. Englund (Ed.), Operation and regulation of financial markets (pp. 17–67). Stockholm: The Economic Council.\nNosal, E., & Rocheteau, G. (2011). Money, payments, and liquidity. Cambridge, MA: MIT Press. Rochet, J.-C., & Tirole, J. (2003). Platform competition in two-sided markets. Journal of the European Economic Association, 1(4), 990–1029."
+  },
+  {
+    "objectID": "lectures/lecture_01/01_banking.html#what-is-a-bank",
+    "href": "lectures/lecture_01/01_banking.html#what-is-a-bank",
+    "title": "Banking",
+    "section": "1. What is a Bank?",
+    "text": "1. What is a Bank?"
+  },
+  {
+    "objectID": "lectures/lecture_01/01_banking.html#why-do-we-need-banks",
+    "href": "lectures/lecture_01/01_banking.html#why-do-we-need-banks",
+    "title": "Banking",
+    "section": "2. Why Do We Need Banks?",
+    "text": "2. Why Do We Need Banks?"
+  },
+  {
+    "objectID": "lectures/lecture_01/01_banking.html#what-makes-banks-unique",
+    "href": "lectures/lecture_01/01_banking.html#what-makes-banks-unique",
+    "title": "Banking",
+    "section": "3. What Makes Banks Unique?",
+    "text": "3. What Makes Banks Unique?"
+  },
+  {
+    "objectID": "lectures/lecture_01/01_banking.html#why-regulate-banks",
+    "href": "lectures/lecture_01/01_banking.html#why-regulate-banks",
+    "title": "Banking",
+    "section": "4. Why Regulate Banks?",
+    "text": "4. Why Regulate Banks?"
+  },
+  {
+    "objectID": "lectures/lecture_01/01_banking.html#what-is-modern-banking",
+    "href": "lectures/lecture_01/01_banking.html#what-is-modern-banking",
+    "title": "Banking",
+    "section": "5. What is Modern Banking?",
+    "text": "5. What is Modern Banking?"
+  },
+  {
+    "objectID": "lectures/lecture_01/01_banking.html#definition",
+    "href": "lectures/lecture_01/01_banking.html#definition",
+    "title": "Banking",
+    "section": "Definition",
+    "text": "Definition\n\nA financial institution whose current operations consist of granting loans and receiving deposits from the public.\n— Freixas and Rochet (2008)\n\n\nBreaking Down the Definition\n\nCurrent → main operations\n\nGranting loans → credit creation\n\nDeposits → savings + money\nWhat makes bank unique!\nPublic → uninformed depositors\nThis means that access to payments → public good\n\n\n\nWhy Regulate Banks?\n\nProtect depositors from loss and fraud\n\nEnsure trust in money & payments\n\nStability: banks sit at the core of financial system"
+  },
+  {
+    "objectID": "lectures/lecture_01/01_banking.html#money-changing",
+    "href": "lectures/lecture_01/01_banking.html#money-changing",
+    "title": "Banking",
+    "section": "Money Changing",
+    "text": "Money Changing\nMoney changing = the business of exchanging one form of money for another.\n\nActivities\n1. Exchange of Different Currencies\nIn ancient marketplaces (Athens, Rome, medieval fairs in Champagne or Bruges).\n- Merchants brought coins from different regions.\n- Coins differed in: - Metal content (gold, silver, copper)\n- Weight\n- Purity - Money changers exchanged at agreed rates\n2. Authentication & Valuation - Counterfeiting was common.\n- Money changers assessed authenticity by weighing coins and testing their metallic content.\n- Reputation and trust were crucial.\n\n\nEtymology\n\nGreek: trapeza = scale\n\nItalian: banco = bench (for coins)\n\nWhen a money changer failed → the bench was broken\nItalian: bancarotta = broken bench (→ bankruptcy)\n\n\n\n\nFrom Money Changing to Safekeeping\nMoney changers gradually expanded their role: - Deposits: merchants left coins in safekeeping. - Reduced risk of loss/robery\n- Transfers: debts settled via ledger entries (no physical coin movement).\n- Credit: loans granted from pooled reserves.\nFirst bankers\n\nScriveners: literate advisors, brokers, lenders, deposit-takers\n\nGoldsmiths (17th c. England): safes for goldware → accepted deposits\n\nEarly trust-based intermediaries\n\nNote: Deposits with no return\n\nEarly deposits = zero or negative return\n\nPurpose: safety, not investment\n\nBankers had to maintain confidence not to misuse deposits"
+  },
+  {
+    "objectID": "lectures/lecture_01/01_banking.html#timeline",
+    "href": "lectures/lecture_01/01_banking.html#timeline",
+    "title": "Banking",
+    "section": "Timeline",
+    "text": "Timeline\n\n1. Early Banking Practices\n\nMesopotamia (2000 BCE)\n\nHammurabi’s Code (Babylon) → regulated loans & debt\n\nLaw 100: “If a merchant gives silver as a loan at interest, he shall take only 1 shekel of silver as interest on 1 shekel; if he takes more, he shall forfeit all.”\n\n\nLaw 117: “If a man be in debt and he sell his wife, son, or daughter, they shall serve for three years in the house of the purchaser or creditor; in the fourth year they shall regain their freedom.”\n\n\nAncient Greece: trapeza (money changers)\n\n\n\n2. Medieval & Renaissance (10th-15th c.)\n\nTemplars (12th–14th c.):\n\nCheque-like instruments for crusaders & pilgrims\n\nFirst international financial system\n\n\nItalian city-states (12th–15th c.): Florence, Venice, Genoa = trade hubs\n\nMedici Bank (1397–1494): first multinational bank\n\nPacioli’s innovation (1494): double-entry bookkeeping\n\n\n\n\n3. Colonial Expansion (15th–17th c.)\nFinance to support growth of trade - Banco di San Giorgio (1407) – Genoa - First public bank - Managed public debt, accepted deposits\n- Bank of Amsterdam (1609)\n- Standardized coinage, clearing bank, proto-central bank\n- Venetian banks: financed global trade & wars\n\n\n4. Industrial Revolution (19th c.)\n\nSavings & cooperative banks\n\nCheque system spread\n\n\n\n5. Rise of Modern Banking (20th - today c.)\n\nPost-WWII → retail banking boom\n\nChecking accounts, mortgages, consumer credit\n\n\nRegulation after crises (e.g., 1929)\n\nGlobalisation → multinational banking groups\nTechnological Innovation\n\n1950s: Payment cards (Diners Club, later Visa/MasterCard)\n\n1967: ATMs (Barclays, UK)\n\n1973: SWIFT messaging system"
+  },
+  {
+    "objectID": "lectures/lecture_01/lecture_01.html",
+    "href": "lectures/lecture_01/lecture_01.html",
+    "title": "Lecture 01",
+    "section": "",
+    "text": "Page: HTML\nSlides: Reveal.js PDF"
+  },
+  {
+    "objectID": "lectures/lecture_01/lecture_01.html#banking",
+    "href": "lectures/lecture_01/lecture_01.html#banking",
+    "title": "Lecture 01",
+    "section": "",
+    "text": "Page: HTML\nSlides: Reveal.js PDF"
+  },
+  {
+    "objectID": "lectures/lecture_01/lecture_01.html#money",
+    "href": "lectures/lecture_01/lecture_01.html#money",
+    "title": "Lecture 01",
+    "section": "2. Money",
+    "text": "2. Money\nPage: HTML\nSlides Reveal.js PDF"
+  },
+  {
+    "objectID": "lectures/lecture_01/lecture_01.html#payments",
+    "href": "lectures/lecture_01/lecture_01.html#payments",
+    "title": "Lecture 01",
+    "section": "3. Payments",
+    "text": "3. Payments\nPage: HTML\nSlides Reveal.js PDF\n\nRecordings\n\nCredit Cards\n\n \n\n\n\nA Model of Payments\n\n \n\n\n\nInformation in Payments"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Modern Banking and Financial Technology",
+    "section": "",
+    "text": "This website accompanies the course of Modern Banking and Financial Technology (B-KUL-HMA68A)."
+  },
+  {
+    "objectID": "index.html#news-announcements",
+    "href": "index.html#news-announcements",
+    "title": "Modern Banking and Financial Technology",
+    "section": "News & Announcements",
+    "text": "News & Announcements\n\n10/10/2025\n\nMaterial and recording for Lecture 03 is available\nNew: All Day TA is available for the course.\n\nAll Day TA is an interactive AI tutor trained on the course material and synced with the course schedule for learning support.\n\n\n03/10/2025\n\nMaterial for Lecture 02 is available\nRecordings available for\n\nLast part of Lecture 01 (credit card, payment model and information\nLecture 02\n\n\n25/09/2025\n\nThe course is live\nMaterial for Lecture 01 is available"
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Professor: Tarik Roukny (tarik.roukny@kuleuven.be)\nLectures: Mondays\n\nTime blocks for sessions\n\n08.30 AM - 10.30 AM\n10.30 PM - 12.30 PM\n\nRoom HER1 - 04.4207\n\nOffice hours: by email appointment."
+  },
+  {
+    "objectID": "syllabus.html#course-information",
+    "href": "syllabus.html#course-information",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Professor: Tarik Roukny (tarik.roukny@kuleuven.be)\nLectures: Mondays\n\nTime blocks for sessions\n\n08.30 AM - 10.30 AM\n10.30 PM - 12.30 PM\n\nRoom HER1 - 04.4207\n\nOffice hours: by email appointment."
+  },
+  {
+    "objectID": "syllabus.html#course-description",
+    "href": "syllabus.html#course-description",
+    "title": "Syllabus",
+    "section": "Course Description",
+    "text": "Course Description\nThis course is a compulsory course for the International and Sustainable Finance Track in the Master of Business Administration curriculum at the Faculty of Economics and Business, Brussels Campus, KU Leuven.\nThe course objectives are:\n\nTo train students to produce scientifically based solutions to modern banking issues\nTo introduce trends in financial technologies\nTo provide students with a wide range of technological and policy challenges and opportunities in banking and finance\nTo induce both macro and micro assessments of the impact of new technologies for banking and the economy\n\nThe course features a balance between traditional banking issues (intermediation, money, payments, instruments, deposits, financial contracts, financial stability, liquidity, monetary policy, interest rates, bank runs, regulation, bail outs) and modern banking issues (digitalisation, platforms, crypto, AI, DeFi, smart contracts, shadow banking, macroprudential policy, Big Tech, open finance, CBDC). The ultimate objective is to convey a deep grasp of the past-present-future of the industry in order to prepare students for the ever changing landscape of banking and technology.\n\nPrerequisites\nThis course does not have mandatory prerequisites. It is however advised to have sufficient knowledge of basic economic modelling and completed the following courses first:\n\nFinancial Markets and Institutions\nCorporate Finance."
+  },
+  {
+    "objectID": "syllabus.html#organization",
+    "href": "syllabus.html#organization",
+    "title": "Syllabus",
+    "section": "Organization",
+    "text": "Organization\nThis course consists of 6 ECTS amounting to 40 contact hours. Sessions are split between core material, live discussions, and guest lectures. All sessions are integral to the course.\n\nMaterial\nThe class addresses the one key dimension of banking and financial technology: information frictions. As such, the material starts with the role played by information in every aspect of modern banking. Three key topics in the development of fintech are then studied: platforms, machine learning and crypto.\n\n\nOverview\nMap of topics\n\n\n\n\n\n\n\nSide\nTopics\n\n\n\n\nModern Banking\nMoney  Payment  Deposit  Systemic Risk  Policy & Regulation\n\n\nPlatforms\nDigital Platforms  Fintech Platforms  Bigtech  Open Banking\n\n\nMachine Learning\nHistory  Economics of ML  Technology of ML  Application of ML in Finance\n\n\nCrypto\nDistributed Ledger Technolonies  Smart Contracts  Stablecoins  Decentralised Finance  Central Bank Digital Currencies"
   },
   {
     "objectID": "lectures/lecture_01/02_money.html#where-does-money-come-from",
@@ -294,130 +434,11 @@
     "text": "Discussion\n\nInflation Costs (Short Run)\n\nWages are sticky → individual purchasing power initially reduced\n\nUncertainty undermines planning\n\nMoney is a yardstick → lack of price predictability impedes financial decisions\n\n\nMenu costs: updating prices is costly\n\n\n\nSpecial Cost of Inflation\n\nArbitrary redistribution of wealth\nUnanticipated inflation transfers purchasing power between creditors and debtors\n\nHigher-than-expected inflation → benefits debtors (real value of debt falls)\n\nLower-than-expected inflation → benefits creditors (real value of debt rises)\n\n\nIn practice: high inflation is more variable and less predictable\n\nKey consequence: barrier to long-term contracts and financing in unstable economies\n\n\n\nLimitations of the Model\n\nAbstracts from credit and behavioral dimensions under uncertainty\n\nPrices can move even if money supply is fixed → role of expectations\n\nExamples:\n- Medieval food prices fluctuated independently of money supply\n- When uncertainty rises → liquidity hoarding (money as credit) → reduced spending"
   },
   {
-    "objectID": "syllabus.html",
-    "href": "syllabus.html",
-    "title": "Syllabus",
-    "section": "",
-    "text": "Professor: Tarik Roukny (tarik.roukny@kuleuven.be)\nLectures: Mondays\n\nTime blocks for sessions\n\n08.30 AM - 10.30 AM\n10.30 PM - 12.30 PM\n\nRoom HER1 - 04.4207\n\nOffice hours: by email appointment."
-  },
-  {
-    "objectID": "syllabus.html#course-information",
-    "href": "syllabus.html#course-information",
-    "title": "Syllabus",
-    "section": "",
-    "text": "Professor: Tarik Roukny (tarik.roukny@kuleuven.be)\nLectures: Mondays\n\nTime blocks for sessions\n\n08.30 AM - 10.30 AM\n10.30 PM - 12.30 PM\n\nRoom HER1 - 04.4207\n\nOffice hours: by email appointment."
-  },
-  {
-    "objectID": "syllabus.html#course-description",
-    "href": "syllabus.html#course-description",
-    "title": "Syllabus",
-    "section": "Course Description",
-    "text": "Course Description\nThis course is a compulsory course for the International and Sustainable Finance Track in the Master of Business Administration curriculum at the Faculty of Economics and Business, Brussels Campus, KU Leuven.\nThe course objectives are:\n\nTo train students to produce scientifically based solutions to modern banking issues\nTo introduce trends in financial technologies\nTo provide students with a wide range of technological and policy challenges and opportunities in banking and finance\nTo induce both macro and micro assessments of the impact of new technologies for banking and the economy\n\nThe course features a balance between traditional banking issues (intermediation, money, payments, instruments, deposits, financial contracts, financial stability, liquidity, monetary policy, interest rates, bank runs, regulation, bail outs) and modern banking issues (digitalisation, platforms, crypto, AI, DeFi, smart contracts, shadow banking, macroprudential policy, Big Tech, open finance, CBDC). The ultimate objective is to convey a deep grasp of the past-present-future of the industry in order to prepare students for the ever changing landscape of banking and technology.\n\nPrerequisites\nThis course does not have mandatory prerequisites. It is however advised to have sufficient knowledge of basic economic modelling and completed the following courses first:\n\nFinancial Markets and Institutions\nCorporate Finance."
-  },
-  {
-    "objectID": "syllabus.html#organization",
-    "href": "syllabus.html#organization",
-    "title": "Syllabus",
-    "section": "Organization",
-    "text": "Organization\nThis course consists of 6 ECTS amounting to 40 contact hours. Sessions are split between core material, live discussions, and guest lectures. All sessions are integral to the course.\n\nMaterial\nThe class addresses the one key dimension of banking and financial technology: information frictions. As such, the material starts with the role played by information in every aspect of modern banking. Three key topics in the development of fintech are then studied: platforms, machine learning and crypto.\n\n\nOverview\nMap of topics\n\n\n\n\n\n\n\nSide\nTopics\n\n\n\n\nModern Banking\nMoney  Payment  Deposit  Systemic Risk  Policy & Regulation\n\n\nPlatforms\nDigital Platforms  Fintech Platforms  Bigtech  Open Banking\n\n\nMachine Learning\nHistory  Economics of ML  Technology of ML  Application of ML in Finance\n\n\nCrypto\nDistributed Ledger Technolonies  Smart Contracts  Stablecoins  Decentralised Finance  Central Bank Digital Currencies"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "lectures/lecture_01/references.html",
+    "href": "lectures/lecture_01/references.html",
     "title": "Modern Banking and Financial Technology",
     "section": "",
-    "text": "This website accompanies the course of Modern Banking and Financial Technology (B-KUL-HMA68A)."
-  },
-  {
-    "objectID": "index.html#news-announcements",
-    "href": "index.html#news-announcements",
-    "title": "Modern Banking and Financial Technology",
-    "section": "News & Announcements",
-    "text": "News & Announcements\n\n03/10/2025\n\nMaterial for Lecture 02 is available\nRecordings available for\n\nLast part of Lecture 01 (credit card, payment model and information\nLecture 02\n\n\n25/09/2025\n\nThe course is live\nMaterial for Lecture 01 is available"
-  },
-  {
-    "objectID": "lectures/lecture_01/lecture_01.html",
-    "href": "lectures/lecture_01/lecture_01.html",
-    "title": "Lecture 01",
-    "section": "",
-    "text": "Page: HTML\nSlides: Reveal.js PDF"
-  },
-  {
-    "objectID": "lectures/lecture_01/lecture_01.html#banking",
-    "href": "lectures/lecture_01/lecture_01.html#banking",
-    "title": "Lecture 01",
-    "section": "",
-    "text": "Page: HTML\nSlides: Reveal.js PDF"
-  },
-  {
-    "objectID": "lectures/lecture_01/lecture_01.html#money",
-    "href": "lectures/lecture_01/lecture_01.html#money",
-    "title": "Lecture 01",
-    "section": "2. Money",
-    "text": "2. Money\nPage: HTML\nSlides Reveal.js PDF"
-  },
-  {
-    "objectID": "lectures/lecture_01/lecture_01.html#payments",
-    "href": "lectures/lecture_01/lecture_01.html#payments",
-    "title": "Lecture 01",
-    "section": "3. Payments",
-    "text": "3. Payments\nPage: HTML\nSlides Reveal.js PDF\n\nRecordings\n\nCredit Cards\n\n \n\n\n\nA Model of Payments\n\n \n\n\n\nInformation in Payments"
-  },
-  {
-    "objectID": "lectures/lecture_01/01_banking.html#what-is-a-bank",
-    "href": "lectures/lecture_01/01_banking.html#what-is-a-bank",
-    "title": "Banking",
-    "section": "1. What is a Bank?",
-    "text": "1. What is a Bank?"
-  },
-  {
-    "objectID": "lectures/lecture_01/01_banking.html#why-do-we-need-banks",
-    "href": "lectures/lecture_01/01_banking.html#why-do-we-need-banks",
-    "title": "Banking",
-    "section": "2. Why Do We Need Banks?",
-    "text": "2. Why Do We Need Banks?"
-  },
-  {
-    "objectID": "lectures/lecture_01/01_banking.html#what-makes-banks-unique",
-    "href": "lectures/lecture_01/01_banking.html#what-makes-banks-unique",
-    "title": "Banking",
-    "section": "3. What Makes Banks Unique?",
-    "text": "3. What Makes Banks Unique?"
-  },
-  {
-    "objectID": "lectures/lecture_01/01_banking.html#why-regulate-banks",
-    "href": "lectures/lecture_01/01_banking.html#why-regulate-banks",
-    "title": "Banking",
-    "section": "4. Why Regulate Banks?",
-    "text": "4. Why Regulate Banks?"
-  },
-  {
-    "objectID": "lectures/lecture_01/01_banking.html#what-is-modern-banking",
-    "href": "lectures/lecture_01/01_banking.html#what-is-modern-banking",
-    "title": "Banking",
-    "section": "5. What is Modern Banking?",
-    "text": "5. What is Modern Banking?"
-  },
-  {
-    "objectID": "lectures/lecture_01/01_banking.html#definition",
-    "href": "lectures/lecture_01/01_banking.html#definition",
-    "title": "Banking",
-    "section": "Definition",
-    "text": "Definition\n\nA financial institution whose current operations consist of granting loans and receiving deposits from the public.\n— Freixas and Rochet (2008)\n\n\nBreaking Down the Definition\n\nCurrent → main operations\n\nGranting loans → credit creation\n\nDeposits → savings + money\nWhat makes bank unique!\nPublic → uninformed depositors\nThis means that access to payments → public good\n\n\n\nWhy Regulate Banks?\n\nProtect depositors from loss and fraud\n\nEnsure trust in money & payments\n\nStability: banks sit at the core of financial system"
-  },
-  {
-    "objectID": "lectures/lecture_01/01_banking.html#money-changing",
-    "href": "lectures/lecture_01/01_banking.html#money-changing",
-    "title": "Banking",
-    "section": "Money Changing",
-    "text": "Money Changing\nMoney changing = the business of exchanging one form of money for another.\n\nActivities\n1. Exchange of Different Currencies\nIn ancient marketplaces (Athens, Rome, medieval fairs in Champagne or Bruges).\n- Merchants brought coins from different regions.\n- Coins differed in: - Metal content (gold, silver, copper)\n- Weight\n- Purity - Money changers exchanged at agreed rates\n2. Authentication & Valuation - Counterfeiting was common.\n- Money changers assessed authenticity by weighing coins and testing their metallic content.\n- Reputation and trust were crucial.\n\n\nEtymology\n\nGreek: trapeza = scale\n\nItalian: banco = bench (for coins)\n\nWhen a money changer failed → the bench was broken\nItalian: bancarotta = broken bench (→ bankruptcy)\n\n\n\n\nFrom Money Changing to Safekeeping\nMoney changers gradually expanded their role: - Deposits: merchants left coins in safekeeping. - Reduced risk of loss/robery\n- Transfers: debts settled via ledger entries (no physical coin movement).\n- Credit: loans granted from pooled reserves.\nFirst bankers\n\nScriveners: literate advisors, brokers, lenders, deposit-takers\n\nGoldsmiths (17th c. England): safes for goldware → accepted deposits\n\nEarly trust-based intermediaries\n\nNote: Deposits with no return\n\nEarly deposits = zero or negative return\n\nPurpose: safety, not investment\n\nBankers had to maintain confidence not to misuse deposits"
-  },
-  {
-    "objectID": "lectures/lecture_01/01_banking.html#timeline",
-    "href": "lectures/lecture_01/01_banking.html#timeline",
-    "title": "Banking",
-    "section": "Timeline",
-    "text": "Timeline\n\n1. Early Banking Practices\n\nMesopotamia (2000 BCE)\n\nHammurabi’s Code (Babylon) → regulated loans & debt\n\nLaw 100: “If a merchant gives silver as a loan at interest, he shall take only 1 shekel of silver as interest on 1 shekel; if he takes more, he shall forfeit all.”\n\n\nLaw 117: “If a man be in debt and he sell his wife, son, or daughter, they shall serve for three years in the house of the purchaser or creditor; in the fourth year they shall regain their freedom.”\n\n\nAncient Greece: trapeza (money changers)\n\n\n\n2. Medieval & Renaissance (10th-15th c.)\n\nTemplars (12th–14th c.):\n\nCheque-like instruments for crusaders & pilgrims\n\nFirst international financial system\n\n\nItalian city-states (12th–15th c.): Florence, Venice, Genoa = trade hubs\n\nMedici Bank (1397–1494): first multinational bank\n\nPacioli’s innovation (1494): double-entry bookkeeping\n\n\n\n\n3. Colonial Expansion (15th–17th c.)\nFinance to support growth of trade - Banco di San Giorgio (1407) – Genoa - First public bank - Managed public debt, accepted deposits\n- Bank of Amsterdam (1609)\n- Standardized coinage, clearing bank, proto-central bank\n- Venetian banks: financed global trade & wars\n\n\n4. Industrial Revolution (19th c.)\n\nSavings & cooperative banks\n\nCheque system spread\n\n\n\n5. Rise of Modern Banking (20th - today c.)\n\nPost-WWII → retail banking boom\n\nChecking accounts, mortgages, consumer credit\n\n\nRegulation after crises (e.g., 1929)\n\nGlobalisation → multinational banking groups\nTechnological Innovation\n\n1950s: Payment cards (Diners Club, later Visa/MasterCard)\n\n1967: ATMs (Barclays, UK)\n\n1973: SWIFT messaging system"
+    "text": "Cecchetti, S. G., & Schoenholtz, K. L. (2017). Money, banking, and financial markets (5th ed.). New York, NY: McGraw-Hill Education.\nFreixas, X., & Rochet, J.-C. (2008). Microeconomics of banking (3rd ed.). Cambridge, MA: MIT Press.\nGraeber, D. (2011). Debt: The first 5,000 years. Brooklyn, NY: Melville House.\nKocherlakota, N. R. (1998). Money is memory. Journal of Economic Theory, 81(2), 232–251.\nLagos, R., & Wright, R. (2005). A unified framework for monetary theory and policy analysis. Journal of Political Economy, 113(3), 463–484.\nMerton, R. C. (1993). Operation and regulation in financial intermediation: A functional perspective. In P. Englund (Ed.), Operation and regulation of financial markets (pp. 17–67). Stockholm: The Economic Council.\nNosal, E., & Rocheteau, G. (2011). Money, payments, and liquidity. Cambridge, MA: MIT Press. Rochet, J.-C., & Tirole, J. (2003). Platform competition in two-sided markets. Journal of the European Economic Association, 1(4), 990–1029."
   },
   {
     "objectID": "lectures/lecture_01/03_payment.html#what-are-the-different-forms-of-payment",
@@ -551,5 +572,124 @@
     "title": "Lecture 02",
     "section": "",
     "text": "Page: HTML\nSlides: Reveal.js PDF"
+  },
+  {
+    "objectID": "lectures/lecture_03/lecture_03.html",
+    "href": "lectures/lecture_03/lecture_03.html",
+    "title": "Lecture 03",
+    "section": "",
+    "text": "Page: HTML\nSlides: Reveal.js PDF"
+  },
+  {
+    "objectID": "lectures/lecture_03/lecture_03.html#credit",
+    "href": "lectures/lecture_03/lecture_03.html#credit",
+    "title": "Lecture 03",
+    "section": "",
+    "text": "Page: HTML\nSlides: Reveal.js PDF"
+  },
+  {
+    "objectID": "lectures/lecture_03/05_credit.html#what-is-a-debt-contract",
+    "href": "lectures/lecture_03/05_credit.html#what-is-a-debt-contract",
+    "title": "Credit",
+    "section": "What is a debt contract?",
+    "text": "What is a debt contract?"
+  },
+  {
+    "objectID": "lectures/lecture_03/05_credit.html#why-are-debt-contracts-so-prevalent",
+    "href": "lectures/lecture_03/05_credit.html#why-are-debt-contracts-so-prevalent",
+    "title": "Credit",
+    "section": "Why are debt contracts so prevalent?",
+    "text": "Why are debt contracts so prevalent?"
+  },
+  {
+    "objectID": "lectures/lecture_03/05_credit.html#when-do-debt-markets-fail",
+    "href": "lectures/lecture_03/05_credit.html#when-do-debt-markets-fail",
+    "title": "Credit",
+    "section": "When do debt markets fail?",
+    "text": "When do debt markets fail?"
+  },
+  {
+    "objectID": "lectures/lecture_03/05_credit.html#why-do-we-need-banks-for-credit",
+    "href": "lectures/lecture_03/05_credit.html#why-do-we-need-banks-for-credit",
+    "title": "Credit",
+    "section": "Why do we need banks for credit?",
+    "text": "Why do we need banks for credit?"
+  },
+  {
+    "objectID": "lectures/lecture_03/05_credit.html#overview-of-the-lecture",
+    "href": "lectures/lecture_03/05_credit.html#overview-of-the-lecture",
+    "title": "Credit",
+    "section": "Overview of the Lecture",
+    "text": "Overview of the Lecture\n\nWhy the standard debt contract dominates other financial contracts in credit?\nWhich market failures arise from credit contracts?\nWhy financial intermediation co-exists with direct market lending?\n\nApproach: Study how different information frictions — costly verification, adverse selection, moral hazard — shape the design of credit contracts and the role of intermediaries.\nThree guiding models\n\nWhy are debt contracts so prevalent?\n→ Townsend (1979): Costly state verification\n\nWhat is wrong with debt contracts?\n→ Stiglitz & Weiss (1981): Credit rationing\n\nWhy do we need banks for credit?\n→ Holmström & Tirole (1997): Monitoring and intermediation\n\nOne common framework: Information frictions\n\nInformation Frictions and Credit\n\n\n\n\n\n\n\n\n\n\nType of Friction\nModel\nMain Problem\nTechnological Fix\nImplication for Credit\n\n\n\n\nCostly state verification\nTownsend (1979)\nLender cannot freely observe project outcomes\nAuditing\nDebt contract minimizes verification cost\n\n\nAdverse selection\nStiglitz & Weiss (1981)\nLender cannot observe borrower type\nScreening\nCredit rationing emerges\n\n\nMoral hazard\nHolmström & Tirole (1997)\nBorrower actions unobservable\nMonitoring\nBanks add value through monitoring"
+  },
+  {
+    "objectID": "lectures/lecture_03/05_credit.html#costly-state-verification",
+    "href": "lectures/lecture_03/05_credit.html#costly-state-verification",
+    "title": "Credit",
+    "section": "Costly-State Verification",
+    "text": "Costly-State Verification\nThe work of Townsend (1979) and Gale & Hellwig (1985) launched the modern theory of financial contracting.\nIt explains why debt exists — as the optimal response to information frictions and costly verification — and how incentives, participation, and efficiency jointly determine contract structure.\nSetting\n\nEntrepreneur and investor write a contract where the investor provides financing for a project.\n\nThe entrepreneur pays back an amount that depends on the state of the world (e.g. success / failure).\n\nThe state of the world is observed only by the entrepreneur.\n\nThe investor can observe it only by incurring a monitoring cost\n\n\n↓costly state verification\n\nGoal\nShow that a standard debt contract is optimal:\n\n Maximization of the entrepreneur’s wealth subject to the participation of the investor."
+  },
+  {
+    "objectID": "lectures/lecture_03/05_credit.html#framework",
+    "href": "lectures/lecture_03/05_credit.html#framework",
+    "title": "Credit",
+    "section": "Framework",
+    "text": "Framework\nAdapted from Tirole (2006), Chap. 3–7\n\nEnvironment\nProject\n\nInvestment \\(I\\)\nReturns \\(R\\): random variable with density \\(p(R)\\) on \\([0, +\\infty)\\)\n\nEntrepreneur\n\nOwn wealth \\(A\\)\nNeeds to raise \\(I - A\\) from investor\n\nInvestors\n\nFunds &gt; \\(I\\)\nAudit technology: reveal \\(R\\) at cost \\(K\\)\n\n\n\nFinancial Contract\nSpecifies:\n\nThe entrepreneur engages in project yielding return \\(R\\) and reports \\(\\hat{R}\\)\nThe investor provides \\((I - A)\\)\n\nInvestor audits the reported return \\(\\hat{R}\\) with probability \\(y(\\hat{R})\\)\n\nEntrepreneur payoff \\[w = y(\\hat{R})w_0(\\hat{R},R) + (1-y(\\hat{R}))w_1(\\hat{R},R)\\]\nInvestor payoff \\[R_i = R - w(\\hat{R},R) - y(\\hat{R}) K\\]\nTimeline\n\nLoan agreement\nInvestment is sunk\nIncome \\(R\\) is realized according to \\(p(R)\\)\n\nEntrepreneur reports \\(\\hat{R}\\)\nAudit decision by investor\n\nRepayment \\(R_i\\) to investor"
+  },
+  {
+    "objectID": "lectures/lecture_03/05_credit.html#optimal-contract",
+    "href": "lectures/lecture_03/05_credit.html#optimal-contract",
+    "title": "Credit",
+    "section": "Optimal Contract",
+    "text": "Optimal Contract\nThe optimal contract maximizes the entrepreneur’s expected income \\[\n\\max_{y(\\cdot), R_i(\\cdot)} \\; \\mathbb{E}[w(\\hat{R}, R)]\n\\]\nConstraints\n\n[IC] Entrepreneur’s incentive compatibility (truthful reporting)\n\n\\[\nw(R, R) = \\max_{\\hat{R}} \\left\\{ y(\\hat{R})\\,w_{0}(\\hat{R},R) + \\left(1 - y(\\hat{R})\\right)\\,w_{1}(\\hat{R},R) \\right\\}\n\\]\n\n→ Reporting the true return (\\(R = \\hat{R}\\)) maximizes \\(w\\)\n\n\n[IR] Investor’s individual rationality (participation)\n\n\\[\n\\mathbb{E} \\left[ R - w(R) - y(R) K \\right]  \\ge I - A\n\\]\n\n→ Investor at least breaks evenIf perfect competition: zero profit\n\n\nStandard Debt Contract\n\n\\(D =\\) debt payment\n\n\\(y(\\hat{R}) = 0\\) if \\(\\hat{R} \\ge D\\) no audit\n\\(y(\\hat{R}) = 1\\) if \\(\\hat{R} &lt; D\\) audit\n\nEntrepreneur’s payoff \\[w = \\max(R - D, 0)\\]\nInvestor’s payoff \\[R_i = \\min(R, D)\\]\nAssuming \\(y(\\hat{R})\\) is binary for all \\(\\hat{R}\\)\n\n↓  This debt contract is optimal\n\n\n\nProof\n\nStep 1: Minimizing audit costs\nAs investors’ break even (perfect competition), the [IR] constraint can be re-written:\n\\[\n\\mathbb{E} \\left[ R - w(R) - \\left( 1 - y(R) \\right) K \\right] = I - A,\n\\]\n\nIsolate \\(w(R)\\) inside the expectation.\n\n\\[\n\\begin{align}\n\\mathbb{E}[w(R)] &= \\mathbb{E}\\big[ R - (1 - y(R))K \\big] - (I - A)\\\\\n&= \\mathbb{E}[R] - K\\mathbb{E}[1-y(R)] - (I-A)\n\\end{align}\n\\]\n\nConstants: \\(\\mathbb{E}[R]\\), \\((I-A)\\) and \\(K&gt;0\\)\n\nTherefore, \\[\n\\max \\ \\mathbb{E}[w(R)]\n\\quad\\Longleftrightarrow\\quad\n\\min \\ \\mathbb{E}[1-y(R)].\n\\]\n\n↓Goal: Minimize audit zone\n\n\n\nStep 2: Regions of Returns\nDefine the following regions:\n\n\\(\\mathcal{R}_0\\) = no-audit zone\n\n\\(\\mathcal{R}_1\\) = audit zone\n\nsuch that:\n\\[\n\\mathcal{R}_0 \\cap \\mathcal{R}_1 = \\emptyset, \\qquad\n\\mathcal{R}_0 \\cup \\mathcal{R}_1 = [0, \\infty)\n\\]\n\n\nStep 3: Audit cost\nAny [IC]-satisfying contract must have a cutoff region where the borrower repays a fixed amount whenever no audit occurs.\nWhy?\n\nFlat Payments in No-Audit States\n\nIf repayments varied with \\(R\\) in no-audit states, borrower would underreport.\n\nThus, all no-audit states must involve the same repayment \\(F\\).\n\nCutoff Audit Rule\n\nSince borrower’s incentive is always to under-report, audits should target low reports.\n\nEfficient rule: audit only when reported under a threshold \\(F\\).\n\n\n\n↓\n\n\\[R - w(R) = F \\quad \\text{when} \\quad R \\in \\mathcal{R}_0\\]\nDebt contract:\n\\[\\boxed{R_i = R - w(R) = D \\quad \\text{when} \\quad R \\in \\mathcal{R}^{*}_0}\\]\n\\[\\boxed{\\mathcal{R}_0^{*} = [D,\\infty) ~~~ \\& ~~~ \\mathcal{R}_1^{*} = [0,D[}\\]\n\\(\\mathcal{R}_0^{*}\\) is the largest possible no-audit region consistent with incentive compatibility.\nAny other contract that satisfies [IC] and [IR] must audit at least as often: \\(\\mathcal{R}_0 \\subseteq \\mathcal{R}_0^{*}.\\)\nHence the expected audit cost is (weakly) lower than any other contract.\n\n\nStep 4: Investor payoff\nDebt contract payoff: \\((\\mathcal{R}^*_0,\\mathcal{R}^*_1)\\) \\[\\boxed{R_i =\n\\begin{cases}\nR - w(R) = D, & \\text{if } R \\in \\mathcal{R}^{*}_0, \\\\[6pt]\nR - K, & \\text{if } R \\in \\mathcal{R}^{*}_1.\n\\end{cases}}\\]\nAssume any other arbitrary contract: \\((\\mathcal{R}_0,\\mathcal{R}_1)\\)\n\nFor \\(R \\in \\mathcal{R}_1 \\cap \\mathcal{R}_0^{*}\\)\n\nArbitrary contract audit | Debt contract no audit\nBut the repayment under no-audit is constant at D → Same repayment but arbitrary contract pays audit cost\n\nFor \\(R \\in \\mathcal{R}_1 \\cap \\mathcal{R}_1^{*}\\)\n\nArbitrary contract audit | Debt contract audit → Same return\n\n\nThe debt contract, when auditing, extracts the maximum enforceable amount \\(R-K\\) (the project’s realized return minus audit cost).\nNo alternative contract can give the investor more.\nHence, the investor’s expected payoff is weakly higher under the debt contract.\n\n\nStep 5: Entrepreneur payoff\nGiven competitive investors, the [IR] constraint binds: \\(\\mathbb{E}[R_i] = I - A.\\)\nIf the investor gets the same expected payoff but with lower audit cost, the entrepreneur receives the higher expected income.\n Debt → fewer audits → smaller total verification cost → larger borrower surplus"
+  },
+  {
+    "objectID": "lectures/lecture_03/05_credit.html#discussion",
+    "href": "lectures/lecture_03/05_credit.html#discussion",
+    "title": "Credit",
+    "section": "Discussion",
+    "text": "Discussion\n\nIntuition Recap\nIn presence of costly state verification:\n\nDebt contracts emerge naturally as the cheapest funding contract:\n\nFlat payments in good states (no audit).\n\nAudits only in bad states (defaults).\n\n\nDefault is not a system failure — it is part of the optimal contract when verification is costly.\n\n\n\nWhy Alternatives Fail\n\n\n\n\n\n\n\nAlternative\nWhy It Fails\n\n\n\n\nEquity-like contract (repayment depends on profits)\nRequires verifying \\(R\\) in every state → too costly\n\n\nVariable repayment in no-audit states\nBreaks incentive compatibility (borrower lies)\n\n\nRandom audits\nWasteful, not targeted at incentive problem\n\n\n\n\n↓Debt minimizes verification costs while preserving incentives.\n\n\n\nPolicy and Market Implications\n\nEfficient bankruptcy systems → reduce verification costs.\n\nCollateral registries & credit bureaus → improve verification and enforcement.\n\nAuditing and accounting standards → lower information asymmetry.\n\nDevelopment finance: where verification/enforcement is costly, credit markets remain underdeveloped.\n\n\n\nTechnological Fix: Reducing Verification Costs\nTechnologies that make performance observable in real time (data-sharing, digital payments, IoT, blockchain) push markets closer to the optimal design by:\n\nReducing audit frequency or cost.\n\nAllowing more state-contingent (equity-like) payoffs.\n\nExpanding access to credit.\n\nApplications\n\n\n\n\n\n\n\n\nSetting\nMechanism\nEffect\n\n\n\n\nFintech lenders (e.g., Shopify Capital, Stripe)\nReal-time revenue data\nLower verification cost → more flexible contracts\n\n\nSmart contracts / Blockchain\nAutomated on-chain verification\nReplaces manual auditing\n\n\nDeFi lending\nNo verification possible\nRequires over-collateralization"
+  },
+  {
+    "objectID": "lectures/lecture_03/05_credit.html#credit-markets-standard-markets",
+    "href": "lectures/lecture_03/05_credit.html#credit-markets-standard-markets",
+    "title": "Credit",
+    "section": "Credit Markets ≠ Standard Markets",
+    "text": "Credit Markets ≠ Standard Markets\nIn most markets, prices clear\n\nSupply and Demand: Excess demand → price rises → market equilibrates\n\nIn credit markets, however, raising the interest rate changes who borrows, not only how much.\n\nThe price (interest rate) itself affects the risk composition of borrowers.\n\nWhy? Information Asymmetry and Adverse Selection\n\nBorrowers differ in riskiness and project quality, but lenders cannot observe this before lending.\nHigher interest rates drive out safer borrowers, leaving a riskier applicant pool — a case of adverse selection.\n\nWhen Prices Stop Working: Credit rationing\n\nBecause of adverse selection the lender’s expected return may decline when the interest rate rises.\nAt some point, it becomes unprofitable to raise rates further — even if loan demand exceeds supply.\n\n\nCredit rationing → A market where some borrowers remain creditworthy but unfunded"
+  },
+  {
+    "objectID": "lectures/lecture_03/05_credit.html#a-model-of-credit-rationing",
+    "href": "lectures/lecture_03/05_credit.html#a-model-of-credit-rationing",
+    "title": "Credit",
+    "section": "A Model of Credit Rationing",
+    "text": "A Model of Credit Rationing\nThe Stiglitz–Weiss (1981) model\n\nShowed formally how asymmetric information can produce a non-clearing equilibrium\n→ Market failure in the credit market.\nFormalized the concept of credit rationing:\n\nBanks keep interest rates below market-clearing levels\n\nLimit quantity rather than raise prices.\n\n\n\nEnvironment\nProject\n\nInvestment \\(I\\)\nReturns \\(R\\)\n\n\nNEW: projects can be of different risk types \\(\\theta\\)\nConditional distribution of returns:\n\\[R \\mid \\theta \\sim F(\\cdot \\mid \\theta),\\]\nwhere a higher \\(\\theta\\) implies a mean-preserving spread (riskier project).\n\nEntrepreneur/Borrower\n\nOwn wealth \\(A\\)\nAssociates with a project of risk type \\(\\theta\\)\nNeeds to raise \\(I - A\\) from investor\n\nInvestors\n\nFunds &gt; \\(I\\)\nRequires repayment \\(D\\) (principal + interest)\nCannot observe \\(\\theta\\) ex ante but knows the distribution\n\n\n\nRiskiness of projects\n\n\n\nRiskier borrowers value limited liability more:\n\\[\n  \\mathbb{E}\\!\\left[\\max\\{R - D, 0\\} \\mid \\theta\\right]\n  \\text{ increases with } \\theta.\n  \\]\n\n\nBorrower participation\nOutside option \\(\\pi_0\\) \\[\n  \\mathbb{E}\\!\\left[\\max\\{R - D, 0\\} \\mid \\theta\\right] \\ge \\pi_0.\n  \\]\nDefine cutoff type \\(\\theta^*(D)\\) such that\n\\[\n\\mathbb{E}\\!\\left[\\max\\{R - D, 0\\} \\mid \\theta^*(D)\\right] = \\pi_0\n\\]\nResult: Borrower type \\(\\theta\\) participates iif \\(\\theta \\geq \\theta^*\\)\nKey: Safer borrowers exit as \\(D\\) increases\n\\[\n\\boxed{\\frac{d\\theta^*(D)}{dD} &gt; 0}\n\\]\n\n\nBenchmark: Perfect Information\nSuppose the bank can observe each borrower’s type \\(\\theta\\).\nThen, it would offer a type-specific contract \\(D(\\theta)\\) that maximizes expected profit:\n\\[\n\\max_{D(\\theta)} \\ \\Pi(D(\\theta)\\mid\\theta)\n= \\mathbb{E}\\!\\left[\\min\\{D(\\theta), R\\} \\mid \\theta\\right] - (I - A)\n\\]\nsubject to borrower participation:\n\\[\n\\mathbb{E}\\!\\left[\\max\\{R - D(\\theta), 0\\} \\mid \\theta\\right] \\ge \\pi_0.\n\\]\nBecause the lender can price risk perfectly, each type gets a distinct rate or face value \\(D(\\theta)\\).\n\nThere is no adverse selection: the bank faces only project risk.\nThe market clears through prices (interest rates differentiate across borrowers).\n\n\n\nInformation Asymmetry: Adverse Selection\nInformation asymmetry: \\(\\theta\\) is hidden - only known to the borrower.\nThe bank cannot price each type separately — it must offer a single contract \\((D)\\) to a mixed pool of applicants.\n\nPer-loan expected profit (conditional on type \\(\\theta\\)):\n\n\\[\n\\Pi(D \\mid \\theta)\n= \\mathbb{E}\\!\\left[\\min\\{D, R\\} \\mid \\theta\\right] - (I - A)\n\\]\n\nApplicant pool at face value \\(D\\):\n\n\\[\n\\text{Borrowers with }\n\\theta &gt; \\theta^*(D)\n\\]\n\nAverage (pool) expected profit:\n\n\\[\nE\\Pi(D)\n=\n\\mathbb{E}_{\\theta &gt; \\theta^*(D)}\n\\Big[\n\\mathbb{E}\\!\\left[\\min\\{D, R\\} \\mid \\theta\\right]\n\\Big]\n- (I - A).\n\\]\n\n\nEquilibrium - Credit Rationing\nThe bank’s expected profit curve \\(E\\Pi(D)\\) reflects two opposing forces:\n\nDirect effect (price effect): raising \\(D\\) increases revenue per loan.\nComposition effect (selection): higher \\(D\\) drives out safer borrowers (raises \\(\\theta^*(D)\\)), worsening the pool.\n\n\nWith 2 types\nLet \\(r = D - I\\)\n\n\n\nAs \\(D\\) (price) rises:\n\n\\(E\\Pi(D)\\) first increases (direct effect dominates),\n\nthen decreases (composition effect dominates).\n\n\\[\nE\\Pi(D)\n\\text{ is inverted-U shaped.}\n\\]\nLet \\(D^*\\) be the profit-maximizing face value:\n\\[\n\\frac{dE\\Pi(D)}{dD}\\bigg|_{D^*} = 0, \\qquad\n\\frac{d^2E\\Pi(D)}{dD^2}\\bigg|_{D^*} &lt; 0.\n\\]\nIf at \\(D^*\\), loan demand exceeds supply (many applicants still want loans), banks do not increase \\(D\\) further — doing so would reduce expected profit (worse selection).\n\n↓Credit Rationing\n\n\n\nWith continuum of types\nLet \\(r^* = D^* - I\\)\n\n\n\n\n\n\n\n\n\n\n\n\nHence,\n\nBanks do not increase the rate; they ration: lend a fixed quantity at \\(D^*\\) and reject the marginal applicants.\nSome borrowers remain creditworthy but unfunded.\nThe market fails to clear via price adjustment.\nThis outcome is credit rationing.\n\nKey message:\n\nWith adverse selection, the profit-maximizing rate does not clear the market.  Credit rationing is an equilibrium outcome."
+  },
+  {
+    "objectID": "lectures/lecture_03/05_credit.html#discussion-1",
+    "href": "lectures/lecture_03/05_credit.html#discussion-1",
+    "title": "Credit",
+    "section": "Discussion",
+    "text": "Discussion\nThe Stiglitz–Weiss model shows that:\n\nInformation asymmetries make bank profit a non-monotonic function of interest rates.\nOptimal lending rate \\(D^*\\) does not clear the market.\nCredit rationing is an equilibrium phenomenon rooted in adverse selection.\n\nImplications\n\nBanks prefer to ration credit at \\(D^*\\) rather than raise rates further.\nExplains why even solvent, willing borrowers can be denied loans.\nHighlights role of collateral, covenants, relationship lending to reduce adverse selection.\n\n\nWhy It Was Such an Impactful Discovery\nClassical view (before 1981):\nIn competitive markets, excess demand is eliminated by raising prices. By analogy, if too many borrowers wanted credit, interest rates should rise until demand = supply.\nStiglitz & Weiss (1981):\n\nShowed that in credit markets, raising interest rates changes who borrows, not just how much.\nHigher rates drive safe borrowers out, leaving a riskier pool (adverse selection).\nExpected bank profit is an inverted-U in the interest rate → banks may stop lending before the market clears.\nThis means credit rationing is an equilibrium outcome, not a temporary imperfection.\n\nImpact (together with Akerlof 1970):\n\nAkerlof’s Market for Lemons: price affects the quality of goods traded.\nStiglitz–Weiss: interest rates affect the quality of borrowers.\nTogether, these papers reshaped economics by showing how information asymmetries lead to persistent market failures.\n\n\n\nWhat the Model Explains in Practice\nFinancial exclusion: Some creditworthy borrowers are systematically denied loans (e.g., SMEs, low-income households).\nUnderinvestment in innovation: Innovative projects are harder to evaluate → more likely to be rationed.\nExplains why banks prefer lending against collateral (mortgages) rather than financing startups.\nPersistence of informal credit markets: When banks ration, borrowers turn to moneylenders or payday lenders, often at exorbitant rates.\nStructural inequality: Borrowers without collateral, reputation, or long relationships with banks are most likely to be excluded.\nWhy credit markets look different from goods markets: In goods markets, prices usually clear demand. In credit markets, queues, rejections, and “no” are common.\n\n\nInterventions\nScreening and information tools:\n\nCredit registries, credit bureaus, big data credit scoring.\nBetter borrower information reduces adverse selection.\n\nCollateral and covenants:\n\nLenders use assets and contractual restrictions to screen and align incentives.\n\nRelationship lending:\n\nLong-term interactions between bank and borrower reduce information asymmetry.\n\nPublic interventions:\n\nLoan guarantees (e.g., for SMEs).\nTargeted credit programs (student loans, housing finance).\n\n\n\nPolicy Implications\nJustification for regulation and intervention:\n\nMarket failures in credit justify government involvement.\nExplains the existence of development banks, credit guarantee schemes, and subsidized lending.\n\nFinancial stability link:\n\nRationing shows banks will not necessarily raise rates in response to stress → instead, they may cut lending (“credit crunch”).\nConnects to procyclicality of bank lending during crises.\n\nDistributional effects:\n\nCredit rationing disproportionately affects marginalized groups, creating inequality of opportunity.\nPolicies promoting financial inclusion (e.g., open banking, digital ID) have efficiency and equity benefits.\n\n\n\nModern Issues and Fintech\nFintech credit scoring:\n\nUse of alternative data (e.g., transaction histories, mobile phone data) reduces information gaps.\nCan mitigate adverse selection, expand credit access.\n\nPeer-to-peer and platform lending:\n\nPlatforms claim to overcome rationing by better matching of borrowers and investors.\nBut information asymmetry and selection issues persist (ratings, defaults).\n\nStablecoins and DeFi lending:\n\nCollateral-based lending dominates (e.g., overcollateralized crypto loans).\nIllustrates persistence of rationing: without information about borrower quality, only fully collateralized loans are feasible.\n\nPolicy debates today:\n\nOpen Banking and data portability as tools to reduce information frictions.\nBalancing financial inclusion with privacy."
+  },
+  {
+    "objectID": "lectures/lecture_03/05_credit.html#the-core-problem-moral-hazard",
+    "href": "lectures/lecture_03/05_credit.html#the-core-problem-moral-hazard",
+    "title": "Credit",
+    "section": "The Core Problem: Moral Hazard",
+    "text": "The Core Problem: Moral Hazard\nMany investment projects require effort from the entrepreneur/borrower and monitoring of the investor to succeed.\n\nEffort increases expected returns but is not observable by outsiders.\nIf the entrepreneur can enjoy private benefits from shirking → may not exert effort\n\n\n↓Moral hazard: unobservable actions distort incentives and funding decisions.\n\nThis information friction explains the boundary between banks and markets and allows to address:\n\nWhich firms borrow directly from investors?\nWhich rely on intermediated (bank) finance?\nWhich cannot obtain finance at all?\n\n→ A micro-foundation for the structure of the financial system:\n\nBanks arise to mitigate incentive problems that markets alone cannot solve."
+  },
+  {
+    "objectID": "lectures/lecture_03/05_credit.html#a-model-of-monitoring-effort",
+    "href": "lectures/lecture_03/05_credit.html#a-model-of-monitoring-effort",
+    "title": "Credit",
+    "section": "A Model of Monitoring Effort",
+    "text": "A Model of Monitoring Effort\nHolmstrom and Tirole (1997) provide a unified framework showing that:\n\nMoral hazard (hidden effort) limits the pledgeable income of projects.\n\nMonitoring can relax this constraint — but at a cost.\n\nThe optimal allocation features a coexistence of:\n\nMarket-financed projects (self-enforcing effort),\nBank-financed projects (monitoring needed),\nUnfunded projects (inefficient due to severe moral hazard).\n\n\nThis paper was a foundation for theories of:\n\nFinancial intermediation (banks as delegated monitors),\nCapital structure (internal vs external finance),\nCredit cycles and financial amplification (via limited pledgeability).\nBasel-style capital regulation (bank skin in the game),\nCorporate finance hierarchy: internal → bank → market financing.\n\nKey idea:\n\n\nBanks and markets coexist because they address different incentive problems.  Financial structure is not arbitrary — it reflects the nature of information and monitoring in the economy.\n\n\nEnvironment\nProject\n\nInvestment \\(I\\)\n\n\nNEW: - Returns \\(R\\in\\{R_H,R_L\\}\\)\nProject outcome depends on effort \\(e\\)\n\n\n\n\n\n\n\n\n\nEffort\nSuccess probability\nReturn if success\nReturn if failure\n\n\n\n\nHigh effort (\\(e=1\\))\n\\(p_H\\)\n\\(R_H\\)\n\\(0\\)\n\n\nLow effort  (\\(e=0\\)) (shirking)\n\\(p_L &lt; p_H\\)\n\\(R_L &lt; R_H\\)\n\\(0\\)\n\n\n\n\nEntrepreneur/Borrower\n\nOwn wealth \\(A\\)\nNeeds to raise \\(I - A\\) from investor\nChoses to exert effort \\(e\\)\n\nWhen shirking (\\(e=0\\)): gets private benefit \\(B\\)\n\n\nInvestor (direct market)\n\nFunds &gt; \\(I\\)\nRequires repayment \\(D\\) (principal + interest)\nCannot observe \\(e\\) ex ante\n\nBank (intermediary)\n\nSame financing as investor\nMonitoring technology: \\(B = 0\\) at cost \\(K\\)\n\nNPV assumptions:\n\\[\np_H R_H &gt; I &gt; p_L R_L\n\\] → The project is socially efficient only with high effort.\n\n\nEntrepreneur’s expected payoff\nLimited liability: Let \\(D\\) be the repayment due in success and nothing is paid in failure.\nExpected payoff\n\\[\n\\mathbb{E}[w] =\n\\begin{cases}\np_H (R_H - D) ~~ &\\text{if} ~~ e=1\\\\\np_L (R_L - D) + B~~ &\\text{if} ~~ e=0\n\\end{cases}\n\\]\n\n\nIncentive Compatibility\nWithout Monitoring\n[IC] Effort is incentive-compatible iff \\[\np_H (R_H - D) \\;\\ge\\; p_L (R_L - D) + B.\n\\]\n\nRearranging:\n\n\\[\n\\big(p_H R_H - p_L R_L\\big) - (p_H - p_L) D \\;\\ge\\; B,\n\\]\n→ There is a maximum face value that can be charged to the entrepreneur while keeping consistent with effort: \\[\nD_{\\max} \\;=\\; \\frac{p_H R_H - p_L R_L - B}{\\,p_H - p_L\\,}.\n\\]\n\nFor \\(D&gt;D_{\\max}\\), the entrepeneur prefers to shirk.\n\n\n\n\nDirect Market Funding\nInvestor expected payoff:\nWhen \\(D&lt;D_{max}\\): investors expect to receive \\(p_H D\\) (since effort is exerted under [IC]).\nFeasibility of direct funding:\n\nMarket finance is feasible if there exists \\(D \\le  D_{\\max}\\) such that \\[\np_H D \\;\\ge\\; I - A.\n\\]\nA necessary condition is therefore that: \\[\np_H D_{\\max} \\;\\ge\\; I - A\n\\quad\\Longleftrightarrow\\quad\nA \\ge I - p_H\\frac{p_H R_H - p_L R_L - B}{p_H - p_L} = A_M\n\\] Where \\(A_M\\) defines the minimum capital for market finance:\n\n→ If \\(A \\ge A_M\\), effort is self-enforcing and direct market funding is possible.\n\n\nBank Funding\nA bank can monitor at cost \\(K&gt;0\\) and prevent shirking - The [IC] constraint is no longer binding for the monitored loan - \\(B=0\\)\nBank’s expected profit \\[\n\\Pi_B(D) \\;=\\; p_H D \\;-\\; (I - A) \\;-\\; K.\n\\]\nFeasibility of bank funding:\n\nBank funding is feasible with monitoring if there exists \\(D\\) such that \\[\np_H D - K\\;\\ge\\; I - A.\n\\]\nA necessary condition is therefore that: \\[\nA &gt; A_B \\;=\\; I - p_H R_H + K.\n\\] Where \\(A_B\\) is the minimum capital needed for bank finance (monitored loan).\n\n\nThe bank chooses the largest feasible repayment, \\(D = R_H\\), to minimize the required own capital while respecting limited liability \\(D\\le R_H\\)).\n\n→ If \\(A_B \\le A\\), effort is monitored and bank funding is possible.\n\n\nCredit Market Structure\nCo-existence condition \\[A_M &gt; A_B\n\\quad \\Longleftrightarrow \\quad\np_H \\frac{p_L (R_H - R_L) + B}{p_H - p_L} &gt; K.\n\\]\nAs long as the monitoring cost is not too high, monitoring is valuable because it expands the feasible set: \\[\nA_B \\;&lt;\\; A_M,\n\\]\nBut bank monitoring costs \\(K\\) so banking loans are costlier → Banks optimally fund the intermediate region where monitoring is necessary yet efficient.\n\n\n\n\n\n\n\n\n\n\nCase\nEffort enforcement\nMonitoring?\nCapital condition\nFunding source\n\n\n\n\nMarket finance\nSelf-enforced\nNo\n\\(A \\ge A_M\\)\nDirect market investors\n\n\nBank finance\nNeeds enforcement\nYes (cost \\(K\\))\n\\(A_B \\le A &lt; A_M\\)\nBank (monitored)\n\n\nNo finance\nNot profitable even with monitoring\n—\n\\(A &lt; A_B\\)\nProject not funded\n\n\n\n\n\nEconomic Interpretation\n\nPositive NPV requires high effort; otherwise, expected value is insufficient.\n\nWith enough entrepreneur capital (\\(A \\ge A_M\\)) → markets can fund directly.\n\nWith intermediate capital (\\(A_B \\le A &lt; A_M\\)), effort would fail without discipline; banks pay \\(K\\) to monitor and restore feasibility.\n\nWith low capital (\\(A &lt; A_B\\)), the project remains unviable even with monitoring → no funding.\n\nBottom line:\n\n\nMarkets fund well-capitalized projects; banks fund monitorable-but-risky ones; bad projects remain unfunded.\nThis explains the coexistence of banks and markets under moral hazard."
+  },
+  {
+    "objectID": "lectures/lecture_03/05_credit.html#discussion-2",
+    "href": "lectures/lecture_03/05_credit.html#discussion-2",
+    "title": "Credit",
+    "section": "Discussion",
+    "text": "Discussion\n\nPaper Impact\n\nA foundational contribution to the modern theory of financial intermediation.\nProvided a microeconomic justification for why banks and markets coexist:\n\nBanks = delegated monitors under moral hazard.\nMarkets = arm’s-length financiers when incentives are self-enforcing.\n\n\nThe paper reframed finance as a problem of information governance, not just capital allocation.\nConceptual Breakthroughs\n\nIntroduced the notion of pledgeable income: &gt; Only the part of project returns consistent with incentives can be pledged to investors.\nExplained the hierarchy of finance:\n\nInternal finance (self-enforcing),\nIntermediated finance (requires monitoring),\nMarket finance (transparent, large-scale).\n\nLinked firm size, transparency, and financing mode:\n\nSmall, opaque → bank-dependent.\n\nLarge, visible → market-based.\n\n\n\n\nMonitoring as Information Production\n\nIn Holmström & Tirole (1997), banks monitor borrowers to prevent shirking.\n\nMonitoring does not only enforce effort — it also generates information and data about:\n\nborrower performance,\nbusiness viability,\nrepayment behavior.\n\n\nIn modern terms: monitoring = data production about creditworthiness and operations.\n\n\nThe Private Nature of Monitoring Data\n\nThe information a bank collects through monitoring is proprietary.\n\nIt represents private capital in the form of data:\n\ncostly to produce,\n\nand difficult for competitors to replicate.\n\nThis informational advantage can lock customers in:\n\nBorrowers may stay with their bank because the bank knows them best.\n\nCompeting lenders cannot easily assess risk without similar data.\n\n\n→ Private information → informational rents → market power.\n\n\nPolicy Implication: Open Data and Interoperability\n\nFrom a social efficiency perspective, data about borrower quality is non-rival —\nonce produced, it could improve credit allocation if shared.\nHowever, private ownership of monitoring data leads to under-sharing and barriers to entry.\n\nThis motivates open data policies such as:\n\nOpen Banking / Open Finance:\nregulated data-sharing between financial institutions to enable competition and switching.\nStandardized APIs and interoperability frameworks:\nreduce information asymmetry while preserving privacy and security.\n\n\n\nEconomic Trade-Off\n\n Open Data Policies \n\n\n\n\n\n\n\n\nBenefit\nCost\n\n\n\n\nReduces switching costs and enhances competition\nWeakens private incentives to monitor and collect data\n\n\nImproves market contestability\nUnravelling: may reduce banks’ willingness to lend to no-data borrowers\n\n\n\nThe policy challenge:\nBalance the benefits of open access to data with the need to preserve monitoring incentives that sustain credit to informationally intensive sectors.\n\n\nModern Relevance\nAI and machine learning\nTechnologies to detect patterns of shirking or misuse of funds (reduce moral hazard).\nAs such they can reduce the cost of monitoring (\\(K\\)) thereby expanding further access to monitored credit\nData-driven economy\nMonitoring rents are becoming data rents.\n\nFintechs and BigTechs enter credit markets not through capital, but through informational advantage.\n\nOpen banking and data portability are policy tools designed to:\n\nlower barriers to entry,\n\nprevent informational monopolies,\n\nand reintroduce competition in the monitoring layer of finance.\n\n\nThe underlying principle remains Holmström–Tirole’s insight:\n\nInformation is costly to produce and privately valuable\nPublic policy must decide when to privatize it and when to share it."
   }
 ]

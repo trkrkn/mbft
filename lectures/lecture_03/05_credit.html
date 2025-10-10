@@ -1,0 +1,1901 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Credit – Modern Banking and Financial Technology</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Modern Banking and Financial Technology</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../syllabus.html"> 
+<span class="menu-text">Syllabus</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../schedule.html"> 
+<span class="menu-text">Schedule</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lectures" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lectures</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lectures">    
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_01/lecture_01.html">
+ <span class="dropdown-text">Lecture 01 - Modern Banking pt.&nbsp;1</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_02/lecture_02.html">
+ <span class="dropdown-text">Lecture 02 - Modern Banking pt.&nbsp;2</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_03/lecture_03.html">
+ <span class="dropdown-text">Lecture 03 - Modern Banking pt.&nbsp;3</span></a>
+  </li>  
+        <li class="dropdown-header">Lecture 04 - Modern Banking pt.&nbsp;4</li>
+        <li class="dropdown-header">Lecture 05 - Modern Banking pt.&nbsp;5</li>
+        <li class="dropdown-header">Lecture 06 - Fintech</li>
+        <li class="dropdown-header">Lecture 07 - Platforms pt.&nbsp;2</li>
+        <li class="dropdown-header">Lecture 08 - Machine Learning pt.&nbsp;1</li>
+        <li class="dropdown-header">Lecture 09 - Machine Learning pt.&nbsp;2</li>
+        <li class="dropdown-header">Lecture 10 - Crypto pt.&nbsp;1</li>
+        <li class="dropdown-header">Lecture 11 - Crypto pt.&nbsp;2</li>
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="https://app.alldayta.com/katholieke-universiteit-leuven/mbft"> 
+<span class="menu-text">All Day TA (<strong>new</strong>)</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#key-questions" id="toc-key-questions" class="nav-link active" data-scroll-target="#key-questions">4 Key Questions</a></li>
+  <li><a href="#what-is-a-debt-contract" id="toc-what-is-a-debt-contract" class="nav-link" data-scroll-target="#what-is-a-debt-contract">What is a debt contract?</a></li>
+  <li><a href="#why-are-debt-contracts-so-prevalent" id="toc-why-are-debt-contracts-so-prevalent" class="nav-link" data-scroll-target="#why-are-debt-contracts-so-prevalent">Why are debt contracts so prevalent?</a></li>
+  <li><a href="#when-do-debt-markets-fail" id="toc-when-do-debt-markets-fail" class="nav-link" data-scroll-target="#when-do-debt-markets-fail">When do debt markets fail?</a></li>
+  <li><a href="#why-do-we-need-banks-for-credit" id="toc-why-do-we-need-banks-for-credit" class="nav-link" data-scroll-target="#why-do-we-need-banks-for-credit">Why do we need banks for credit?</a></li>
+  <li><a href="#map" id="toc-map" class="nav-link" data-scroll-target="#map">Map</a></li>
+  <li><a href="#financial-contracts" id="toc-financial-contracts" class="nav-link" data-scroll-target="#financial-contracts">1. Financial Contracts</a>
+  <ul class="collapse">
+  <li><a href="#stylized-equity-style-contract" id="toc-stylized-equity-style-contract" class="nav-link" data-scroll-target="#stylized-equity-style-contract">Stylized equity-style contract</a></li>
+  <li><a href="#stylized-debt-contract" id="toc-stylized-debt-contract" class="nav-link" data-scroll-target="#stylized-debt-contract">Stylized debt contract</a></li>
+  <li><a href="#overview-of-the-lecture" id="toc-overview-of-the-lecture" class="nav-link" data-scroll-target="#overview-of-the-lecture">Overview of the Lecture</a>
+  <ul class="collapse">
+  <li><a href="#information-frictions-and-credit" id="toc-information-frictions-and-credit" class="nav-link" data-scroll-target="#information-frictions-and-credit">Information Frictions and Credit</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#the-cheapness-of-debt" id="toc-the-cheapness-of-debt" class="nav-link" data-scroll-target="#the-cheapness-of-debt">2. The Cheapness of Debt</a>
+  <ul class="collapse">
+  <li><a href="#costly-state-verification" id="toc-costly-state-verification" class="nav-link" data-scroll-target="#costly-state-verification">Costly-State Verification</a></li>
+  <li><a href="#framework" id="toc-framework" class="nav-link" data-scroll-target="#framework">Framework</a>
+  <ul class="collapse">
+  <li><a href="#environment" id="toc-environment" class="nav-link" data-scroll-target="#environment">Environment</a></li>
+  <li><a href="#financial-contract" id="toc-financial-contract" class="nav-link" data-scroll-target="#financial-contract">Financial Contract</a></li>
+  </ul></li>
+  <li><a href="#optimal-contract" id="toc-optimal-contract" class="nav-link" data-scroll-target="#optimal-contract">Optimal Contract</a>
+  <ul class="collapse">
+  <li><a href="#standard-debt-contract" id="toc-standard-debt-contract" class="nav-link" data-scroll-target="#standard-debt-contract">Standard Debt Contract</a></li>
+  <li><a href="#proof" id="toc-proof" class="nav-link" data-scroll-target="#proof">Proof</a></li>
+  </ul></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion">Discussion</a>
+  <ul class="collapse">
+  <li><a href="#intuition-recap" id="toc-intuition-recap" class="nav-link" data-scroll-target="#intuition-recap">Intuition Recap</a></li>
+  <li><a href="#why-alternatives-fail" id="toc-why-alternatives-fail" class="nav-link" data-scroll-target="#why-alternatives-fail">Why Alternatives Fail</a></li>
+  <li><a href="#policy-and-market-implications" id="toc-policy-and-market-implications" class="nav-link" data-scroll-target="#policy-and-market-implications">Policy and Market Implications</a></li>
+  <li><a href="#technological-fix-reducing-verification-costs" id="toc-technological-fix-reducing-verification-costs" class="nav-link" data-scroll-target="#technological-fix-reducing-verification-costs">Technological Fix: Reducing Verification Costs</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#the-failure-of-credit-markets" id="toc-the-failure-of-credit-markets" class="nav-link" data-scroll-target="#the-failure-of-credit-markets">3. The Failure of Credit Markets</a>
+  <ul class="collapse">
+  <li><a href="#credit-markets-standard-markets" id="toc-credit-markets-standard-markets" class="nav-link" data-scroll-target="#credit-markets-standard-markets">Credit Markets ≠ Standard Markets</a></li>
+  <li><a href="#a-model-of-credit-rationing" id="toc-a-model-of-credit-rationing" class="nav-link" data-scroll-target="#a-model-of-credit-rationing">A Model of Credit Rationing</a>
+  <ul class="collapse">
+  <li><a href="#environment-1" id="toc-environment-1" class="nav-link" data-scroll-target="#environment-1">Environment</a></li>
+  <li><a href="#riskiness-of-projects" id="toc-riskiness-of-projects" class="nav-link" data-scroll-target="#riskiness-of-projects">Riskiness of projects</a></li>
+  <li><a href="#borrower-participation" id="toc-borrower-participation" class="nav-link" data-scroll-target="#borrower-participation">Borrower participation</a></li>
+  <li><a href="#benchmark-perfect-information" id="toc-benchmark-perfect-information" class="nav-link" data-scroll-target="#benchmark-perfect-information">Benchmark: Perfect Information</a></li>
+  <li><a href="#information-asymmetry-adverse-selection" id="toc-information-asymmetry-adverse-selection" class="nav-link" data-scroll-target="#information-asymmetry-adverse-selection">Information Asymmetry: Adverse Selection</a></li>
+  <li><a href="#equilibrium---credit-rationing" id="toc-equilibrium---credit-rationing" class="nav-link" data-scroll-target="#equilibrium---credit-rationing">Equilibrium - Credit Rationing</a></li>
+  </ul></li>
+  <li><a href="#discussion-1" id="toc-discussion-1" class="nav-link" data-scroll-target="#discussion-1">Discussion</a>
+  <ul class="collapse">
+  <li><a href="#why-it-was-such-an-impactful-discovery" id="toc-why-it-was-such-an-impactful-discovery" class="nav-link" data-scroll-target="#why-it-was-such-an-impactful-discovery">Why It Was Such an Impactful Discovery</a></li>
+  <li><a href="#what-the-model-explains-in-practice" id="toc-what-the-model-explains-in-practice" class="nav-link" data-scroll-target="#what-the-model-explains-in-practice">What the Model Explains in Practice</a></li>
+  <li><a href="#interventions" id="toc-interventions" class="nav-link" data-scroll-target="#interventions">Interventions</a></li>
+  <li><a href="#policy-implications" id="toc-policy-implications" class="nav-link" data-scroll-target="#policy-implications">Policy Implications</a></li>
+  <li><a href="#modern-issues-and-fintech" id="toc-modern-issues-and-fintech" class="nav-link" data-scroll-target="#modern-issues-and-fintech">Modern Issues and Fintech</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#the-structure-of-credit-markets" id="toc-the-structure-of-credit-markets" class="nav-link" data-scroll-target="#the-structure-of-credit-markets">4. The Structure of Credit Markets</a>
+  <ul class="collapse">
+  <li><a href="#the-core-problem-moral-hazard" id="toc-the-core-problem-moral-hazard" class="nav-link" data-scroll-target="#the-core-problem-moral-hazard">The Core Problem: Moral Hazard</a></li>
+  <li><a href="#a-model-of-monitoring-effort" id="toc-a-model-of-monitoring-effort" class="nav-link" data-scroll-target="#a-model-of-monitoring-effort">A Model of Monitoring Effort</a>
+  <ul class="collapse">
+  <li><a href="#environment-2" id="toc-environment-2" class="nav-link" data-scroll-target="#environment-2">Environment</a></li>
+  <li><a href="#entrepreneurs-expected-payoff" id="toc-entrepreneurs-expected-payoff" class="nav-link" data-scroll-target="#entrepreneurs-expected-payoff">Entrepreneur’s expected payoff</a></li>
+  <li><a href="#incentive-compatibility" id="toc-incentive-compatibility" class="nav-link" data-scroll-target="#incentive-compatibility">Incentive Compatibility</a></li>
+  <li><a href="#direct-market-funding" id="toc-direct-market-funding" class="nav-link" data-scroll-target="#direct-market-funding">Direct Market Funding</a></li>
+  <li><a href="#bank-funding" id="toc-bank-funding" class="nav-link" data-scroll-target="#bank-funding">Bank Funding</a></li>
+  <li><a href="#credit-market-structure" id="toc-credit-market-structure" class="nav-link" data-scroll-target="#credit-market-structure">Credit Market Structure</a></li>
+  <li><a href="#economic-interpretation" id="toc-economic-interpretation" class="nav-link" data-scroll-target="#economic-interpretation">Economic Interpretation</a></li>
+  </ul></li>
+  <li><a href="#discussion-2" id="toc-discussion-2" class="nav-link" data-scroll-target="#discussion-2">Discussion</a>
+  <ul class="collapse">
+  <li><a href="#paper-impact" id="toc-paper-impact" class="nav-link" data-scroll-target="#paper-impact">Paper Impact</a></li>
+  <li><a href="#monitoring-as-information-production" id="toc-monitoring-as-information-production" class="nav-link" data-scroll-target="#monitoring-as-information-production">Monitoring as Information Production</a></li>
+  <li><a href="#the-private-nature-of-monitoring-data" id="toc-the-private-nature-of-monitoring-data" class="nav-link" data-scroll-target="#the-private-nature-of-monitoring-data">The Private Nature of Monitoring Data</a></li>
+  <li><a href="#policy-implication-open-data-and-interoperability" id="toc-policy-implication-open-data-and-interoperability" class="nav-link" data-scroll-target="#policy-implication-open-data-and-interoperability">Policy Implication: Open Data and Interoperability</a></li>
+  <li><a href="#economic-trade-off" id="toc-economic-trade-off" class="nav-link" data-scroll-target="#economic-trade-off">Economic Trade-Off</a></li>
+  <li><a href="#modern-relevance" id="toc-modern-relevance" class="nav-link" data-scroll-target="#modern-relevance">Modern Relevance</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Credit</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="key-questions" class="level2">
+<h2 class="anchored" data-anchor-id="key-questions">4 Key Questions</h2>
+</section>
+<section id="what-is-a-debt-contract" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-a-debt-contract">What is a debt contract?</h2>
+</section>
+<section id="why-are-debt-contracts-so-prevalent" class="level2">
+<h2 class="anchored" data-anchor-id="why-are-debt-contracts-so-prevalent">Why are debt contracts so prevalent?</h2>
+</section>
+<section id="when-do-debt-markets-fail" class="level2">
+<h2 class="anchored" data-anchor-id="when-do-debt-markets-fail">When do debt markets fail?</h2>
+</section>
+<section id="why-do-we-need-banks-for-credit" class="level2">
+<h2 class="anchored" data-anchor-id="why-do-we-need-banks-for-credit">Why do we need banks for credit?</h2>
+</section>
+<section id="map" class="level1">
+<h1>Map</h1>
+<ol type="1">
+<li>Financial contracts</li>
+<li>The cheapness of debt</li>
+<li>The failure of credit markets</li>
+<li>The structure of credit markets</li>
+</ol>
+</section>
+<section id="financial-contracts" class="level1">
+<h1>1. Financial Contracts</h1>
+<p>When an investor or a bank lends to an entrepreneur or a corporation, the agreement takes the form of a <strong>financial contract</strong>.</p>
+<p>Designing such contracts requires balancing the borrower’s <strong>incentives to repay</strong>, the lender’s <strong>willingness to finance</strong>, and the <strong>efficient use of resources</strong>.</p>
+<p><strong>Ideal World</strong></p>
+<p>In a world of <strong>complete information</strong>, the two parties could write a <strong>complete contingent contract</strong> — specifying obligations and repayments for every possible future state of the world.</p>
+<ul>
+<li>Repayments could be perfectly linked to realized earnings.</li>
+</ul>
+<blockquote class="blockquote">
+<p>Example: <em>lender receives a fixed fraction of profit → <strong>equity-style contract</strong>.</em></p>
+</blockquote>
+<ul>
+<li><strong>No default</strong> would occur, since payments automatically adjust to outcomes.</li>
+</ul>
+<p><strong>Real-World</strong></p>
+<p>However, real-world financial contracts differ markedly:</p>
+<ul>
+<li>(Most) Investments are made through <strong>intermediaries</strong></li>
+<li>Some profitable investments <strong>do not get funded</strong></li>
+<li>Repayments are typically <strong>fixed</strong>, not contingent on earnings.<br>
+</li>
+<li>If earnings are insufficient → <strong>default occurs</strong>.<br>
+</li>
+<li>Default triggers <strong>costly procedures</strong>: bankruptcy, foreclosure, asset seizure.</li>
+</ul>
+<section id="stylized-equity-style-contract" class="level3">
+<h3 class="anchored" data-anchor-id="stylized-equity-style-contract">Stylized equity-style contract</h3>
+<p>Where <span class="math inline">\(R\)</span> is the return from the financed project and <span class="math inline">\(R_E\)</span> the return to the investor</p>
+<center>
+<img src="figures/equity.png" width="600">
+</center>
+</section>
+<section id="stylized-debt-contract" class="level3">
+<h3 class="anchored" data-anchor-id="stylized-debt-contract">Stylized debt contract</h3>
+<p>Where <span class="math inline">\(R\)</span> is the return from the financed project and <span class="math inline">\(R_D\)</span> the return to the investor</p>
+<center>
+<img src="figures/debt.png" width="600">
+</center>
+</section>
+<section id="overview-of-the-lecture" class="level2">
+<h2 class="anchored" data-anchor-id="overview-of-the-lecture">Overview of the Lecture</h2>
+<ol type="1">
+<li><strong>Why</strong> the standard debt contract dominates other financial contracts in credit?</li>
+<li><strong>Which</strong> market failures arise from credit contracts?</li>
+<li><strong>Why</strong> financial intermediation co-exists with direct market lending?</li>
+</ol>
+<p><u><strong>Approach</strong></u>: Study how different <strong>information frictions</strong> — costly verification, adverse selection, moral hazard — shape the <strong>design of credit contracts</strong> and the <strong>role of intermediaries</strong>.</p>
+<p><strong>Three guiding models</strong></p>
+<ol type="1">
+<li>Why are <strong>debt contracts</strong> so prevalent?<br>
+→ <em>Townsend (1979): Costly state verification</em><br>
+</li>
+<li>What is wrong with debt contracts?<br>
+→ <em>Stiglitz &amp; Weiss (1981): Credit rationing</em><br>
+</li>
+<li>Why do we need <strong>banks</strong> for credit?<br>
+→ <em>Holmström &amp; Tirole (1997): Monitoring and intermediation</em></li>
+</ol>
+<p><strong>One common framework</strong>: <u><strong>Information frictions</strong></u></p>
+<section id="information-frictions-and-credit" class="level3">
+<h3 class="anchored" data-anchor-id="information-frictions-and-credit">Information Frictions and Credit</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 26%">
+<col style="width: 14%">
+<col style="width: 18%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Type of Friction</th>
+<th>Model</th>
+<th>Main Problem</th>
+<th>Technological Fix</th>
+<th>Implication for Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Costly state verification</strong></td>
+<td>Townsend (1979)</td>
+<td>Lender cannot freely observe project outcomes</td>
+<td><strong>Auditing</strong></td>
+<td>Debt contract minimizes verification cost</td>
+</tr>
+<tr class="even">
+<td><strong>Adverse selection</strong></td>
+<td>Stiglitz &amp; Weiss (1981)</td>
+<td>Lender cannot observe borrower type</td>
+<td><strong>Screening</strong></td>
+<td>Credit rationing emerges</td>
+</tr>
+<tr class="odd">
+<td><strong>Moral hazard</strong></td>
+<td>Holmström &amp; Tirole (1997)</td>
+<td>Borrower actions unobservable</td>
+<td><strong>Monitoring</strong></td>
+<td>Banks add value through monitoring</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+</section>
+<section id="the-cheapness-of-debt" class="level1">
+<h1>2. The Cheapness of Debt</h1>
+<p><strong>The Puzzle</strong></p>
+<blockquote class="blockquote">
+<p>Why do credit markets rely so heavily on <strong>debt contracts</strong><br>
+— a structure that often leads to costly defaults —<br>
+instead of contingent, equity-like contracts that could avoid them?</p>
+</blockquote>
+<p><strong>The Answer: Information Frictions</strong></p>
+<ul>
+<li>Borrower actions and project outcomes are <strong>not perfectly observable</strong>.<br>
+</li>
+<li>Information may be <strong>private</strong> or <strong>non-verifiable</strong>.<br>
+</li>
+<li>Complete contingent contracts are therefore <strong>infeasible</strong>.<br>
+</li>
+<li>Standard debt contracts emerge as a <strong>constrained-efficient solution</strong><br>
+once <strong>asymmetric information</strong> and <strong>incentive constraints</strong> are considered.</li>
+</ul>
+<section id="costly-state-verification" class="level2">
+<h2 class="anchored" data-anchor-id="costly-state-verification">Costly-State Verification</h2>
+<p>The work of Townsend (1979) and Gale &amp; Hellwig (1985) launched the <strong>modern theory of financial contracting</strong>.</p>
+<p>It explains <strong>why debt exists</strong> — as the optimal response to <strong>information frictions</strong> and <strong>costly verification</strong> — and how incentives, participation, and efficiency jointly determine contract structure.</p>
+<p><strong>Setting</strong></p>
+<ul>
+<li>Entrepreneur and investor write a contract where the investor provides financing for a project.<br>
+</li>
+<li>The entrepreneur pays back an amount that depends on the <strong>state of the world</strong> (e.g.&nbsp;success / failure).<br>
+</li>
+<li>The state of the world is <strong>observed only by the entrepreneur</strong>.<br>
+</li>
+<li>The investor can observe it <strong>only by incurring a monitoring cost</strong></li>
+</ul>
+<center>
+↓<br><u><b>costly state verification</b></u>
+</center>
+<p><strong>Goal</strong></p>
+<p>Show that a <strong>standard debt contract</strong> is optimal:</p>
+<center>
+<b> Maximization of the entrepreneur’s wealth subject to the participation of the investor.</b>
+</center>
+</section>
+<section id="framework" class="level2">
+<h2 class="anchored" data-anchor-id="framework">Framework</h2>
+<p><em>Adapted from Tirole (2006), Chap. 3–7</em></p>
+<section id="environment" class="level3">
+<h3 class="anchored" data-anchor-id="environment">Environment</h3>
+<p><strong>Project</strong></p>
+<ul>
+<li>Investment <span class="math inline">\(I\)</span></li>
+<li>Returns <span class="math inline">\(R\)</span>: random variable with density <span class="math inline">\(p(R)\)</span> on <span class="math inline">\([0, +\infty)\)</span></li>
+</ul>
+<p><strong>Entrepreneur</strong></p>
+<ul>
+<li>Own wealth <span class="math inline">\(A\)</span></li>
+<li>Needs to raise <span class="math inline">\(I - A\)</span> from investor</li>
+</ul>
+<p><strong>Investors</strong></p>
+<ul>
+<li>Funds &gt; <span class="math inline">\(I\)</span></li>
+<li><strong>Audit technology</strong>: reveal <span class="math inline">\(R\)</span> at cost <span class="math inline">\(K\)</span></li>
+</ul>
+</section>
+<section id="financial-contract" class="level3">
+<h3 class="anchored" data-anchor-id="financial-contract">Financial Contract</h3>
+<p>Specifies:</p>
+<ul>
+<li>The entrepreneur engages in project yielding return <span class="math inline">\(R\)</span> and <strong>reports <span class="math inline">\(\hat{R}\)</span></strong></li>
+<li>The investor provides <span class="math inline">\((I - A)\)</span><br>
+</li>
+<li>Investor audits the reported return <span class="math inline">\(\hat{R}\)</span> with probability <span class="math inline">\(y(\hat{R})\)</span></li>
+</ul>
+<p><strong>Entrepreneur payoff</strong> <span class="math display">\[w = y(\hat{R})w_0(\hat{R},R) + (1-y(\hat{R}))w_1(\hat{R},R)\]</span></p>
+<p><strong>Investor payoff</strong> <span class="math display">\[R_i = R - w(\hat{R},R) - y(\hat{R}) K\]</span></p>
+<p><strong>Timeline</strong></p>
+<ol type="1">
+<li>Loan agreement</li>
+<li>Investment is sunk</li>
+<li>Income <span class="math inline">\(R\)</span> is realized according to <span class="math inline">\(p(R)\)</span><br>
+</li>
+<li>Entrepreneur reports <span class="math inline">\(\hat{R}\)</span></li>
+<li>Audit decision by investor<br>
+</li>
+<li>Repayment <span class="math inline">\(R_i\)</span> to investor</li>
+</ol>
+</section>
+</section>
+<section id="optimal-contract" class="level2">
+<h2 class="anchored" data-anchor-id="optimal-contract">Optimal Contract</h2>
+<p>The optimal contract maximizes the <strong>entrepreneur’s expected income</strong> <span class="math display">\[
+\max_{y(\cdot), R_i(\cdot)} \; \mathbb{E}[w(\hat{R}, R)]
+\]</span></p>
+<p><u><strong>Constraints</strong></u></p>
+<ul>
+<li><strong>[IC]</strong> Entrepreneur’s incentive compatibility (truthful reporting)</li>
+</ul>
+<p><span class="math display">\[
+w(R, R) = \max_{\hat{R}} \left\{ y(\hat{R})\,w_{0}(\hat{R},R) + \left(1 - y(\hat{R})\right)\,w_{1}(\hat{R},R) \right\}
+\]</span></p>
+<center>
+→ Reporting the true return (<span class="math inline">\(R = \hat{R}\)</span>) maximizes <span class="math inline">\(w\)</span>
+</center>
+<ul>
+<li><strong>[IR]</strong> Investor’s individual rationality (participation)</li>
+</ul>
+<p><span class="math display">\[
+\mathbb{E} \left[ R - w(R) - y(R) K \right]  \ge I - A
+\]</span></p>
+<center>
+→ Investor at least breaks even<br>If perfect competition: zero profit
+</center>
+<section id="standard-debt-contract" class="level3">
+<h3 class="anchored" data-anchor-id="standard-debt-contract">Standard Debt Contract</h3>
+<ul>
+<li><span class="math inline">\(D =\)</span> debt payment<br>
+</li>
+<li><span class="math inline">\(y(\hat{R}) = 0\)</span> if <span class="math inline">\(\hat{R} \ge D\)</span> <code>no audit</code></li>
+<li><span class="math inline">\(y(\hat{R}) = 1\)</span> if <span class="math inline">\(\hat{R} &lt; D\)</span> <code>audit</code></li>
+</ul>
+<p><strong>Entrepreneur’s payoff</strong> <span class="math display">\[w = \max(R - D, 0)\]</span></p>
+<p><strong>Investor’s payoff</strong> <span class="math display">\[R_i = \min(R, D)\]</span></p>
+<p><strong>Assuming</strong> <span class="math inline">\(y(\hat{R})\)</span> is <strong>binary</strong> for all <span class="math inline">\(\hat{R}\)</span></p>
+<center>
+↓ <br> <b>This debt contract is optimal</b>
+</center>
+</section>
+<section id="proof" class="level3">
+<h3 class="anchored" data-anchor-id="proof">Proof</h3>
+<section id="step-1-minimizing-audit-costs" class="level4">
+<h4 class="anchored" data-anchor-id="step-1-minimizing-audit-costs">Step 1: Minimizing audit costs</h4>
+<p>As investors’ break even (perfect competition), the <strong>[IR]</strong> constraint can be re-written:</p>
+<p><span class="math display">\[
+\mathbb{E} \left[ R - w(R) - \left( 1 - y(R) \right) K \right] = I - A,
+\]</span></p>
+<ul>
+<li>Isolate <span class="math inline">\(w(R)\)</span> inside the expectation.</li>
+</ul>
+<p><span class="math display">\[
+\begin{align}
+\mathbb{E}[w(R)] &amp;= \mathbb{E}\big[ R - (1 - y(R))K \big] - (I - A)\\
+&amp;= \mathbb{E}[R] - K\mathbb{E}[1-y(R)] - (I-A)
+\end{align}
+\]</span></p>
+<ul>
+<li>Constants: <span class="math inline">\(\mathbb{E}[R]\)</span>, <span class="math inline">\((I-A)\)</span> and <span class="math inline">\(K&gt;0\)</span></li>
+</ul>
+<p>Therefore, <span class="math display">\[
+\max \ \mathbb{E}[w(R)]
+\quad\Longleftrightarrow\quad
+\min \ \mathbb{E}[1-y(R)].
+\]</span></p>
+<center>
+↓<br><b><u>Goal:</u> Minimize audit zone</b>
+</center>
+</section>
+<section id="step-2-regions-of-returns" class="level4">
+<h4 class="anchored" data-anchor-id="step-2-regions-of-returns">Step 2: Regions of Returns</h4>
+<p>Define the following regions:</p>
+<ul>
+<li><span class="math inline">\(\mathcal{R}_0\)</span> = <code>no-audit</code> zone<br>
+</li>
+<li><span class="math inline">\(\mathcal{R}_1\)</span> = <code>audit</code> zone</li>
+</ul>
+<p>such that:</p>
+<p><span class="math display">\[
+\mathcal{R}_0 \cap \mathcal{R}_1 = \emptyset, \qquad
+\mathcal{R}_0 \cup \mathcal{R}_1 = [0, \infty)
+\]</span></p>
+</section>
+<section id="step-3-audit-cost" class="level4">
+<h4 class="anchored" data-anchor-id="step-3-audit-cost">Step 3: Audit cost</h4>
+<p>Any [IC]-satisfying contract must have a <strong>cutoff region</strong> where the borrower repays a <strong>fixed</strong> amount whenever no audit occurs.</p>
+<p>Why?</p>
+<ol type="1">
+<li><strong>Flat Payments in No-Audit States</strong>
+<ul>
+<li>If repayments varied with <span class="math inline">\(R\)</span> in no-audit states, borrower would underreport.<br>
+</li>
+<li>Thus, all no-audit states must involve the <strong>same repayment <span class="math inline">\(F\)</span></strong>.</li>
+</ul></li>
+<li><strong>Cutoff Audit Rule</strong>
+<ul>
+<li>Since borrower’s incentive is always to under-report, audits should target <strong>low reports</strong>.<br>
+</li>
+<li>Efficient rule: audit only when reported under a <strong>threshold <span class="math inline">\(F\)</span></strong>.</li>
+</ul></li>
+</ol>
+<center>
+↓
+</center>
+<p><span class="math display">\[R - w(R) = F \quad \text{when} \quad R \in \mathcal{R}_0\]</span></p>
+<p><strong>Debt contract</strong>:</p>
+<p><span class="math display">\[\boxed{R_i = R - w(R) = D \quad \text{when} \quad R \in \mathcal{R}^{*}_0}\]</span></p>
+<p><span class="math display">\[\boxed{\mathcal{R}_0^{*} = [D,\infty) ~~~ \&amp; ~~~ \mathcal{R}_1^{*} = [0,D[}\]</span></p>
+<p><span class="math inline">\(\mathcal{R}_0^{*}\)</span> is the largest possible no-audit region consistent with incentive compatibility.</p>
+<p>Any other contract that satisfies <strong>[IC]</strong> and <strong>[IR]</strong> must audit at least as often: <span class="math inline">\(\mathcal{R}_0 \subseteq \mathcal{R}_0^{*}.\)</span></p>
+<p><u>Hence the <strong>expected audit cost is (weakly) lower</strong> than any other contract.</u></p>
+</section>
+<section id="step-4-investor-payoff" class="level4">
+<h4 class="anchored" data-anchor-id="step-4-investor-payoff">Step 4: Investor payoff</h4>
+<p><strong>Debt contract payoff</strong>: <span class="math inline">\((\mathcal{R}^*_0,\mathcal{R}^*_1)\)</span> <span class="math display">\[\boxed{R_i =
+\begin{cases}
+R - w(R) = D, &amp; \text{if } R \in \mathcal{R}^{*}_0, \\[6pt]
+R - K, &amp; \text{if } R \in \mathcal{R}^{*}_1.
+\end{cases}}\]</span></p>
+<p>Assume any other <strong>arbitrary contract</strong>: <span class="math inline">\((\mathcal{R}_0,\mathcal{R}_1)\)</span></p>
+<ul>
+<li>For <span class="math inline">\(R \in \mathcal{R}_1 \cap \mathcal{R}_0^{*}\)</span>
+<ul>
+<li>Arbitrary contract <code>audit</code> | Debt contract <code>no audit</code></li>
+<li>But the repayment under no-audit is constant at D → Same repayment but arbitrary contract pays audit cost</li>
+</ul></li>
+<li>For <span class="math inline">\(R \in \mathcal{R}_1 \cap \mathcal{R}_1^{*}\)</span>
+<ul>
+<li>Arbitrary contract <code>audit</code> | Debt contract <code>audit</code> → Same return</li>
+</ul></li>
+</ul>
+<p>The debt contract, when auditing, extracts the maximum enforceable amount <span class="math inline">\(R-K\)</span> (the project’s realized return minus audit cost).</p>
+<p>No alternative contract can give the investor more.</p>
+<p><u>Hence, the <strong>investor’s expected payoff is weakly higher</strong> under the debt contract.</u></p>
+</section>
+<section id="step-5-entrepreneur-payoff" class="level4">
+<h4 class="anchored" data-anchor-id="step-5-entrepreneur-payoff">Step 5: Entrepreneur payoff</h4>
+<p>Given competitive investors, the [IR] constraint binds: <span class="math inline">\(\mathbb{E}[R_i] = I - A.\)</span></p>
+<p>If the investor gets the same expected payoff but with lower audit cost, the entrepreneur receives the higher expected income.</p>
+<p><u> Debt → fewer audits → smaller total verification cost → <b>larger borrower surplus</b></u></p>
+</section>
+</section>
+</section>
+<section id="discussion" class="level2">
+<h2 class="anchored" data-anchor-id="discussion">Discussion</h2>
+<section id="intuition-recap" class="level3">
+<h3 class="anchored" data-anchor-id="intuition-recap">Intuition Recap</h3>
+<p>In presence of <strong>costly state verification</strong>:</p>
+<ul>
+<li><strong>Debt contracts</strong> emerge naturally as the <strong>cheapest funding contract</strong>:
+<ul>
+<li>Flat payments in good states (no audit).<br>
+</li>
+<li>Audits only in bad states (defaults).<br>
+</li>
+</ul></li>
+<li><strong>Default is not a system failure</strong> — it is part of the optimal contract when verification is costly.</li>
+</ul>
+</section>
+<section id="why-alternatives-fail" class="level3">
+<h3 class="anchored" data-anchor-id="why-alternatives-fail">Why Alternatives Fail</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Alternative</th>
+<th>Why It Fails</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Equity-like contract</strong> <br>(repayment depends on profits)</td>
+<td>Requires verifying <span class="math inline">\(R\)</span> in every state → too costly</td>
+</tr>
+<tr class="even">
+<td><strong>Variable repayment in no-audit states</strong></td>
+<td>Breaks incentive compatibility (borrower lies)</td>
+</tr>
+<tr class="odd">
+<td><strong>Random audits</strong></td>
+<td>Wasteful, not targeted at incentive problem</td>
+</tr>
+</tbody>
+</table>
+<center>
+↓<br><b>Debt minimizes verification costs while preserving incentives.</b>
+</center>
+</section>
+<section id="policy-and-market-implications" class="level3">
+<h3 class="anchored" data-anchor-id="policy-and-market-implications">Policy and Market Implications</h3>
+<ul>
+<li><strong>Efficient bankruptcy systems</strong> → reduce verification costs.<br>
+</li>
+<li><strong>Collateral registries &amp; credit bureaus</strong> → improve verification and enforcement.<br>
+</li>
+<li><strong>Auditing and accounting standards</strong> → lower information asymmetry.<br>
+</li>
+<li><strong>Development finance:</strong> where verification/enforcement is costly, credit markets remain underdeveloped.</li>
+</ul>
+</section>
+<section id="technological-fix-reducing-verification-costs" class="level3">
+<h3 class="anchored" data-anchor-id="technological-fix-reducing-verification-costs">Technological Fix: Reducing Verification Costs</h3>
+<p>Technologies that make <strong>performance observable in real time</strong> (data-sharing, digital payments, IoT, blockchain) push markets <strong>closer to the optimal design</strong> by:</p>
+<ul>
+<li>Reducing audit frequency or cost.<br>
+</li>
+<li>Allowing more state-contingent (equity-like) payoffs.<br>
+</li>
+<li>Expanding access to credit.</li>
+</ul>
+<p><strong>Applications</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 40%">
+<col style="width: 26%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Setting</th>
+<th>Mechanism</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Fintech lenders</strong> (e.g., Shopify Capital, Stripe)</td>
+<td>Real-time revenue data</td>
+<td>Lower verification cost → more flexible contracts</td>
+</tr>
+<tr class="even">
+<td><strong>Smart contracts / Blockchain</strong></td>
+<td>Automated on-chain verification</td>
+<td>Replaces manual auditing</td>
+</tr>
+<tr class="odd">
+<td><strong>DeFi lending</strong></td>
+<td>No verification possible</td>
+<td>Requires <strong>over-collateralization</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+</section>
+<section id="the-failure-of-credit-markets" class="level1">
+<h1>3. The Failure of Credit Markets</h1>
+<section id="credit-markets-standard-markets" class="level2">
+<h2 class="anchored" data-anchor-id="credit-markets-standard-markets">Credit Markets ≠ Standard Markets</h2>
+<p>In most markets, <strong>prices clear</strong></p>
+<center>
+Supply and Demand: Excess demand → price rises → market equilibrates
+</center>
+<p>In <strong>credit markets</strong>, however, <strong>raising the interest rate</strong> changes <strong>who borrows</strong>, not only <strong>how much</strong>.</p>
+<center>
+The price (interest rate) itself affects the <b>risk composition</b> of borrowers.
+</center>
+<p><strong>Why? Information Asymmetry and Adverse Selection</strong></p>
+<ul>
+<li>Borrowers differ in <strong>riskiness</strong> and <strong>project quality</strong>, but lenders <strong>cannot observe</strong> this before lending.</li>
+<li>Higher interest rates drive out <strong>safer borrowers</strong>, leaving a <strong>riskier applicant pool</strong> — a case of <strong>adverse selection</strong>.</li>
+</ul>
+<p><strong>When Prices Stop Working</strong>: <code>Credit rationing</code></p>
+<ul>
+<li>Because of adverse selection the lender’s <strong>expected return</strong> may <strong>decline</strong> when the interest rate rises.</li>
+<li>At some point, it becomes <strong>unprofitable</strong> to raise rates further — even if <strong>loan demand exceeds supply</strong>.</li>
+</ul>
+<center>
+<b><u>Credit rationing</u></b> → A market where <b>some borrowers remain creditworthy but unfunded</b>
+</center>
+</section>
+<section id="a-model-of-credit-rationing" class="level2">
+<h2 class="anchored" data-anchor-id="a-model-of-credit-rationing">A Model of Credit Rationing</h2>
+<p>The Stiglitz–Weiss (1981) model</p>
+<ul>
+<li><p>Showed formally how <strong>asymmetric information</strong> can produce a <strong>non-clearing equilibrium</strong><br>
+→ <em>Market failure</em> in the credit market.</p></li>
+<li><p>Formalized the concept of <strong>credit rationing</strong>:</p>
+<ul>
+<li>Banks keep <strong>interest rates below market-clearing levels</strong><br>
+</li>
+<li><strong>Limit quantity</strong> rather than <strong>raise prices</strong>.</li>
+</ul></li>
+</ul>
+<section id="environment-1" class="level3">
+<h3 class="anchored" data-anchor-id="environment-1">Environment</h3>
+<p><strong>Project</strong></p>
+<ul>
+<li>Investment <span class="math inline">\(I\)</span></li>
+<li>Returns <span class="math inline">\(R\)</span></li>
+</ul>
+<hr>
+<p><strong>NEW</strong>: projects can be of <strong>different risk types</strong> <span class="math inline">\(\theta\)</span></p>
+<p>Conditional distribution of returns:<br>
+<span class="math display">\[R \mid \theta \sim F(\cdot \mid \theta),\]</span><br>
+where a higher <span class="math inline">\(\theta\)</span> implies a <strong>mean-preserving spread</strong> (riskier project).</p>
+<hr>
+<p><strong>Entrepreneur/Borrower</strong></p>
+<ul>
+<li>Own wealth <span class="math inline">\(A\)</span></li>
+<li>Associates with a project of risk type <span class="math inline">\(\theta\)</span></li>
+<li>Needs to raise <span class="math inline">\(I - A\)</span> from investor</li>
+</ul>
+<p><strong>Investors</strong></p>
+<ul>
+<li>Funds &gt; <span class="math inline">\(I\)</span></li>
+<li>Requires repayment <span class="math inline">\(D\)</span> (principal + interest)</li>
+<li><strong>Cannot observe</strong> <span class="math inline">\(\theta\)</span> ex ante but knows the distribution</li>
+</ul>
+</section>
+<section id="riskiness-of-projects" class="level3">
+<h3 class="anchored" data-anchor-id="riskiness-of-projects">Riskiness of projects</h3>
+<center>
+<img src="figures/risk.png" width="700">
+</center>
+<p>Riskier borrowers value <strong>limited liability</strong> more:<br>
+<span class="math display">\[
+  \mathbb{E}\!\left[\max\{R - D, 0\} \mid \theta\right]
+  \text{ increases with } \theta.
+  \]</span></p>
+</section>
+<section id="borrower-participation" class="level3">
+<h3 class="anchored" data-anchor-id="borrower-participation">Borrower participation</h3>
+<p><strong>Outside option <span class="math inline">\(\pi_0\)</span></strong> <span class="math display">\[
+  \mathbb{E}\!\left[\max\{R - D, 0\} \mid \theta\right] \ge \pi_0.
+  \]</span></p>
+<p>Define <strong>cutoff type</strong> <span class="math inline">\(\theta^*(D)\)</span> such that</p>
+<p><span class="math display">\[
+\mathbb{E}\!\left[\max\{R - D, 0\} \mid \theta^*(D)\right] = \pi_0
+\]</span></p>
+<p><u><strong>Result</strong></u>: <strong>Borrower type <span class="math inline">\(\theta\)</span> participates iif <span class="math inline">\(\theta \geq \theta^*\)</span></strong></p>
+<p><u><strong>Key</strong></u>: <strong>Safer borrowers exit as <span class="math inline">\(D\)</span> increases</strong></p>
+<p><span class="math display">\[
+\boxed{\frac{d\theta^*(D)}{dD} &gt; 0}
+\]</span></p>
+</section>
+<section id="benchmark-perfect-information" class="level3">
+<h3 class="anchored" data-anchor-id="benchmark-perfect-information">Benchmark: Perfect Information</h3>
+<p>Suppose the bank <strong>can observe each borrower’s type</strong> <span class="math inline">\(\theta\)</span>.</p>
+<p>Then, it would offer a <strong>type-specific contract</strong> <span class="math inline">\(D(\theta)\)</span> that maximizes expected profit:</p>
+<p><span class="math display">\[
+\max_{D(\theta)} \ \Pi(D(\theta)\mid\theta)
+= \mathbb{E}\!\left[\min\{D(\theta), R\} \mid \theta\right] - (I - A)
+\]</span></p>
+<p>subject to borrower participation:</p>
+<p><span class="math display">\[
+\mathbb{E}\!\left[\max\{R - D(\theta), 0\} \mid \theta\right] \ge \pi_0.
+\]</span></p>
+<p>Because the lender can price risk perfectly, <strong>each type</strong> gets a distinct rate or face value <span class="math inline">\(D(\theta)\)</span>.</p>
+<ul>
+<li>There is <strong>no adverse selection</strong>: the bank faces only project risk.</li>
+<li>The market <strong>clears through prices</strong> (interest rates differentiate across borrowers).</li>
+</ul>
+</section>
+<section id="information-asymmetry-adverse-selection" class="level3">
+<h3 class="anchored" data-anchor-id="information-asymmetry-adverse-selection">Information Asymmetry: Adverse Selection</h3>
+<p><u>Information asymmetry</u>: <strong><span class="math inline">\(\theta\)</span> is hidden</strong> - only known to the borrower.</p>
+<p>The bank <strong>cannot price each type</strong> separately — it must offer a <strong>single contract</strong> <span class="math inline">\((D)\)</span> to a mixed pool of applicants.</p>
+<ul>
+<li><strong>Per-loan expected profit (conditional on type <span class="math inline">\(\theta\)</span>):</strong></li>
+</ul>
+<p><span class="math display">\[
+\Pi(D \mid \theta)
+= \mathbb{E}\!\left[\min\{D, R\} \mid \theta\right] - (I - A)
+\]</span></p>
+<ul>
+<li><strong>Applicant pool at face value <span class="math inline">\(D\)</span>:</strong></li>
+</ul>
+<p><span class="math display">\[
+\text{Borrowers with }
+\theta &gt; \theta^*(D)
+\]</span></p>
+<ul>
+<li><strong><u>Average</u> (pool) expected profit:</strong></li>
+</ul>
+<p><span class="math display">\[
+E\Pi(D)
+=
+\mathbb{E}_{\theta &gt; \theta^*(D)}
+\Big[
+\mathbb{E}\!\left[\min\{D, R\} \mid \theta\right]
+\Big]
+- (I - A).
+\]</span></p>
+</section>
+<section id="equilibrium---credit-rationing" class="level3">
+<h3 class="anchored" data-anchor-id="equilibrium---credit-rationing">Equilibrium - Credit Rationing</h3>
+<p>The bank’s <strong>expected profit curve</strong> <span class="math inline">\(E\Pi(D)\)</span> reflects two opposing forces:</p>
+<ul>
+<li><strong>Direct effect (price effect):</strong> raising <span class="math inline">\(D\)</span> increases revenue per loan.</li>
+<li><strong>Composition effect (selection):</strong> higher <span class="math inline">\(D\)</span> drives out safer borrowers (raises <span class="math inline">\(\theta^*(D)\)</span>), worsening the pool.</li>
+</ul>
+<section id="with-2-types" class="level5">
+<h5 class="anchored" data-anchor-id="with-2-types">With 2 types</h5>
+<p>Let <span class="math inline">\(r = D - I\)</span></p>
+<center>
+<img src="figures/rationing-2types.png" width="800">
+</center>
+<p><strong>As <span class="math inline">\(D\)</span> (price) rises:</strong></p>
+<ul>
+<li><span class="math inline">\(E\Pi(D)\)</span> first <strong>increases</strong> (direct effect dominates),<br>
+</li>
+<li>then <strong>decreases</strong> (composition effect dominates).</li>
+</ul>
+<p><span class="math display">\[
+E\Pi(D)
+\text{ is inverted-U shaped.}
+\]</span></p>
+<p>Let <span class="math inline">\(D^*\)</span> be the profit-maximizing face value:</p>
+<p><span class="math display">\[
+\frac{dE\Pi(D)}{dD}\bigg|_{D^*} = 0, \qquad
+\frac{d^2E\Pi(D)}{dD^2}\bigg|_{D^*} &lt; 0.
+\]</span></p>
+If at <span class="math inline">\(D^*\)</span>, <strong>loan demand exceeds supply</strong> (many applicants still want loans), banks do <strong>not</strong> increase <span class="math inline">\(D\)</span> further — doing so would <strong>reduce expected profit</strong> (worse selection).
+<center>
+↓<br><b>Credit Rationing</b>
+</center>
+</section>
+<section id="with-continuum-of-types" class="level5">
+<h5 class="anchored" data-anchor-id="with-continuum-of-types">With continuum of types</h5>
+<p>Let <span class="math inline">\(r^* = D^* - I\)</span></p>
+<center>
+<img src="figures/rationing-ntypes.png" width="900">
+</center>
+<center>
+<img src="figures/rationing-equilibrium.png" width="900">
+</center>
+<center>
+<img src="figures/rationing-equilibrium-2.png" width="900">
+</center>
+<center>
+<img src="figures/rationing-equilibrium-3.png" width="900">
+</center>
+<p>Hence,</p>
+<ul>
+<li>Banks <strong>do not increase the rate</strong>; they <strong>ration</strong>: lend a fixed quantity at <span class="math inline">\(D^*\)</span> and reject the marginal applicants.</li>
+<li>Some borrowers remain <strong>creditworthy but unfunded</strong>.</li>
+<li>The <strong>market fails</strong> to clear via price adjustment.</li>
+<li>This outcome is <strong>credit rationing</strong>.</li>
+</ul>
+<u><strong>Key message:</strong></u>
+<center>
+With <b>adverse selection</b>, the profit-maximizing rate <b>does not clear the market</b>. <br> Credit rationing is an <b>equilibrium</b> outcome.
+</center>
+</section>
+</section>
+</section>
+<section id="discussion-1" class="level2">
+<h2 class="anchored" data-anchor-id="discussion-1">Discussion</h2>
+<p>The Stiglitz–Weiss model shows that:</p>
+<ul>
+<li>Information asymmetries make bank profit a <strong>non-monotonic function of interest rates</strong>.</li>
+<li>Optimal lending rate <span class="math inline">\(D^*\)</span> does not clear the market.</li>
+<li>Credit rationing is an equilibrium phenomenon rooted in <strong>adverse selection</strong>.</li>
+</ul>
+<p><strong>Implications</strong></p>
+<ul>
+<li><strong>Banks prefer to ration credit</strong> at <span class="math inline">\(D^*\)</span> rather than raise rates further.</li>
+<li>Explains why even solvent, willing borrowers can be denied loans.</li>
+<li>Highlights role of <strong>collateral, covenants, relationship lending</strong> to reduce adverse selection.</li>
+</ul>
+<section id="why-it-was-such-an-impactful-discovery" class="level3">
+<h3 class="anchored" data-anchor-id="why-it-was-such-an-impactful-discovery">Why It Was Such an Impactful Discovery</h3>
+<p><strong>Classical view (before 1981):</strong></p>
+<p>In competitive markets, excess demand is eliminated by raising prices. By analogy, if too many borrowers wanted credit, interest rates should rise until demand = supply.</p>
+<p><strong>Stiglitz &amp; Weiss (1981):</strong></p>
+<ul>
+<li>Showed that in credit markets, raising interest rates changes <em>who</em> borrows, not just <em>how much</em>.</li>
+<li>Higher rates drive safe borrowers out, leaving a riskier pool (adverse selection).</li>
+<li>Expected bank profit is an inverted-U in the interest rate → banks may stop lending before the market clears.</li>
+<li>This means <strong>credit rationing is an equilibrium outcome</strong>, not a temporary imperfection.</li>
+</ul>
+<p><strong>Impact (together with Akerlof 1970):</strong></p>
+<ul>
+<li>Akerlof’s <em>Market for Lemons</em>: price affects the quality of goods traded.</li>
+<li>Stiglitz–Weiss: interest rates affect the quality of borrowers.</li>
+<li>Together, these papers reshaped economics by showing how <strong>information asymmetries lead to persistent market failures</strong>.</li>
+</ul>
+</section>
+<section id="what-the-model-explains-in-practice" class="level3">
+<h3 class="anchored" data-anchor-id="what-the-model-explains-in-practice">What the Model Explains in Practice</h3>
+<p><strong>Financial exclusion:</strong> Some creditworthy borrowers are systematically denied loans (e.g., SMEs, low-income households).</p>
+<p><strong>Underinvestment in innovation:</strong> Innovative projects are harder to evaluate → more likely to be rationed.<br>
+Explains why banks prefer lending against collateral (mortgages) rather than financing startups.</p>
+<p><strong>Persistence of informal credit markets:</strong> When banks ration, borrowers turn to moneylenders or payday lenders, often at exorbitant rates.</p>
+<p><strong>Structural inequality:</strong> Borrowers without collateral, reputation, or long relationships with banks are most likely to be excluded.</p>
+<p><strong>Why credit markets look different from goods markets:</strong> In goods markets, prices usually clear demand. In credit markets, queues, rejections, and “no” are common.</p>
+</section>
+<section id="interventions" class="level3">
+<h3 class="anchored" data-anchor-id="interventions">Interventions</h3>
+<p><strong>Screening and information tools:</strong></p>
+<ul>
+<li>Credit registries, credit bureaus, big data credit scoring.</li>
+<li>Better borrower information reduces adverse selection.</li>
+</ul>
+<p><strong>Collateral and covenants:</strong></p>
+<ul>
+<li>Lenders use assets and contractual restrictions to screen and align incentives.</li>
+</ul>
+<p><strong>Relationship lending:</strong></p>
+<ul>
+<li>Long-term interactions between bank and borrower reduce information asymmetry.</li>
+</ul>
+<p><strong>Public interventions:</strong></p>
+<ul>
+<li>Loan guarantees (e.g., for SMEs).</li>
+<li>Targeted credit programs (student loans, housing finance).</li>
+</ul>
+</section>
+<section id="policy-implications" class="level3">
+<h3 class="anchored" data-anchor-id="policy-implications">Policy Implications</h3>
+<p><strong>Justification for regulation and intervention:</strong></p>
+<ul>
+<li>Market failures in credit justify government involvement.</li>
+<li>Explains the existence of development banks, credit guarantee schemes, and subsidized lending.</li>
+</ul>
+<p><strong>Financial stability link:</strong></p>
+<ul>
+<li>Rationing shows banks will not necessarily raise rates in response to stress → instead, they may cut lending (“credit crunch”).</li>
+<li>Connects to procyclicality of bank lending during crises.</li>
+</ul>
+<p><strong>Distributional effects:</strong></p>
+<ul>
+<li>Credit rationing disproportionately affects marginalized groups, creating inequality of opportunity.</li>
+<li>Policies promoting financial inclusion (e.g., open banking, digital ID) have efficiency and equity benefits.</li>
+</ul>
+</section>
+<section id="modern-issues-and-fintech" class="level3">
+<h3 class="anchored" data-anchor-id="modern-issues-and-fintech">Modern Issues and Fintech</h3>
+<p><strong>Fintech credit scoring:</strong></p>
+<ul>
+<li>Use of alternative data (e.g., transaction histories, mobile phone data) reduces information gaps.</li>
+<li>Can mitigate adverse selection, expand credit access.</li>
+</ul>
+<p><strong>Peer-to-peer and platform lending:</strong></p>
+<ul>
+<li>Platforms claim to overcome rationing by better matching of borrowers and investors.</li>
+<li>But information asymmetry and selection issues persist (ratings, defaults).</li>
+</ul>
+<p><strong>Stablecoins and DeFi lending:</strong></p>
+<ul>
+<li>Collateral-based lending dominates (e.g., overcollateralized crypto loans).</li>
+<li>Illustrates persistence of rationing: without information about borrower quality, only fully collateralized loans are feasible.</li>
+</ul>
+<p><strong>Policy debates today:</strong></p>
+<ul>
+<li>Open Banking and data portability as tools to reduce information frictions.</li>
+<li>Balancing <strong>financial inclusion</strong> with <strong>privacy</strong>.</li>
+</ul>
+</section>
+</section>
+</section>
+<section id="the-structure-of-credit-markets" class="level1">
+<h1>4. The Structure of Credit Markets</h1>
+<p>So far:</p>
+<ul>
+<li><strong>Townsend (1979)</strong> → <em>Costly state verification</em> → why <strong>debt contracts</strong> arise.<br>
+</li>
+<li><strong>Stiglitz &amp; Weiss (1981)</strong> → <em>Adverse selection</em> → why <strong>credit rationing</strong> occurs.</li>
+</ul>
+<p>Now → a third question:</p>
+<center>
+<b>Why do banks exist, and why do they coexist with direct market investors?</b>
+</center>
+<p>In reality, we observe <strong>segmentation</strong> in financing:</p>
+<ul>
+<li>Large, established, transparent firms → access <strong>capital markets</strong>.</li>
+<li>Smaller, opaque, riskier firms → rely on <strong>banks</strong>.</li>
+<li>Some firms → <strong>credit constrained</strong> or excluded.</li>
+</ul>
+<p>During crises, this segmentation widens leading to <strong>credit crunch</strong> phenomenon.</p>
+<section id="the-core-problem-moral-hazard" class="level2">
+<h2 class="anchored" data-anchor-id="the-core-problem-moral-hazard">The Core Problem: Moral Hazard</h2>
+<p>Many investment projects require <strong>effort</strong> from the entrepreneur/borrower and <strong>monitoring</strong> of the investor to succeed.</p>
+<ul>
+<li><strong>Effort</strong> increases expected returns but is <strong>not observable</strong> by outsiders.</li>
+<li>If the entrepreneur can enjoy <strong>private benefits</strong> from <strong>shirking</strong> → may not exert effort</li>
+</ul>
+<center>
+↓<br><b><u>Moral hazard</u>: unobservable actions distort incentives and funding decisions.</b>
+</center>
+<p>This information friction explains the <strong>boundary between banks and markets</strong> and allows to address:</p>
+<ul>
+<li>Which firms <strong>borrow directly</strong> from investors?</li>
+<li>Which rely on <strong>intermediated (bank) finance</strong>?</li>
+<li>Which cannot obtain finance at all?</li>
+</ul>
+→ A <strong>micro-foundation</strong> for the structure of the financial system:
+<center>
+Banks arise to <b>mitigate incentive problems</b> that markets alone cannot solve.
+</center>
+</section>
+<section id="a-model-of-monitoring-effort" class="level2">
+<h2 class="anchored" data-anchor-id="a-model-of-monitoring-effort">A Model of Monitoring Effort</h2>
+<p>Holmstrom and Tirole (1997) provide a unified framework showing that:</p>
+<ol type="1">
+<li><strong>Moral hazard</strong> (hidden effort) limits the <strong>pledgeable income</strong> of projects.<br>
+</li>
+<li><strong>Monitoring</strong> can relax this constraint — but at a <strong>cost</strong>.<br>
+</li>
+<li>The optimal allocation features a <strong>coexistence</strong> of:
+<ul>
+<li><strong>Market-financed projects</strong> (self-enforcing effort),</li>
+<li><strong>Bank-financed projects</strong> (monitoring needed),</li>
+<li><strong>Unfunded projects</strong> (inefficient due to severe moral hazard).</li>
+</ul></li>
+</ol>
+<p>This paper was a foundation for theories of:</p>
+<ul>
+<li><strong>Financial intermediation</strong> (banks as delegated monitors),</li>
+<li><strong>Capital structure</strong> (internal vs external finance),</li>
+<li><strong>Credit cycles</strong> and <strong>financial amplification</strong> (via limited pledgeability).</li>
+<li>Basel-style <strong>capital regulation</strong> (bank skin in the game),</li>
+<li><strong>Corporate finance hierarchy</strong>: internal → bank → market financing.</li>
+</ul>
+<strong><u>Key idea:</u></strong><br>
+
+<center>
+Banks and markets coexist because they address different incentive problems. <br> Financial structure is not arbitrary — it reflects the <b>nature of information and monitoring</b> in the economy.
+</center>
+<section id="environment-2" class="level3">
+<h3 class="anchored" data-anchor-id="environment-2">Environment</h3>
+<p><strong>Project</strong></p>
+<ul>
+<li>Investment <span class="math inline">\(I\)</span></li>
+</ul>
+<hr>
+<p><strong>NEW</strong>: - Returns <span class="math inline">\(R\in\{R_H,R_L\}\)</span></p>
+<p>Project outcome depends on <strong>effort <span class="math inline">\(e\)</span></strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 13%">
+<col style="width: 30%">
+<col style="width: 27%">
+<col style="width: 28%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Effort</th>
+<th>Success probability</th>
+<th>Return if success</th>
+<th>Return if failure</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>High effort <br>(<span class="math inline">\(e=1\)</span>)</strong></td>
+<td><span class="math inline">\(p_H\)</span></td>
+<td><span class="math inline">\(R_H\)</span></td>
+<td><span class="math inline">\(0\)</span></td>
+</tr>
+<tr class="even">
+<td><strong>Low effort <br> (<span class="math inline">\(e=0\)</span>)</strong> <br>(shirking)</td>
+<td><span class="math inline">\(p_L &lt; p_H\)</span></td>
+<td><span class="math inline">\(R_L &lt; R_H\)</span></td>
+<td><span class="math inline">\(0\)</span></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Entrepreneur/Borrower</strong></p>
+<ul>
+<li>Own wealth <span class="math inline">\(A\)</span></li>
+<li>Needs to raise <span class="math inline">\(I - A\)</span> from investor</li>
+<li>Choses to exert effort <span class="math inline">\(e\)</span>
+<ul>
+<li>When shirking (<span class="math inline">\(e=0\)</span>): gets <strong>private benefit <span class="math inline">\(B\)</span></strong></li>
+</ul></li>
+</ul>
+<p><strong>Investor</strong> (direct market)</p>
+<ul>
+<li>Funds &gt; <span class="math inline">\(I\)</span></li>
+<li>Requires repayment <span class="math inline">\(D\)</span> (principal + interest)</li>
+<li><strong>Cannot observe</strong> <span class="math inline">\(e\)</span> ex ante</li>
+</ul>
+<p><strong>Bank</strong> (intermediary)</p>
+<ul>
+<li>Same financing as investor</li>
+<li><strong>Monitoring technology</strong>: <span class="math inline">\(B = 0\)</span> at cost <span class="math inline">\(K\)</span></li>
+</ul>
+<p><strong>NPV assumptions:</strong></p>
+<p><span class="math display">\[
+p_H R_H &gt; I &gt; p_L R_L
+\]</span> → The project is socially efficient <strong>only with high effort</strong>.</p>
+</section>
+<section id="entrepreneurs-expected-payoff" class="level3">
+<h3 class="anchored" data-anchor-id="entrepreneurs-expected-payoff">Entrepreneur’s expected payoff</h3>
+<p><strong>Limited liability</strong>: Let <span class="math inline">\(D\)</span> be the repayment due <strong>in success</strong> and nothing is paid in failure.</p>
+<p><strong>Expected payoff</strong></p>
+<p><span class="math display">\[
+\mathbb{E}[w] =
+\begin{cases}
+p_H (R_H - D) ~~ &amp;\text{if} ~~ e=1\\
+p_L (R_L - D) + B~~ &amp;\text{if} ~~ e=0
+\end{cases}
+\]</span></p>
+</section>
+<section id="incentive-compatibility" class="level3">
+<h3 class="anchored" data-anchor-id="incentive-compatibility">Incentive Compatibility</h3>
+<p><strong>Without Monitoring</strong></p>
+<p>[IC] Effort is <strong>incentive-compatible</strong> iff <span class="math display">\[
+p_H (R_H - D) \;\ge\; p_L (R_L - D) + B.
+\]</span></p>
+<ul>
+<li>Rearranging:</li>
+</ul>
+<p><span class="math display">\[
+\big(p_H R_H - p_L R_L\big) - (p_H - p_L) D \;\ge\; B,
+\]</span></p>
+<p>→ There is a <strong>maximum face value</strong> that can be charged to the entrepreneur while keeping consistent with effort: <span class="math display">\[
+D_{\max} \;=\; \frac{p_H R_H - p_L R_L - B}{\,p_H - p_L\,}.
+\]</span></p>
+<ul>
+<li>For <span class="math inline">\(D&gt;D_{\max}\)</span>, the entrepeneur prefers to shirk.</li>
+</ul>
+<!-- - Limited liability under effort also imposes $D \le R_H$.  
+
+Hence any feasible choice must satisfy
+$$
+D \;\le\; \min\{R_H,\; D_{\max}\}.
+$$ -->
+</section>
+<section id="direct-market-funding" class="level3">
+<h3 class="anchored" data-anchor-id="direct-market-funding">Direct Market Funding</h3>
+<p><strong>Investor expected payoff</strong>:</p>
+<p>When <span class="math inline">\(D&lt;D_{max}\)</span>: investors expect to receive <span class="math inline">\(p_H D\)</span> (since effort is exerted under [IC]).</p>
+<p><strong>Feasibility of direct funding</strong>:</p>
+<ul>
+<li><p>Market finance is feasible if <strong>there exists</strong> <span class="math inline">\(D \le  D_{\max}\)</span> such that <span class="math display">\[
+p_H D \;\ge\; I - A.
+\]</span></p></li>
+<li><p>A <strong>necessary condition</strong> is therefore that: <span class="math display">\[
+p_H D_{\max} \;\ge\; I - A
+\quad\Longleftrightarrow\quad
+A \ge I - p_H\frac{p_H R_H - p_L R_L - B}{p_H - p_L} = A_M
+\]</span> Where <span class="math inline">\(A_M\)</span> defines the <strong>minimum capital for market finance</strong>:</p></li>
+</ul>
+<p>→ If <span class="math inline">\(A \ge A_M\)</span>, effort is self-enforcing and <strong>direct market funding</strong> is possible.</p>
+</section>
+<section id="bank-funding" class="level3">
+<h3 class="anchored" data-anchor-id="bank-funding">Bank Funding</h3>
+<p>A bank can monitor at cost <span class="math inline">\(K&gt;0\)</span> and <strong>prevent shirking</strong> - The [IC] constraint is no longer binding for the monitored loan - <span class="math inline">\(B=0\)</span></p>
+<p><strong>Bank’s expected profit</strong> <span class="math display">\[
+\Pi_B(D) \;=\; p_H D \;-\; (I - A) \;-\; K.
+\]</span></p>
+<p><strong>Feasibility of bank funding</strong>:</p>
+<ul>
+<li><p>Bank funding is feasible with monitoring if there exists <span class="math inline">\(D\)</span> such that <span class="math display">\[
+p_H D - K\;\ge\; I - A.
+\]</span></p></li>
+<li><p>A <strong>necessary condition</strong> is therefore that: <span class="math display">\[
+A &gt; A_B \;=\; I - p_H R_H + K.
+\]</span> Where <span class="math inline">\(A_B\)</span> is the <strong>minimum capital</strong> needed for <strong>bank finance</strong> (monitored loan).</p></li>
+</ul>
+<blockquote class="blockquote">
+<p>The bank chooses the largest feasible repayment, <span class="math inline">\(D = R_H\)</span>, to minimize the required own capital while respecting limited liability <span class="math inline">\(D\le R_H\)</span>).</p>
+</blockquote>
+<p>→ If <span class="math inline">\(A_B \le A\)</span>, effort is monitored and <strong>bank funding</strong> is possible.</p>
+</section>
+<section id="credit-market-structure" class="level3">
+<h3 class="anchored" data-anchor-id="credit-market-structure">Credit Market Structure</h3>
+<p><strong>Co-existence condition</strong> <span class="math display">\[A_M &gt; A_B
+\quad \Longleftrightarrow \quad
+p_H \frac{p_L (R_H - R_L) + B}{p_H - p_L} &gt; K.
+\]</span></p>
+<p>As long as the monitoring cost is <strong>not too high</strong>, monitoring is valuable because it <strong>expands</strong> the feasible set: <span class="math display">\[
+A_B \;&lt;\; A_M,
+\]</span></p>
+<p><u>But</u> bank monitoring costs <span class="math inline">\(K\)</span> so banking loans are costlier → Banks optimally fund the <strong>intermediate region</strong> where monitoring is necessary yet efficient.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 8%">
+<col style="width: 27%">
+<col style="width: 17%">
+<col style="width: 25%">
+<col style="width: 21%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Case</th>
+<th>Effort enforcement</th>
+<th>Monitoring?</th>
+<th>Capital condition</th>
+<th>Funding source</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Market finance</strong></td>
+<td>Self-enforced</td>
+<td>No</td>
+<td><span class="math inline">\(A \ge A_M\)</span></td>
+<td>Direct market investors</td>
+</tr>
+<tr class="even">
+<td><strong>Bank finance</strong></td>
+<td>Needs enforcement</td>
+<td>Yes (cost <span class="math inline">\(K\)</span>)</td>
+<td><span class="math inline">\(A_B \le A &lt; A_M\)</span></td>
+<td>Bank (monitored)</td>
+</tr>
+<tr class="odd">
+<td><strong>No finance</strong></td>
+<td>Not profitable even with monitoring</td>
+<td>—</td>
+<td><span class="math inline">\(A &lt; A_B\)</span></td>
+<td>Project not funded</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="economic-interpretation" class="level3">
+<h3 class="anchored" data-anchor-id="economic-interpretation">Economic Interpretation</h3>
+<ul>
+<li><strong>Positive NPV</strong> requires high effort; otherwise, expected value is insufficient.<br>
+</li>
+<li>With <strong>enough entrepreneur capital</strong> (<span class="math inline">\(A \ge A_M\)</span>) → <strong>markets</strong> can fund directly.<br>
+</li>
+<li>With <strong>intermediate capital</strong> (<span class="math inline">\(A_B \le A &lt; A_M\)</span>), effort would fail without discipline; <strong>banks</strong> pay <span class="math inline">\(K\)</span> to monitor and restore feasibility.<br>
+</li>
+<li>With <strong>low capital</strong> (<span class="math inline">\(A &lt; A_B\)</span>), the project remains unviable even with monitoring → <strong>no funding</strong>.</li>
+</ul>
+<strong>Bottom line:</strong><br>
+
+<center>
+Markets fund well-capitalized projects; banks fund monitorable-but-risky ones; bad projects remain unfunded.<br><br>
+This explains the <b>coexistence</b> of banks and markets under moral hazard.
+</center>
+</section>
+</section>
+<section id="discussion-2" class="level2">
+<h2 class="anchored" data-anchor-id="discussion-2">Discussion</h2>
+<section id="paper-impact" class="level3">
+<h3 class="anchored" data-anchor-id="paper-impact">Paper Impact</h3>
+<ul>
+<li>A <strong>foundational contribution</strong> to the modern theory of <strong>financial intermediation</strong>.</li>
+<li>Provided a <strong>microeconomic justification</strong> for why banks and markets coexist:
+<ul>
+<li>Banks = <em>delegated monitors</em> under moral hazard.</li>
+<li>Markets = <em>arm’s-length financiers</em> when incentives are self-enforcing.</li>
+</ul></li>
+</ul>
+<p>The paper reframed finance as a problem of <strong>information governance</strong>, not just capital allocation.</p>
+<p><strong>Conceptual Breakthroughs</strong></p>
+<ul>
+<li>Introduced the notion of <strong>pledgeable income</strong>: &gt; Only the part of project returns consistent with incentives can be pledged to investors.</li>
+<li>Explained the <strong>hierarchy of finance</strong>:
+<ol type="1">
+<li>Internal finance (self-enforcing),</li>
+<li>Intermediated finance (requires monitoring),</li>
+<li>Market finance (transparent, large-scale).</li>
+</ol></li>
+<li>Linked <strong>firm size</strong>, <strong>transparency</strong>, and <strong>financing mode</strong>:
+<ul>
+<li>Small, opaque → bank-dependent.<br>
+</li>
+<li>Large, visible → market-based.</li>
+</ul></li>
+</ul>
+</section>
+<section id="monitoring-as-information-production" class="level3">
+<h3 class="anchored" data-anchor-id="monitoring-as-information-production">Monitoring as Information Production</h3>
+<ul>
+<li>In Holmström &amp; Tirole (1997), banks <strong>monitor borrowers</strong> to prevent shirking.<br>
+</li>
+<li>Monitoring does not only enforce effort — it also generates <strong>information and data</strong> about:
+<ul>
+<li>borrower performance,</li>
+<li>business viability,</li>
+<li>repayment behavior.</li>
+</ul></li>
+</ul>
+<p>In modern terms: <strong>monitoring = data production</strong> about creditworthiness and operations.</p>
+</section>
+<section id="the-private-nature-of-monitoring-data" class="level3">
+<h3 class="anchored" data-anchor-id="the-private-nature-of-monitoring-data">The Private Nature of Monitoring Data</h3>
+<ul>
+<li>The information a bank collects through monitoring is <strong>proprietary</strong>.<br>
+</li>
+<li>It represents <strong>private capital</strong> in the form of data:
+<ul>
+<li>costly to produce,<br>
+</li>
+<li>and difficult for competitors to replicate.</li>
+</ul></li>
+<li>This informational advantage can <strong>lock customers in</strong>:
+<ul>
+<li>Borrowers may stay with their bank because the bank knows them best.<br>
+</li>
+<li>Competing lenders cannot easily assess risk without similar data.</li>
+</ul></li>
+</ul>
+<p>→ <strong>Private information → informational rents → market power.</strong></p>
+</section>
+<section id="policy-implication-open-data-and-interoperability" class="level3">
+<h3 class="anchored" data-anchor-id="policy-implication-open-data-and-interoperability">Policy Implication: Open Data and Interoperability</h3>
+<ul>
+<li>From a <strong>social efficiency</strong> perspective, data about borrower quality is <strong>non-rival</strong> —<br>
+once produced, it could improve credit allocation if shared.</li>
+<li>However, private ownership of monitoring data leads to <strong>under-sharing</strong> and <strong>barriers to entry</strong>.</li>
+</ul>
+<p>This motivates <strong>open data policies</strong> such as:</p>
+<ul>
+<li><p><strong>Open Banking / Open Finance</strong>:<br>
+regulated data-sharing between financial institutions to enable competition and switching.</p></li>
+<li><p><strong>Standardized APIs and interoperability frameworks</strong>:<br>
+reduce information asymmetry while preserving privacy and security.</p></li>
+</ul>
+</section>
+<section id="economic-trade-off" class="level3">
+<h3 class="anchored" data-anchor-id="economic-trade-off">Economic Trade-Off</h3>
+<center>
+<b> Open Data Policies </b>
+</center>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 62%">
+<col style="width: 37%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Benefit</th>
+<th>Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Reduces switching costs and enhances competition</td>
+<td>Weakens private incentives to monitor and collect data</td>
+</tr>
+<tr class="even">
+<td>Improves market contestability</td>
+<td>Unravelling: may reduce banks’ willingness to lend to no-data borrowers</td>
+</tr>
+</tbody>
+</table>
+<p><strong>The policy challenge:</strong></p>
+<p><strong>Balance</strong> the benefits of open access to data with the need to preserve <strong>monitoring incentives</strong> that sustain credit to informationally intensive sectors.</p>
+</section>
+<section id="modern-relevance" class="level3">
+<h3 class="anchored" data-anchor-id="modern-relevance">Modern Relevance</h3>
+<p><strong>AI and machine learning</strong><br>
+Technologies to <strong>detect</strong> patterns of shirking or misuse of funds (reduce moral hazard).<br>
+As such they can <strong>reduce the cost of monitoring</strong> (<span class="math inline">\(K\)</span>) thereby <strong>expanding further access</strong> to monitored credit</p>
+<p><strong>Data-driven economy</strong><br>
+Monitoring rents are becoming <strong>data rents</strong>.</p>
+<ul>
+<li>Fintechs and BigTechs enter credit markets not through capital, but through <strong>informational advantage</strong>.<br>
+</li>
+<li><strong>Open banking</strong> and <strong>data portability</strong> are policy tools designed to:
+<ul>
+<li>lower barriers to entry,<br>
+</li>
+<li>prevent informational monopolies,<br>
+</li>
+<li>and reintroduce competition in the monitoring layer of finance.</li>
+</ul></li>
+</ul>
+<p>The underlying principle remains Holmström–Tirole’s insight:</p>
+<ul>
+<li>Information is costly to produce and privately valuable</li>
+<li>Public policy must decide <strong>when to privatize it and when to share it</strong>.</li>
+</ul>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/trkrkn\.github\.io\/mbft\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
