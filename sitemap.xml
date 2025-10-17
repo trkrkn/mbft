@@ -2,11 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://trkrkn.github.io/mbft/schedule.html</loc>
-    <lastmod>2025-10-10T15:34:43.638Z</lastmod>
+    <lastmod>2025-10-13T13:18:53.407Z</lastmod>
   </url>
   <url>
     <loc>https://trkrkn.github.io/mbft/lectures/lecture_03/references_credit.html</loc>
     <lastmod>2025-10-09T08:58:00.008Z</lastmod>
+  </url>
+  <url>
+    <loc>https://trkrkn.github.io/mbft/lectures/lecture_04/06_policy.html</loc>
+    <lastmod>2025-10-14T07:50:51.400Z</lastmod>
   </url>
   <url>
     <loc>https://trkrkn.github.io/mbft/lectures/lecture_02/references_deposit.html</loc>
@@ -30,7 +34,11 @@
   </url>
   <url>
     <loc>https://trkrkn.github.io/mbft/index.html</loc>
-    <lastmod>2025-10-09T09:32:29.988Z</lastmod>
+    <lastmod>2025-10-17T15:04:01.585Z</lastmod>
+  </url>
+  <url>
+    <loc>https://trkrkn.github.io/mbft/Untitled.html</loc>
+    <lastmod>2025-10-17T14:49:43.980Z</lastmod>
   </url>
   <url>
     <loc>https://trkrkn.github.io/mbft/syllabus.html</loc>
@@ -51,6 +59,10 @@
   <url>
     <loc>https://trkrkn.github.io/mbft/lectures/lecture_02/lecture_02.html</loc>
     <lastmod>2025-10-09T09:02:30.475Z</lastmod>
+  </url>
+  <url>
+    <loc>https://trkrkn.github.io/mbft/lectures/lecture_04/lecture_04.html</loc>
+    <lastmod>2025-10-17T15:03:09.503Z</lastmod>
   </url>
   <url>
     <loc>https://trkrkn.github.io/mbft/lectures/lecture_03/lecture_03.html</loc>
