@@ -19,7 +19,7 @@ website:
             text: Lecture 02 - Modern Banking pt. 2 
           - href: 'lectures/lecture_03/lecture_03.qmd'
             text: Lecture 03 - Modern Banking pt. 3
-          - href: ''
+          - href: 'lectures/lecture_04/lecture_04.qmd'
             text: Lecture 04 - Modern Banking pt. 4 
           - href: ''
             text: Lecture 05 - Modern Banking pt. 5 

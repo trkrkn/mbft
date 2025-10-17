@@ -4,7 +4,21 @@
     "href": "schedule.html",
     "title": "Schedule Fall 2025",
     "section": "",
-    "text": "Date\n#\nPart\nTopics\n\n\n\n\n22/09/2025\n0\nIntroduction\n\n\n\n29/09/2025\n1\nModern Banking\nMoney & Payment\n\n\n06/10/2025\n2\nModern Banking\nDeposit\n\n\n13/10/2025\n3\nModern Banking\nCredit\n\n\n20/10/2025\n4\nModern Banking\nPolicy & Regulation\n\n\n27/10/2025\n5\nModern Banking Guest lecture\nFinancial Networks\n\n\n03/11/2025\n6\nFintech\nOverview\n\n\n\n\nPlatforms\nDigital PlatformsBigTechPolicy\n\n\n10/11/2025\n7\nPlatforms Guest lecture\nFintech PlatformsOpen Banking\n\n\n17/11/2025\n8\nMachine Learning\nHistoryEconomics of MLPolicy\n\n\n24/11/2025\n9\nMachine Learning Guest lecture\nThe Technology of MLML Application in Finance\n\n\n01/12/2025\n10\nCrypto\nThe Technology of DLTSmart contractsStablecoinsDeFiPolicy\n\n\n08/12/2025\n11\nCrypto Guest lecture\nCentral Bank Digital Currencies\n\n\n15/12/2025\n\nQ&A"
+    "text": "Date\n#\nPart\nTopics\n\n\n\n\n22/09/2025\n0\nIntroduction\n\n\n\n29/09/2025\n1\nModern Banking live\nMoney & Payment\n\n\n06/10/2025\n2\nModern Banking recorded\nDeposit\n\n\n13/10/2025\n3\nModern Banking recorded\nCredit\n\n\n20/10/2025\n4\nModern Banking recorded\nPolicy & Regulation\n\n\n27/10/2025\n5\nFintech\nOverview\n\n\n\n\nPlatforms\nDigital PlatformsBigTechPolicy\n\n\n03/11/2025\n6\nModern Banking Guest lecture\nFinancial Networks\n\n\n10/11/2025\n7\nPlatforms Guest lecture\nFintech PlatformsOpen Banking\n\n\n17/11/2025\n8\nMachine Learning\nHistoryEconomics of MLPolicy\n\n\n24/11/2025\n9\nMachine Learning Guest lecture\nThe Technology of MLML Application in Finance\n\n\n01/12/2025\n10\nCrypto\nThe Technology of DLTSmart contractsStablecoinsDeFiPolicy\n\n\n08/12/2025\n11\nCrypto Guest lecture\nCentral Bank Digital Currencies\n\n\n15/12/2025\n\nQ&A"
+  },
+  {
+    "objectID": "lectures/lecture_03/references_credit.html",
+    "href": "lectures/lecture_03/references_credit.html",
+    "title": "Modern Banking and Financial Technology",
+    "section": "",
+    "text": "Akerlof, G. A. (1970). The market for “lemons”: Quality uncertainty and the market mechanism. Quarterly Journal of Economics, 84(3), 488–500.\nGale, D., & Hellwig, M. (1985). Incentive-compatible debt contracts: The one-period problem. Review of Economic Studies, 52(4), 647–663.\nHolmström, B., & Tirole, J. (1997). Financial intermediation, loanable funds, and the real sector. Quarterly Journal of Economics, 112(3), 663–691.\nStiglitz, J. E., & Weiss, A. (1981). Credit rationing in markets with imperfect information. American Economic Review, 71(3), 393–410.\nTirole, J. (2006). The theory of corporate finance. Princeton University Press.\nTirole, J. (2011). Illiquidity and all its friends. Journal of Economic Literature, 49(2), 287–325.\nTownsend, R. M. (1979). Optimal contracts and competitive markets with costly state verification. Journal of Economic Theory, 21(2), 265–293."
+  },
+  {
+    "objectID": "lectures/lecture_02/references_deposit.html",
+    "href": "lectures/lecture_02/references_deposit.html",
+    "title": "Modern Banking and Financial Technology",
+    "section": "",
+    "text": "Bernanke, B. S., & Blinder, A. S. (1992). The federal funds rate and the channels of monetary transmission. American Economic Review, 82(4), 901–921.\nBIS (2022). Annual Economic Report 2022: Monetary and financial stability in the digital age. (deposits as stable, low-cost funding).\nCalomiris, C. W., & Gorton, G. (1991). The origins of banking panics. In Financial Markets and Financial Crises. University of Chicago Press.\nDiamond, D. W., & Dybvig, P. H. (1983). Bank runs, deposit insurance, and liquidity. Journal of Political Economy, 91(3), 401–419.\nECB (2023). The role of deposits in bank funding. Economic Bulletin, Issue 5/2023. (deposit share in euro area bank funding ~55%).\nECB SDW (2023). Monetary aggregates (M3 composition: ~85% deposits).\nFederal Reserve Board (2023). Review of the Federal Reserve’s Supervision and Regulation of Silicon Valley Bank.\nGatev, E., & Strahan, P. (2006). Banks’ advantage in hedging liquidity risk. Journal of Finance, 61(2), 867–892.\nHuang, R., & Ratnovski, L. (2011). The dark side of bank wholesale funding. Journal of Financial Intermediation, 20(2), 248–263.\nShin, H. S. (2009). Reflections on Northern Rock. Journal of Economic Perspectives, 23(1), 101–119."
   },
   {
     "objectID": "lectures/lecture_02/04_deposits.html#what-are-deposits",
@@ -74,21 +88,21 @@
     "href": "lectures/lecture_02/04_deposits.html#the-environment",
     "title": "Deposits",
     "section": "The Environment",
-    "text": "The Environment\nThree dates: \\(T=0,1,2\\).\nOne illiquid asset: - Invest 1 unit at \\(T=0\\). - If liquidated early at \\(T=1\\): gross return \\(1\\). - If held to maturity at \\(T=2\\): gross return \\(R&gt;1\\). - Alternative storage technology (perfectly liquid): - Returns 1 at both dates.\nPreferences & Types\nInvestors are risk-averse: - Utility function \\(U(c)\\) with \\(U’’(c) &lt; 0 \\quad \\text{for all } c\\) (concave). - Example: \\(U(c)=1-\\frac{1}{c}\\)\nThere are two types of investors. - Type 1 are early consumers: need to liquidate asset at \\(T=1\\) - Type 2 are late consumers: can liquidate asset at \\(T=2\\)\nExpected utility:\nLet \\(t\\) be the prob. of Type 1; \\(1-t\\) be the prob. of Type 2.\nAt \\(T=0\\), investors do not know their types (→ incomplete information):\n\\[\n  \\mathbb{E}[U] =  t\\,U(c_1)+(1-t)\\,U(c_2).\n  \\]"
+    "text": "The Environment\nThree dates: \\(T=0,1,2\\).\nOne illiquid asset:\n\nInvest 1 unit at \\(T=0\\).\n\nIf liquidated early at \\(T=1\\): gross return \\(1\\).\nIf held to maturity at \\(T=2\\): gross return \\(R&gt;1\\).\n\nAlternative storage technology (perfectly liquid):\n\nReturns 1 at both dates.\n\n\nPreferences & Types\nInvestors are risk-averse:\n\nUtility function \\(U(c)\\) with \\(U’’(c) &lt; 0 \\quad \\text{for all } c\\) (concave).\n\nExample: \\(U(c)=1-\\frac{1}{c}\\)\n\n\nThere are two types of investors.\n\nType 1 are early consumers: need to liquidate asset at \\(T=1\\)\nType 2 are late consumers: can liquidate asset at \\(T=2\\)\n\nExpected utility:\nLet \\(t\\) be the prob. of Type 1; \\(1-t\\) be the prob. of Type 2.\nAt \\(T=0\\), investors do not know their types (→ incomplete information):\n\\[\n  \\mathbb{E}[U] =  t\\,U(c_1)+(1-t)\\,U(c_2).\n  \\]"
   },
   {
     "objectID": "lectures/lecture_02/04_deposits.html#investment-strategies",
     "href": "lectures/lecture_02/04_deposits.html#investment-strategies",
     "title": "Deposits",
     "section": "Investment Strategies",
-    "text": "Investment Strategies\nWithout banks (Pure market allocation)\nTwo “pure” investments: - Storage: \\((1,1)\\) autarky - Illiquid asset: \\((1,R)\\) (if not liquidated) market\nWith banks\nDeposit contract: promise depositors \\((r_1,r_2)\\) with \\(r_1&lt;r_2\\), where: - Type 1 withdraws at \\(T=1\\) → \\(r_1\\) - Type 2 waits to \\(T=2\\) → \\(r_2\\)\n\nGoal: show that bank deposits offer superior option to autarky and market\n\n→ Implement \\((r_1,r_2)\\) that Pareto-dominates market alternatives when \\(1&lt;r_1&lt;r_2&lt;R\\).\n\nRisk-aversion: investors prefer \\((r_1,r_2)\\) over \\((1,R)\\) and \\((1,1)\\)"
+    "text": "Investment Strategies\nWithout banks (Pure market allocation)\nTwo “pure” investments:\n\nStorage: \\((1,1)\\) autarky\nIlliquid asset: \\((1,R)\\) (if not liquidated) market\n\nWith banks\nDeposit contract: promise depositors \\((r_1,r_2)\\) with \\(r_1&lt;r_2\\), where:\n\nType 1 withdraws at \\(T=1\\) → \\(r_1\\)\nType 2 waits to \\(T=2\\) → \\(r_2\\)\n\n\nGoal: show that bank deposits offer superior option to autarky and market\n\n→ Implement \\((r_1,r_2)\\) that Pareto-dominates market alternatives when \\(1&lt;r_1&lt;r_2&lt;R\\).\n\nRisk-aversion: investors prefer \\((r_1,r_2)\\) over \\((1,R)\\) and \\((1,1)\\)"
   },
   {
     "objectID": "lectures/lecture_02/04_deposits.html#manufacturing-deposits",
     "href": "lectures/lecture_02/04_deposits.html#manufacturing-deposits",
     "title": "Deposits",
     "section": "Manufacturing Deposits",
-    "text": "Manufacturing Deposits\nLet \\(N\\) investors deposit 1 each in the bank at \\(T=0\\) → Bank invests \\(N\\) into the illiquid asset.\nAt \\(T=1\\): fraction \\(t\\) withdraw; bank must repay \\(r_1Nt\\). - Liquidates fraction to raise 1 per unit. - Remaining position: \\(N - r_1Nt = N(1 - r_1 t)\\).\nAt \\(T=2\\): remaining assets return \\(R\\). - Resources: \\(R\\,N(1 - r_1 t)\\). - Must repay late withdrawals: \\(r_2N(1-t)\\).\nFeasibility:\n\\[r_2N(1-t) \\le R\\,(N - r_1Nt)\\\\\n\\leftrightarrow \\\\\nr_2 \\le \\frac{R\\,(1 - r_1 t)}{1-t},\\quad \\text{with } 1&lt;r_1&lt;r_2&lt;R.\n\\]\n\nOptimal Policy for the Bank\nFind the optimal risk sharing across dates:\n\\[\n\\max_{r_1,r_2} \\; tU(r_1)+(1-t)U(r_2)\n\\] Subject to feasibility constrain: $ 0 ; 1 - t r_1 - r_2 ;$\nAnalysis\n\nSet up the Lagrangian: \\[ \\mathcal{L} = tU(r_1) + (1-t)U(r_2) + \\lambda\\Big(1 - t r_1 - \\frac{1-t}{R}r_2 \\Big)\\]\nDifferentiate w.r.t. \\(r_1\\): \\(\\frac{\\partial \\mathcal{L}}{\\partial r_1} = tU’(r_1) - \\lambda t = 0\n\\quad \\Rightarrow \\quad U’(r_1) = \\lambda.\\)\nDifferentiate w.r.t. \\(r_2\\): \\(\\frac{\\partial \\mathcal{L}}{\\partial r_2} = (1-t)U’(r_2) - \\lambda\\frac{1-t}{R} = 0\n\\quad \\Rightarrow \\quad U’(r_2) = \\frac{\\lambda}{R}.\\)\n\nResult\nOptimal policy → chose \\((r_1,r_2)\\) such that: \\[\n\\boxed{U'(r_1) \\;=\\; R\\,U'(r_2)}\n\\]\nIntuition\nA marginal unit consumed early costs \\(R\\) units late → equate marginal utilities adjusted by opportunity cost.\nImplication\nIf the bank offers such \\((r^*_1,r^*_2)\\), then offer superior to the market and all investors chose the bank\n\n→Liquidity creation through pooling and insurance!"
+    "text": "Manufacturing Deposits\nLet \\(N\\) investors deposit 1 each in the bank at \\(T=0\\) → Bank invests \\(N\\) into the illiquid asset.\nAt \\(T=1\\): fraction \\(t\\) withdraw; bank must repay \\(r_1Nt\\).\n\nLiquidates fraction to raise 1 per unit.\nRemaining position: \\(N - r_1Nt = N(1 - r_1 t)\\).\n\nAt \\(T=2\\): remaining assets return \\(R\\).\n\nResources: \\(R\\,N(1 - r_1 t)\\).\nMust repay late withdrawals: \\(r_2N(1-t)\\).\n\nFeasibility:\n\\[r_2N(1-t) \\le R\\,(N - r_1Nt)\\\\\n\\leftrightarrow \\\\\nr_2 \\le \\frac{R\\,(1 - r_1 t)}{1-t},\\quad \\text{with } 1&lt;r_1&lt;r_2&lt;R.\n\\]\n\nOptimal Policy for the Bank\nFind the optimal risk sharing across dates:\n\\[\n\\max_{r_1,r_2} \\; tU(r_1)+(1-t)U(r_2)\n\\] Subject to feasibility constrain: $ 0 ; 1 - t r_1 - r_2 ;$\nAnalysis\n\nSet up the Lagrangian: \\[ \\mathcal{L} = tU(r_1) + (1-t)U(r_2) + \\lambda\\Big(1 - t r_1 - \\frac{1-t}{R}r_2 \\Big)\\]\nDifferentiate w.r.t. \\(r_1\\): \\(\\frac{\\partial \\mathcal{L}}{\\partial r_1} = tU’(r_1) - \\lambda t = 0\n\\quad \\Rightarrow \\quad U’(r_1) = \\lambda.\\)\nDifferentiate w.r.t. \\(r_2\\): \\(\\frac{\\partial \\mathcal{L}}{\\partial r_2} = (1-t)U’(r_2) - \\lambda\\frac{1-t}{R} = 0\n\\quad \\Rightarrow \\quad U’(r_2) = \\frac{\\lambda}{R}.\\)\n\nResult\nOptimal policy → chose \\((r_1,r_2)\\) such that: \\[\n\\boxed{U'(r_1) \\;=\\; R\\,U'(r_2)}\n\\]\nIntuition\nA marginal unit consumed early costs \\(R\\) units late → equate marginal utilities adjusted by opportunity cost.\nImplication\nIf the bank offers such \\((r^*_1,r^*_2)\\), then offer superior to the market and all investors chose the bank\n\n→Liquidity creation through pooling and insurance!"
   },
   {
     "objectID": "lectures/lecture_02/04_deposits.html#runs-and-self-fulfilling-prophecies",
@@ -102,7 +116,7 @@
     "href": "lectures/lecture_02/04_deposits.html#when-do-late-types-run",
     "title": "Deposits",
     "section": "When Do Late Types Run?",
-    "text": "When Do Late Types Run?\nType 2 compares: - Wait: receive \\(r_2(f)\\) at \\(T=2\\) (declines with \\(f\\)). - Run: receive \\(r_1\\) at \\(T=1\\).\nRun condition: \\[\nr_2(\\hat f)\\;&lt;\\; r_1.\n\\]\nRun threshold: \\(\\hat f^*\\)\nIf \\(\\hat f&gt;\\hat f^*\\) → run equilibrium.\n\nUse the feasibility relation: \\(r_2(f)=\\frac{R\\,(1-r_1 f)}{1-f}\\)\nSet \\(r_2(\\hat f^*) = r_1\\) and solve for \\(\\hat f^*\\):\n\n\\[r_1=\\frac{R(1-r_1 \\hat f^*)}{1-\\hat f^*}\\]\n\nMultiply both sides by \\(1-\\hat f^*\\):\n\n\\[r_1(1-\\hat f^*)=R(1-r_1 \\hat f^*)\\]\n\nIsolate \\(\\hat f^*\\):\n\n\\[\\boxed{\\;\\hat f^* \\;=\\; \\frac{R - r_1}{\\,r_1\\,(R-1)\\,}\\;}\\]\nInterpretation\nIf depositors expect more than \\(\\hat f^*\\) of investors to withdraw early, late types will prefer to withdraw too. This is an expectations-driven fragility threshold."
+    "text": "When Do Late Types Run?\nType 2 compares:\n\nWait: receive \\(r_2(f)\\) at \\(T=2\\) (declines with \\(f\\)).\nRun: receive \\(r_1\\) at \\(T=1\\).\n\nRun condition: \\[\nr_2(\\hat f)\\;&lt;\\; r_1.\n\\]\nRun threshold: \\(\\hat f^*\\)\nIf \\(\\hat f&gt;\\hat f^*\\) → run equilibrium.\n\nUse the feasibility relation: \\(r_2(f)=\\frac{R\\,(1-r_1 f)}{1-f}\\)\nSet \\(r_2(\\hat f^*) = r_1\\) and solve for \\(\\hat f^*\\):\n\n\\[r_1=\\frac{R(1-r_1 \\hat f^*)}{1-\\hat f^*}\\]\n\nMultiply both sides by \\(1-\\hat f^*\\):\n\n\\[r_1(1-\\hat f^*)=R(1-r_1 \\hat f^*)\\]\n\nIsolate \\(\\hat f^*\\):\n\n\\[\\boxed{\\;\\hat f^* \\;=\\; \\frac{R - r_1}{\\,r_1\\,(R-1)\\,}\\;}\\]\nInterpretation\nIf depositors expect more than \\(\\hat f^*\\) of investors to withdraw early, late types will prefer to withdraw too. This is an expectations-driven fragility threshold."
   },
   {
     "objectID": "lectures/lecture_02/04_deposits.html#from-runs-to-default",
@@ -116,7 +130,7 @@
     "href": "lectures/lecture_02/04_deposits.html#overview",
     "title": "Deposits",
     "section": "Overview",
-    "text": "Overview\n\n\n\n\n\n\n\n\nThreshold Comparison\nCondition\nOutcome\n\n\n\n\nRun threshold \\(\\hat f^*\\)\n\\(\\hat f \\leq \\hat f^*\\)\nOnly true early types withdraw → Good equilibrium\n\n\n\n\\(\\hat f &gt; \\hat f^*\\)\nLate types also withdraw → Bad equilibrium (run)\n\n\nInsolvency threshold \\(1/r_1\\)\n\\(f \\leq 1/r_1\\)\nBank can still meet obligations (but inefficient liquidation)\n\n\n\n\\(f &gt; 1/r_1\\)\nBank becomes insolvent and fails\n\n\n\nCases - If \\(f = t\\): no problem, bank works as intended. - If \\(\\hat f^* &lt; f &lt; 1/r_1\\): bank is still able to meet withdrawals, but value is destroyed by early liquidation → inefficient run. - If \\(f \\geq 1/r_1\\): bank defaults because late types run, pushing withdrawals beyond what can be funded."
+    "text": "Overview\n\n\n\n\n\n\n\n\nThreshold Comparison\nCondition\nOutcome\n\n\n\n\nRun threshold \\(\\hat f^*\\)\n\\(\\hat f \\leq \\hat f^*\\)\nOnly true early types withdraw → Good equilibrium\n\n\n\n\\(\\hat f &gt; \\hat f^*\\)\nLate types also withdraw → Bad equilibrium (run)\n\n\nInsolvency threshold \\(1/r_1\\)\n\\(f \\leq 1/r_1\\)\nBank can still meet obligations (but inefficient liquidation)\n\n\n\n\\(f &gt; 1/r_1\\)\nBank becomes insolvent and fails\n\n\n\nCases\n\nIf \\(f = t\\): no problem, bank works as intended.\nIf \\(\\hat f^* &lt; f &lt; 1/r_1\\): bank is still able to meet withdrawals, but value is destroyed by early liquidation → inefficient run.\nIf \\(f \\geq 1/r_1\\): bank defaults because late types run, pushing withdrawals beyond what can be funded."
   },
   {
     "objectID": "lectures/lecture_02/04_deposits.html#instruments",
@@ -154,214 +168,11 @@
     "text": "Systemic Risk Link\n\nShadow banks are often interconnected with regulated banks:\n\nBanks fund them (e.g., repo, credit lines).\n\nBanks hold their liabilities (e.g., money market fund shares).\n\n\nRuns in shadow banking can therefore destabilize banks.\n\n2008 evidence:\n\nRun on money market funds (Reserve Primary Fund “broke the buck”).\n\nRepo market freeze amplified bank funding crisis.\n\n\n\nInsight: Deposit services are the reason banks are regulated.\nShadow banks perform bank-like functions without protections → systemic vulnerability."
   },
   {
-    "objectID": "lectures/lecture_01/references.html",
-    "href": "lectures/lecture_01/references.html",
+    "objectID": "lectures/lecture_01/references_money_payment.html",
+    "href": "lectures/lecture_01/references_money_payment.html",
     "title": "Modern Banking and Financial Technology",
     "section": "",
     "text": "Cecchetti, S. G., & Schoenholtz, K. L. (2017). Money, banking, and financial markets (5th ed.). New York, NY: McGraw-Hill Education.\nFreixas, X., & Rochet, J.-C. (2008). Microeconomics of banking (3rd ed.). Cambridge, MA: MIT Press.\nGraeber, D. (2011). Debt: The first 5,000 years. Brooklyn, NY: Melville House.\nKocherlakota, N. R. (1998). Money is memory. Journal of Economic Theory, 81(2), 232–251.\nLagos, R., & Wright, R. (2005). A unified framework for monetary theory and policy analysis. Journal of Political Economy, 113(3), 463–484.\nMerton, R. C. (1993). Operation and regulation in financial intermediation: A functional perspective. In P. Englund (Ed.), Operation and regulation of financial markets (pp. 17–67). Stockholm: The Economic Council.\nNosal, E., & Rocheteau, G. (2011). Money, payments, and liquidity. Cambridge, MA: MIT Press. Rochet, J.-C., & Tirole, J. (2003). Platform competition in two-sided markets. Journal of the European Economic Association, 1(4), 990–1029."
-  },
-  {
-    "objectID": "lectures/lecture_01/02_money.html#where-does-money-come-from",
-    "href": "lectures/lecture_01/02_money.html#where-does-money-come-from",
-    "title": "Money",
-    "section": "1. Where Does Money Come From?",
-    "text": "1. Where Does Money Come From?"
-  },
-  {
-    "objectID": "lectures/lecture_01/02_money.html#why-do-we-need-money",
-    "href": "lectures/lecture_01/02_money.html#why-do-we-need-money",
-    "title": "Money",
-    "section": "2. Why Do We Need Money?",
-    "text": "2. Why Do We Need Money?"
-  },
-  {
-    "objectID": "lectures/lecture_01/02_money.html#what-is-money",
-    "href": "lectures/lecture_01/02_money.html#what-is-money",
-    "title": "Money",
-    "section": "3. What is Money?",
-    "text": "3. What is Money?"
-  },
-  {
-    "objectID": "lectures/lecture_01/02_money.html#how-to-control-money",
-    "href": "lectures/lecture_01/02_money.html#how-to-control-money",
-    "title": "Money",
-    "section": "4. How to Control Money?",
-    "text": "4. How to Control Money?"
-  },
-  {
-    "objectID": "lectures/lecture_01/02_money.html#how-do-we-organise-exchange-debt-vs-barter",
-    "href": "lectures/lecture_01/02_money.html#how-do-we-organise-exchange-debt-vs-barter",
-    "title": "Money",
-    "section": "How do we organise exchange? Debt vs Barter",
-    "text": "How do we organise exchange? Debt vs Barter\nTwo competing stories of the origin of money:\n1. Metallist theory Barter 2. Chartalist theory Credit\n\nMetallist Theory\n\nOrigin of money = Double coincidence of wants\n\nRooted in commodity exchange\n&gt; A commodity which few people would be likely to refuse in exchange for the produce of their industry &gt; &gt; — Adam Smith\nEconomists’ natural view:\n\nDecentralised impulse\n\nMoney as “lubricant”\n\n\n\nChartalist (Credit) Theory\n\nOrigin of money = Debt / IOU’s\n\nSocially enforced promises of repayment\n\n\nCredit seems to have existed before money (Graeber, 2011)\n\nIn primitive communities where everyone knew each other → no need for money\nSocial pressure ensured repayment\nWhen trade with strangers began → money became useful\n\n\nMoney resulting from public authorities:\n\nCentralised impulse\n\nMoney is “memory”: A snapshot of outstanding, directed and aggregated debt in the economy"
-  },
-  {
-    "objectID": "lectures/lecture_01/02_money.html#model",
-    "href": "lectures/lecture_01/02_money.html#model",
-    "title": "Money",
-    "section": "Model",
-    "text": "Model\nEnvironment - Time is discrete (days) - The economy is stationary - → the environment does not change over time:\n- Preferences, technologies, and matching probabilities are constant.\n- History doesn’t alter the structure of the economy.\n- Each day looks the same as the previous one (e.g., days repeat infinitely)\nEconomy - 2 types of agents: buyers and sellers - 2 markets: centralised good and decentralised good\nTiming\n2 repeated periods for each date: 1. Day\nDecentralised market: Each buyer searches for sellers. - Buyer meets seller with probability \\(\\sigma\\) - When meeting, decision to contract or not - Seller delivers good immediately: \\(q\\) units - Buyer promises \\(y\\) units of another good (in centralised) 3. Night\nCentralized market: all agents meet and promised goods are delivered (or not).\nInterpretation - Decentralized good ~ labour or merchant exchanges in fair (day) - Centralized good ~ consumption or clearing of merchants obligations (night)\n\nUtilities\nAssume quasi-linear preferences\nIf contract \\((q, y)\\) is executed\n- Utility of buyer\n\\[U^b = u(q) - y\\]\n\nUtility of seller\n\n\\[U^s = y - c(q)\\]\nwhere - \\(u(.)\\) is a concave utility function - \\(c(.)\\) a convex cost function."
-  },
-  {
-    "objectID": "lectures/lecture_01/02_money.html#analysis",
-    "href": "lectures/lecture_01/02_money.html#analysis",
-    "title": "Money",
-    "section": "Analysis",
-    "text": "Analysis\n\nNo friction in the payment\nFriction: buyers can renege on their promise\n\nCommunity\nStrangers\n\nIntroduction of money\n\n\n1. No frictions\nIn a world without frictions, all trade takes place simultaneously on the centralised market.\nA transaction \\((q, y)\\) takes place if and only if it is mutually beneficial (i.e., it gives a positive net utility to both parties):\n\\[c(q)\\leq y \\leq u(q)\\]\n\n\n2. With frictions\nIn a world with frictions, buyers can renege on their commitment to provide \\(y\\) units of consumption to a seller in the centralised market.\n\nClose-knit community\nAssume that reneging would provoke the exclusion of the buyer.\nExclusion: loss of the continuation payoff \\(V^b\\) associated with future trades.\n\\(V^b\\) obtains from stationarity:\n\\[V^b = \\sigma U^b + \\frac{V^b}{1+r}\\]\nwhere \\(r\\) is the discount rate of the buyer.\nSolving in \\(V^b\\):\n\\[ V^b = \\frac{\\sigma U^b(1+r)}{r} = \\frac{\\sigma(1+r)}{r}[u(q)-y] \\]\nResult - Buyer honours an obligation to pay the seller whenever the payment \\(y\\) is lower than the discounted continuation pay-off \\(\\frac{V^b}{1+r}\\):\n\\[y \\leq \\frac{V^b}{1+r}\\]\n\n↓\n\n\\[y\\leq \\frac{\\sigma u (q)}{r+\\sigma}\\]\n\nComparing with no friction outcoume\n→ set of feasible transactions is strictly smaller\n\n\\[c(q)\\leq y \\leq \\frac{\\sigma u (q)}{r+\\sigma} \\leq u(q)\\]\nConclusion\nEven in a close-knit community, the impossibility to commit reduces the set of feasible transactions.\n\n\nComplete strangers\nIf the buyer and the seller are complete strangers because: the threat of exclusion has no bite.\nResult\nNo trade ever takes place because the seller knows that the buyer would never honour his payment obligation.\n\n\n\n3. Introducing money\nInefficiency can be overcome with money (Kocherlakota, 1998; Lagos and Wright, 2005).\nAdjustement to the set-up\nIntroduce tokens (coins or banknotes) that are accepted as means of payment by all agents. - The buyer can - Get \\(y\\) tokens by producing \\(y\\) units of the centralised good (normalise price to one token). - Later purchase \\(q\\) units of the decentralised good. - The seller agrees to deliver in exchange for the tokens if \\(V^t \\geq y\\): - The value \\(V^t\\) that the buyer derives from the tokens is larger than the cost of producing \\(y\\) units of the centralised good which is \\(y\\).\nThe continuation payoff \\(V^t\\) is given by: - Probability \\(σ\\) that the buyer matches with a seller tomorrow and buys \\(q\\) units of the decentralised good with the tokens; - Probability \\((1 − σ)\\) that the buyer keeps the tokens to use them in the future\n\\[V^t = \\frac{\\sigma u(q) + (1-\\sigma)V^t}{1+r} \\]\n\n↓\n\n\\[V^t = \\frac{\\sigma u (q)}{r + \\sigma} = V^b\\]\nResult\nTrade will take place with money if and only if:\n\\[c(q)\\leq y \\leq \\frac{\\sigma u (q)}{r+\\sigma} \\leq u(q)\\]\nwhich is exactly the same condition as in a close-knit community."
-  },
-  {
-    "objectID": "lectures/lecture_01/02_money.html#conclusion",
-    "href": "lectures/lecture_01/02_money.html#conclusion",
-    "title": "Money",
-    "section": "Conclusion",
-    "text": "Conclusion\n\nMoney allows strangers to trade as if they were members of the same community. \n\n\nNote\n1. Shift in timing of trading\nThe timing of the trades between strangers is opposite to what happens in the close-knit community: - Close-knit community: trade relies on credit, which is repaid because of the threat of exclusion. - Among strangers: the buyer needs to work first to obtain the tokens.\nMoney then works as a record-keeping device: the tokens held by the buyer testify that the buyer has worked in the past.\n2. Technological disruption - For many centuries, this record-keeping was provided by the government (i.e., central bank money) and the banks (i.e, deposit accounts). - Blockchain: promise of distributed ledger technologies is that payments can be registered without the intervention of any central authority."
-  },
-  {
-    "objectID": "lectures/lecture_01/02_money.html#issuance-of-money-and-debt",
-    "href": "lectures/lecture_01/02_money.html#issuance-of-money-and-debt",
-    "title": "Money",
-    "section": "Issuance of money and debt",
-    "text": "Issuance of money and debt\nBirthplace of writing and accounting\n\n“In the classic model of the Sumerian economy, the temple functioned as an administrative authority governing commodity production, collection, and redistribution. The discovery of administrative tablets from these complexes suggests that token use and consequently writing evolved as a tool of centralized economic governance.\nAn economy based on large-scale redistribution of goods cannot function on goodwill. It requires pre-commitment—promises of delivery that allow planning.\nWhen people started living in large communities like Uruk, they shared their lives with strangers as well as friends. It may have been possible to know everyone in a large farming village, but not in a vast city, such as Uruk. What were once implicit agreements among neighbors now became explicit contractual agreements among strangers.\n\nGoetzmann, William N.. Money Changes Everything. Princeton University Press. “\n\n\nTributary economies - Egypt, Mesopotamia:\n- Goods and services flow mainly between rulers and subjects\n- Money’s role tied to political authority and record-keeping\nKey player: The State - State as the main issuer of money - Coins = tokens of state debt\n- Why trusted?\n- State can levy taxes in the same medium\n- Unique position: only the state ensures universal acceptance\n\nSay a king wishes to support a standing army of fifty thousand men. Under ancient or medieval conditions, feeding such a force was an enormous problem—unless they were on the march, one would need to employ almost as many men and animals just to locate, acquire, and transport the necessary provisions.\nOn the other hand, if one simply hands out coins to the soldiers and then demands that every family in the kingdom was obliged to pay one of those coins back to you, one would, in one blow, turn one’s entire national economy into a vast machine for the provisioning of soldiers, since now every family, in order to get their hands on the coins, must find some way to contribute to the general effort to provide soldiers with things they want.\nMarkets are brought into existence as a side effect.\n\nGraeber (2011)"
-  },
-  {
-    "objectID": "lectures/lecture_01/02_money.html#competing-views-of-value",
-    "href": "lectures/lecture_01/02_money.html#competing-views-of-value",
-    "title": "Money",
-    "section": "Competing Views of Value",
-    "text": "Competing Views of Value\nMetallist theory\n- Money inherits the value of its material components\n- Example: gold coins = worth as much as their metal content\n- Problem: value fluctuates with metal supply\nCredit theory\n- Money is a token of a promise - Money’s value is anchored in expectations and promises\n- Token of debt: enforceable claim against issuer\n- Trust is critical → repayment depends on issuer’s credibility"
-  },
-  {
-    "objectID": "lectures/lecture_01/02_money.html#complementarities",
-    "href": "lectures/lecture_01/02_money.html#complementarities",
-    "title": "Money",
-    "section": "Complementarities",
-    "text": "Complementarities\n\nBoth theories played a role historically:\n\nMetallist → explains early commodity-based currencies\n\nCredit → explains money as obligations backed by trust\n\n\nUntil 1971\n\nBefore: gold standard → metallist logic still relevant\n\n1971: Nixon ends gold convertibility (Bretton Woods collapse)\n\n\nFrom then: credit theory dominates\n\nFiat money = pure token of trust in state/central bank"
-  },
-  {
-    "objectID": "lectures/lecture_01/02_money.html#the-three-features-of-money",
-    "href": "lectures/lecture_01/02_money.html#the-three-features-of-money",
-    "title": "Money",
-    "section": "The Three Features of Money",
-    "text": "The Three Features of Money\nCriteria any candidate form of money should satisfy: 1. Means of Payment 2. Unit of Account 3. Store of Value"
-  },
-  {
-    "objectID": "lectures/lecture_01/02_money.html#means-of-payment",
-    "href": "lectures/lecture_01/02_money.html#means-of-payment",
-    "title": "Money",
-    "section": "1. Means of Payment",
-    "text": "1. Means of Payment\n\nMoney is a recognized medium to transfer value or promise of transfer\n\nUsed in exchange of goods and services\n\nSolves the double coincidence of wants problem\n\nTransfers debt and reduces reliance on promises\n\n\nInformation reduction:\n\nPaying directly requires less information than exchanging IOUs\n\n\nCuts chains of intermediation\n\nAvoid overuse of promises and removes trust from certain exchanges\nFinalizes transactions: buyers and sellers have no further claims on each other"
-  },
-  {
-    "objectID": "lectures/lecture_01/02_money.html#unit-of-account",
-    "href": "lectures/lecture_01/02_money.html#unit-of-account",
-    "title": "Money",
-    "section": "2. Unit of Account",
-    "text": "2. Unit of Account\n\nMoney serves as a yardstick\n\nUnit used to quote prices and record debt\n\n\nFacilitates efficient pricing and information transmission\n\nMicroeconomic principle: Relative pricing is inefficient\n\nOne single, stable unit of account is more efficient\n\n“Goods cost money, not other goods”\n\nCombinatorial explosion when relative pricing for all goods\n\nExample: with 100 goods → relative pricing requires 4,950 bilateral quotes"
-  },
-  {
-    "objectID": "lectures/lecture_01/02_money.html#store-of-value",
-    "href": "lectures/lecture_01/02_money.html#store-of-value",
-    "title": "Money",
-    "section": "3. Store of Value",
-    "text": "3. Store of Value\n\nMoney is used to transfer purchasing power into the future\n\nRelies on:\n\nMemory\n\nStability of value / durability of the medium\n\nRequires liquidity to ensure usability\n\nValue is context-dependent:\n\nMarkets\n\nGovernment\n\nBroader environment\n\n\nMoney is by definition consensus driven — a coordination game"
-  },
-  {
-    "objectID": "lectures/lecture_01/02_money.html#liquidity",
-    "href": "lectures/lecture_01/02_money.html#liquidity",
-    "title": "Money",
-    "section": "Liquidity",
-    "text": "Liquidity\nDefinition: ease with which an asset can be turned into a means of payment (money)\n2 dimensions:\n- Market liquidity → ability to sell the asset quickly at fair price\n- Funding liquidity → ability to borrow against the asset"
-  },
-  {
-    "objectID": "lectures/lecture_01/02_money.html#inflation",
-    "href": "lectures/lecture_01/02_money.html#inflation",
-    "title": "Money",
-    "section": "Inflation",
-    "text": "Inflation\nDefinition: change in the value of money (price level)\nClassical framework: Quantity Theory of Money\n- Central issue: how does inflation work?\n- Core concern of modern Monetary Policy"
-  },
-  {
-    "objectID": "lectures/lecture_01/02_money.html#quantity-theory-of-money",
-    "href": "lectures/lecture_01/02_money.html#quantity-theory-of-money",
-    "title": "Money",
-    "section": "Quantity Theory of Money",
-    "text": "Quantity Theory of Money\n\nHistorical Origins\n\nConcept linked to Jean Bodin (1530–1596)\n\nQuestion: why had prices been increasing for one century?\n\nCase Study: Spain in the 16th Century - Large influx of gold and silver from conquests in the Americas\n- Result: sustained rise in money supply - Consequence: price level doubled in Spain between 1550 and 1600\n\n\nCore Idea\nThe quantity of money determines the value of money - Explanation of the relationship between money supply and inflation\nNotation: - P = price level of a basket of goods (e.g. Consumer Price Index)\n- 1/P = value of money\nInflation → rise in P → fall in 1/P (value of money)\n\n\nSupply and Demand for Money\nMoney Supply\n- Assume given (e.g., set by government)\nIn reality: depends on central bank, banks, and consumers\nMoney Demand\n- How much wealth people want to hold in liquid form\nDetermined by real income, interest rates, access to cash, etc.\n\n\n\n\n\n\nWhen money supply increases:\n\nValue of money decreases\n→ More money needed to buy the same basket of goods\n\n\n\nMechanism (Long Run)\n\nIncrease in money supply → excess supply of money\n\nExcess supply → more spending on goods and services\n\nSupply of goods is fixed → prices must rise\n\nAdjustment works directly (spending) or indirectly (via credit)"
-  },
-  {
-    "objectID": "lectures/lecture_01/02_money.html#discussion",
-    "href": "lectures/lecture_01/02_money.html#discussion",
-    "title": "Money",
-    "section": "Discussion",
-    "text": "Discussion\n\nInflation Costs (Short Run)\n\nWages are sticky → individual purchasing power initially reduced\n\nUncertainty undermines planning\n\nMoney is a yardstick → lack of price predictability impedes financial decisions\n\n\nMenu costs: updating prices is costly\n\n\n\nSpecial Cost of Inflation\n\nArbitrary redistribution of wealth\nUnanticipated inflation transfers purchasing power between creditors and debtors\n\nHigher-than-expected inflation → benefits debtors (real value of debt falls)\n\nLower-than-expected inflation → benefits creditors (real value of debt rises)\n\n\nIn practice: high inflation is more variable and less predictable\n\nKey consequence: barrier to long-term contracts and financing in unstable economies\n\n\n\nLimitations of the Model\n\nAbstracts from credit and behavioral dimensions under uncertainty\n\nPrices can move even if money supply is fixed → role of expectations\n\nExamples:\n- Medieval food prices fluctuated independently of money supply\n- When uncertainty rises → liquidity hoarding (money as credit) → reduced spending"
-  },
-  {
-    "objectID": "syllabus.html",
-    "href": "syllabus.html",
-    "title": "Syllabus",
-    "section": "",
-    "text": "Professor: Tarik Roukny (tarik.roukny@kuleuven.be)\nLectures: Mondays\n\nTime blocks for sessions\n\n08.30 AM - 10.30 AM\n10.30 PM - 12.30 PM\n\nRoom HER1 - 04.4207\n\nOffice hours: by email appointment."
-  },
-  {
-    "objectID": "syllabus.html#course-information",
-    "href": "syllabus.html#course-information",
-    "title": "Syllabus",
-    "section": "",
-    "text": "Professor: Tarik Roukny (tarik.roukny@kuleuven.be)\nLectures: Mondays\n\nTime blocks for sessions\n\n08.30 AM - 10.30 AM\n10.30 PM - 12.30 PM\n\nRoom HER1 - 04.4207\n\nOffice hours: by email appointment."
-  },
-  {
-    "objectID": "syllabus.html#course-description",
-    "href": "syllabus.html#course-description",
-    "title": "Syllabus",
-    "section": "Course Description",
-    "text": "Course Description\nThis course is a compulsory course for the International and Sustainable Finance Track in the Master of Business Administration curriculum at the Faculty of Economics and Business, Brussels Campus, KU Leuven.\nThe course objectives are:\n\nTo train students to produce scientifically based solutions to modern banking issues\nTo introduce trends in financial technologies\nTo provide students with a wide range of technological and policy challenges and opportunities in banking and finance\nTo induce both macro and micro assessments of the impact of new technologies for banking and the economy\n\nThe course features a balance between traditional banking issues (intermediation, money, payments, instruments, deposits, financial contracts, financial stability, liquidity, monetary policy, interest rates, bank runs, regulation, bail outs) and modern banking issues (digitalisation, platforms, crypto, AI, DeFi, smart contracts, shadow banking, macroprudential policy, Big Tech, open finance, CBDC). The ultimate objective is to convey a deep grasp of the past-present-future of the industry in order to prepare students for the ever changing landscape of banking and technology.\n\nPrerequisites\nThis course does not have mandatory prerequisites. It is however advised to have sufficient knowledge of basic economic modelling and completed the following courses first:\n\nFinancial Markets and Institutions\nCorporate Finance."
-  },
-  {
-    "objectID": "syllabus.html#organization",
-    "href": "syllabus.html#organization",
-    "title": "Syllabus",
-    "section": "Organization",
-    "text": "Organization\nThis course consists of 6 ECTS amounting to 40 contact hours. Sessions are split between core material, live discussions, and guest lectures. All sessions are integral to the course.\n\nMaterial\nThe class addresses the one key dimension of banking and financial technology: information frictions. As such, the material starts with the role played by information in every aspect of modern banking. Three key topics in the development of fintech are then studied: platforms, machine learning and crypto.\n\n\nOverview\nMap of topics\n\n\n\n\n\n\n\nSide\nTopics\n\n\n\n\nModern Banking\nMoney  Payment  Deposit  Systemic Risk  Policy & Regulation\n\n\nPlatforms\nDigital Platforms  Fintech Platforms  Bigtech  Open Banking\n\n\nMachine Learning\nHistory  Economics of ML  Technology of ML  Application of ML in Finance\n\n\nCrypto\nDistributed Ledger Technolonies  Smart Contracts  Stablecoins  Decentralised Finance  Central Bank Digital Currencies"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Modern Banking and Financial Technology",
-    "section": "",
-    "text": "This website accompanies the course of Modern Banking and Financial Technology (B-KUL-HMA68A)."
-  },
-  {
-    "objectID": "index.html#news-announcements",
-    "href": "index.html#news-announcements",
-    "title": "Modern Banking and Financial Technology",
-    "section": "News & Announcements",
-    "text": "News & Announcements\n\n10/10/2025\n\nMaterial and recording for Lecture 03 is available\nNew: All Day TA is available for the course.\n\nAll Day TA is an interactive AI tutor trained on the course material and synced with the course schedule for learning support.\n\n\n03/10/2025\n\nMaterial for Lecture 02 is available\nRecordings available for\n\nLast part of Lecture 01 (credit card, payment model and information\nLecture 02\n\n\n25/09/2025\n\nThe course is live\nMaterial for Lecture 01 is available"
-  },
-  {
-    "objectID": "lectures/lecture_01/lecture_01.html",
-    "href": "lectures/lecture_01/lecture_01.html",
-    "title": "Lecture 01",
-    "section": "",
-    "text": "Page: HTML\nSlides: Reveal.js PDF"
-  },
-  {
-    "objectID": "lectures/lecture_01/lecture_01.html#banking",
-    "href": "lectures/lecture_01/lecture_01.html#banking",
-    "title": "Lecture 01",
-    "section": "",
-    "text": "Page: HTML\nSlides: Reveal.js PDF"
-  },
-  {
-    "objectID": "lectures/lecture_01/lecture_01.html#money",
-    "href": "lectures/lecture_01/lecture_01.html#money",
-    "title": "Lecture 01",
-    "section": "2. Money",
-    "text": "2. Money\nPage: HTML\nSlides Reveal.js PDF"
-  },
-  {
-    "objectID": "lectures/lecture_01/lecture_01.html#payments",
-    "href": "lectures/lecture_01/lecture_01.html#payments",
-    "title": "Lecture 01",
-    "section": "3. Payments",
-    "text": "3. Payments\nPage: HTML\nSlides Reveal.js PDF\n\nRecordings\n\nCredit Cards\n\n \n\n\n\nA Model of Payments\n\n \n\n\n\nInformation in Payments"
   },
   {
     "objectID": "lectures/lecture_01/01_banking.html#what-is-a-bank",
@@ -410,14 +221,224 @@
     "href": "lectures/lecture_01/01_banking.html#money-changing",
     "title": "Banking",
     "section": "Money Changing",
-    "text": "Money Changing\nMoney changing = the business of exchanging one form of money for another.\n\nActivities\n1. Exchange of Different Currencies\nIn ancient marketplaces (Athens, Rome, medieval fairs in Champagne or Bruges).\n- Merchants brought coins from different regions.\n- Coins differed in: - Metal content (gold, silver, copper)\n- Weight\n- Purity - Money changers exchanged at agreed rates\n2. Authentication & Valuation - Counterfeiting was common.\n- Money changers assessed authenticity by weighing coins and testing their metallic content.\n- Reputation and trust were crucial.\n\n\nEtymology\n\nGreek: trapeza = scale\n\nItalian: banco = bench (for coins)\n\nWhen a money changer failed → the bench was broken\nItalian: bancarotta = broken bench (→ bankruptcy)\n\n\n\n\nFrom Money Changing to Safekeeping\nMoney changers gradually expanded their role: - Deposits: merchants left coins in safekeeping. - Reduced risk of loss/robery\n- Transfers: debts settled via ledger entries (no physical coin movement).\n- Credit: loans granted from pooled reserves.\nFirst bankers\n\nScriveners: literate advisors, brokers, lenders, deposit-takers\n\nGoldsmiths (17th c. England): safes for goldware → accepted deposits\n\nEarly trust-based intermediaries\n\nNote: Deposits with no return\n\nEarly deposits = zero or negative return\n\nPurpose: safety, not investment\n\nBankers had to maintain confidence not to misuse deposits"
+    "text": "Money Changing\nMoney changing = the business of exchanging one form of money for another.\n\nActivities\n1. Exchange of Different Currencies\nIn ancient marketplaces (Athens, Rome, medieval fairs in Champagne or Bruges).\n\nMerchants brought coins from different regions.\n\nCoins differed in:\n\nMetal content (gold, silver, copper)\n\nWeight\n\nPurity\n\nMoney changers exchanged at agreed rates\n\n2. Authentication & Valuation\n\nCounterfeiting was common.\n\nMoney changers assessed authenticity by weighing coins and testing their metallic content.\n\nReputation and trust were crucial.\n\n\n\nEtymology\n\nGreek: trapeza = scale\n\nItalian: banco = bench (for coins)\n\nWhen a money changer failed → the bench was broken\nItalian: bancarotta = broken bench (→ bankruptcy)\n\n\n\n\nFrom Money Changing to Safekeeping\nMoney changers gradually expanded their role:\n\nDeposits: merchants left coins in safekeeping.\n\nReduced risk of loss/robery\n\n\nTransfers: debts settled via ledger entries (no physical coin movement).\n\nCredit: loans granted from pooled reserves.\n\nFirst bankers\n\nScriveners: literate advisors, brokers, lenders, deposit-takers\n\nGoldsmiths (17th c. England): safes for goldware → accepted deposits\n\nEarly trust-based intermediaries\n\nNote: Deposits with no return\n\nEarly deposits = zero or negative return\n\nPurpose: safety, not investment\n\nBankers had to maintain confidence not to misuse deposits"
   },
   {
     "objectID": "lectures/lecture_01/01_banking.html#timeline",
     "href": "lectures/lecture_01/01_banking.html#timeline",
     "title": "Banking",
     "section": "Timeline",
-    "text": "Timeline\n\n1. Early Banking Practices\n\nMesopotamia (2000 BCE)\n\nHammurabi’s Code (Babylon) → regulated loans & debt\n\nLaw 100: “If a merchant gives silver as a loan at interest, he shall take only 1 shekel of silver as interest on 1 shekel; if he takes more, he shall forfeit all.”\n\n\nLaw 117: “If a man be in debt and he sell his wife, son, or daughter, they shall serve for three years in the house of the purchaser or creditor; in the fourth year they shall regain their freedom.”\n\n\nAncient Greece: trapeza (money changers)\n\n\n\n2. Medieval & Renaissance (10th-15th c.)\n\nTemplars (12th–14th c.):\n\nCheque-like instruments for crusaders & pilgrims\n\nFirst international financial system\n\n\nItalian city-states (12th–15th c.): Florence, Venice, Genoa = trade hubs\n\nMedici Bank (1397–1494): first multinational bank\n\nPacioli’s innovation (1494): double-entry bookkeeping\n\n\n\n\n3. Colonial Expansion (15th–17th c.)\nFinance to support growth of trade - Banco di San Giorgio (1407) – Genoa - First public bank - Managed public debt, accepted deposits\n- Bank of Amsterdam (1609)\n- Standardized coinage, clearing bank, proto-central bank\n- Venetian banks: financed global trade & wars\n\n\n4. Industrial Revolution (19th c.)\n\nSavings & cooperative banks\n\nCheque system spread\n\n\n\n5. Rise of Modern Banking (20th - today c.)\n\nPost-WWII → retail banking boom\n\nChecking accounts, mortgages, consumer credit\n\n\nRegulation after crises (e.g., 1929)\n\nGlobalisation → multinational banking groups\nTechnological Innovation\n\n1950s: Payment cards (Diners Club, later Visa/MasterCard)\n\n1967: ATMs (Barclays, UK)\n\n1973: SWIFT messaging system"
+    "text": "Timeline\n\n1. Early Banking Practices\n\nMesopotamia (2000 BCE)\n\nHammurabi’s Code (Babylon) → regulated loans & debt\n\nLaw 100: “If a merchant gives silver as a loan at interest, he shall take only 1 shekel of silver as interest on 1 shekel; if he takes more, he shall forfeit all.”\n\n\nLaw 117: “If a man be in debt and he sell his wife, son, or daughter, they shall serve for three years in the house of the purchaser or creditor; in the fourth year they shall regain their freedom.”\n\n\nAncient Greece: trapeza (money changers)\n\n\n\n2. Medieval & Renaissance (10th-15th c.)\n\nTemplars (12th–14th c.):\n\nCheque-like instruments for crusaders & pilgrims\n\nFirst international financial system\n\n\nItalian city-states (12th–15th c.): Florence, Venice, Genoa = trade hubs\n\nMedici Bank (1397–1494): first multinational bank\n\nPacioli’s innovation (1494): double-entry bookkeeping\n\n\n\n\n3. Colonial Expansion (15th–17th c.)\nFinance to support growth of trade\n\nBanco di San Giorgio (1407) – Genoa - First public bank\n\nManaged public debt, accepted deposits\n\n\nBank of Amsterdam (1609)\n\nStandardized coinage, clearing bank, proto-central bank\n\n\nVenetian banks: financed global trade & wars\n\n\n\n4. Industrial Revolution (19th c.)\n\nSavings & cooperative banks\n\nCheque system spread\n\n\n\n5. Rise of Modern Banking (20th - today c.)\n\nPost-WWII → retail banking boom\n\nChecking accounts, mortgages, consumer credit\n\n\nRegulation after crises (e.g., 1929)\n\nGlobalisation → multinational banking groups\nTechnological Innovation\n\n1950s: Payment cards (Diners Club, later Visa/MasterCard)\n\n1967: ATMs (Barclays, UK)\n\n1973: SWIFT messaging system"
+  },
+  {
+    "objectID": "lectures/lecture_01/lecture_01.html",
+    "href": "lectures/lecture_01/lecture_01.html",
+    "title": "Lecture 01",
+    "section": "",
+    "text": "Page: HTML\nSlides: Reveal.js PDF"
+  },
+  {
+    "objectID": "lectures/lecture_01/lecture_01.html#banking",
+    "href": "lectures/lecture_01/lecture_01.html#banking",
+    "title": "Lecture 01",
+    "section": "",
+    "text": "Page: HTML\nSlides: Reveal.js PDF"
+  },
+  {
+    "objectID": "lectures/lecture_01/lecture_01.html#money",
+    "href": "lectures/lecture_01/lecture_01.html#money",
+    "title": "Lecture 01",
+    "section": "2. Money",
+    "text": "2. Money\nPage: HTML\nSlides Reveal.js PDF"
+  },
+  {
+    "objectID": "lectures/lecture_01/lecture_01.html#payments",
+    "href": "lectures/lecture_01/lecture_01.html#payments",
+    "title": "Lecture 01",
+    "section": "3. Payments",
+    "text": "3. Payments\nPage: HTML\nSlides Reveal.js PDF\n\nRecordings\n\nCredit Cards\n\n \n\n\n\nA Model of Payments\n\n \n\n\n\nInformation in Payments"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Modern Banking and Financial Technology",
+    "section": "",
+    "text": "This website accompanies the course of Modern Banking and Financial Technology (B-KUL-HMA68A)."
+  },
+  {
+    "objectID": "index.html#news-announcements",
+    "href": "index.html#news-announcements",
+    "title": "Modern Banking and Financial Technology",
+    "section": "News & Announcements",
+    "text": "News & Announcements\n\n17/10/2025\n\nMaterial and recording for Lecture 04 is available\n\n\n\n\n10/10/2025\n\nMaterial and recording for Lecture 03 is available\nNew: All Day TA is available for the course.\n\nAll Day TA is an interactive AI tutor trained on the course material and synced with the course schedule for learning support.\n\n\n\n\n\n03/10/2025\n\nMaterial for Lecture 02 is available\nRecordings available for\n\nLast part of Lecture 01 (credit card, payment model and information\nLecture 02\n\n\n\n\n\n25/09/2025\n\nThe course is live\nMaterial for Lecture 01 is available"
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Professor: Tarik Roukny (tarik.roukny@kuleuven.be)\nLectures: Mondays\n\nTime blocks for sessions\n\n08.30 AM - 10.30 AM\n10.30 PM - 12.30 PM\n\nRoom HER1 - 04.4207\n\nOffice hours: by email appointment."
+  },
+  {
+    "objectID": "syllabus.html#course-information",
+    "href": "syllabus.html#course-information",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Professor: Tarik Roukny (tarik.roukny@kuleuven.be)\nLectures: Mondays\n\nTime blocks for sessions\n\n08.30 AM - 10.30 AM\n10.30 PM - 12.30 PM\n\nRoom HER1 - 04.4207\n\nOffice hours: by email appointment."
+  },
+  {
+    "objectID": "syllabus.html#course-description",
+    "href": "syllabus.html#course-description",
+    "title": "Syllabus",
+    "section": "Course Description",
+    "text": "Course Description\nThis course is a compulsory course for the International and Sustainable Finance Track in the Master of Business Administration curriculum at the Faculty of Economics and Business, Brussels Campus, KU Leuven.\nThe course objectives are:\n\nTo train students to produce scientifically based solutions to modern banking issues\nTo introduce trends in financial technologies\nTo provide students with a wide range of technological and policy challenges and opportunities in banking and finance\nTo induce both macro and micro assessments of the impact of new technologies for banking and the economy\n\nThe course features a balance between traditional banking issues (intermediation, money, payments, instruments, deposits, financial contracts, financial stability, liquidity, monetary policy, interest rates, bank runs, regulation, bail outs) and modern banking issues (digitalisation, platforms, crypto, AI, DeFi, smart contracts, shadow banking, macroprudential policy, Big Tech, open finance, CBDC). The ultimate objective is to convey a deep grasp of the past-present-future of the industry in order to prepare students for the ever changing landscape of banking and technology.\n\nPrerequisites\nThis course does not have mandatory prerequisites. It is however advised to have sufficient knowledge of basic economic modelling and completed the following courses first:\n\nFinancial Markets and Institutions\nCorporate Finance."
+  },
+  {
+    "objectID": "syllabus.html#organization",
+    "href": "syllabus.html#organization",
+    "title": "Syllabus",
+    "section": "Organization",
+    "text": "Organization\nThis course consists of 6 ECTS amounting to 40 contact hours. Sessions are split between core material, live discussions, and guest lectures. All sessions are integral to the course.\n\nMaterial\nThe class addresses the one key dimension of banking and financial technology: information frictions. As such, the material starts with the role played by information in every aspect of modern banking. Three key topics in the development of fintech are then studied: platforms, machine learning and crypto.\n\n\nOverview\nMap of topics\n\n\n\n\n\n\n\nSide\nTopics\n\n\n\n\nModern Banking\nMoney  Payment  Deposit  Systemic Risk  Policy & Regulation\n\n\nPlatforms\nDigital Platforms  Fintech Platforms  Bigtech  Open Banking\n\n\nMachine Learning\nHistory  Economics of ML  Technology of ML  Application of ML in Finance\n\n\nCrypto\nDistributed Ledger Technolonies  Smart Contracts  Stablecoins  Decentralised Finance  Central Bank Digital Currencies"
+  },
+  {
+    "objectID": "lectures/lecture_01/02_money.html#where-does-money-come-from",
+    "href": "lectures/lecture_01/02_money.html#where-does-money-come-from",
+    "title": "Money",
+    "section": "1. Where Does Money Come From?",
+    "text": "1. Where Does Money Come From?"
+  },
+  {
+    "objectID": "lectures/lecture_01/02_money.html#why-do-we-need-money",
+    "href": "lectures/lecture_01/02_money.html#why-do-we-need-money",
+    "title": "Money",
+    "section": "2. Why Do We Need Money?",
+    "text": "2. Why Do We Need Money?"
+  },
+  {
+    "objectID": "lectures/lecture_01/02_money.html#what-is-money",
+    "href": "lectures/lecture_01/02_money.html#what-is-money",
+    "title": "Money",
+    "section": "3. What is Money?",
+    "text": "3. What is Money?"
+  },
+  {
+    "objectID": "lectures/lecture_01/02_money.html#how-to-control-money",
+    "href": "lectures/lecture_01/02_money.html#how-to-control-money",
+    "title": "Money",
+    "section": "4. How to Control Money?",
+    "text": "4. How to Control Money?"
+  },
+  {
+    "objectID": "lectures/lecture_01/02_money.html#how-do-we-organise-exchange-debt-vs-barter",
+    "href": "lectures/lecture_01/02_money.html#how-do-we-organise-exchange-debt-vs-barter",
+    "title": "Money",
+    "section": "How do we organise exchange? Debt vs Barter",
+    "text": "How do we organise exchange? Debt vs Barter\nTwo competing stories of the origin of money:\n\nMetallist theory Barter\nChartalist theory Credit\n\n\nMetallist Theory\n\nOrigin of money = Double coincidence of wants\n\nRooted in commodity exchange\n\n\nA commodity which few people would be likely to refuse in exchange for the produce of their industry\n— Adam Smith\n\n\nEconomists’ natural view:\n\nDecentralised impulse\n\nMoney as “lubricant”\n\n\n\nChartalist (Credit) Theory\n\nOrigin of money = Debt / IOU’s\n\nSocially enforced promises of repayment\n\n\nCredit seems to have existed before money (Graeber, 2011)\n\nIn primitive communities where everyone knew each other → no need for money\nSocial pressure ensured repayment\nWhen trade with strangers began → money became useful\n\n\nMoney resulting from public authorities:\n\nCentralised impulse\n\nMoney is “memory”: A snapshot of outstanding, directed and aggregated debt in the economy"
+  },
+  {
+    "objectID": "lectures/lecture_01/02_money.html#model",
+    "href": "lectures/lecture_01/02_money.html#model",
+    "title": "Money",
+    "section": "Model",
+    "text": "Model\nEnvironment\n\nTime is discrete (days)\nThe economy is stationary\n\n→ the environment does not change over time:\n\nPreferences, technologies, and matching probabilities are constant.\n\nHistory doesn’t alter the structure of the economy.\n\nEach day looks the same as the previous one (e.g., days repeat infinitely)\n\n\n\nEconomy\n\n2 types of agents: buyers and sellers\n2 markets: centralised good and decentralised good\n\nTiming\n2 repeated periods for each date:\n\nDay\nDecentralised market: Each buyer searches for sellers.\n\nBuyer meets seller with probability \\(\\sigma\\)\nWhen meeting, decision to contract or not\n\nSeller delivers good immediately: \\(q\\) units\nBuyer promises \\(y\\) units of another good (in centralised)\n\n\nNight\nCentralized market: all agents meet and promised goods are delivered (or not).\n\nInterpretation\n\nDecentralized good ~ labour or merchant exchanges in fair (day)\nCentralized good ~ consumption or clearing of merchants obligations (night)\n\n\nUtilities\nAssume quasi-linear preferences\nIf contract \\((q, y)\\) is executed\n\nUtility of buyer\n\n\\[U^b = u(q) - y\\]\n\nUtility of seller\n\n\\[U^s = y - c(q)\\]\nwhere\n\n\\(u(.)\\) is a concave utility function\n\\(c(.)\\) a convex cost function."
+  },
+  {
+    "objectID": "lectures/lecture_01/02_money.html#analysis",
+    "href": "lectures/lecture_01/02_money.html#analysis",
+    "title": "Money",
+    "section": "Analysis",
+    "text": "Analysis\n\nNo friction in the payment\nFriction: buyers can renege on their promise\n\nCommunity\nStrangers\n\nIntroduction of money\n\n\n1. No frictions\nIn a world without frictions, all trade takes place simultaneously on the centralised market.\nA transaction \\((q, y)\\) takes place if and only if it is mutually beneficial (i.e., it gives a positive net utility to both parties):\n\\[c(q)\\leq y \\leq u(q)\\]\n\n\n2. With frictions\nIn a world with frictions, buyers can renege on their commitment to provide \\(y\\) units of consumption to a seller in the centralised market.\n\nClose-knit community\nAssume that reneging would provoke the exclusion of the buyer.\nExclusion: loss of the continuation payoff \\(V^b\\) associated with future trades.\n\\(V^b\\) obtains from stationarity:\n\\[V^b = \\sigma U^b + \\frac{V^b}{1+r}\\]\nwhere \\(r\\) is the discount rate of the buyer.\nSolving in \\(V^b\\):\n\\[ V^b = \\frac{\\sigma U^b(1+r)}{r} = \\frac{\\sigma(1+r)}{r}[u(q)-y] \\]\nResult\n\nBuyer honours an obligation to pay the seller whenever the payment \\(y\\) is lower than the discounted continuation pay-off \\(\\frac{V^b}{1+r}\\):\n\n\\[y \\leq \\frac{V^b}{1+r}\\]\n\n↓\n\n\\[y\\leq \\frac{\\sigma u (q)}{r+\\sigma}\\]\n\nComparing with no friction outcoume\n→ set of feasible transactions is strictly smaller\n\n\\[c(q)\\leq y \\leq \\frac{\\sigma u (q)}{r+\\sigma} \\leq u(q)\\]\nConclusion\nEven in a close-knit community, the impossibility to commit reduces the set of feasible transactions.\n\n\nComplete strangers\nIf the buyer and the seller are complete strangers because: the threat of exclusion has no bite.\nResult\nNo trade ever takes place because the seller knows that the buyer would never honour his payment obligation.\n\n\n\n3. Introducing money\nInefficiency can be overcome with money (Kocherlakota, 1998; Lagos and Wright, 2005).\nAdjustement to the set-up\nIntroduce tokens (coins or banknotes) that are accepted as means of payment by all agents.\n\nThe buyer can\n\nGet \\(y\\) tokens by producing \\(y\\) units of the centralised good (normalise price to one token).\nLater purchase \\(q\\) units of the decentralised good.\n\nThe seller agrees to deliver in exchange for the tokens if \\(V^t \\geq y\\):\n\nThe value \\(V^t\\) that the buyer derives from the tokens is larger than the cost of producing \\(y\\) units of the centralised good which is \\(y\\).\n\n\nThe continuation payoff \\(V^t\\) is given by:\n\nProbability \\(σ\\) that the buyer matches with a seller tomorrow and buys \\(q\\) units of the decentralised good with the tokens;\nProbability \\((1 − σ)\\) that the buyer keeps the tokens to use them in the future\n\n\\[V^t = \\frac{\\sigma u(q) + (1-\\sigma)V^t}{1+r} \\]\n\n↓\n\n\\[V^t = \\frac{\\sigma u (q)}{r + \\sigma} = V^b\\]\nResult\nTrade will take place with money if and only if:\n\\[c(q)\\leq y \\leq \\frac{\\sigma u (q)}{r+\\sigma} \\leq u(q)\\]\nwhich is exactly the same condition as in a close-knit community."
+  },
+  {
+    "objectID": "lectures/lecture_01/02_money.html#conclusion",
+    "href": "lectures/lecture_01/02_money.html#conclusion",
+    "title": "Money",
+    "section": "Conclusion",
+    "text": "Conclusion\n\nMoney allows strangers to trade as if they were members of the same community. \n\n\nNote\n1. Shift in timing of trading\nThe timing of the trades between strangers is opposite to what happens in the close-knit community:\n\nClose-knit community: trade relies on credit, which is repaid because of the threat of exclusion.\nAmong strangers: the buyer needs to work first to obtain the tokens.\n\nMoney then works as a record-keeping device: the tokens held by the buyer testify that the buyer has worked in the past.\n2. Technological disruption\n\nFor many centuries, this record-keeping was provided by the government (i.e., central bank money) and the banks (i.e, deposit accounts).\nBlockchain: promise of distributed ledger technologies is that payments can be registered without the intervention of any central authority."
+  },
+  {
+    "objectID": "lectures/lecture_01/02_money.html#issuance-of-money-and-debt",
+    "href": "lectures/lecture_01/02_money.html#issuance-of-money-and-debt",
+    "title": "Money",
+    "section": "Issuance of money and debt",
+    "text": "Issuance of money and debt\nBirthplace of writing and accounting\n\n“In the classic model of the Sumerian economy, the temple functioned as an administrative authority governing commodity production, collection, and redistribution. The discovery of administrative tablets from these complexes suggests that token use and consequently writing evolved as a tool of centralized economic governance.\nAn economy based on large-scale redistribution of goods cannot function on goodwill. It requires pre-commitment—promises of delivery that allow planning.\nWhen people started living in large communities like Uruk, they shared their lives with strangers as well as friends. It may have been possible to know everyone in a large farming village, but not in a vast city, such as Uruk. What were once implicit agreements among neighbors now became explicit contractual agreements among strangers.”\n\nGoetzmann, William N.. Money Changes Everything. Princeton University Press.\n\n\nTributary economies\n\nEgypt, Mesopotamia:\n\nGoods and services flow mainly between rulers and subjects\n\n\nMoney’s role tied to political authority and record-keeping\n\nKey player: The State\n\nState as the main issuer of money\nCoins = tokens of state debt\n\nWhy trusted?\n\nState can levy taxes in the same medium\n\nUnique position: only the state ensures universal acceptance\n\n\n\n“Say a king wishes to support a standing army of fifty thousand men. Under ancient or medieval conditions, feeding such a force was an enormous problem—unless they were on the march, one would need to employ almost as many men and animals just to locate, acquire, and transport the necessary provisions.\nOn the other hand, if one simply hands out coins to the soldiers and then demands that every family in the kingdom was obliged to pay one of those coins back to you, one would, in one blow, turn one’s entire national economy into a vast machine for the provisioning of soldiers, since now every family, in order to get their hands on the coins, must find some way to contribute to the general effort to provide soldiers with things they want.\nMarkets are brought into existence as a side effect.”\n\nGraeber (2011)"
+  },
+  {
+    "objectID": "lectures/lecture_01/02_money.html#competing-views-of-value",
+    "href": "lectures/lecture_01/02_money.html#competing-views-of-value",
+    "title": "Money",
+    "section": "Competing Views of Value",
+    "text": "Competing Views of Value\nMetallist theory\n\nMoney inherits the value of its material components\n\nExample: gold coins = worth as much as their metal content\n\nProblem: value fluctuates with metal supply\n\nCredit theory\n\nMoney is a token of a promise\nMoney’s value is anchored in expectations and promises\n\nToken of debt: enforceable claim against issuer\n\nTrust is critical → repayment depends on issuer’s credibility"
+  },
+  {
+    "objectID": "lectures/lecture_01/02_money.html#complementarities",
+    "href": "lectures/lecture_01/02_money.html#complementarities",
+    "title": "Money",
+    "section": "Complementarities",
+    "text": "Complementarities\n\nBoth theories played a role historically:\n\nMetallist → explains early commodity-based currencies\n\nCredit → explains money as obligations backed by trust\n\n\nUntil 1971\n\nBefore: gold standard → metallist logic still relevant\n\n1971: Nixon ends gold convertibility (Bretton Woods collapse)\n\n\nFrom then: credit theory dominates\n\nFiat money = pure token of trust in state/central bank"
+  },
+  {
+    "objectID": "lectures/lecture_01/02_money.html#the-three-features-of-money",
+    "href": "lectures/lecture_01/02_money.html#the-three-features-of-money",
+    "title": "Money",
+    "section": "The Three Features of Money",
+    "text": "The Three Features of Money\nCriteria any candidate form of money should satisfy:\n\nMeans of Payment\nUnit of Account\nStore of Value"
+  },
+  {
+    "objectID": "lectures/lecture_01/02_money.html#means-of-payment",
+    "href": "lectures/lecture_01/02_money.html#means-of-payment",
+    "title": "Money",
+    "section": "1. Means of Payment",
+    "text": "1. Means of Payment\n\nMoney is a recognized medium to transfer value or promise of transfer\n\nUsed in exchange of goods and services\n\nSolves the double coincidence of wants problem\n\nTransfers debt and reduces reliance on promises\n\n\nInformation reduction:\n\nPaying directly requires less information than exchanging IOUs\n\n\nCuts chains of intermediation\n\nAvoid overuse of promises and removes trust from certain exchanges\nFinalizes transactions: buyers and sellers have no further claims on each other"
+  },
+  {
+    "objectID": "lectures/lecture_01/02_money.html#unit-of-account",
+    "href": "lectures/lecture_01/02_money.html#unit-of-account",
+    "title": "Money",
+    "section": "2. Unit of Account",
+    "text": "2. Unit of Account\n\nMoney serves as a yardstick\n\nUnit used to quote prices and record debt\n\n\nFacilitates efficient pricing and information transmission\n\nMicroeconomic principle: Relative pricing is inefficient\n\nOne single, stable unit of account is more efficient\n\n“Goods cost money, not other goods”\n\nCombinatorial explosion when relative pricing for all goods\n\nExample: with 100 goods → relative pricing requires 4,950 bilateral quotes"
+  },
+  {
+    "objectID": "lectures/lecture_01/02_money.html#store-of-value",
+    "href": "lectures/lecture_01/02_money.html#store-of-value",
+    "title": "Money",
+    "section": "3. Store of Value",
+    "text": "3. Store of Value\n\nMoney is used to transfer purchasing power into the future\n\nRelies on:\n\nMemory\n\nStability of value / durability of the medium\n\nRequires liquidity to ensure usability\n\nValue is context-dependent:\n\nMarkets\n\nGovernment\n\nBroader environment\n\n\nMoney is by definition consensus driven — a coordination game"
+  },
+  {
+    "objectID": "lectures/lecture_01/02_money.html#liquidity",
+    "href": "lectures/lecture_01/02_money.html#liquidity",
+    "title": "Money",
+    "section": "Liquidity",
+    "text": "Liquidity\nDefinition: ease with which an asset can be turned into a means of payment (money)\n2 dimensions:\n\nMarket liquidity → ability to sell the asset quickly at fair price\n\nFunding liquidity → ability to borrow against the asset"
+  },
+  {
+    "objectID": "lectures/lecture_01/02_money.html#inflation",
+    "href": "lectures/lecture_01/02_money.html#inflation",
+    "title": "Money",
+    "section": "Inflation",
+    "text": "Inflation\nDefinition: change in the value of money (price level)\nClassical framework: Quantity Theory of Money\n\nCentral issue: how does inflation work?\n\nCore concern of modern Monetary Policy"
+  },
+  {
+    "objectID": "lectures/lecture_01/02_money.html#quantity-theory-of-money",
+    "href": "lectures/lecture_01/02_money.html#quantity-theory-of-money",
+    "title": "Money",
+    "section": "Quantity Theory of Money",
+    "text": "Quantity Theory of Money\n\nHistorical Origins\n\nConcept linked to Jean Bodin (1530–1596)\n\nQuestion: why had prices been increasing for one century?\n\nCase Study: Spain in the 16th Century\n\nLarge influx of gold and silver from conquests in the Americas\n\nResult: sustained rise in money supply\nConsequence: price level doubled in Spain between 1550 and 1600\n\n\n\nCore Idea\nThe quantity of money determines the value of money\n\nExplanation of the relationship between money supply and inflation\n\nNotation:\n\nP = price level of a basket of goods (e.g. Consumer Price Index)\n\n1/P = value of money\n\nInflation → rise in P → fall in 1/P (value of money)\n\n\nSupply and Demand for Money\nMoney Supply\n\nAssume given (e.g., set by government)\nIn reality: depends on central bank, banks, and consumers\n\nMoney Demand\n\nHow much wealth people want to hold in liquid form\nDetermined by real income, interest rates, access to cash, etc.\n\n\n\n\n\n\n\nWhen money supply increases:\n\nValue of money decreases\n→ More money needed to buy the same basket of goods\n\n\n\nMechanism (Long Run)\n\nIncrease in money supply → excess supply of money\n\nExcess supply → more spending on goods and services\n\nSupply of goods is fixed → prices must rise\n\nAdjustment works directly (spending) or indirectly (via credit)"
+  },
+  {
+    "objectID": "lectures/lecture_01/02_money.html#discussion",
+    "href": "lectures/lecture_01/02_money.html#discussion",
+    "title": "Money",
+    "section": "Discussion",
+    "text": "Discussion\n\nInflation Costs (Short Run)\n\nWages are sticky → individual purchasing power initially reduced\n\nUncertainty undermines planning\n\nMoney is a yardstick → lack of price predictability impedes financial decisions\n\n\nMenu costs: updating prices is costly\n\n\n\nSpecial Cost of Inflation\n\nArbitrary redistribution of wealth\nUnanticipated inflation transfers purchasing power between creditors and debtors\n\nHigher-than-expected inflation → benefits debtors (real value of debt falls)\n\nLower-than-expected inflation → benefits creditors (real value of debt rises)\n\n\nIn practice: high inflation is more variable and less predictable\n\nKey consequence: barrier to long-term contracts and financing in unstable economies\n\n\n\nLimitations of the Model\n\nAbstracts from credit and behavioral dimensions under uncertainty\n\nPrices can move even if money supply is fixed → role of expectations\n\nExamples:\n\nMedieval food prices fluctuated independently of money supply\n\nWhen uncertainty rises → liquidity hoarding (money as credit) → reduced spending"
+  },
+  {
+    "objectID": "lectures/lecture_01/references.html",
+    "href": "lectures/lecture_01/references.html",
+    "title": "Modern Banking and Financial Technology",
+    "section": "",
+    "text": "Cecchetti, S. G., & Schoenholtz, K. L. (2017). Money, banking, and financial markets (5th ed.). New York, NY: McGraw-Hill Education.\nFreixas, X., & Rochet, J.-C. (2008). Microeconomics of banking (3rd ed.). Cambridge, MA: MIT Press.\nGraeber, D. (2011). Debt: The first 5,000 years. Brooklyn, NY: Melville House.\nKocherlakota, N. R. (1998). Money is memory. Journal of Economic Theory, 81(2), 232–251.\nLagos, R., & Wright, R. (2005). A unified framework for monetary theory and policy analysis. Journal of Political Economy, 113(3), 463–484.\nMerton, R. C. (1993). Operation and regulation in financial intermediation: A functional perspective. In P. Englund (Ed.), Operation and regulation of financial markets (pp. 17–67). Stockholm: The Economic Council.\nNosal, E., & Rocheteau, G. (2011). Money, payments, and liquidity. Cambridge, MA: MIT Press. Rochet, J.-C., & Tirole, J. (2003). Platform competition in two-sided markets. Journal of the European Economic Association, 1(4), 990–1029."
   },
   {
     "objectID": "lectures/lecture_01/03_payment.html#what-are-the-different-forms-of-payment",
@@ -452,70 +473,70 @@
     "href": "lectures/lecture_01/03_payment.html#commodity-money",
     "title": "Payments",
     "section": "1. Commodity Money",
-    "text": "1. Commodity Money\nFirst forms of money = money with intrinsic value\nExamples: shells (global), silk (China), whale teeth (Fiji), salt (Venice)\nNecessary characteristics: 1. Can be made into standardized quantities → unit of account 2. Durable → store of value 3. High value relative to weight/size → easily transportable 4. Divisible into small quantities → easy to trade\nBest candidate: gold"
+    "text": "1. Commodity Money\nFirst forms of money = money with intrinsic value\nExamples: shells (global), silk (China), whale teeth (Fiji), salt (Venice)\nNecessary characteristics:\n\nCan be made into standardized quantities → unit of account\nDurable → store of value\nHigh value relative to weight/size → easily transportable\nDivisible into small quantities → easy to trade\n\nBest candidate: gold"
   },
   {
     "objectID": "lectures/lecture_01/03_payment.html#paper-money",
     "href": "lectures/lecture_01/03_payment.html#paper-money",
     "title": "Payments",
     "section": "2. Paper Money",
-    "text": "2. Paper Money\n\nOrigins\n\nInitially: credit notes (promises against commodity money)\n\nReduced transportation costs\n\nLeveraged parallel technology: paper\n\nFirst Introductions\n- China: 7th century (Tang dynasty) - Tang dynasty (618–907): shortage of coins → acceptance of paper notes\n- Traders deposited metallic currency with corporations → received bearer notes (hequan)\n- Authorities adopted and generalized the system → “flying money”\n- Early example of state involvement in paper money\n- Europe: Sweden, 1656 - 1660: debasement of coinage → citizens rushed for old coins\n- Stockholms Banco (Palmstruch): massive issuance of banknotes (not linked to any deposit!) - Notes became popular (lighter than copper coins)\n- Over-issuance under royal pressure to finance wars\n- Loss of confidence → redemption crisis → bank failure\n- Palmstruch imprisoned (died 1671)\n\n\nPaper Money and Wars\nIn the 18th century: paper money emerged as a massive means to to finance wars of independence\n- US Independence (Continentals)\n- French Revolution (Assignats)\nBenefits: expanded funding capacity, paid salaries and supplies\nRisks: over-issuance with no explicit backing → hyperinflation\nAfter wars: partial return to gold standard (mix of coins and notes)"
+    "text": "2. Paper Money\n\nOrigins\n\nInitially: credit notes (promises against commodity money)\n\nReduced transportation costs\n\nLeveraged parallel technology: paper\n\nFirst Introductions\n\nChina: 7th century (Tang dynasty)\n\nTang dynasty (618–907): shortage of coins → acceptance of paper notes\n\nTraders deposited metallic currency with corporations → received bearer notes (hequan)\n\nAuthorities adopted and generalized the system → “flying money”\n\nEarly example of state involvement in paper money\n\n\nEurope: Sweden, 1656\n\n1660: debasement of coinage → citizens rushed for old coins\n\nStockholms Banco (Palmstruch): massive issuance of banknotes (not linked to any deposit!)\nNotes became popular (lighter than copper coins)\n\nOver-issuance under royal pressure to finance wars\n\nLoss of confidence → redemption crisis → bank failure\n\nPalmstruch imprisoned (died 1671)\n\n\n\n\nPaper Money and Wars\nIn the 18th century: paper money emerged as a massive means to to finance wars of independence\n\nUS Independence (Continentals)\n\nFrench Revolution (Assignats)\n\nBenefits: expanded funding capacity, paid salaries and supplies\nRisks: over-issuance with no explicit backing → hyperinflation\nAfter wars: partial return to gold standard (mix of coins and notes)"
   },
   {
     "objectID": "lectures/lecture_01/03_payment.html#fiat-money",
     "href": "lectures/lecture_01/03_payment.html#fiat-money",
     "title": "Payments",
     "section": "3. Fiat Money",
-    "text": "3. Fiat Money\nDefinition: Money whose value comes from government decree (no intrinsic value)\n- Legal tender enforced by law: must be accepted for payments &gt; “This note is a legal tender for all debts, public and private” - Accepted for taxes → critical for stability\nBenefits: reduced coordination and transaction costs\nRisks: concentration of power, inflation risk, time inconsistency - If a government prints too much money → threatens its value - When time inconsistency is internalized, investment in projects decrease\n\n“Ultimately, if a fiat currency is to outperform a commodity currency, policymakers must be credibly committed… As long as the government stands behind its paper money and doesn’t issue too much of it, we will use it.”\n— Cecchetti & Schoenholtz\n\n\nCore principle: money is about trust"
+    "text": "3. Fiat Money\nDefinition: Money whose value comes from government decree (no intrinsic value)\n\nLegal tender enforced by law: must be accepted for payments &gt; “This note is a legal tender for all debts, public and private”\nAccepted for taxes → critical for stability\n\nBenefits: reduced coordination and transaction costs\nRisks: concentration of power, inflation risk, time inconsistency - If a government prints too much money → threatens its value - When time inconsistency is internalized, investment in projects decrease\n\n“Ultimately, if a fiat currency is to outperform a commodity currency, policymakers must be credibly committed… As long as the government stands behind its paper money and doesn’t issue too much of it, we will use it.”\n— Cecchetti & Schoenholtz\n\n\nCore principle: money is about trust"
   },
   {
     "objectID": "lectures/lecture_01/03_payment.html#digital-money",
     "href": "lectures/lecture_01/03_payment.html#digital-money",
     "title": "Payments",
     "section": "4. Digital Money",
-    "text": "4. Digital Money\nDefinition: Monetary value represented by a claim on issuer (e.g., bank)\nCharacteristics:\n- Stored digitally\n- Issued on receipt of funds\n- Accepted as means of payment beyond issuer\nAdvantages: - Fast, often instantaneous transfers\n- Borderless reach\nForms\n- Electronic funds transfers\n- Stored-value cards (e.g., gift cards)\n- Bank deposits, central bank reserves ®\nSynchronisation problem: adoption of new medium requires coordination between buyers and merchants (see network effects and platforms)"
+    "text": "4. Digital Money\nDefinition: Monetary value represented by a claim on issuer (e.g., bank)\nCharacteristics:\n\nStored digitally\n\nIssued on receipt of funds\n\nAccepted as means of payment beyond issuer\n\nAdvantages:\n\nFast, often instantaneous transfers\n\nBorderless reach\n\nForms\n\nElectronic funds transfers\n\nStored-value cards (e.g., gift cards)\n\nBank deposits, central bank reserves ®\n\nSynchronisation problem: adoption of new medium requires coordination between buyers and merchants (see network effects and platforms)"
   },
   {
     "objectID": "lectures/lecture_01/03_payment.html#outside-vs.-inside-money",
     "href": "lectures/lecture_01/03_payment.html#outside-vs.-inside-money",
     "title": "Payments",
     "section": "Outside vs. Inside Money",
-    "text": "Outside vs. Inside Money\nWhile in principle a payment may be made with an asset, in practice virtually all modern payments are\nOutside money\n- Fiat or asset-backed money - Net positive asset supply - Examples: central bank currency, gold, government bonds\nInside money\n- Private credit circulating as medium of exchange\n- Zero net supply within private sector: - asset of one agent ~ liability of another\n- Example: demand deposits\nModern infrastructures must interact with both outside and inside money"
+    "text": "Outside vs. Inside Money\nWhile in principle a payment may be made with an asset, in practice virtually all modern payments are\nOutside money\n\nFiat or asset-backed money\nNet positive asset supply\nExamples: central bank currency, gold, government bonds\n\nInside money\n\nPrivate credit circulating as medium of exchange\n\nZero net supply within private sector:\n\nasset of one agent ~ liability of another\n\n\nExample: demand deposits\n\nModern infrastructures must interact with both outside and inside money"
   },
   {
     "objectID": "lectures/lecture_01/03_payment.html#token-based-vs.-account-based-systems",
     "href": "lectures/lecture_01/03_payment.html#token-based-vs.-account-based-systems",
     "title": "Payments",
     "section": "Token-Based vs. Account-Based Systems",
-    "text": "Token-Based vs. Account-Based Systems\nToken-based\n- Physical or digital tokens (coins, notes, e-tokens)\n- Verification: authenticity of the token\n- Advantage: anonymity\n- Risk: counterfeiting\nAccount-based\n- Operate through account records (banks, cards, decentralized ledgers)\n- Verification: identity of account holder + transaction record\n- Advantage: safety, efficiency, lower costs - Risk: tampering, un-authorized entries, exclusion\nHistorically\nBoth systems have long coexisted (e.g., banknotes + deposits)\n- Limitations of physical tokens (coins/metal): costly and risky for large/long-distance payments - Medieval fairs: banks cleared merchant balances → early clearing systems\n- Account-based systems start in Venice 14th, transfers for clients of the same bank - With increase in economic activity → growth and need for more payment options - Clearinghouses appear to enable transfers between different banks (clearing and settlements) - Development of clearinghouses laid foundations for central banks\n- 19th century US & Europe: clearinghouses expanded into modern account-based systems"
+    "text": "Token-Based vs. Account-Based Systems\nToken-based\n\nPhysical or digital tokens (coins, notes, e-tokens)\n\nVerification: authenticity of the token\n\nAdvantage: anonymity\n\nRisk: counterfeiting\n\nAccount-based\n\nOperate through account records (banks, cards, decentralized ledgers)\n\nVerification: identity of account holder + transaction record\n\nAdvantage: safety, efficiency, lower costs\nRisk: tampering, un-authorized entries, exclusion\n\n\nHistorically\nBoth systems have long coexisted (e.g., banknotes + deposits)\n\nLimitations of physical tokens (coins/metal): costly and risky for large/long-distance payments\nMedieval fairs: banks cleared merchant balances → early clearing systems\n\nAccount-based systems start in Venice 14th, transfers for clients of the same bank\nWith increase in economic activity → growth and need for more payment options\n\nClearinghouses appear to enable transfers between different banks (clearing and settlements)\n\n\nDevelopment of clearinghouses laid foundations for central banks\n\n19th century US & Europe: clearinghouses expanded into modern account-based systems"
   },
   {
     "objectID": "lectures/lecture_01/03_payment.html#backbone-of-modern-payment-systems",
     "href": "lectures/lecture_01/03_payment.html#backbone-of-modern-payment-systems",
     "title": "Payments",
     "section": "Backbone of Modern Payment Systems",
-    "text": "Backbone of Modern Payment Systems\n\n\n\nBanks hold accounts at the central bank to enable interbank transfers (reserves) - Non-member banks can access indirectly via correspondent banks\nExamples of central bank payment systems\n- Fedwire (US)\n- TARGET (EU)\n- CHIPS (UK)\nRetail payments\nSimilar to account transfers within a bank but through the reserves of the central bank.\nIn addition to direct transfers: - Paper checks\n- Credit cards"
+    "text": "Backbone of Modern Payment Systems\n\n\n\nBanks hold accounts at the central bank to enable interbank transfers (reserves)\n\nNon-member banks can access indirectly via correspondent banks\n\nExamples of central bank payment systems\n\nFedwire (US)\n\nTARGET (EU)\n\nCHIPS (UK)\n\nRetail payments\nSimilar to account transfers within a bank but through the reserves of the central bank.\nIn addition to direct transfers:\n\nPaper checks\n\nCredit cards"
   },
   {
     "objectID": "lectures/lecture_01/03_payment.html#settlement-systems",
     "href": "lectures/lecture_01/03_payment.html#settlement-systems",
     "title": "Payments",
     "section": "Settlement Systems",
-    "text": "Settlement Systems\nA crucial dimension of payment: how and when payments are considered final.\n- Settlement defines the moment when a payment is irrevocable and unconditional.\n- Different infrastructures handle settlement differently, reflecting trade-offs between speed, liquidity, efficiency, and cost.\n2 main types of settlement systems: - Real-Time Gross Settlement - Automated Clearing House\n\n1. RTGS – Real-Time Gross Settlement\nDefinition: Payments settled individually, in real-time, with finality - “Gross” = each transaction processed separately\nFeatures:\n- Immediate settlement between banks\n- Irrevocable and final once processed\n- Eliminates settlement risk\nExamples: Fedwire (US), TARGET2 (Eurozone), BOJ-NET (Japan), CHAPS (UK)\nUse cases: large-value, time-critical payments (interbank transfers, securities settlement)\nDrawback: liquidity-intensive (banks must hold sufficient balances at central bank)\nRTGS Example: TARGET2 - Pan-European RTGS system operated by the Eurosystem\n- Settles payments in central bank money\n- Handles large-value and urgent transactions across the Eurozone\n- Backbone of European financial stability infrastructure\n\n\n2. ACH – Automated Clearing House\nDefinition: Batch-processing system with net settlement (end-of-day or periodic)\nFeatures:\n- Payments grouped into batches\n- Settlement deferred\n- Cost-efficient, less liquidity needed compared to RTGS\nExamples: Nacha ACH (US), SEPA Credit Transfer/Direct Debit (EU)\nUse cases: low-value, high-volume payments (salaries, utility bills, e-commerce)\nDrawback: slower than RTGS; settlement not instantaneous\nACH Example: SEPA (Single Euro Payments Area)\nSingle integrated EU market for euro payments with same rules and costs across participating countries. Launched 2008, fully implemented by 2014.\nScope(euro-denominated payments only): 36 countries: EU + EFTA (Iceland, Norway, Liechtenstein, Switzerland) + Monaco, San Marino, Andorra, Vatican\nSEPA Instruments - SEPA Credit Transfer (SCT): Standardized euro transfers, usually settled next day (D+1)\n- SEPA Direct Debit (SDD): Framework for recurring payments (utilities, subscriptions)\n- Works across borders\n(Belgian account can authorize a French firm)\n- SCT Instant (SCT Inst): &lt;10 seconds Real-time euro payments (up to €100,000, 24/7/365)\n- Introduced 2017 - Used in P2P and e-commerce\n\n\nPolicy and Stability of Settlements\n\nCentral banks typically operate RTGS systems → backbone of financial stability\n\nACH networks: usually under central bank oversight, but often run by banking associations or private operators\n\nGrowing interest in faster payments: - Faster Payments (UK)\n- FedNow (US)\n- PIX (Brazil)\nThese systems blur the line between ACH (retail, deferred) and RTGS (wholesale, immediate)\nKey point:\nRTGS and ACH are complementary\n- RTGS = speed and finality, but costly\n- ACH = efficiency and scale, but slower"
+    "text": "Settlement Systems\nA crucial dimension of payment: how and when payments are considered final.\n\nSettlement defines the moment when a payment is irrevocable and unconditional.\n\nDifferent infrastructures handle settlement differently, reflecting trade-offs between speed, liquidity, efficiency, and cost.\n\n2 main types of settlement systems:\n\nReal-Time Gross Settlement\nAutomated Clearing House\n\n\n1. RTGS – Real-Time Gross Settlement\nDefinition: Payments settled individually, in real-time, with finality\n\n“Gross” = each transaction processed separately\n\nFeatures:\n\nImmediate settlement between banks\n\nIrrevocable and final once processed\n\nEliminates settlement risk\n\nExamples: Fedwire (US), TARGET2 (Eurozone), BOJ-NET (Japan), CHAPS (UK)\nUse cases: large-value, time-critical payments (interbank transfers, securities settlement)\nDrawback: liquidity-intensive (banks must hold sufficient balances at central bank)\nRTGS Example: TARGET2\n\nPan-European RTGS system operated by the Eurosystem\n\nSettles payments in central bank money\n\nHandles large-value and urgent transactions across the Eurozone\n\nBackbone of European financial stability infrastructure\n\n\n\n2. ACH – Automated Clearing House\nDefinition: Batch-processing system with net settlement (end-of-day or periodic)\nFeatures:\n\nPayments grouped into batches\n\nSettlement deferred\n\nCost-efficient, less liquidity needed compared to RTGS\n\nExamples: Nacha ACH (US), SEPA Credit Transfer/Direct Debit (EU)\nUse cases: low-value, high-volume payments (salaries, utility bills, e-commerce)\nDrawback: slower than RTGS; settlement not instantaneous\nACH Example: SEPA (Single Euro Payments Area)\nSingle integrated EU market for euro payments with same rules and costs across participating countries. Launched 2008, fully implemented by 2014.\nScope(euro-denominated payments only): 36 countries: EU + EFTA (Iceland, Norway, Liechtenstein, Switzerland) + Monaco, San Marino, Andorra, Vatican\nSEPA Instruments\n\nSEPA Credit Transfer (SCT): Standardized euro transfers, usually settled next day (D+1)\n\nSEPA Direct Debit (SDD): Framework for recurring payments (utilities, subscriptions)\n\nWorks across borders\n(Belgian account can authorize a French firm)\n\n\nSCT Instant (SCT Inst): &lt;10 seconds Real-time euro payments (up to €100,000, 24/7/365)\n\nIntroduced 2017\nUsed in P2P and e-commerce\n\n\n\n\nPolicy and Stability of Settlements\n\nCentral banks typically operate RTGS systems → backbone of financial stability\n\nACH networks: usually under central bank oversight, but often run by banking associations or private operators\n\nGrowing interest in faster payments:\n\nFaster Payments (UK)\n\nFedNow (US)\n\nPIX (Brazil)\n\nThese systems blur the line between ACH (retail, deferred) and RTGS (wholesale, immediate)\nKey point:\nRTGS and ACH are complementary\n\nRTGS = speed and finality, but costly\n\nACH = efficiency and scale, but slower"
   },
   {
     "objectID": "lectures/lecture_01/03_payment.html#credit-cards",
     "href": "lectures/lecture_01/03_payment.html#credit-cards",
     "title": "Payments",
     "section": "Credit Cards",
-    "text": "Credit Cards\nDefinition: A credit card payment is a retail payment instrument in which: - A cardholder authorizes a purchase of goods or services using a credit card issued by a bank (the issuer). - The merchant receives payment through its bank (the acquirer) via a card network (e.g., Visa, Mastercard). - The issuer extends credit to the cardholder by settling the transaction on their behalf, while the cardholder agrees to repay the issuer (in full or in part, with possible interest).\nCredit Cards operate on top of the interbank payment backbone\nA single purchase involves multiple layers of:\n- Networks\n- Clearing and settlement arrangements\n- Contracts and liability rules\n- Creates complexity and interdependencies well beyond the buyer and seller\n\nKey Players in Credit Card Payments\n\n\n\nIssuing bank\n- The bank that issues the credit card to the customer\n- Extends credit and guarantees payment to the merchant (through the network)\nAcquiring bank (merchant’s bank)\n- Provides payment services to the merchant\n- Collects authorization requests and forwards them through the network\n- Ensures merchant receives funds (minus fees)\nCard network\n- Connects issuers and acquirers\n- Routes authorization, clearing, and settlement messages\n- Examples: Visa, Mastercard, American Express, Discover\n\n\nSteps in a Credit Card Payment\n\nAuthorization\nAuthentication\nClearing\nSettlement\n\n\n\n\n\nAuthorization & Authentication\n\nCardholder presents card details to merchant\nVerification of cardholder identity\n\nMethods: PIN, signature, 3-D Secure (e.g., SMS/biometric code for online payments)\n\n\nMerchant sends request to acquiring bank → card network → issuing bank\n\nIssuing bank checks available credit and approves or declines\n\nClearing\n\nTransaction details transmitted through the card network\n\nIssuing and acquiring banks reconcile transaction records\n\nSettlement\n\nMerchant receives funds (minus fees), cardholder owes issuer\n\nActual transfer of funds between issuing and acquiring banks via interbank payment system\n\n\n\n\nOpen vs. Closed Loop Systems\n\n\n\nOpen-loop systems\n- Involve multiple intermediaries: issuer, acquirer, card network, merchant\n- Widely used global models\n- Examples: Visa, Mastercard\n\n\n\nClosed-loop systems\n- Issuer and network are the same entity\n- Merchant often contracts directly with the card provider\n- Examples: American Express, Discover"
+    "text": "Credit Cards\nDefinition: A credit card payment is a retail payment instrument in which:\n\nA cardholder authorizes a purchase of goods or services using a credit card issued by a bank (the issuer).\nThe merchant receives payment through its bank (the acquirer) via a card network (e.g., Visa, Mastercard).\nThe issuer extends credit to the cardholder by settling the transaction on their behalf, while the cardholder agrees to repay the issuer (in full or in part, with possible interest).\n\nCredit Cards operate on top of the interbank payment backbone\nA single purchase involves multiple layers of:\n\nNetworks\n\nClearing and settlement arrangements\n\nContracts and liability rules\n\nCreates complexity and interdependencies well beyond the buyer and seller\n\n\nKey Players in Credit Card Payments\n\n\n\nIssuing bank\n\nThe bank that issues the credit card to the customer\n\nExtends credit and guarantees payment to the merchant (through the network)\n\nAcquiring bank (merchant’s bank)\n\nProvides payment services to the merchant\n\nCollects authorization requests and forwards them through the network\n\nEnsures merchant receives funds (minus fees)\n\nCard network\n\nConnects issuers and acquirers\n\nRoutes authorization, clearing, and settlement messages\n\nExamples: Visa, Mastercard, American Express, Discover\n\n\n\nSteps in a Credit Card Payment\n\nAuthorization\nAuthentication\nClearing\nSettlement\n\n\n\n\n\nAuthorization & Authentication\n\nCardholder presents card details to merchant\nVerification of cardholder identity\n\nMethods: PIN, signature, 3-D Secure (e.g., SMS/biometric code for online payments)\n\n\nMerchant sends request to acquiring bank → card network → issuing bank\n\nIssuing bank checks available credit and approves or declines\n\nClearing\n\nTransaction details transmitted through the card network\n\nIssuing and acquiring banks reconcile transaction records\n\nSettlement\n\nMerchant receives funds (minus fees), cardholder owes issuer\n\nActual transfer of funds between issuing and acquiring banks via interbank payment system\n\n\n\n\nOpen vs. Closed Loop Systems\n\n\n\nOpen-loop systems\n\nInvolve multiple intermediaries: issuer, acquirer, card network, merchant\n\nWidely used global models\n\nExamples: Visa, Mastercard\n\n\n\n\nClosed-loop systems\n\nIssuer and network are the same entity\n\nMerchant often contracts directly with the card provider\n\nExamples: American Express, Discover"
   },
   {
     "objectID": "lectures/lecture_01/03_payment.html#economics-of-payment-platforms",
     "href": "lectures/lecture_01/03_payment.html#economics-of-payment-platforms",
     "title": "Payments",
     "section": "Economics of Payment Platforms",
-    "text": "Economics of Payment Platforms\n\n2 key ingredients\nNetwork externalities: - More cardholders → more valuable for merchants. - More merchants → more valuable for cardholders.\nMore on this in Platform part\nPricing structure matters more than total price: - Who pays what (consumer vs merchant) influences adoption. - A card scheme must balance both sides to achieve adoption.\n\n\nRochet & Tirole’s Framework\n\n\n\nRochet and Tirole (2003) introduced a fundamental model of payments which influenced the rest of the digital economy.\n\n\nEnvironment\nEconomy - Buyers (cardholder) - Sellers (merchants) - Payment card system (monopoly platform)\nBusiness model\n\nFees per transaction:\n\n\\(a_b\\) to buyers (cardholders)\n\n\\(a_s\\) to sellers (merchants)\n\n\nPer-transaction cost: \\(c\\).\n\nAgents\n| Role | Utility Function | Participation | |——–|——————|—————-| | Buyer | \\(u_b = (\\beta_b - a_b)\\, n_s\\) | \\(n_b = N_b(u_b), \\quad N_b'(\\cdot) &gt; 0\\) | | Seller | \\(u_s = (\\beta_s - a_s)\\, n_b\\) | \\(n_s = N_s(u_s), \\quad N_s'(\\cdot) &gt; 0\\) |\nUtilities scale with the other side’s size: acceptance/usage externality → network effect\nPlatform profit\nTransactions (simple network tech): \\(T(n_b,n_s) = n_b\\,n_s=N_b(u_b)\\,N_s(u_s)\\).\n\\[\n\\Pi(a_b,a_s) = (a_b+a_s-c)\\,T(n_b,n_s)\n\\]\n\n\nEquilibrium\nPlatform sets fees to maximizes profits\n\nStart by differentiating profit w.r.t. \\(a_b\\) (buyer fee):\n\n\\[\n\\frac{\\partial \\Pi}{\\partial a_b}\n= N_s\\Big[N_b + (a_b+a_s-c)N_b'(u_b)\\frac{\\partial u_b}{\\partial a_b}\\Big]\n\\]\nwith \\(\\frac{\\partial u_b}{\\partial a_b}=-n_s\\).\n\nSet to zero and isolate fees and costs:\n\n\\[\nN_s\\Big[N_b + (a_b+a_s-c)N_b'(u_b)(-n_s)\\Big] = 0\\\\\n\\\\\n\\rightarrow\n\\frac{1}{a_b+a_s-c} = -\\frac{N_b'(u_b)}{N_b(u_b)}\\,n_s\n\\]\n\nDefine semi-elasticity in utility space:\n\n\\[\n\\varepsilon_b^{u} = -\\frac{N_b'(u_b)}{N_b(u_b)}u_b\n\\]\nwhere: \\(u_b = (\\beta_b - a_b)\\, n_s\\)\n\\[\n\\rightarrow \\varepsilon_b^{u} = -\\frac{N_b'(u_b)\\,(\\beta_b - a_b)\\, n_s}{N_b(u_b)} \\quad \\leftrightarrow \\frac{\\varepsilon_b^{u}}{\\beta_b-a_b} = -\\frac{N_b'(u_b)}{N_b(u_b)}\\,n_s\n\\]\n\nPlug elasticity expression in previous expression:\n\n\\[\n\\boxed{\\frac{1}{a_b+a_s-c} = \\frac{\\varepsilon_b^{u}}{\\beta_b-a_b}}\n\\]\nBy symmetry for the seller fee:\n\\[\n\\boxed{\\frac{1}{a_b+a_s-c} = \\frac{\\varepsilon_s^{u}}{\\beta_s-a_s}}\n\\]\nExpress condition in terms of fee elasticities\nDefine fee elasticity:\n\\[\n\\eta_b^{a} = -\\frac{N_b’(u_b)}{N_b(u_b)}\\frac{\\partial u_b}{\\partial a_b}\\,a_b\n\\]\nSince \\(\\partial u_b/\\partial a_b = -n_s,\\) we get:\n\\[\\eta_b^{a} = \\frac{N_b’(u_b)}{N_b(u_b)}\\,n_s\\,a_b = \\frac{a_b}{\\beta_b-a_b}\\,\\varepsilon_b^{u}\n\\]\nPlug back:\n\\[\n\\boxed{a_b+a_s-c = \\frac{a_b}{\\eta_b^{a}}}\n\\]\nSimilarly:\n\\[\n\\boxed{a_b+a_s-c = \\frac{a_s}{\\eta_s^{a}}}\n\\]\n\n\nMain Result\nBalancing condition\n\\[\\boxed{\\frac{a_b}{\\eta_b^{a}} = \\frac{a_s}{\\eta_s^{a}}}\n\\quad\\Longleftrightarrow\\quad\n\\boxed{\\frac{\\beta_b-a_b}{\\varepsilon_b^{u}} = \\frac{\\beta_s-a_s}{\\varepsilon_s^{u}}}\\]\nIntuition\nRaising \\(a_b\\) changes - Profit via markup \\(a_b + a_s - c\\) - Quantity \\(T(n_b,n_s)\\) via adoption elasticity \\(\\varepsilon_b^{\\,u}\\) ↑ when \\(a_b\\) ↑ - Which also impacts seller side since \\(\\varepsilon_s^{\\,u}\\) ↑ given that \\(n_b\\) ↓ - Which in turn would again impact the buyer side \\(\\varepsilon_b^{\\,u}\\) ↑ when \\(n_s\\) ↓ → Network Effects\n\n→ Optimal pricing must balance those marginal trade-offs across sides.\n\nImplication of \\(\\boxed{\\frac{a_b}{\\eta_b^{a}} = \\frac{a_s}{\\eta_s^{a}}}\\) - The more price-sensitive side gets a lower (even negative) price - The less elastic side bears more\nIn payments - Buyers (cardholders) usually have many alternatives: cash, debit, bank transfer, other cards.\n→ If fees rise, they can easily switch → high elasticity.\n\nMerchants face a tough choice: refusing cards can mean losing sales to all card-preferring buyers. → Their participation is relatively inelastic.\n\nThat’s why empirically \\(\\eta_b^a &gt; \\eta_s^a\\), which in the model leads to \\(a_b&lt;a_s\\).\n\nThis explains why consumers (price sensitive) pay less and evend get rewards while merchant (less elastic) pay higher fees.\n\n\n\nDiscussion\nRochet & Tirole’s key insight: - Optimal pricing structure balances participation on both sides. - Platform may subsidize one side to attract the other.\nIn traditional monopoly settings, the Lerner rule is the benchmark in industrial organization: it links market power in pricing (mark up) directly to demand elasticity.\n\\[\\frac{p - c}{p} = \\frac{1}{\\eta}\\]\nwhere \\(p = a_b + a_s\\) → price level\nIntuition: price–cost margin must equal the inverse demand elasticity.\nIn two-sided markets: - Price structure is the key! - What matters is the division of fees (who pays what), not just the total. - The monopoly platform must balance margins across both sides: \\(\\frac{a_b}{\\eta_b^{a}} = \\frac{a_s}{\\eta_s^{a}}\\) - Each side’s demand elasticity already reflects network externalities.\n- No single Lerner condition holds — instead, a balancing condition across sides emerges.\n- This explains why cardholders may receive subsidies (negative price, rewards) while merchants pay fees: the platform redistributes to maximize joint adoption.\nTension: Social vs Private Optimum\n\nPrivate platform objective: maximize profit = transaction volume × (fees – costs).\nSocial planner objective: maximize total welfare (consumer surplus + merchant surplus – costs).\nDistortion arises because platforms may overcharge one side or underprovide adoption.\n\nPolicy Implications\n\nRegulators care because fee structure affects adoption and social welfare.\nKey issues:\n\nInterchange fee caps (EU, Australia).\nPromoting access for smaller merchants.\nEncouraging innovation while avoiding excessive merchant fees."
+    "text": "Economics of Payment Platforms\n\n2 key ingredients\nNetwork externalities:\n\nMore cardholders → more valuable for merchants.\nMore merchants → more valuable for cardholders.\nMore on this in Platform part\n\nPricing structure matters more than total price:\n\nWho pays what (consumer vs merchant) influences adoption.\nA card scheme must balance both sides to achieve adoption.\n\n\n\nRochet & Tirole’s Framework\n\n\n\nRochet and Tirole (2003) introduced a fundamental model of payments which influenced the rest of the digital economy.\n\n\nEnvironment\nEconomy\n\nBuyers (cardholder)\nSellers (merchants)\nPayment card system (monopoly platform)\n\nBusiness model\n\nFees per transaction:\n\n\\(a_b\\) to buyers (cardholders)\n\n\\(a_s\\) to sellers (merchants)\n\n\nPer-transaction cost: \\(c\\).\n\nAgents\n\n\n\n\n\n\n\n\nRole\nUtility Function\nParticipation\n\n\n\n\nBuyer\n\\(u_b = (\\beta_b - a_b)\\, n_s\\)\n\\(n_b = N_b(u_b), \\quad N_b'(\\cdot) &gt; 0\\)\n\n\nSeller\n\\(u_s = (\\beta_s - a_s)\\, n_b\\)\n\\(n_s = N_s(u_s), \\quad N_s'(\\cdot) &gt; 0\\)\n\n\n\nUtilities scale with the other side’s size: acceptance/usage externality → network effect\nPlatform profit\nTransactions (simple network tech): \\(T(n_b,n_s) = n_b\\,n_s=N_b(u_b)\\,N_s(u_s)\\).\n\\[\n\\Pi(a_b,a_s) = (a_b+a_s-c)\\,T(n_b,n_s)\n\\]\n\n\nEquilibrium\nPlatform sets fees to maximizes profits\n\nStart by differentiating profit w.r.t. \\(a_b\\) (buyer fee):\n\n\\[\n\\frac{\\partial \\Pi}{\\partial a_b}\n= N_s\\Big[N_b + (a_b+a_s-c)N_b'(u_b)\\frac{\\partial u_b}{\\partial a_b}\\Big]\n\\]\nwith \\(\\frac{\\partial u_b}{\\partial a_b}=-n_s\\).\n\nSet to zero and isolate fees and costs:\n\n\\[\nN_s\\Big[N_b + (a_b+a_s-c)N_b'(u_b)(-n_s)\\Big] = 0\\\\\n\\\\\n\\rightarrow\n\\frac{1}{a_b+a_s-c} = -\\frac{N_b'(u_b)}{N_b(u_b)}\\,n_s\n\\]\n\nDefine semi-elasticity in utility space:\n\n\\[\n\\varepsilon_b^{u} = -\\frac{N_b'(u_b)}{N_b(u_b)}u_b\n\\]\nwhere: \\(u_b = (\\beta_b - a_b)\\, n_s\\)\n\\[\n\\rightarrow \\varepsilon_b^{u} = -\\frac{N_b'(u_b)\\,(\\beta_b - a_b)\\, n_s}{N_b(u_b)} \\quad \\leftrightarrow \\frac{\\varepsilon_b^{u}}{\\beta_b-a_b} = -\\frac{N_b'(u_b)}{N_b(u_b)}\\,n_s\n\\]\n\nPlug elasticity expression in previous expression:\n\n\\[\n\\boxed{\\frac{1}{a_b+a_s-c} = \\frac{\\varepsilon_b^{u}}{\\beta_b-a_b}}\n\\]\nBy symmetry for the seller fee:\n\\[\n\\boxed{\\frac{1}{a_b+a_s-c} = \\frac{\\varepsilon_s^{u}}{\\beta_s-a_s}}\n\\]\nExpress condition in terms of fee elasticities\nDefine fee elasticity:\n\\[\n\\eta_b^{a} = -\\frac{N_b’(u_b)}{N_b(u_b)}\\frac{\\partial u_b}{\\partial a_b}\\,a_b\n\\]\nSince \\(\\partial u_b/\\partial a_b = -n_s,\\) we get:\n\\[\\eta_b^{a} = \\frac{N_b’(u_b)}{N_b(u_b)}\\,n_s\\,a_b = \\frac{a_b}{\\beta_b-a_b}\\,\\varepsilon_b^{u}\n\\]\nPlug back:\n\\[\n\\boxed{a_b+a_s-c = \\frac{a_b}{\\eta_b^{a}}}\n\\]\nSimilarly:\n\\[\n\\boxed{a_b+a_s-c = \\frac{a_s}{\\eta_s^{a}}}\n\\]\n\n\nMain Result\n\nBalancing condition\n\\[\\boxed{\\frac{a_b}{\\eta_b^{a}} = \\frac{a_s}{\\eta_s^{a}}}\n\\quad\\Longleftrightarrow\\quad\n\\boxed{\\frac{\\beta_b-a_b}{\\varepsilon_b^{u}} = \\frac{\\beta_s-a_s}{\\varepsilon_s^{u}}}\\]\nIntuition\nRaising \\(a_b\\) changes\n\nProfit via markup \\(a_b + a_s - c\\)\nQuantity \\(T(n_b,n_s)\\) via adoption elasticity \\(\\varepsilon_b^{\\,u}\\) ↑ when \\(a_b\\) ↑\n\nWhich also impacts seller side since \\(\\varepsilon_s^{\\,u}\\) ↑ given that \\(n_b\\) ↓\n\nWhich in turn would again impact the buyer side \\(\\varepsilon_b^{\\,u}\\) ↑ when \\(n_s\\) ↓ → Network Effects\n\n\n\n\n→ Optimal pricing must balance those marginal trade-offs across sides.\n\n\n\nImplication of \\(\\boxed{\\frac{a_b}{\\eta_b^{a}} = \\frac{a_s}{\\eta_s^{a}}}\\)\n\nThe more price-sensitive side gets a lower (even negative) price\nThe less elastic side bears more\n\nIn payments\n\nBuyers (cardholders) usually have many alternatives: cash, debit, bank transfer, other cards.\n→ If fees rise, they can easily switch → high elasticity.\nMerchants face a tough choice: refusing cards can mean losing sales to all card-preferring buyers. → Their participation is relatively inelastic.\n\nThat’s why empirically \\(\\eta_b^a &gt; \\eta_s^a\\), which in the model leads to \\(a_b&lt;a_s\\).\n\nThis explains why consumers (price sensitive) pay less and evend get rewards while merchant (less elastic) pay higher fees.\n\n\n\n\nDiscussion\nRochet & Tirole’s key insight: - Optimal pricing structure balances participation on both sides. - Platform may subsidize one side to attract the other.\nIn traditional monopoly settings, the Lerner rule is the benchmark in industrial organization: it links market power in pricing (mark up) directly to demand elasticity.\n\\[\\frac{p - c}{p} = \\frac{1}{\\eta}\\]\nwhere \\(p = a_b + a_s\\) → price level\nIntuition: price–cost margin must equal the inverse demand elasticity.\nIn two-sided markets:\n\nPrice structure is the key!\n\nWhat matters is the division of fees (who pays what), not just the total.\n\nThe monopoly platform must balance margins across both sides: \\(\\frac{a_b}{\\eta_b^{a}} = \\frac{a_s}{\\eta_s^{a}}\\)\n\nEach side’s demand elasticity already reflects network externalities.\n\nNo single Lerner condition holds — instead, a balancing condition across sides emerges.\n\n\nThis explains why cardholders may receive subsidies (negative price, rewards) while merchants pay fees: the platform redistributes to maximize joint adoption.\n\nTension: Social vs Private Optimum\n\nPrivate platform objective: maximize profit = transaction volume × (fees – costs).\nSocial planner objective: maximize total welfare (consumer surplus + merchant surplus – costs).\nDistortion arises because platforms may overcharge one side or underprovide adoption.\n\nPolicy Implications\n\nRegulators care because fee structure affects adoption and social welfare.\nKey issues:\n\nInterchange fee caps (EU, Australia).\nPromoting access for smaller merchants.\nEncouraging innovation while avoiding excessive merchant fees."
   },
   {
     "objectID": "lectures/lecture_01/03_payment.html#payments-as-information-flows",
@@ -529,14 +550,14 @@
     "href": "lectures/lecture_01/03_payment.html#centralized-ledgers",
     "title": "Payments",
     "section": "Centralized Ledgers",
-    "text": "Centralized Ledgers\nDefinition: a single entity maintains official records of accounts and transactions.\n- Examples:\n- Commercial bank deposit ledgers\n- Central bank RTGS systems (TARGET2, Fedwire)\nAdvantages - Efficiency → one authoritative record\n- Control → enforcement of rules, compliance\n- Auditability → straightforward oversight\nPrivacy Concerns\n\nCentralized systems require identity verification (KYC/AML).\n\nEvery transaction linked to an account holder.\n\nTrade-off: anonymity lost, traceability gained.\n\nContrast:\n\nToken-based systems (cash, coins): privacy by design, no ledger.\n\nAccount-based systems (deposits, CBDCs): inherently tied to identities."
+    "text": "Centralized Ledgers\nDefinition: a single entity maintains official records of accounts and transactions.\n\nExamples:\n\nCommercial bank deposit ledgers\n\nCentral bank RTGS systems (TARGET2, Fedwire)\n\n\nAdvantages\n\nEfficiency → one authoritative record\n\nControl → enforcement of rules, compliance\n\nAuditability → straightforward oversight\n\nPrivacy Concerns\n\nCentralized systems require identity verification (KYC/AML).\n\nEvery transaction linked to an account holder.\n\nTrade-off: anonymity lost, traceability gained.\n\nContrast:\n\nToken-based systems (cash, coins): privacy by design, no ledger.\n\nAccount-based systems (deposits, CBDCs): inherently tied to identities."
   },
   {
     "objectID": "lectures/lecture_01/03_payment.html#privacy-trade-off",
     "href": "lectures/lecture_01/03_payment.html#privacy-trade-off",
     "title": "Payments",
     "section": "Privacy Trade-Off",
-    "text": "Privacy Trade-Off\n\nIndividuals: value privacy for autonomy, consumption, political activity.\n\nStates & regulators: value transparency to combat illicit finance, tax evasion.\n\nBanks & platforms: monetize data (advertising, credit scoring).\n\nMore centralization → more control and efficiency, but less privacy.\nMore privacy (cash, decentralized tokens) → harder regulation, higher risk of illicit use.\n\nCurrent Debates\nBalance privacy rights with financial integrity and security.\nCentral Bank Digital Currencies (CBDC)\n- Likely built on centralized or semi-centralized ledgers.\n- Key design question: allow anonymity like cash, or ensure full traceability?\nCryptocurrencies\n- Promise decentralization and privacy.\n- In reality: pseudonymous, not anonymous.\n- Exchanges pressured to apply KYC/AML.\nBigTech platforms\n- Centralize payment data for billions of users.\n- Raise concerns about surveillance capitalism and private concentration of financial data."
+    "text": "Privacy Trade-Off\n\nIndividuals: value privacy for autonomy, consumption, political activity.\n\nStates & regulators: value transparency to combat illicit finance, tax evasion.\n\nBanks & platforms: monetize data (advertising, credit scoring).\n\nMore centralization → more control and efficiency, but less privacy.\nMore privacy (cash, decentralized tokens) → harder regulation, higher risk of illicit use.\n\nCurrent Debates\nBalance privacy rights with financial integrity and security.\nCentral Bank Digital Currencies (CBDC)\n\nLikely built on centralized or semi-centralized ledgers.\n\nKey design question: allow anonymity like cash, or ensure full traceability?\n\nCryptocurrencies\n\nPromise decentralization and privacy.\n\nIn reality: pseudonymous, not anonymous.\n\nExchanges pressured to apply KYC/AML.\n\nBigTech platforms\n\nCentralize payment data for billions of users.\n\nRaise concerns about surveillance capitalism and private concentration of financial data."
   },
   {
     "objectID": "lectures/lecture_02/lecture_02.html",
@@ -549,6 +570,20 @@
     "objectID": "lectures/lecture_02/lecture_02.html#deposits",
     "href": "lectures/lecture_02/lecture_02.html#deposits",
     "title": "Lecture 02",
+    "section": "",
+    "text": "Page: HTML\nSlides: Reveal.js PDF"
+  },
+  {
+    "objectID": "lectures/lecture_03/lecture_03.html",
+    "href": "lectures/lecture_03/lecture_03.html",
+    "title": "Lecture 03",
+    "section": "",
+    "text": "Page: HTML\nSlides: Reveal.js PDF"
+  },
+  {
+    "objectID": "lectures/lecture_03/lecture_03.html#credit",
+    "href": "lectures/lecture_03/lecture_03.html#credit",
+    "title": "Lecture 03",
     "section": "",
     "text": "Page: HTML\nSlides: Reveal.js PDF"
   },
@@ -655,41 +690,118 @@
     "href": "lectures/lecture_03/05_credit.html#discussion-2",
     "title": "Credit",
     "section": "Discussion",
-    "text": "Discussion\n\nPaper Impact\n\nA foundational contribution to the modern theory of financial intermediation.\nProvided a microeconomic justification for why banks and markets coexist:\n\nBanks = delegated monitors under moral hazard.\nMarkets = arm’s-length financiers when incentives are self-enforcing.\n\n\nThe paper reframed finance as a problem of information governance, not just capital allocation.\nConceptual Breakthroughs\n\nIntroduced the notion of pledgeable income: &gt; Only the part of project returns consistent with incentives can be pledged to investors.\nExplained the hierarchy of finance:\n\nInternal finance (self-enforcing),\nIntermediated finance (requires monitoring),\nMarket finance (transparent, large-scale).\n\nLinked firm size, transparency, and financing mode:\n\nSmall, opaque → bank-dependent.\n\nLarge, visible → market-based.\n\n\n\n\nMonitoring as Information Production\n\nIn Holmström & Tirole (1997), banks monitor borrowers to prevent shirking.\n\nMonitoring does not only enforce effort — it also generates information and data about:\n\nborrower performance,\nbusiness viability,\nrepayment behavior.\n\n\nIn modern terms: monitoring = data production about creditworthiness and operations.\n\n\nThe Private Nature of Monitoring Data\n\nThe information a bank collects through monitoring is proprietary.\n\nIt represents private capital in the form of data:\n\ncostly to produce,\n\nand difficult for competitors to replicate.\n\nThis informational advantage can lock customers in:\n\nBorrowers may stay with their bank because the bank knows them best.\n\nCompeting lenders cannot easily assess risk without similar data.\n\n\n→ Private information → informational rents → market power.\n\n\nPolicy Implication: Open Data and Interoperability\n\nFrom a social efficiency perspective, data about borrower quality is non-rival —\nonce produced, it could improve credit allocation if shared.\nHowever, private ownership of monitoring data leads to under-sharing and barriers to entry.\n\nThis motivates open data policies such as:\n\nOpen Banking / Open Finance:\nregulated data-sharing between financial institutions to enable competition and switching.\nStandardized APIs and interoperability frameworks:\nreduce information asymmetry while preserving privacy and security.\n\n\n\nEconomic Trade-Off\n\n Open Data Policies \n\n\n\n\n\n\n\n\nBenefit\nCost\n\n\n\n\nReduces switching costs and enhances competition\nWeakens private incentives to monitor and collect data\n\n\nImproves market contestability\nUnravelling: may reduce banks’ willingness to lend to no-data borrowers\n\n\n\nThe policy challenge:\nBalance the benefits of open access to data with the need to preserve monitoring incentives that sustain credit to informationally intensive sectors.\n\n\nModern Relevance\nAI and machine learning\nTechnologies to detect patterns of shirking or misuse of funds (reduce moral hazard).\nAs such they can reduce the cost of monitoring (\\(K\\)) thereby expanding further access to monitored credit\nData-driven economy\nMonitoring rents are becoming data rents.\n\nFintechs and BigTechs enter credit markets not through capital, but through informational advantage.\n\nOpen banking and data portability are policy tools designed to:\n\nlower barriers to entry,\n\nprevent informational monopolies,\n\nand reintroduce competition in the monitoring layer of finance.\n\n\nThe underlying principle remains Holmström–Tirole’s insight:\n\nInformation is costly to produce and privately valuable\nPublic policy must decide when to privatize it and when to share it."
+    "text": "Discussion\n\nPaper Impact\n\nA foundational contribution to the modern theory of financial intermediation.\nProvided a microeconomic justification for why banks and markets coexist:\n\nBanks = delegated monitors under moral hazard.\nMarkets = arm’s-length financiers when incentives are self-enforcing.\n\n\nThe paper reframed finance as a problem of information governance, not just capital allocation.\nConceptual Breakthroughs\n\nIntroduced the notion of pledgeable income: &gt; Only the part of project returns consistent with incentives can be pledged to investors.\nExplained the hierarchy of finance:\n\nInternal finance (self-enforcing),\nIntermediated finance (requires monitoring),\nMarket finance (transparent, large-scale).\n\nLinked firm size, transparency, and financing mode:\n\nSmall, opaque → bank-dependent.\n\nLarge, visible → market-based.\n\n\n\n\nMonitoring as Information Production\n\nIn Holmström & Tirole (1997), banks monitor borrowers to prevent shirking.\n\nMonitoring does not only enforce effort — it also generates information and data about:\n\nborrower performance,\nbusiness viability,\nrepayment behavior.\n\n\nIn modern terms: monitoring = data production about creditworthiness and operations.\n\n\nThe Private Nature of Monitoring Data\n\nThe information a bank collects through monitoring is proprietary.\n\nIt represents private capital in the form of data:\n\ncostly to produce,\n\nand difficult for competitors to replicate.\n\nThis informational advantage can lock customers in:\n\nBorrowers may stay with their bank because the bank knows them best.\n\nCompeting lenders cannot easily assess risk without similar data.\n\n\n→ Private information → informational rents → market power.\n\n\nPolicy Implication: Open Data and Interoperability\n\nFrom a social efficiency perspective, data about borrower quality is non-rival: once produced, it could improve credit allocation if shared.\nHowever, private ownership of monitoring data leads to under-sharing and barriers to entry.\n\nThis motivates open data policies such as:\n\nOpen Banking / Open Finance:\nregulated data-sharing between financial institutions to enable competition and switching.\nStandardized APIs and interoperability frameworks:\nreduce information asymmetry while preserving privacy and security.\n\n\n\nEconomic Trade-Off\n\n Open Data Policies \n\n\n\n\n\n\n\n\nBenefit\nCost\n\n\n\n\nReduces switching costs and enhances competition\nWeakens private incentives to monitor and collect data\n\n\nImproves market contestability\nUnravelling: may reduce banks’ willingness to lend to no-data borrowers\n\n\n\nThe policy challenge:\nBalance the benefits of open access to data with the need to preserve monitoring incentives that sustain credit to informationally intensive sectors.\n\n\nModern Relevance\nAI and machine learning\nTechnologies to detect patterns of shirking or misuse of funds (reduce moral hazard).\nAs such they can reduce the cost of monitoring (\\(K\\)) thereby expanding further access to monitored credit\nData-driven economy\nMonitoring rents are becoming data rents.\n\nFintechs and BigTechs enter credit markets not through capital, but through informational advantage.\n\nOpen banking and data portability are policy tools designed to:\n\nlower barriers to entry,\n\nprevent informational monopolies,\n\nand reintroduce competition in the monitoring layer of finance.\n\n\nThe underlying principle remains Holmström–Tirole’s insight:\n\nInformation is costly to produce and privately valuable\nPublic policy must decide when to privatize it and when to share it."
   },
   {
-    "objectID": "lectures/lecture_03/lecture_03.html",
-    "href": "lectures/lecture_03/lecture_03.html",
-    "title": "Lecture 03",
+    "objectID": "lectures/lecture_04/06_policy.html#why-do-banks-need-to-be-regulated",
+    "href": "lectures/lecture_04/06_policy.html#why-do-banks-need-to-be-regulated",
+    "title": "Policy & Regulation",
+    "section": "Why do banks need to be regulated?",
+    "text": "Why do banks need to be regulated?"
+  },
+  {
+    "objectID": "lectures/lecture_04/06_policy.html#what-is-the-difference-between-regulation-and-policy",
+    "href": "lectures/lecture_04/06_policy.html#what-is-the-difference-between-regulation-and-policy",
+    "title": "Policy & Regulation",
+    "section": "What is the difference between regulation and policy?",
+    "text": "What is the difference between regulation and policy?"
+  },
+  {
+    "objectID": "lectures/lecture_04/06_policy.html#what-is-a-central-bank",
+    "href": "lectures/lecture_04/06_policy.html#what-is-a-central-bank",
+    "title": "Policy & Regulation",
+    "section": "What is a central bank?",
+    "text": "What is a central bank?"
+  },
+  {
+    "objectID": "lectures/lecture_04/06_policy.html#what-are-the-main-challenges-of-policy-and-regulation",
+    "href": "lectures/lecture_04/06_policy.html#what-are-the-main-challenges-of-policy-and-regulation",
+    "title": "Policy & Regulation",
+    "section": "What are the main challenges of policy and regulation?",
+    "text": "What are the main challenges of policy and regulation?"
+  },
+  {
+    "objectID": "lectures/lecture_04/06_policy.html#why-regulate",
+    "href": "lectures/lecture_04/06_policy.html#why-regulate",
+    "title": "Policy & Regulation",
+    "section": "Why Regulate?",
+    "text": "Why Regulate?\nBanks are not just private firms; they perform core functions for the economy.\nRegulation ensures that these functions serve the public interest rather than amplifying private risks.\n\nMain Reasons for Regulation\n\nMarket failures\nPublic good role of banking\nSystemic and economic externalities\nEconomic integrity\n\n\nMarket Failures\nInformation asymmetry - borrowers know more about their projects than lenders\n→ credit rationing and mispricing of risk.\n\nMoral hazard - deposit insurance and limited liability may encourage excessive risk-taking.\nAdverse selection - in opaque markets, safe borrowers exit, risky ones remain.\n\n\n↓  Unregulated markets may misallocate credit and mismanage real risk.\n\n\n\nPublic Good Role of Banking\nMoney - banks create and distribute the dominant form of money (deposits).\nPayments - provide the backbone of the economy’s transaction infrastructure.\nCredit - channel savings to productive investment.\nTrust - confidence in banks sustains financial and economic activity.\n\n↓  These functions are systemic public goods — their breakdown affects all sectors.\n\n\n\nSystemic Risk and Economic Externalities\nFinancial Fragility - banks fund long-term assets with short-term deposits\n→ vulnerable to runs (Diamond–Dybvig).\nInterconnectedness & Contagion - banks are linked through interbank lending, derivatives, and payment systems.\n→ distress in one institution can propagate through the network (e.g. Lehman Brothers 2008).\nReal-Economy Spillovers - financial distress triggers layoffs, investment cuts, and lower growth.\n→ bank distress reduces lending to firms and households\n→ credit crunch deepens recessions.\n\n↓  Individual bank failures can create macro-financial feedback loops, justifying prudential and macroprudential regulation.\n\n\n\nEconomic Integrity\nGatekeepers - banks serve as entry points to the financial system and monitor the legitimacy of transactions.\n→ controls aim to stop money laundering, terrorist financing, fraud, corruption, and sanctions evasion.\nSystem legitimacy - strong integrity frameworks preserve the credibility and reputation of the financial system.\nGlobal coordination - international AML/CFT standards (e.g. FATF) ensure consistent enforcement across jurisdictions.\n\n↓  Ensuring integrity means preserving public trust in finance, without which monetary stability and market efficiency cannot be sustained."
+  },
+  {
+    "objectID": "lectures/lecture_04/06_policy.html#policy-vs-regulation",
+    "href": "lectures/lecture_04/06_policy.html#policy-vs-regulation",
+    "title": "Policy & Regulation",
+    "section": "Policy vs Regulation",
+    "text": "Policy vs Regulation\nPublic authorities shape the financial system through two complementary layers of action:\n\nPolicy defines the vision and objectives\n\nEx: maintain financial stability, foster competition, or prevent financial crime\n\nRegulation translates these objectives into concrete, enforceable rules and mechanisms\n\nEx: capital buffers, disclosure duties, or KYC requirements\n\n\n Goal: ensure that the financial system serves both economic efficiency and public trust.\n\n\n\n\n\n\n\n\nAspect\nRegulation\nPolicy\n\n\n\n\nDefinition\nBinding rules that specify what financial institutions must or must not do.\nStrategic framework or objectives guiding desired economic or social outcomes.\n\n\nNature\nLegal and enforceable (laws, directives, supervisory rules).\nStrategic and goal-oriented (principles, objectives, priorities).\n\n\nIssuer\nRegulators and supervisors (central banks, authorities).\nGovernments, central banks, international institutions.\n\n\nExample\nBasel III capital requirements, AML obligations.\nFinancial stability policy, innovation policy, inclusion policy.\n\n\nObjective\nEnsure compliance and sound practices.\nDefine desired outcomes and balance trade-offs."
+  },
+  {
+    "objectID": "lectures/lecture_04/06_policy.html#prudential-regulation",
+    "href": "lectures/lecture_04/06_policy.html#prudential-regulation",
+    "title": "Policy & Regulation",
+    "section": "1. Prudential Regulation",
+    "text": "1. Prudential Regulation\n\n1.1 Basel Framework (Global Standard)\nInternational banking regulation is built on a common prudential standard developed by the Basel Committee on Banking Supervision (BCBS).\nThe Basel framework sets the rules that determine how much capital and liquidity banks must hold to remain safe and resilient.\nIt is implemented through national laws — such as CRR/CRD (Capital Requirement Regulation and Directive) in the EU.\n\nCore Elements\n\nCapital Requirements - setting of\n\nMinimum Common Equity Tier 1 (CET1): 4.5% of risk-weighted assets.\n\nTotal capital ratio: 8% plus applicable buffers.\n\nLeverage Ratio - caps on total assets relative to capital, limiting excessive balance-sheet expansion.\nLiquidity Ratios - setting of\n\nLiquidity Coverage Ratio (LCR): enough high-quality liquid assets to survive a 30-day stress.\n\nNet Stable Funding Ratio (NSFR): ensures stable long-term funding over a 1-year horizon.\n\n\n\n\nMacro-Prudential Buffers\nIn addition to minimum capital ratios, banks must hold extra capital buffers to absorb losses and smooth the financial cycle.\nThese buffers also come from the Basel III framework and are implemented in the EU through the Capital Requirements Directive (CRD).\nMain types:\n\nCapital Conservation Buffer – baseline cushion (2.5% CET1) to absorb unexpected losses.\n\nCountercyclical Buffer – built up in good times, released in downturns to support lending.\n\nSystemic Risk Buffers – higher requirements for systemically important or structurally risky banks (G-SIBs, O-SIIs).\n\nWho sets them?\nNational or EU supervisory authorities (e.g. ECB/SSM, ESRB) decide when and how buffers apply.\n\n\n\n1.2 Resolution & Deposit Protection\nBank Recovery and Resolution Directive (BRRD, EU):\nCore framework for managing failing banks without taxpayer bailouts.\n\nRequires recovery and resolution plans (“living wills”) to ensure orderly wind-down.\n\nIntroduces the bail-in tool: shareholders and creditors bear losses before public funds are used.\n\nEstablishes the Single Resolution Mechanism (SRM) with a central Single Resolution Board (SRB) in the Eurozone.\n\nDeposit Guarantee Schemes (DGS):\nProtection for retail deposits:\n\nIn EU up to €100,000 per depositor per bank\n\nHarmonized across member states\nFunded by the banking sector, not taxpayers since 2014\n\n\nAim to preserve confidence and prevent deposit runs during crises."
+  },
+  {
+    "objectID": "lectures/lecture_04/06_policy.html#conduct-and-consumer-protection",
+    "href": "lectures/lecture_04/06_policy.html#conduct-and-consumer-protection",
+    "title": "Policy & Regulation",
+    "section": "2. Conduct and Consumer Protection",
+    "text": "2. Conduct and Consumer Protection\nWhile prudential rules safeguard the soundness of banks, conduct regulation protects the users of financial services — ensuring that markets operate fairly and customers are treated honestly.\nThese rules promote transparency, accountability, and trust in the relationship between banks and their clients.\nMain Frameworks\n\nMiFID II (EU): sets standards for investor protection, product governance, and trading transparency.\n\nRetail Banking Directives (EU): govern disclosure, fair treatment, and mortgage credit practices."
+  },
+  {
+    "objectID": "lectures/lecture_04/06_policy.html#economic-integrity-regulation",
+    "href": "lectures/lecture_04/06_policy.html#economic-integrity-regulation",
+    "title": "Policy & Regulation",
+    "section": "3. Economic Integrity Regulation",
+    "text": "3. Economic Integrity Regulation\nBeyond stability and consumer protection, financial regulation also safeguards the integrity of the financial system.\nBanks and market participants must ensure that finance is not misused for illicit purposes such as money laundering, terrorist financing, or market manipulation.\nIntegrity rules preserve trust, reputation, and the legitimacy of the financial system as a whole.\n\n3.1 AML/CFT Frameworks\nThe Anti-Money Laundering (AML) and Countering the Financing of Terrorism (CFT) frameworks form the backbone of economic integrity regulation.\nThey aim to prevent the financial system from being used to disguise criminal proceeds or fund illicit activities.\n\nMain Frameworks\n\nEU AML Directives (currently 6th AMLD): harmonize national laws on customer due diligence, reporting, and beneficial ownership transparency.\nFATF Standards: global benchmark setting 40 Recommendations for AML/CFT policies adopted by most jurisdictions.\n\n\n\nCore Requirements\n\nKnow-Your-Customer (KYC): verify customer identity before entering a relationship.\nCustomer Due Diligence (CDD): assess and monitor risks associated with clients and transactions.\nSuspicious Transaction Reports (STRs): report unusual or suspicious activities to national Financial Intelligence Units (FIUs).\nBeneficial Ownership Registries: identify the real individuals behind corporate entities.\n\n\n\n\n3.2 Sanctions Compliance\nSanctions regimes are a key component of economic integrity and international security policy.\nThey restrict access to the financial system for blacklisted individuals, entities, or countries involved in terrorism, corruption, or breaches of international law.\n\nMain Frameworks\n\nUnited Nations (UN) – global sanctions adopted by member states.\nEuropean Union (EU) – common sanctions policy across all member countries.\nUnited States (OFAC) – extensive financial and trade sanctions enforced worldwide through the Office of Foreign Assets Control.\n\n\n\nImplementation in Banking\n\nBanks must screen clients and transactions against official sanctions lists.\n\nBreaches can lead to severe fines and reputational damage.\n\nCompliance requires ongoing monitoring, reporting, and internal controls.\n\n\n\n\n3.3 Market Integrity and Transparency\nMarket integrity rules ensure that financial markets remain fair, transparent, and free from manipulation.\nThey protect investors, support price discovery, and sustain confidence in the financial system.\n\nMain Framework\n\nMarket Abuse Regulation (MAR, EU):\n\nProhibits insider trading, unlawful disclosure of information, and market manipulation.\n\nApplies to all instruments traded on EU markets, including derivatives.\n\n\n\n\nCore Principles\n\nTransparency: timely disclosure of relevant information.\nFairness: equal access to market information and trading conditions.\nSurveillance: continuous monitoring to detect abusive behavior."
+  },
+  {
+    "objectID": "lectures/lecture_04/06_policy.html#regulatory-landscape-in-europe",
+    "href": "lectures/lecture_04/06_policy.html#regulatory-landscape-in-europe",
+    "title": "Policy & Regulation",
+    "section": "1. Regulatory Landscape in Europe",
+    "text": "1. Regulatory Landscape in Europe\n\nKey Institutions\nThe European regulatory architecture rests on a multi-level framework that combines EU-wide coordination with national implementation.\nEach institution plays a distinct role in maintaining stability, consistency, and oversight across the banking system.\nEuropean Central Bank (ECB):\n\nConducts monetary policy\nEnsures banking supervision through the Single Supervisory Mechanism (SSM).\n\nDirectly supervises the largest and most significant Eurozone banks.\n\n\nEuropean Banking Authority (EBA):\n\nPromotes regulatory harmonization across the EU through the Single Rulebook.\n\nConducts EU-wide stress tests and develops technical standards.\n\nEuropean Securities and Markets Authority (ESMA):\n\nRegulates capital markets, securities trading, and market infrastructure (MiFID II/MiFIR, MAR, EMIR).\n\nEnsures investor protection and consistent application of market rules across the EU.\n\nEuropean Systemic Risk Board (ESRB):\n\nOversees macroprudential risks and systemic vulnerabilities in the EU financial system.\n\nIssues warnings and recommendations to national authorities.\n\nEuropean Anti-Money Laundering Authority (AMLA): (under establishment)\n\nWill oversee AML/CFT supervision of high-risk institutions and coordinate national FIUs.\n\nAims to ensure consistent enforcement of AML rules across the EU.\n\nNational Competent Authorities (NCAs):\n\nImplement EU rules and supervise smaller domestic institutions under ECB oversight.\n\nAdapt and enforce regulation at the national level."
+  },
+  {
+    "objectID": "lectures/lecture_04/06_policy.html#central-banking-and-supervision",
+    "href": "lectures/lecture_04/06_policy.html#central-banking-and-supervision",
+    "title": "Policy & Regulation",
+    "section": "2. Central Banking and Supervision",
+    "text": "2. Central Banking and Supervision\nCentral banks stand at the core of modern financial governance.\nThey are not only responsible for monetary policy, but also for financial stability, crisis management, and — increasingly — regulatory supervision.\nTheir actions shape the overall stability, efficiency, and integrity of the financial system.\n\nCore Roles\nCentral banks fulfill several critical functions that go far beyond setting interest rates:\n\nGovernment’s Bank:\n\nManages public debt, issues government securities, and holds the state’s accounts and reserves.\n\nActs as fiscal agent for the Treasury.\n\nBanks’ Bank:\n\nProvides liquidity to commercial banks through lending facilities and lender-of-last-resort operations.\n\nEnsures the stability of the banking system during crises.\n\nMoney Supply and Monetary Policy:\n\nControls the quantity and price of base money (reserves and cash).\n\nUses policy tools to steer short-term interest rates and influence inflation and credit conditions.\n\nPayments and Infrastructure:\n\nOversees and operates payment and settlement systems to guarantee their safety and reliability.\n\nExample: TARGET2 in the Eurozone, Fedwire in the US.\n\nIntegrity and Stability:\n\nMonitors the soundness of the financial system and helps prevent its misuse for illicit activities.\n\nCoordinates with supervisors and FIUs on AML/CFT matters.\n\n\n\n\nPrinciples of Central Bank Design\nA well-designed central bank must balance independence with accountability to maintain legitimacy and effectiveness.\n\nIndependence\n\nShields monetary policy from short-term political pressures.\n\nEssential for price stability and the credibility of commitments.\n\n\nIn the EU: the Treaty on the Functioning of the European Union (TFEU) guarantees the ECB’s institutional and operational independence — no government may seek to influence its decisions (Article 130).\n\n\n\nAccountability\n\nCentral banks must explain and justify decisions to parliaments, governments, and the public.\n\nStrengthens democratic oversight. &gt; In the EU: the ECB reports regularly to the European Parliament, including quarterly hearings and publication of its Annual Report submitted to both Parliament and the Council.\n\n\n\nTransparency\n\nRegular communication through minutes, forecasts, and forward guidance.\n\nReduces uncertainty and anchors market expectations.\n\n\nIn the EU: the ECB publishes detailed accounts of monetary policy meetings, press conferences after each Governing Council decision, and forward-looking projections to clarify its policy stance.\n\n\n\n\nMonetary Policy Framework\nMonetary policy provides the set of tools and operations through which central banks influence liquidity, interest rates, and credit conditions in the economy.\nIts design evolves with crises, financial innovation and macroeconomic conditions.\n\nConventional Monetary Policy\nConventional instruments operate through short-term interest rates and liquidity management.\nThey are used in normal times to steer inflation and stabilize the business cycle.\nMain tools:\n\nOpen Market Operations (OMOs)\n\nBuying or selling government securities to influence short-term interest rates and bank reserves.\n\nExample: the ECB’s Main Refinancing Operations (MROs) and Long-Term Refinancing Operations (LTROs).\n\nStanding Facilities\n\nLending Facility - banks borrow overnight at a penalty rate.\n\nDeposit Facility - banks earn interest on excess reserves, setting a floor for market rates\n\nReserve Requirements\n\nMinimum reserves that banks must hold with the central bank; affect money market liquidity.\n\n\n\n\nNon-Conventional Monetary Policy\nWhen conventional tools reach their limits — notably at the zero lower bound on interest rates — central banks resort to non-conventional measures to maintain stability and support economic activity.\nKey instruments\n\nForward Guidance\n\nCommunication strategy that commits to setting interest rates for a defined period.\n\nShapes market expectations and reduces uncertainty.\n\nExample: ECB guidance post-2013 and during the COVID-19 pandemic.\n\nQuantitative Easing (QE)\n\nLarge-scale purchases of government or private securities to inject liquidity and lower long-term interest rates.\n\nExample: ECB’s Asset Purchase Programme (APP) and Pandemic Emergency Purchase Programme (PEPP).\n\nTargeted Lending (TLTROs)\n\nLong-term loans to banks at favorable rates, conditional on lending to the real economy.\n\nSupports credit flow to households and firms.\n\nNegative Interest Rates\n\nImposing a small cost on excess reserves held by banks to encourage lending.\n\nExample: ECB deposit rate below 0% between 2014–2022.\n\n\n\n\nPolicy Objectives\nAcross both conventional and non-conventional tools, the central goals remain:\n\nPrice Stability: maintaining inflation close to target (≈2% in the Eurozone).\n\nFinancial Stability: preventing credit bubbles and ensuring liquidity in stress periods.\n\nSustainable Growth: supporting economic recovery without compromising long-term stability.\n\n\n\n\nMonetary vs Fiscal Policy\nMonetary and fiscal authorities share overlapping goals but rely on different instruments and time horizons.\n\nFiscal Policy uses spending and taxation to influence demand and redistribute resources.\nMonetary Policy uses interest rates and liquidity to stabilize prices and the credit cycle.\n\nFundamental Tension arises when governments pressure central banks to keep rates low to reduce debt costs.\n- Leads to inflationary risks and undermines credibility.\n\n↓Central bank independence is crucial to prevent fiscal dominance and preserve long-term stability."
+  },
+  {
+    "objectID": "lectures/lecture_04/06_policy.html#new-frontiers",
+    "href": "lectures/lecture_04/06_policy.html#new-frontiers",
+    "title": "Policy & Regulation",
+    "section": "1. New Frontiers",
+    "text": "1. New Frontiers\nThe financial system is evolving rapidly under the influence of technology, data, and sustainability concerns.\nThese developments challenge traditional regulatory boundaries and call for new frameworks to ensure stability, fairness, and resilience.\nThe new frontiers of regulation address three major transitions: digitalization, cyber resilience, and climate sustainability.\n\nFintech & Digital Finance\nInnovation is reshaping how financial services are delivered and how risks emerge.\nRegulation aims to foster innovation without undermining financial stability or consumer protection.\nCrypto-assets and tokenization:\n- The EU’s Markets in Crypto-Assets Regulation (MiCA) provides a harmonized framework for crypto-asset issuance, trading, and service providers.\n- Covers stablecoins, utility tokens, and crypto-asset platforms.\nOpen Banking and Data Sharing:\n- PSD2 (Payment Services Directive 2) requires banks to open customer data (with consent) to licensed third parties via APIs.\n- Encourages competition and innovation in payments and financial services.\nNew Entrants:\n- Licensing of neobanks, payment institutions, and BigTechs entering finance.\n- Raises questions about level playing fields, data concentration, and cross-sector oversight.\n\n\nOperational Resilience and Cyber Risk\nAs finance becomes more digital and interconnected, technological failures and cyberattacks represent growing threats to financial stability.\nEU’s Digital Operational Resilience Act (DORA):\n- Establishes a unified framework for managing ICT and cyber risks across all financial entities.\n- Covers incident reporting, digital continuity, and oversight of third-party service providers (e.g., cloud computing).\n\n\nClimate and ESG Risks\nSustainability concerns are reshaping financial regulation as climate change introduces new forms of systemic risk and market disruption.\nEU Green Taxonomy:\n- Defines which economic activities qualify as environmentally sustainable to guide investment and disclosure.\nDisclosure and Reporting:\n- The Sustainable Finance Disclosure Regulation (SFDR) and Corporate Sustainability Reporting Directive (CSRD) mandate transparency on ESG risks and impacts.\nClimate Stress Testing:\n- Central banks and supervisors (e.g., ECB, BoE, NGFS) test banks’ exposure to physical and transition risks.\n- Encourages integration of climate considerations into risk management and capital planning."
+  },
+  {
+    "objectID": "lectures/lecture_04/06_policy.html#policy-trade-offs",
+    "href": "lectures/lecture_04/06_policy.html#policy-trade-offs",
+    "title": "Policy & Regulation",
+    "section": "2. Policy Trade-offs",
+    "text": "2. Policy Trade-offs\nFinancial regulation is about managing trade-offs between competing public objectives.\nNo single policy goal — stability, innovation, integrity, or inclusion — can be achieved in isolation.\nEffective governance requires regulators to balance risks and benefits across these dimensions, adapting rules as technology and markets evolve.\n\nStability vs Innovation\n\nStrong prudential and conduct rules protect the system from excessive risk-taking.\n\nYet, overly restrictive regulation may discourage experimentation and slow financial innovation.\n\nExample: strict capital rules can limit bank investment in fintech partnerships or new payment solutions.\n→ Challenge: support innovation while preserving financial stability.\n\n\n\nIntegrity vs Inclusion\n\nAML/CFT rules safeguard economic integrity and prevent illicit finance.\n\nBut strict compliance can lead to de-risking — banks withdrawing from high-risk regions or clients, reducing access to finance.\n\nParticularly affects small remittance providers and emerging economies.\n→ Challenge: fight financial crime without excluding legitimate users from the system.\n\n\n\nNational vs Supranational Oversight\n\nIn the EU, financial supervision is shared between national authorities and EU institutions (ECB, EBA, ESMA, AMLA).\n\nCoordination ensures consistency but can also slow decision-making and create accountability gaps.\n→ Challenge: align diverse national interests under a unified European framework.\n\n\n\nPrivacy vs Security\n\nData-sharing and surveillance are essential for detecting financial crime and systemic risks.\n\nYet they can conflict with data protection and individual privacy (e.g., GDPR constraints vs AML monitoring).\n→ Challenge: find the right balance between public safety and fundamental rights."
+  },
+  {
+    "objectID": "lectures/lecture_04/lecture_04.html",
+    "href": "lectures/lecture_04/lecture_04.html",
+    "title": "Lecture 04",
     "section": "",
     "text": "Page: HTML\nSlides: Reveal.js PDF"
   },
   {
-    "objectID": "lectures/lecture_03/lecture_03.html#credit",
-    "href": "lectures/lecture_03/lecture_03.html#credit",
-    "title": "Lecture 03",
+    "objectID": "lectures/lecture_04/lecture_04.html#policy",
+    "href": "lectures/lecture_04/lecture_04.html#policy",
+    "title": "Lecture 04",
     "section": "",
     "text": "Page: HTML\nSlides: Reveal.js PDF"
   },
   {
-    "objectID": "lectures/lecture_01/references_money_payment.html",
-    "href": "lectures/lecture_01/references_money_payment.html",
-    "title": "Modern Banking and Financial Technology",
+    "objectID": "lectures/lecture_04/lecture_04.html#policy-regulation",
+    "href": "lectures/lecture_04/lecture_04.html#policy-regulation",
+    "title": "Lecture 04",
     "section": "",
-    "text": "Cecchetti, S. G., & Schoenholtz, K. L. (2017). Money, banking, and financial markets (5th ed.). New York, NY: McGraw-Hill Education.\nFreixas, X., & Rochet, J.-C. (2008). Microeconomics of banking (3rd ed.). Cambridge, MA: MIT Press.\nGraeber, D. (2011). Debt: The first 5,000 years. Brooklyn, NY: Melville House.\nKocherlakota, N. R. (1998). Money is memory. Journal of Economic Theory, 81(2), 232–251.\nLagos, R., & Wright, R. (2005). A unified framework for monetary theory and policy analysis. Journal of Political Economy, 113(3), 463–484.\nMerton, R. C. (1993). Operation and regulation in financial intermediation: A functional perspective. In P. Englund (Ed.), Operation and regulation of financial markets (pp. 17–67). Stockholm: The Economic Council.\nNosal, E., & Rocheteau, G. (2011). Money, payments, and liquidity. Cambridge, MA: MIT Press. Rochet, J.-C., & Tirole, J. (2003). Platform competition in two-sided markets. Journal of the European Economic Association, 1(4), 990–1029."
-  },
-  {
-    "objectID": "lectures/lecture_02/references_deposit.html",
-    "href": "lectures/lecture_02/references_deposit.html",
-    "title": "Modern Banking and Financial Technology",
-    "section": "",
-    "text": "Bernanke, B. S., & Blinder, A. S. (1992). The federal funds rate and the channels of monetary transmission. American Economic Review, 82(4), 901–921.\nBIS (2022). Annual Economic Report 2022: Monetary and financial stability in the digital age. (deposits as stable, low-cost funding).\nCalomiris, C. W., & Gorton, G. (1991). The origins of banking panics. In Financial Markets and Financial Crises. University of Chicago Press.\nDiamond, D. W., & Dybvig, P. H. (1983). Bank runs, deposit insurance, and liquidity. Journal of Political Economy, 91(3), 401–419.\nECB (2023). The role of deposits in bank funding. Economic Bulletin, Issue 5/2023. (deposit share in euro area bank funding ~55%).\nECB SDW (2023). Monetary aggregates (M3 composition: ~85% deposits).\nFederal Reserve Board (2023). Review of the Federal Reserve’s Supervision and Regulation of Silicon Valley Bank.\nGatev, E., & Strahan, P. (2006). Banks’ advantage in hedging liquidity risk. Journal of Finance, 61(2), 867–892.\nHuang, R., & Ratnovski, L. (2011). The dark side of bank wholesale funding. Journal of Financial Intermediation, 20(2), 248–263.\nShin, H. S. (2009). Reflections on Northern Rock. Journal of Economic Perspectives, 23(1), 101–119."
-  },
-  {
-    "objectID": "lectures/lecture_03/references_credit.html",
-    "href": "lectures/lecture_03/references_credit.html",
-    "title": "Modern Banking and Financial Technology",
-    "section": "",
-    "text": "Akerlof, G. A. (1970). The market for “lemons”: Quality uncertainty and the market mechanism. Quarterly Journal of Economics, 84(3), 488–500.\nGale, D., & Hellwig, M. (1985). Incentive-compatible debt contracts: The one-period problem. Review of Economic Studies, 52(4), 647–663.\nHolmström, B., & Tirole, J. (1997). Financial intermediation, loanable funds, and the real sector. Quarterly Journal of Economics, 112(3), 663–691.\nStiglitz, J. E., & Weiss, A. (1981). Credit rationing in markets with imperfect information. American Economic Review, 71(3), 393–410.\nTirole, J. (2006). The theory of corporate finance. Princeton University Press.\nTirole, J. (2011). Illiquidity and all its friends. Journal of Economic Literature, 49(2), 287–325.\nTownsend, R. M. (1979). Optimal contracts and competitive markets with costly state verification. Journal of Economic Theory, 21(2), 265–293."
+    "text": "Page: HTML\nSlides: Reveal.js PDF"
   }
 ]

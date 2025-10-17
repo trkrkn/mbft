@@ -142,7 +142,10 @@ window.Quarto = {
     <a class="dropdown-item" href="../../lectures/lecture_02/lecture_02.html">
  <span class="dropdown-text">Lecture 02 - Modern Banking pt.&nbsp;2</span></a>
   </li>  
-        <li class="dropdown-header">Lecture 03 - Modern Banking pt.&nbsp;3</li>
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_03/lecture_03.html">
+ <span class="dropdown-text">Lecture 03 - Modern Banking pt.&nbsp;3</span></a>
+  </li>  
         <li class="dropdown-header">Lecture 04 - Modern Banking pt.&nbsp;4</li>
         <li class="dropdown-header">Lecture 05 - Modern Banking pt.&nbsp;5</li>
         <li class="dropdown-header">Lecture 06 - Fintech</li>
@@ -153,6 +156,10 @@ window.Quarto = {
         <li class="dropdown-header">Lecture 11 - Crypto pt.&nbsp;2</li>
     </ul>
   </li>
+  <li class="nav-item">
+    <a class="nav-link" href="https://app.alldayta.com/katholieke-universiteit-leuven/mbft"> 
+<span class="menu-text">All Day TA (<strong>new</strong>)</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -347,8 +354,18 @@ window.Quarto = {
 <h1>2. A Model of Deposits</h1>
 <p><strong>Diamond and Dybvig (1983)</strong> introduced a simple model of deposit contracts. &gt;10k citations; foundation for <strong>Nobel Prize (2022)</strong> in part (Diamond, Dybvig, Bernanke).</p>
 <p>The model explains <strong>why banks exist</strong> and <strong>why they are fragile</strong>.</p>
-<p><strong>Key insight</strong> - <code>incomplete information</code>: Because depositors don’t know when they’ll need money, banks provide an insurance: anyone can withdraw on demand. - Drawback: if depositors expect others to withdraw, they will rush to withdraw too → a <strong>self-fulfilling bank run</strong>. - Bank runs cause real economic damage because banks are forced to sell assets early at a loss.</p>
-<p><strong>Paper impact</strong> - It gave economists and policymakers a formal model showing that bank runs are not just random accidents, but a natural outcome of how banks work. - It explained the importance of <strong>deposit insurance</strong> and <strong>lenders of last resort</strong> - It shaped modern banking regulation and is one of the main reasons almost all countries insure deposits today.</p>
+<p><strong>Key insight</strong></p>
+<ul>
+<li><code>incomplete information</code>: Because depositors don’t know when they’ll need money, banks provide an insurance: anyone can withdraw on demand.</li>
+<li>Drawback: if depositors expect others to withdraw, they will rush to withdraw too → a <strong>self-fulfilling bank run</strong>.</li>
+<li>Bank runs cause real economic damage because banks are forced to sell assets early at a loss.</li>
+</ul>
+<p><strong>Paper impact</strong></p>
+<ul>
+<li>It gave economists and policymakers a formal model showing that bank runs are not just random accidents, but a natural outcome of how banks work.</li>
+<li>It explained the importance of <strong>deposit insurance</strong> and <strong>lenders of last resort</strong></li>
+<li>It shaped modern banking regulation and is one of the main reasons almost all countries insure deposits today.</li>
+</ul>
 <section id="economic-intuition" class="level2">
 <h2 class="anchored" data-anchor-id="economic-intuition">Economic Intuition</h2>
 <ul>
@@ -361,10 +378,31 @@ window.Quarto = {
 <section id="the-environment" class="level2">
 <h2 class="anchored" data-anchor-id="the-environment">The Environment</h2>
 <p>Three dates: <span class="math inline">\(T=0,1,2\)</span>.</p>
-<p>One <strong>illiquid asset</strong>: - <strong>Invest</strong> 1 unit at <span class="math inline">\(T=0\)</span>. - If <strong>liquidated</strong> early at <span class="math inline">\(T=1\)</span>: gross return <span class="math inline">\(1\)</span>. - If <strong>held to maturity</strong> at <span class="math inline">\(T=2\)</span>: gross return <span class="math inline">\(R&gt;1\)</span>. - Alternative <strong>storage technology</strong> (perfectly liquid): - Returns <strong>1</strong> at both dates.</p>
+<p>One <strong>illiquid asset</strong>:</p>
+<ul>
+<li><strong>Invest</strong> 1 unit at <span class="math inline">\(T=0\)</span>.
+<ul>
+<li>If <strong>liquidated</strong> early at <span class="math inline">\(T=1\)</span>: gross return <span class="math inline">\(1\)</span>.</li>
+<li>If <strong>held to maturity</strong> at <span class="math inline">\(T=2\)</span>: gross return <span class="math inline">\(R&gt;1\)</span>.</li>
+</ul></li>
+<li>Alternative <strong>storage technology</strong> (perfectly liquid):
+<ul>
+<li>Returns <strong>1</strong> at both dates.</li>
+</ul></li>
+</ul>
 <p><strong>Preferences &amp; Types</strong></p>
-<p>Investors are <strong>risk-averse</strong>: - Utility function <span class="math inline">\(U(c)\)</span> with <span class="math inline">\(U’’(c) &lt; 0 \quad \text{for all } c\)</span> (concave). - Example: <span class="math inline">\(U(c)=1-\frac{1}{c}\)</span></p>
-<p>There are <strong>two types</strong> of investors. - <code>Type 1</code> are <strong>early</strong> consumers: need to liquidate asset at <span class="math inline">\(T=1\)</span> - <code>Type 2</code> are <strong>late</strong> consumers: can liquidate asset at <span class="math inline">\(T=2\)</span></p>
+<p>Investors are <strong>risk-averse</strong>:</p>
+<ul>
+<li>Utility function <span class="math inline">\(U(c)\)</span> with <span class="math inline">\(U’’(c) &lt; 0 \quad \text{for all } c\)</span> (concave).
+<ul>
+<li>Example: <span class="math inline">\(U(c)=1-\frac{1}{c}\)</span></li>
+</ul></li>
+</ul>
+<p>There are <strong>two types</strong> of investors.</p>
+<ul>
+<li><code>Type 1</code> are <strong>early</strong> consumers: need to liquidate asset at <span class="math inline">\(T=1\)</span></li>
+<li><code>Type 2</code> are <strong>late</strong> consumers: can liquidate asset at <span class="math inline">\(T=2\)</span></li>
+</ul>
 <p><strong>Expected utility</strong>:</p>
 <p>Let <span class="math inline">\(t\)</span> be the prob. of <code>Type 1</code>; <span class="math inline">\(1-t\)</span> be the prob. of <code>Type 2</code>.</p>
 <p>At <span class="math inline">\(T=0\)</span>, investors do not know their types (→ <code>incomplete information</code>):</p>
@@ -375,9 +413,17 @@ window.Quarto = {
 <section id="investment-strategies" class="level2">
 <h2 class="anchored" data-anchor-id="investment-strategies">Investment Strategies</h2>
 <p><u><strong>Without banks</strong></u> (Pure market allocation)</p>
-<p>Two “pure” investments: - <strong>Storage</strong>: <span class="math inline">\((1,1)\)</span> <code>autarky</code> - <strong>Illiquid asset</strong>: <span class="math inline">\((1,R)\)</span> (if not liquidated) <code>market</code></p>
+<p>Two “pure” investments:</p>
+<ul>
+<li><strong>Storage</strong>: <span class="math inline">\((1,1)\)</span> <code>autarky</code></li>
+<li><strong>Illiquid asset</strong>: <span class="math inline">\((1,R)\)</span> (if not liquidated) <code>market</code></li>
+</ul>
 <p><u><strong>With banks</strong></u></p>
-<p><strong>Deposit contract</strong>: promise depositors <span class="math inline">\((r_1,r_2)\)</span> with <span class="math inline">\(r_1&lt;r_2\)</span>, where: - <code>Type 1</code> withdraws at <span class="math inline">\(T=1\)</span> → <span class="math inline">\(r_1\)</span> - <code>Type 2</code> waits to <span class="math inline">\(T=2\)</span> → <span class="math inline">\(r_2\)</span></p>
+<p><strong>Deposit contract</strong>: promise depositors <span class="math inline">\((r_1,r_2)\)</span> with <span class="math inline">\(r_1&lt;r_2\)</span>, where:</p>
+<ul>
+<li><code>Type 1</code> withdraws at <span class="math inline">\(T=1\)</span> → <span class="math inline">\(r_1\)</span></li>
+<li><code>Type 2</code> waits to <span class="math inline">\(T=2\)</span> → <span class="math inline">\(r_2\)</span></li>
+</ul>
 <center>
 <u><b>Goal</b></u>: show that <b>bank deposits</b> offer superior option to <b>autarky</b> and <b>market</b>
 </center>
@@ -389,8 +435,16 @@ window.Quarto = {
 <section id="manufacturing-deposits" class="level2">
 <h2 class="anchored" data-anchor-id="manufacturing-deposits">Manufacturing Deposits</h2>
 <p>Let <span class="math inline">\(N\)</span> investors deposit 1 each in the bank at <span class="math inline">\(T=0\)</span> → Bank invests <span class="math inline">\(N\)</span> into the illiquid asset.</p>
-<p>At <span class="math inline">\(T=1\)</span>: fraction <span class="math inline">\(t\)</span> withdraw; bank must repay <span class="math inline">\(r_1Nt\)</span>. - Liquidates fraction to raise <strong>1</strong> per unit. - Remaining position: <span class="math inline">\(N - r_1Nt = N(1 - r_1 t)\)</span>.</p>
-<p>At <span class="math inline">\(T=2\)</span>: remaining assets return <span class="math inline">\(R\)</span>. - Resources: <span class="math inline">\(R\,N(1 - r_1 t)\)</span>. - Must repay late withdrawals: <span class="math inline">\(r_2N(1-t)\)</span>.</p>
+<p>At <span class="math inline">\(T=1\)</span>: fraction <span class="math inline">\(t\)</span> withdraw; bank must repay <span class="math inline">\(r_1Nt\)</span>.</p>
+<ul>
+<li>Liquidates fraction to raise <strong>1</strong> per unit.</li>
+<li>Remaining position: <span class="math inline">\(N - r_1Nt = N(1 - r_1 t)\)</span>.</li>
+</ul>
+<p>At <span class="math inline">\(T=2\)</span>: remaining assets return <span class="math inline">\(R\)</span>.</p>
+<ul>
+<li>Resources: <span class="math inline">\(R\,N(1 - r_1 t)\)</span>.</li>
+<li>Must repay late withdrawals: <span class="math inline">\(r_2N(1-t)\)</span>.</li>
+</ul>
 <p><strong>Feasibility</strong>:</p>
 <p><span class="math display">\[r_2N(1-t) \le R\,(N - r_1Nt)\\
 \leftrightarrow \\
@@ -427,12 +481,22 @@ If the bank offers such <span class="math inline">\((r^*_1,r^*_2)\)</span>, then
 <section id="from-value-to-fragility" class="level1">
 <h1>3. From Value to Fragility</h1>
 <p><strong>Value Created</strong></p>
-<p>The model shows that - Deposit contracts optimally <strong>share risk</strong> between early and late consumers.<br>
-- They provide <strong>liquidity insurance</strong> and improve welfare compared to market allocations.<br>
-- <strong>Why banks exist</strong>: they create value by transforming illiquid assets into liquid deposits.</p>
-<p><strong>… But fragility emerges</strong> - This solution relies on <strong>beliefs about withdrawals</strong>.<br>
-- If everyone withdraws as expected (only true early types), the contract works perfectly.<br>
-- But if depositors <strong>fear others may run</strong>, they may rush to withdraw too (<strong>self-fulfilling prophecies</strong>)</p>
+<p>The model shows that</p>
+<ul>
+<li>Deposit contracts optimally <strong>share risk</strong> between early and late consumers.<br>
+</li>
+<li>They provide <strong>liquidity insurance</strong> and improve welfare compared to market allocations.<br>
+</li>
+<li><strong>Why banks exist</strong>: they create value by transforming illiquid assets into liquid deposits.</li>
+</ul>
+<p><strong>… But fragility emerges</strong></p>
+<ul>
+<li>This solution relies on <strong>beliefs about withdrawals</strong>.<br>
+</li>
+<li>If everyone withdraws as expected (only true early types), the contract works perfectly.<br>
+</li>
+<li>But if depositors <strong>fear others may run</strong>, they may rush to withdraw too (<strong>self-fulfilling prophecies</strong>)</li>
+</ul>
 <p><strong>Key:</strong> The very feature that makes deposits valuable (liquidity on demand) also makes them <strong>fragile</strong>.</p>
 <section id="runs-and-self-fulfilling-prophecies" class="level2">
 <h2 class="anchored" data-anchor-id="runs-and-self-fulfilling-prophecies">Runs and Self-fulfilling Prophecies</h2>
@@ -446,7 +510,11 @@ Let <span class="math inline">\(\hat f\)</span> be the <strong>depositors’ exp
 </section>
 <section id="when-do-late-types-run" class="level2">
 <h2 class="anchored" data-anchor-id="when-do-late-types-run">When Do Late Types Run?</h2>
-<p><code>Type 2</code> compares: - <strong>Wait</strong>: receive <span class="math inline">\(r_2(f)\)</span> at <span class="math inline">\(T=2\)</span> (declines with <span class="math inline">\(f\)</span>). - <strong>Run</strong>: receive <span class="math inline">\(r_1\)</span> at <span class="math inline">\(T=1\)</span>.</p>
+<p><code>Type 2</code> compares:</p>
+<ul>
+<li><strong>Wait</strong>: receive <span class="math inline">\(r_2(f)\)</span> at <span class="math inline">\(T=2\)</span> (declines with <span class="math inline">\(f\)</span>).</li>
+<li><strong>Run</strong>: receive <span class="math inline">\(r_1\)</span> at <span class="math inline">\(T=1\)</span>.</li>
+</ul>
 <p><strong>Run condition</strong>: <span class="math display">\[
 r_2(\hat f)\;&lt;\; r_1.
 \]</span></p>
@@ -515,7 +583,12 @@ r_1\,f\,N \;&gt;\; N \quad \Longleftrightarrow \quad f &gt; \frac{1}{r_1}.
 </tr>
 </tbody>
 </table>
-<p><strong>Cases</strong> - If <span class="math inline">\(f = t\)</span>: no problem, bank works as intended. - If <span class="math inline">\(\hat f^* &lt; f &lt; 1/r_1\)</span>: bank is still able to meet withdrawals, but value is destroyed by early liquidation → <strong>inefficient run</strong>. - If <span class="math inline">\(f \geq 1/r_1\)</span>: bank defaults because late types run, pushing withdrawals beyond what can be funded.</p>
+<p><strong>Cases</strong></p>
+<ul>
+<li>If <span class="math inline">\(f = t\)</span>: no problem, bank works as intended.</li>
+<li>If <span class="math inline">\(\hat f^* &lt; f &lt; 1/r_1\)</span>: bank is still able to meet withdrawals, but value is destroyed by early liquidation → <strong>inefficient run</strong>.</li>
+<li>If <span class="math inline">\(f \geq 1/r_1\)</span>: bank defaults because late types run, pushing withdrawals beyond what can be funded.</li>
+</ul>
 </section>
 </section>
 <section id="policy-implications" class="level1">

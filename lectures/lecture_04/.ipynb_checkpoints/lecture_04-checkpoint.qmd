@@ -1,0 +1,76 @@
+---
+title: "Lecture 04"
+---
+## Policy & Regulation
+**Page**: [HTML](06_policy.html){target=_blank}
+
+**Slides**:
+[Reveal.js](06_policy.slides.html){target=_blank}
+[PDF](06_policy.slides.pdf){target=_blank}
+
+### Recordings
+#### 0. Intro
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    src="https://drive.google.com/file/d/1YXio_6SdrC_RUGdvvxtsNU7Blo6myKh8/preview"
+    frameborder="0"
+    allowfullscreen
+    style="position: absolute; top:0; left:0; width:100%; height:100%;">
+  </iframe>
+</div>
+
+#### 1. Foundations
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    src="https://drive.google.com/file/d/1gViobm9XgCtFJ6Ivd3zcA7b0YX6S6_Kb/preview"
+    frameborder="0"
+    allowfullscreen
+    style="position: absolute; top:0; left:0; width:100%; height:100%;">
+  </iframe>
+</div>
+
+#### 2. Main Pillars of Regulation
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    src="https://drive.google.com/file/d/1kvjkK3fM9uBLof7WDFvNV_8CD-cVKiaO/preview"
+    frameborder="0"
+    allowfullscreen
+    style="position: absolute; top:0; left:0; width:100%; height:100%;">
+  </iframe>
+</div>
+
+#### 3. Institutional Architecture
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    src="https://drive.google.com/file/d/16mnbfXDAI_1K-QwNnO76ktZrecS2A-tN/preview"
+    frameborder="0"
+    allowfullscreen
+    style="position: absolute; top:0; left:0; width:100%; height:100%;">
+  </iframe>
+</div>
+
+
+#### 4. Emerging Challenges
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    src="https://drive.google.com/file/d/1CXuHKJM_YdKWbQDB7RvBjIHSILso6Gwy/preview"
+    frameborder="0"
+    allowfullscreen
+    style="position: absolute; top:0; left:0; width:100%; height:100%;">
+  </iframe>
+</div>
+
+
+
+
+---
+
+
+
+
+

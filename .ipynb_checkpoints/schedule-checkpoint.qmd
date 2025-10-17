@@ -4,14 +4,14 @@ title: "Schedule Fall 2025"
 
 | Date       | #  | Part                         | Topics                                                                 |
 |------------|----|------------------------------|------------------------------------------------------------------------|
-| 22/09/2025 | 0  | **Introduction**             |                                                                        |
-| 29/09/2025 | 1  | **Modern Banking**           | Money & Payment                                                        |
-| 06/10/2025 | 2  | **Modern Banking**           | Deposit                                                  |
-| 13/10/2025 | 3  | **Modern Banking**           | Credit                                                                 |
-| 20/10/2025 | 4  | **Modern Banking**           | Policy & Regulation                                                    |
-| 27/10/2025 | 5  | **Modern Banking** <br>Guest lecture | Financial Networks                                            |
-| 03/11/2025 | 6  | **Fintech**                  | Overview                                                               |
+| 22/09/2025 | 0  | ~~**Introduction**~~             |                                                                        |
+| 29/09/2025 | 1  | ~~**Modern Banking**~~<br> `live`           | Money & Payment                                                        |
+| 06/10/2025 | 2  | ~~**Modern Banking**~~<br> `recorded`           | Deposit                                                  |
+| 13/10/2025 | 3  | ~~**Modern Banking**~~ `recorded`          | Credit                                                                 |
+| 20/10/2025 | 4  | **Modern Banking**  `recorded`         | Policy & Regulation                                                    |
+| 27/10/2025 | 5  | **Fintech**                  | Overview                                                               |
 |            |    | **Platforms**                | Digital Platforms<br>BigTech<br>Policy                                 |
+| 03/11/2025 | 6  | **Modern Banking** <br>Guest lecture | Financial Networks                                            |
 | 10/11/2025 | 7  | **Platforms** <br>Guest lecture | Fintech Platforms<br>Open Banking                                  |
 | 17/11/2025 | 8  | **Machine Learning**         | History<br>Economics of ML<br>Policy                                   |
 | 24/11/2025 | 9  | **Machine Learning** <br>Guest lecture | The Technology of ML<br>ML Application in Finance             |

@@ -1,0 +1,74 @@
+---
+title: "Lecture 04"
+---
+## Policy
+**Page**: [HTML](06_policy.html){target=_blank}
+
+**Slides**:
+[Reveal.js](06_policy.slides.html){target=_blank}
+[PDF](06_policy.slides.pdf){target=_blank}
+
+### Recordings
+#### 0. Intro
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    src="https://drive.google.com/file/d/1u2kGdboKGK3v-3RvpxcluLkLaVhXI1Dx/preview"
+    frameborder="0"
+    allowfullscreen
+    style="position: absolute; top:0; left:0; width:100%; height:100%;">
+  </iframe>
+</div>
+
+#### 1. Financial Contracts
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    src="https://drive.google.com/file/d/1RtMoaNCcBGJtrP0_MfwqSQ_ON42JpP61/preview"
+    frameborder="0"
+    allowfullscreen
+    style="position: absolute; top:0; left:0; width:100%; height:100%;">
+  </iframe>
+</div>
+
+#### 2. The Cheapness of Debt
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    src="https://drive.google.com/file/d/1cpyHbaHfmuUah88mJ0DuYyKhWBW9REtK/preview"
+    frameborder="0"
+    allowfullscreen
+    style="position: absolute; top:0; left:0; width:100%; height:100%;">
+  </iframe>
+</div>
+
+#### 3. The Failure of Credit Markets
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    src="https://drive.google.com/file/d/1nePSCzwSygCs4eSm9FtgpDtmhRACTCsF/preview"
+    frameborder="0"
+    allowfullscreen
+    style="position: absolute; top:0; left:0; width:100%; height:100%;">
+  </iframe>
+</div>
+
+#### 4. The Structure of Credit Markets
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    src="https://drive.google.com/file/d/1EzVSn5yMwnwMSteJWvdK5acXoukAXHn3/preview"
+    frameborder="0"
+    allowfullscreen
+    style="position: absolute; top:0; left:0; width:100%; height:100%;">
+  </iframe>
+</div>
+
+---
+# References
+{{< include references_credit.md >}}
+
+
+
+
+
