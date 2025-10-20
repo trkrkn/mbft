@@ -1,0 +1,1246 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Intro to Financial Technologies – Modern Banking and Financial Technology</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Modern Banking and Financial Technology</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../syllabus.html"> 
+<span class="menu-text">Syllabus</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../schedule.html"> 
+<span class="menu-text">Schedule</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lectures" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lectures</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lectures">    
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_01/lecture_01.html">
+ <span class="dropdown-text">Lecture 01 - Modern Banking pt.&nbsp;1</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_02/lecture_02.html">
+ <span class="dropdown-text">Lecture 02 - Modern Banking pt.&nbsp;2</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_03/lecture_03.html">
+ <span class="dropdown-text">Lecture 03 - Modern Banking pt.&nbsp;3</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_04/lecture_04.html">
+ <span class="dropdown-text">Lecture 04 - Modern Banking pt.&nbsp;4</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_05/lecture_05.html">
+ <span class="dropdown-text">Lecture 05 - Fintech | Plaforms pt.&nbsp;1</span></a>
+  </li>  
+        <li class="dropdown-header">Lecture 06 - Modern Banking pt.&nbsp;5</li>
+        <li class="dropdown-header">Lecture 07 - Platforms pt.&nbsp;2</li>
+        <li class="dropdown-header">Lecture 08 - Machine Learning pt.&nbsp;1</li>
+        <li class="dropdown-header">Lecture 09 - Machine Learning pt.&nbsp;2</li>
+        <li class="dropdown-header">Lecture 10 - Crypto pt.&nbsp;1</li>
+        <li class="dropdown-header">Lecture 11 - Crypto pt.&nbsp;2</li>
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="https://app.alldayta.com/katholieke-universiteit-leuven/mbft"> 
+<span class="menu-text">All Day TA (<strong>new</strong>)</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#key-questions" id="toc-key-questions" class="nav-link active" data-scroll-target="#key-questions">4 key questions</a></li>
+  <li><a href="#why-do-we-need-banks" id="toc-why-do-we-need-banks" class="nav-link" data-scroll-target="#why-do-we-need-banks">Why Do We Need Banks?</a></li>
+  <li><a href="#what-is-information-governance" id="toc-what-is-information-governance" class="nav-link" data-scroll-target="#what-is-information-governance">What Is Information Governance?</a></li>
+  <li><a href="#what-is-fintech" id="toc-what-is-fintech" class="nav-link" data-scroll-target="#what-is-fintech">What Is FinTech?</a></li>
+  <li><a href="#how-does-fintech-impact-banking" id="toc-how-does-fintech-impact-banking" class="nav-link" data-scroll-target="#how-does-fintech-impact-banking">How Does FinTech Impact Banking?</a></li>
+  <li><a href="#map" id="toc-map" class="nav-link" data-scroll-target="#map">Map</a></li>
+  <li><a href="#information-governance-in-banking" id="toc-information-governance-in-banking" class="nav-link" data-scroll-target="#information-governance-in-banking">1. Information Governance in Banking</a>
+  <ul class="collapse">
+  <li><a href="#origin-story" id="toc-origin-story" class="nav-link" data-scroll-target="#origin-story">Origin Story</a>
+  <ul class="collapse">
+  <li><a href="#economics-goal-efficiently-allocate-risk-and-capital" id="toc-economics-goal-efficiently-allocate-risk-and-capital" class="nav-link" data-scroll-target="#economics-goal-efficiently-allocate-risk-and-capital">Economics goal: efficiently allocate risk and capital</a></li>
+  <li><a href="#main-barrier-information-frictions" id="toc-main-barrier-information-frictions" class="nav-link" data-scroll-target="#main-barrier-information-frictions">Main barrier: information frictions</a></li>
+  </ul></li>
+  <li><a href="#the-intermediation-solution" id="toc-the-intermediation-solution" class="nav-link" data-scroll-target="#the-intermediation-solution">The Intermediation Solution</a>
+  <ul class="collapse">
+  <li><a href="#banks-fundamental-value-proposition-solver-of-information-frictions" id="toc-banks-fundamental-value-proposition-solver-of-information-frictions" class="nav-link" data-scroll-target="#banks-fundamental-value-proposition-solver-of-information-frictions">Banks’ fundamental value proposition: solver of information frictions</a></li>
+  </ul></li>
+  <li><a href="#information-frictions" id="toc-information-frictions" class="nav-link" data-scroll-target="#information-frictions">Information frictions</a>
+  <ul class="collapse">
+  <li><a href="#asymmetric-information-in-credit" id="toc-asymmetric-information-in-credit" class="nav-link" data-scroll-target="#asymmetric-information-in-credit">Asymmetric information in credit</a></li>
+  <li><a href="#incomplete-information-in-deposit" id="toc-incomplete-information-in-deposit" class="nav-link" data-scroll-target="#incomplete-information-in-deposit">Incomplete information in deposit</a></li>
+  <li><a href="#confidential-information-in-payments" id="toc-confidential-information-in-payments" class="nav-link" data-scroll-target="#confidential-information-in-payments">Confidential information in payments</a></li>
+  <li><a href="#special-case-illicit-activity-amlcft" id="toc-special-case-illicit-activity-amlcft" class="nav-link" data-scroll-target="#special-case-illicit-activity-amlcft">Special Case: Illicit Activity (AML/CFT)</a></li>
+  <li><a href="#summary-table" id="toc-summary-table" class="nav-link" data-scroll-target="#summary-table">Summary table</a></li>
+  </ul></li>
+  <li><a href="#information-governance-approach" id="toc-information-governance-approach" class="nav-link" data-scroll-target="#information-governance-approach">Information Governance Approach</a></li>
+  <li><a href="#digitalization" id="toc-digitalization" class="nav-link" data-scroll-target="#digitalization">Digitalization</a></li>
+  <li><a href="#digital-technologies-fintech" id="toc-digital-technologies-fintech" class="nav-link" data-scroll-target="#digital-technologies-fintech">Digital Technologies &amp; FinTech</a>
+  <ul class="collapse">
+  <li><a href="#artificial-intelligence" id="toc-artificial-intelligence" class="nav-link" data-scroll-target="#artificial-intelligence">Artificial Intelligence</a></li>
+  <li><a href="#platforms" id="toc-platforms" class="nav-link" data-scroll-target="#platforms">Platforms</a></li>
+  <li><a href="#distributed-ledger-technology-dlt" id="toc-distributed-ledger-technology-dlt" class="nav-link" data-scroll-target="#distributed-ledger-technology-dlt">Distributed Ledger Technology (DLT)</a></li>
+  <li><a href="#summary-table-1" id="toc-summary-table-1" class="nav-link" data-scroll-target="#summary-table-1">Summary Table</a></li>
+  </ul></li>
+  <li><a href="#a-new-digital-information-governance" id="toc-a-new-digital-information-governance" class="nav-link" data-scroll-target="#a-new-digital-information-governance">A New Digital Information Governance</a>
+  <ul class="collapse">
+  <li><a href="#ai-platforms" id="toc-ai-platforms" class="nav-link" data-scroll-target="#ai-platforms">AI &amp; Platforms</a></li>
+  <li><a href="#dlt" id="toc-dlt" class="nav-link" data-scroll-target="#dlt">DLT</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#adoption-of-financial-technologies" id="toc-adoption-of-financial-technologies" class="nav-link" data-scroll-target="#adoption-of-financial-technologies">2. Adoption of Financial Technologies</a>
+  <ul class="collapse">
+  <li><a href="#banking" id="toc-banking" class="nav-link" data-scroll-target="#banking">Banking</a>
+  <ul class="collapse">
+  <li><a href="#adoption-at-intensive-margin" id="toc-adoption-at-intensive-margin" class="nav-link" data-scroll-target="#adoption-at-intensive-margin">Adoption at Intensive Margin</a></li>
+  <li><a href="#extensive-margin" id="toc-extensive-margin" class="nav-link" data-scroll-target="#extensive-margin">Extensive Margin</a></li>
+  <li><a href="#platformisation" id="toc-platformisation" class="nav-link" data-scroll-target="#platformisation">Platformisation</a></li>
+  </ul></li>
+  <li><a href="#the-new-digital-landscape" id="toc-the-new-digital-landscape" class="nav-link" data-scroll-target="#the-new-digital-landscape">The New Digital Landscape</a>
+  <ul class="collapse">
+  <li><a href="#enter-fintech-and-bigtech-companies" id="toc-enter-fintech-and-bigtech-companies" class="nav-link" data-scroll-target="#enter-fintech-and-bigtech-companies">Enter Fintech and Bigtech companies</a></li>
+  <li><a href="#fintech-x-bigtech-in-credit" id="toc-fintech-x-bigtech-in-credit" class="nav-link" data-scroll-target="#fintech-x-bigtech-in-credit">Fintech x Bigtech in credit</a></li>
+  <li><a href="#fintech-in-eu" id="toc-fintech-in-eu" class="nav-link" data-scroll-target="#fintech-in-eu">Fintech in EU</a></li>
+  <li><a href="#bigtech-in-eu" id="toc-bigtech-in-eu" class="nav-link" data-scroll-target="#bigtech-in-eu">Bigtech in EU</a></li>
+  </ul></li>
+  <li><a href="#digital-impact-on-business-models" id="toc-digital-impact-on-business-models" class="nav-link" data-scroll-target="#digital-impact-on-business-models">Digital Impact on Business Models</a>
+  <ul class="collapse">
+  <li><a href="#unbundling-of-banking-services" id="toc-unbundling-of-banking-services" class="nav-link" data-scroll-target="#unbundling-of-banking-services">1. <strong>Unbundling of banking services</strong></a></li>
+  <li><a href="#re-bundling-of-banking-services-w-or-wo-other-services" id="toc-re-bundling-of-banking-services-w-or-wo-other-services" class="nav-link" data-scroll-target="#re-bundling-of-banking-services-w-or-wo-other-services">2. <strong>Re-bundling of banking services</strong> (w/ or w/o other services)</a></li>
+  </ul></li>
+  <li><a href="#digital-impact-on-customer-segments-niche-vs-core" id="toc-digital-impact-on-customer-segments-niche-vs-core" class="nav-link" data-scroll-target="#digital-impact-on-customer-segments-niche-vs-core">Digital Impact on Customer Segments: Niche vs Core</a>
+  <ul class="collapse">
+  <li><a href="#niches-entry-where-banks-underserve-high-costs-or-weak-offerings" id="toc-niches-entry-where-banks-underserve-high-costs-or-weak-offerings" class="nav-link" data-scroll-target="#niches-entry-where-banks-underserve-high-costs-or-weak-offerings">1. <strong>Niches</strong>: Entry where banks underserve (high costs or weak offerings)</a></li>
+  <li><a href="#core-target-banks-primary-revenue-pools." id="toc-core-target-banks-primary-revenue-pools." class="nav-link" data-scroll-target="#core-target-banks-primary-revenue-pools.">2. <strong>Core</strong>: Target banks’ primary revenue pools.</a></li>
+  </ul></li>
+  <li><a href="#digitalisation-shows-promises-and-pitfalls" id="toc-digitalisation-shows-promises-and-pitfalls" class="nav-link" data-scroll-target="#digitalisation-shows-promises-and-pitfalls">Digitalisation Shows Promises and Pitfalls</a>
+  <ul class="collapse">
+  <li><a href="#increased-information-value" id="toc-increased-information-value" class="nav-link" data-scroll-target="#increased-information-value"><strong>Increased information value</strong></a></li>
+  <li><a href="#but-breaking-down-banks-integrated-services-may" id="toc-but-breaking-down-banks-integrated-services-may" class="nav-link" data-scroll-target="#but-breaking-down-banks-integrated-services-may"><strong>But… breaking down banks’ integrated services may</strong></a></li>
+  </ul></li>
+  <li><a href="#open-question" id="toc-open-question" class="nav-link" data-scroll-target="#open-question">Open question</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Intro to Financial Technologies</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="key-questions" class="level2">
+<h2 class="anchored" data-anchor-id="key-questions">4 key questions</h2>
+</section>
+<section id="why-do-we-need-banks" class="level2">
+<h2 class="anchored" data-anchor-id="why-do-we-need-banks">Why Do We Need Banks?</h2>
+</section>
+<section id="what-is-information-governance" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-information-governance">What Is Information Governance?</h2>
+</section>
+<section id="what-is-fintech" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-fintech">What Is FinTech?</h2>
+</section>
+<section id="how-does-fintech-impact-banking" class="level2">
+<h2 class="anchored" data-anchor-id="how-does-fintech-impact-banking">How Does FinTech Impact Banking?</h2>
+</section>
+<section id="map" class="level1">
+<h1>Map</h1>
+<ol type="1">
+<li>Information Governance in Banking</li>
+<li>Adoption of Financial Technologies</li>
+</ol>
+</section>
+<section id="information-governance-in-banking" class="level1">
+<h1>1. Information Governance in Banking</h1>
+<section id="origin-story" class="level2">
+<h2 class="anchored" data-anchor-id="origin-story">Origin Story</h2>
+<section id="economics-goal-efficiently-allocate-risk-and-capital" class="level3">
+<h3 class="anchored" data-anchor-id="economics-goal-efficiently-allocate-risk-and-capital">Economics goal: efficiently allocate risk and capital</h3>
+</section>
+<section id="main-barrier-information-frictions" class="level3">
+<h3 class="anchored" data-anchor-id="main-barrier-information-frictions">Main barrier: information frictions</h3>
+<center>
+<img src="figures/information-no-banks.png" width="700">
+<center>
+</center></center></section>
+</section>
+<section id="the-intermediation-solution" class="level2">
+<h2 class="anchored" data-anchor-id="the-intermediation-solution">The Intermediation Solution</h2>
+<section id="banks-fundamental-value-proposition-solver-of-information-frictions" class="level3">
+<h3 class="anchored" data-anchor-id="banks-fundamental-value-proposition-solver-of-information-frictions">Banks’ fundamental value proposition: solver of information frictions</h3>
+<center>
+<img src="figures/information-banks.jpg" width="700">
+<center>
+</center></center></section>
+</section>
+<section id="information-frictions" class="level2">
+<h2 class="anchored" data-anchor-id="information-frictions">Information frictions</h2>
+<section id="asymmetric-information-in-credit" class="level3">
+<h3 class="anchored" data-anchor-id="asymmetric-information-in-credit">Asymmetric information in credit</h3>
+<p><code>screening/monitoring problem</code> to prevent <strong>adverse selection</strong> and <strong>moral hazard</strong><br>
+- Better information <strong>lowers transaction costs</strong>, but creates <strong>information rents</strong> (Boot, 2000)<br>
+- Banks <strong>produce information</strong> to improve their services (e.g., monitoring technology) - Banks <strong>hoard information</strong> to capture surplus and limit competition</p>
+<p><strong>Implications</strong> - <strong>Rate of information production</strong> (De Marco and Petriconi, 2024) - <strong>Consumer welfare</strong> (prices, lockins, etc.) (Schenone, 2010) - <strong>Rationing</strong> and de-risking (Holmstrom &amp; Tirole, 1997) - <strong>Barriers to entry</strong> (Bofondi and Gobbi, 2006)</p>
+</section>
+<section id="incomplete-information-in-deposit" class="level3">
+<h3 class="anchored" data-anchor-id="incomplete-information-in-deposit">Incomplete information in deposit</h3>
+<p><code>forecasting problem</code> to determine <strong>future states</strong> of the world</p>
+<ul>
+<li>Banks create liquidity through <strong>maturity transformation</strong></li>
+<li>Efficiency and stability relies on <strong>information</strong> about the future: withdrawals are highly sensitive to <strong>perceptions of solvency</strong>.</li>
+</ul>
+<p><strong>Implications</strong> - <strong>Bank runs</strong> and <strong>deposit insurance</strong> (Diamond and Dybvig, 1983) - <strong>Lender-of-last-resort</strong> (Diamond and Rajan, 2005) - <strong>Contagion</strong> and <strong>systemic risk</strong> (Allen and Gale, 2000) - <strong>Bankruptcy cost</strong>: Bank failures destroy accumulated information capital (Bernanke, 1983)</p>
+</section>
+<section id="confidential-information-in-payments" class="level3">
+<h3 class="anchored" data-anchor-id="confidential-information-in-payments">Confidential information in payments</h3>
+<p><code>privacy problem</code> to match on on sensitive information<br>
+- Information technologies exhibit strong <strong>economies of scale and scope</strong>. - In presence of <strong>sensitive information</strong>, verification and matching services are prone to large <strong>network effects</strong>.</p>
+<p><strong>Implications</strong></p>
+<ul>
+<li>Market power (Rochet and Tirole, 2003)</li>
+<li>Trust and digital adoption (Lee, McAndrews and Wang, 2020)</li>
+<li>Concentrated markets (Tirole, 2015)</li>
+</ul>
+</section>
+<section id="special-case-illicit-activity-amlcft" class="level3">
+<h3 class="anchored" data-anchor-id="special-case-illicit-activity-amlcft">Special Case: Illicit Activity (AML/CFT)</h3>
+<p>Superior information capacity bestows special public duties on banks</p>
+<ul>
+<li><strong>Monitoring delegation</strong>: governments rely on bank data and reporting of <strong>suspicious activities</strong>.
+<ul>
+<li><strong>Screening</strong>: Know-Your-Customer</li>
+<li><strong>Monitoring</strong>: Detect illicit transactions in real time.<br>
+</li>
+<li><strong>Safeguarding</strong>: Balance confidentiality with mandatory disclosure obligations to authorities.</li>
+</ul></li>
+</ul>
+<p><strong>Implications</strong> - <strong>Compliance cost</strong> with limited private benefits - Potential exclusion effects (<strong>de-risking</strong>)</p>
+</section>
+<section id="summary-table" class="level3">
+<h3 class="anchored" data-anchor-id="summary-table">Summary table</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 25%">
+<col style="width: 30%">
+<col style="width: 9%">
+<col style="width: 18%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Type</th>
+<th>Problem</th>
+<th>Economic Issue</th>
+<th>Example</th>
+<th>Market Implications</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Asymmetric</strong></td>
+<td>Screening <br> Monitoring</td>
+<td>Adverse selection <br> Moral hazard</td>
+<td>Credit</td>
+<td>↓ rationing <br> ↑ information rents</td>
+</tr>
+<tr class="even">
+<td><strong>Incomplete</strong></td>
+<td>Forecasting</td>
+<td>Uncertainty</td>
+<td>Deposit</td>
+<td>↓ liquidity mismatch <br> ↑ instability (bank runs)</td>
+</tr>
+<tr class="odd">
+<td><strong>Confidential</strong></td>
+<td>Privacy</td>
+<td>Matching on sensitive data</td>
+<td>Payments</td>
+<td>↓ search &amp; verification frictions <br> ↑ market power (trust, network effects)</td>
+</tr>
+</tbody>
+</table>
+<p><b><u>Special Case</u></b>: <strong>Financial crime (AML/CFT)</strong><br>
+- Bank’s <strong>superior information capacity</strong> bestows special <strong>public duties</strong>: identifying, reporting, monitoring of <strong>suspicious activities</strong> - <strong>Compliance cost</strong> with limited private benefits with potential exclusion effects (<strong>de-risking</strong>)</p>
+</section>
+</section>
+<section id="information-governance-approach" class="level2">
+<h2 class="anchored" data-anchor-id="information-governance-approach">Information Governance Approach</h2>
+<center>
+<br><b>Banking services are contracts whose scope and values are structurally bounded by specific information sets</b>
+</center>
+Who can <b>produce, access and control information</b> defines <b>how services can be offered</b> - and ultimately <b>shapes how well markets can function</b>
+
+<center>
+↓ <br> <b>Information Governance</b>
+</center>
+</section>
+<section id="digitalization" class="level2">
+<h2 class="anchored" data-anchor-id="digitalization">Digitalization</h2>
+<p>The systematic <strong>conversion of financial information</strong> into <strong>data</strong>:</p>
+<ul>
+<li><strong>codified</strong></li>
+<li><strong>verifiable</strong></li>
+<li><strong>machine-readible data</strong></li>
+</ul>
+<p>From <strong>soft</strong>, <strong>relational knowledge</strong> <span class="math inline">\(\rightarrow\)</span> <strong>hard</strong> and <strong>transferable inputs</strong> for economic exchange and supervision.</p>
+<center>
+↓ <br><b>Digitalisation reshapes Information Governance</b>
+</center>
+</section>
+<section id="digital-technologies-fintech" class="level2">
+<h2 class="anchored" data-anchor-id="digital-technologies-fintech">Digital Technologies &amp; FinTech</h2>
+<p>Fundamentally: technologies are about <strong>reducing cost</strong>.</p>
+<center>
+<b>Digital technologies reduce information costs.</b>
+</center>
+<ul>
+<li><strong>Artificial Intelligence</strong></li>
+<li><strong>Platforms</strong><br>
+</li>
+<li><strong>Distributed Ledger Technology (DLT)</strong><br>
+</li>
+<li><strong>Cloud / APIs / etc.</strong></li>
+</ul>
+<p>When applied to financial functions such as lending, trading, or payments, these digital technologies give rise to <strong>financial technologies (FinTech)</strong> — innovations that reshape how financial services are produced and delivered.</p>
+<center>
+<b>FinTech = Digital Technology + Financial Function/Application</b>
+</center>
+<section id="artificial-intelligence" class="level3">
+<h3 class="anchored" data-anchor-id="artificial-intelligence">Artificial Intelligence</h3>
+<p><strong>Modern AI</strong> (Machine Learning) is about <strong>reducing the cost of <code>prediction</code></strong>. (Agrawal, Gans &amp; Goldfarb, 2022)</p>
+<p><code>prediction</code> in Banking: <strong>credit</strong>, <strong>liquidity management</strong>, etc. (<code>forecasting</code>, <code>monitoring</code>, <code>screening</code> )</p>
+<p><strong>Key features</strong> - <strong>Data dependency</strong><br>
+Quantity &amp; quality determine predictive power. - <strong>Application limits</strong><br>
+Not all problems are prediction problems (reasoning, causality, logic).<br>
+Not all prediction problems are ML problems (data scarcity → COVID-19).</p>
+</section>
+<section id="platforms" class="level3">
+<h3 class="anchored" data-anchor-id="platforms">Platforms</h3>
+<p><strong>Platforms</strong> are digital infrastructures that <strong>reduce the cost of <code>search</code> and <code>matching</code></strong> leveraging <strong>private (often sensitive) data</strong>. (Bergemann and Bonatti, 2024)</p>
+<p><code>search</code> and <code>matching</code> in Banking: <strong>Payments</strong>, <strong>Investments</strong></p>
+<p><strong>Key features</strong> - <strong>Network effects and data</strong><br>
+More users → more data → better services → attracts more users. (Hagiu and Wright, 2023) - <strong>Multi-sidedness</strong><br>
+Different users, different prices: cross-subsidize and free services. (Rochet and Tirole, 2006)</p>
+</section>
+<section id="distributed-ledger-technology-dlt" class="level3">
+<h3 class="anchored" data-anchor-id="distributed-ledger-technology-dlt">Distributed Ledger Technology (DLT)</h3>
+<div style="border-left: 5px solid #000000; padding: 0.75em; background-color: #f9f9f9; border-radius: 6px;">
+<p><b><u>Note:</u></b> <b>Cryptography</b> is about <b>verifiability without observability</b>: <i>Ownership, actions or states can be publically proven without revealing underlying information.</i></p>
+</div>
+<p><strong>DLT</strong> allow to <strong>reduce the cost of verification</strong> in public ledgers leveraging <strong>crypto solution</strong> and <strong>mechanism design</strong>. (Catalini and Gans, 2018)</p>
+<p><strong><code>Verification</code> in Banking</strong>: <strong>Payments</strong>, <strong>Contingent Contracting</strong></p>
+<p><strong>Key features</strong></p>
+<ul>
+<li><strong>Elimination of confidential information</strong><br>
+Shifts the structure of information — what is public, private, and verifiable. (Roukny, 2022)<br>
+Removes the need for third party safeguarding<br>
+Prevents further auditing (identification, monitoring, etc.)</li>
+<li><strong>Decentralised Finance</strong><br>
+Increase in public ledgers expands self-executing contracting spaces (<strong>smart contracts</strong>)</li>
+</ul>
+</section>
+<section id="summary-table-1" class="level3">
+<h3 class="anchored" data-anchor-id="summary-table-1">Summary Table</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 18%">
+<col style="width: 21%">
+<col style="width: 18%">
+<col style="width: 18%">
+<col style="width: 21%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Technology</th>
+<th>Information Cost</th>
+<th>How</th>
+<th>Banking</th>
+<th>Key Features</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Modern AI</strong></td>
+<td><code>Prediction</code> <br> (Agrawal, Gans &amp; Goldfarb, 2022)</td>
+<td>Statistical learning</td>
+<td>Credit <br>Liquidity management</td>
+<td><strong>Data <br> Computation</strong></td>
+</tr>
+<tr class="even">
+<td><strong>Digital Platforms</strong></td>
+<td><code>Searching &amp; matching</code> <br> (Bergemann &amp; Bonatti, 2024)</td>
+<td>Private/sensitive data</td>
+<td>Payments<br> Investments</td>
+<td><strong>Network effects <br> Multi-sidedness</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>DLT</strong></td>
+<td><code>Public verification</code> <br> (Catalini &amp; Gans, 2018)</td>
+<td>Cryptography <br> Mechanism design</td>
+<td>Payments <br> Contingent contracting</td>
+<td><strong>Decentralisation<br> Smart contracting</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="a-new-digital-information-governance" class="level2">
+<h2 class="anchored" data-anchor-id="a-new-digital-information-governance">A New Digital Information Governance</h2>
+<section id="ai-platforms" class="level3">
+<h3 class="anchored" data-anchor-id="ai-platforms">AI &amp; Platforms</h3>
+<ol type="1">
+<li>Value of <strong>alternative data</strong> (e.g., digital footprint, device metadata, geolocalisation, webscraping etc.)
+<ul>
+<li>↑ the relevant information space</li>
+<li>↑ <strong>entry</strong> of new actors with new data access (<strong>fintech, bigtech</strong>)</li>
+</ul></li>
+<li>More power in <strong>signal extraction</strong> from <strong>traditional financial data</strong>
+<ul>
+<li>↑ efficiency of banking services</li>
+<li>↑ intensity of incumbent competition/innovation</li>
+<li>~ <strong>entry limited</strong> by in-house information production</li>
+</ul></li>
+</ol>
+</section>
+<section id="dlt" class="level3">
+<h3 class="anchored" data-anchor-id="dlt">DLT</h3>
+<ol type="1">
+<li><strong>Verification</strong> without <strong>confidential information</strong>
+<ul>
+<li>↓ <strong>intermediation rent</strong></li>
+<li>↓ <strong>auditing power</strong> on private information</li>
+</ul></li>
+<li>Expansion of <strong>public information space</strong>
+<ul>
+<li>↑ <strong>contestability, interoperability &amp; innovation</strong></li>
+</ul></li>
+</ol>
+</section>
+</section>
+</section>
+<section id="adoption-of-financial-technologies" class="level1">
+<h1>2. Adoption of Financial Technologies</h1>
+<section id="banking" class="level2">
+<h2 class="anchored" data-anchor-id="banking">Banking</h2>
+<ol type="1">
+<li><strong>Intensive margin</strong>: AI adoption and computing power for inhouse data</li>
+<li><strong>Extensive margin</strong>: <em>Platformisation</em> by expanding data collection to alternative data<br>
+</li>
+<li><strong>Crypto resistance</strong> so far (regulation, compliance, disintermediation threat)</li>
+</ol>
+<center>
+<b>Adoption of AI and data-related activities<br>Limited adoption of DLT and applications</b>
+</center>
+<center>
+<img src="figures/eba_bank_tech_adoption.png" width="700">
+<center>
+<center>
+EBA - Risk Assessment Questionnaire - Spring 2025
+</center>
+<center>
+<b>Main use of AI<br>Monitoring, Screening and AML/Fraud</b>
+</center>
+<center>
+<img src="figures/eba_bank_ai_application.png" width="700">
+<center>
+<center>
+EBA - Risk Assessment Questionnaire - Spring 2025
+</center>
+<section id="adoption-at-intensive-margin" class="level3">
+<h3 class="anchored" data-anchor-id="adoption-at-intensive-margin">Adoption at Intensive Margin</h3>
+<center>
+<b>Transition to superior prediction technologies: unequal effects across the population</b>
+</center>
+<center>
+<img src="figures/fuster_ai.jpg" width="500">
+<center>
+<center>
+Fuster, A., Goldsmith‐Pinkham, P., Ramadorai, T., &amp; Walther, A. (2022). Predictably unequal? The effects of machine learning on credit markets. The Journal of Finance, 77(1), 5-47.
+</center>
+</center></center></section>
+<section id="extensive-margin" class="level3">
+<h3 class="anchored" data-anchor-id="extensive-margin">Extensive Margin</h3>
+<center>
+<b> Inlcuding alternative data: 1st order improvement in prediction power</b>
+</center>
+<center>
+<img src="figures/berg_ai.png" width="600">
+<center>
+<center>
+Berg, T., Burg, V., Gombović, A., &amp; Puri, M. (2020). On the rise of fintechs: Credit scoring using digital footprints. The Review of Financial Studies, 33(7), 2845-2897.
+</center>
+</center></center></section>
+<section id="platformisation" class="level3">
+<h3 class="anchored" data-anchor-id="platformisation">Platformisation</h3>
+<p><strong>The rise of Super-Apps</strong>: transition to <strong>multi-sided platform</strong></p>
+<center>
+<img src="figures/kbc.jpeg" width="200">
+<center>
+<center>
+2024 Award of the Best Banking App in the World (SIA Partners)
+</center>
+</center></center></section>
+</center></center></center></center></section>
+<section id="the-new-digital-landscape" class="level2">
+<h2 class="anchored" data-anchor-id="the-new-digital-landscape">The New Digital Landscape</h2>
+<section id="enter-fintech-and-bigtech-companies" class="level3">
+<h3 class="anchored" data-anchor-id="enter-fintech-and-bigtech-companies">Enter Fintech and Bigtech companies</h3>
+<p><strong>FinTech</strong> = technology + financial services</p>
+<p><strong>BigTech</strong> = established tech platform firms expanding into finance (Amazon, Alphabet, Meta, etc.)</p>
+</section>
+<section id="fintech-x-bigtech-in-credit" class="level3">
+<h3 class="anchored" data-anchor-id="fintech-x-bigtech-in-credit">Fintech x Bigtech in credit</h3>
+<center>
+<b> Continuous growth from low base<br> Main penetration from China</b>
+</center>
+<center>
+<img src="figures/fintech_bigtech_credit.jpg" width="400">
+<center>
+<center>
+Cecchetti, S., Beck, T., Grothe, M., Kemp, M., Pelizzon, L., &amp; Serrano, A. S. (2022). Will video kill the radio star?–Digitalisation and the future of banking. Reports of the Advisory Scientific Committee, 12.
+</center>
+</center></center></section>
+<section id="fintech-in-eu" class="level3">
+<h3 class="anchored" data-anchor-id="fintech-in-eu">Fintech in EU</h3>
+<center>
+<b> Exponential growth over the past decade<br> Mainly credit, payment, crowdfunding and back-end processes</b>
+</center>
+<center>
+<img src="figures/fintech_HQ.png" width="800">
+<center>
+<center>
+Cambridge Fintech Ecosystem Atlas - Cambridge Centre for Alternative Finance <br> Own calculation
+</center>
+</center></center></section>
+<section id="bigtech-in-eu" class="level3">
+<h3 class="anchored" data-anchor-id="bigtech-in-eu">Bigtech in EU</h3>
+<center>
+<b>Main penetration point: Payments</b>
+</center>
+<center>
+<img src="figures/bigtech_EU_licenses.jpg" width="700">
+<center>
+<center>
+Joint-ESA Report on 2023 stocktaking of BigTech direct financial services provision in the EU
+</center>
+</center></center></section>
+</section>
+<section id="digital-impact-on-business-models" class="level2">
+<h2 class="anchored" data-anchor-id="digital-impact-on-business-models">Digital Impact on Business Models</h2>
+<center>
+Change in information governance implies a <b>modularisation of banking</b>. <br>Each service becomes a module that can be provided independently (Boot at el., 2021).
+</center>
+<section id="unbundling-of-banking-services" class="level3">
+<h3 class="anchored" data-anchor-id="unbundling-of-banking-services">1. <strong>Unbundling of banking services</strong></h3>
+<p>Banks face competition at each segment against heterogeneous agents<br>
+- <strong>Payments</strong>: <code>PayPal</code>, <code>Wise</code> - <strong>Lending</strong>: <code>Funding Circle</code>, <code>LendingClub</code> - <strong>Deposits</strong>: <code>USDT</code>, <code>USDC</code> (stablecoins)</p>
+</section>
+<section id="re-bundling-of-banking-services-w-or-wo-other-services" class="level3">
+<h3 class="anchored" data-anchor-id="re-bundling-of-banking-services-w-or-wo-other-services">2. <strong>Re-bundling of banking services</strong> (w/ or w/o other services)</h3>
+<p>Fintech/Bigtech build their offerings up - <strong>Payments → credit</strong>: <code>Cash App</code> - <strong>E-commerce platforms → finance</strong>: <code>Amazon Lending</code>, <code>Shopify Capital</code> - <strong>All-in-one app</strong>: <code>Alipay</code>, <code>WeChat Pay</code>, <code>Revolut</code> - <strong>Telecom/BigTech cross-bundles</strong>: <code>Orange Bank</code> (bundling mobile subscription with banking)</p>
+</section>
+</section>
+<section id="digital-impact-on-customer-segments-niche-vs-core" class="level2">
+<h2 class="anchored" data-anchor-id="digital-impact-on-customer-segments-niche-vs-core">Digital Impact on Customer Segments: Niche vs Core</h2>
+<center>
+Digitalisation doesn’t erode banks uniformly
+</center>
+<section id="niches-entry-where-banks-underserve-high-costs-or-weak-offerings" class="level3">
+<h3 class="anchored" data-anchor-id="niches-entry-where-banks-underserve-high-costs-or-weak-offerings">1. <strong>Niches</strong>: Entry where banks underserve (high costs or weak offerings)</h3>
+<ul>
+<li><strong>Remittances</strong>: <code>Wise</code> , <code>Remitly</code></li>
+<li><strong>SME services</strong>: <code>Tide</code>, <code>Holvi</code>, <code>Qonto</code></li>
+<li><strong>Gig-economy</strong>: <code>Chime</code>, <code>Monese</code></li>
+<li><strong>Buy-Now-Pay-Later</strong>: <code>Klarna</code>, <code>Affirm</code>, <code>Apple Pay Later</code>, <code>CashApp</code></li>
+<li><strong>Outliers</strong>: <code>Suitsme</code><br>
+“<em>When banks say no, we say yes</em>”<br>
+“<em>Struggling to open an account after leaving prision? It’s time to try an account that suits you!</em>”</li>
+</ul>
+</section>
+<section id="core-target-banks-primary-revenue-pools." class="level3">
+<h3 class="anchored" data-anchor-id="core-target-banks-primary-revenue-pools.">2. <strong>Core</strong>: Target banks’ primary revenue pools.</h3>
+<ul>
+<li><strong>Payments</strong>: <code>PayPal</code>, <code>Adyen</code>, <code>Apple Pay</code>, <code>Alipay</code></li>
+<li><strong>Deposits</strong>: <code>USDT</code>, <code>USDC</code></li>
+<li><strong>Bank accounts</strong>: <code>Revolut</code>, <code>N26</code></li>
+<li><strong>Credit</strong>: <code>Amazon Lending</code>, <code>Shopify Capital</code></li>
+<li><strong>Mortgages</strong>: <code>Rocket Mortgage</code></li>
+<li><strong>Asset management</strong>: <code>Robinhood</code>, <code>Trade Republic</code></li>
+</ul>
+</section>
+</section>
+<section id="digitalisation-shows-promises-and-pitfalls" class="level2">
+<h2 class="anchored" data-anchor-id="digitalisation-shows-promises-and-pitfalls">Digitalisation Shows Promises and Pitfalls</h2>
+<section id="increased-information-value" class="level3">
+<h3 class="anchored" data-anchor-id="increased-information-value"><strong>Increased information value</strong></h3>
+<ul>
+<li>↓ <strong>information barriers</strong>
+<ul>
+<li>extensive margin: ↑ <strong>new entry</strong></li>
+<li>intensive margin: ↑ <strong>efficiency gains</strong></li>
+</ul></li>
+<li>↑ <strong>innovation</strong> and <strong>adoption</strong></li>
+</ul>
+</section>
+<section id="but-breaking-down-banks-integrated-services-may" class="level3">
+<h3 class="anchored" data-anchor-id="but-breaking-down-banks-integrated-services-may"><strong>But… breaking down banks’ integrated services may</strong></h3>
+<ul>
+<li>Eliminate prior <strong>synergies</strong></li>
+<li>Create <strong>new costs</strong> (e.g.&nbsp;double margins)</li>
+<li>Introduce <strong>new sources of market power</strong> (see later)</li>
+</ul>
+</section>
+</section>
+<section id="open-question" class="level2">
+<h2 class="anchored" data-anchor-id="open-question">Open question</h2>
+<center>
+<b>Banks and Fintech/Bigtech <br> Complementarity vs.&nbsp;Substitution?</b>
+</center>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 53%">
+<col style="width: 46%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Type</th>
+<th>References</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Complement</strong></td>
+<td>- Erel, I., &amp; Liebersohn, J. (2022). <em>Can FinTech reduce disparities in access to finance? Evidence from the Paycheck Protection Program.</em> Journal of Financial Economics, 146(1), 90-118.<br>- Di Maggio, M., Ratnadiwakara, D., &amp; Carmichael, D. (2022). <em>Invisible primes: Fintech lending with alternative data</em> (No.&nbsp;w29840). National Bureau of Economic Research.<br>- Gambacorta, L., Cornelli, G., Frost, J., Rau, R., Wardrop, R., &amp; Ziegler, T. (2020). <em>Fintech and big tech credit: a new database</em> (No.&nbsp;15357). CEPR Discussion Papers.</td>
+</tr>
+<tr class="even">
+<td><strong>Substitute</strong></td>
+<td>- Naceur, S. B., Candelon, B., Elekdag, S., &amp; Emrullahu, D. (2023). <em>Is FinTech Eating the Bank’s Lunch?</em> Journal of International Financial Management &amp; Accounting.<br>- Eça, A., Ferreira, M. A., Prado, M. P., &amp; Rizzo, A. E. (2022). <em>The real effects of fintech lending on SMEs: Evidence from loan applications.</em> ECB Working Paper Series No 2639.<br>- Tang, H. (2019). <em>Peer-to-peer lenders versus banks: substitutes or complements?</em> The Review of Financial Studies, 32(5), 1900-1938.<br>Buchak, G., Matvos, G., Piskorski, T., &amp; Seru, A. (2018). <em>Fintech, Regulatory Arbitrage, and the Rise of Shadow Banks.</em> Journal of Financial Economics, 130, 453-483.</td>
+</tr>
+<tr class="odd">
+<td><strong>Both</strong></td>
+<td>- Di Maggio, M., &amp; Yao, V. (2021). <em>Fintech borrowers: Lax screening or cream-skimming?</em> The Review of Financial Studies, 34(10), 4565-4618.</td>
+</tr>
+</tbody>
+</table>
+<center>
+<b><u>Vertical and horizontal relations</u><br>Threat: retail banking and payments<br>Opportunity: commercial banking and trading services</b>
+</center>
+<center>
+<img src="figures/esrb_fintech_threat.png" width="800">
+<center>
+<center>
+Cecchetti, S., Beck, T., Grothe, M., Kemp, M., Pelizzon, L., &amp; Serrano, A. S. (2022). Will video kill the radio star?–Digitalisation and the future of banking. Reports of the Advisory Scientific Committee, 12.
+</center>
+<center>
+<b><u>Vertical relations</u> <br> Bank x Bigtech for advertisement &amp; Bank x Fintech for white labelling<br> Limited distribution agreements</b>
+</center>
+<center>
+<img src="figures/eba_bank_coop.png" width="700">
+<center>
+<center>
+EBA - Risk Assessment Questionnaire - Spring 2025
+</center>
+<center>
+<b><u>Banks and Fintech </u><br> Cooperation through services, consulting, (low) partnerships<br> Limited acquisition, joint venture plans</b>
+</center>
+<center>
+<img src="figures/ecb_coop.png" width="600">
+<center>
+<center>
+ECB - Take-aways from the horizontal assessment of the survey on digital transformation and the use of fintech - February 2023
+</center>
+<center>
+<b><u>Possible equilibrium</u></b>
+</center>
+<center>
+<img src="figures/barbel.png" width="1000">
+<center>
+<center>
+Feyen, E., Frost, J., Gambacorta, L., Natarajan, H., &amp; Saal, M. (2021). Fintech and the digital transformation of financial services: implications for market structure and public policy. BIS papers.
+</center>
+
+
+</center></center></center></center></center></center></center></center></section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/trkrkn\.github\.io\/mbft\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
