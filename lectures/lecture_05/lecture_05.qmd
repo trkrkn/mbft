@@ -1,0 +1,129 @@
+---
+title: "Lecture 05"
+---
+## Intro to FinTech
+**Page**: [HTML](01_intro.html){target=_blank}
+
+**Slides**:
+[Reveal.js](01_intro.slides.html){target=_blank}
+[PDF](01_intro.slides.pdf){target=_blank}
+
+### Recordings
+#### 0. Intro to Fintech
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    src="https://drive.google.com/file/d/159Sa_B604YsMLMxh9E6xJlGTjKDMXizf/preview"
+    frameborder="0"
+    allowfullscreen
+    style="position: absolute; top:0; left:0; width:100%; height:100%;">
+  </iframe>
+</div>
+
+#### 1. Information Governance
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    src="https://drive.google.com/file/d/156tKbNsUv7REEfT-Nefqi31yyKqzsNa8/preview"
+    frameborder="0"
+    allowfullscreen
+    style="position: absolute; top:0; left:0; width:100%; height:100%;">
+  </iframe>
+</div>
+
+#### 2. Adoption Trends
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    src="https://drive.google.com/file/d/1RdlTgokcvAUZi8R-MMkvc2rp8vVBGpus/preview"
+    frameborder="0"
+    allowfullscreen
+    style="position: absolute; top:0; left:0; width:100%; height:100%;">
+  </iframe>
+</div>
+
+---
+
+## Plaforms
+**Page**: [HTML](02_platform.html){target=_blank}
+
+**Slides**:
+[Reveal.js](02_platform.slides.html){target=_blank}
+[PDF](02_platform.slides.pdf){target=_blank}
+
+### Recordings
+
+#### 0. Overview
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    src="https://drive.google.com/file/d/1J1CByOC41crQMKeAmlzLJYrJogUuLsMB/preview"
+    frameborder="0"
+    allowfullscreen
+    style="position: absolute; top:0; left:0; width:100%; height:100%;">
+  </iframe>
+</div>
+
+#### 1. Intro to Platforms
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    src="https://drive.google.com/file/d/1Fbencc-vaBU6Kq8mFULdwrd_AeqS3qAr/preview"
+    frameborder="0"
+    allowfullscreen
+    style="position: absolute; top:0; left:0; width:100%; height:100%;">
+  </iframe>
+</div>
+
+#### 2. Network Effects
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    src="https://drive.google.com/file/d/1gS0QSedeCeFyiSSFjQmH3AFwzdnifYTo/preview"
+    frameborder="0"
+    allowfullscreen
+    style="position: absolute; top:0; left:0; width:100%; height:100%;">
+  </iframe>
+</div>
+
+
+#### 3. Platforms
+
+**Part 1** 
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    src="https://drive.google.com/file/d/1DbpDO_el5qh3JVwtBO-zhpP2ci9JT_ZQ/preview"
+    frameborder="0"
+    allowfullscreen
+    style="position: absolute; top:0; left:0; width:100%; height:100%;">
+  </iframe>
+</div>
+
+**Part 2**
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    src="https://drive.google.com/file/d/1j1HIaZtE3tUcGC-_79efSTXRA-i1bzeo/preview"
+    frameborder="0"
+    allowfullscreen
+    style="position: absolute; top:0; left:0; width:100%; height:100%;">
+  </iframe>
+</div>
+
+#### 5. BigTech
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    src="https://drive.google.com/file/d/1bxz6ugk2KoaMP4dia3w3vl4SvV_ahF_H/preview"
+    frameborder="0"
+    allowfullscreen
+    style="position: absolute; top:0; left:0; width:100%; height:100%;">
+  </iframe>
+</div>
+---
+
+
+
+
+
