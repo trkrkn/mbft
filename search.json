@@ -637,6 +637,13 @@
     "text": "Slides: PPTX"
   },
   {
+    "objectID": "assignment.html",
+    "href": "assignment.html",
+    "title": "Assignment — Analyzing a FinTech Company",
+    "section": "",
+    "text": "Objective\nThis assignment invites you to connect the theory of modern banking and digital transformation with real-world FinTech business models.\nYou will analyze the economics of a selected FinTech company and report on the related value propositions, challenges and vulnerabilities.\n\n\n\nInstructions\n\nPick one FinTech company from the list below.\n\nStudy the economics of its business model in light of the concepts and models discussed in class.\n\nBe prepared to discuss your analysis in the written exam, where some questions will directly refer to your chosen company.\n\n\n\n\n\n\n\n\nStructure your analysis around the following\n\n\n\n\nFriction:\nIdentify the information governance setup and the information friction the Fintech addresses (e.g., information asymmetry, incompleteness, confidentiality)\nValue Proposition:\nUnderstand how does the company create value and relate it to the above friction. Identify its technological and economic innovation.\nRevenue Model:\nMap out the main way the company makes money. In particular, unpack the allocation of fees and the underlying welfare implications.\nTheoretical Link:\nRelate the company to a model from the course which best helps understand the business model or its role in and challenge for the financial ecosystem.\nChallenges: Using the appropriate model and the details of the company, list out the main issues faced by the companies. Be ready to deeply unpack each item.\n\nPolicy / Regulation: e.g., compliance, data governance, systemic risk, competition.\n\nIndustry: e.g., scalability, competition with incumbents, market sustainability.\n\nVulnerabilities & Threats:\nStrictly referring to the class material and the model chosen, assess the main risks or vulnerabilities faced by the company?\n\n\n\n\n\n\n\nFinTech List\nChoose one of the following companies:\n\n\n\nCompany\nSegment\n\n\n\n\nKlarna\nBuy Now, Pay Later (BNPL)\n\n\nCircle\nBlockchain & Stablecoin Infrastructure\n\n\nRevolut\nNeobank / Financial Super-App\n\n\nUpstart\nAI-Based Lending / Credit Scoring\n\n\nPayPal\nPayment Platform\n\n\nRobinhood\nRetail Investing Platform\n\n\n\n\n\n\nDeliverable\n\nFormat: Study can be done in group; reporting is done independently; synthesis expected within the written exam.\n\nEvaluation: Clarity of reasoning, depth of economic analysis, and ability to connect theory with real-world fintech cases."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Modern Banking and Financial Technology",
@@ -648,7 +655,7 @@
     "href": "index.html#news-announcements",
     "title": "Modern Banking and Financial Technology",
     "section": "News & Announcements",
-    "text": "News & Announcements\n\n03/11/2025\n\nMaterial for Lecture 06 is available\n\n\n\n\n20/10/2025\n\nMaterial and recording for Lecture 05 is available\n\n\n\n\n17/10/2025\n\nMaterial and recording for Lecture 04 is available\n\n\n\n\n10/10/2025\n\nMaterial and recording for Lecture 03 is available\nNew: All Day TA is available for the course.\n\nAll Day TA is an interactive AI tutor trained on the course material and synced with the course schedule for learning support.\n\n\n\n\n\n03/10/2025\n\nMaterial for Lecture 02 is available\nRecordings available for\n\nLast part of Lecture 01 (credit card, payment model and information\nLecture 02\n\n\n\n\n\n25/09/2025\n\nThe course is live\nMaterial for Lecture 01 is available"
+    "text": "News & Announcements\n\n03/11/2025\n\nMaterial for Lecture 06 is available\nAnnouncement for the Assignment is available here\n\n\n\n\n20/10/2025\n\nMaterial and recording for Lecture 05 is available\n\n\n\n\n17/10/2025\n\nMaterial and recording for Lecture 04 is available\n\n\n\n\n10/10/2025\n\nMaterial and recording for Lecture 03 is available\nNew: All Day TA is available for the course.\n\nAll Day TA is an interactive AI tutor trained on the course material and synced with the course schedule for learning support.\n\n\n\n\n\n03/10/2025\n\nMaterial for Lecture 02 is available\nRecordings available for\n\nLast part of Lecture 01 (credit card, payment model and information\nLecture 02\n\n\n\n\n\n25/09/2025\n\nThe course is live\nMaterial for Lecture 01 is available"
   },
   {
     "objectID": "syllabus.html",
