@@ -1,0 +1,61 @@
+---
+title: "Assignment — Analyzing a FinTech Company"
+format: html
+---
+
+### Objective  
+This assignment invites you to connect **the theory of modern banking and digital transformation** with **real-world FinTech business models**.  
+You will analyze the economics of a selected FinTech company and report on the related value propositions, challenges and vulnerabilities.
+
+---
+
+### Instructions
+1. **Pick one FinTech company** from the list below.  
+2. **Study the economics of its business model** in light of the concepts and models discussed in class.  
+3. Be prepared to **discuss your analysis in the written exam**, where some questions will directly refer to your chosen company.
+
+---
+
+::: {.callout-tip title="Structure your analysis around the following"}
+- **Friction:**  
+  Identify the information governance setup and the information friction the Fintech addresses (e.g., information asymmetry, incompleteness, confidentiality)
+
+- **Value Proposition:**  
+  Understand how does the company create value and relate it to the above friction. Identify its technological and economic innovation.
+
+- **Revenue Model:**  
+  Map out the main way the company makes money. In particular, unpack the allocation of fees and the underlying welfare implications.
+
+- **Theoretical Link:**  
+  Relate the company to a model from the course which best helps understand the business model or its role in and challenge for the financial ecosystem.  
+
+- **Challenges:**  Using the appropriate model and the details of the company, list out the main issues faced by the companies. Be ready to deeply unpack each item.
+  - **Policy / Regulation:** e.g., compliance, data governance, systemic risk, competition.  
+  - **Industry:** e.g., scalability, competition with incumbents, market sustainability.  
+
+- **Vulnerabilities & Threats:**  
+  Strictly referring to the class material and the model chosen, assess the main risks or vulnerabilities faced by the company?  
+:::
+
+---
+
+### FinTech List
+
+Choose **one** of the following companies:
+
+| Company | Segment |
+|----------|----------|
+| **`Klarna`** | Buy Now, Pay Later (BNPL) |
+| **`Circle`** | Blockchain & Stablecoin Infrastructure |
+| **`Revolut`** | Neobank / Financial Super-App |
+| **`Upstart`** | AI-Based Lending / Credit Scoring |
+| **`PayPal`** | Payment Platform |
+| **`Robinhood`** | Retail Investing Platform |
+
+---
+
+### Deliverable
+
+- **Format:** Study can be done in group; reporting is done independently; synthesis expected within the written exam.  
+- **Evaluation:** Clarity of reasoning, depth of economic analysis, and ability to connect theory with real-world fintech cases.
+

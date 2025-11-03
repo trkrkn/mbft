@@ -23,7 +23,7 @@ website:
             text: Lecture 04 - Modern Banking pt. 4 
           - href: 'lectures/lecture_05/lecture_05.qmd'
             text: Lecture 05 - Fintech | Plaforms pt. 1
-          - href: ''
+          - href: 'lectures/lecture_06/lecture_06.qmd'
             text: Lecture 06 -  Modern Banking pt. 5 
           - href: ''
             text: Lecture 07 - Platforms pt. 2
@@ -36,7 +36,9 @@ website:
           - href: ''
             text: Lecture 11 - Crypto pt. 2
       - href: 'https://app.alldayta.com/katholieke-universiteit-leuven/mbft'
-        text: All Day TA (**new**)
+        text: All Day TA
+      - href: assignment.qmd
+        text: Assignment (**NEW**)
 
 format:
   html:

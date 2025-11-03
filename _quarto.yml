@@ -36,7 +36,9 @@ website:
           - href: ''
             text: Lecture 11 - Crypto pt. 2
       - href: 'https://app.alldayta.com/katholieke-universiteit-leuven/mbft'
-        text: All Day TA (**new**)
+        text: All Day TA
+      - href: assignment.qmd
+        text: Assignment (**NEW**)
 
 format:
   html:

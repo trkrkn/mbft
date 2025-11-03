@@ -8,6 +8,7 @@ This website accompanies the course of [Modern Banking and Financial Technology 
 
 - **03/11/2025**
 	- Material for **Lecture 06** is available
+    - Announcement for the **Assignment** is available [here](assignment.qmd)
 
 ---
 
