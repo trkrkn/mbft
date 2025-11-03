@@ -21,10 +21,10 @@ website:
             text: Lecture 03 - Modern Banking pt. 3
           - href: 'lectures/lecture_04/lecture_04.qmd'
             text: Lecture 04 - Modern Banking pt. 4 
-          - href: ''
-            text: Lecture 05 - Modern Banking pt. 5 
-          - href: ''
-            text: Lecture 06 - Fintech
+          - href: 'lectures/lecture_05/lecture_05.qmd'
+            text: Lecture 05 - Fintech | Plaforms pt. 1
+          - href: 'lectures/lecture_06/lecture_06.qmd'
+            text: Lecture 06 -  Modern Banking pt. 5 
           - href: ''
             text: Lecture 07 - Platforms pt. 2
           - href: ''

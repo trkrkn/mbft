@@ -66,5 +66,17 @@
   },
   "lectures/lecture_04/06_policy.ipynb": {
     "06_policy.html": "5006b089"
+  },
+  "lectures/lecture_05/01_intro.ipynb": {
+    "01_intro.html": "11933739"
+  },
+  "lectures/lecture_05/lecture_05.qmd": {
+    "lecture_05.html": "c0909884"
+  },
+  "lectures/lecture_05/02_platform.ipynb": {
+    "02_platform.html": "a3770587"
+  },
+  "lectures/lecture_06/lecture_06.qmd": {
+    "lecture_06.html": "1ec2316c"
   }
 }
