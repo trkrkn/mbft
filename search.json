@@ -4,7 +4,7 @@
     "href": "schedule.html",
     "title": "Schedule Fall 2025",
     "section": "",
-    "text": "Date\n#\nPart\nTopics\n\n\n\n\n22/09/2025\n0\nIntroduction\n\n\n\n29/09/2025\n1\nModern Banking\nMoney & Payment\n\n\n06/10/2025  recorded\n2\nModern Banking\nDeposit\n\n\n13/10/2025  recorded\n3\nModern Banking\nCredit\n\n\n20/10/2025  recorded\n4\nModern Banking\nPolicy & Regulation\n\n\n27/10/2025  recorded\n5\nFintech\nOverview\n\n\n\n\nPlatforms\nDigital PlatformsBigTechPolicy\n\n\n03/11/2025\n6\nModern Banking Guest lecture\nFinancial Networks\n\n\n10/11/2025\n7\nPlatforms Guest lecture\nFintech PlatformsOpen Banking\n\n\n17/11/2025\n8\nMachine Learning\nHistoryEconomics of MLPolicy\n\n\n24/11/2025\n9\nMachine Learning Guest lecture\nThe Technology of MLML Application in Finance\n\n\n01/12/2025\n10\nCrypto\nThe Technology of DLTSmart contractsStablecoinsDeFiPolicy\n\n\n08/12/2025\n11\nCrypto Guest lecture\nCentral Bank Digital Currencies\n\n\n15/12/2025\n\nQ&A"
+    "text": "Date\n#\nPart\nTopics\n\n\n\n\n22/09/2025\n0\nIntroduction\n\n\n\n29/09/2025\n1\nModern Banking\nMoney & Payment\n\n\n06/10/2025  recorded\n2\nModern Banking\nDeposit\n\n\n13/10/2025  recorded\n3\nModern Banking\nCredit\n\n\n20/10/2025  recorded\n4\nModern Banking\nPolicy & Regulation\n\n\n27/10/2025  recorded\n5\nFintech\nOverview\n\n\n\n\nPlatforms\nDigital PlatformsBigTechPolicy\n\n\n03/11/2025\n6\nModern Banking Guest lecture\nFinancial Networks\n\n\n10/11/2025\n7\nPlatforms Guest lecture\nFintech PlatformsOpen Banking\n\n\n17/11/2025  recorded\n8\nMachine Learning\nHistoryEconomics of MLPolicy\n\n\n24/11/2025\n9\nMachine Learning Guest lecture\nThe Technology of MLML Application in Finance\n\n\n01/12/2025\n10\nCrypto\nThe Technology of DLTDecentralised FinancePolicy\n\n\n08/12/2025\n11\nCrypto Guest lecture\nCentral Bank Digital Currencies\n\n\n15/12/2025\n\nQ&A"
   },
   {
     "objectID": "lectures/lecture_03/references_credit.html",
@@ -14,32 +14,11 @@
     "text": "Akerlof, G. A. (1970). The market for “lemons”: Quality uncertainty and the market mechanism. Quarterly Journal of Economics, 84(3), 488–500.\nGale, D., & Hellwig, M. (1985). Incentive-compatible debt contracts: The one-period problem. Review of Economic Studies, 52(4), 647–663.\nHolmström, B., & Tirole, J. (1997). Financial intermediation, loanable funds, and the real sector. Quarterly Journal of Economics, 112(3), 663–691.\nStiglitz, J. E., & Weiss, A. (1981). Credit rationing in markets with imperfect information. American Economic Review, 71(3), 393–410.\nTirole, J. (2006). The theory of corporate finance. Princeton University Press.\nTirole, J. (2011). Illiquidity and all its friends. Journal of Economic Literature, 49(2), 287–325.\nTownsend, R. M. (1979). Optimal contracts and competitive markets with costly state verification. Journal of Economic Theory, 21(2), 265–293."
   },
   {
-    "objectID": "lectures/lecture_04/06_policy.html#why-do-banks-need-to-be-regulated",
-    "href": "lectures/lecture_04/06_policy.html#why-do-banks-need-to-be-regulated",
+    "objectID": "lectures/lecture_04/06_policy.html",
+    "href": "lectures/lecture_04/06_policy.html",
     "title": "Policy & Regulation",
-    "section": "Why do banks need to be regulated?",
-    "text": "Why do banks need to be regulated?"
-  },
-  {
-    "objectID": "lectures/lecture_04/06_policy.html#what-is-the-difference-between-regulation-and-policy",
-    "href": "lectures/lecture_04/06_policy.html#what-is-the-difference-between-regulation-and-policy",
-    "title": "Policy & Regulation",
-    "section": "What is the difference between regulation and policy?",
-    "text": "What is the difference between regulation and policy?"
-  },
-  {
-    "objectID": "lectures/lecture_04/06_policy.html#what-is-a-central-bank",
-    "href": "lectures/lecture_04/06_policy.html#what-is-a-central-bank",
-    "title": "Policy & Regulation",
-    "section": "What is a central bank?",
-    "text": "What is a central bank?"
-  },
-  {
-    "objectID": "lectures/lecture_04/06_policy.html#what-are-the-main-challenges-of-policy-and-regulation",
-    "href": "lectures/lecture_04/06_policy.html#what-are-the-main-challenges-of-policy-and-regulation",
-    "title": "Policy & Regulation",
-    "section": "What are the main challenges of policy and regulation?",
-    "text": "What are the main challenges of policy and regulation?"
+    "section": "",
+    "text": "Foundations\nMain pillars of regulation\nInstitutional architecture\nEmerging challenges"
   },
   {
     "objectID": "lectures/lecture_04/06_policy.html#why-regulate",
@@ -105,32 +84,11 @@
     "text": "2. Policy Trade-offs\nFinancial regulation is about managing trade-offs between competing public objectives.\nNo single policy goal — stability, innovation, integrity, or inclusion — can be achieved in isolation.\nEffective governance requires regulators to balance risks and benefits across these dimensions, adapting rules as technology and markets evolve.\n\nStability vs Innovation\n\nStrong prudential and conduct rules protect the system from excessive risk-taking.\n\nYet, overly restrictive regulation may discourage experimentation and slow financial innovation.\n\nExample: strict capital rules can limit bank investment in fintech partnerships or new payment solutions.\n→ Challenge: support innovation while preserving financial stability.\n\n\n\nIntegrity vs Inclusion\n\nAML/CFT rules safeguard economic integrity and prevent illicit finance.\n\nBut strict compliance can lead to de-risking — banks withdrawing from high-risk regions or clients, reducing access to finance.\n\nParticularly affects small remittance providers and emerging economies.\n→ Challenge: fight financial crime without excluding legitimate users from the system.\n\n\n\nNational vs Supranational Oversight\n\nIn the EU, financial supervision is shared between national authorities and EU institutions (ECB, EBA, ESMA, AMLA).\n\nCoordination ensures consistency but can also slow decision-making and create accountability gaps.\n→ Challenge: align diverse national interests under a unified European framework.\n\n\n\nPrivacy vs Security\n\nData-sharing and surveillance are essential for detecting financial crime and systemic risks.\n\nYet they can conflict with data protection and individual privacy (e.g., GDPR constraints vs AML monitoring).\n→ Challenge: find the right balance between public safety and fundamental rights."
   },
   {
-    "objectID": "lectures/lecture_05/02_platform.html#what-are-network-effects",
-    "href": "lectures/lecture_05/02_platform.html#what-are-network-effects",
+    "objectID": "lectures/lecture_05/02_platform.html",
+    "href": "lectures/lecture_05/02_platform.html",
     "title": "Platforms",
-    "section": "What Are Network Effects?",
-    "text": "What Are Network Effects?"
-  },
-  {
-    "objectID": "lectures/lecture_05/02_platform.html#why-do-network-effects-matter-for-markets-and-policy",
-    "href": "lectures/lecture_05/02_platform.html#why-do-network-effects-matter-for-markets-and-policy",
-    "title": "Platforms",
-    "section": "Why Do Network Effects Matter for Markets and Policy?",
-    "text": "Why Do Network Effects Matter for Markets and Policy?"
-  },
-  {
-    "objectID": "lectures/lecture_05/02_platform.html#what-is-a-platform-and-what-is-not-a-platform",
-    "href": "lectures/lecture_05/02_platform.html#what-is-a-platform-and-what-is-not-a-platform",
-    "title": "Platforms",
-    "section": "What Is A Platform and What Is Not A Platform?",
-    "text": "What Is A Platform and What Is Not A Platform?"
-  },
-  {
-    "objectID": "lectures/lecture_05/02_platform.html#why-do-bigtechs-enter-finance",
-    "href": "lectures/lecture_05/02_platform.html#why-do-bigtechs-enter-finance",
-    "title": "Platforms",
-    "section": "Why Do BigTechs Enter Finance?",
-    "text": "Why Do BigTechs Enter Finance?"
+    "section": "",
+    "text": "Introduction\nNetwork Effects\nPlatforms\nBigTech"
   },
   {
     "objectID": "lectures/lecture_05/02_platform.html#within-group-network-effects-direct",
@@ -231,32 +189,11 @@
     "text": "Synthesis: From Banks as Platforms to Platforms as Banks\n\n\n\n\n\n\n\nBanks as Platforms\nPlatforms as Banks\n\n\n\n\nTraditional banks adopt platform models (open banking, APIs, data sharing).\nBigTech platforms embed financial services within digital ecosystems.\n\n\nAim: leverage customer data and third-party innovation.\nAim: deepen user engagement and monetization of data.\n\n\nExample: open banking ecosystems (PSD2, API marketplaces).\nExample: Apple Pay, WeChat Pay, Alipay, Amazon Pay, Google Pay.\n\n\n\nThe boundary between finance and technology is thus becoming bidirectional: - Banks learn to behave like platforms (connecting users, managing data flows).\n- BigTechs evolve into financial intermediaries (storing value, allocating credit).\nThis convergence challenges regulators to define where the financial system begins and ends, and how to preserve stability, competition, and data integrity in a world where platforms mediate nearly all interactions."
   },
   {
-    "objectID": "lectures/lecture_05/01_intro.html#why-do-we-need-banks",
-    "href": "lectures/lecture_05/01_intro.html#why-do-we-need-banks",
+    "objectID": "lectures/lecture_05/01_intro.html",
+    "href": "lectures/lecture_05/01_intro.html",
     "title": "Intro to Financial Technologies",
-    "section": "Why Do We Need Banks?",
-    "text": "Why Do We Need Banks?"
-  },
-  {
-    "objectID": "lectures/lecture_05/01_intro.html#what-is-information-governance",
-    "href": "lectures/lecture_05/01_intro.html#what-is-information-governance",
-    "title": "Intro to Financial Technologies",
-    "section": "What Is Information Governance?",
-    "text": "What Is Information Governance?"
-  },
-  {
-    "objectID": "lectures/lecture_05/01_intro.html#what-is-fintech",
-    "href": "lectures/lecture_05/01_intro.html#what-is-fintech",
-    "title": "Intro to Financial Technologies",
-    "section": "What Is FinTech?",
-    "text": "What Is FinTech?"
-  },
-  {
-    "objectID": "lectures/lecture_05/01_intro.html#how-does-fintech-impact-banking",
-    "href": "lectures/lecture_05/01_intro.html#how-does-fintech-impact-banking",
-    "title": "Intro to Financial Technologies",
-    "section": "How Does FinTech Impact Banking?",
-    "text": "How Does FinTech Impact Banking?"
+    "section": "",
+    "text": "Information Governance in Banking\nAdoption of Financial Technologies"
   },
   {
     "objectID": "lectures/lecture_05/01_intro.html#origin-story",
@@ -385,39 +322,11 @@
     "text": "Cecchetti, S. G., & Schoenholtz, K. L. (2017). Money, banking, and financial markets (5th ed.). New York, NY: McGraw-Hill Education.\nFreixas, X., & Rochet, J.-C. (2008). Microeconomics of banking (3rd ed.). Cambridge, MA: MIT Press.\nGraeber, D. (2011). Debt: The first 5,000 years. Brooklyn, NY: Melville House.\nKocherlakota, N. R. (1998). Money is memory. Journal of Economic Theory, 81(2), 232–251.\nLagos, R., & Wright, R. (2005). A unified framework for monetary theory and policy analysis. Journal of Political Economy, 113(3), 463–484.\nMerton, R. C. (1993). Operation and regulation in financial intermediation: A functional perspective. In P. Englund (Ed.), Operation and regulation of financial markets (pp. 17–67). Stockholm: The Economic Council.\nNosal, E., & Rocheteau, G. (2011). Money, payments, and liquidity. Cambridge, MA: MIT Press. Rochet, J.-C., & Tirole, J. (2003). Platform competition in two-sided markets. Journal of the European Economic Association, 1(4), 990–1029."
   },
   {
-    "objectID": "lectures/lecture_01/01_banking.html#what-is-a-bank",
-    "href": "lectures/lecture_01/01_banking.html#what-is-a-bank",
+    "objectID": "lectures/lecture_01/01_banking.html",
+    "href": "lectures/lecture_01/01_banking.html",
     "title": "Banking",
-    "section": "1. What is a Bank?",
-    "text": "1. What is a Bank?"
-  },
-  {
-    "objectID": "lectures/lecture_01/01_banking.html#why-do-we-need-banks",
-    "href": "lectures/lecture_01/01_banking.html#why-do-we-need-banks",
-    "title": "Banking",
-    "section": "2. Why Do We Need Banks?",
-    "text": "2. Why Do We Need Banks?"
-  },
-  {
-    "objectID": "lectures/lecture_01/01_banking.html#what-makes-banks-unique",
-    "href": "lectures/lecture_01/01_banking.html#what-makes-banks-unique",
-    "title": "Banking",
-    "section": "3. What Makes Banks Unique?",
-    "text": "3. What Makes Banks Unique?"
-  },
-  {
-    "objectID": "lectures/lecture_01/01_banking.html#why-regulate-banks",
-    "href": "lectures/lecture_01/01_banking.html#why-regulate-banks",
-    "title": "Banking",
-    "section": "4. Why Regulate Banks?",
-    "text": "4. Why Regulate Banks?"
-  },
-  {
-    "objectID": "lectures/lecture_01/01_banking.html#what-is-modern-banking",
-    "href": "lectures/lecture_01/01_banking.html#what-is-modern-banking",
-    "title": "Banking",
-    "section": "5. What is Modern Banking?",
-    "text": "5. What is Modern Banking?"
+    "section": "",
+    "text": "Definition of banking\nOrigins of banking\nModern banking"
   },
   {
     "objectID": "lectures/lecture_01/01_banking.html#definition",
@@ -469,6 +378,20 @@
     "text": "3. Payments\nPage: HTML\nSlides Reveal.js PDF\n\nRecordings\n\nCredit Cards\n\n \n\n\n\nA Model of Payments\n\n \n\n\n\nInformation in Payments"
   },
   {
+    "objectID": "lectures/lecture_08/lecture_08.html",
+    "href": "lectures/lecture_08/lecture_08.html",
+    "title": "Lecture 08",
+    "section": "",
+    "text": "Page: HTML\nSlides: Reveal.js PDF"
+  },
+  {
+    "objectID": "lectures/lecture_08/lecture_08.html#machine-learning",
+    "href": "lectures/lecture_08/lecture_08.html#machine-learning",
+    "title": "Lecture 08",
+    "section": "",
+    "text": "Page: HTML\nSlides: Reveal.js PDF"
+  },
+  {
     "objectID": "syllabus.html",
     "href": "syllabus.html",
     "title": "Syllabus",
@@ -508,7 +431,7 @@
     "href": "index.html#news-announcements",
     "title": "Modern Banking and Financial Technology",
     "section": "News & Announcements",
-    "text": "News & Announcements\n\n10/11/2025\n\nMaterial for Lecture 07 is available\n\n\n\n\n03/11/2025\n\nMaterial for Lecture 06 is available\nAnnouncement for the Assignment is available here\n\n\n\n\n20/10/2025\n\nMaterial and recording for Lecture 05 is available\n\n\n\n\n17/10/2025\n\nMaterial and recording for Lecture 04 is available\n\n\n\n\n10/10/2025\n\nMaterial and recording for Lecture 03 is available\nNew: All Day TA is available for the course.\n\nAll Day TA is an interactive AI tutor trained on the course material and synced with the course schedule for learning support.\n\n\n\n\n\n03/10/2025\n\nMaterial for Lecture 02 is available\nRecordings available for\n\nLast part of Lecture 01 (credit card, payment model and information\nLecture 02\n\n\n\n\n\n25/09/2025\n\nThe course is live\nMaterial for Lecture 01 is available"
+    "text": "News & Announcements\n\n14/11/2025\n\nMaterial and recording for Lecture 08 is available\n\n\n\n\n10/11/2025\n\nMaterial for Lecture 07 is available\n\n\n\n\n03/11/2025\n\nMaterial for Lecture 06 is available\nAnnouncement for the Assignment is available here\n\n\n\n\n20/10/2025\n\nMaterial and recording for Lecture 05 is available\n\n\n\n\n17/10/2025\n\nMaterial and recording for Lecture 04 is available\n\n\n\n\n10/10/2025\n\nMaterial and recording for Lecture 03 is available\nNew: All Day TA is available for the course.\n\nAll Day TA is an interactive AI tutor trained on the course material and synced with the course schedule for learning support.\n\n\n\n\n\n03/10/2025\n\nMaterial for Lecture 02 is available\nRecordings available for\n\nLast part of Lecture 01 (credit card, payment model and information\nLecture 02\n\n\n\n\n\n25/09/2025\n\nThe course is live\nMaterial for Lecture 01 is available"
   },
   {
     "objectID": "assignment.html",
@@ -516,6 +439,132 @@
     "title": "Assignment — Analyzing a FinTech Company",
     "section": "",
     "text": "Objective\nThis assignment invites you to connect the theory of modern banking and digital transformation with real-world FinTech business models.\nYou will analyze the economics of a selected FinTech company and report on the related value propositions, challenges and vulnerabilities.\n\n\n\nInstructions\n\nPick one FinTech company from the list below.\n\nStudy the economics of its business model in light of the concepts and models discussed in class.\n\nBe prepared to discuss your analysis in the written exam, where some questions will directly refer to your chosen company.\n\n\n\n\n\n\n\n\nStructure your analysis around the following\n\n\n\n\nFriction:\nIdentify the information governance setup and the information friction the Fintech addresses (e.g., information asymmetry, incompleteness, confidentiality)\nValue Proposition:\nUnderstand how does the company create value and relate it to the above friction. Identify its technological and economic innovation.\nRevenue Model:\nMap out the main way the company makes money. In particular, unpack the allocation of fees and the underlying welfare implications.\nTheoretical Link:\nRelate the company to a model from the course which best helps understand the business model or its role in and challenge for the financial ecosystem.\nChallenges: Using the appropriate model and the details of the company, list out the main issues faced by the companies. Be ready to deeply unpack each item.\n\nPolicy / Regulation: e.g., compliance, data governance, systemic risk, competition.\n\nIndustry: e.g., scalability, competition with incumbents, market sustainability.\n\nVulnerabilities & Threats:\nStrictly referring to the class material and the model chosen, assess the main risks or vulnerabilities faced by the company?\n\n\n\n\n\n\n\nFinTech List\nChoose one of the following companies:\n\n\n\nCompany\nSegment\n\n\n\n\nKlarna\nBuy Now, Pay Later (BNPL)\n\n\nCircle\nBlockchain & Stablecoin Infrastructure\n\n\nRevolut\nNeobank / Financial Super-App\n\n\nUpstart\nAI-Based Lending / Credit Scoring\n\n\nPayPal\nPayment Platform\n\n\nRobinhood\nRetail Investing Platform\n\n\n\n\n\n\nDeliverable\n\nFormat: Study can be done in group; reporting is done independently; synthesis expected within the written exam.\n\nEvaluation: Clarity of reasoning, depth of economic analysis, and ability to connect theory with real-world fintech cases."
+  },
+  {
+    "objectID": "lectures/lecture_08/03_machine_learning.html",
+    "href": "lectures/lecture_08/03_machine_learning.html",
+    "title": "Machine Learning",
+    "section": "",
+    "text": "Introduction to AI\nEconomics of Machine Learning\nAI & Finance\nChallenges\nPolicy & Regulation"
+  },
+  {
+    "objectID": "lectures/lecture_08/03_machine_learning.html#ai-as-a-research-field",
+    "href": "lectures/lecture_08/03_machine_learning.html#ai-as-a-research-field",
+    "title": "Machine Learning",
+    "section": "1.1. AI as a research field",
+    "text": "1.1. AI as a research field\n\n\n\n\nEarly ambitions (1950s-1960s):\n\nAI as the quest to create human-like intelligence in machines.\nThe Turing Test (Turing, 1950): Can machines think?\nDartmouth Conference (1956) – the birth of AI as a field.\n\nFirst wave (1950s-1980s): Symbolic AI and expert systems\n\nAI mostly rule-based, following logic and heuristics.\n\nExamples: ELIZA, chatbot (1960s); MYCIN medical diagnosis system (1970s).\n\n\nLimitations: brittle logic, poor adaptability, lack of learning ability.\n\nAI Winters (1970s, 1980s-1990s)\n\nOverpromises vs. underperformance.\nFailure of expert systems to scale due to increasing complexity.\nRestricted funding.\n\nSecond wave (1990s-2010s): Machine Learning revolution\n\nShift from rule-based AI to data-driven models.\n\nRise of statistical approaches, including decision trees and neural networks.\n\n1997: Deep Blue beats Garry Kasparov in chess.\n\nThird wave (2010s-2020s): Deep Learning and modern AI\n\nExplosion of computing power and data.\nBreakthrough in Deep Learning\n\n2012: AlexNet wins the ImageNet competition\n\nAI applications expand into speech, vision, and finance (e.g., fraud detection, algorithmic trading).\n\nFourth wave (2020s-present): Generative AI, Large Language Models (LLMs)\n\nThe rise of foundation models trained on massive datasets (GPT, BERT, Claude, Gemini).\n\n2020: OpenAI introduces GPT-3, capable of human-like text generation.\n\n2022: ChatGPT launches, sparking mainstream adoption of generative AI.\n\n\nLLMs in finance: Used for document processing, risk assessment, and fraud detection.\n\nRegulatory agenda: misinformation, privacy, AI bias, copyright concerns.\n\n\n\nHistory of AI - Main Takeways\n\nWinters\nMarket adjustment from enthusiasm and structural limitations of new tech\n\n\n“The problem of artificial intelligence has vexed researchers for decades. Even simple tasks such as digit recognition—challenges that we as humans overcome so effortlessly—proved extremely difficult to program.”\n– Mullainathan & Spiess (2017)\n\n\nThe Machine Learning Revolution\nChanges in fundamental approaches with the advent of computational power & data\n→from deduction to induction\n\n\n“Introspection into how our mind solves these problems failed to translate into procedures. The real breakthrough came once we stopped trying to deduce these rules. Instead, the problem was turned into an inductive one: rather than hand-curating the rules, we simply let the data tell us which rules work best.”\n– Mullainathan & Spiess (2017)\n\nExample: Face recognition\n\n\n\nNo hard-wired rules to scan for certain pixel combinations, based on human understanding of what constitutes a face.\nInstead, leverage large dataset of photos labeled with a face or not to estimate a function \\(f(x)\\) that predicts the presence \\(y\\) of a face from pixels \\(x\\)."
+  },
+  {
+    "objectID": "lectures/lecture_08/03_machine_learning.html#the-two-ai-schools",
+    "href": "lectures/lecture_08/03_machine_learning.html#the-two-ai-schools",
+    "title": "Machine Learning",
+    "section": "1.2. The two AI schools",
+    "text": "1.2. The two AI schools\n\nGood Old-Fashioned AI (GOFAI) vs Modern AI\n\n\n\n\n\n\n\n\n\n\nAI Approach\nDescription\nStrengths\nWeaknesses\n\n\n\n\nSymbolic AI\nRules, logic,  and symbolic reasoning\n- Transparency  - Interpretability  - Computationally light\n- Hard to scale  - Inflexible (no learning)  - Human efforts\n\n\nMachine Learning\nStatistical learning  w/ or w/o guidance\n- Adaptability  - Scalability  - Learns w/o predefined rules\n- Data & computation power  - Opacity (“black box”)  - Hidden biases\n\n\n\nKey distinction:\n\nSymbolic AI: explicit programming → If X, then Y\nMachine Learning: implicit programming → Code how to learn\n\nExample: Translation\n\nSymbolic AI: Hard-coded grammar rules and mappings between languages.\n\nMachine Learning: Learns linguistic patterns from translated text corpora (e.g., Google translate, GPT, BERT)."
+  },
+  {
+    "objectID": "lectures/lecture_08/03_machine_learning.html#dominance-of-machine-learning",
+    "href": "lectures/lecture_08/03_machine_learning.html#dominance-of-machine-learning",
+    "title": "Machine Learning",
+    "section": "1.3. Dominance of Machine Learning",
+    "text": "1.3. Dominance of Machine Learning\n\nML’s superior performance in key applications\n\nImage recognition (e.g., facial recognition, medical imaging).\n\nNatural language processing (e.g., chatbots, voice assistants).\n\nFinancial applications (e.g., risk assessment, fraud detection).\n\n\n“The success of machine learning at intelligence tasks is largely due to its ability to discover complex structures that were not specified in advance. It manages to fit complex and very flexible functional forms to the data without simply overfitting; it finds functions that work well out-of-sample.”\n– Mullainathan & Spiess (2017)\n\n\n\nClasses of ML models\nThere 3 broad classes of learning: supervised, unsupervised, reinforcement.\n\nSupervised Learning\nThe model learns from labeled data (i.e., input-output pairs).\n\nRegression: learning a continuous value (e.g., stock prices, real estate values).\nClassification: learning a categorical label (e.g., credit approval, fraud detection).\n\nUnsupervised Learning\nThe model learns from unlabeled data to find hidden patterns or groupings.\n\nClustering: Grouping data points based on similarities (e.g., customer segmentation).\nDimensionality reduction: Reducing the number of features while preserving the most important information (e.g., PCA).\n\nReinforcement Learning\nThe model learns through interactions with an environment and feedback from its actions.\n\nAlgorithmic trading\nRobo-advisor\n\n\n\n\nVisual intuition\nRaw data  \nSupervised learning\nNecessary dimension: Labelled data \n\nSupervised learning\n\n\nUnsupervised learning  \n\n\nMachine Learning Workflow\n\nProblem Definition (Prediction)\nData\n\nCollection\nPreparation: missing values, encoding of categorical variables, etc.\nExploration\nFeature engineering: select suitable features for the predictions\nSplit (see below): training versus evaluation\n\nLearning\n\nModel selection\nTraining\nEvaluation\nTuning\n\nDeployment\n\n\n\nWhy ML dominates modern AI?\nData and computation drive AI progress in Machine Learning\n\nDigitalisation of the economy \\(\\rightarrow\\) data availability \\(\\uparrow\\)\nbig data, user-generated content, etc.\n\nAdvances in computing power and algorithmic performances\ncloud computing, GPUs, TPUs, etc.\ndeep learning, transformers, etc.\n\n\nWhat’s the difference with standard econometrics?\nMachine learning solves a different problem:\nPrediction (\\(Y\\)) vs Estimation (\\(\\beta\\)):\n\\[Y = \\beta_0 + \\beta_1 X\\]\n\nTraditional economic applications: Estimation\n→produce good estimates of \\(\\beta\\) to model the relationship between \\(Y\\) and \\(X\\).\nMachine learning applications: Prediction\n→ produce a good predictor of \\(Y\\) given \\(X\\)\n\nPrediction vs Causality\n\n\n\nGenAI\nGenerative AI (LLMs, GPTs, etc.) builds on the same foundation as traditional machine learning: learning from data to make predictions.\nBeyond Prediction, GenAI generates new data (text, images, etc.) by sampling from the probability distribution learned for prediction.\nIn other words:\n\n\n\n\nModern machine learning is fundamentally about prediction.\n\nPrediction involves learning a probability distribution over possible outcomes.\n\nOnce this probability distribution is learned, the model can be used not only to predict but also to generate new outputs.\n\nThis is the essence of Generative AI: producing new content by sampling from the learned distribution.\n\n\n\n\n\n\n\n\nLimitations remain\n\nExplainability problem: Hard to understand how ML models produce outputs.\n\nData dependency: Requires large, high-quality datasets.\n\nEthical concerns: Bias, fairness, privacy issues."
+  },
+  {
+    "objectID": "lectures/lecture_08/03_machine_learning.html#the-technology-of-ml",
+    "href": "lectures/lecture_08/03_machine_learning.html#the-technology-of-ml",
+    "title": "Machine Learning",
+    "section": "2.1. The technology of ML",
+    "text": "2.1. The technology of ML\n\nEconomics 101: what is a technology?\n\nA technology = a tool that reduces the cost of producing some good or service.\n\nExamples:\n\nSteam engine: \\(\\downarrow\\) cost of transportation and manufacturing.\nPrinting press: \\(\\downarrow\\) cost of information dissemination.\nElectricity: \\(\\downarrow\\) cost of mechanical power and lighting.\n\n\n\nWhat cost does Machine Learning reduce?\n\nMachine Learning reduces the cost of prediction\n\n\nPrediction: infer missing data (past, present, future).\nTraditionally expensive due to:\n\nHuman expertise (analysts, forecasters).\nManual data collection and limited statistical modeling.\nLimited computing power.\n\n\n\n\nThe decision ecosystem\n\n Agrawal, A., Gans, J., & Goldfarb, A. (2022).\n\n\n💡GenAI = Prediction + Action💡\n\n\n\nComplements and substitutes to prediction\n\n\n\n\n\n\n\nComplements\nSubstitutes\n\n\n\n\nInfrastructure & compute power\nRules-based systems\n\n\nData production & access\nTraditional prediction models\n\n\nHuman expertise (Causality & Strategy)\nHuman forecasters & analysts\n\n\nEthical & regulatory compliance\nRedundant or low-quality data"
+  },
+  {
+    "objectID": "lectures/lecture_08/03_machine_learning.html#key-complement-to-ml-data",
+    "href": "lectures/lecture_08/03_machine_learning.html#key-complement-to-ml-data",
+    "title": "Machine Learning",
+    "section": "2.2. Key complement to ML: Data",
+    "text": "2.2. Key complement to ML: Data\n\nThe value of data\n\nData conditions the growth of Machine Learning\n\nExistence of data determines applicability\nQuality (labeling) and quantity determines power\n\nFirms with superior data access have a significant and self-improving competitive advantage.\n\nFlywheel effect\n\n\n\n\n\nThe organization of data: production and access\n\nData as a competitive moat: incumbent firm want exclusive access to data\n\nFlywheel & Network effects\nEntry barriers\nWinner-take-all\n\nData-sharing: opening data access has trade-offs\n\nImproves competition\nSubject to privacy preferences\nDistorts incentives to produce data\n\n\nRegulations and data-production/sharing frameworks shape the economics of AI development."
+  },
+  {
+    "objectID": "lectures/lecture_08/03_machine_learning.html#the-limits-of-ml-and-ai-snake-oil",
+    "href": "lectures/lecture_08/03_machine_learning.html#the-limits-of-ml-and-ai-snake-oil",
+    "title": "Machine Learning",
+    "section": "2.3. The limits of ML and “AI snake oil”",
+    "text": "2.3. The limits of ML and “AI snake oil”\n\nTurning problems into prediction problems\nThe Art of Machine Learning:\n\nReframe problem as prediction task\nFind reliable data sources to improve performance through prediction (historical, alternative, feed, etc.)\n\nExamples:\n\nTranslation: Predict the most likely correct translation using same copies of digital books.\n\nSelf-driving cars: Predict most likely human action using sensory data.\nFinance: Predict likelihood of fraudulent activity using historical transaction data.\n\n\n\nLimits of predictions\nNot all problems are prediction problems: role of reasoning, causality, or logic.\nNot all prediction problems are ML problems: unfit data to perform prediction (e.g., early days of COVID-19)\nSymbolic AI vs ML:\n\nSymbolic AI (rule-based) does not need data but lacks adaptability.\n\nML leverages data but struggles with causality and reasoning.\n\n\n\nAI Snake Oil Argument (Arvind Narayanan, 2024)\nSome AI solutions are hyped but lack real economic value.\nExample: AI for job interviews, grant allocation → unreliable and pseudoscientific.\nLesson: AI-ML works best where prediction is\n\nGenuinely feasible: it relies on credible data input\nUseful: the prediction environment is not too volatile"
+  },
+  {
+    "objectID": "lectures/lecture_08/03_machine_learning.html#the-ai-bandwagon",
+    "href": "lectures/lecture_08/03_machine_learning.html#the-ai-bandwagon",
+    "title": "Machine Learning",
+    "section": "3.1. The AI bandwagon",
+    "text": "3.1. The AI bandwagon\n\n\n\nConsultant speach for any X industry\n\nEfficiency Gains: AI automates processes, streamlines operational costs.\nBetter Decision-Making: AI improves risk assessment, document treatment and anomaly detection.\nEnhanced Customer Experience: Chatbots, personalized recommendations, and automated services.\n\n… anything specific to finance?"
+  },
+  {
+    "objectID": "lectures/lecture_08/03_machine_learning.html#prediction-in-finance",
+    "href": "lectures/lecture_08/03_machine_learning.html#prediction-in-finance",
+    "title": "Machine Learning",
+    "section": "3.2. Prediction in finance",
+    "text": "3.2. Prediction in finance\n\nFinance is about the allocation of capital and risk.  The main barrier to achieving an efficient equilibrium is information frictions.\n\nUnderstanding the role of AI in finance begins with understanding that every financial innovation—from credit rating to AI or blockchain—is ultimately a response to an information problem.\n\nThe nature of financial information\nFinancial systems exist because information is imperfect, incomplete, or costly to obtain.\n\n\n\n\n\n\n\nMarket Friction\nDescription\n\n\n\n\nBank runs\nBanks don’t know when depositors will withdraw their funds.\n\n\nAsymmetric information\nBorrowers know more about their ability to repay than lenders.\n\n\nAdverse selection\nInvestors struggle to distinguish good projects from bad.\n\n\nMoral hazard\nIndividuals may take hidden risks once insured.\n\n\nConfidentiality\nCompanies and citizens may hesitate to share sensitive information.\n\n\n\nRaison d’etre for financial contracts, intermediaries, rating agencies, and regulatory frameworks\n→ They exist to manage these frictions, to reduce uncertainty, and to allocate capital more efficiently."
+  },
+  {
+    "objectID": "lectures/lecture_08/03_machine_learning.html#the-impact-of-ai-in-finance",
+    "href": "lectures/lecture_08/03_machine_learning.html#the-impact-of-ai-in-finance",
+    "title": "Machine Learning",
+    "section": "3.3. The impact of AI in finance",
+    "text": "3.3. The impact of AI in finance\n\nTraditional finance\nTraditional financial businesses have long relied on information to assess risk, allocate capital, and optimize decision-making.\n\n\n\n\n\n\n\nApplication Area\nDescription\n\n\n\n\nCredit scoring & lending\nTraditional banks evaluate borrower creditworthiness using historical financial information.\n\n\nInvestment advisory\nFinancial advisors and wealth management firms analyze market trends and client portfolios.\n\n\nTrading & market making\nInvestment banks and hedge funds leverage proprietary research and asset returns data to execute trades.\n\n\nFraud & compliance\nFinancial institutions analyze transaction patterns and user behavior to identify anomalies, such as unauthorized transactions or money laundering attempts.\n\n\n\n\n\nThe value proposition of AI in Finance\n\nThe value proposition of Machine Learning in finance is  to reduce information frictions through superior data-driven prediction\n\nIn modern economies, information is stored in the form of data.\n→ Large amounts of data being produced with relevant signals for financial applications:\n\ndigital traces (e.g., transactions),\ninvestment/trading behavior,\ncustomer details,\nmarket signals,\nsensory data (smart wearables, warehouse trackers, etc.),\nsocial media, etc..\n\nApplying Machine Learning to financial applications will leverage such pools of data to improve prediction.\n\nInformation frictions\nRelevant Prediction problems everywhere in finance:\n\nIncomplete information: AI may enhance forecasting accuracy (bank run, sentiment, market movements)\nAsymmetric information: AI may help mitigate issues of:\n\nScreening: Predict risk of default (adverse selection).\n\nMonitoring: Detect anomalous activity (moral hazard).\n\n\nObfuscated information: AI may uncover hidden insights (triangulation)\n\n\n\n\nPrediction applications\n\n1. Credit Scoring\nPredicting default\n\nPrediction: ML predicts likelihood of loan default more accurately than traditional rule-based credit models by identifying complex patterns in borrower behavior.\n\nHow ML Reduces Cost:\n\nAutomates the credit assessment process, reducing manual underwriting costs.\nLowers default rates by improving risk assessment.\nEnables financial institutions to extend credit to underserved customers by analyzing alternative data (e.g., transaction history, utility bill payments).\n\n\nExample: ML-based credit models allow fintech lenders to approve loans faster while maintaining risk control, increasing financial inclusion.\n\n\n\n2. Fraud Detection\nPredicting illicit activities\n\nPrediction Aspect: ML predicts fraudulent transactions in real-time by detecting anomalies in spending behavior and transaction patterns.\n\nHow ML Reduces Cost:\n\nReduces financial losses from fraud by flagging suspicious transactions before they are processed.\nDecreases the reliance on manual fraud detection teams, lowering operational costs.\nImproves customer experience by reducing false positives in fraud detection systems.\n\n\nExample: ML-based fraud detection systems in credit card transactions use anomaly detection to prevent unauthorized transactions, reducing fraud-related losses for banks and consumers.\n\n\n\n3. Algorithmic Trading\nPredict market movements and best-responses\n\nPrediction Aspect: ML models analyze historical market data, news sentiment, and macroeconomic indicators to predict asset price movements and execute trades accordingly.\n\nHow ML Reduces Cost:\n\nMinimizes human error and emotional biases in trading decisions.\nReduces the need for large trading teams by automating strategy execution.\nOptimizes trade execution, reducing slippage and transaction costs.\n\n\nExample: Hedge funds and proprietary trading firms use reinforcement learning models to develop adaptive trading strategies that dynamically adjust to changing market conditions, improving profitability.\n\n\n\n4. Customer Service\nPredict customer needs\n\nPrediction Aspect: ML predicts customer inquiries and automates responses through Natural Language Processing (NLP), reducing the need for human intervention.\n\nHow ML Reduces Cost:\n\nCuts customer support expenses by replacing human agents with AI-powered chatbots.\nReduces response time, improving customer satisfaction and retention.\nAllows 24/7 customer service at a fraction of the cost of human-operated call centers.\n\n\nExample: AI-powered virtual assistants like Erica (Bank of America) and Cleo help customers check balances, track expenses, and receive financial recommendations, lowering operational costs for banks while enhancing user experience.\n\n\n\n\nThe integration of AI\nEveryone is after it\n\nIncumbents leveraging data access (banks, payments, insurance, asset managers, etc.)\nNewcomers exploiting new data opportunities\n\nFintech (neo banks, robo advisors, platforms, etc.): alternative data, superior prediction\nBigTech (apple pay, amazon credit, etc.): massive data, superior prediction, computing power, user base\n\n\n\n\nTrends\n\nLending\n\nTraditional banking: AI is used to refine profiling and pricing of loan products\n\nJPMorgan Chase 1st in AI Evident Index.\n\nNew businesses:\n\nFintech lending platforms incorporate alternative data for credit scoring\n\nRocket Mortgage for mortgages\nUpstart for personal/car loans\nKlarna for BNPL\n\nPeer-to-peer lending platforms leverage AI-driven risk assessment models\n\nLendingClub, Prosper\n\nBigTech lending leveraging activity data on the platform\n\nAmazon\n\n\n\n\n\nInvestment\n\nWealth management: Robo-advisors apply machine learning to portfolio management and asset allocation\n\nBetterment for financial advice\nWealthfront for automated investing\n\nCrowdfunding: AI enhances risk assessment in crowdfunding platforms\n\nKickstarter, Seedrs\n\n\n\n\nTrading\n\nAlgorithmic trading uses AI for market-making and high-frequency trading\n\nRenaissance Technologies, Citadel Securities\n\n\nAI-driven sentiment analysis interprets news, reports, and social media for trading insights\n\nKavout\n\n\n\n\nFraud Detection & Compliance\n\nAI models identify patterns of fraudulent transactions in real-time\n\nVisa, Mastercard\n\n\nAI supports compliance efforts in areas such as AML (Anti-Money Laundering) and KYC (Know Your Customer)\n\nComplyAdvantage for AML\nFeedzai for fraud"
+  },
+  {
+    "objectID": "lectures/lecture_08/03_machine_learning.html#information-barriers",
+    "href": "lectures/lecture_08/03_machine_learning.html#information-barriers",
+    "title": "Machine Learning",
+    "section": "4.1. Information barriers",
+    "text": "4.1. Information barriers\n\nTrade-off between data sharing & privacy: Incentives to share vs. risk of exposure.\n\nData ownership & control: Who owns financial data—customers or firms?\n\nOpen Data policies\n\nOpen Banking & Open Finance: Expanding access to financial data.\n\nCosts vs. benefits: Interoperability challenges, regulatory hurdles, incentives to innovate.\n\nCompatibility issues: Ensuring seamless integration of AI across financial institutions."
+  },
+  {
+    "objectID": "lectures/lecture_08/03_machine_learning.html#ethics-and-fairness",
+    "href": "lectures/lecture_08/03_machine_learning.html#ethics-and-fairness",
+    "title": "Machine Learning",
+    "section": "4.2 Ethics and fairness",
+    "text": "4.2 Ethics and fairness\n\nData-path dependencies and embedded biases\nJoy Buolamwini, 2023 - Unmasking AI: My Mission to Protect What Is Human in a World of Machines\n\n\n\n\n\nTriangulation\nYves-Alexandre de Montjoie et al. - Unique in the shopping mall - Science, 2015\n\n\n\n\n\nWinners and losers of AI adoption: improving prediction technology has both extensive and intensive margin effects\nFuster et al. - Predictably unequal? - Journal of Finance"
+  },
+  {
+    "objectID": "lectures/lecture_08/03_machine_learning.html#toxic-data",
+    "href": "lectures/lecture_08/03_machine_learning.html#toxic-data",
+    "title": "Machine Learning",
+    "section": "4.3. Toxic data",
+    "text": "4.3. Toxic data\n\nTuring’s nightmare: AI-generated content may contaminate original data.\nContribution halt: AI-usage may block the natural human production of data\n\nAcemoglu et al., 2025: Wikipedia activity drop after ChatGPT\n\nAI Model Collapse: Chained dependence on flawed data may amplify error and destroy information value.\n\nShumailov et al., 2024\nGeorg and Roukny, 2025\n\nWatermarking data: Preventing AI-generated content from contaminating financial data."
+  },
+  {
+    "objectID": "lectures/lecture_08/03_machine_learning.html#agentic-ai",
+    "href": "lectures/lecture_08/03_machine_learning.html#agentic-ai",
+    "title": "Machine Learning",
+    "section": "4.4. Agentic AI",
+    "text": "4.4. Agentic AI\n\nAutonomous AI agents: When decision is coupled with predictions.\n\nFlash crashes & AI-driven volatility: Historical examples of AI-induced market instability.\nAlgorithmic collusion\n\nCalvano et al., 2020 - Artificial Intelligence, Algorithmic Pricing, and Collusion - American Economic Review\n\nAI Alignment"
+  },
+  {
+    "objectID": "lectures/lecture_08/03_machine_learning.html#why-policy-and-regulation-matter",
+    "href": "lectures/lecture_08/03_machine_learning.html#why-policy-and-regulation-matter",
+    "title": "Machine Learning",
+    "section": "Why Policy and Regulation Matter",
+    "text": "Why Policy and Regulation Matter\nRegulation must evolve with technology — from Basel I (credit risk) to DORA, MiCA, and now the AI Act.\n\nAI and ML transform how financial intermediation operates: who holds information, how risk is priced, how accountability is ensured.\n\nTraditional prudential, conduct, and market integrity frameworks were designed for human decision-making.\n\nML introduces new information frictions: opacity, data dependence, feedback loops.\n\nRegulators now face questions of explainability, accountability, and fairness."
+  },
+  {
+    "objectID": "lectures/lecture_08/03_machine_learning.html#recent-policy-efforts-on-ai-in-banking",
+    "href": "lectures/lecture_08/03_machine_learning.html#recent-policy-efforts-on-ai-in-banking",
+    "title": "Machine Learning",
+    "section": "Recent Policy Efforts on AI in Banking",
+    "text": "Recent Policy Efforts on AI in Banking\n\n1. EU Artificial Intelligence Act (2024)\n\nFirst comprehensive AI regulation globally.\n\nRisk-based approach: minimal, limited, high, and unacceptable risk categories.\n\nFinancial services (e.g., credit scoring, insurance underwriting) are “high-risk”.\n\nRequires:\n\nHuman oversight and transparency\n\nData quality and bias controls\n\nRobust documentation and governance\n\n\nEntered into force 1 August 2024; high-risk rules phase in by 2026.\n\nImplication for banks: ML credit models, robo-advice, and AML monitoring now fall under AI compliance regimes.\n\n\n2. European Banking Authority (EBA) – Special Topic on AI (2024/2025)\n\nEBA mapped AI use across EU banks:\n\nRegression, decision trees, NLP, neural networks.\n\n~40% already using General-Purpose AI (GPAI).\n\n\nFocus areas:\n\nGovernance and validation of models.\n\nExplainability and internal control functions.\n\nSupervisory coordination under the EU AI Act.\n\n\nLays groundwork for supervisory expectations on AI model risk.\n\nEmbeds AI into the prudential supervision toolkit.\n\n\n\n\n3. Financial Stability Board (FSB) – Global Monitoring (2024)\n\nReport: “Monitoring Adoption of Artificial Intelligence and Related Risks.”\n\nHighlights systemic risks:\n\nConcentration in third-party providers (e.g., cloud, data).\n\nModel risk and correlated errors.\n\nCyber and operational dependencies.\n\n\nEncourages jurisdictions to align AI risk management with financial stability objectives.\n\nTakeaway: AI regulation extends beyond conduct — it’s a macroprudential issue.\n\n\n4. ESMA Supervisory Statement (May 2024)\n\nInvestment firms and banks remain fully responsible for AI decisions.\n\nNo delegation of accountability to algorithms.\n\nRequires governance documentation and model explainability.\n\nPrinciple: “Responsibility cannot be outsourced to AI.”"
+  },
+  {
+    "objectID": "lectures/lecture_08/03_machine_learning.html#mapping-policy-objectives-to-ai-challenges",
+    "href": "lectures/lecture_08/03_machine_learning.html#mapping-policy-objectives-to-ai-challenges",
+    "title": "Machine Learning",
+    "section": "Mapping Policy Objectives to AI Challenges",
+    "text": "Mapping Policy Objectives to AI Challenges\n\n\n\n\n\n\n\n\nObjective\nAI-Driven Challenge\nRegulatory Response\n\n\n\n\nFinancial stability\nAlgorithmic risk & model drift\nFSB monitoring, Basel governance\n\n\nConsumer protection\nBias in credit scoring\nEU AI Act, FEAT, GDPR\n\n\nMarket integrity\nManipulative algorithms\nMiFID II, ESMA guidance\n\n\nOperational resilience\nCloud & model dependency\nDORA\n\n\nCompetition & data concentration\nBigTech data dominance\nOpen Data / PSD3 proposals"
+  },
+  {
+    "objectID": "lectures/lecture_08/03_machine_learning.html#common-policy-themes",
+    "href": "lectures/lecture_08/03_machine_learning.html#common-policy-themes",
+    "title": "Machine Learning",
+    "section": "Common Policy Themes",
+    "text": "Common Policy Themes\n\nAccountability: Human oversight for algorithmic decisions.\n\nExplainability: Transparent and auditable models.\n\nFairness: Avoid bias in data-driven decisions.\n\nData governance: Secure, lawful, and interoperable data use.\n\nCross-border consistency: Prevent regulatory arbitrage.\n\nRegulation of AI is regulation of information governance."
   },
   {
     "objectID": "lectures/lecture_06/lecture_06.html",
@@ -532,32 +581,11 @@
     "text": "Slides: PPTX"
   },
   {
-    "objectID": "lectures/lecture_01/02_money.html#where-does-money-come-from",
-    "href": "lectures/lecture_01/02_money.html#where-does-money-come-from",
+    "objectID": "lectures/lecture_01/02_money.html",
+    "href": "lectures/lecture_01/02_money.html",
     "title": "Money",
-    "section": "1. Where Does Money Come From?",
-    "text": "1. Where Does Money Come From?"
-  },
-  {
-    "objectID": "lectures/lecture_01/02_money.html#why-do-we-need-money",
-    "href": "lectures/lecture_01/02_money.html#why-do-we-need-money",
-    "title": "Money",
-    "section": "2. Why Do We Need Money?",
-    "text": "2. Why Do We Need Money?"
-  },
-  {
-    "objectID": "lectures/lecture_01/02_money.html#what-is-money",
-    "href": "lectures/lecture_01/02_money.html#what-is-money",
-    "title": "Money",
-    "section": "3. What is Money?",
-    "text": "3. What is Money?"
-  },
-  {
-    "objectID": "lectures/lecture_01/02_money.html#how-to-control-money",
-    "href": "lectures/lecture_01/02_money.html#how-to-control-money",
-    "title": "Money",
-    "section": "4. How to Control Money?",
-    "text": "4. How to Control Money?"
+    "section": "",
+    "text": "Origins of Money\nA Model of Money\nThe Need for Money\nThe Value of Money\nThe Definition of Money\nThe Governance of Money"
   },
   {
     "objectID": "lectures/lecture_01/02_money.html#how-do-we-organise-exchange-debt-vs-barter",
@@ -672,32 +700,11 @@
     "text": "Cecchetti, S. G., & Schoenholtz, K. L. (2017). Money, banking, and financial markets (5th ed.). New York, NY: McGraw-Hill Education.\nFreixas, X., & Rochet, J.-C. (2008). Microeconomics of banking (3rd ed.). Cambridge, MA: MIT Press.\nGraeber, D. (2011). Debt: The first 5,000 years. Brooklyn, NY: Melville House.\nKocherlakota, N. R. (1998). Money is memory. Journal of Economic Theory, 81(2), 232–251.\nLagos, R., & Wright, R. (2005). A unified framework for monetary theory and policy analysis. Journal of Political Economy, 113(3), 463–484.\nMerton, R. C. (1993). Operation and regulation in financial intermediation: A functional perspective. In P. Englund (Ed.), Operation and regulation of financial markets (pp. 17–67). Stockholm: The Economic Council.\nNosal, E., & Rocheteau, G. (2011). Money, payments, and liquidity. Cambridge, MA: MIT Press. Rochet, J.-C., & Tirole, J. (2003). Platform competition in two-sided markets. Journal of the European Economic Association, 1(4), 990–1029."
   },
   {
-    "objectID": "lectures/lecture_01/03_payment.html#what-are-the-different-forms-of-payment",
-    "href": "lectures/lecture_01/03_payment.html#what-are-the-different-forms-of-payment",
+    "objectID": "lectures/lecture_01/03_payment.html",
+    "href": "lectures/lecture_01/03_payment.html",
     "title": "Payments",
-    "section": "1. What are the Different Forms of Payment?",
-    "text": "1. What are the Different Forms of Payment?"
-  },
-  {
-    "objectID": "lectures/lecture_01/03_payment.html#how-payments-work-today",
-    "href": "lectures/lecture_01/03_payment.html#how-payments-work-today",
-    "title": "Payments",
-    "section": "2. How Payments Work Today?",
-    "text": "2. How Payments Work Today?"
-  },
-  {
-    "objectID": "lectures/lecture_01/03_payment.html#what-is-special-about-the-economics-of-payments",
-    "href": "lectures/lecture_01/03_payment.html#what-is-special-about-the-economics-of-payments",
-    "title": "Payments",
-    "section": "3. What is Special About the Economics of Payments?",
-    "text": "3. What is Special About the Economics of Payments?"
-  },
-  {
-    "objectID": "lectures/lecture_01/03_payment.html#should-payment-systems-be-centralised",
-    "href": "lectures/lecture_01/03_payment.html#should-payment-systems-be-centralised",
-    "title": "Payments",
-    "section": "4. Should Payment Systems Be Centralised?",
-    "text": "4. Should Payment Systems Be Centralised?"
+    "section": "",
+    "text": "Means of Payment\nPayment Infrastructures\nA Model of Payment\nInformation in Payments"
   },
   {
     "objectID": "lectures/lecture_01/03_payment.html#commodity-money",
@@ -791,39 +798,11 @@
     "text": "Privacy Trade-Off\n\nIndividuals: value privacy for autonomy, consumption, political activity.\n\nStates & regulators: value transparency to combat illicit finance, tax evasion.\n\nBanks & platforms: monetize data (advertising, credit scoring).\n\nMore centralization → more control and efficiency, but less privacy.\nMore privacy (cash, decentralized tokens) → harder regulation, higher risk of illicit use.\n\nCurrent Debates\nBalance privacy rights with financial integrity and security.\nCentral Bank Digital Currencies (CBDC)\n\nLikely built on centralized or semi-centralized ledgers.\n\nKey design question: allow anonymity like cash, or ensure full traceability?\n\nCryptocurrencies\n\nPromise decentralization and privacy.\n\nIn reality: pseudonymous, not anonymous.\n\nExchanges pressured to apply KYC/AML.\n\nBigTech platforms\n\nCentralize payment data for billions of users.\n\nRaise concerns about surveillance capitalism and private concentration of financial data."
   },
   {
-    "objectID": "lectures/lecture_02/04_deposits.html#what-are-deposits",
-    "href": "lectures/lecture_02/04_deposits.html#what-are-deposits",
+    "objectID": "lectures/lecture_02/04_deposits.html",
+    "href": "lectures/lecture_02/04_deposits.html",
     "title": "Deposits",
-    "section": "1. What are deposits?",
-    "text": "1. What are deposits?"
-  },
-  {
-    "objectID": "lectures/lecture_02/04_deposits.html#why-do-we-need-deposits",
-    "href": "lectures/lecture_02/04_deposits.html#why-do-we-need-deposits",
-    "title": "Deposits",
-    "section": "2. Why do we need deposits?",
-    "text": "2. Why do we need deposits?"
-  },
-  {
-    "objectID": "lectures/lecture_02/04_deposits.html#what-is-the-risk-of-offering-deposits",
-    "href": "lectures/lecture_02/04_deposits.html#what-is-the-risk-of-offering-deposits",
-    "title": "Deposits",
-    "section": "3. What is the risk of offering deposits?",
-    "text": "3. What is the risk of offering deposits?"
-  },
-  {
-    "objectID": "lectures/lecture_02/04_deposits.html#how-can-we-prevent-such-risk",
-    "href": "lectures/lecture_02/04_deposits.html#how-can-we-prevent-such-risk",
-    "title": "Deposits",
-    "section": "4. How can we prevent such risk?",
-    "text": "4. How can we prevent such risk?"
-  },
-  {
-    "objectID": "lectures/lecture_02/04_deposits.html#what-are-shadow-banks",
-    "href": "lectures/lecture_02/04_deposits.html#what-are-shadow-banks",
-    "title": "Deposits",
-    "section": "5. What are shadow banks?",
-    "text": "5. What are shadow banks?"
+    "section": "",
+    "text": "Value of Deposits\nA Model of Deposits\nThe Fragility of Deposits\nPolicy Implications\nShadow Banks\nInformation and Runs"
   },
   {
     "objectID": "lectures/lecture_02/04_deposits.html#what-is-a-deposit",
@@ -994,32 +973,11 @@
     "text": "Page: HTML\nSlides: Reveal.js PDF"
   },
   {
-    "objectID": "lectures/lecture_03/05_credit.html#what-is-a-debt-contract",
-    "href": "lectures/lecture_03/05_credit.html#what-is-a-debt-contract",
+    "objectID": "lectures/lecture_03/05_credit.html",
+    "href": "lectures/lecture_03/05_credit.html",
     "title": "Credit",
-    "section": "What is a debt contract?",
-    "text": "What is a debt contract?"
-  },
-  {
-    "objectID": "lectures/lecture_03/05_credit.html#why-are-debt-contracts-so-prevalent",
-    "href": "lectures/lecture_03/05_credit.html#why-are-debt-contracts-so-prevalent",
-    "title": "Credit",
-    "section": "Why are debt contracts so prevalent?",
-    "text": "Why are debt contracts so prevalent?"
-  },
-  {
-    "objectID": "lectures/lecture_03/05_credit.html#when-do-debt-markets-fail",
-    "href": "lectures/lecture_03/05_credit.html#when-do-debt-markets-fail",
-    "title": "Credit",
-    "section": "When do debt markets fail?",
-    "text": "When do debt markets fail?"
-  },
-  {
-    "objectID": "lectures/lecture_03/05_credit.html#why-do-we-need-banks-for-credit",
-    "href": "lectures/lecture_03/05_credit.html#why-do-we-need-banks-for-credit",
-    "title": "Credit",
-    "section": "Why do we need banks for credit?",
-    "text": "Why do we need banks for credit?"
+    "section": "",
+    "text": "Financial contracts\nThe cheapness of debt\nThe failure of credit markets\nThe structure of credit markets"
   },
   {
     "objectID": "lectures/lecture_03/05_credit.html#overview-of-the-lecture",

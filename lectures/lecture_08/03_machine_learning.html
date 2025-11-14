@@ -1,0 +1,1688 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Machine Learning – Modern Banking and Financial Technology</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Modern Banking and Financial Technology</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../syllabus.html"> 
+<span class="menu-text">Syllabus</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../schedule.html"> 
+<span class="menu-text">Schedule</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lectures" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lectures</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lectures">    
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_01/lecture_01.html">
+ <span class="dropdown-text">Lecture 01 - Modern Banking pt.&nbsp;1</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_02/lecture_02.html">
+ <span class="dropdown-text">Lecture 02 - Modern Banking pt.&nbsp;2</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_03/lecture_03.html">
+ <span class="dropdown-text">Lecture 03 - Modern Banking pt.&nbsp;3</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_04/lecture_04.html">
+ <span class="dropdown-text">Lecture 04 - Modern Banking pt.&nbsp;4</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_05/lecture_05.html">
+ <span class="dropdown-text">Lecture 05 - Fintech | Plaforms pt.&nbsp;1</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_06/lecture_06.html">
+ <span class="dropdown-text">Lecture 06 - Modern Banking pt.&nbsp;5</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_07/lecture_07.html">
+ <span class="dropdown-text">Lecture 07 - Platforms pt.&nbsp;2</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_08/lecture_08.html">
+ <span class="dropdown-text">Lecture 08 - Machine Learning pt.&nbsp;1</span></a>
+  </li>  
+        <li class="dropdown-header">Lecture 09 - Machine Learning pt.&nbsp;2</li>
+        <li class="dropdown-header">Lecture 10 - Crypto pt.&nbsp;1</li>
+        <li class="dropdown-header">Lecture 11 - Crypto pt.&nbsp;2</li>
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="https://app.alldayta.com/katholieke-universiteit-leuven/mbft"> 
+<span class="menu-text">All Day TA</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../assignment.html"> 
+<span class="menu-text">Assignment (<strong>NEW</strong>)</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#map" id="toc-map" class="nav-link active" data-scroll-target="#map">Map</a></li>
+  <li><a href="#introduction-to-ai" id="toc-introduction-to-ai" class="nav-link" data-scroll-target="#introduction-to-ai">1. Introduction to AI</a>
+  <ul class="collapse">
+  <li><a href="#ai-as-a-research-field" id="toc-ai-as-a-research-field" class="nav-link" data-scroll-target="#ai-as-a-research-field">1.1. AI as a research field</a>
+  <ul class="collapse">
+  <li><a href="#history-of-ai---main-takeways" id="toc-history-of-ai---main-takeways" class="nav-link" data-scroll-target="#history-of-ai---main-takeways">History of AI - Main Takeways</a></li>
+  </ul></li>
+  <li><a href="#the-two-ai-schools" id="toc-the-two-ai-schools" class="nav-link" data-scroll-target="#the-two-ai-schools">1.2. The two AI schools</a></li>
+  <li><a href="#dominance-of-machine-learning" id="toc-dominance-of-machine-learning" class="nav-link" data-scroll-target="#dominance-of-machine-learning">1.3. Dominance of Machine Learning</a>
+  <ul class="collapse">
+  <li><a href="#mls-superior-performance-in-key-applications" id="toc-mls-superior-performance-in-key-applications" class="nav-link" data-scroll-target="#mls-superior-performance-in-key-applications">ML’s superior performance in key applications</a></li>
+  <li><a href="#classes-of-ml-models" id="toc-classes-of-ml-models" class="nav-link" data-scroll-target="#classes-of-ml-models">Classes of ML models</a></li>
+  <li><a href="#visual-intuition" id="toc-visual-intuition" class="nav-link" data-scroll-target="#visual-intuition">Visual intuition</a></li>
+  <li><a href="#machine-learning-workflow" id="toc-machine-learning-workflow" class="nav-link" data-scroll-target="#machine-learning-workflow">Machine Learning Workflow</a></li>
+  <li><a href="#why-ml-dominates-modern-ai" id="toc-why-ml-dominates-modern-ai" class="nav-link" data-scroll-target="#why-ml-dominates-modern-ai">Why ML dominates modern AI?</a></li>
+  <li><a href="#genai" id="toc-genai" class="nav-link" data-scroll-target="#genai">GenAI</a></li>
+  <li><a href="#limitations-remain" id="toc-limitations-remain" class="nav-link" data-scroll-target="#limitations-remain">Limitations remain</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#economics-of-machine-learning" id="toc-economics-of-machine-learning" class="nav-link" data-scroll-target="#economics-of-machine-learning">2. Economics of Machine Learning</a>
+  <ul class="collapse">
+  <li><a href="#the-technology-of-ml" id="toc-the-technology-of-ml" class="nav-link" data-scroll-target="#the-technology-of-ml">2.1. The technology of ML</a>
+  <ul class="collapse">
+  <li><a href="#economics-101-what-is-a-technology" id="toc-economics-101-what-is-a-technology" class="nav-link" data-scroll-target="#economics-101-what-is-a-technology">Economics 101: what is a technology?</a></li>
+  <li><a href="#what-cost-does-machine-learning-reduce" id="toc-what-cost-does-machine-learning-reduce" class="nav-link" data-scroll-target="#what-cost-does-machine-learning-reduce">What cost does Machine Learning reduce?</a></li>
+  <li><a href="#the-decision-ecosystem" id="toc-the-decision-ecosystem" class="nav-link" data-scroll-target="#the-decision-ecosystem">The decision ecosystem</a></li>
+  <li><a href="#complements-and-substitutes-to-prediction" id="toc-complements-and-substitutes-to-prediction" class="nav-link" data-scroll-target="#complements-and-substitutes-to-prediction">Complements and substitutes to prediction</a></li>
+  </ul></li>
+  <li><a href="#key-complement-to-ml-data" id="toc-key-complement-to-ml-data" class="nav-link" data-scroll-target="#key-complement-to-ml-data">2.2. Key complement to ML: Data</a>
+  <ul class="collapse">
+  <li><a href="#the-value-of-data" id="toc-the-value-of-data" class="nav-link" data-scroll-target="#the-value-of-data">The value of data</a></li>
+  <li><a href="#the-organization-of-data-production-and-access" id="toc-the-organization-of-data-production-and-access" class="nav-link" data-scroll-target="#the-organization-of-data-production-and-access">The organization of data: production and access</a></li>
+  </ul></li>
+  <li><a href="#the-limits-of-ml-and-ai-snake-oil" id="toc-the-limits-of-ml-and-ai-snake-oil" class="nav-link" data-scroll-target="#the-limits-of-ml-and-ai-snake-oil">2.3. The limits of ML and “AI snake oil”</a>
+  <ul class="collapse">
+  <li><a href="#turning-problems-into-prediction-problems" id="toc-turning-problems-into-prediction-problems" class="nav-link" data-scroll-target="#turning-problems-into-prediction-problems">Turning problems into <code>prediction</code> problems</a></li>
+  <li><a href="#limits-of-predictions" id="toc-limits-of-predictions" class="nav-link" data-scroll-target="#limits-of-predictions">Limits of predictions</a></li>
+  <li><a href="#ai-snake-oil-argument-arvind-narayanan-2024" id="toc-ai-snake-oil-argument-arvind-narayanan-2024" class="nav-link" data-scroll-target="#ai-snake-oil-argument-arvind-narayanan-2024">AI Snake Oil Argument (Arvind Narayanan, 2024)</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#ai-finance" id="toc-ai-finance" class="nav-link" data-scroll-target="#ai-finance">3. AI &amp; Finance</a>
+  <ul class="collapse">
+  <li><a href="#the-ai-bandwagon" id="toc-the-ai-bandwagon" class="nav-link" data-scroll-target="#the-ai-bandwagon">3.1. The AI bandwagon</a></li>
+  <li><a href="#prediction-in-finance" id="toc-prediction-in-finance" class="nav-link" data-scroll-target="#prediction-in-finance">3.2. <code>Prediction</code> in finance</a>
+  <ul class="collapse">
+  <li><a href="#the-nature-of-financial-information" id="toc-the-nature-of-financial-information" class="nav-link" data-scroll-target="#the-nature-of-financial-information">The nature of financial information</a></li>
+  </ul></li>
+  <li><a href="#the-impact-of-ai-in-finance" id="toc-the-impact-of-ai-in-finance" class="nav-link" data-scroll-target="#the-impact-of-ai-in-finance">3.3. The impact of AI in finance</a>
+  <ul class="collapse">
+  <li><a href="#traditional-finance" id="toc-traditional-finance" class="nav-link" data-scroll-target="#traditional-finance">Traditional finance</a></li>
+  <li><a href="#the-value-proposition-of-ai-in-finance" id="toc-the-value-proposition-of-ai-in-finance" class="nav-link" data-scroll-target="#the-value-proposition-of-ai-in-finance">The value proposition of AI in Finance</a></li>
+  <li><a href="#prediction-applications" id="toc-prediction-applications" class="nav-link" data-scroll-target="#prediction-applications">Prediction applications</a></li>
+  <li><a href="#the-integration-of-ai" id="toc-the-integration-of-ai" class="nav-link" data-scroll-target="#the-integration-of-ai">The integration of AI</a></li>
+  <li><a href="#trends" id="toc-trends" class="nav-link" data-scroll-target="#trends">Trends</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#challenges-at-the-ai-frontier" id="toc-challenges-at-the-ai-frontier" class="nav-link" data-scroll-target="#challenges-at-the-ai-frontier">4. Challenges at the AI frontier</a>
+  <ul class="collapse">
+  <li><a href="#information-barriers" id="toc-information-barriers" class="nav-link" data-scroll-target="#information-barriers">4.1. Information barriers</a></li>
+  <li><a href="#ethics-and-fairness" id="toc-ethics-and-fairness" class="nav-link" data-scroll-target="#ethics-and-fairness">4.2 Ethics and fairness</a></li>
+  <li><a href="#toxic-data" id="toc-toxic-data" class="nav-link" data-scroll-target="#toxic-data">4.3. Toxic data</a></li>
+  <li><a href="#agentic-ai" id="toc-agentic-ai" class="nav-link" data-scroll-target="#agentic-ai">4.4. Agentic AI</a></li>
+  </ul></li>
+  <li><a href="#policy-and-regulation" id="toc-policy-and-regulation" class="nav-link" data-scroll-target="#policy-and-regulation">5. Policy and Regulation</a>
+  <ul class="collapse">
+  <li><a href="#why-policy-and-regulation-matter" id="toc-why-policy-and-regulation-matter" class="nav-link" data-scroll-target="#why-policy-and-regulation-matter">Why Policy and Regulation Matter</a></li>
+  <li><a href="#recent-policy-efforts-on-ai-in-banking" id="toc-recent-policy-efforts-on-ai-in-banking" class="nav-link" data-scroll-target="#recent-policy-efforts-on-ai-in-banking">Recent Policy Efforts on AI in Banking</a>
+  <ul class="collapse">
+  <li><a href="#eu-artificial-intelligence-act-2024" id="toc-eu-artificial-intelligence-act-2024" class="nav-link" data-scroll-target="#eu-artificial-intelligence-act-2024">1. <strong>EU Artificial Intelligence Act (2024)</strong></a></li>
+  <li><a href="#european-banking-authority-eba-special-topic-on-ai-20242025" id="toc-european-banking-authority-eba-special-topic-on-ai-20242025" class="nav-link" data-scroll-target="#european-banking-authority-eba-special-topic-on-ai-20242025">2. <strong>European Banking Authority (EBA) – Special Topic on AI (2024/2025)</strong></a></li>
+  <li><a href="#financial-stability-board-fsb-global-monitoring-2024" id="toc-financial-stability-board-fsb-global-monitoring-2024" class="nav-link" data-scroll-target="#financial-stability-board-fsb-global-monitoring-2024">3. <strong>Financial Stability Board (FSB) – Global Monitoring (2024)</strong></a></li>
+  <li><a href="#esma-supervisory-statement-may-2024" id="toc-esma-supervisory-statement-may-2024" class="nav-link" data-scroll-target="#esma-supervisory-statement-may-2024">4. <strong>ESMA Supervisory Statement (May 2024)</strong></a></li>
+  </ul></li>
+  <li><a href="#mapping-policy-objectives-to-ai-challenges" id="toc-mapping-policy-objectives-to-ai-challenges" class="nav-link" data-scroll-target="#mapping-policy-objectives-to-ai-challenges">Mapping Policy Objectives to AI Challenges</a></li>
+  <li><a href="#common-policy-themes" id="toc-common-policy-themes" class="nav-link" data-scroll-target="#common-policy-themes">Common Policy Themes</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Machine Learning</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="map" class="level1">
+<h1>Map</h1>
+<ol type="1">
+<li>Introduction to AI</li>
+<li>Economics of Machine Learning</li>
+<li>AI &amp; Finance</li>
+<li>Challenges</li>
+<li>Policy &amp; Regulation</li>
+</ol>
+</section>
+<section id="introduction-to-ai" class="level1">
+<h1>1. Introduction to AI</h1>
+<section id="ai-as-a-research-field" class="level2">
+<h2 class="anchored" data-anchor-id="ai-as-a-research-field">1.1. AI as a research field</h2>
+<center>
+<img src="figures/timeline5_highres.png" width="900">
+</center>
+<ul>
+<li><strong>Early ambitions (1950s-1960s)</strong>:
+<ul>
+<li>AI as the quest to create human-like intelligence in machines.</li>
+<li>The <strong>Turing Test</strong> (Turing, 1950): Can machines think?</li>
+<li><strong>Dartmouth Conference</strong> (1956) – the birth of AI as a field.</li>
+</ul></li>
+<li><strong>First wave (1950s-1980s): Symbolic AI and expert systems</strong>
+<ul>
+<li>AI mostly <strong>rule-based</strong>, following <strong>logic</strong> and <strong>heuristics</strong>.
+<ul>
+<li>Examples: <strong>ELIZA</strong>, chatbot (1960s); <strong>MYCIN</strong> medical diagnosis system (1970s).<br>
+</li>
+</ul></li>
+<li>Limitations: <strong>brittle logic, poor adaptability, lack of learning ability</strong>.</li>
+</ul></li>
+<li><strong>AI Winters (1970s, 1980s-1990s)</strong>
+<ul>
+<li>Overpromises vs.&nbsp;underperformance.</li>
+<li>Failure of expert systems to scale due to increasing complexity.</li>
+<li><strong>Restricted funding.</strong></li>
+</ul></li>
+<li><strong>Second wave (1990s-2010s): Machine Learning revolution</strong>
+<ul>
+<li>Shift from rule-based AI to <strong>data-driven models</strong>.<br>
+</li>
+<li>Rise of <strong>statistical approaches</strong>, including decision trees and neural networks.<br>
+</li>
+<li>1997: <strong>Deep Blue</strong> beats Garry Kasparov in chess.</li>
+</ul></li>
+<li><strong>Third wave (2010s-2020s): Deep Learning and modern AI</strong>
+<ul>
+<li>Explosion of <strong>computing power</strong> and <strong>data</strong>.</li>
+<li>Breakthrough in <strong>Deep Learning</strong>
+<ul>
+<li>2012: <strong>AlexNet</strong> wins the ImageNet competition</li>
+</ul></li>
+<li>AI applications expand into speech, vision, and finance (e.g., fraud detection, algorithmic trading).</li>
+</ul></li>
+<li><strong>Fourth wave (2020s-present): Generative AI, Large Language Models (LLMs)</strong>
+<ul>
+<li>The rise of <strong>foundation models</strong> trained on massive datasets (GPT, BERT, Claude, Gemini).
+<ul>
+<li>2020: OpenAI introduces <strong>GPT-3</strong>, capable of human-like text generation.<br>
+</li>
+<li>2022: <strong>ChatGPT</strong> launches, sparking mainstream adoption of generative AI.<br>
+</li>
+</ul></li>
+<li><strong>LLMs in finance:</strong> Used for document processing, risk assessment, and fraud detection.<br>
+</li>
+<li><strong>Regulatory agenda</strong>: misinformation, privacy, AI bias, copyright concerns.</li>
+</ul></li>
+</ul>
+<section id="history-of-ai---main-takeways" class="level3">
+<h3 class="anchored" data-anchor-id="history-of-ai---main-takeways">History of AI - Main Takeways</h3>
+<ol type="1">
+<li><strong>Winters</strong><br>
+Market adjustment from enthusiasm and structural limitations of new tech</li>
+</ol>
+<blockquote class="blockquote">
+<p>“The problem of artificial intelligence has vexed researchers for decades. Even simple tasks such as digit recognition—challenges that we as humans overcome so effortlessly—proved extremely difficult to program.”</p>
+<p>– Mullainathan &amp; Spiess (2017)</p>
+</blockquote>
+<ol start="2" type="1">
+<li><strong>The Machine Learning Revolution</strong><br>
+Changes in fundamental approaches with the advent of computational power &amp; data<br>
+→<strong>from deduction to induction</strong></li>
+</ol>
+<blockquote class="blockquote">
+<p>“Introspection into how our mind solves these problems failed to translate into procedures. The real breakthrough came once we stopped trying to <strong>deduce</strong> these rules. Instead, the problem was turned into an <strong>inductive</strong> one: rather than hand-curating the rules, we simply let the data tell us which rules work best.”</p>
+<p>– Mullainathan &amp; Spiess (2017)</p>
+</blockquote>
+<p><strong><u>Example: Face recognition</u></strong></p>
+<center>
+<img src="https://www.shutterstock.com/image-vector/set-face-recognition-icon-identity-260nw-2663709605.jpg" alt="Face recognition icons – identity verification" width="60%">
+</center>
+<p><strong>No hard-wired rules</strong> to scan for certain pixel combinations, based on human understanding of what constitutes a face.</p>
+<p>Instead, leverage <strong>large dataset</strong> of photos labeled with a face or not to estimate a function <span class="math inline">\(f(x)\)</span> that predicts the presence <span class="math inline">\(y\)</span> of a face from pixels <span class="math inline">\(x\)</span>.</p>
+</section>
+</section>
+<section id="the-two-ai-schools" class="level2">
+<h2 class="anchored" data-anchor-id="the-two-ai-schools">1.2. The two AI schools</h2>
+<center>
+<b>Good Old-Fashioned AI (GOFAI) vs Modern AI</b>
+</center>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 12%">
+<col style="width: 28%">
+<col style="width: 30%">
+<col style="width: 28%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>AI Approach</th>
+<th>Description</th>
+<th>Strengths</th>
+<th>Weaknesses</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Symbolic AI</strong></td>
+<td>Rules, logic, <br> and symbolic reasoning</td>
+<td>- Transparency <br> - Interpretability <br> - Computationally light</td>
+<td>- Hard to scale <br> - Inflexible (no learning) <br> - Human efforts</td>
+</tr>
+<tr class="even">
+<td><strong>Machine Learning</strong></td>
+<td>Statistical learning <br> w/ or w/o guidance</td>
+<td>- Adaptability <br> - Scalability <br> - Learns w/o predefined rules</td>
+<td>- Data &amp; computation power <br> - Opacity (“black box”) <br> - Hidden biases</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Key distinction</strong>:</p>
+<ul>
+<li><strong>Symbolic AI</strong>: explicit programming → <code>If X, then Y</code></li>
+<li><strong>Machine Learning</strong>: implicit programming → <code>Code how to learn</code></li>
+</ul>
+<p><strong><u>Example: Translation</u></strong></p>
+<ul>
+<li><strong>Symbolic AI</strong>: Hard-coded grammar rules and mappings between languages.<br>
+</li>
+<li><strong>Machine Learning</strong>: Learns linguistic patterns from translated text corpora (e.g., <code>Google translate</code>, <code>GPT</code>, <code>BERT</code>).</li>
+</ul>
+</section>
+<section id="dominance-of-machine-learning" class="level2">
+<h2 class="anchored" data-anchor-id="dominance-of-machine-learning">1.3. Dominance of Machine Learning</h2>
+<section id="mls-superior-performance-in-key-applications" class="level3">
+<h3 class="anchored" data-anchor-id="mls-superior-performance-in-key-applications">ML’s superior performance in key applications</h3>
+<ul>
+<li>Image recognition (e.g., facial recognition, medical imaging).<br>
+</li>
+<li>Natural language processing (e.g., chatbots, voice assistants).<br>
+</li>
+<li>Financial applications (e.g., risk assessment, fraud detection).</li>
+</ul>
+<blockquote class="blockquote">
+<p>“The success of machine learning at intelligence tasks is largely due to its ability to discover complex structures that were not specified in advance. It manages to fit complex and very flexible functional forms to the data <strong>without simply overfitting</strong>; it finds functions that work well <strong>out-of-sample</strong>.”</p>
+<p>– Mullainathan &amp; Spiess (2017)</p>
+</blockquote>
+</section>
+<section id="classes-of-ml-models" class="level3">
+<h3 class="anchored" data-anchor-id="classes-of-ml-models">Classes of ML models</h3>
+<p>There 3 broad classes of learning: <strong>supervised</strong>, <strong>unsupervised</strong>, <strong>reinforcement</strong>.</p>
+<ol type="1">
+<li><strong>Supervised Learning</strong><br>
+The model learns from <strong>labeled data</strong> (i.e., input-output pairs).
+<ul>
+<li><strong>Regression</strong>: learning a continuous value (e.g., stock prices, real estate values).</li>
+<li><strong>Classification</strong>: learning a categorical label (e.g., credit approval, fraud detection).</li>
+</ul></li>
+<li><strong>Unsupervised Learning</strong><br>
+The model learns from <strong>unlabeled data</strong> to find hidden patterns or groupings.
+<ul>
+<li><strong>Clustering</strong>: Grouping data points based on similarities (e.g., customer segmentation).</li>
+<li><strong>Dimensionality reduction</strong>: Reducing the number of features while preserving the most important information (e.g., PCA).</li>
+</ul></li>
+<li><strong>Reinforcement Learning</strong><br>
+The model learns through interactions with an environment and feedback from its actions.
+<ul>
+<li><strong>Algorithmic trading</strong></li>
+<li><strong>Robo-advisor</strong></li>
+</ul></li>
+</ol>
+</section>
+<section id="visual-intuition" class="level3">
+<h3 class="anchored" data-anchor-id="visual-intuition">Visual intuition</h3>
+<p><strong>Raw data</strong> <!-- ```{figure} figures/ml-learning-data.jpg
+:width: 300px
+:align: center
+``` --> <img src="figures/ml-learning-data.jpg" width="300px" style="display: block; margin: 0 auto;"></p>
+<p><strong>Supervised learning</strong></p>
+<p>Necessary dimension: <strong>Labelled data</strong> <!-- ```{figure} figures/ml-learning-label.jpg
+:width: 300px
+:align: center
+``` --></p>
+<p><img src="figures/ml-learning-label.jpg" width="300px" style="display: block; margin: 0 auto;"></p>
+<p><strong>Supervised learning</strong></p>
+<!-- ```{figure} figures/ml-learning-supervised.jpg
+:alt: Illustration of machine learning and learning from data
+:width: 300px
+:align: center
+``` -->
+<p><img src="figures/ml-learning-supervised.jpg" width="300px" style="display: block; margin: 0 auto;"></p>
+<p><strong>Unsupervised learning</strong> <!-- ```{figure} figures/ml-learning-unsupervised.jpg
+:alt: Illustration of machine learning and learning from data
+:width: 300px
+:align: center
+``` --> <img src="figures/ml-learning-unsupervised.jpg" width="300px" style="display: block; margin: 0 auto;"></p>
+</section>
+<section id="machine-learning-workflow" class="level3">
+<h3 class="anchored" data-anchor-id="machine-learning-workflow">Machine Learning Workflow</h3>
+<ol type="1">
+<li><strong>Problem Definition</strong> (<code>Prediction</code>)</li>
+<li><strong>Data</strong>
+<ul>
+<li>Collection</li>
+<li>Preparation: missing values, encoding of categorical variables, etc.</li>
+<li>Exploration</li>
+<li>Feature engineering: select suitable features for the predictions</li>
+<li><strong>Split</strong> (see below): training versus evaluation</li>
+</ul></li>
+<li><strong>Learning</strong>
+<ul>
+<li>Model selection</li>
+<li>Training</li>
+<li>Evaluation</li>
+<li>Tuning</li>
+</ul></li>
+<li><strong>Deployment</strong></li>
+</ol>
+</section>
+<section id="why-ml-dominates-modern-ai" class="level3">
+<h3 class="anchored" data-anchor-id="why-ml-dominates-modern-ai">Why ML dominates modern AI?</h3>
+<p><strong><code>Data</code> and <code>computation</code> drive AI progress in Machine Learning</strong></p>
+<ul>
+<li><strong>Digitalisation of the economy</strong> <span class="math inline">\(\rightarrow\)</span> <strong>data availability</strong> <span class="math inline">\(\uparrow\)</span><br>
+big data, user-generated content, etc.<br>
+</li>
+<li>Advances in <strong>computing power</strong> and <strong>algorithmic performances</strong><br>
+cloud computing, GPUs, TPUs, etc.<br>
+deep learning, transformers, etc.</li>
+</ul>
+<section id="whats-the-difference-with-standard-econometrics" class="level4">
+<h4 class="anchored" data-anchor-id="whats-the-difference-with-standard-econometrics">What’s the difference with standard econometrics?</h4>
+<p>Machine learning solves a <strong>different problem</strong>:</p>
+<p><strong>Prediction</strong> (<span class="math inline">\(Y\)</span>) vs <strong>Estimation</strong> (<span class="math inline">\(\beta\)</span>):</p>
+<p><span class="math display">\[Y = \beta_0 + \beta_1 X\]</span></p>
+<ul>
+<li><p>Traditional economic applications: <code>Estimation</code><br>
+→produce good estimates of <span class="math inline">\(\beta\)</span> to model the relationship between <span class="math inline">\(Y\)</span> and <span class="math inline">\(X\)</span>.</p></li>
+<li><p>Machine learning applications: <code>Prediction</code><br>
+→ produce a good predictor of <span class="math inline">\(Y\)</span> given <span class="math inline">\(X\)</span></p></li>
+</ul>
+<p><strong>Prediction</strong> vs <strong>Causality</strong></p>
+</section>
+</section>
+<section id="genai" class="level3">
+<h3 class="anchored" data-anchor-id="genai">GenAI</h3>
+<p><strong>Generative AI</strong> (LLMs, GPTs, etc.) builds on the same foundation as traditional machine learning: <strong>learning from data to make predictions</strong>.</p>
+<p>Beyond <code>Prediction</code>, GenAI <strong>generates new data</strong> (text, images, etc.) by <strong>sampling from the probability distribution learned</strong> for prediction.</p>
+<p>In other words:</p>
+<center>
+<img src="https://discovery.cs.illinois.edu/static/learn/NC-WebG.png" width="40%">
+</center>
+<ul>
+<li>Modern machine learning is fundamentally about <strong>prediction</strong>.
+<ul>
+<li>Prediction involves learning a <strong>probability distribution</strong> over possible outcomes.</li>
+</ul></li>
+<li>Once this probability distribution is learned, the model can be used not only to predict but also to <strong>generate</strong> new outputs.
+<ul>
+<li>This is the essence of <strong>Generative AI</strong>: producing new content by <strong>sampling from the learned distribution</strong>.</li>
+</ul></li>
+</ul>
+<!-- ```{figure} figures/genai.png
+:width: 400px
+:align:center
+``` -->
+<center>
+<img src="figures/genai.png" width="600px">
+</center>
+</section>
+<section id="limitations-remain" class="level3">
+<h3 class="anchored" data-anchor-id="limitations-remain">Limitations remain</h3>
+<ul>
+<li><strong>Explainability problem</strong>: Hard to understand how ML models produce outputs.<br>
+</li>
+<li><strong>Data dependency</strong>: Requires large, high-quality datasets.<br>
+</li>
+<li><strong>Ethical concerns</strong>: Bias, fairness, privacy issues.</li>
+</ul>
+</section>
+</section>
+</section>
+<section id="economics-of-machine-learning" class="level1">
+<h1>2. Economics of Machine Learning</h1>
+<section id="the-technology-of-ml" class="level2">
+<h2 class="anchored" data-anchor-id="the-technology-of-ml">2.1. The technology of ML</h2>
+<section id="economics-101-what-is-a-technology" class="level3">
+<h3 class="anchored" data-anchor-id="economics-101-what-is-a-technology">Economics 101: what is a technology?</h3>
+<center>
+A <b>technology</b> = a tool that <b>reduces the cost</b> of producing some good or service.
+</center>
+<p><u>Examples:</u></p>
+<ul>
+<li><strong>Steam engine</strong>: <span class="math inline">\(\downarrow\)</span> <strong>cost of transportation and manufacturing</strong>.</li>
+<li><strong>Printing press</strong>: <span class="math inline">\(\downarrow\)</span> <strong>cost of information dissemination</strong>.</li>
+<li><strong>Electricity</strong>: <span class="math inline">\(\downarrow\)</span> <strong>cost of mechanical power and lighting</strong>.</li>
+</ul>
+</section>
+<section id="what-cost-does-machine-learning-reduce" class="level3">
+<h3 class="anchored" data-anchor-id="what-cost-does-machine-learning-reduce">What cost does Machine Learning reduce?</h3>
+<center>
+<b>Machine Learning reduces <u>the cost of prediction</u></b>
+</center>
+<ul>
+<li><strong><code>Prediction</code>: infer missing data</strong> (past, present, future).</li>
+<li><strong>Traditionally expensive</strong> due to:
+<ul>
+<li>Human expertise (analysts, forecasters).</li>
+<li>Manual data collection and limited statistical modeling.</li>
+<li>Limited computing power.</li>
+</ul></li>
+</ul>
+</section>
+<section id="the-decision-ecosystem" class="level3">
+<h3 class="anchored" data-anchor-id="the-decision-ecosystem">The decision ecosystem</h3>
+<center>
+<img src="figures/task.png" width="800"><br> Agrawal, A., Gans, J., &amp; Goldfarb, A. (2022).
+</center>
+<center>
+💡<b>GenAI = Prediction + Action</b>💡
+</center>
+</section>
+<section id="complements-and-substitutes-to-prediction" class="level3">
+<h3 class="anchored" data-anchor-id="complements-and-substitutes-to-prediction">Complements and substitutes to prediction</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 51%">
+<col style="width: 48%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Complements</strong></th>
+<th><strong>Substitutes</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Infrastructure &amp; compute power</td>
+<td>Rules-based systems</td>
+</tr>
+<tr class="even">
+<td>Data production &amp; access</td>
+<td>Traditional prediction models</td>
+</tr>
+<tr class="odd">
+<td>Human expertise (Causality &amp; Strategy)</td>
+<td>Human forecasters &amp; analysts</td>
+</tr>
+<tr class="even">
+<td>Ethical &amp; regulatory compliance</td>
+<td>Redundant or low-quality data</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="key-complement-to-ml-data" class="level2">
+<h2 class="anchored" data-anchor-id="key-complement-to-ml-data">2.2. Key complement to ML: Data</h2>
+<section id="the-value-of-data" class="level3">
+<h3 class="anchored" data-anchor-id="the-value-of-data">The value of data</h3>
+<ol type="1">
+<li><strong>Data conditions the growth of Machine Learning</strong>
+<ul>
+<li><strong>Existence</strong> of data determines <strong>applicability</strong></li>
+<li><strong>Quality</strong> (labeling) and <strong>quantity</strong> determines <strong>power</strong></li>
+</ul></li>
+<li><strong>Firms with superior data access</strong> have a significant and self-improving <strong>competitive advantage</strong>.</li>
+</ol>
+<p><code>Flywheel effect</code></p>
+<center>
+<img src="figures/flywheel.png" width="700">
+</center>
+</section>
+<section id="the-organization-of-data-production-and-access" class="level3">
+<h3 class="anchored" data-anchor-id="the-organization-of-data-production-and-access">The organization of data: production and access</h3>
+<ul>
+<li><strong>Data as a competitive moat:</strong> incumbent firm want <strong>exclusive access</strong> to data
+<ul>
+<li><strong>Flywheel &amp; Network effects</strong></li>
+<li><strong>Entry barriers</strong></li>
+<li><strong>Winner-take-all</strong></li>
+</ul></li>
+<li><strong>Data-sharing:</strong> opening data access has trade-offs
+<ul>
+<li><strong>Improves competition</strong></li>
+<li><strong>Subject to privacy preferences</strong></li>
+<li><strong>Distorts incentives to produce data</strong></li>
+</ul></li>
+</ul>
+<p><strong>Regulations and data-production/sharing frameworks</strong> shape the economics of <strong>AI development</strong>.</p>
+</section>
+</section>
+<section id="the-limits-of-ml-and-ai-snake-oil" class="level2">
+<h2 class="anchored" data-anchor-id="the-limits-of-ml-and-ai-snake-oil">2.3. The limits of ML and “AI snake oil”</h2>
+<section id="turning-problems-into-prediction-problems" class="level3">
+<h3 class="anchored" data-anchor-id="turning-problems-into-prediction-problems">Turning problems into <code>prediction</code> problems</h3>
+<p><strong>The Art of Machine Learning:</strong></p>
+<ol type="1">
+<li><strong>Reframe</strong> problem as <strong>prediction task</strong></li>
+<li><strong>Find reliable data</strong> sources to improve performance through prediction (historical, alternative, feed, etc.)</li>
+</ol>
+<p><strong>Examples:</strong></p>
+<ul>
+<li><strong>Translation:</strong> Predict the most likely correct translation using same copies of digital books.<br>
+</li>
+<li><strong>Self-driving cars:</strong> Predict most likely human action using sensory data.</li>
+<li><strong>Finance:</strong> Predict likelihood of fraudulent activity using historical transaction data.</li>
+</ul>
+</section>
+<section id="limits-of-predictions" class="level3">
+<h3 class="anchored" data-anchor-id="limits-of-predictions">Limits of predictions</h3>
+<p><strong>Not all problems are prediction problems:</strong> role of reasoning, causality, or logic.</p>
+<p><strong>Not all prediction problems are ML problems:</strong> unfit data to perform prediction (e.g., early days of COVID-19)</p>
+<p><strong>Symbolic AI vs ML:</strong></p>
+<ul>
+<li><strong>Symbolic AI</strong> (rule-based) does not need data but lacks adaptability.<br>
+</li>
+<li><strong>ML</strong> leverages data but struggles with causality and reasoning.</li>
+</ul>
+</section>
+<section id="ai-snake-oil-argument-arvind-narayanan-2024" class="level3">
+<h3 class="anchored" data-anchor-id="ai-snake-oil-argument-arvind-narayanan-2024">AI Snake Oil Argument (Arvind Narayanan, 2024)</h3>
+<p>Some AI solutions are <strong>hyped</strong> but lack real economic value.</p>
+<p><strong>Example:</strong> AI for job interviews, grant allocation → unreliable and pseudoscientific.</p>
+<p><strong>Lesson:</strong> AI-ML works best where prediction is</p>
+<ul>
+<li><strong>Genuinely feasible</strong>: it relies on credible data input</li>
+<li><strong>Useful</strong>: the prediction environment is not too volatile</li>
+</ul>
+</section>
+</section>
+</section>
+<section id="ai-finance" class="level1">
+<h1>3. AI &amp; Finance</h1>
+<section id="the-ai-bandwagon" class="level2">
+<h2 class="anchored" data-anchor-id="the-ai-bandwagon">3.1. The AI bandwagon</h2>
+<center>
+<img src="figures/consultant.png" width="300">
+</center>
+<p><strong>Consultant speach for any <code>X</code> industry</strong></p>
+<ul>
+<li><strong>Efficiency Gains</strong>: <em>AI automates processes, streamlines operational costs.</em></li>
+<li><strong>Better Decision-Making</strong>: <em>AI improves risk assessment, document treatment and anomaly detection.</em></li>
+<li><strong>Enhanced Customer Experience</strong>: <em>Chatbots, personalized recommendations, and automated services.</em></li>
+</ul>
+<p>… anything specific to finance?</p>
+</section>
+<section id="prediction-in-finance" class="level2">
+<h2 class="anchored" data-anchor-id="prediction-in-finance">3.2. <code>Prediction</code> in finance</h2>
+<center>
+Finance is about the <b>allocation of capital and risk</b>. <br><br> The main barrier to achieving an efficient equilibrium is <u><b>information frictions</b></u>.
+</center>
+<p>Understanding the role of AI in finance begins with understanding that <strong>every financial innovation—from credit rating to AI or blockchain—is ultimately a response to an information problem</strong>.</p>
+<section id="the-nature-of-financial-information" class="level3">
+<h3 class="anchored" data-anchor-id="the-nature-of-financial-information">The nature of financial information</h3>
+<p>Financial systems exist because <strong>information is imperfect, incomplete, or costly to obtain</strong>.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 56%">
+<col style="width: 43%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Market Friction</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Bank runs</strong></td>
+<td>Banks <strong>don’t know when</strong> depositors will withdraw their funds.</td>
+</tr>
+<tr class="even">
+<td><strong>Asymmetric information</strong></td>
+<td>Borrowers <strong>know more</strong> about their ability to repay than lenders.</td>
+</tr>
+<tr class="odd">
+<td><strong>Adverse selection</strong></td>
+<td>Investors <strong>struggle to distinguish</strong> good projects from bad.</td>
+</tr>
+<tr class="even">
+<td><strong>Moral hazard</strong></td>
+<td>Individuals may <strong>take hidden risks</strong> once insured.</td>
+</tr>
+<tr class="odd">
+<td><strong>Confidentiality</strong></td>
+<td>Companies and citizens may <strong>hesitate to share sensitive information</strong>.</td>
+</tr>
+</tbody>
+</table>
+<p>Raison d’etre for <strong>financial contracts, intermediaries, rating agencies, and regulatory frameworks</strong></p>
+<p>→ They exist to manage these frictions, to reduce uncertainty, and to allocate capital more efficiently.</p>
+</section>
+</section>
+<section id="the-impact-of-ai-in-finance" class="level2">
+<h2 class="anchored" data-anchor-id="the-impact-of-ai-in-finance">3.3. The impact of AI in finance</h2>
+<section id="traditional-finance" class="level3">
+<h3 class="anchored" data-anchor-id="traditional-finance">Traditional finance</h3>
+<p>Traditional financial businesses have long relied on <strong>information</strong> to assess risk, allocate capital, and optimize decision-making.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 64%">
+<col style="width: 35%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Application Area</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Credit scoring &amp; lending</strong></td>
+<td>Traditional banks evaluate borrower creditworthiness using <strong>historical financial information</strong>.</td>
+</tr>
+<tr class="even">
+<td><strong>Investment advisory</strong></td>
+<td>Financial advisors and wealth management firms analyze <strong>market trends</strong> and client <strong>portfolios</strong>.</td>
+</tr>
+<tr class="odd">
+<td><strong>Trading &amp; market making</strong></td>
+<td>Investment banks and hedge funds leverage <strong>proprietary research</strong> and <strong>asset returns</strong> data to execute trades.</td>
+</tr>
+<tr class="even">
+<td><strong>Fraud &amp; compliance</strong></td>
+<td>Financial institutions analyze <strong>transaction patterns</strong> and <strong>user behavior</strong> to identify <strong>anomalies</strong>, such as unauthorized transactions or money laundering attempts.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="the-value-proposition-of-ai-in-finance" class="level3">
+<h3 class="anchored" data-anchor-id="the-value-proposition-of-ai-in-finance">The value proposition of AI in Finance</h3>
+<center>
+The <b><u>value proposition of Machine Learning in finance</u></b> is <br> to <b>reduce information frictions</b> through <b>superior data-driven prediction</b>
+</center>
+<p><strong>In modern economies</strong>, information is stored in the form of <strong>data</strong>.</p>
+<p>→ <strong>Large amounts of data being produced</strong> with relevant signals for <strong>financial</strong> applications:</p>
+<ul>
+<li>digital traces (e.g., transactions),</li>
+<li>investment/trading behavior,</li>
+<li>customer details,</li>
+<li>market signals,</li>
+<li>sensory data (smart wearables, warehouse trackers, etc.),</li>
+<li>social media, etc..</li>
+</ul>
+<p>Applying <strong>Machine Learning</strong> to financial applications will leverage such pools of data to improve <code>prediction</code>.</p>
+<section id="information-frictions" class="level4">
+<h4 class="anchored" data-anchor-id="information-frictions">Information frictions</h4>
+<p>Relevant <code>Prediction</code> problems everywhere in finance:</p>
+<ul>
+<li><strong>Incomplete information</strong>: AI <u>may</u> enhance <strong>forecasting</strong> accuracy (<strong><code>bank run</code>, <code>sentiment</code>, <code>market movements</code></strong>)</li>
+<li><strong>Asymmetric information</strong>: AI <u>may</u> help mitigate issues of:
+<ul>
+<li><strong>Screening</strong>: Predict risk of default (<strong><code>adverse selection</code></strong>).<br>
+</li>
+<li><strong>Monitoring</strong>: Detect anomalous activity (<strong><code>moral hazard</code></strong>).<br>
+</li>
+</ul></li>
+<li><strong>Obfuscated information</strong>: AI <u>may</u> uncover hidden insights (<strong><code>triangulation</code></strong>)</li>
+</ul>
+</section>
+</section>
+<section id="prediction-applications" class="level3">
+<h3 class="anchored" data-anchor-id="prediction-applications">Prediction applications</h3>
+<section id="credit-scoring" class="level4">
+<h4 class="anchored" data-anchor-id="credit-scoring">1. Credit Scoring</h4>
+<p><strong>Predicting default</strong></p>
+<ul>
+<li><strong>Prediction</strong>: ML predicts likelihood of loan default more accurately than traditional rule-based credit models by identifying complex patterns in borrower behavior.<br>
+</li>
+<li><strong>How ML Reduces Cost</strong>:
+<ul>
+<li>Automates the credit assessment process, reducing manual underwriting costs.</li>
+<li>Lowers default rates by improving risk assessment.</li>
+<li>Enables financial institutions to extend credit to underserved customers by analyzing alternative data (e.g., transaction history, utility bill payments).<br>
+</li>
+</ul></li>
+<li><strong>Example</strong>: ML-based credit models allow fintech lenders to approve loans faster while maintaining risk control, increasing financial inclusion.</li>
+</ul>
+</section>
+<section id="fraud-detection" class="level4">
+<h4 class="anchored" data-anchor-id="fraud-detection">2. Fraud Detection</h4>
+<p><strong>Predicting illicit activities</strong></p>
+<ul>
+<li><strong>Prediction Aspect</strong>: ML predicts fraudulent transactions in real-time by detecting anomalies in spending behavior and transaction patterns.<br>
+</li>
+<li><strong>How ML Reduces Cost</strong>:
+<ul>
+<li>Reduces financial losses from fraud by flagging suspicious transactions before they are processed.</li>
+<li>Decreases the reliance on manual fraud detection teams, lowering operational costs.</li>
+<li>Improves customer experience by reducing false positives in fraud detection systems.<br>
+</li>
+</ul></li>
+<li><strong>Example</strong>: ML-based fraud detection systems in credit card transactions use anomaly detection to prevent unauthorized transactions, reducing fraud-related losses for banks and consumers.</li>
+</ul>
+</section>
+<section id="algorithmic-trading" class="level4">
+<h4 class="anchored" data-anchor-id="algorithmic-trading">3. Algorithmic Trading</h4>
+<p><strong>Predict market movements and best-responses</strong></p>
+<ul>
+<li><strong>Prediction Aspect</strong>: ML models analyze historical market data, news sentiment, and macroeconomic indicators to predict asset price movements and execute trades accordingly.<br>
+</li>
+<li><strong>How ML Reduces Cost</strong>:
+<ul>
+<li>Minimizes human error and emotional biases in trading decisions.</li>
+<li>Reduces the need for large trading teams by automating strategy execution.</li>
+<li>Optimizes trade execution, reducing slippage and transaction costs.<br>
+</li>
+</ul></li>
+<li><strong>Example</strong>: Hedge funds and proprietary trading firms use reinforcement learning models to develop adaptive trading strategies that dynamically adjust to changing market conditions, improving profitability.</li>
+</ul>
+</section>
+<section id="customer-service" class="level4">
+<h4 class="anchored" data-anchor-id="customer-service">4. Customer Service</h4>
+<p><strong>Predict customer needs</strong></p>
+<ul>
+<li><strong>Prediction Aspect</strong>: ML predicts customer inquiries and automates responses through Natural Language Processing (NLP), reducing the need for human intervention.<br>
+</li>
+<li><strong>How ML Reduces Cost</strong>:
+<ul>
+<li>Cuts customer support expenses by replacing human agents with AI-powered chatbots.</li>
+<li>Reduces response time, improving customer satisfaction and retention.</li>
+<li>Allows 24/7 customer service at a fraction of the cost of human-operated call centers.<br>
+</li>
+</ul></li>
+<li><strong>Example</strong>: AI-powered virtual assistants like Erica (Bank of America) and Cleo help customers check balances, track expenses, and receive financial recommendations, lowering operational costs for banks while enhancing user experience.</li>
+</ul>
+</section>
+</section>
+<section id="the-integration-of-ai" class="level3">
+<h3 class="anchored" data-anchor-id="the-integration-of-ai">The integration of AI</h3>
+<p>Everyone is after it</p>
+<ul>
+<li><strong>Incumbents</strong> leveraging data access (banks, payments, insurance, asset managers, etc.)</li>
+<li><strong>Newcomers</strong> exploiting new data opportunities
+<ul>
+<li><strong>Fintech</strong> (neo banks, robo advisors, platforms, etc.): alternative data, superior prediction</li>
+<li><strong>BigTech</strong> (apple pay, amazon credit, etc.): massive data, superior prediction, computing power, user base</li>
+</ul></li>
+</ul>
+</section>
+<section id="trends" class="level3">
+<h3 class="anchored" data-anchor-id="trends">Trends</h3>
+<section id="lending" class="level5">
+<h5 class="anchored" data-anchor-id="lending">Lending</h5>
+<ul>
+<li><strong>Traditional banking</strong>: AI is used to refine profiling and pricing of loan products
+<ul>
+<li><code>JPMorgan Chase</code> 1st in AI Evident Index.</li>
+</ul></li>
+<li><strong>New businesses</strong>:
+<ul>
+<li><strong>Fintech lending</strong> platforms incorporate <strong>alternative data</strong> for credit scoring
+<ul>
+<li><strong><code>Rocket Mortgage</code></strong> for mortgages</li>
+<li><strong><code>Upstart</code></strong> for personal/car loans</li>
+<li><strong><code>Klarna</code></strong> for BNPL</li>
+</ul></li>
+<li><strong>Peer-to-peer lending</strong> platforms leverage AI-driven risk assessment models
+<ul>
+<li><strong><code>LendingClub</code></strong>, <strong><code>Prosper</code></strong></li>
+</ul></li>
+<li><strong>BigTech lending</strong> leveraging activity data on the platform
+<ul>
+<li><strong><code>Amazon</code></strong></li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="investment" class="level5">
+<h5 class="anchored" data-anchor-id="investment">Investment</h5>
+<ul>
+<li><strong>Wealth management</strong>: <strong>Robo-advisors</strong> apply machine learning to portfolio management and asset allocation
+<ul>
+<li><strong><code>Betterment</code></strong> for financial advice</li>
+<li><strong><code>Wealthfront</code></strong> for automated investing</li>
+</ul></li>
+<li><strong>Crowdfunding</strong>: AI enhances risk assessment in crowdfunding platforms
+<ul>
+<li><strong><code>Kickstarter</code></strong>, <strong><code>Seedrs</code></strong></li>
+</ul></li>
+</ul>
+</section>
+<section id="trading" class="level5">
+<h5 class="anchored" data-anchor-id="trading">Trading</h5>
+<ul>
+<li><strong>Algorithmic trading</strong> uses AI for <strong>market-making</strong> and <strong>high-frequency trading</strong>
+<ul>
+<li><strong><code>Renaissance Technologies</code></strong>, <strong><code>Citadel Securities</code></strong><br>
+</li>
+</ul></li>
+<li>AI-driven <strong>sentiment analysis</strong> interprets news, reports, and social media for trading insights
+<ul>
+<li><strong><code>Kavout</code></strong></li>
+</ul></li>
+</ul>
+</section>
+<section id="fraud-detection-compliance" class="level5">
+<h5 class="anchored" data-anchor-id="fraud-detection-compliance">Fraud Detection &amp; Compliance</h5>
+<ul>
+<li>AI models identify patterns of <strong>fraudulent transactions</strong> in real-time
+<ul>
+<li><strong><code>Visa</code></strong>, <strong><code>Mastercard</code></strong><br>
+</li>
+</ul></li>
+<li>AI supports <strong>compliance</strong> efforts in areas such as <strong>AML</strong> (Anti-Money Laundering) and <strong>KYC</strong> (Know Your Customer)
+<ul>
+<li><strong><code>ComplyAdvantage</code></strong> for AML</li>
+<li><strong><code>Feedzai</code></strong> for fraud</li>
+</ul></li>
+</ul>
+</section>
+</section>
+</section>
+</section>
+<section id="challenges-at-the-ai-frontier" class="level1">
+<h1>4. Challenges at the AI frontier</h1>
+<section id="information-barriers" class="level2">
+<h2 class="anchored" data-anchor-id="information-barriers">4.1. Information barriers</h2>
+<ul>
+<li><strong>Trade-off between data sharing &amp; privacy</strong>: Incentives to share vs.&nbsp;risk of exposure.<br>
+</li>
+<li><strong>Data ownership &amp; control</strong>: Who owns financial data—customers or firms?</li>
+</ul>
+<p><strong>Open Data policies</strong></p>
+<ul>
+<li><strong>Open Banking &amp; Open Finance</strong>: Expanding access to financial data.<br>
+</li>
+<li><strong>Costs vs.&nbsp;benefits</strong>: Interoperability challenges, regulatory hurdles, incentives to innovate.<br>
+</li>
+<li><strong>Compatibility issues</strong>: Ensuring seamless integration of AI across financial institutions.</li>
+</ul>
+</section>
+<section id="ethics-and-fairness" class="level2">
+<h2 class="anchored" data-anchor-id="ethics-and-fairness">4.2 Ethics and fairness</h2>
+<ul>
+<li><strong>Data-path dependencies and embedded biases</strong><br>
+Joy Buolamwini, 2023 - <em>Unmasking AI: My Mission to Protect What Is Human in a World of Machines</em></li>
+</ul>
+<center>
+<img src="figures/joy.jpg" width="300">
+</center>
+<ul>
+<li><strong>Triangulation</strong><br>
+Yves-Alexandre de Montjoie et al.&nbsp;- <em>Unique in the shopping mall</em> - Science, 2015</li>
+</ul>
+<center>
+<img src="figures/unique.png" width="700">
+</center>
+<ul>
+<li><strong>Winners and losers of AI adoption</strong>: improving prediction technology has both extensive and intensive margin effects<br>
+Fuster et al.&nbsp;- <em>Predictably unequal?</em> - Journal of Finance</li>
+</ul>
+<center>
+<img src="figures/unequal.png" width="800">
+</center>
+</section>
+<section id="toxic-data" class="level2">
+<h2 class="anchored" data-anchor-id="toxic-data">4.3. Toxic data</h2>
+<ul>
+<li><strong>Turing’s nightmare</strong>: AI-generated content may contaminate original data.</li>
+<li><strong>Contribution halt</strong>: AI-usage may block the natural human production of data
+<ul>
+<li>Acemoglu et al., 2025: Wikipedia activity drop after ChatGPT</li>
+</ul></li>
+<li><strong>AI Model Collapse</strong>: Chained dependence on flawed data may amplify error and destroy information value.
+<ul>
+<li>Shumailov et al., 2024</li>
+<li>Georg and Roukny, 2025</li>
+</ul></li>
+<li><strong>Watermarking data</strong>: Preventing AI-generated content from contaminating financial data.</li>
+</ul>
+</section>
+<section id="agentic-ai" class="level2">
+<h2 class="anchored" data-anchor-id="agentic-ai">4.4. Agentic AI</h2>
+<ul>
+<li><strong>Autonomous AI agents</strong>: When decision is coupled with predictions.<br>
+</li>
+<li><strong>Flash crashes &amp; AI-driven volatility</strong>: Historical examples of AI-induced market instability.</li>
+<li><strong>Algorithmic collusion</strong>
+<ul>
+<li>Calvano et al., 2020 - <em>Artificial Intelligence, Algorithmic Pricing, and Collusion</em> - American Economic Review</li>
+</ul></li>
+<li><strong>AI Alignment</strong></li>
+</ul>
+</section>
+</section>
+<section id="policy-and-regulation" class="level1">
+<h1>5. Policy and Regulation</h1>
+<section id="why-policy-and-regulation-matter" class="level2">
+<h2 class="anchored" data-anchor-id="why-policy-and-regulation-matter">Why Policy and Regulation Matter</h2>
+<p>Regulation must evolve with technology — from Basel I (credit risk) to DORA, MiCA, and now the <strong>AI Act</strong>.</p>
+<ul>
+<li>AI and ML transform <strong>how financial intermediation</strong> operates: who holds information, how risk is priced, how accountability is ensured.<br>
+</li>
+<li>Traditional prudential, conduct, and market integrity frameworks were designed for <em>human</em> decision-making.<br>
+</li>
+<li>ML introduces new <strong>information frictions</strong>: opacity, data dependence, feedback loops.<br>
+</li>
+<li>Regulators now face questions of <strong>explainability, accountability, and fairness</strong>.</li>
+</ul>
+</section>
+<section id="recent-policy-efforts-on-ai-in-banking" class="level2">
+<h2 class="anchored" data-anchor-id="recent-policy-efforts-on-ai-in-banking">Recent Policy Efforts on AI in Banking</h2>
+<section id="eu-artificial-intelligence-act-2024" class="level3">
+<h3 class="anchored" data-anchor-id="eu-artificial-intelligence-act-2024">1. <strong>EU Artificial Intelligence Act (2024)</strong></h3>
+<ul>
+<li>First comprehensive <strong>AI regulation</strong> globally.<br>
+</li>
+<li><strong>Risk-based approach</strong>: minimal, limited, high, and unacceptable risk categories.<br>
+</li>
+<li>Financial services (e.g., credit scoring, insurance underwriting) are <strong>“high-risk”</strong>.<br>
+</li>
+<li>Requires:
+<ul>
+<li>Human oversight and transparency<br>
+</li>
+<li>Data quality and bias controls<br>
+</li>
+<li>Robust documentation and governance<br>
+</li>
+</ul></li>
+<li>Entered into force <strong>1 August 2024</strong>; high-risk rules phase in by <strong>2026</strong>.</li>
+</ul>
+<p><strong>Implication for banks:</strong> ML credit models, robo-advice, and AML monitoring now fall under AI compliance regimes.</p>
+</section>
+<section id="european-banking-authority-eba-special-topic-on-ai-20242025" class="level3">
+<h3 class="anchored" data-anchor-id="european-banking-authority-eba-special-topic-on-ai-20242025">2. <strong>European Banking Authority (EBA) – Special Topic on AI (2024/2025)</strong></h3>
+<ul>
+<li>EBA mapped AI use across EU banks:
+<ul>
+<li>Regression, decision trees, NLP, neural networks.<br>
+</li>
+<li>~40% already using <strong>General-Purpose AI (GPAI)</strong>.<br>
+</li>
+</ul></li>
+<li>Focus areas:
+<ul>
+<li>Governance and validation of models.<br>
+</li>
+<li>Explainability and internal control functions.<br>
+</li>
+<li>Supervisory coordination under the EU AI Act.<br>
+</li>
+</ul></li>
+<li>Lays groundwork for <strong>supervisory expectations</strong> on AI model risk.
+<ul>
+<li>Embeds AI into the prudential supervision toolkit.</li>
+</ul></li>
+</ul>
+</section>
+<section id="financial-stability-board-fsb-global-monitoring-2024" class="level3">
+<h3 class="anchored" data-anchor-id="financial-stability-board-fsb-global-monitoring-2024">3. <strong>Financial Stability Board (FSB) – Global Monitoring (2024)</strong></h3>
+<ul>
+<li>Report: <em>“Monitoring Adoption of Artificial Intelligence and Related Risks.”</em><br>
+</li>
+<li>Highlights systemic risks:
+<ul>
+<li>Concentration in third-party providers (e.g., cloud, data).<br>
+</li>
+<li>Model risk and correlated errors.<br>
+</li>
+<li>Cyber and operational dependencies.<br>
+</li>
+</ul></li>
+<li>Encourages jurisdictions to align AI risk management with financial stability objectives.</li>
+</ul>
+<p><strong>Takeaway:</strong> AI regulation extends beyond conduct — it’s a <strong>macroprudential issue</strong>.</p>
+</section>
+<section id="esma-supervisory-statement-may-2024" class="level3">
+<h3 class="anchored" data-anchor-id="esma-supervisory-statement-may-2024">4. <strong>ESMA Supervisory Statement (May 2024)</strong></h3>
+<ul>
+<li>Investment firms and banks <strong>remain fully responsible</strong> for AI decisions.<br>
+</li>
+<li>No delegation of accountability to algorithms.<br>
+</li>
+<li>Requires governance documentation and model explainability.</li>
+</ul>
+<p><strong>Principle</strong>: <em>“Responsibility cannot be outsourced to AI.”</em></p>
+</section>
+</section>
+<section id="mapping-policy-objectives-to-ai-challenges" class="level2">
+<h2 class="anchored" data-anchor-id="mapping-policy-objectives-to-ai-challenges">Mapping Policy Objectives to AI Challenges</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 21%">
+<col style="width: 38%">
+<col style="width: 40%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Objective</th>
+<th>AI-Driven Challenge</th>
+<th>Regulatory Response</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Financial stability</strong></td>
+<td>Algorithmic risk &amp; model drift</td>
+<td>FSB monitoring, Basel governance</td>
+</tr>
+<tr class="even">
+<td><strong>Consumer protection</strong></td>
+<td>Bias in credit scoring</td>
+<td>EU AI Act, FEAT, GDPR</td>
+</tr>
+<tr class="odd">
+<td><strong>Market integrity</strong></td>
+<td>Manipulative algorithms</td>
+<td>MiFID II, ESMA guidance</td>
+</tr>
+<tr class="even">
+<td><strong>Operational resilience</strong></td>
+<td>Cloud &amp; model dependency</td>
+<td>DORA</td>
+</tr>
+<tr class="odd">
+<td><strong>Competition &amp; data concentration</strong></td>
+<td>BigTech data dominance</td>
+<td>Open Data / PSD3 proposals</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="common-policy-themes" class="level2">
+<h2 class="anchored" data-anchor-id="common-policy-themes">Common Policy Themes</h2>
+<ul>
+<li><strong>Accountability:</strong> Human oversight for algorithmic decisions.<br>
+</li>
+<li><strong>Explainability:</strong> Transparent and auditable models.<br>
+</li>
+<li><strong>Fairness:</strong> Avoid bias in data-driven decisions.<br>
+</li>
+<li><strong>Data governance:</strong> Secure, lawful, and interoperable data use.<br>
+</li>
+<li><strong>Cross-border consistency:</strong> Prevent regulatory arbitrage.</li>
+</ul>
+<p>Regulation of AI is regulation of <strong>information governance</strong>.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/trkrkn\.github\.io\/mbft\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

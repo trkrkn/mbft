@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://trkrkn.github.io/mbft/schedule.html</loc>
-    <lastmod>2025-10-20T14:36:20.353Z</lastmod>
+    <lastmod>2025-11-14T13:28:30.275Z</lastmod>
   </url>
   <url>
     <loc>https://trkrkn.github.io/mbft/lectures/lecture_03/references_credit.html</loc>
@@ -10,15 +10,15 @@
   </url>
   <url>
     <loc>https://trkrkn.github.io/mbft/lectures/lecture_04/06_policy.html</loc>
-    <lastmod>2025-10-14T07:50:51.400Z</lastmod>
+    <lastmod>2025-11-14T13:38:57.166Z</lastmod>
   </url>
   <url>
     <loc>https://trkrkn.github.io/mbft/lectures/lecture_05/02_platform.html</loc>
-    <lastmod>2025-10-17T13:24:37.723Z</lastmod>
+    <lastmod>2025-11-14T13:38:55.316Z</lastmod>
   </url>
   <url>
     <loc>https://trkrkn.github.io/mbft/lectures/lecture_05/01_intro.html</loc>
-    <lastmod>2025-10-16T13:11:36.938Z</lastmod>
+    <lastmod>2025-11-14T13:38:56.554Z</lastmod>
   </url>
   <url>
     <loc>https://trkrkn.github.io/mbft/lectures/lecture_02/lecture_02.html</loc>
@@ -34,11 +34,15 @@
   </url>
   <url>
     <loc>https://trkrkn.github.io/mbft/lectures/lecture_01/01_banking.html</loc>
-    <lastmod>2025-10-10T14:30:49.813Z</lastmod>
+    <lastmod>2025-11-14T13:39:13.903Z</lastmod>
   </url>
   <url>
     <loc>https://trkrkn.github.io/mbft/lectures/lecture_01/lecture_01.html</loc>
     <lastmod>2025-10-03T13:12:57.693Z</lastmod>
+  </url>
+  <url>
+    <loc>https://trkrkn.github.io/mbft/lectures/lecture_08/lecture_08.html</loc>
+    <lastmod>2025-11-14T13:27:19.088Z</lastmod>
   </url>
   <url>
     <loc>https://trkrkn.github.io/mbft/syllabus.html</loc>
@@ -46,11 +50,15 @@
   </url>
   <url>
     <loc>https://trkrkn.github.io/mbft/index.html</loc>
-    <lastmod>2025-11-10T07:22:55.247Z</lastmod>
+    <lastmod>2025-11-14T13:29:14.060Z</lastmod>
   </url>
   <url>
     <loc>https://trkrkn.github.io/mbft/assignment.html</loc>
     <lastmod>2025-11-03T11:09:20.469Z</lastmod>
+  </url>
+  <url>
+    <loc>https://trkrkn.github.io/mbft/lectures/lecture_08/03_machine_learning.html</loc>
+    <lastmod>2025-11-14T13:35:30.923Z</lastmod>
   </url>
   <url>
     <loc>https://trkrkn.github.io/mbft/lectures/lecture_06/lecture_06.html</loc>
@@ -58,7 +66,7 @@
   </url>
   <url>
     <loc>https://trkrkn.github.io/mbft/lectures/lecture_01/02_money.html</loc>
-    <lastmod>2025-10-10T14:36:27.634Z</lastmod>
+    <lastmod>2025-11-14T13:37:37.957Z</lastmod>
   </url>
   <url>
     <loc>https://trkrkn.github.io/mbft/lectures/lecture_01/references.html</loc>
@@ -66,11 +74,11 @@
   </url>
   <url>
     <loc>https://trkrkn.github.io/mbft/lectures/lecture_01/03_payment.html</loc>
-    <lastmod>2025-10-10T14:43:27.042Z</lastmod>
+    <lastmod>2025-11-14T13:37:51.188Z</lastmod>
   </url>
   <url>
     <loc>https://trkrkn.github.io/mbft/lectures/lecture_02/04_deposits.html</loc>
-    <lastmod>2025-10-10T14:47:04.308Z</lastmod>
+    <lastmod>2025-11-14T13:38:58.743Z</lastmod>
   </url>
   <url>
     <loc>https://trkrkn.github.io/mbft/lectures/lecture_02/references_deposit.html</loc>
@@ -90,6 +98,6 @@
   </url>
   <url>
     <loc>https://trkrkn.github.io/mbft/lectures/lecture_03/05_credit.html</loc>
-    <lastmod>2025-10-10T14:54:53.469Z</lastmod>
+    <lastmod>2025-11-14T13:38:58.028Z</lastmod>
   </url>
 </urlset>
