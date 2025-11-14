@@ -81,5 +81,14 @@
   },
   "assignment.qmd": {
     "assignment.html": "1488c131"
+  },
+  "lectures/lecture_07/lecture_07.qmd": {
+    "lecture_07.html": "b9e75583"
+  },
+  "lectures/lecture_08/03_machine_learning.ipynb": {
+    "03_machine_learning.html": "4012e3e7"
+  },
+  "lectures/lecture_08/lecture_08.qmd": {
+    "lecture_08.html": "65fd4db6"
   }
 }

@@ -1,0 +1,14 @@
+---
+title: "Lecture 07"
+---
+## Platforms and Open Banking
+### Guest Lecture by Elif Cansu Akoguz
+
+
+#### Open Banking
+
+- **Slides**: [PDF](https://drive.google.com/file/d/1sgPwaK-R6S8JrO1wreLTJ-nC5fmh0V8H/view?usp=share_link){target=_blank}
+
+#### Fintech Plaftforms
+
+- **Slides**: [PDF](https://drive.google.com/file/d/12DT3mg1BjvtTdDY1b5ORFvhNoudiZuAm/view?usp=share_link){target=_blank}

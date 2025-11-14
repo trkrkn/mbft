@@ -1,0 +1,84 @@
+---
+title: "Lecture 08"
+---
+## Machine Learning
+**Page**: [HTML](03_machine_learning.html){target=_blank}
+
+**Slides**:
+[Reveal.js](03_machine_learning.slides.html){target=_blank}
+[PDF](03_machine_learning.slides.pdf){target=_blank}
+
+### Recordings
+#### 0. Overview
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    src="https://drive.google.com/file/d/17g_i4jmFkTJdz1gJ1dtzc62sF2nOaJLy/preview"
+    frameborder="0"
+    allowfullscreen
+    style="position: absolute; top:0; left:0; width:100%; height:100%;">
+  </iframe>
+</div>
+
+#### 1. Intro to AI
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    src="https://drive.google.com/file/d/1l746Wo35yY-yAxsifDIkUGd_wQb3fQr8/preview"
+    frameborder="0"
+    allowfullscreen
+    style="position: absolute; top:0; left:0; width:100%; height:100%;">
+  </iframe>
+</div>
+
+#### 2. Economics of Machine Learning
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    src="https://drive.google.com/file/d/1Kc8NyA6leijVNhIoNPdOpOKHj_yoexGZ/preview"
+    frameborder="0"
+    allowfullscreen
+    style="position: absolute; top:0; left:0; width:100%; height:100%;">
+  </iframe>
+</div>
+
+#### 3. AI and Finance
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    src="https://drive.google.com/file/d/1zO9YVkfEKtqHnw82ykmURUKcSAUG5Edz/preview"
+    frameborder="0"
+    allowfullscreen
+    style="position: absolute; top:0; left:0; width:100%; height:100%;">
+  </iframe>
+</div>
+
+#### 4. Challenges
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    src="https://drive.google.com/file/d/1dmTTejD_7T-KMNlZbGB7ZLtl8fk2aR5k/preview"
+    frameborder="0"
+    allowfullscreen
+    style="position: absolute; top:0; left:0; width:100%; height:100%;">
+  </iframe>
+</div>
+
+
+#### 5. Policy and Regulation
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    src="https://drive.google.com/file/d/1obk6mlRgqtdSJpEgjKENh2DssJhoLJdw/preview"
+    frameborder="0"
+    allowfullscreen
+    style="position: absolute; top:0; left:0; width:100%; height:100%;">
+  </iframe>
+</div>
+
+---
+
+
+
+
+

@@ -158,8 +158,14 @@ window.Quarto = {
     <a class="dropdown-item" href="../../lectures/lecture_06/lecture_06.html">
  <span class="dropdown-text">Lecture 06 - Modern Banking pt.&nbsp;5</span></a>
   </li>  
-        <li class="dropdown-header">Lecture 07 - Platforms pt.&nbsp;2</li>
-        <li class="dropdown-header">Lecture 08 - Machine Learning pt.&nbsp;1</li>
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_07/lecture_07.html">
+ <span class="dropdown-text">Lecture 07 - Platforms pt.&nbsp;2</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_08/lecture_08.html">
+ <span class="dropdown-text">Lecture 08 - Machine Learning pt.&nbsp;1</span></a>
+  </li>  
         <li class="dropdown-header">Lecture 09 - Machine Learning pt.&nbsp;2</li>
         <li class="dropdown-header">Lecture 10 - Crypto pt.&nbsp;1</li>
         <li class="dropdown-header">Lecture 11 - Crypto pt.&nbsp;2</li>
@@ -167,7 +173,11 @@ window.Quarto = {
   </li>
   <li class="nav-item">
     <a class="nav-link" href="https://app.alldayta.com/katholieke-universiteit-leuven/mbft"> 
-<span class="menu-text">All Day TA (<strong>new</strong>)</span></a>
+<span class="menu-text">All Day TA</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../assignment.html"> 
+<span class="menu-text">Assignment (<strong>NEW</strong>)</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -184,12 +194,7 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#key-questions" id="toc-key-questions" class="nav-link active" data-scroll-target="#key-questions">4 Key Questions</a></li>
-  <li><a href="#where-does-money-come-from" id="toc-where-does-money-come-from" class="nav-link" data-scroll-target="#where-does-money-come-from">1. Where Does Money Come From?</a></li>
-  <li><a href="#why-do-we-need-money" id="toc-why-do-we-need-money" class="nav-link" data-scroll-target="#why-do-we-need-money">2. Why Do We Need Money?</a></li>
-  <li><a href="#what-is-money" id="toc-what-is-money" class="nav-link" data-scroll-target="#what-is-money">3. What is Money?</a></li>
-  <li><a href="#how-to-control-money" id="toc-how-to-control-money" class="nav-link" data-scroll-target="#how-to-control-money">4. How to Control Money?</a></li>
-  <li><a href="#map" id="toc-map" class="nav-link" data-scroll-target="#map">Map</a></li>
+  <li><a href="#map" id="toc-map" class="nav-link active" data-scroll-target="#map">Map</a></li>
   <li><a href="#the-origins-of-money" id="toc-the-origins-of-money" class="nav-link" data-scroll-target="#the-origins-of-money">1. The Origins of Money</a>
   <ul class="collapse">
   <li><a href="#how-do-we-organise-exchange-debt-vs-barter" id="toc-how-do-we-organise-exchange-debt-vs-barter" class="nav-link" data-scroll-target="#how-do-we-organise-exchange-debt-vs-barter">How do we organise exchange? Debt vs Barter</a>
@@ -278,21 +283,6 @@ window.Quarto = {
 </header>
 
 
-<section id="key-questions" class="level2">
-<h2 class="anchored" data-anchor-id="key-questions">4 Key Questions</h2>
-</section>
-<section id="where-does-money-come-from" class="level2">
-<h2 class="anchored" data-anchor-id="where-does-money-come-from">1. Where Does Money Come From?</h2>
-</section>
-<section id="why-do-we-need-money" class="level2">
-<h2 class="anchored" data-anchor-id="why-do-we-need-money">2. Why Do We Need Money?</h2>
-</section>
-<section id="what-is-money" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-money">3. What is Money?</h2>
-</section>
-<section id="how-to-control-money" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-control-money">4. How to Control Money?</h2>
-</section>
 <section id="map" class="level1">
 <h1>Map</h1>
 <ol type="1">
@@ -961,7 +951,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/trkrkn\.github\.io\/mbft\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

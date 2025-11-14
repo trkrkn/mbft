@@ -158,8 +158,14 @@ window.Quarto = {
     <a class="dropdown-item" href="../../lectures/lecture_06/lecture_06.html">
  <span class="dropdown-text">Lecture 06 - Modern Banking pt.&nbsp;5</span></a>
   </li>  
-        <li class="dropdown-header">Lecture 07 - Platforms pt.&nbsp;2</li>
-        <li class="dropdown-header">Lecture 08 - Machine Learning pt.&nbsp;1</li>
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_07/lecture_07.html">
+ <span class="dropdown-text">Lecture 07 - Platforms pt.&nbsp;2</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_08/lecture_08.html">
+ <span class="dropdown-text">Lecture 08 - Machine Learning pt.&nbsp;1</span></a>
+  </li>  
         <li class="dropdown-header">Lecture 09 - Machine Learning pt.&nbsp;2</li>
         <li class="dropdown-header">Lecture 10 - Crypto pt.&nbsp;1</li>
         <li class="dropdown-header">Lecture 11 - Crypto pt.&nbsp;2</li>
@@ -167,7 +173,11 @@ window.Quarto = {
   </li>
   <li class="nav-item">
     <a class="nav-link" href="https://app.alldayta.com/katholieke-universiteit-leuven/mbft"> 
-<span class="menu-text">All Day TA (<strong>new</strong>)</span></a>
+<span class="menu-text">All Day TA</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../assignment.html"> 
+<span class="menu-text">Assignment (<strong>NEW</strong>)</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -184,12 +194,7 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#key-questions" id="toc-key-questions" class="nav-link active" data-scroll-target="#key-questions">4 Key Questions</a></li>
-  <li><a href="#what-is-a-debt-contract" id="toc-what-is-a-debt-contract" class="nav-link" data-scroll-target="#what-is-a-debt-contract">What is a debt contract?</a></li>
-  <li><a href="#why-are-debt-contracts-so-prevalent" id="toc-why-are-debt-contracts-so-prevalent" class="nav-link" data-scroll-target="#why-are-debt-contracts-so-prevalent">Why are debt contracts so prevalent?</a></li>
-  <li><a href="#when-do-debt-markets-fail" id="toc-when-do-debt-markets-fail" class="nav-link" data-scroll-target="#when-do-debt-markets-fail">When do debt markets fail?</a></li>
-  <li><a href="#why-do-we-need-banks-for-credit" id="toc-why-do-we-need-banks-for-credit" class="nav-link" data-scroll-target="#why-do-we-need-banks-for-credit">Why do we need banks for credit?</a></li>
-  <li><a href="#map" id="toc-map" class="nav-link" data-scroll-target="#map">Map</a></li>
+  <li><a href="#map" id="toc-map" class="nav-link active" data-scroll-target="#map">Map</a></li>
   <li><a href="#financial-contracts" id="toc-financial-contracts" class="nav-link" data-scroll-target="#financial-contracts">1. Financial Contracts</a>
   <ul class="collapse">
   <li><a href="#stylized-equity-style-contract" id="toc-stylized-equity-style-contract" class="nav-link" data-scroll-target="#stylized-equity-style-contract">Stylized equity-style contract</a></li>
@@ -293,21 +298,6 @@ window.Quarto = {
 </header>
 
 
-<section id="key-questions" class="level2">
-<h2 class="anchored" data-anchor-id="key-questions">4 Key Questions</h2>
-</section>
-<section id="what-is-a-debt-contract" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-a-debt-contract">What is a debt contract?</h2>
-</section>
-<section id="why-are-debt-contracts-so-prevalent" class="level2">
-<h2 class="anchored" data-anchor-id="why-are-debt-contracts-so-prevalent">Why are debt contracts so prevalent?</h2>
-</section>
-<section id="when-do-debt-markets-fail" class="level2">
-<h2 class="anchored" data-anchor-id="when-do-debt-markets-fail">When do debt markets fail?</h2>
-</section>
-<section id="why-do-we-need-banks-for-credit" class="level2">
-<h2 class="anchored" data-anchor-id="why-do-we-need-banks-for-credit">Why do we need banks for credit?</h2>
-</section>
 <section id="map" class="level1">
 <h1>Map</h1>
 <ol type="1">
@@ -1573,7 +1563,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/trkrkn\.github\.io\/mbft\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

@@ -25,9 +25,9 @@ website:
             text: Lecture 05 - Fintech | Plaforms pt. 1
           - href: 'lectures/lecture_06/lecture_06.qmd'
             text: Lecture 06 -  Modern Banking pt. 5 
-          - href: ''
+          - href: 'lectures/lecture_07/lecture_07.qmd'
             text: Lecture 07 - Platforms pt. 2
-          - href: ''
+          - href: 'lectures/lecture_08/lecture_08.qmd'
             text: Lecture 08 - Machine Learning pt. 1
           - href: ''
             text: Lecture 09 - Machine Learning pt. 2

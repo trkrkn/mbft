@@ -129,8 +129,14 @@ ul.task-list li input[type="checkbox"] {
     <a class="dropdown-item" href="./lectures/lecture_06/lecture_06.html">
  <span class="dropdown-text">Lecture 06 - Modern Banking pt.&nbsp;5</span></a>
   </li>  
-        <li class="dropdown-header">Lecture 07 - Platforms pt.&nbsp;2</li>
-        <li class="dropdown-header">Lecture 08 - Machine Learning pt.&nbsp;1</li>
+        <li>
+    <a class="dropdown-item" href="./lectures/lecture_07/lecture_07.html">
+ <span class="dropdown-text">Lecture 07 - Platforms pt.&nbsp;2</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./lectures/lecture_08/lecture_08.html">
+ <span class="dropdown-text">Lecture 08 - Machine Learning pt.&nbsp;1</span></a>
+  </li>  
         <li class="dropdown-header">Lecture 09 - Machine Learning pt.&nbsp;2</li>
         <li class="dropdown-header">Lecture 10 - Crypto pt.&nbsp;1</li>
         <li class="dropdown-header">Lecture 11 - Crypto pt.&nbsp;2</li>
@@ -138,7 +144,11 @@ ul.task-list li input[type="checkbox"] {
   </li>
   <li class="nav-item">
     <a class="nav-link" href="https://app.alldayta.com/katholieke-universiteit-leuven/mbft"> 
-<span class="menu-text">All Day TA (<strong>new</strong>)</span></a>
+<span class="menu-text">All Day TA</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./assignment.html"> 
+<span class="menu-text">Assignment (<strong>NEW</strong>)</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -240,19 +250,19 @@ ul.task-list li input[type="checkbox"] {
 <tr class="even">
 <td>03/11/2025</td>
 <td>6</td>
-<td><strong>Modern Banking</strong> <br>Guest lecture</td>
+<td><del><strong>Modern Banking</strong></del> <br>Guest lecture</td>
 <td>Financial Networks</td>
 </tr>
 <tr class="odd">
 <td>10/11/2025</td>
 <td>7</td>
-<td><strong>Platforms</strong> <br>Guest lecture</td>
+<td><del><strong>Platforms</strong></del> <br>Guest lecture</td>
 <td>Fintech Platforms<br>Open Banking</td>
 </tr>
 <tr class="even">
-<td>17/11/2025</td>
+<td>17/11/2025 <br> <code>recorded</code></td>
 <td>8</td>
-<td><strong>Machine Learning</strong></td>
+<td><del><strong>Machine Learning</strong></del></td>
 <td>History<br>Economics of ML<br>Policy</td>
 </tr>
 <tr class="odd">
@@ -265,7 +275,7 @@ ul.task-list li input[type="checkbox"] {
 <td>01/12/2025</td>
 <td>10</td>
 <td><strong>Crypto</strong></td>
-<td>The Technology of DLT<br>Smart contracts<br>Stablecoins<br>DeFi<br>Policy</td>
+<td>The Technology of DLT<br>Decentralised Finance<br>Policy</td>
 </tr>
 <tr class="odd">
 <td>08/12/2025</td>
@@ -377,7 +387,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/trkrkn\.github\.io\/mbft\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
