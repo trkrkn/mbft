@@ -1,0 +1,1269 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Decentralised Finance (DeFi) – Modern Banking and Financial Technology</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Modern Banking and Financial Technology</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../syllabus.html"> 
+<span class="menu-text">Syllabus</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../schedule.html"> 
+<span class="menu-text">Schedule</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lectures" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lectures</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lectures">    
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_01/lecture_01.html">
+ <span class="dropdown-text">Lecture 01 - Modern Banking pt.&nbsp;1</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_02/lecture_02.html">
+ <span class="dropdown-text">Lecture 02 - Modern Banking pt.&nbsp;2</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_03/lecture_03.html">
+ <span class="dropdown-text">Lecture 03 - Modern Banking pt.&nbsp;3</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_04/lecture_04.html">
+ <span class="dropdown-text">Lecture 04 - Modern Banking pt.&nbsp;4</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_05/lecture_05.html">
+ <span class="dropdown-text">Lecture 05 - Fintech | Plaforms pt.&nbsp;1</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_06/lecture_06.html">
+ <span class="dropdown-text">Lecture 06 - Modern Banking pt.&nbsp;5</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_07/lecture_07.html">
+ <span class="dropdown-text">Lecture 07 - Platforms pt.&nbsp;2</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_08/lecture_08.html">
+ <span class="dropdown-text">Lecture 08 - Machine Learning pt.&nbsp;1</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_09/lecture_09.html">
+ <span class="dropdown-text">Lecture 09 - Crypto pt.&nbsp;1</span></a>
+  </li>  
+        <li class="dropdown-header">Lecture 10 - Machine Learning pt.&nbsp;2</li>
+        <li class="dropdown-header">Lecture 11 - Crypto pt.&nbsp;2</li>
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="https://app.alldayta.com/katholieke-universiteit-leuven/mbft"> 
+<span class="menu-text">All Day TA</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../assignment.html"> 
+<span class="menu-text">Assignment (<strong>NEW</strong>)</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#key-questions" id="toc-key-questions" class="nav-link active" data-scroll-target="#key-questions">5 key questions</a></li>
+  <li><a href="#what-is-defi" id="toc-what-is-defi" class="nav-link" data-scroll-target="#what-is-defi">What is DeFi?</a></li>
+  <li><a href="#why-would-we-need-defi" id="toc-why-would-we-need-defi" class="nav-link" data-scroll-target="#why-would-we-need-defi">Why Would We Need DeFi?</a></li>
+  <li><a href="#what-are-the-new-actors-in-defi" id="toc-what-are-the-new-actors-in-defi" class="nav-link" data-scroll-target="#what-are-the-new-actors-in-defi">What are the New Actors in DeFi?</a></li>
+  <li><a href="#what-are-the-main-risks-in-defi" id="toc-what-are-the-main-risks-in-defi" class="nav-link" data-scroll-target="#what-are-the-main-risks-in-defi">What are the Main Risks in DeFi?</a></li>
+  <li><a href="#should-defi-be-regulated-differently" id="toc-should-defi-be-regulated-differently" class="nav-link" data-scroll-target="#should-defi-be-regulated-differently">Should DeFi be Regulated Differently?</a></li>
+  <li><a href="#map" id="toc-map" class="nav-link" data-scroll-target="#map">Map</a></li>
+  <li><a href="#what-is-defi-1" id="toc-what-is-defi-1" class="nav-link" data-scroll-target="#what-is-defi-1">1. <code>What</code> is DeFi?</a>
+  <ul class="collapse">
+  <li><a href="#computer-in-the-financial-sky" id="toc-computer-in-the-financial-sky" class="nav-link" data-scroll-target="#computer-in-the-financial-sky">Computer in the <code>financial</code> sky</a></li>
+  <li><a href="#definition" id="toc-definition" class="nav-link" data-scroll-target="#definition">Definition</a></li>
+  <li><a href="#example-how-defi-handles-exchanges" id="toc-example-how-defi-handles-exchanges" class="nav-link" data-scroll-target="#example-how-defi-handles-exchanges">Example: how DeFi handles exchanges</a></li>
+  </ul></li>
+  <li><a href="#why-defi" id="toc-why-defi" class="nav-link" data-scroll-target="#why-defi">2. <code>Why</code> DeFi?</a>
+  <ul class="collapse">
+  <li><a href="#the-crypto-value-proposition" id="toc-the-crypto-value-proposition" class="nav-link" data-scroll-target="#the-crypto-value-proposition">The crypto value proposition</a>
+  <ul class="collapse">
+  <li><a href="#example-digital-payments" id="toc-example-digital-payments" class="nav-link" data-scroll-target="#example-digital-payments">Example: digital payments</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#defi-world" id="toc-defi-world" class="nav-link" data-scroll-target="#defi-world">3. DeFi world</a>
+  <ul class="collapse">
+  <li><a href="#the-defi-stack" id="toc-the-defi-stack" class="nav-link" data-scroll-target="#the-defi-stack">3.1 The DeFi stack</a></li>
+  <li><a href="#protocols" id="toc-protocols" class="nav-link" data-scroll-target="#protocols">3.2 Protocols</a></li>
+  <li><a href="#some-statistics" id="toc-some-statistics" class="nav-link" data-scroll-target="#some-statistics">3.3 Some statistics</a></li>
+  </ul></li>
+  <li><a href="#the-future-of-defi" id="toc-the-future-of-defi" class="nav-link" data-scroll-target="#the-future-of-defi">4. The future of DeFi</a>
+  <ul class="collapse">
+  <li><a href="#the-new-intermediaries" id="toc-the-new-intermediaries" class="nav-link" data-scroll-target="#the-new-intermediaries">The new intermediaries</a>
+  <ul class="collapse">
+  <li><a href="#oracles" id="toc-oracles" class="nav-link" data-scroll-target="#oracles">Oracles</a></li>
+  <li><a href="#ramps-tokenisation" id="toc-ramps-tokenisation" class="nav-link" data-scroll-target="#ramps-tokenisation">Ramps &amp; Tokenisation</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#policy-discussion" id="toc-policy-discussion" class="nav-link" data-scroll-target="#policy-discussion">5. Policy discussion</a>
+  <ul class="collapse">
+  <li><a href="#a-new-policy-framework" id="toc-a-new-policy-framework" class="nav-link" data-scroll-target="#a-new-policy-framework">5.1 A New Policy Framework?</a></li>
+  <li><a href="#major-risks-associated-with-defi" id="toc-major-risks-associated-with-defi" class="nav-link" data-scroll-target="#major-risks-associated-with-defi">5.2 Major Risks Associated With DeFi</a></li>
+  <li><a href="#why-stablecoins-create-structural-risks-in-defi" id="toc-why-stablecoins-create-structural-risks-in-defi" class="nav-link" data-scroll-target="#why-stablecoins-create-structural-risks-in-defi">5.3 Why Stablecoins Create Structural Risks in DeFi</a></li>
+  <li><a href="#recent-regulatory-developments-micar-the-u.s.-genius-act" id="toc-recent-regulatory-developments-micar-the-u.s.-genius-act" class="nav-link" data-scroll-target="#recent-regulatory-developments-micar-the-u.s.-genius-act">5.4 Recent Regulatory Developments: MiCAR &amp; the U.S. “Genius Act”</a>
+  <ul class="collapse">
+  <li><a href="#eu-markets-in-crypto-assets-regulation-micar-20242025" id="toc-eu-markets-in-crypto-assets-regulation-micar-20242025" class="nav-link" data-scroll-target="#eu-markets-in-crypto-assets-regulation-micar-20242025">5.4.1 EU – Markets in Crypto-Assets Regulation (MiCAR, 2024–2025)</a></li>
+  <li><a href="#u.s.-the-genius-act-2024-proposal" id="toc-u.s.-the-genius-act-2024-proposal" class="nav-link" data-scroll-target="#u.s.-the-genius-act-2024-proposal">5.4.2 U.S. – The “Genius Act” (2024 Proposal)</a></li>
+  </ul></li>
+  <li><a href="#open-policy-issues" id="toc-open-policy-issues" class="nav-link" data-scroll-target="#open-policy-issues">5.5 Open policy issues</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Decentralised Finance (DeFi)</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="key-questions" class="level2">
+<h2 class="anchored" data-anchor-id="key-questions">5 key questions</h2>
+</section>
+<section id="what-is-defi" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-defi">What is DeFi?</h2>
+</section>
+<section id="why-would-we-need-defi" class="level2">
+<h2 class="anchored" data-anchor-id="why-would-we-need-defi">Why Would We Need DeFi?</h2>
+</section>
+<section id="what-are-the-new-actors-in-defi" class="level2">
+<h2 class="anchored" data-anchor-id="what-are-the-new-actors-in-defi">What are the New Actors in DeFi?</h2>
+</section>
+<section id="what-are-the-main-risks-in-defi" class="level2">
+<h2 class="anchored" data-anchor-id="what-are-the-main-risks-in-defi">What are the Main Risks in DeFi?</h2>
+</section>
+<section id="should-defi-be-regulated-differently" class="level2">
+<h2 class="anchored" data-anchor-id="should-defi-be-regulated-differently">Should DeFi be Regulated Differently?</h2>
+</section>
+<section id="map" class="level1">
+<h1>Map</h1>
+<ol type="1">
+<li><code>what</code></li>
+<li><code>how</code></li>
+<li><code>why</code></li>
+<li>DeFi world</li>
+<li>Future of DeFi</li>
+<li>Policy discussions</li>
+</ol>
+</section>
+<section id="what-is-defi-1" class="level1">
+<h1>1. <code>What</code> is DeFi?</h1>
+<section id="computer-in-the-financial-sky" class="level2">
+<h2 class="anchored" data-anchor-id="computer-in-the-financial-sky">Computer in the <code>financial</code> sky</h2>
+<ul>
+<li><strong>Blockchain</strong> as the <strong>computer in the sky</strong>.</li>
+<li><strong>DeFi</strong> commonly refers to the set of <strong>financial applications</strong> running on the blockchain machine.</li>
+</ul>
+</section>
+<section id="definition" class="level2">
+<h2 class="anchored" data-anchor-id="definition">Definition</h2>
+<p>Decentralized Finance (DeFi) is an <strong>open</strong> <strong>digital</strong> ecosystem where financial services are produced through <strong>automated protocols</strong> in order to eliminate <strong>financial intermediation</strong>.</p>
+<p>DeFi inherits the blockchain properties: - A set of <strong>public, interoperable and autonomous protocols</strong> which are <strong>universally accessible</strong> - Developed, maintained and used by an <strong>open pool of pseudonymous agents</strong> rather than a set of unique legal entities.</p>
+</section>
+<section id="example-how-defi-handles-exchanges" class="level2">
+<h2 class="anchored" data-anchor-id="example-how-defi-handles-exchanges">Example: how DeFi handles exchanges</h2>
+<p>Swap of securities (tokens): Ether x USDC</p>
+<p><strong>Traditional model of centralized exchanges (CEX)</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 48%">
+<col style="width: 51%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Customers</strong></th>
+<th><strong>Exchange</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Sign in</td>
+<td>Matches orders</td>
+</tr>
+<tr class="even">
+<td>Deposit</td>
+<td>Settles</td>
+</tr>
+<tr class="odd">
+<td>Submit orders <br> <code>buy</code> / <code>sell</code></td>
+<td>Clears</td>
+</tr>
+</tbody>
+</table>
+<center>
+<img src="figures/cex.png" width="500">
+</center>
+<p><strong>Decentralized exchanges (DEX) operate with Automated Market Makers (AMM)</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Buyers/Sellers</strong></th>
+<th><strong>AMM protocol</strong></th>
+<th><strong>Liquidity providers</strong></th>
+<th><strong>Governance protocol</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Swap tokens</td>
+<td>Set prices</td>
+<td>Deposit tokens</td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Execute exchanges</td>
+<td>Fee revenue</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Manage liquidity balances <br> <code>liquidity pool</code></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<center>
+<img src="figures/dex.png" width="500">
+<center>
+<p><strong>Key parts:</strong> - An <strong>automated market maker</strong> (<code>smart contract</code>) handles exchanges directly with buyers and sellers<br>
+→ No matching or asset custody by a central authority - <strong>Liquidity pool</strong> hosts reserves of tokens<br>
+→ Provisioned by <strong>liquidity providers</strong> for profit (fee) - <strong>Anyone</strong> can push a request to the protocol<br>
+→ AMM accesses the pool of tokens to meet the request and updates the reserve balances<br>
+→ Each transaction comes with a fee that is then redistributed to the liquidity providers. - <strong>Governance</strong>: the protocol is updated through voting by holders of governance tokens</p>
+</center></center></section>
+</section>
+<section id="why-defi" class="level1">
+<h1>2. <code>Why</code> DeFi?</h1>
+<section id="the-crypto-value-proposition" class="level2">
+<h2 class="anchored" data-anchor-id="the-crypto-value-proposition">The crypto value proposition</h2>
+<p><strong>DeFi value proposition</strong> is a new <strong>information governance</strong> model &gt; Technology that <strong>shifts in the information structure</strong> upon which financial services can be deployed.</p>
+<p><strong>Goal of Cryptography and DLT</strong>: - Offer a <strong>guarantee</strong> of information <strong>publicly</strong> in <strong>absence of a central authority</strong> - Technological solution to an information problem - <u>Claim</u>: for contracts strictly relying on such information: <strong>no need for intermediation</strong></p>
+<section id="example-digital-payments" class="level3">
+<h3 class="anchored" data-anchor-id="example-digital-payments">Example: digital payments</h3>
+<p><u><b>Key friction in payments</b></u>: the privacy value (<strong>confidentiality</strong>) of transaction information</p>
+<p>Traditional payment systems and the Bitcoin model offer two <strong>different solutions to this problem</strong>.</p>
+<center>
+<img src="figures/payments.png" width="1200">
+<center>
+<p><strong>Under the crypto information structure</strong> - NO <strong>confidential</strong> information - Source of power in intermediated markets - ❗Misleading claims - <strong>Transparency</strong> - From confidentiality to <strong>pseudonymity</strong> - <strong>Replicability</strong> of standard financial instruments - Absence of confidentiality <strong>restricts</strong> contracting space</p>
+<p><strong>Information and economics</strong></p>
+<center>
+<b>Different information structures</b>
+</center>
+<center>
+↓ <br><b>Different market dynamics </b>
+</center>
+<center>
+↓ <br><b>Different policy treatments</b>
+</center>
+<p><strong>Different information structures / different economic forces / different policy treatments</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Friction Fix</strong></th>
+<th><strong>Welfare Gains</strong></th>
+<th><strong>Welfare Losses</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Traditional Payments</strong></td>
+<td>Confidentiality</td>
+<td>Liability of parties<br> Dispute resolution<br> Screening (AML/KYC)</td>
+<td><br> Centralized control <br> Market power<br> Lack of innovation<br> Single point failure</td>
+</tr>
+<tr class="even">
+<td><strong>Bitcoin, Ethereum</strong></td>
+<td>Pseudonymity</td>
+<td>No rent <br> No arbitrary control <br> Innovation <br> Resilient</td>
+<td>No dispute resolution <br> No Screening (AML/KYC)<br> Limited contracting space</td>
+</tr>
+</tbody>
+</table>
+</center></center></section>
+</section>
+</section>
+<section id="defi-world" class="level1">
+<h1>3. DeFi world</h1>
+<section id="the-defi-stack" class="level2">
+<h2 class="anchored" data-anchor-id="the-defi-stack">3.1 The DeFi stack</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 11%">
+<col style="width: 58%">
+<col style="width: 29%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Layer</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Examples</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Settlement Layer</strong></td>
+<td>Processes and records all transactions securely and transparently.</td>
+<td>Ethereum, Binance Smart Chain, Solana</td>
+</tr>
+<tr class="even">
+<td><strong>Asset Layer</strong></td>
+<td>Tokens or digital assets that represent value on the blockchain and can be traded or used in DeFi protocols.</td>
+<td>ETH, BTC, Stablecoins (USDC, DAI), Wrapped Assets</td>
+</tr>
+<tr class="odd">
+<td><strong>Protocol Layer</strong></td>
+<td>Smart contracts defining financial logic for decentralized services.</td>
+<td>Uniswap, Aave, Compound, MakerDAO</td>
+</tr>
+<tr class="even">
+<td><strong>Application Layer</strong></td>
+<td>User-facing interfaces and dApps (decentralized applications) that interact with protocols.</td>
+<td>MetaMask, Argent, Zerion, Yearn Finance</td>
+</tr>
+<tr class="odd">
+<td><strong>Aggregation Layer</strong></td>
+<td>Platforms that combine multiple DeFi services.</td>
+<td>1inch, Zapper, DeFi Saver, Yearn</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="protocols" class="level2">
+<h2 class="anchored" data-anchor-id="protocols">3.2 Protocols</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 13%">
+<col style="width: 66%">
+<col style="width: 19%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Category</strong></th>
+<th style="text-align: left;"><strong>Description</strong></th>
+<th><strong>Examples</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Stablecoins</strong></td>
+<td style="text-align: left;">Crypto assets w/ value pegged to a given asset (e.g., US dollar).</td>
+<td><code>USDT</code> (Tether)<br> <code>USDC</code> (Circle)<br> <code>Dai</code> (MakerDAO)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Exchanges (DEX)</strong></td>
+<td style="text-align: left;">Exchange of tokens via liquidity</td>
+<td><code>Uniswap</code><br><code>Sushiswap</code><br><code>Curve</code></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Credit</strong></td>
+<td style="text-align: left;">Credit services via liquidity pools (collateralized or flash loans).</td>
+<td><code>Compound</code> <br> <code>Aave</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Derivatives/Insurance</strong></td>
+<td style="text-align: left;">Futures and synthetic exposures provided by liquidity pools with collateralized positions.</td>
+<td><code>dYdX</code><br> <code>Synthetix</code></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Portfolio Management</strong></td>
+<td style="text-align: left;">Vaults of assets governed and managed by smart contracts.</td>
+<td><code>Set Protocol</code><br> <code>PieDAO</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Exchange in traditional setting and in DeFi</strong></p>
+<center>
+<img src="figures/exchange-2.png" width="1000">
+<center>
+<p><strong>Lending in traditional setting and in DeFi</strong></p>
+<ul>
+<li>❗ Large <strong>collateral</strong> requirements to compensate <strong>limited information</strong></li>
+</ul>
+<center>
+<img src="figures/lending.png" width="1000">
+<center>
+</center></center></center></center></section>
+<section id="some-statistics" class="level2">
+<h2 class="anchored" data-anchor-id="some-statistics">3.3 Some statistics</h2>
+<ul>
+<li>Multiple <strong>seasons</strong></li>
+<li>Significant <strong>growth</strong> and uptake at times</li>
+<li>Still <strong>limited</strong> compared to the rest of the financial world</li>
+</ul>
+<p><strong>Total Value Locked in DeFi protocols</strong></p>
+<center>
+<p><img src="figures/stats_tvl.png" width="1000"> source: DeFi LLama</p>
+<p><strong>Funds Locked in Stablecoins</strong></p>
+<center>
+<img src="figures/stablecoins.png" width="1000">
+<center>
+<p>source: DeFi LLama</p>
+<p><strong>Total Value Locked in DEX and lending</strong></p>
+<center>
+<img src="figures/stats_dex_lend.png" width="1000">
+<center>
+<p>source: DeFi LLama</p>
+</center></center></center></center></center></section>
+</section>
+<section id="the-future-of-defi" class="level1">
+<h1>4. The future of DeFi</h1>
+<p>The fundamental challenge</p>
+<p><strong>Recall the binary information structure</strong> - <strong>Public (<code>on-chain</code>)</strong> - Verification at (almost) zero cost - Transaction transparency: any activity on DeFi is public and can be contracted upon. - <strong>Private (<code>off-chain</code>)</strong> - Infinitely costly to verify - Pseudonymity: identity-related information cannot be contracted upon in DeFi</p>
+<p><span class="math inline">\(\exists~\)</span> <strong>bound on the contracting space</strong> and the <strong>scope of applications</strong> for DeFi protocols.</p>
+<p><strong>→ The smart contract challenge</strong></p>
+<center>
+<b>Verification vs Contracting power</b>
+</center>
+<center>
+<img src="figures/no-oracles.png" width="1000">
+<center>
+<center>
+→ Growth perspective for DeFi?
+</center>
+<center>
+→ Value of DeFi for the real economy?
+</center>
+<section id="the-new-intermediaries" class="level2">
+<h2 class="anchored" data-anchor-id="the-new-intermediaries">The new intermediaries</h2>
+<p>The solution to expanding contracting power is to introduce <strong>new forms of intermediation</strong>: <strong>information bridges</strong></p>
+<ul>
+<li>Oracles</li>
+<li>Ramps</li>
+</ul>
+<p>Trade-off: <strong>verification vs contracting power</strong></p>
+<section id="oracles" class="level3">
+<h3 class="anchored" data-anchor-id="oracles">Oracles</h3>
+<p><strong>Definition</strong></p>
+<p>Oracles provide the necessary <strong>bridge to unify <code>off-chain</code> and <code>on-chain</code> worlds</strong> - Service that <strong>connects smart contracts</strong> with <strong>external data sources</strong>.</p>
+<p>Oracles <strong>expand the contracting space</strong> of DeFi applications at the cost of <strong>on-chain (public) verification</strong>.</p>
+<center>
+<img src="figures/oracles.png" width="1200">
+<center>
+<p><strong>Applications</strong></p>
+<ol type="1">
+<li><strong>Price Feeds</strong>
+<ul>
+<li>Oracles fetch and deliver real-time price data for assets (e.g., cryptocurrencies, commodities) to DeFi platforms.
+<ul>
+<li>Example: collateral and liquidation thresholds.<br>
+</li>
+</ul></li>
+</ul></li>
+<li><strong>External Event Verification</strong>
+<ul>
+<li>Oracles confirm external events, such as sports results or weather conditions, enabling platforms like prediction markets or insurance dApps.</li>
+</ul></li>
+<li><strong>Cross-Chain Communication</strong>
+<ul>
+<li>Some oracles facilitate interactions between different blockchains, making cross-chain DeFi products possible.</li>
+</ul></li>
+</ol>
+<p><strong>The private and social costs of unverifiable information</strong></p>
+<ul>
+<li>Centralization</li>
+<li>Inefficiency</li>
+<li>Vulnerabilities</li>
+</ul>
+<p><strong>Opportunities for public interventions</strong>: traditional market failures in information markets - Public oracle - Licensed oracles - Regulated oracle markets</p>
+</center></center></section>
+<section id="ramps-tokenisation" class="level3">
+<h3 class="anchored" data-anchor-id="ramps-tokenisation">Ramps &amp; Tokenisation</h3>
+<p><strong>Definition</strong></p>
+<blockquote class="blockquote">
+<p>Tokenization refers to the process of generating a <strong>digital represantion of traditional assets</strong> on a blockchain by <strong>on and off ramps</strong>.</p>
+</blockquote>
+<p>FSB(2023)</p>
+<p><strong>Benefits</strong> - Automation and trade speed &amp; efficiency - New contracting opportunities: information space and composability</p>
+<p><strong>Applications</strong> - Cross-border payments currently relying on banks (correspondent) and message platforms (swift) - Foreign exchanges (payment vs payment) - Mortgage-backed-securities (dozen intermediaries in the process)</p>
+<p><strong>Challenges</strong> - Some economic frictions not resolved (moral hazard and adverse selection) - Legal challenges: who has what <strong>right</strong>? - Technical challenges: <strong>design of ramps</strong> (cf.&nbsp;Oracles) <!-- 
+> allow for aggregating multiple assets on a common trading platform with token-specific rules (smart contracts)
+> allow for smart contracts: expansion of contracting spaces and composability
+
+example: cross-border payments currently relying on banks (correspondent) and message platforms (swift)
+> These databases often have different standards and are connected through third-party messaging systems, which can lead to delays and necessitate manual compliance checks. By tokenising money on a common programmable ledger, it
+becomes an executable object. Users can directly transfer their money without messaging an intermediary
+first, or let transactions be executed through smart contracts, which allows for automation and
+composability.
+
+other examples:  --></p>
+<section id="tokenization-continuum" class="level4">
+<h4 class="anchored" data-anchor-id="tokenization-continuum">Tokenization continuum</h4>
+<p>Not all digital assets offer the same tokenization value: - Worse candidates: syndicated loans or commercial real estate. - Better candidates: FX or MBS</p>
+<center>
+<img src="figures/tokenization-continuum.png" width="1000">
+<center>
+<p>BIS (2024)</p>
+</center></center></section>
+</section>
+</section>
+</center></center></section>
+<section id="policy-discussion" class="level1">
+<h1>5. Policy discussion</h1>
+<blockquote class="blockquote">
+<p>Regulatory regimes built around intermediaries as regulated processors of transaction information may <strong>fit poorly with a disintermediated market structure</strong>.</p>
+</blockquote>
+<p>WEF (2021)</p>
+<section id="a-new-policy-framework" class="level2">
+<h2 class="anchored" data-anchor-id="a-new-policy-framework">5.1 A New Policy Framework?</h2>
+<p><strong>Should DeFi receive a different policy treatment?</strong></p>
+<p>↳ How do DeFi services differ in their treatment of information frictions?</p>
+<p><strong>Claim:</strong> Understanding the shift in information structure sheds light on - the scope of DeFi applications - risks and inefficiencies (new and old) - appropriate policy approaches (warranted and feasible actions)</p>
+<p><strong>Elements of reflection</strong> - <strong>Limits on policy enforcement power and information acquisition</strong> - Computer in the sky: no shutting down, no liability, etc. - <strong>New targets</strong>: validators, protocols and oracles. - <strong>Eligible proposals:</strong> warranted &amp; feasible - <strong>Warranted</strong> - Several frictions can be best addressed by the private sector - Find cases with limits to the production of private solutions - ↳ likely benefits from public support. - <strong>Feasible</strong> - Subset of warranted actions satisfying the technological constraints of DeFi</p>
+</section>
+<section id="major-risks-associated-with-defi" class="level2">
+<h2 class="anchored" data-anchor-id="major-risks-associated-with-defi">5.2 Major Risks Associated With DeFi</h2>
+<p>DeFi recreates core financial functions—trading, lending, liquidity provision — but <strong>without traditional intermediaries or enforcement mechanisms</strong>.</p>
+<p>This produces a distinctive risk landscape:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 52%">
+<col style="width: 47%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Risk Category</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Smart Contract &amp; Protocol Risk</strong></td>
+<td>Bugs, exploits, flash-loan attacks.<br>Code replaces institutions → vulnerabilities are immediate and global.</td>
+</tr>
+<tr class="even">
+<td><strong>Governance &amp; Centralisation Risk</strong></td>
+<td>Concentrated voting power (whales, VCs).<br> Hidden centralisation in admin keys, upgradeability, sequencers.</td>
+</tr>
+<tr class="odd">
+<td><strong>Oracle &amp; Data Integrity Risk</strong></td>
+<td>Off-chain data cannot be perfectly verified.<br> Oracle manipulation → mispriced collateral, forced liquidations.</td>
+</tr>
+<tr class="even">
+<td><strong>Liquidity &amp; Market Structure Risk</strong></td>
+<td>AMMs can break under stress (impermanent loss, liquidity dry-ups).<br> Fragmented liquidity across chains → unstable price discovery.</td>
+</tr>
+<tr class="odd">
+<td><strong>Interconnectedness &amp; Contagion</strong></td>
+<td>Protocols heavily interlinked (collateral loops, rehypothecation).<br> Failure of one stablecoin or protocol → instant systemic spillovers.</td>
+</tr>
+<tr class="even">
+<td><strong>Regulatory &amp; Compliance Risk</strong></td>
+<td>Pseudonymous participation → AML/KYC gaps.<br> Liability unclear across validators, developers, and front-end operators.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="why-stablecoins-create-structural-risks-in-defi" class="level2">
+<h2 class="anchored" data-anchor-id="why-stablecoins-create-structural-risks-in-defi">5.3 Why Stablecoins Create Structural Risks in DeFi</h2>
+<p>Stablecoins are both the <strong>weakest link</strong> and the <strong>most feasible regulatory touchpoint</strong><br>
+→ hence the focus of MiCAR and the Genius Act.</p>
+<p>Stablecoins are the <strong>monetary foundation</strong> of DeFi. They act as unit of account, settlement asset, and core collateral across protocols.</p>
+<p>Because they mimic money <strong>without public guarantees</strong>, they introduce <em>systemic vulnerabilities</em>:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 56%">
+<col style="width: 43%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Stablecoin Risk</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Run Risk &amp; Redemption Externalities</strong></td>
+<td>Fragile confidence in reserves → <strong>sudden redemptions</strong>.<br>Forced liquidation of assets → <strong>fire sales</strong> affecting broader markets.</td>
+</tr>
+<tr class="even">
+<td><strong>Opacity &amp; Information Asymmetry</strong></td>
+<td>Users cannot fully verify reserve quality or composition.<br>Solvency uncertainty increases → <strong>panic amplifies</strong>.</td>
+</tr>
+<tr class="odd">
+<td><strong>Peg Instability &amp; Propagation</strong></td>
+<td>Depeggings spill into AMMs, lending markets, and cross-chain bridges.<br>Triggers liquidation cascades and liquidity spirals.</td>
+</tr>
+<tr class="even">
+<td><strong>Collateral Channel Risk</strong></td>
+<td>Stablecoins widely used as collateral.<br>Value drops → reduced collateralization → mass liquidations.</td>
+</tr>
+<tr class="odd">
+<td><strong>Centralisation &amp; Operational Risk</strong></td>
+<td>Issuers concentrate key operational and governance functions.<br>Sanctions, banking outages, or governance failures can freeze DeFi activity.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="recent-regulatory-developments-micar-the-u.s.-genius-act" class="level2">
+<h2 class="anchored" data-anchor-id="recent-regulatory-developments-micar-the-u.s.-genius-act">5.4 Recent Regulatory Developments: MiCAR &amp; the U.S. “Genius Act”</h2>
+<p>Both initiatives show how policymakers test the limits of enforceability, accountability, and information acquisition in decentralized settings.</p>
+<section id="eu-markets-in-crypto-assets-regulation-micar-20242025" class="level3">
+<h3 class="anchored" data-anchor-id="eu-markets-in-crypto-assets-regulation-micar-20242025">5.4.1 EU – Markets in Crypto-Assets Regulation (MiCAR, 2024–2025)</h3>
+<p><strong>Focus:</strong> Stablecoins &amp; centralized service providers</p>
+<ul>
+<li>EU-wide licensing for <strong>CASPs</strong> (exchanges, custodians, brokers).<br>
+</li>
+<li>Strong <strong>reserve, governance, and disclosure</strong> rules for ARTs &amp; EMTs.<br>
+</li>
+<li><strong>Market abuse</strong> and <strong>consumer protection</strong> frameworks imported from traditional finance.<br>
+</li>
+<li><strong>DeFi carve-out:</strong> MiCAR targets <em>intermediated</em> services only.
+<ul>
+<li>Mandates an EU <strong>DeFi report &amp; potential rulemaking</strong> (2025–26).</li>
+</ul></li>
+</ul>
+<p><strong>Relevance:</strong> MiCAR regulates where <strong>enforcement is technologically feasible</strong>—centralized issuers, service providers, and verifiable reserves.</p>
+</section>
+<section id="u.s.-the-genius-act-2024-proposal" class="level3">
+<h3 class="anchored" data-anchor-id="u.s.-the-genius-act-2024-proposal">5.4.2 U.S. – The “Genius Act” (2024 Proposal)</h3>
+<p><strong>Focus:</strong> Stablecoins + responsibilities in DeFi</p>
+<ul>
+<li>Federal or state licensing for stablecoin issuers.<br>
+</li>
+<li>Mandatory <strong>1:1 HQLA reserves</strong> and redemption rights.<br>
+</li>
+<li>Monthly attestations → reduces <strong>information asymmetry</strong>.<br>
+</li>
+<li>Defines obligations for:
+<ul>
+<li><strong>Front-end operators</strong>,<br>
+</li>
+<li><strong>Protocol controllers</strong>,<br>
+</li>
+<li><strong>Large validators / governance actors</strong>.<br>
+</li>
+</ul></li>
+<li>Emphasis on <strong>systemic risk</strong>, <strong>operational resilience</strong>, <strong>illicit finance</strong>.</li>
+</ul>
+<p><strong>Relevance:</strong> Tackles the <strong>liability-under-pseudonymity</strong> problem and uses stablecoins as an anchor for broader DeFi oversight.</p>
+</section>
+</section>
+<section id="open-policy-issues" class="level2">
+<h2 class="anchored" data-anchor-id="open-policy-issues">5.5 Open policy issues</h2>
+<ul>
+<li>How much <strong>decentralisation</strong> is good for the economy?
+<ul>
+<li>Centralisation of DeFi</li>
+</ul></li>
+<li>How to enforce <strong>liabilities</strong> in a pseudonymous ecosystem? (<u>public-private issue</u>)
+<ul>
+<li>AML-KYC</li>
+</ul></li>
+<li>How to manage <strong>unverifiable</strong> information? (<u>public-private issue</u>)
+<ul>
+<li>Embedding off chain information introduces a new information friction</li>
+<li>Policing <strong>oracles</strong> and <strong>ramps</strong> (new intermediaries)
+<ul>
+<li>Recovering the value of traditional frameworks</li>
+</ul></li>
+</ul></li>
+<li>How to think about <strong>macro-prudential regimes</strong> in absence of enforcement powers?
+<ul>
+<li>Interconnected protocols</li>
+<li>Misaligned incentives to audit</li>
+<li>Contagion to the real economy</li>
+</ul></li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/trkrkn\.github\.io\/mbft\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
