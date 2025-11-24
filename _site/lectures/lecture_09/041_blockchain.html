@@ -1,0 +1,1369 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Blockchain – Modern Banking and Financial Technology</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Modern Banking and Financial Technology</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../syllabus.html"> 
+<span class="menu-text">Syllabus</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../schedule.html"> 
+<span class="menu-text">Schedule</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lectures" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lectures</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lectures">    
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_01/lecture_01.html">
+ <span class="dropdown-text">Lecture 01 - Modern Banking pt.&nbsp;1</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_02/lecture_02.html">
+ <span class="dropdown-text">Lecture 02 - Modern Banking pt.&nbsp;2</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_03/lecture_03.html">
+ <span class="dropdown-text">Lecture 03 - Modern Banking pt.&nbsp;3</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_04/lecture_04.html">
+ <span class="dropdown-text">Lecture 04 - Modern Banking pt.&nbsp;4</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_05/lecture_05.html">
+ <span class="dropdown-text">Lecture 05 - Fintech | Plaforms pt.&nbsp;1</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_06/lecture_06.html">
+ <span class="dropdown-text">Lecture 06 - Modern Banking pt.&nbsp;5</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_07/lecture_07.html">
+ <span class="dropdown-text">Lecture 07 - Platforms pt.&nbsp;2</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_08/lecture_08.html">
+ <span class="dropdown-text">Lecture 08 - Machine Learning pt.&nbsp;1</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../lectures/lecture_09/lecture_09.html">
+ <span class="dropdown-text">Lecture 09 - Crypto pt.&nbsp;1</span></a>
+  </li>  
+        <li class="dropdown-header">Lecture 10 - Machine Learning pt.&nbsp;2</li>
+        <li class="dropdown-header">Lecture 11 - Crypto pt.&nbsp;2</li>
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="https://app.alldayta.com/katholieke-universiteit-leuven/mbft"> 
+<span class="menu-text">All Day TA</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../assignment.html"> 
+<span class="menu-text">Assignment (<strong>NEW</strong>)</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#key-questions" id="toc-key-questions" class="nav-link active" data-scroll-target="#key-questions">4 key questions</a></li>
+  <li><a href="#what-is-a-distributed-ledger" id="toc-what-is-a-distributed-ledger" class="nav-link" data-scroll-target="#what-is-a-distributed-ledger">What is a Distributed Ledger ?</a></li>
+  <li><a href="#how-do-blockchains-work" id="toc-how-do-blockchains-work" class="nav-link" data-scroll-target="#how-do-blockchains-work">How do Blockchains work ?</a></li>
+  <li><a href="#what-is-the-value-of-blockchain-technologies" id="toc-what-is-the-value-of-blockchain-technologies" class="nav-link" data-scroll-target="#what-is-the-value-of-blockchain-technologies">What is the Value of Blockchain Technologies ?</a></li>
+  <li><a href="#what-are-the-main-challenges-of-blockchains" id="toc-what-are-the-main-challenges-of-blockchains" class="nav-link" data-scroll-target="#what-are-the-main-challenges-of-blockchains">What are the Main Challenges of Blockchains ?</a></li>
+  <li><a href="#map" id="toc-map" class="nav-link" data-scroll-target="#map">Map</a></li>
+  <li><a href="#the-what" id="toc-the-what" class="nav-link" data-scroll-target="#the-what">1. The <code>what</code></a>
+  <ul class="collapse">
+  <li><a href="#distributed-systems" id="toc-distributed-systems" class="nav-link" data-scroll-target="#distributed-systems">1.1 Distributed systems</a></li>
+  <li><a href="#distributed-ledgers" id="toc-distributed-ledgers" class="nav-link" data-scroll-target="#distributed-ledgers">1.2 Distributed ledgers</a></li>
+  <li><a href="#elements-of-a-dlt" id="toc-elements-of-a-dlt" class="nav-link" data-scroll-target="#elements-of-a-dlt">1.3 Elements of a DLT</a></li>
+  <li><a href="#protocol-design" id="toc-protocol-design" class="nav-link" data-scroll-target="#protocol-design">1.4 Protocol design</a>
+  <ul class="collapse">
+  <li><a href="#rules-for-nodes-users" id="toc-rules-for-nodes-users" class="nav-link" data-scroll-target="#rules-for-nodes-users">1.4.1 Rules for nodes &amp; users</a></li>
+  <li><a href="#rules-for-the-ledger" id="toc-rules-for-the-ledger" class="nav-link" data-scroll-target="#rules-for-the-ledger">1.4.2 Rules for the ledger</a></li>
+  </ul></li>
+  <li><a href="#decentralisation-spectrum" id="toc-decentralisation-spectrum" class="nav-link" data-scroll-target="#decentralisation-spectrum">1.5 Decentralisation spectrum</a></li>
+  <li><a href="#the-computer-in-the-sky" id="toc-the-computer-in-the-sky" class="nav-link" data-scroll-target="#the-computer-in-the-sky">1.6 The computer in the sky</a></li>
+  <li><a href="#first-apps-crypto-tokens-and-payments" id="toc-first-apps-crypto-tokens-and-payments" class="nav-link" data-scroll-target="#first-apps-crypto-tokens-and-payments">1.7 First apps: crypto tokens and payments</a></li>
+  </ul></li>
+  <li><a href="#the-how" id="toc-the-how" class="nav-link" data-scroll-target="#the-how">2 The <code>how</code></a>
+  <ul class="collapse">
+  <li><a href="#crypto-guarantees" id="toc-crypto-guarantees" class="nav-link" data-scroll-target="#crypto-guarantees">2.1 Crypto guarantees</a>
+  <ul class="collapse">
+  <li><a href="#key-pairs" id="toc-key-pairs" class="nav-link" data-scroll-target="#key-pairs">2.1.1 Key pairs</a></li>
+  <li><a href="#public-signatures" id="toc-public-signatures" class="nav-link" data-scroll-target="#public-signatures">2.1.2 Public signatures</a></li>
+  <li><a href="#hash-functions" id="toc-hash-functions" class="nav-link" data-scroll-target="#hash-functions">2.1.3 Hash functions</a></li>
+  </ul></li>
+  <li><a href="#economic-guarantees" id="toc-economic-guarantees" class="nav-link" data-scroll-target="#economic-guarantees">2.2 Economic guarantees</a>
+  <ul class="collapse">
+  <li><a href="#special-participants-validators-miners" id="toc-special-participants-validators-miners" class="nav-link" data-scroll-target="#special-participants-validators-miners">2.2.1 Special participants: Validators / Miners</a></li>
+  <li><a href="#blockchain-vulnerabilities" id="toc-blockchain-vulnerabilities" class="nav-link" data-scroll-target="#blockchain-vulnerabilities">2.2.2 Blockchain vulnerabilities</a></li>
+  <li><a href="#consensus" id="toc-consensus" class="nav-link" data-scroll-target="#consensus">2.2.3 Consensus</a></li>
+  <li><a href="#economic-incentives" id="toc-economic-incentives" class="nav-link" data-scroll-target="#economic-incentives">2.2.4 Economic incentives</a></li>
+  </ul></li>
+  <li><a href="#the-why" id="toc-the-why" class="nav-link" data-scroll-target="#the-why">3 The <code>why</code></a>
+  <ul class="collapse">
+  <li><a href="#issues-with-centralized-alternatives" id="toc-issues-with-centralized-alternatives" class="nav-link" data-scroll-target="#issues-with-centralized-alternatives">Issues with centralized alternatives</a></li>
+  <li><a href="#the-blockchain-trilemma" id="toc-the-blockchain-trilemma" class="nav-link" data-scroll-target="#the-blockchain-trilemma">The blockchain trilemma</a></li>
+  <li><a href="#in-search-for-the-killer-app" id="toc-in-search-for-the-killer-app" class="nav-link" data-scroll-target="#in-search-for-the-killer-app">In search for the killer app</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion">Discussion</a>
+  <ul class="collapse">
+  <li><a href="#the-evolving-technological-landscape" id="toc-the-evolving-technological-landscape" class="nav-link" data-scroll-target="#the-evolving-technological-landscape">The evolving technological landscape</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Blockchain</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="key-questions" class="level2">
+<h2 class="anchored" data-anchor-id="key-questions">4 key questions</h2>
+</section>
+<section id="what-is-a-distributed-ledger" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-a-distributed-ledger">What is a Distributed Ledger ?</h2>
+</section>
+<section id="how-do-blockchains-work" class="level2">
+<h2 class="anchored" data-anchor-id="how-do-blockchains-work">How do Blockchains work ?</h2>
+</section>
+<section id="what-is-the-value-of-blockchain-technologies" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-the-value-of-blockchain-technologies">What is the Value of Blockchain Technologies ?</h2>
+</section>
+<section id="what-are-the-main-challenges-of-blockchains" class="level2">
+<h2 class="anchored" data-anchor-id="what-are-the-main-challenges-of-blockchains">What are the Main Challenges of Blockchains ?</h2>
+</section>
+<section id="map" class="level1">
+<h1>Map</h1>
+<ol type="1">
+<li><code>what</code></li>
+<li><code>how</code></li>
+<li><code>why</code></li>
+<li>Discussion
+<ul>
+<li>Opportunities</li>
+<li>Challenges</li>
+</ul></li>
+</ol>
+</section>
+<section id="the-what" class="level1">
+<h1>1. The <code>what</code></h1>
+<section id="distributed-systems" class="level2">
+<h2 class="anchored" data-anchor-id="distributed-systems">1.1 Distributed systems</h2>
+<center>
+<b>Collections of independent computers (or nodes) working together to achieve a common goal</b>
+</center>
+<p><strong>Coordination</strong> obtains by <strong>messaging</strong> over the network of nodes</p>
+<p>The system acts as a <strong>single coherent system</strong></p>
+<p><strong>Key dimensions</strong>: - <code>fault tolerance</code> - <code>liveness</code> - <code>scalability</code></p>
+<p><strong>Example</strong>: The Internet - <u>Goal</u>: transfer of information (<code>TCP</code>/<code>IP</code> protocols, etc.) - <u>Killer application</u>: e-mail</p>
+</section>
+<section id="distributed-ledgers" class="level2">
+<h2 class="anchored" data-anchor-id="distributed-ledgers">1.2 Distributed ledgers</h2>
+<p>A subfield of distributed systems where</p>
+<center>
+<b>Collections of independent computers (or nodes) operate <u>a common digital record</u></b>
+</center>
+<p><strong>Use cases</strong>: where maintaining a <strong>consistent</strong> and <strong>immutable</strong> record of data is <strong>critical</strong>.</p>
+<p><strong>Example</strong>: ledger of transactions</p>
+<p><strong>Additional key dimensions</strong>: - <code>synchronization</code> - <code>consensus</code> - <code>tamper-proof</code></p>
+<p><strong>Example</strong>: The <code>Bitcoin</code> protocol - <u>Goal</u>: transfer of token ownership - <u>Killer application</u>: <em>to be determined</em>…</p>
+</section>
+<section id="elements-of-a-dlt" class="level2">
+<h2 class="anchored" data-anchor-id="elements-of-a-dlt">1.3 Elements of a DLT</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th><u>Element</u></th>
+<th><u>Roles</u></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Ledger</strong></td>
+<td>Record storage</td>
+</tr>
+<tr class="even">
+<td><strong>Users</strong></td>
+<td>Viewers <br> Contributors</td>
+</tr>
+<tr class="odd">
+<td><strong>Nodes</strong></td>
+<td>Validators <br> Recorders</td>
+</tr>
+<tr class="even">
+<td><strong><u>Protocol</u></strong></td>
+<td>Governance <br> Consensus</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="protocol-design" class="level2">
+<h2 class="anchored" data-anchor-id="protocol-design">1.4 Protocol design</h2>
+<p>In distributed systems: <strong>no single authority</strong>.</p>
+<p>→ The <strong>protocol</strong> makes <strong>explicit rules</strong> to ensure <strong>consistent &amp; immutable</strong> record-keeping.</p>
+<section id="rules-for-nodes-users" class="level3">
+<h3 class="anchored" data-anchor-id="rules-for-nodes-users">1.4.1 Rules for nodes &amp; users</h3>
+<p>The protocol specifies <strong>access &amp; communication rights</strong> for each participant (nodes and users).</p>
+<center>
+<i> Who can <b>read/write</b> data <br> How to <b>contribute</b> data </i>
+</center>
+<ul>
+<li><strong>Identification</strong> (<code>address</code>, <code>public-private key pairing</code>)</li>
+<li><strong>Authentification</strong> (<code>signature</code>)</li>
+<li><strong>Authorization &amp; Validation</strong> (<code>proof-of-work</code>, <code>proof-of-stake</code>)</li>
+</ul>
+</section>
+<section id="rules-for-the-ledger" class="level3">
+<h3 class="anchored" data-anchor-id="rules-for-the-ledger">1.4.2 Rules for the ledger</h3>
+<p>The protocol specificies <strong>consensus &amp; recording rules</strong> to update the ledger.</p>
+<center>
+<i>What is <b>true/correct</b> data <br> How is data <b>recorded/protected</b></i>
+</center>
+<ul>
+<li><strong>Verification</strong>: Authorization (<code>hash functions</code>) &amp; Validity (<code>double spending</code>)</li>
+<li><strong>Consensus mechanism</strong> (<code>proof-of-work</code>, <code>proof-of-stake</code>, <code>block rewards</code>, etc.)</li>
+</ul>
+</section>
+</section>
+<section id="decentralisation-spectrum" class="level2">
+<h2 class="anchored" data-anchor-id="decentralisation-spectrum">1.5 Decentralisation spectrum</h2>
+<p>DLT allow for <strong>degrees of decentralization</strong> as a function of the rights of <strong>nodes</strong> and <strong>users</strong>: - Visibility (<code>read</code>) - Access (<code>write</code>) - Liability (<code>identity</code>)</p>
+<p><strong>Main dimensions:</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 34%">
+<col style="width: 25%">
+<col style="width: 40%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><u>Participants</u></th>
+<th><u>Closed</u></th>
+<th><u>Open</u></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Read</strong></td>
+<td>Private</td>
+<td>Public</td>
+</tr>
+<tr class="even">
+<td><strong>Write</strong></td>
+<td>Permissioned</td>
+<td>Permissionless</td>
+</tr>
+<tr class="odd">
+<td><strong>Identity</strong></td>
+<td>Legal entity</td>
+<td>Pseudonymous</td>
+</tr>
+</tbody>
+</table>
+→ <code>Blockhain</code> technologies allow for a fully <strong>open</strong> design of DLT:
+<center>
+↓ <br> <b>Public x Permissionless x Pseudonymous</b>
+</center>
+<!-- |             Participants           | `Blockchain` |
+|-------------------------|------------------|
+| **Access**  | Permissionless              |
+| **View** | Public                      |
+| **Identity**      | Pseudonymous      | -->
+<p>What is the value of this specific combination?</p>
+</section>
+<section id="the-computer-in-the-sky" class="level2">
+<h2 class="anchored" data-anchor-id="the-computer-in-the-sky">1.6 The computer in the sky</h2>
+<p>The ideal <strong>technical vision</strong> for fully decentralized DLT like <code>blockchain</code> systems is a</p>
+<center>
+<b><u>Public good virtual machine</u></b>
+</center>
+<ul>
+<li><strong>General purpose computation</strong>: run any software (protocol/smart contracts)</li>
+<li><strong>No physicallity nor central authority</strong>: no shutting down nor tampering</li>
+<li><strong>Universal access</strong>: deployment, view, contribution</li>
+<li><strong>Enforced property right</strong>: use, exclusion, transfer</li>
+</ul>
+<blockquote class="blockquote">
+<p>“<em>This combination is the super power of the blockchain technology</em>”</p>
+<p>– Roughgarden (2024)</p>
+</blockquote>
+</section>
+<section id="first-apps-crypto-tokens-and-payments" class="level2">
+<h2 class="anchored" data-anchor-id="first-apps-crypto-tokens-and-payments">1.7 First apps: crypto tokens and payments</h2>
+<p><code>Bitcoin</code>, <code>Ethereum</code>, <code>Solana</code>, etc.</p>
+<ul>
+<li>Public ledgers of <strong>token ownership</strong></li>
+<li>Machines that implement protocols/smart contracts to <strong>validate transfers</strong>
+<ul>
+<li>No double spending, balance consistency, transfer authorization, etc.</li>
+</ul></li>
+<li><strong>No shut down button</strong>
+<ul>
+<li>No physicallity nor central authority</li>
+</ul></li>
+<li><strong>Universal access</strong> on all sides</li>
+<li><strong>Property rights</strong>
+<ul>
+<li>Self-custody of keys and related assets</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="the-how" class="level1">
+<h1>2 The <code>how</code></h1>
+<p>Mix of <strong>cryptographic</strong> technology and <strong>economic</strong> design.</p>
+<ul>
+<li><strong>Crypto</strong>: how to guarantee records are
+<ul>
+<li>public</li>
+<li>pseudonymous</li>
+<li>tamper-proof</li>
+</ul></li>
+<li><strong>Economic</strong>: how to incentivise nodes to
+<ul>
+<li>produce valid records</li>
+<li>promote valid records</li>
+</ul></li>
+</ul>
+<!-- 
+Backward approach here:
+1. `what` the blockchain guarantees for recorded data
+2. `how` to guarantee records of new data  -->
+<section id="crypto-guarantees" class="level2">
+<h2 class="anchored" data-anchor-id="crypto-guarantees">2.1 Crypto guarantees</h2>
+<p>Transaction records require: - An origin and a destination - Authorization</p>
+<p>The ledger guarantees - Anyone can freely create an identity (=address) - Everything is public and verifiable - Historical records are immutable</p>
+<p><strong>Transaction record</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: left;">Origin</th>
+<th style="text-align: left;">Destination</th>
+<th style="text-align: left;">Amount</th>
+<th style="text-align: left;">Authorization</th>
+<th style="text-align: left;">(other)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>true information</strong></td>
+<td style="text-align: left;">Tarik</td>
+<td style="text-align: left;">Nikolas</td>
+<td style="text-align: left;">5 BTC</td>
+<td style="text-align: left;">Signature (Tarik)</td>
+<td style="text-align: left;">fee, message, etc.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>public information</strong></td>
+<td style="text-align: left;">x012jdoijdpoj..</td>
+<td style="text-align: left;">x32ffwew..</td>
+<td style="text-align: left;">5 BTC</td>
+<td style="text-align: left;">Signature (x012jdoijdpoj..)</td>
+<td style="text-align: left;">etc.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Properties</strong>: - Pseudonymity - Signature - Immutatbiliy</p>
+<p>We obtain this using <strong>elements of cryptography</strong> 1. <code>Key pairs</code> 2. <code>Public signatures</code> 3. <code>Hash functions</code></p>
+<center>
+<i><b>This is the secret sauce</b></i><b>
+</b></center><b>
+<section id="key-pairs" class="level3">
+<h3 class="anchored" data-anchor-id="key-pairs">2.1.1 Key pairs</h3>
+<p>In <strong>public-key cryptography</strong>, there are 2 keys: 1. <code>PrivKey</code>: the <strong>private key</strong> 2. <code>PubKey</code>: the <strong>public key</strong></p>
+<p>such that</p>
+<pre><code>    PubKey = G . PrivKey</code></pre>
+<p>Properties:</p>
+<ul>
+<li><strong>Costless verification</strong>: <code>PubKey</code> can be easily derived from the <code>PrivKey</code>.</li>
+<li><strong>Pre-Image resistance</strong>: Given <code>PubKey</code>, impossible to obtain <code>PrivKey</code></li>
+</ul>
+<p><strong>What is an identity in a blockchain?</strong></p>
+<ul>
+<li><p>A user’s identity is an <strong>address</strong> which obtains from the <strong>public key</strong>.</p></li>
+<li><p>Key pairs can be <strong>freely</strong> generated through <strong>asymmetric encryption</strong></p></li>
+</ul>
+<div id="ca9341c4-aa4e-4f0a-9fa4-867a277bfca3" class="cell" data-execution_count="7">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>generate_key_pair()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Private Key: 2e2618bbd9087d6d8b460c3bfce731610fcd031b02a99b00671f041f0c706774
+Public Key: cb13730df21015340f89b11fa53dc29d3ec5889e04696750da781bec434896636097d7ed5f2954aafa7ab2e936dd239374ddc3ab84349bd0f6bd1a911569bb67</code></pre>
+</div>
+</div>
+</section>
+<section id="public-signatures" class="level3">
+<h3 class="anchored" data-anchor-id="public-signatures">2.1.2 Public signatures</h3>
+<p>To guarantee <strong>communication</strong> in an <u>open ecosystem</u> (<strong>universal access and pseudonymity</strong>), <code>blockchain</code> protocols imply that:</p>
+<ul>
+<li><strong>Messages</strong> (transactions) need to reference an adresses via <strong>signatures</strong></li>
+<li>Signatures need to be <strong>verifiable</strong>: everyone can <strong>confirm the validity</strong> of a signature</li>
+</ul>
+<p><strong>Crypto signatures</strong> rely on 2 functions: 1. <code>Sign()</code> 2. <code>Verify()</code></p>
+<p>Given a message <code>x</code> (transaction): - The <strong>private key</strong> signs the message</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>    Signature <span class="op">=</span> Sign(x, PrivKey)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>The <strong>public key</strong> is used by others to verify that the signature came from the owner of the private key.</li>
+</ul>
+<div class="sourceCode" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>IsValid <span class="op">=</span> Verify(x, Signature, PubKey)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="hash-functions" class="level3">
+<h3 class="anchored" data-anchor-id="hash-functions">2.1.3 Hash functions</h3>
+<p>A <strong>hash function</strong> is a mathematical object <span class="math inline">\(H()\)</span> that takes an <strong>input</strong> (<span class="math inline">\(x\)</span>) and returns a <b><u>deterministic fixed-size string of bytes</u></b> which appears <strong>random</strong> (<span class="math inline">\(h\)</span> - <code>hash</code>).</p>
+<div id="e6f1069a-3384-4a89-b28c-2bb0309f3b5a" class="cell" data-hidecode="true" data-hideprompt="true" data-slideshow="{&quot;slide_type&quot;:&quot;-&quot;}" data-execution_count="8">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>hash_function_example_1()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>first input monday november 17 2025
+
+Input 1: monday november 17 2025
+Hash 1 : bf6d4edb9eede8508863efea46e2765947b16fc39f449d18301c511b872d0fb4
+</code></pre>
+</div>
+</div>
+<p><u><b>Hash properties</b></u></p>
+<p><span class="math display">\[H(x) = h\]</span></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 46%">
+<col style="width: 53%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Property</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Fixed size &amp; pseudo-randomness</strong></td>
+<td>Hash outputs have a fixed length and appear random, regardless of input size.</td>
+</tr>
+<tr class="even">
+<td><strong>Costless verification</strong></td>
+<td>Given $ x $, it is easy to compute $ H(x) $.</td>
+</tr>
+<tr class="odd">
+<td><strong>Pre-image resistance</strong></td>
+<td>Given $ h $, it is infeasible to find any $ x $ such that $ H(x) = h$.</td>
+</tr>
+<tr class="even">
+<td><strong>Collision resistance</strong></td>
+<td>It is infeasible to find two distinct inputs $ x $ and $ y $ such that $ H(x) = H(y)$.</td>
+</tr>
+<tr class="odd">
+<td><strong>Avalanche effect</strong></td>
+<td>A small change in input (e.g., flipping one bit) results in a drastically different output $ H(x) $ vs $ H(x|e) $</td>
+</tr>
+</tbody>
+</table>
+<div id="34dbace4-43e6-4c82-bc2b-5d445eea02f6" class="cell" data-execution_count="10">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>hash_function_example_2()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>first input monday november 17 2025monday november 17 2025monday november 17 2025monday november 17 2025monday november 17 2025monday november 17 2025monday november 17 2025
+second input    monday november 17 2025monday november 17 2025monday november 17 2025
+
+Input 1: monday november 17 2025monday november 17 2025monday november 17 2025monday november 17 2025monday november 17 2025monday november 17 2025monday november 17 2025
+Hash 1 : 2655685559e3eda77a122f03a2ac73b9061fc40bc327ec27ff8b3c294eef6741
+
+Input 2: monday november 17 2025monday november 17 2025monday november 17 2025
+Hash 2 : ca99955423385031e1bed17148a89666114d8fe4e67dfdff57f28fdf7c2ffc91
+</code></pre>
+</div>
+</div>
+<p><strong>Hashing to guarantee immutability</strong></p>
+<p>A <strong>blockchain</strong> is made up of a chain of <strong>blocks</strong>, where each block contains a list of records and a reference (or link) to the previous block.</p>
+<p>→ The references and the data are always accompanied with their <strong>hash</strong>.</p>
+<p><strong>Block structure</strong></p>
+<center>
+<img src="figures/block.jpg">
+</center>
+<!-- 
+|<u>Block</u> |
+|:---|
+|**Header**|
+|- Hash of previous block <br> - Timestamp <br> (- Nonce) <br> (- Merkle root)|
+|**Body**|
+| {Transaction data} | -->
+<p><strong>Chain of blocks</strong></p>
+<center>
+<img src="figures/blockchain.png" width="1000">
+<center>
+<p><strong>Properties of Blockchain</strong></p>
+<!-- 1. **Tamper-Proof** by virtue of **hashing**
+    - **Avalanche effect**: Inifinitesimal changes in one block affect the entire hash.
+
+2. **Public access** by virtue of **crypto keys**
+    - Activity is recorded as an entry in the body of a block signed by **free** **public keys**.
+        - Everyone can verify signatures
+
+3. **Privacy and private ownership** by virtue of the **Crypto Signature**
+    - Only the `PrivKey` can initiate new activity from a **public address**
+   -->
+<table class="caption-top table">
+<colgroup>
+<col style="width: 46%">
+<col style="width: 53%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Property</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Tamper-Proof</strong> <br> by virtue of <strong>hashing</strong></td>
+<td>Each block’s hash depends on its content and the previous block’s hash. <br>The <strong>avalanche effect</strong>: infinitesimal changes in one block alter the entire chain.</td>
+</tr>
+<tr class="even">
+<td><strong>Public access</strong> <br> by virtue of <strong>crypto keys</strong></td>
+<td>Activity is recorded as entries signed by <strong>public keys</strong>. <br> Anyone can verify signatures, ensuring transparency and auditability.</td>
+</tr>
+<tr class="odd">
+<td><strong>Privacy &amp; private ownership</strong> <br> by virtue of <strong>crypto signatures</strong></td>
+<td>Only the holder of the <strong>private key (PrivKey)</strong> can initiate new activity from a <strong>public address</strong>, ensuring control and ownership.</td>
+</tr>
+</tbody>
+</table>
+</center></center></section>
+</b></section><b>
+<section id="economic-guarantees" class="level2">
+<h2 class="anchored" data-anchor-id="economic-guarantees">2.2 Economic guarantees</h2>
+<p>How to ensure new records are valid?</p>
+<ul>
+<li>Special participants</li>
+<li>Vulnerabilities</li>
+<li>Consensus</li>
+<li>Incentives</li>
+</ul>
+<section id="special-participants-validators-miners" class="level3">
+<h3 class="anchored" data-anchor-id="special-participants-validators-miners">2.2.1 Special participants: Validators / Miners</h3>
+<p>In a blockchain network, <strong>validators</strong> are special participants <strong>responsible for maintaining the integrity and security of the blockchain</strong>. Their role is essential for the validation and proposal of new blocks.</p>
+<section id="workflow" class="level4">
+<h4 class="anchored" data-anchor-id="workflow">Workflow</h4>
+<ol type="1">
+<li><p><strong>Collect valid records</strong> and propose <strong>blocks</strong></p></li>
+<li><p><strong>Validate other blocks</strong></p></li>
+<li><p><strong>When consensus: update the ledger</strong></p>
+<ul>
+<li>The proposed block is added to the blockchain</li>
+<li>Validators add it to their local copy of the blockchain.</li>
+</ul></li>
+</ol>
+</section>
+<section id="example-of-record-validity-in-payments" class="level4">
+<h4 class="anchored" data-anchor-id="example-of-record-validity-in-payments">Example of record validity in payments</h4>
+<p>A transaction is <strong>valid</strong> if: 1. Transfer between <strong>existing</strong> addresses 2. <strong>Amount</strong> under the balance of the originator (<strong>no double spending</strong>) 3. <strong>Authorized</strong> (signature) by the originator</p>
+</section>
+</section>
+<section id="blockchain-vulnerabilities" class="level3">
+<h3 class="anchored" data-anchor-id="blockchain-vulnerabilities">2.2.2 Blockchain vulnerabilities</h3>
+<p><strong>Pseudonymity</strong> and <strong>universal</strong> access at <strong>zero-cost</strong> to become a <strong>validator</strong> introduces <strong>critical vulnerabilities</strong>: - <strong>Malicious or faulty behavior</strong>: <code>Byzantine fault tolerance</code> - <strong>Majority control</strong>: <code>Sybil attacks</code></p>
+<p>These are the main barriers to achieving correct consensus.</p>
+<section id="pseudonymity-byzantine-fault-tolerance" class="level4">
+<h4 class="anchored" data-anchor-id="pseudonymity-byzantine-fault-tolerance">Pseudonymity &amp; <code>Byzantine Fault Tolerance</code></h4>
+<p>The <strong>Byzantine General Problem</strong>: If some validators are <strong>faulty</strong> or <strong>malicious</strong>, how to achieve consensus and guarantee truth?</p>
+<p><strong><code>Byzantine Fault Tolerance</code> (BFT)</strong> refers to a blockchain’s ability to maintain network functionality and consensus even when some participants behave improperly.</p>
+</section>
+<section id="zero-cost-access-sybil-attacks" class="level4">
+<h4 class="anchored" data-anchor-id="zero-cost-access-sybil-attacks">Zero-cost access &amp; <code>Sybil Attacks</code></h4>
+<p>In a <strong><code>Sybil attack</code></strong>, an adversary influences the network through <strong>fake identities</strong> (<strong><code>Sybil</code> nodes</strong>) to overwhelm honest participants.</p>
+</section>
+</section>
+<section id="consensus" class="level3">
+<h3 class="anchored" data-anchor-id="consensus">2.2.3 Consensus</h3>
+<p><code>Blockchain</code> systems like <code>Bitcoin</code> and <code>Ethereum</code> are exposed to issues of <strong><code>Byzanting Fault Tolerance</code></strong> and <strong><code>Sybil Attacks</code></strong>.</p>
+<p>They therefore implement specific <strong>consensus mechanisms</strong> designed to handle such potential failures.</p>
+<p>→ <u> Goal of a consensus protocol</u>: ensure that all participants have the same version of the ledger while addressing the vulnerabilities of permissionlessness.</p>
+<p><strong>General fix</strong>: leverage <strong>costly actions</strong> to make <strong>attacks</strong> on the ledger <strong>too expensive</strong> to undertake:</p>
+<ul>
+<li><strong>Selection of a validator</strong> to propose a block conditional upon some <strong>cost</strong> faced by the validator (ex-ante / ex-post)</li>
+<li><strong>Rewards to a validator</strong> from proposing a block conditional upon <strong>references from blocks downstream</strong></li>
+</ul>
+<p><strong>Intuition</strong>: - Prevents <code>Sybil attacks</code> by making participation in validation costly, rendering it infeasible for an attacker to create enough fake identities to influence the network (<code>51% attack</code>).</p>
+<ul>
+<li>Ensures <code>Byzantine Fault Tolerance</code> by making it economically prohibitive to attach new blocks to faulty records.</li>
+</ul>
+<p><strong>Examples</strong></p>
+<ul>
+<li><p><strong>Proof of Work (PoW)</strong> (<code>Bitcoin</code>)</p>
+<ul>
+<li><strong>Costly action</strong>: validators (<strong>miners</strong>) solve <strong>computationally difficult cryptographic puzzles</strong> before they can propose new blocks.</li>
+<li>The <strong>difficulty</strong> is adjusted to the size of the miner market.</li>
+<li><strong>Energy Consumption</strong>: miners expend significant computational resources (and electricity) to solve the cryptographic puzzles.</li>
+<li><strong>Risk of Centralization</strong>: small number of miners with large computational power could have a disproportionate influence over the network.</li>
+</ul></li>
+<li><p><strong>Proof of Stake (PoS)</strong> (<code>Ethereum 2.0</code>)</p>
+<ul>
+<li><strong>Validators</strong> “stake” their wealth as collateral to back their choices.</li>
+<li><strong>Selection</strong> to propose and validate new blocks based on a <strong>validator’s staked amount.</strong><br>
+In case of <strong>misconduct</strong>, stakes are <strong>slashed</strong>.</li>
+<li><strong>Energy Efficiency</strong>: unlike PoW, PoS does not require validators to perform computational work, thereby reducing energy consumption.</li>
+<li><strong>Risk of Centralization</strong>: small number of validators with large stakes could have a disproportionate influence over the network.</li>
+</ul></li>
+</ul>
+</section>
+<section id="economic-incentives" class="level3">
+<h3 class="anchored" data-anchor-id="economic-incentives">2.2.4 Economic incentives</h3>
+<p>Validators/miners <strong>invest</strong> time, computational resources, and capital into maintaining the blockchain.</p>
+<p><strong>Sources of revenue</strong></p>
+<ul>
+<li><p><strong>Block rewards</strong>: minting of new tokens allocated to successful block creators.<br>
+→ Algorithmic (deterministic) monetary policy</p></li>
+<li><p><strong>Transaction fees</strong>: fees paid by users when submitting a transaction on the blockchain. Awarded to the validator who successfully adds the block to the blockchain.<br>
+→ Manage network congestion<br>
+→ Prevent spamming and DoS attacks</p></li>
+</ul>
+</section>
+</section>
+<section id="the-why" class="level2">
+<h2 class="anchored" data-anchor-id="the-why">3 The <code>why</code></h2>
+<section id="issues-with-centralized-alternatives" class="level3">
+<h3 class="anchored" data-anchor-id="issues-with-centralized-alternatives">Issues with centralized alternatives</h3>
+<p>While centralized systems have been the backbone of many industries - in particular information based economies -, they come with significant challenges that distributed systems like blockchain seek to overcome.</p>
+<p>Primary issues of centralization:</p>
+<ul>
+<li><strong>Data Manipulation</strong>:</li>
+<li><strong>Market power</strong></li>
+<li><strong>Entry barrier</strong></li>
+<li><strong>Lack of innovation</strong></li>
+</ul>
+<p>Ulimately, the key is the <strong>governance of information</strong> which derives from <strong>transparence</strong> and <strong>trust</strong>.</p>
+<p><em>More on this in the DeFi Lecture</em></p>
+</section>
+<section id="the-blockchain-trilemma" class="level3">
+<h3 class="anchored" data-anchor-id="the-blockchain-trilemma">The blockchain trilemma</h3>
+<p>The <strong>Blockchain Trilemma</strong> is the <strong>inherent trade-offs</strong> between three key properties of blockchain networks:</p>
+<ol type="1">
+<li><strong>Decentralization</strong>: distribution of control and decision-making</li>
+<li><strong>Security</strong>: guarantee for integrity and reliability of records</li>
+<li><strong>Scalability</strong>: capacity to scale without degrading performance</li>
+</ol>
+<p>The trilemma states that blockchain networks can optimize for <strong>only two of these three properties</strong> simultaneously without compromising the third.</p>
+<p><strong>Examples</strong></p>
+<ul>
+<li><p><strong>Security vs.&nbsp;Scalability</strong>: To enhance scalability, a blockchain might increase its block size or reduce block confirmation times. However, this can lead to weaker security, as nodes have less time to validate transactions, increasing the risk of errors or malicious behavior.</p></li>
+<li><p><strong>Scalability vs.&nbsp;Decentralization</strong>: To improve scalability, some networks may rely on fewer, more powerful nodes to increase transaction throughput. This, however, reduces decentralization by concentrating control in the hands of fewer participants.</p></li>
+<li><p><strong>Decentralization vs.&nbsp;Security</strong>: Increasing decentralization can lead to network delays and inefficiencies, making it harder to implement strong security measures that require rapid consensus among many nodes.</p></li>
+</ul>
+</section>
+<section id="in-search-for-the-killer-app" class="level3">
+<h3 class="anchored" data-anchor-id="in-search-for-the-killer-app">In search for the killer app</h3>
+<p>Blockchain is a <strong>general-purpose technology</strong>, and the full potential of its applications is still being explored.</p>
+<p><strong>Candidates</strong> for blockchain’s “killer apps”:</p>
+<ul>
+<li><p><strong>Private money</strong></p></li>
+<li><p><strong>Initial Coin Offerings (ICO)</strong></p></li>
+<li><p><strong>Stablecoins</strong></p></li>
+<li><p><strong>Automated Market Makers (AMMs)</strong></p></li>
+<li><p><strong>Non-Fungible Tokens (NFTs)</strong></p></li>
+<li><p><strong>Decentralized Autonomous Organizations (DAOs)</strong></p></li>
+</ul>
+<section id="beyond-finance-the-promise-of-web3" class="level4">
+<h4 class="anchored" data-anchor-id="beyond-finance-the-promise-of-web3">Beyond finance: the promise of Web3</h4>
+<ul>
+<li><p><strong>Web3</strong> is a decentralized version of the internet, built on blockchain technology, that promises to return control of data, privacy, and value to the users rather than centralized corporations.</p></li>
+<li><p>The promise of <strong>Web3</strong> lies in its ability to create an internet that is more <strong>user-owned, decentralized, and transparent</strong>, fostering a new wave of innovation and empowering individuals with more control over their digital lives.</p></li>
+</ul>
+</section>
+</section>
+</section>
+</b></section><b>
+<section id="discussion" class="level1">
+<h1>Discussion</h1>
+<section id="the-evolving-technological-landscape" class="level3">
+<h3 class="anchored" data-anchor-id="the-evolving-technological-landscape">The evolving technological landscape</h3>
+<section id="the-how-1" class="level4">
+<h4 class="anchored" data-anchor-id="the-how-1">The <code>How</code></h4>
+<p>Development of infrastructure: - <strong>Blockchain Trilemma</strong>: Balancing <strong>decentralization</strong>, <strong>security</strong>, and <strong>scalability</strong>. Innovations like Layer 2 solutions, sharding, and consensus protocol improvements. - <strong>Hash properties</strong>: continuous update of hash function to ensure properties like pre-image resistance are not violated. - <strong>MEV (Miner/Maximal Extractable Value)</strong>: Understanding how miners (or validators in PoS systems) can extract additional value through transaction ordering. This can have implications for market fairness and transparency. - <strong>Interoperability Solutions</strong>: Update on technologies that allow different blockchains to communicate, such as Polkadot, Cosmos, and bridges. - <strong>Privacy-Preserving Technologies</strong>: Zero-knowledge proofs (e.g., zk-SNARKs) and confidential transactions. Impact on anti-money laundering (AML) and compliance.</p>
+</section>
+<section id="the-why-1" class="level4">
+<h4 class="anchored" data-anchor-id="the-why-1">The <code>Why</code></h4>
+<p>Development of killer applications:</p>
+<ul>
+<li><strong>Payments</strong>: Blockchain’s potential to streamline cross-border payments, reduce settlement times, and lower costs.</li>
+<li><strong>Stablecoins</strong>: Their role in providing digital representations of fiat currencies. Implications for monetary policy and financial stability.</li>
+<li><strong>Exchanges</strong>: The rise of decentralized exchanges (DEXs) like Uniswap, which operate without intermediaries and provide automated liquidity.</li>
+<li><strong>Non-Fungible Tokens (NFTs)</strong>: How digital ownership and asset tokenization can affect market behaviors, intellectual property, and digital commerce.</li>
+</ul>
+<hr>
+<div id="99db515a-4bd9-4d20-a00d-91ff2c488234" class="cell" data-slideshow="{&quot;slide_type&quot;:&quot;skip&quot;}" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> hashlib</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> ecdsa <span class="im">import</span> SigningKey, SECP256k1</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Function to generate a hash using SHA-256</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> generate_hash(input_string):</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Create a new sha256 hash object</span></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>    sha256_hash <span class="op">=</span> hashlib.sha256()</span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Update the hash object with the bytes of the input string</span></span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>    sha256_hash.update(input_string.encode(<span class="st">'utf-8'</span>))</span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Return the hexadecimal digest (the hash value)</span></span>
+<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> sha256_hash.hexdigest()</span>
+<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> hash_function_example_1():</span>
+<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Input strings</span></span>
+<span id="cb10-17"><a href="#cb10-17" aria-hidden="true" tabindex="-1"></a>    input1 <span class="op">=</span> <span class="bu">input</span>(<span class="st">"first input</span><span class="ch">\t</span><span class="st">"</span>)</span>
+<span id="cb10-18"><a href="#cb10-18" aria-hidden="true" tabindex="-1"></a><span class="co">#     input2 = input("second input\t")</span></span>
+<span id="cb10-19"><a href="#cb10-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-20"><a href="#cb10-20" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"</span><span class="ch">\n</span><span class="ss">Input 1: </span><span class="sc">{</span>input1<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb10-21"><a href="#cb10-21" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"Hash 1 : </span><span class="sc">{</span>generate_hash(input1)<span class="sc">}</span><span class="ch">\n</span><span class="ss">"</span>)</span>
+<span id="cb10-22"><a href="#cb10-22" aria-hidden="true" tabindex="-1"></a><span class="co">#     print(f"Input 2: {input2}")</span></span>
+<span id="cb10-23"><a href="#cb10-23" aria-hidden="true" tabindex="-1"></a><span class="co">#     print(f"Hash 2 : {generate_hash(input2)}\n")</span></span>
+<span id="cb10-24"><a href="#cb10-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-25"><a href="#cb10-25" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> hash_function_example_2():</span>
+<span id="cb10-26"><a href="#cb10-26" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Input strings</span></span>
+<span id="cb10-27"><a href="#cb10-27" aria-hidden="true" tabindex="-1"></a>    input1 <span class="op">=</span> <span class="bu">input</span>(<span class="st">"first input</span><span class="ch">\t</span><span class="st">"</span>)</span>
+<span id="cb10-28"><a href="#cb10-28" aria-hidden="true" tabindex="-1"></a>    input2 <span class="op">=</span> <span class="bu">input</span>(<span class="st">"second input</span><span class="ch">\t</span><span class="st">"</span>)</span>
+<span id="cb10-29"><a href="#cb10-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-30"><a href="#cb10-30" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"</span><span class="ch">\n</span><span class="ss">Input 1: </span><span class="sc">{</span>input1<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb10-31"><a href="#cb10-31" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"Hash 1 : </span><span class="sc">{</span>generate_hash(input1)<span class="sc">}</span><span class="ch">\n</span><span class="ss">"</span>)</span>
+<span id="cb10-32"><a href="#cb10-32" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"Input 2: </span><span class="sc">{</span>input2<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb10-33"><a href="#cb10-33" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"Hash 2 : </span><span class="sc">{</span>generate_hash(input2)<span class="sc">}</span><span class="ch">\n</span><span class="ss">"</span>)</span>
+<span id="cb10-34"><a href="#cb10-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-35"><a href="#cb10-35" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> generate_key_pair():</span>
+<span id="cb10-36"><a href="#cb10-36" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Generate a private key (using SECP256k1 curve, used by Bitcoin)</span></span>
+<span id="cb10-37"><a href="#cb10-37" aria-hidden="true" tabindex="-1"></a>    private_key <span class="op">=</span> SigningKey.generate(curve<span class="op">=</span>SECP256k1)</span>
+<span id="cb10-38"><a href="#cb10-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-39"><a href="#cb10-39" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Derive the public key from the private key</span></span>
+<span id="cb10-40"><a href="#cb10-40" aria-hidden="true" tabindex="-1"></a>    public_key <span class="op">=</span> private_key.get_verifying_key()</span>
+<span id="cb10-41"><a href="#cb10-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-42"><a href="#cb10-42" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Convert keys to hexadecimal format</span></span>
+<span id="cb10-43"><a href="#cb10-43" aria-hidden="true" tabindex="-1"></a>    private_key_hex <span class="op">=</span> private_key.to_string().<span class="bu">hex</span>()</span>
+<span id="cb10-44"><a href="#cb10-44" aria-hidden="true" tabindex="-1"></a>    public_key_hex <span class="op">=</span> public_key.to_string().<span class="bu">hex</span>()</span>
+<span id="cb10-45"><a href="#cb10-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-46"><a href="#cb10-46" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Print the private and public keys</span></span>
+<span id="cb10-47"><a href="#cb10-47" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">"Private Key:"</span>, private_key_hex)</span>
+<span id="cb10-48"><a href="#cb10-48" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">"Public Key:"</span>, public_key_hex)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+
+
+</section>
+</section>
+</section>
+
+</b></main><b> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/trkrkn\.github\.io\/mbft\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</b></div><b> <!-- /content -->
+
+
+
+
+</b></body></html>

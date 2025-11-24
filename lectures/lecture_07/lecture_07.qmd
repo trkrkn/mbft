@@ -7,8 +7,8 @@ title: "Lecture 07"
 
 #### Open Banking
 
-- **Slides**: [PDF](https://drive.google.com/file/d/1sgPwaK-R6S8JrO1wreLTJ-nC5fmh0V8H/view?usp=share_link){target=_blank}
+**Slides**: [PDF](https://drive.google.com/file/d/1sgPwaK-R6S8JrO1wreLTJ-nC5fmh0V8H/view?usp=share_link){target=_blank}
 
 #### Fintech Plaftforms
 
-- **Slides**: [PDF](https://drive.google.com/file/d/12DT3mg1BjvtTdDY1b5ORFvhNoudiZuAm/view?usp=share_link){target=_blank}
+**Slides**: [PDF](https://drive.google.com/file/d/12DT3mg1BjvtTdDY1b5ORFvhNoudiZuAm/view?usp=share_link){target=_blank}

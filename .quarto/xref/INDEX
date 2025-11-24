@@ -90,5 +90,17 @@
   },
   "lectures/lecture_08/lecture_08.qmd": {
     "lecture_08.html": "65fd4db6"
+  },
+  "lectures/lecture_09/041_blockchain.ipynb": {
+    "041_blockchain.html": "d7576d2a"
+  },
+  "lectures/lecture_09/042_defi.ipynb": {
+    "042_defi.html": "573757bf"
+  },
+  "lectures/lecture_09/lecture_09.qmd": {
+    "lecture_09.html": "038bc3e4"
+  },
+  "lectures/lecture_10/lecture_10.qmd": {
+    "lecture_10.html": "e8689f1f"
   }
 }

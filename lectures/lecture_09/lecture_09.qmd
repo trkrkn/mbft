@@ -8,13 +8,6 @@ title: "Lecture 09"
 [Reveal.js](041_blockchain.slides.html){target=_blank}
 [PDF](041_blockchain.slides.pdf){target=_blank}
 
-## 2. Decentralized Finance
-**Page**: [HTML](042_defi.html){target=_blank}
-
-**Slides**:
-[Reveal.js](042_defi.slides.html){target=_blank}
-[PDF](042_defi.slides.pdf){target=_blank}
-
 ### Recordings
 #### 0. Overview of Blockhain
 
@@ -71,8 +64,17 @@ src="https://drive.google.com/file/d/1G73CU6-hJX79_yAc5UthtXVuQ9fAw643/preview"
   </iframe>
 </div>
 
+---
 
-#### 5. Overview of DeFi
+## 2. Decentralized Finance
+**Page**: [HTML](042_defi.html){target=_blank}
+
+**Slides**:
+[Reveal.js](042_defi.slides.html){target=_blank}
+[PDF](042_defi.slides.pdf){target=_blank}
+
+### Recordings
+#### 0. Overview of DeFi
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe 
@@ -83,7 +85,7 @@ src="https://drive.google.com/file/d/12qi-CXcHDgn-0YlizOVutZWy8oGuyeJu/preview"
   </iframe>
 </div>
 
-#### 6. The `What` of DeFi
+#### 1. The `What` of DeFi
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe 
@@ -94,7 +96,7 @@ src="https://drive.google.com/file/d/1a_GfvW-hjTXdpaQYAuNJIBr5YhP_muQ2/preview"
   </iframe>
 </div>
 
-#### 7. The `Why` of DeFi
+#### 2. The `Why` of DeFi
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe 
@@ -106,7 +108,7 @@ src="https://drive.google.com/file/d/1hynPOmpp69S_WIMyDJM4iYpLMqc5nrh0/preview"
 </div>
 
 
-#### 8. DeFi World
+#### 3. DeFi World
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe 
@@ -117,7 +119,7 @@ src="https://drive.google.com/file/d/14OHr7BeAkG-ebciF8Oe1QnJ4XFy1Mzl7/preview"
   </iframe>
 </div>
 
-#### 9. The Future of DeFi
+#### 4. The Future of DeFi
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe 
@@ -128,7 +130,7 @@ src="https://drive.google.com/file/d/1xiwA_It16k_Flr9-oatlZ5jvymD6wZ0A/preview"
   </iframe>
 </div>
 
-#### 10. Policy Discussion
+#### 5. Policy Discussion
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe 

@@ -1,0 +1,7 @@
+---
+title: "Lecture 10"
+---
+## Machine Learning Pt.2
+### Guest Lecture by Bjorn Strandgaard
+
+**Slides**: [PDF](https://drive.google.com/file/d/11WOtHTVEFWnre0wQlHGX_1xRAYVNg7DA/view?usp=sharing){target=_blank}

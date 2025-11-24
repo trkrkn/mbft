@@ -4,7 +4,7 @@
     "href": "schedule.html",
     "title": "Schedule Fall 2025",
     "section": "",
-    "text": "Date\n#\nPart\nTopics\n\n\n\n\n22/09/2025\n0\nIntroduction\n\n\n\n29/09/2025\n1\nModern Banking\nMoney & Payment\n\n\n06/10/2025  recorded\n2\nModern Banking\nDeposit\n\n\n13/10/2025  recorded\n3\nModern Banking\nCredit\n\n\n20/10/2025  recorded\n4\nModern Banking\nPolicy & Regulation\n\n\n27/10/2025  recorded\n5\nFintech\nOverview\n\n\n\n\nPlatforms\nDigital PlatformsBigTechPolicy\n\n\n03/11/2025\n6\nModern Banking Guest lecture\nFinancial Networks\n\n\n10/11/2025\n7\nPlatforms Guest lecture\nFintech PlatformsOpen Banking\n\n\n17/11/2025  recorded\n8\nMachine Learning\nHistoryEconomics of MLPolicy\n\n\n24/11/2025\n9\nMachine Learning Guest lecture\nThe Technology of MLML Application in Finance\n\n\n01/12/2025\n10\nCrypto\nThe Technology of DLTDecentralised FinancePolicy\n\n\n08/12/2025\n11\nCrypto Guest lecture\nCentral Bank Digital Currencies\n\n\n15/12/2025\n\nQ&A"
+    "text": "Date\n#\nPart\nTopics\n\n\n\n\n22/09/2025\n0\nIntroduction\n\n\n\n29/09/2025\n1\nModern Banking\nMoney & Payment\n\n\n06/10/2025  recorded\n2\nModern Banking\nDeposit\n\n\n13/10/2025  recorded\n3\nModern Banking\nCredit\n\n\n20/10/2025  recorded\n4\nModern Banking\nPolicy & Regulation\n\n\n27/10/2025  recorded\n5\nFintech\nOverview\n\n\n\n\nPlatforms\nDigital PlatformsBigTechPolicy\n\n\n03/11/2025\n6\nModern Banking Guest lecture\nFinancial Networks\n\n\n10/11/2025\n7\nPlatforms Guest lecture\nFintech PlatformsOpen Banking\n\n\n17/11/2025  recorded\n8\nMachine Learning\nHistoryEconomics of MLPolicy\n\n\n24/11/2025  recorded\n9\nCrypto  [swapped up ↑]\nThe Technology of DLTDecentralised FinancePolicy\n\n\n01/12/2025\n10\nMachine Learning Guest lecture  [swapped down ↓]\nThe Technology of MLML Application in Finance\n\n\n08/12/2025\n11\nCrypto Guest lecture\nCentral Bank Digital Currencies\n\n\n15/12/2025\n\nQ&A"
   },
   {
     "objectID": "lectures/lecture_03/references_credit.html",
@@ -14,32 +14,11 @@
     "text": "Akerlof, G. A. (1970). The market for “lemons”: Quality uncertainty and the market mechanism. Quarterly Journal of Economics, 84(3), 488–500.\nGale, D., & Hellwig, M. (1985). Incentive-compatible debt contracts: The one-period problem. Review of Economic Studies, 52(4), 647–663.\nHolmström, B., & Tirole, J. (1997). Financial intermediation, loanable funds, and the real sector. Quarterly Journal of Economics, 112(3), 663–691.\nStiglitz, J. E., & Weiss, A. (1981). Credit rationing in markets with imperfect information. American Economic Review, 71(3), 393–410.\nTirole, J. (2006). The theory of corporate finance. Princeton University Press.\nTirole, J. (2011). Illiquidity and all its friends. Journal of Economic Literature, 49(2), 287–325.\nTownsend, R. M. (1979). Optimal contracts and competitive markets with costly state verification. Journal of Economic Theory, 21(2), 265–293."
   },
   {
-    "objectID": "lectures/lecture_04/06_policy.html#why-do-banks-need-to-be-regulated",
-    "href": "lectures/lecture_04/06_policy.html#why-do-banks-need-to-be-regulated",
+    "objectID": "lectures/lecture_04/06_policy.html",
+    "href": "lectures/lecture_04/06_policy.html",
     "title": "Policy & Regulation",
-    "section": "Why do banks need to be regulated?",
-    "text": "Why do banks need to be regulated?"
-  },
-  {
-    "objectID": "lectures/lecture_04/06_policy.html#what-is-the-difference-between-regulation-and-policy",
-    "href": "lectures/lecture_04/06_policy.html#what-is-the-difference-between-regulation-and-policy",
-    "title": "Policy & Regulation",
-    "section": "What is the difference between regulation and policy?",
-    "text": "What is the difference between regulation and policy?"
-  },
-  {
-    "objectID": "lectures/lecture_04/06_policy.html#what-is-a-central-bank",
-    "href": "lectures/lecture_04/06_policy.html#what-is-a-central-bank",
-    "title": "Policy & Regulation",
-    "section": "What is a central bank?",
-    "text": "What is a central bank?"
-  },
-  {
-    "objectID": "lectures/lecture_04/06_policy.html#what-are-the-main-challenges-of-policy-and-regulation",
-    "href": "lectures/lecture_04/06_policy.html#what-are-the-main-challenges-of-policy-and-regulation",
-    "title": "Policy & Regulation",
-    "section": "What are the main challenges of policy and regulation?",
-    "text": "What are the main challenges of policy and regulation?"
+    "section": "",
+    "text": "Foundations\nMain pillars of regulation\nInstitutional architecture\nEmerging challenges"
   },
   {
     "objectID": "lectures/lecture_04/06_policy.html#why-regulate",
@@ -105,32 +84,11 @@
     "text": "2. Policy Trade-offs\nFinancial regulation is about managing trade-offs between competing public objectives.\nNo single policy goal — stability, innovation, integrity, or inclusion — can be achieved in isolation.\nEffective governance requires regulators to balance risks and benefits across these dimensions, adapting rules as technology and markets evolve.\n\nStability vs Innovation\n\nStrong prudential and conduct rules protect the system from excessive risk-taking.\n\nYet, overly restrictive regulation may discourage experimentation and slow financial innovation.\n\nExample: strict capital rules can limit bank investment in fintech partnerships or new payment solutions.\n→ Challenge: support innovation while preserving financial stability.\n\n\n\nIntegrity vs Inclusion\n\nAML/CFT rules safeguard economic integrity and prevent illicit finance.\n\nBut strict compliance can lead to de-risking — banks withdrawing from high-risk regions or clients, reducing access to finance.\n\nParticularly affects small remittance providers and emerging economies.\n→ Challenge: fight financial crime without excluding legitimate users from the system.\n\n\n\nNational vs Supranational Oversight\n\nIn the EU, financial supervision is shared between national authorities and EU institutions (ECB, EBA, ESMA, AMLA).\n\nCoordination ensures consistency but can also slow decision-making and create accountability gaps.\n→ Challenge: align diverse national interests under a unified European framework.\n\n\n\nPrivacy vs Security\n\nData-sharing and surveillance are essential for detecting financial crime and systemic risks.\n\nYet they can conflict with data protection and individual privacy (e.g., GDPR constraints vs AML monitoring).\n→ Challenge: find the right balance between public safety and fundamental rights."
   },
   {
-    "objectID": "lectures/lecture_05/02_platform.html#what-are-network-effects",
-    "href": "lectures/lecture_05/02_platform.html#what-are-network-effects",
+    "objectID": "lectures/lecture_05/02_platform.html",
+    "href": "lectures/lecture_05/02_platform.html",
     "title": "Platforms",
-    "section": "What Are Network Effects?",
-    "text": "What Are Network Effects?"
-  },
-  {
-    "objectID": "lectures/lecture_05/02_platform.html#why-do-network-effects-matter-for-markets-and-policy",
-    "href": "lectures/lecture_05/02_platform.html#why-do-network-effects-matter-for-markets-and-policy",
-    "title": "Platforms",
-    "section": "Why Do Network Effects Matter for Markets and Policy?",
-    "text": "Why Do Network Effects Matter for Markets and Policy?"
-  },
-  {
-    "objectID": "lectures/lecture_05/02_platform.html#what-is-a-platform-and-what-is-not-a-platform",
-    "href": "lectures/lecture_05/02_platform.html#what-is-a-platform-and-what-is-not-a-platform",
-    "title": "Platforms",
-    "section": "What Is A Platform and What Is Not A Platform?",
-    "text": "What Is A Platform and What Is Not A Platform?"
-  },
-  {
-    "objectID": "lectures/lecture_05/02_platform.html#why-do-bigtechs-enter-finance",
-    "href": "lectures/lecture_05/02_platform.html#why-do-bigtechs-enter-finance",
-    "title": "Platforms",
-    "section": "Why Do BigTechs Enter Finance?",
-    "text": "Why Do BigTechs Enter Finance?"
+    "section": "",
+    "text": "Introduction\nNetwork Effects\nPlatforms\nBigTech"
   },
   {
     "objectID": "lectures/lecture_05/02_platform.html#within-group-network-effects-direct",
@@ -231,32 +189,11 @@
     "text": "Synthesis: From Banks as Platforms to Platforms as Banks\n\n\n\n\n\n\n\nBanks as Platforms\nPlatforms as Banks\n\n\n\n\nTraditional banks adopt platform models (open banking, APIs, data sharing).\nBigTech platforms embed financial services within digital ecosystems.\n\n\nAim: leverage customer data and third-party innovation.\nAim: deepen user engagement and monetization of data.\n\n\nExample: open banking ecosystems (PSD2, API marketplaces).\nExample: Apple Pay, WeChat Pay, Alipay, Amazon Pay, Google Pay.\n\n\n\nThe boundary between finance and technology is thus becoming bidirectional: - Banks learn to behave like platforms (connecting users, managing data flows).\n- BigTechs evolve into financial intermediaries (storing value, allocating credit).\nThis convergence challenges regulators to define where the financial system begins and ends, and how to preserve stability, competition, and data integrity in a world where platforms mediate nearly all interactions."
   },
   {
-    "objectID": "lectures/lecture_05/01_intro.html#why-do-we-need-banks",
-    "href": "lectures/lecture_05/01_intro.html#why-do-we-need-banks",
+    "objectID": "lectures/lecture_05/01_intro.html",
+    "href": "lectures/lecture_05/01_intro.html",
     "title": "Intro to Financial Technologies",
-    "section": "Why Do We Need Banks?",
-    "text": "Why Do We Need Banks?"
-  },
-  {
-    "objectID": "lectures/lecture_05/01_intro.html#what-is-information-governance",
-    "href": "lectures/lecture_05/01_intro.html#what-is-information-governance",
-    "title": "Intro to Financial Technologies",
-    "section": "What Is Information Governance?",
-    "text": "What Is Information Governance?"
-  },
-  {
-    "objectID": "lectures/lecture_05/01_intro.html#what-is-fintech",
-    "href": "lectures/lecture_05/01_intro.html#what-is-fintech",
-    "title": "Intro to Financial Technologies",
-    "section": "What Is FinTech?",
-    "text": "What Is FinTech?"
-  },
-  {
-    "objectID": "lectures/lecture_05/01_intro.html#how-does-fintech-impact-banking",
-    "href": "lectures/lecture_05/01_intro.html#how-does-fintech-impact-banking",
-    "title": "Intro to Financial Technologies",
-    "section": "How Does FinTech Impact Banking?",
-    "text": "How Does FinTech Impact Banking?"
+    "section": "",
+    "text": "Information Governance in Banking\nAdoption of Financial Technologies"
   },
   {
     "objectID": "lectures/lecture_05/01_intro.html#origin-story",
@@ -364,200 +301,235 @@
     "text": "Page: HTML\nSlides: Reveal.js PDF"
   },
   {
-    "objectID": "lectures/lecture_07/lecture_07.html",
-    "href": "lectures/lecture_07/lecture_07.html",
-    "title": "Lecture 07",
+    "objectID": "lectures/lecture_09/lecture_09.html",
+    "href": "lectures/lecture_09/lecture_09.html",
+    "title": "Lecture 09",
     "section": "",
-    "text": "Slides: PDF\n\n\n\n\n\nSlides: PDF"
+    "text": "Page: HTML\nSlides: Reveal.js PDF"
   },
   {
-    "objectID": "lectures/lecture_07/lecture_07.html#platforms-and-open-banking",
-    "href": "lectures/lecture_07/lecture_07.html#platforms-and-open-banking",
-    "title": "Lecture 07",
+    "objectID": "lectures/lecture_09/lecture_09.html#blockchain",
+    "href": "lectures/lecture_09/lecture_09.html#blockchain",
+    "title": "Lecture 09",
     "section": "",
-    "text": "Slides: PDF\n\n\n\n\n\nSlides: PDF"
+    "text": "Page: HTML\nSlides: Reveal.js PDF"
   },
   {
-    "objectID": "lectures/lecture_01/references_money_payment.html",
-    "href": "lectures/lecture_01/references_money_payment.html",
+    "objectID": "lectures/lecture_09/lecture_09.html#decentralized-finance",
+    "href": "lectures/lecture_09/lecture_09.html#decentralized-finance",
+    "title": "Lecture 09",
+    "section": "2. Decentralized Finance",
+    "text": "2. Decentralized Finance\nPage: HTML\nSlides: Reveal.js PDF\n\nRecordings\n\n0. Overview of DeFi\n\n \n\n\n\n1. The What of DeFi\n\n \n\n\n\n2. The Why of DeFi\n\n \n\n\n\n3. DeFi World\n\n \n\n\n\n4. The Future of DeFi\n\n \n\n\n\n5. Policy Discussion"
+  },
+  {
+    "objectID": "lectures/lecture_09/041_blockchain.html#what-is-a-distributed-ledger",
+    "href": "lectures/lecture_09/041_blockchain.html#what-is-a-distributed-ledger",
+    "title": "Blockchain",
+    "section": "What is a Distributed Ledger ?",
+    "text": "What is a Distributed Ledger ?"
+  },
+  {
+    "objectID": "lectures/lecture_09/041_blockchain.html#how-do-blockchains-work",
+    "href": "lectures/lecture_09/041_blockchain.html#how-do-blockchains-work",
+    "title": "Blockchain",
+    "section": "How do Blockchains work ?",
+    "text": "How do Blockchains work ?"
+  },
+  {
+    "objectID": "lectures/lecture_09/041_blockchain.html#what-is-the-value-of-blockchain-technologies",
+    "href": "lectures/lecture_09/041_blockchain.html#what-is-the-value-of-blockchain-technologies",
+    "title": "Blockchain",
+    "section": "What is the Value of Blockchain Technologies ?",
+    "text": "What is the Value of Blockchain Technologies ?"
+  },
+  {
+    "objectID": "lectures/lecture_09/041_blockchain.html#what-are-the-main-challenges-of-blockchains",
+    "href": "lectures/lecture_09/041_blockchain.html#what-are-the-main-challenges-of-blockchains",
+    "title": "Blockchain",
+    "section": "What are the Main Challenges of Blockchains ?",
+    "text": "What are the Main Challenges of Blockchains ?"
+  },
+  {
+    "objectID": "lectures/lecture_09/041_blockchain.html#distributed-systems",
+    "href": "lectures/lecture_09/041_blockchain.html#distributed-systems",
+    "title": "Blockchain",
+    "section": "1.1 Distributed systems",
+    "text": "1.1 Distributed systems\n\nCollections of independent computers (or nodes) working together to achieve a common goal\n\nCoordination obtains by messaging over the network of nodes\nThe system acts as a single coherent system\nKey dimensions: - fault tolerance - liveness - scalability\nExample: The Internet - Goal: transfer of information (TCP/IP protocols, etc.) - Killer application: e-mail"
+  },
+  {
+    "objectID": "lectures/lecture_09/041_blockchain.html#distributed-ledgers",
+    "href": "lectures/lecture_09/041_blockchain.html#distributed-ledgers",
+    "title": "Blockchain",
+    "section": "1.2 Distributed ledgers",
+    "text": "1.2 Distributed ledgers\nA subfield of distributed systems where\n\nCollections of independent computers (or nodes) operate a common digital record\n\nUse cases: where maintaining a consistent and immutable record of data is critical.\nExample: ledger of transactions\nAdditional key dimensions: - synchronization - consensus - tamper-proof\nExample: The Bitcoin protocol - Goal: transfer of token ownership - Killer application: to be determined…"
+  },
+  {
+    "objectID": "lectures/lecture_09/041_blockchain.html#elements-of-a-dlt",
+    "href": "lectures/lecture_09/041_blockchain.html#elements-of-a-dlt",
+    "title": "Blockchain",
+    "section": "1.3 Elements of a DLT",
+    "text": "1.3 Elements of a DLT\n\n\n\nElement\nRoles\n\n\n\n\nLedger\nRecord storage\n\n\nUsers\nViewers  Contributors\n\n\nNodes\nValidators  Recorders\n\n\nProtocol\nGovernance  Consensus"
+  },
+  {
+    "objectID": "lectures/lecture_09/041_blockchain.html#protocol-design",
+    "href": "lectures/lecture_09/041_blockchain.html#protocol-design",
+    "title": "Blockchain",
+    "section": "1.4 Protocol design",
+    "text": "1.4 Protocol design\nIn distributed systems: no single authority.\n→ The protocol makes explicit rules to ensure consistent & immutable record-keeping.\n\n1.4.1 Rules for nodes & users\nThe protocol specifies access & communication rights for each participant (nodes and users).\n\n Who can read/write data  How to contribute data \n\n\nIdentification (address, public-private key pairing)\nAuthentification (signature)\nAuthorization & Validation (proof-of-work, proof-of-stake)\n\n\n\n1.4.2 Rules for the ledger\nThe protocol specificies consensus & recording rules to update the ledger.\n\nWhat is true/correct data  How is data recorded/protected\n\n\nVerification: Authorization (hash functions) & Validity (double spending)\nConsensus mechanism (proof-of-work, proof-of-stake, block rewards, etc.)"
+  },
+  {
+    "objectID": "lectures/lecture_09/041_blockchain.html#decentralisation-spectrum",
+    "href": "lectures/lecture_09/041_blockchain.html#decentralisation-spectrum",
+    "title": "Blockchain",
+    "section": "1.5 Decentralisation spectrum",
+    "text": "1.5 Decentralisation spectrum\nDLT allow for degrees of decentralization as a function of the rights of nodes and users: - Visibility (read) - Access (write) - Liability (identity)\nMain dimensions:\n\n\n\n\n\n\n\n\nParticipants\nClosed\nOpen\n\n\n\n\nRead\nPrivate\nPublic\n\n\nWrite\nPermissioned\nPermissionless\n\n\nIdentity\nLegal entity\nPseudonymous\n\n\n\n→ Blockhain technologies allow for a fully open design of DLT:\n\n↓  Public x Permissionless x Pseudonymous\n\n\nWhat is the value of this specific combination?"
+  },
+  {
+    "objectID": "lectures/lecture_09/041_blockchain.html#the-computer-in-the-sky",
+    "href": "lectures/lecture_09/041_blockchain.html#the-computer-in-the-sky",
+    "title": "Blockchain",
+    "section": "1.6 The computer in the sky",
+    "text": "1.6 The computer in the sky\nThe ideal technical vision for fully decentralized DLT like blockchain systems is a\n\nPublic good virtual machine\n\n\nGeneral purpose computation: run any software (protocol/smart contracts)\nNo physicallity nor central authority: no shutting down nor tampering\nUniversal access: deployment, view, contribution\nEnforced property right: use, exclusion, transfer\n\n\n“This combination is the super power of the blockchain technology”\n– Roughgarden (2024)"
+  },
+  {
+    "objectID": "lectures/lecture_09/041_blockchain.html#first-apps-crypto-tokens-and-payments",
+    "href": "lectures/lecture_09/041_blockchain.html#first-apps-crypto-tokens-and-payments",
+    "title": "Blockchain",
+    "section": "1.7 First apps: crypto tokens and payments",
+    "text": "1.7 First apps: crypto tokens and payments\nBitcoin, Ethereum, Solana, etc.\n\nPublic ledgers of token ownership\nMachines that implement protocols/smart contracts to validate transfers\n\nNo double spending, balance consistency, transfer authorization, etc.\n\nNo shut down button\n\nNo physicallity nor central authority\n\nUniversal access on all sides\nProperty rights\n\nSelf-custody of keys and related assets"
+  },
+  {
+    "objectID": "lectures/lecture_09/041_blockchain.html#crypto-guarantees",
+    "href": "lectures/lecture_09/041_blockchain.html#crypto-guarantees",
+    "title": "Blockchain",
+    "section": "2.1 Crypto guarantees",
+    "text": "2.1 Crypto guarantees\nTransaction records require: - An origin and a destination - Authorization\nThe ledger guarantees - Anyone can freely create an identity (=address) - Everything is public and verifiable - Historical records are immutable\nTransaction record\n\n\n\n\n\n\n\n\n\n\n\n\nOrigin\nDestination\nAmount\nAuthorization\n(other)\n\n\n\n\ntrue information\nTarik\nNikolas\n5 BTC\nSignature (Tarik)\nfee, message, etc.\n\n\npublic information\nx012jdoijdpoj..\nx32ffwew..\n5 BTC\nSignature (x012jdoijdpoj..)\netc.\n\n\n\nProperties: - Pseudonymity - Signature - Immutatbiliy\nWe obtain this using elements of cryptography 1. Key pairs 2. Public signatures 3. Hash functions\n\nThis is the secret sauce\n\n\n2.1.1 Key pairs\nIn public-key cryptography, there are 2 keys: 1. PrivKey: the private key 2. PubKey: the public key\nsuch that\n    PubKey = G . PrivKey\nProperties:\n\nCostless verification: PubKey can be easily derived from the PrivKey.\nPre-Image resistance: Given PubKey, impossible to obtain PrivKey\n\nWhat is an identity in a blockchain?\n\nA user’s identity is an address which obtains from the public key.\nKey pairs can be freely generated through asymmetric encryption\n\n\ngenerate_key_pair()\n\nPrivate Key: 2e2618bbd9087d6d8b460c3bfce731610fcd031b02a99b00671f041f0c706774\nPublic Key: cb13730df21015340f89b11fa53dc29d3ec5889e04696750da781bec434896636097d7ed5f2954aafa7ab2e936dd239374ddc3ab84349bd0f6bd1a911569bb67\n\n\n\n\n2.1.2 Public signatures\nTo guarantee communication in an open ecosystem (universal access and pseudonymity), blockchain protocols imply that:\n\nMessages (transactions) need to reference an adresses via signatures\nSignatures need to be verifiable: everyone can confirm the validity of a signature\n\nCrypto signatures rely on 2 functions: 1. Sign() 2. Verify()\nGiven a message x (transaction): - The private key signs the message\n    Signature = Sign(x, PrivKey)\n\nThe public key is used by others to verify that the signature came from the owner of the private key.\n\nIsValid = Verify(x, Signature, PubKey)\n\n\n2.1.3 Hash functions\nA hash function is a mathematical object \\(H()\\) that takes an input (\\(x\\)) and returns a deterministic fixed-size string of bytes which appears random (\\(h\\) - hash).\n\nhash_function_example_1()\n\nfirst input monday november 17 2025\n\nInput 1: monday november 17 2025\nHash 1 : bf6d4edb9eede8508863efea46e2765947b16fc39f449d18301c511b872d0fb4\n\n\n\nHash properties\n\\[H(x) = h\\]\n\n\n\n\n\n\n\nProperty\nDescription\n\n\n\n\nFixed size & pseudo-randomness\nHash outputs have a fixed length and appear random, regardless of input size.\n\n\nCostless verification\nGiven $ x $, it is easy to compute $ H(x) $.\n\n\nPre-image resistance\nGiven $ h $, it is infeasible to find any $ x $ such that $ H(x) = h$.\n\n\nCollision resistance\nIt is infeasible to find two distinct inputs $ x $ and $ y $ such that $ H(x) = H(y)$.\n\n\nAvalanche effect\nA small change in input (e.g., flipping one bit) results in a drastically different output $ H(x) $ vs $ H(x|e) $\n\n\n\n\nhash_function_example_2()\n\nfirst input monday november 17 2025monday november 17 2025monday november 17 2025monday november 17 2025monday november 17 2025monday november 17 2025monday november 17 2025\nsecond input    monday november 17 2025monday november 17 2025monday november 17 2025\n\nInput 1: monday november 17 2025monday november 17 2025monday november 17 2025monday november 17 2025monday november 17 2025monday november 17 2025monday november 17 2025\nHash 1 : 2655685559e3eda77a122f03a2ac73b9061fc40bc327ec27ff8b3c294eef6741\n\nInput 2: monday november 17 2025monday november 17 2025monday november 17 2025\nHash 2 : ca99955423385031e1bed17148a89666114d8fe4e67dfdff57f28fdf7c2ffc91\n\n\n\nHashing to guarantee immutability\nA blockchain is made up of a chain of blocks, where each block contains a list of records and a reference (or link) to the previous block.\n→ The references and the data are always accompanied with their hash.\nBlock structure\n\n\n\n\nChain of blocks\n\n\n\nProperties of Blockchain\n\n\n\n\n\n\n\n\nProperty\nDescription\n\n\n\n\nTamper-Proof  by virtue of hashing\nEach block’s hash depends on its content and the previous block’s hash. The avalanche effect: infinitesimal changes in one block alter the entire chain.\n\n\nPublic access  by virtue of crypto keys\nActivity is recorded as entries signed by public keys.  Anyone can verify signatures, ensuring transparency and auditability.\n\n\nPrivacy & private ownership  by virtue of crypto signatures\nOnly the holder of the private key (PrivKey) can initiate new activity from a public address, ensuring control and ownership."
+  },
+  {
+    "objectID": "lectures/lecture_09/041_blockchain.html#economic-guarantees",
+    "href": "lectures/lecture_09/041_blockchain.html#economic-guarantees",
+    "title": "Blockchain",
+    "section": "2.2 Economic guarantees",
+    "text": "2.2 Economic guarantees\nHow to ensure new records are valid?\n\nSpecial participants\nVulnerabilities\nConsensus\nIncentives\n\n\n2.2.1 Special participants: Validators / Miners\nIn a blockchain network, validators are special participants responsible for maintaining the integrity and security of the blockchain. Their role is essential for the validation and proposal of new blocks.\n\nWorkflow\n\nCollect valid records and propose blocks\nValidate other blocks\nWhen consensus: update the ledger\n\nThe proposed block is added to the blockchain\nValidators add it to their local copy of the blockchain.\n\n\n\n\nExample of record validity in payments\nA transaction is valid if: 1. Transfer between existing addresses 2. Amount under the balance of the originator (no double spending) 3. Authorized (signature) by the originator\n\n\n\n2.2.2 Blockchain vulnerabilities\nPseudonymity and universal access at zero-cost to become a validator introduces critical vulnerabilities: - Malicious or faulty behavior: Byzantine fault tolerance - Majority control: Sybil attacks\nThese are the main barriers to achieving correct consensus.\n\nPseudonymity & Byzantine Fault Tolerance\nThe Byzantine General Problem: If some validators are faulty or malicious, how to achieve consensus and guarantee truth?\nByzantine Fault Tolerance (BFT) refers to a blockchain’s ability to maintain network functionality and consensus even when some participants behave improperly.\n\n\nZero-cost access & Sybil Attacks\nIn a Sybil attack, an adversary influences the network through fake identities (Sybil nodes) to overwhelm honest participants.\n\n\n\n2.2.3 Consensus\nBlockchain systems like Bitcoin and Ethereum are exposed to issues of Byzanting Fault Tolerance and Sybil Attacks.\nThey therefore implement specific consensus mechanisms designed to handle such potential failures.\n→  Goal of a consensus protocol: ensure that all participants have the same version of the ledger while addressing the vulnerabilities of permissionlessness.\nGeneral fix: leverage costly actions to make attacks on the ledger too expensive to undertake:\n\nSelection of a validator to propose a block conditional upon some cost faced by the validator (ex-ante / ex-post)\nRewards to a validator from proposing a block conditional upon references from blocks downstream\n\nIntuition: - Prevents Sybil attacks by making participation in validation costly, rendering it infeasible for an attacker to create enough fake identities to influence the network (51% attack).\n\nEnsures Byzantine Fault Tolerance by making it economically prohibitive to attach new blocks to faulty records.\n\nExamples\n\nProof of Work (PoW) (Bitcoin)\n\nCostly action: validators (miners) solve computationally difficult cryptographic puzzles before they can propose new blocks.\nThe difficulty is adjusted to the size of the miner market.\nEnergy Consumption: miners expend significant computational resources (and electricity) to solve the cryptographic puzzles.\nRisk of Centralization: small number of miners with large computational power could have a disproportionate influence over the network.\n\nProof of Stake (PoS) (Ethereum 2.0)\n\nValidators “stake” their wealth as collateral to back their choices.\nSelection to propose and validate new blocks based on a validator’s staked amount.\nIn case of misconduct, stakes are slashed.\nEnergy Efficiency: unlike PoW, PoS does not require validators to perform computational work, thereby reducing energy consumption.\nRisk of Centralization: small number of validators with large stakes could have a disproportionate influence over the network.\n\n\n\n\n2.2.4 Economic incentives\nValidators/miners invest time, computational resources, and capital into maintaining the blockchain.\nSources of revenue\n\nBlock rewards: minting of new tokens allocated to successful block creators.\n→ Algorithmic (deterministic) monetary policy\nTransaction fees: fees paid by users when submitting a transaction on the blockchain. Awarded to the validator who successfully adds the block to the blockchain.\n→ Manage network congestion\n→ Prevent spamming and DoS attacks"
+  },
+  {
+    "objectID": "lectures/lecture_09/041_blockchain.html#the-why",
+    "href": "lectures/lecture_09/041_blockchain.html#the-why",
+    "title": "Blockchain",
+    "section": "3 The why",
+    "text": "3 The why\n\nIssues with centralized alternatives\nWhile centralized systems have been the backbone of many industries - in particular information based economies -, they come with significant challenges that distributed systems like blockchain seek to overcome.\nPrimary issues of centralization:\n\nData Manipulation:\nMarket power\nEntry barrier\nLack of innovation\n\nUlimately, the key is the governance of information which derives from transparence and trust.\nMore on this in the DeFi Lecture\n\n\nThe blockchain trilemma\nThe Blockchain Trilemma is the inherent trade-offs between three key properties of blockchain networks:\n\nDecentralization: distribution of control and decision-making\nSecurity: guarantee for integrity and reliability of records\nScalability: capacity to scale without degrading performance\n\nThe trilemma states that blockchain networks can optimize for only two of these three properties simultaneously without compromising the third.\nExamples\n\nSecurity vs. Scalability: To enhance scalability, a blockchain might increase its block size or reduce block confirmation times. However, this can lead to weaker security, as nodes have less time to validate transactions, increasing the risk of errors or malicious behavior.\nScalability vs. Decentralization: To improve scalability, some networks may rely on fewer, more powerful nodes to increase transaction throughput. This, however, reduces decentralization by concentrating control in the hands of fewer participants.\nDecentralization vs. Security: Increasing decentralization can lead to network delays and inefficiencies, making it harder to implement strong security measures that require rapid consensus among many nodes.\n\n\n\nIn search for the killer app\nBlockchain is a general-purpose technology, and the full potential of its applications is still being explored.\nCandidates for blockchain’s “killer apps”:\n\nPrivate money\nInitial Coin Offerings (ICO)\nStablecoins\nAutomated Market Makers (AMMs)\nNon-Fungible Tokens (NFTs)\nDecentralized Autonomous Organizations (DAOs)\n\n\nBeyond finance: the promise of Web3\n\nWeb3 is a decentralized version of the internet, built on blockchain technology, that promises to return control of data, privacy, and value to the users rather than centralized corporations.\nThe promise of Web3 lies in its ability to create an internet that is more user-owned, decentralized, and transparent, fostering a new wave of innovation and empowering individuals with more control over their digital lives."
+  },
+  {
+    "objectID": "lectures/lecture_01/03_payment.html",
+    "href": "lectures/lecture_01/03_payment.html",
+    "title": "Payments",
+    "section": "",
+    "text": "Means of Payment\nPayment Infrastructures\nA Model of Payment\nInformation in Payments"
+  },
+  {
+    "objectID": "lectures/lecture_01/03_payment.html#commodity-money",
+    "href": "lectures/lecture_01/03_payment.html#commodity-money",
+    "title": "Payments",
+    "section": "1. Commodity Money",
+    "text": "1. Commodity Money\nFirst forms of money = money with intrinsic value\nExamples: shells (global), silk (China), whale teeth (Fiji), salt (Venice)\nNecessary characteristics:\n\nCan be made into standardized quantities → unit of account\nDurable → store of value\nHigh value relative to weight/size → easily transportable\nDivisible into small quantities → easy to trade\n\nBest candidate: gold"
+  },
+  {
+    "objectID": "lectures/lecture_01/03_payment.html#paper-money",
+    "href": "lectures/lecture_01/03_payment.html#paper-money",
+    "title": "Payments",
+    "section": "2. Paper Money",
+    "text": "2. Paper Money\n\nOrigins\n\nInitially: credit notes (promises against commodity money)\n\nReduced transportation costs\n\nLeveraged parallel technology: paper\n\nFirst Introductions\n\nChina: 7th century (Tang dynasty)\n\nTang dynasty (618–907): shortage of coins → acceptance of paper notes\n\nTraders deposited metallic currency with corporations → received bearer notes (hequan)\n\nAuthorities adopted and generalized the system → “flying money”\n\nEarly example of state involvement in paper money\n\n\nEurope: Sweden, 1656\n\n1660: debasement of coinage → citizens rushed for old coins\n\nStockholms Banco (Palmstruch): massive issuance of banknotes (not linked to any deposit!)\nNotes became popular (lighter than copper coins)\n\nOver-issuance under royal pressure to finance wars\n\nLoss of confidence → redemption crisis → bank failure\n\nPalmstruch imprisoned (died 1671)\n\n\n\n\nPaper Money and Wars\nIn the 18th century: paper money emerged as a massive means to to finance wars of independence\n\nUS Independence (Continentals)\n\nFrench Revolution (Assignats)\n\nBenefits: expanded funding capacity, paid salaries and supplies\nRisks: over-issuance with no explicit backing → hyperinflation\nAfter wars: partial return to gold standard (mix of coins and notes)"
+  },
+  {
+    "objectID": "lectures/lecture_01/03_payment.html#fiat-money",
+    "href": "lectures/lecture_01/03_payment.html#fiat-money",
+    "title": "Payments",
+    "section": "3. Fiat Money",
+    "text": "3. Fiat Money\nDefinition: Money whose value comes from government decree (no intrinsic value)\n\nLegal tender enforced by law: must be accepted for payments &gt; “This note is a legal tender for all debts, public and private”\nAccepted for taxes → critical for stability\n\nBenefits: reduced coordination and transaction costs\nRisks: concentration of power, inflation risk, time inconsistency - If a government prints too much money → threatens its value - When time inconsistency is internalized, investment in projects decrease\n\n“Ultimately, if a fiat currency is to outperform a commodity currency, policymakers must be credibly committed… As long as the government stands behind its paper money and doesn’t issue too much of it, we will use it.”\n— Cecchetti & Schoenholtz\n\n\nCore principle: money is about trust"
+  },
+  {
+    "objectID": "lectures/lecture_01/03_payment.html#digital-money",
+    "href": "lectures/lecture_01/03_payment.html#digital-money",
+    "title": "Payments",
+    "section": "4. Digital Money",
+    "text": "4. Digital Money\nDefinition: Monetary value represented by a claim on issuer (e.g., bank)\nCharacteristics:\n\nStored digitally\n\nIssued on receipt of funds\n\nAccepted as means of payment beyond issuer\n\nAdvantages:\n\nFast, often instantaneous transfers\n\nBorderless reach\n\nForms\n\nElectronic funds transfers\n\nStored-value cards (e.g., gift cards)\n\nBank deposits, central bank reserves ®\n\nSynchronisation problem: adoption of new medium requires coordination between buyers and merchants (see network effects and platforms)"
+  },
+  {
+    "objectID": "lectures/lecture_01/03_payment.html#outside-vs.-inside-money",
+    "href": "lectures/lecture_01/03_payment.html#outside-vs.-inside-money",
+    "title": "Payments",
+    "section": "Outside vs. Inside Money",
+    "text": "Outside vs. Inside Money\nWhile in principle a payment may be made with an asset, in practice virtually all modern payments are\nOutside money\n\nFiat or asset-backed money\nNet positive asset supply\nExamples: central bank currency, gold, government bonds\n\nInside money\n\nPrivate credit circulating as medium of exchange\n\nZero net supply within private sector:\n\nasset of one agent ~ liability of another\n\n\nExample: demand deposits\n\nModern infrastructures must interact with both outside and inside money"
+  },
+  {
+    "objectID": "lectures/lecture_01/03_payment.html#token-based-vs.-account-based-systems",
+    "href": "lectures/lecture_01/03_payment.html#token-based-vs.-account-based-systems",
+    "title": "Payments",
+    "section": "Token-Based vs. Account-Based Systems",
+    "text": "Token-Based vs. Account-Based Systems\nToken-based\n\nPhysical or digital tokens (coins, notes, e-tokens)\n\nVerification: authenticity of the token\n\nAdvantage: anonymity\n\nRisk: counterfeiting\n\nAccount-based\n\nOperate through account records (banks, cards, decentralized ledgers)\n\nVerification: identity of account holder + transaction record\n\nAdvantage: safety, efficiency, lower costs\nRisk: tampering, un-authorized entries, exclusion\n\n\nHistorically\nBoth systems have long coexisted (e.g., banknotes + deposits)\n\nLimitations of physical tokens (coins/metal): costly and risky for large/long-distance payments\nMedieval fairs: banks cleared merchant balances → early clearing systems\n\nAccount-based systems start in Venice 14th, transfers for clients of the same bank\nWith increase in economic activity → growth and need for more payment options\n\nClearinghouses appear to enable transfers between different banks (clearing and settlements)\n\n\nDevelopment of clearinghouses laid foundations for central banks\n\n19th century US & Europe: clearinghouses expanded into modern account-based systems"
+  },
+  {
+    "objectID": "lectures/lecture_01/03_payment.html#backbone-of-modern-payment-systems",
+    "href": "lectures/lecture_01/03_payment.html#backbone-of-modern-payment-systems",
+    "title": "Payments",
+    "section": "Backbone of Modern Payment Systems",
+    "text": "Backbone of Modern Payment Systems\n\n\n\nBanks hold accounts at the central bank to enable interbank transfers (reserves)\n\nNon-member banks can access indirectly via correspondent banks\n\nExamples of central bank payment systems\n\nFedwire (US)\n\nTARGET (EU)\n\nCHIPS (UK)\n\nRetail payments\nSimilar to account transfers within a bank but through the reserves of the central bank.\nIn addition to direct transfers:\n\nPaper checks\n\nCredit cards"
+  },
+  {
+    "objectID": "lectures/lecture_01/03_payment.html#settlement-systems",
+    "href": "lectures/lecture_01/03_payment.html#settlement-systems",
+    "title": "Payments",
+    "section": "Settlement Systems",
+    "text": "Settlement Systems\nA crucial dimension of payment: how and when payments are considered final.\n\nSettlement defines the moment when a payment is irrevocable and unconditional.\n\nDifferent infrastructures handle settlement differently, reflecting trade-offs between speed, liquidity, efficiency, and cost.\n\n2 main types of settlement systems:\n\nReal-Time Gross Settlement\nAutomated Clearing House\n\n\n1. RTGS – Real-Time Gross Settlement\nDefinition: Payments settled individually, in real-time, with finality\n\n“Gross” = each transaction processed separately\n\nFeatures:\n\nImmediate settlement between banks\n\nIrrevocable and final once processed\n\nEliminates settlement risk\n\nExamples: Fedwire (US), TARGET2 (Eurozone), BOJ-NET (Japan), CHAPS (UK)\nUse cases: large-value, time-critical payments (interbank transfers, securities settlement)\nDrawback: liquidity-intensive (banks must hold sufficient balances at central bank)\nRTGS Example: TARGET2\n\nPan-European RTGS system operated by the Eurosystem\n\nSettles payments in central bank money\n\nHandles large-value and urgent transactions across the Eurozone\n\nBackbone of European financial stability infrastructure\n\n\n\n2. ACH – Automated Clearing House\nDefinition: Batch-processing system with net settlement (end-of-day or periodic)\nFeatures:\n\nPayments grouped into batches\n\nSettlement deferred\n\nCost-efficient, less liquidity needed compared to RTGS\n\nExamples: Nacha ACH (US), SEPA Credit Transfer/Direct Debit (EU)\nUse cases: low-value, high-volume payments (salaries, utility bills, e-commerce)\nDrawback: slower than RTGS; settlement not instantaneous\nACH Example: SEPA (Single Euro Payments Area)\nSingle integrated EU market for euro payments with same rules and costs across participating countries. Launched 2008, fully implemented by 2014.\nScope(euro-denominated payments only): 36 countries: EU + EFTA (Iceland, Norway, Liechtenstein, Switzerland) + Monaco, San Marino, Andorra, Vatican\nSEPA Instruments\n\nSEPA Credit Transfer (SCT): Standardized euro transfers, usually settled next day (D+1)\n\nSEPA Direct Debit (SDD): Framework for recurring payments (utilities, subscriptions)\n\nWorks across borders\n(Belgian account can authorize a French firm)\n\n\nSCT Instant (SCT Inst): &lt;10 seconds Real-time euro payments (up to €100,000, 24/7/365)\n\nIntroduced 2017\nUsed in P2P and e-commerce\n\n\n\n\nPolicy and Stability of Settlements\n\nCentral banks typically operate RTGS systems → backbone of financial stability\n\nACH networks: usually under central bank oversight, but often run by banking associations or private operators\n\nGrowing interest in faster payments:\n\nFaster Payments (UK)\n\nFedNow (US)\n\nPIX (Brazil)\n\nThese systems blur the line between ACH (retail, deferred) and RTGS (wholesale, immediate)\nKey point:\nRTGS and ACH are complementary\n\nRTGS = speed and finality, but costly\n\nACH = efficiency and scale, but slower"
+  },
+  {
+    "objectID": "lectures/lecture_01/03_payment.html#credit-cards",
+    "href": "lectures/lecture_01/03_payment.html#credit-cards",
+    "title": "Payments",
+    "section": "Credit Cards",
+    "text": "Credit Cards\nDefinition: A credit card payment is a retail payment instrument in which:\n\nA cardholder authorizes a purchase of goods or services using a credit card issued by a bank (the issuer).\nThe merchant receives payment through its bank (the acquirer) via a card network (e.g., Visa, Mastercard).\nThe issuer extends credit to the cardholder by settling the transaction on their behalf, while the cardholder agrees to repay the issuer (in full or in part, with possible interest).\n\nCredit Cards operate on top of the interbank payment backbone\nA single purchase involves multiple layers of:\n\nNetworks\n\nClearing and settlement arrangements\n\nContracts and liability rules\n\nCreates complexity and interdependencies well beyond the buyer and seller\n\n\nKey Players in Credit Card Payments\n\n\n\nIssuing bank\n\nThe bank that issues the credit card to the customer\n\nExtends credit and guarantees payment to the merchant (through the network)\n\nAcquiring bank (merchant’s bank)\n\nProvides payment services to the merchant\n\nCollects authorization requests and forwards them through the network\n\nEnsures merchant receives funds (minus fees)\n\nCard network\n\nConnects issuers and acquirers\n\nRoutes authorization, clearing, and settlement messages\n\nExamples: Visa, Mastercard, American Express, Discover\n\n\n\nSteps in a Credit Card Payment\n\nAuthorization\nAuthentication\nClearing\nSettlement\n\n\n\n\n\nAuthorization & Authentication\n\nCardholder presents card details to merchant\nVerification of cardholder identity\n\nMethods: PIN, signature, 3-D Secure (e.g., SMS/biometric code for online payments)\n\n\nMerchant sends request to acquiring bank → card network → issuing bank\n\nIssuing bank checks available credit and approves or declines\n\nClearing\n\nTransaction details transmitted through the card network\n\nIssuing and acquiring banks reconcile transaction records\n\nSettlement\n\nMerchant receives funds (minus fees), cardholder owes issuer\n\nActual transfer of funds between issuing and acquiring banks via interbank payment system\n\n\n\n\nOpen vs. Closed Loop Systems\n\n\n\nOpen-loop systems\n\nInvolve multiple intermediaries: issuer, acquirer, card network, merchant\n\nWidely used global models\n\nExamples: Visa, Mastercard\n\n\n\n\nClosed-loop systems\n\nIssuer and network are the same entity\n\nMerchant often contracts directly with the card provider\n\nExamples: American Express, Discover"
+  },
+  {
+    "objectID": "lectures/lecture_01/03_payment.html#economics-of-payment-platforms",
+    "href": "lectures/lecture_01/03_payment.html#economics-of-payment-platforms",
+    "title": "Payments",
+    "section": "Economics of Payment Platforms",
+    "text": "Economics of Payment Platforms\n\n2 key ingredients\nNetwork externalities:\n\nMore cardholders → more valuable for merchants.\nMore merchants → more valuable for cardholders.\nMore on this in Platform part\n\nPricing structure matters more than total price:\n\nWho pays what (consumer vs merchant) influences adoption.\nA card scheme must balance both sides to achieve adoption.\n\n\n\nRochet & Tirole’s Framework\n\n\n\nRochet and Tirole (2003) introduced a fundamental model of payments which influenced the rest of the digital economy.\n\n\nEnvironment\nEconomy\n\nBuyers (cardholder)\nSellers (merchants)\nPayment card system (monopoly platform)\n\nBusiness model\n\nFees per transaction:\n\n\\(a_b\\) to buyers (cardholders)\n\n\\(a_s\\) to sellers (merchants)\n\n\nPer-transaction cost: \\(c\\).\n\nAgents\n\n\n\n\n\n\n\n\nRole\nUtility Function\nParticipation\n\n\n\n\nBuyer\n\\(u_b = (\\beta_b - a_b)\\, n_s\\)\n\\(n_b = N_b(u_b), \\quad N_b'(\\cdot) &gt; 0\\)\n\n\nSeller\n\\(u_s = (\\beta_s - a_s)\\, n_b\\)\n\\(n_s = N_s(u_s), \\quad N_s'(\\cdot) &gt; 0\\)\n\n\n\nUtilities scale with the other side’s size: acceptance/usage externality → network effect\nPlatform profit\nTransactions (simple network tech): \\(T(n_b,n_s) = n_b\\,n_s=N_b(u_b)\\,N_s(u_s)\\).\n\\[\n\\Pi(a_b,a_s) = (a_b+a_s-c)\\,T(n_b,n_s)\n\\]\n\n\nEquilibrium\nPlatform sets fees to maximizes profits\n\nStart by differentiating profit w.r.t. \\(a_b\\) (buyer fee):\n\n\\[\n\\frac{\\partial \\Pi}{\\partial a_b}\n= N_s\\Big[N_b + (a_b+a_s-c)N_b'(u_b)\\frac{\\partial u_b}{\\partial a_b}\\Big]\n\\]\nwith \\(\\frac{\\partial u_b}{\\partial a_b}=-n_s\\).\n\nSet to zero and isolate fees and costs:\n\n\\[\nN_s\\Big[N_b + (a_b+a_s-c)N_b'(u_b)(-n_s)\\Big] = 0\\\\\n\\\\\n\\rightarrow\n\\frac{1}{a_b+a_s-c} = -\\frac{N_b'(u_b)}{N_b(u_b)}\\,n_s\n\\]\n\nDefine semi-elasticity in utility space:\n\n\\[\n\\varepsilon_b^{u} = -\\frac{N_b'(u_b)}{N_b(u_b)}u_b\n\\]\nwhere: \\(u_b = (\\beta_b - a_b)\\, n_s\\)\n\\[\n\\rightarrow \\varepsilon_b^{u} = -\\frac{N_b'(u_b)\\,(\\beta_b - a_b)\\, n_s}{N_b(u_b)} \\quad \\leftrightarrow \\frac{\\varepsilon_b^{u}}{\\beta_b-a_b} = -\\frac{N_b'(u_b)}{N_b(u_b)}\\,n_s\n\\]\n\nPlug elasticity expression in previous expression:\n\n\\[\n\\boxed{\\frac{1}{a_b+a_s-c} = \\frac{\\varepsilon_b^{u}}{\\beta_b-a_b}}\n\\]\nBy symmetry for the seller fee:\n\\[\n\\boxed{\\frac{1}{a_b+a_s-c} = \\frac{\\varepsilon_s^{u}}{\\beta_s-a_s}}\n\\]\nExpress condition in terms of fee elasticities\nDefine fee elasticity:\n\\[\n\\eta_b^{a} = -\\frac{N_b’(u_b)}{N_b(u_b)}\\frac{\\partial u_b}{\\partial a_b}\\,a_b\n\\]\nSince \\(\\partial u_b/\\partial a_b = -n_s,\\) we get:\n\\[\\eta_b^{a} = \\frac{N_b’(u_b)}{N_b(u_b)}\\,n_s\\,a_b = \\frac{a_b}{\\beta_b-a_b}\\,\\varepsilon_b^{u}\n\\]\nPlug back:\n\\[\n\\boxed{a_b+a_s-c = \\frac{a_b}{\\eta_b^{a}}}\n\\]\nSimilarly:\n\\[\n\\boxed{a_b+a_s-c = \\frac{a_s}{\\eta_s^{a}}}\n\\]\n\n\nMain Result\n\nBalancing condition\n\\[\\boxed{\\frac{a_b}{\\eta_b^{a}} = \\frac{a_s}{\\eta_s^{a}}}\n\\quad\\Longleftrightarrow\\quad\n\\boxed{\\frac{\\beta_b-a_b}{\\varepsilon_b^{u}} = \\frac{\\beta_s-a_s}{\\varepsilon_s^{u}}}\\]\nIntuition\nRaising \\(a_b\\) changes\n\nProfit via markup \\(a_b + a_s - c\\)\nQuantity \\(T(n_b,n_s)\\) via adoption elasticity \\(\\varepsilon_b^{\\,u}\\) ↑ when \\(a_b\\) ↑\n\nWhich also impacts seller side since \\(\\varepsilon_s^{\\,u}\\) ↑ given that \\(n_b\\) ↓\n\nWhich in turn would again impact the buyer side \\(\\varepsilon_b^{\\,u}\\) ↑ when \\(n_s\\) ↓ → Network Effects\n\n\n\n\n→ Optimal pricing must balance those marginal trade-offs across sides.\n\n\n\nImplication of \\(\\boxed{\\frac{a_b}{\\eta_b^{a}} = \\frac{a_s}{\\eta_s^{a}}}\\)\n\nThe more price-sensitive side gets a lower (even negative) price\nThe less elastic side bears more\n\nIn payments\n\nBuyers (cardholders) usually have many alternatives: cash, debit, bank transfer, other cards.\n→ If fees rise, they can easily switch → high elasticity.\nMerchants face a tough choice: refusing cards can mean losing sales to all card-preferring buyers. → Their participation is relatively inelastic.\n\nThat’s why empirically \\(\\eta_b^a &gt; \\eta_s^a\\), which in the model leads to \\(a_b&lt;a_s\\).\n\nThis explains why consumers (price sensitive) pay less and evend get rewards while merchant (less elastic) pay higher fees.\n\n\n\n\nDiscussion\nRochet & Tirole’s key insight: - Optimal pricing structure balances participation on both sides. - Platform may subsidize one side to attract the other.\nIn traditional monopoly settings, the Lerner rule is the benchmark in industrial organization: it links market power in pricing (mark up) directly to demand elasticity.\n\\[\\frac{p - c}{p} = \\frac{1}{\\eta}\\]\nwhere \\(p = a_b + a_s\\) → price level\nIntuition: price–cost margin must equal the inverse demand elasticity.\nIn two-sided markets:\n\nPrice structure is the key!\n\nWhat matters is the division of fees (who pays what), not just the total.\n\nThe monopoly platform must balance margins across both sides: \\(\\frac{a_b}{\\eta_b^{a}} = \\frac{a_s}{\\eta_s^{a}}\\)\n\nEach side’s demand elasticity already reflects network externalities.\n\nNo single Lerner condition holds — instead, a balancing condition across sides emerges.\n\n\nThis explains why cardholders may receive subsidies (negative price, rewards) while merchants pay fees: the platform redistributes to maximize joint adoption.\n\nTension: Social vs Private Optimum\n\nPrivate platform objective: maximize profit = transaction volume × (fees – costs).\nSocial planner objective: maximize total welfare (consumer surplus + merchant surplus – costs).\nDistortion arises because platforms may overcharge one side or underprovide adoption.\n\nPolicy Implications\n\nRegulators care because fee structure affects adoption and social welfare.\nKey issues:\n\nInterchange fee caps (EU, Australia).\nPromoting access for smaller merchants.\nEncouraging innovation while avoiding excessive merchant fees."
+  },
+  {
+    "objectID": "lectures/lecture_01/03_payment.html#payments-as-information-flows",
+    "href": "lectures/lecture_01/03_payment.html#payments-as-information-flows",
+    "title": "Payments",
+    "section": "Payments as Information Flows",
+    "text": "Payments as Information Flows\n\nEach digital transaction creates a data trail:\n\nWho pays whom\n\nWhen, where, how much\n\nPurpose of payment (explicit or inferred)\n\n\nThis information has:\n\nEconomic uses (credit scoring, targeted services)\n\nRegulatory uses (AML, taxation, supervision)\n\nPrivacy implications (surveillance, autonomy)"
+  },
+  {
+    "objectID": "lectures/lecture_01/03_payment.html#centralized-ledgers",
+    "href": "lectures/lecture_01/03_payment.html#centralized-ledgers",
+    "title": "Payments",
+    "section": "Centralized Ledgers",
+    "text": "Centralized Ledgers\nDefinition: a single entity maintains official records of accounts and transactions.\n\nExamples:\n\nCommercial bank deposit ledgers\n\nCentral bank RTGS systems (TARGET2, Fedwire)\n\n\nAdvantages\n\nEfficiency → one authoritative record\n\nControl → enforcement of rules, compliance\n\nAuditability → straightforward oversight\n\nPrivacy Concerns\n\nCentralized systems require identity verification (KYC/AML).\n\nEvery transaction linked to an account holder.\n\nTrade-off: anonymity lost, traceability gained.\n\nContrast:\n\nToken-based systems (cash, coins): privacy by design, no ledger.\n\nAccount-based systems (deposits, CBDCs): inherently tied to identities."
+  },
+  {
+    "objectID": "lectures/lecture_01/03_payment.html#privacy-trade-off",
+    "href": "lectures/lecture_01/03_payment.html#privacy-trade-off",
+    "title": "Payments",
+    "section": "Privacy Trade-Off",
+    "text": "Privacy Trade-Off\n\nIndividuals: value privacy for autonomy, consumption, political activity.\n\nStates & regulators: value transparency to combat illicit finance, tax evasion.\n\nBanks & platforms: monetize data (advertising, credit scoring).\n\nMore centralization → more control and efficiency, but less privacy.\nMore privacy (cash, decentralized tokens) → harder regulation, higher risk of illicit use.\n\nCurrent Debates\nBalance privacy rights with financial integrity and security.\nCentral Bank Digital Currencies (CBDC)\n\nLikely built on centralized or semi-centralized ledgers.\n\nKey design question: allow anonymity like cash, or ensure full traceability?\n\nCryptocurrencies\n\nPromise decentralization and privacy.\n\nIn reality: pseudonymous, not anonymous.\n\nExchanges pressured to apply KYC/AML.\n\nBigTech platforms\n\nCentralize payment data for billions of users.\n\nRaise concerns about surveillance capitalism and private concentration of financial data."
+  },
+  {
+    "objectID": "lectures/lecture_01/references.html",
+    "href": "lectures/lecture_01/references.html",
     "title": "Modern Banking and Financial Technology",
     "section": "",
     "text": "Cecchetti, S. G., & Schoenholtz, K. L. (2017). Money, banking, and financial markets (5th ed.). New York, NY: McGraw-Hill Education.\nFreixas, X., & Rochet, J.-C. (2008). Microeconomics of banking (3rd ed.). Cambridge, MA: MIT Press.\nGraeber, D. (2011). Debt: The first 5,000 years. Brooklyn, NY: Melville House.\nKocherlakota, N. R. (1998). Money is memory. Journal of Economic Theory, 81(2), 232–251.\nLagos, R., & Wright, R. (2005). A unified framework for monetary theory and policy analysis. Journal of Political Economy, 113(3), 463–484.\nMerton, R. C. (1993). Operation and regulation in financial intermediation: A functional perspective. In P. Englund (Ed.), Operation and regulation of financial markets (pp. 17–67). Stockholm: The Economic Council.\nNosal, E., & Rocheteau, G. (2011). Money, payments, and liquidity. Cambridge, MA: MIT Press. Rochet, J.-C., & Tirole, J. (2003). Platform competition in two-sided markets. Journal of the European Economic Association, 1(4), 990–1029."
   },
   {
-    "objectID": "lectures/lecture_01/01_banking.html#what-is-a-bank",
-    "href": "lectures/lecture_01/01_banking.html#what-is-a-bank",
-    "title": "Banking",
-    "section": "1. What is a Bank?",
-    "text": "1. What is a Bank?"
-  },
-  {
-    "objectID": "lectures/lecture_01/01_banking.html#why-do-we-need-banks",
-    "href": "lectures/lecture_01/01_banking.html#why-do-we-need-banks",
-    "title": "Banking",
-    "section": "2. Why Do We Need Banks?",
-    "text": "2. Why Do We Need Banks?"
-  },
-  {
-    "objectID": "lectures/lecture_01/01_banking.html#what-makes-banks-unique",
-    "href": "lectures/lecture_01/01_banking.html#what-makes-banks-unique",
-    "title": "Banking",
-    "section": "3. What Makes Banks Unique?",
-    "text": "3. What Makes Banks Unique?"
-  },
-  {
-    "objectID": "lectures/lecture_01/01_banking.html#why-regulate-banks",
-    "href": "lectures/lecture_01/01_banking.html#why-regulate-banks",
-    "title": "Banking",
-    "section": "4. Why Regulate Banks?",
-    "text": "4. Why Regulate Banks?"
-  },
-  {
-    "objectID": "lectures/lecture_01/01_banking.html#what-is-modern-banking",
-    "href": "lectures/lecture_01/01_banking.html#what-is-modern-banking",
-    "title": "Banking",
-    "section": "5. What is Modern Banking?",
-    "text": "5. What is Modern Banking?"
-  },
-  {
-    "objectID": "lectures/lecture_01/01_banking.html#definition",
-    "href": "lectures/lecture_01/01_banking.html#definition",
-    "title": "Banking",
-    "section": "Definition",
-    "text": "Definition\n\nA financial institution whose current operations consist of granting loans and receiving deposits from the public.\n— Freixas and Rochet (2008)\n\n\nBreaking Down the Definition\n\nCurrent → main operations\n\nGranting loans → credit creation\n\nDeposits → savings + money\nWhat makes bank unique!\nPublic → uninformed depositors\nThis means that access to payments → public good\n\n\n\nWhy Regulate Banks?\n\nProtect depositors from loss and fraud\n\nEnsure trust in money & payments\n\nStability: banks sit at the core of financial system"
-  },
-  {
-    "objectID": "lectures/lecture_01/01_banking.html#money-changing",
-    "href": "lectures/lecture_01/01_banking.html#money-changing",
-    "title": "Banking",
-    "section": "Money Changing",
-    "text": "Money Changing\nMoney changing = the business of exchanging one form of money for another.\n\nActivities\n1. Exchange of Different Currencies\nIn ancient marketplaces (Athens, Rome, medieval fairs in Champagne or Bruges).\n\nMerchants brought coins from different regions.\n\nCoins differed in:\n\nMetal content (gold, silver, copper)\n\nWeight\n\nPurity\n\nMoney changers exchanged at agreed rates\n\n2. Authentication & Valuation\n\nCounterfeiting was common.\n\nMoney changers assessed authenticity by weighing coins and testing their metallic content.\n\nReputation and trust were crucial.\n\n\n\nEtymology\n\nGreek: trapeza = scale\n\nItalian: banco = bench (for coins)\n\nWhen a money changer failed → the bench was broken\nItalian: bancarotta = broken bench (→ bankruptcy)\n\n\n\n\nFrom Money Changing to Safekeeping\nMoney changers gradually expanded their role:\n\nDeposits: merchants left coins in safekeeping.\n\nReduced risk of loss/robery\n\n\nTransfers: debts settled via ledger entries (no physical coin movement).\n\nCredit: loans granted from pooled reserves.\n\nFirst bankers\n\nScriveners: literate advisors, brokers, lenders, deposit-takers\n\nGoldsmiths (17th c. England): safes for goldware → accepted deposits\n\nEarly trust-based intermediaries\n\nNote: Deposits with no return\n\nEarly deposits = zero or negative return\n\nPurpose: safety, not investment\n\nBankers had to maintain confidence not to misuse deposits"
-  },
-  {
-    "objectID": "lectures/lecture_01/01_banking.html#timeline",
-    "href": "lectures/lecture_01/01_banking.html#timeline",
-    "title": "Banking",
-    "section": "Timeline",
-    "text": "Timeline\n\n1. Early Banking Practices\n\nMesopotamia (2000 BCE)\n\nHammurabi’s Code (Babylon) → regulated loans & debt\n\nLaw 100: “If a merchant gives silver as a loan at interest, he shall take only 1 shekel of silver as interest on 1 shekel; if he takes more, he shall forfeit all.”\n\n\nLaw 117: “If a man be in debt and he sell his wife, son, or daughter, they shall serve for three years in the house of the purchaser or creditor; in the fourth year they shall regain their freedom.”\n\n\nAncient Greece: trapeza (money changers)\n\n\n\n2. Medieval & Renaissance (10th-15th c.)\n\nTemplars (12th–14th c.):\n\nCheque-like instruments for crusaders & pilgrims\n\nFirst international financial system\n\n\nItalian city-states (12th–15th c.): Florence, Venice, Genoa = trade hubs\n\nMedici Bank (1397–1494): first multinational bank\n\nPacioli’s innovation (1494): double-entry bookkeeping\n\n\n\n\n3. Colonial Expansion (15th–17th c.)\nFinance to support growth of trade\n\nBanco di San Giorgio (1407) – Genoa - First public bank\n\nManaged public debt, accepted deposits\n\n\nBank of Amsterdam (1609)\n\nStandardized coinage, clearing bank, proto-central bank\n\n\nVenetian banks: financed global trade & wars\n\n\n\n4. Industrial Revolution (19th c.)\n\nSavings & cooperative banks\n\nCheque system spread\n\n\n\n5. Rise of Modern Banking (20th - today c.)\n\nPost-WWII → retail banking boom\n\nChecking accounts, mortgages, consumer credit\n\n\nRegulation after crises (e.g., 1929)\n\nGlobalisation → multinational banking groups\nTechnological Innovation\n\n1950s: Payment cards (Diners Club, later Visa/MasterCard)\n\n1967: ATMs (Barclays, UK)\n\n1973: SWIFT messaging system"
-  },
-  {
-    "objectID": "lectures/lecture_01/lecture_01.html",
-    "href": "lectures/lecture_01/lecture_01.html",
-    "title": "Lecture 01",
-    "section": "",
-    "text": "Page: HTML\nSlides: Reveal.js PDF"
-  },
-  {
-    "objectID": "lectures/lecture_01/lecture_01.html#banking",
-    "href": "lectures/lecture_01/lecture_01.html#banking",
-    "title": "Lecture 01",
-    "section": "",
-    "text": "Page: HTML\nSlides: Reveal.js PDF"
-  },
-  {
-    "objectID": "lectures/lecture_01/lecture_01.html#money",
-    "href": "lectures/lecture_01/lecture_01.html#money",
-    "title": "Lecture 01",
-    "section": "2. Money",
-    "text": "2. Money\nPage: HTML\nSlides Reveal.js PDF"
-  },
-  {
-    "objectID": "lectures/lecture_01/lecture_01.html#payments",
-    "href": "lectures/lecture_01/lecture_01.html#payments",
-    "title": "Lecture 01",
-    "section": "3. Payments",
-    "text": "3. Payments\nPage: HTML\nSlides Reveal.js PDF\n\nRecordings\n\nCredit Cards\n\n \n\n\n\nA Model of Payments\n\n \n\n\n\nInformation in Payments"
-  },
-  {
-    "objectID": "syllabus.html",
-    "href": "syllabus.html",
-    "title": "Syllabus",
-    "section": "",
-    "text": "Professor: Tarik Roukny (tarik.roukny@kuleuven.be)\nLectures: Mondays\n\nTime blocks for sessions\n\n08.30 AM - 10.30 AM\n10.30 PM - 12.30 PM\n\nRoom HER1 - 04.4207\n\nOffice hours: by email appointment."
-  },
-  {
-    "objectID": "syllabus.html#course-information",
-    "href": "syllabus.html#course-information",
-    "title": "Syllabus",
-    "section": "",
-    "text": "Professor: Tarik Roukny (tarik.roukny@kuleuven.be)\nLectures: Mondays\n\nTime blocks for sessions\n\n08.30 AM - 10.30 AM\n10.30 PM - 12.30 PM\n\nRoom HER1 - 04.4207\n\nOffice hours: by email appointment."
-  },
-  {
-    "objectID": "syllabus.html#course-description",
-    "href": "syllabus.html#course-description",
-    "title": "Syllabus",
-    "section": "Course Description",
-    "text": "Course Description\nThis course is a compulsory course for the International and Sustainable Finance Track in the Master of Business Administration curriculum at the Faculty of Economics and Business, Brussels Campus, KU Leuven.\nThe course objectives are:\n\nTo train students to produce scientifically based solutions to modern banking issues\nTo introduce trends in financial technologies\nTo provide students with a wide range of technological and policy challenges and opportunities in banking and finance\nTo induce both macro and micro assessments of the impact of new technologies for banking and the economy\n\nThe course features a balance between traditional banking issues (intermediation, money, payments, instruments, deposits, financial contracts, financial stability, liquidity, monetary policy, interest rates, bank runs, regulation, bail outs) and modern banking issues (digitalisation, platforms, crypto, AI, DeFi, smart contracts, shadow banking, macroprudential policy, Big Tech, open finance, CBDC). The ultimate objective is to convey a deep grasp of the past-present-future of the industry in order to prepare students for the ever changing landscape of banking and technology.\n\nPrerequisites\nThis course does not have mandatory prerequisites. It is however advised to have sufficient knowledge of basic economic modelling and completed the following courses first:\n\nFinancial Markets and Institutions\nCorporate Finance."
-  },
-  {
-    "objectID": "syllabus.html#organization",
-    "href": "syllabus.html#organization",
-    "title": "Syllabus",
-    "section": "Organization",
-    "text": "Organization\nThis course consists of 6 ECTS amounting to 40 contact hours. Sessions are split between core material, live discussions, and guest lectures. All sessions are integral to the course.\n\nMaterial\nThe class addresses the one key dimension of banking and financial technology: information frictions. As such, the material starts with the role played by information in every aspect of modern banking. Three key topics in the development of fintech are then studied: platforms, machine learning and crypto.\n\n\nOverview\nMap of topics\n\n\n\n\n\n\n\nSide\nTopics\n\n\n\n\nModern Banking\nMoney  Payment  Deposit  Systemic Risk  Policy & Regulation\n\n\nPlatforms\nDigital Platforms  Fintech Platforms  Bigtech  Open Banking\n\n\nMachine Learning\nHistory  Economics of ML  Technology of ML  Application of ML in Finance\n\n\nCrypto\nDistributed Ledger Technolonies  Smart Contracts  Stablecoins  Decentralised Finance  Central Bank Digital Currencies"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Modern Banking and Financial Technology",
-    "section": "",
-    "text": "This website accompanies the course of Modern Banking and Financial Technology (B-KUL-HMA68A)."
-  },
-  {
-    "objectID": "index.html#news-announcements",
-    "href": "index.html#news-announcements",
-    "title": "Modern Banking and Financial Technology",
-    "section": "News & Announcements",
-    "text": "News & Announcements\n\n14/11/2025\n\nMaterial and recording for Lecture 08 is available\n\n\n\n\n10/11/2025\n\nMaterial for Lecture 07 is available\n\n\n\n\n03/11/2025\n\nMaterial for Lecture 06 is available\nAnnouncement for the Assignment is available here\n\n\n\n\n20/10/2025\n\nMaterial and recording for Lecture 05 is available\n\n\n\n\n17/10/2025\n\nMaterial and recording for Lecture 04 is available\n\n\n\n\n10/10/2025\n\nMaterial and recording for Lecture 03 is available\nNew: All Day TA is available for the course.\n\nAll Day TA is an interactive AI tutor trained on the course material and synced with the course schedule for learning support.\n\n\n\n\n\n03/10/2025\n\nMaterial for Lecture 02 is available\nRecordings available for\n\nLast part of Lecture 01 (credit card, payment model and information\nLecture 02\n\n\n\n\n\n25/09/2025\n\nThe course is live\nMaterial for Lecture 01 is available"
-  },
-  {
-    "objectID": "assignment.html",
-    "href": "assignment.html",
-    "title": "Assignment — Analyzing a FinTech Company",
-    "section": "",
-    "text": "Objective\nThis assignment invites you to connect the theory of modern banking and digital transformation with real-world FinTech business models.\nYou will analyze the economics of a selected FinTech company and report on the related value propositions, challenges and vulnerabilities.\n\n\n\nInstructions\n\nPick one FinTech company from the list below.\n\nStudy the economics of its business model in light of the concepts and models discussed in class.\n\nBe prepared to discuss your analysis in the written exam, where some questions will directly refer to your chosen company.\n\n\n\n\n\n\n\n\nStructure your analysis around the following\n\n\n\n\nFriction:\nIdentify the information governance setup and the information friction the Fintech addresses (e.g., information asymmetry, incompleteness, confidentiality)\nValue Proposition:\nUnderstand how does the company create value and relate it to the above friction. Identify its technological and economic innovation.\nRevenue Model:\nMap out the main way the company makes money. In particular, unpack the allocation of fees and the underlying welfare implications.\nTheoretical Link:\nRelate the company to a model from the course which best helps understand the business model or its role in and challenge for the financial ecosystem.\nChallenges: Using the appropriate model and the details of the company, list out the main issues faced by the companies. Be ready to deeply unpack each item.\n\nPolicy / Regulation: e.g., compliance, data governance, systemic risk, competition.\n\nIndustry: e.g., scalability, competition with incumbents, market sustainability.\n\nVulnerabilities & Threats:\nStrictly referring to the class material and the model chosen, assess the main risks or vulnerabilities faced by the company?\n\n\n\n\n\n\n\nFinTech List\nChoose one of the following companies:\n\n\n\nCompany\nSegment\n\n\n\n\nKlarna\nBuy Now, Pay Later (BNPL)\n\n\nCircle\nBlockchain & Stablecoin Infrastructure\n\n\nRevolut\nNeobank / Financial Super-App\n\n\nUpstart\nAI-Based Lending / Credit Scoring\n\n\nPayPal\nPayment Platform\n\n\nRobinhood\nRetail Investing Platform\n\n\n\n\n\n\nDeliverable\n\nFormat: Study can be done in group; reporting is done independently; synthesis expected within the written exam.\n\nEvaluation: Clarity of reasoning, depth of economic analysis, and ability to connect theory with real-world fintech cases."
-  },
-  {
-    "objectID": "lectures/lecture_06/lecture_06.html",
-    "href": "lectures/lecture_06/lecture_06.html",
-    "title": "Lecture 06",
-    "section": "",
-    "text": "Slides: PPTX"
-  },
-  {
-    "objectID": "lectures/lecture_06/lecture_06.html#financial-networks",
-    "href": "lectures/lecture_06/lecture_06.html#financial-networks",
-    "title": "Lecture 06",
-    "section": "",
-    "text": "Slides: PPTX"
-  },
-  {
-    "objectID": "lectures/lecture_01/02_money.html#where-does-money-come-from",
-    "href": "lectures/lecture_01/02_money.html#where-does-money-come-from",
+    "objectID": "lectures/lecture_01/02_money.html",
+    "href": "lectures/lecture_01/02_money.html",
     "title": "Money",
-    "section": "1. Where Does Money Come From?",
-    "text": "1. Where Does Money Come From?"
-  },
-  {
-    "objectID": "lectures/lecture_01/02_money.html#why-do-we-need-money",
-    "href": "lectures/lecture_01/02_money.html#why-do-we-need-money",
-    "title": "Money",
-    "section": "2. Why Do We Need Money?",
-    "text": "2. Why Do We Need Money?"
-  },
-  {
-    "objectID": "lectures/lecture_01/02_money.html#what-is-money",
-    "href": "lectures/lecture_01/02_money.html#what-is-money",
-    "title": "Money",
-    "section": "3. What is Money?",
-    "text": "3. What is Money?"
-  },
-  {
-    "objectID": "lectures/lecture_01/02_money.html#how-to-control-money",
-    "href": "lectures/lecture_01/02_money.html#how-to-control-money",
-    "title": "Money",
-    "section": "4. How to Control Money?",
-    "text": "4. How to Control Money?"
+    "section": "",
+    "text": "Origins of Money\nA Model of Money\nThe Need for Money\nThe Value of Money\nThe Definition of Money\nThe Governance of Money"
   },
   {
     "objectID": "lectures/lecture_01/02_money.html#how-do-we-organise-exchange-debt-vs-barter",
@@ -665,165 +637,417 @@
     "text": "Discussion\n\nInflation Costs (Short Run)\n\nWages are sticky → individual purchasing power initially reduced\n\nUncertainty undermines planning\n\nMoney is a yardstick → lack of price predictability impedes financial decisions\n\n\nMenu costs: updating prices is costly\n\n\n\nSpecial Cost of Inflation\n\nArbitrary redistribution of wealth\nUnanticipated inflation transfers purchasing power between creditors and debtors\n\nHigher-than-expected inflation → benefits debtors (real value of debt falls)\n\nLower-than-expected inflation → benefits creditors (real value of debt rises)\n\n\nIn practice: high inflation is more variable and less predictable\n\nKey consequence: barrier to long-term contracts and financing in unstable economies\n\n\n\nLimitations of the Model\n\nAbstracts from credit and behavioral dimensions under uncertainty\n\nPrices can move even if money supply is fixed → role of expectations\n\nExamples:\n\nMedieval food prices fluctuated independently of money supply\n\nWhen uncertainty rises → liquidity hoarding (money as credit) → reduced spending"
   },
   {
-    "objectID": "lectures/lecture_01/references.html",
-    "href": "lectures/lecture_01/references.html",
+    "objectID": "lectures/lecture_06/lecture_06.html",
+    "href": "lectures/lecture_06/lecture_06.html",
+    "title": "Lecture 06",
+    "section": "",
+    "text": "Slides: PPTX"
+  },
+  {
+    "objectID": "lectures/lecture_06/lecture_06.html#financial-networks",
+    "href": "lectures/lecture_06/lecture_06.html#financial-networks",
+    "title": "Lecture 06",
+    "section": "",
+    "text": "Slides: PPTX"
+  },
+  {
+    "objectID": "lectures/lecture_08/03_machine_learning.html",
+    "href": "lectures/lecture_08/03_machine_learning.html",
+    "title": "Machine Learning",
+    "section": "",
+    "text": "Introduction to AI\nEconomics of Machine Learning\nAI & Finance\nChallenges\nPolicy & Regulation"
+  },
+  {
+    "objectID": "lectures/lecture_08/03_machine_learning.html#ai-as-a-research-field",
+    "href": "lectures/lecture_08/03_machine_learning.html#ai-as-a-research-field",
+    "title": "Machine Learning",
+    "section": "1.1. AI as a research field",
+    "text": "1.1. AI as a research field\n\n\n\n\nEarly ambitions (1950s-1960s):\n\nAI as the quest to create human-like intelligence in machines.\nThe Turing Test (Turing, 1950): Can machines think?\nDartmouth Conference (1956) – the birth of AI as a field.\n\nFirst wave (1950s-1980s): Symbolic AI and expert systems\n\nAI mostly rule-based, following logic and heuristics.\n\nExamples: ELIZA, chatbot (1960s); MYCIN medical diagnosis system (1970s).\n\n\nLimitations: brittle logic, poor adaptability, lack of learning ability.\n\nAI Winters (1970s, 1980s-1990s)\n\nOverpromises vs. underperformance.\nFailure of expert systems to scale due to increasing complexity.\nRestricted funding.\n\nSecond wave (1990s-2010s): Machine Learning revolution\n\nShift from rule-based AI to data-driven models.\n\nRise of statistical approaches, including decision trees and neural networks.\n\n1997: Deep Blue beats Garry Kasparov in chess.\n\nThird wave (2010s-2020s): Deep Learning and modern AI\n\nExplosion of computing power and data.\nBreakthrough in Deep Learning\n\n2012: AlexNet wins the ImageNet competition\n\nAI applications expand into speech, vision, and finance (e.g., fraud detection, algorithmic trading).\n\nFourth wave (2020s-present): Generative AI, Large Language Models (LLMs)\n\nThe rise of foundation models trained on massive datasets (GPT, BERT, Claude, Gemini).\n\n2020: OpenAI introduces GPT-3, capable of human-like text generation.\n\n2022: ChatGPT launches, sparking mainstream adoption of generative AI.\n\n\nLLMs in finance: Used for document processing, risk assessment, and fraud detection.\n\nRegulatory agenda: misinformation, privacy, AI bias, copyright concerns.\n\n\n\nHistory of AI - Main Takeways\n\nWinters\nMarket adjustment from enthusiasm and structural limitations of new tech\n\n\n“The problem of artificial intelligence has vexed researchers for decades. Even simple tasks such as digit recognition—challenges that we as humans overcome so effortlessly—proved extremely difficult to program.”\n– Mullainathan & Spiess (2017)\n\n\nThe Machine Learning Revolution\nChanges in fundamental approaches with the advent of computational power & data\n→from deduction to induction\n\n\n“Introspection into how our mind solves these problems failed to translate into procedures. The real breakthrough came once we stopped trying to deduce these rules. Instead, the problem was turned into an inductive one: rather than hand-curating the rules, we simply let the data tell us which rules work best.”\n– Mullainathan & Spiess (2017)\n\nExample: Face recognition\n\n\n\nNo hard-wired rules to scan for certain pixel combinations, based on human understanding of what constitutes a face.\nInstead, leverage large dataset of photos labeled with a face or not to estimate a function \\(f(x)\\) that predicts the presence \\(y\\) of a face from pixels \\(x\\)."
+  },
+  {
+    "objectID": "lectures/lecture_08/03_machine_learning.html#the-two-ai-schools",
+    "href": "lectures/lecture_08/03_machine_learning.html#the-two-ai-schools",
+    "title": "Machine Learning",
+    "section": "1.2. The two AI schools",
+    "text": "1.2. The two AI schools\n\nGood Old-Fashioned AI (GOFAI) vs Modern AI\n\n\n\n\n\n\n\n\n\n\nAI Approach\nDescription\nStrengths\nWeaknesses\n\n\n\n\nSymbolic AI\nRules, logic,  and symbolic reasoning\n- Transparency  - Interpretability  - Computationally light\n- Hard to scale  - Inflexible (no learning)  - Human efforts\n\n\nMachine Learning\nStatistical learning  w/ or w/o guidance\n- Adaptability  - Scalability  - Learns w/o predefined rules\n- Data & computation power  - Opacity (“black box”)  - Hidden biases\n\n\n\nKey distinction:\n\nSymbolic AI: explicit programming → If X, then Y\nMachine Learning: implicit programming → Code how to learn\n\nExample: Translation\n\nSymbolic AI: Hard-coded grammar rules and mappings between languages.\n\nMachine Learning: Learns linguistic patterns from translated text corpora (e.g., Google translate, GPT, BERT)."
+  },
+  {
+    "objectID": "lectures/lecture_08/03_machine_learning.html#dominance-of-machine-learning",
+    "href": "lectures/lecture_08/03_machine_learning.html#dominance-of-machine-learning",
+    "title": "Machine Learning",
+    "section": "1.3. Dominance of Machine Learning",
+    "text": "1.3. Dominance of Machine Learning\n\nML’s superior performance in key applications\n\nImage recognition (e.g., facial recognition, medical imaging).\n\nNatural language processing (e.g., chatbots, voice assistants).\n\nFinancial applications (e.g., risk assessment, fraud detection).\n\n\n“The success of machine learning at intelligence tasks is largely due to its ability to discover complex structures that were not specified in advance. It manages to fit complex and very flexible functional forms to the data without simply overfitting; it finds functions that work well out-of-sample.”\n– Mullainathan & Spiess (2017)\n\n\n\nClasses of ML models\nThere 3 broad classes of learning: supervised, unsupervised, reinforcement.\n\nSupervised Learning\nThe model learns from labeled data (i.e., input-output pairs).\n\nRegression: learning a continuous value (e.g., stock prices, real estate values).\nClassification: learning a categorical label (e.g., credit approval, fraud detection).\n\nUnsupervised Learning\nThe model learns from unlabeled data to find hidden patterns or groupings.\n\nClustering: Grouping data points based on similarities (e.g., customer segmentation).\nDimensionality reduction: Reducing the number of features while preserving the most important information (e.g., PCA).\n\nReinforcement Learning\nThe model learns through interactions with an environment and feedback from its actions.\n\nAlgorithmic trading\nRobo-advisor\n\n\n\n\nVisual intuition\nRaw data  \nSupervised learning\nNecessary dimension: Labelled data \n\nSupervised learning\n\n\nUnsupervised learning  \n\n\nMachine Learning Workflow\n\nProblem Definition (Prediction)\nData\n\nCollection\nPreparation: missing values, encoding of categorical variables, etc.\nExploration\nFeature engineering: select suitable features for the predictions\nSplit (see below): training versus evaluation\n\nLearning\n\nModel selection\nTraining\nEvaluation\nTuning\n\nDeployment\n\n\n\nWhy ML dominates modern AI?\nData and computation drive AI progress in Machine Learning\n\nDigitalisation of the economy \\(\\rightarrow\\) data availability \\(\\uparrow\\)\nbig data, user-generated content, etc.\n\nAdvances in computing power and algorithmic performances\ncloud computing, GPUs, TPUs, etc.\ndeep learning, transformers, etc.\n\n\nWhat’s the difference with standard econometrics?\nMachine learning solves a different problem:\nPrediction (\\(Y\\)) vs Estimation (\\(\\beta\\)):\n\\[Y = \\beta_0 + \\beta_1 X\\]\n\nTraditional economic applications: Estimation\n→produce good estimates of \\(\\beta\\) to model the relationship between \\(Y\\) and \\(X\\).\nMachine learning applications: Prediction\n→ produce a good predictor of \\(Y\\) given \\(X\\)\n\nPrediction vs Causality\n\n\n\nGenAI\nGenerative AI (LLMs, GPTs, etc.) builds on the same foundation as traditional machine learning: learning from data to make predictions.\nBeyond Prediction, GenAI generates new data (text, images, etc.) by sampling from the probability distribution learned for prediction.\nIn other words:\n\n\n\n\nModern machine learning is fundamentally about prediction.\n\nPrediction involves learning a probability distribution over possible outcomes.\n\nOnce this probability distribution is learned, the model can be used not only to predict but also to generate new outputs.\n\nThis is the essence of Generative AI: producing new content by sampling from the learned distribution.\n\n\n\n\n\n\n\n\nLimitations remain\n\nExplainability problem: Hard to understand how ML models produce outputs.\n\nData dependency: Requires large, high-quality datasets.\n\nEthical concerns: Bias, fairness, privacy issues."
+  },
+  {
+    "objectID": "lectures/lecture_08/03_machine_learning.html#the-technology-of-ml",
+    "href": "lectures/lecture_08/03_machine_learning.html#the-technology-of-ml",
+    "title": "Machine Learning",
+    "section": "2.1. The technology of ML",
+    "text": "2.1. The technology of ML\n\nEconomics 101: what is a technology?\n\nA technology = a tool that reduces the cost of producing some good or service.\n\nExamples:\n\nSteam engine: \\(\\downarrow\\) cost of transportation and manufacturing.\nPrinting press: \\(\\downarrow\\) cost of information dissemination.\nElectricity: \\(\\downarrow\\) cost of mechanical power and lighting.\n\n\n\nWhat cost does Machine Learning reduce?\n\nMachine Learning reduces the cost of prediction\n\n\nPrediction: infer missing data (past, present, future).\nTraditionally expensive due to:\n\nHuman expertise (analysts, forecasters).\nManual data collection and limited statistical modeling.\nLimited computing power.\n\n\n\n\nThe decision ecosystem\n\n Agrawal, A., Gans, J., & Goldfarb, A. (2022).\n\n\n💡GenAI = Prediction + Action💡\n\n\n\nComplements and substitutes to prediction\n\n\n\n\n\n\n\nComplements\nSubstitutes\n\n\n\n\nInfrastructure & compute power\nRules-based systems\n\n\nData production & access\nTraditional prediction models\n\n\nHuman expertise (Causality & Strategy)\nHuman forecasters & analysts\n\n\nEthical & regulatory compliance\nRedundant or low-quality data"
+  },
+  {
+    "objectID": "lectures/lecture_08/03_machine_learning.html#key-complement-to-ml-data",
+    "href": "lectures/lecture_08/03_machine_learning.html#key-complement-to-ml-data",
+    "title": "Machine Learning",
+    "section": "2.2. Key complement to ML: Data",
+    "text": "2.2. Key complement to ML: Data\n\nThe value of data\n\nData conditions the growth of Machine Learning\n\nExistence of data determines applicability\nQuality (labeling) and quantity determines power\n\nFirms with superior data access have a significant and self-improving competitive advantage.\n\nFlywheel effect\n\n\n\n\n\nThe organization of data: production and access\n\nData as a competitive moat: incumbent firm want exclusive access to data\n\nFlywheel & Network effects\nEntry barriers\nWinner-take-all\n\nData-sharing: opening data access has trade-offs\n\nImproves competition\nSubject to privacy preferences\nDistorts incentives to produce data\n\n\nRegulations and data-production/sharing frameworks shape the economics of AI development."
+  },
+  {
+    "objectID": "lectures/lecture_08/03_machine_learning.html#the-limits-of-ml-and-ai-snake-oil",
+    "href": "lectures/lecture_08/03_machine_learning.html#the-limits-of-ml-and-ai-snake-oil",
+    "title": "Machine Learning",
+    "section": "2.3. The limits of ML and “AI snake oil”",
+    "text": "2.3. The limits of ML and “AI snake oil”\n\nTurning problems into prediction problems\nThe Art of Machine Learning:\n\nReframe problem as prediction task\nFind reliable data sources to improve performance through prediction (historical, alternative, feed, etc.)\n\nExamples:\n\nTranslation: Predict the most likely correct translation using same copies of digital books.\n\nSelf-driving cars: Predict most likely human action using sensory data.\nFinance: Predict likelihood of fraudulent activity using historical transaction data.\n\n\n\nLimits of predictions\nNot all problems are prediction problems: role of reasoning, causality, or logic.\nNot all prediction problems are ML problems: unfit data to perform prediction (e.g., early days of COVID-19)\nSymbolic AI vs ML:\n\nSymbolic AI (rule-based) does not need data but lacks adaptability.\n\nML leverages data but struggles with causality and reasoning.\n\n\n\nAI Snake Oil Argument (Arvind Narayanan, 2024)\nSome AI solutions are hyped but lack real economic value.\nExample: AI for job interviews, grant allocation → unreliable and pseudoscientific.\nLesson: AI-ML works best where prediction is\n\nGenuinely feasible: it relies on credible data input\nUseful: the prediction environment is not too volatile"
+  },
+  {
+    "objectID": "lectures/lecture_08/03_machine_learning.html#the-ai-bandwagon",
+    "href": "lectures/lecture_08/03_machine_learning.html#the-ai-bandwagon",
+    "title": "Machine Learning",
+    "section": "3.1. The AI bandwagon",
+    "text": "3.1. The AI bandwagon\n\n\n\nConsultant speach for any X industry\n\nEfficiency Gains: AI automates processes, streamlines operational costs.\nBetter Decision-Making: AI improves risk assessment, document treatment and anomaly detection.\nEnhanced Customer Experience: Chatbots, personalized recommendations, and automated services.\n\n… anything specific to finance?"
+  },
+  {
+    "objectID": "lectures/lecture_08/03_machine_learning.html#prediction-in-finance",
+    "href": "lectures/lecture_08/03_machine_learning.html#prediction-in-finance",
+    "title": "Machine Learning",
+    "section": "3.2. Prediction in finance",
+    "text": "3.2. Prediction in finance\n\nFinance is about the allocation of capital and risk.  The main barrier to achieving an efficient equilibrium is information frictions.\n\nUnderstanding the role of AI in finance begins with understanding that every financial innovation—from credit rating to AI or blockchain—is ultimately a response to an information problem.\n\nThe nature of financial information\nFinancial systems exist because information is imperfect, incomplete, or costly to obtain.\n\n\n\n\n\n\n\nMarket Friction\nDescription\n\n\n\n\nBank runs\nBanks don’t know when depositors will withdraw their funds.\n\n\nAsymmetric information\nBorrowers know more about their ability to repay than lenders.\n\n\nAdverse selection\nInvestors struggle to distinguish good projects from bad.\n\n\nMoral hazard\nIndividuals may take hidden risks once insured.\n\n\nConfidentiality\nCompanies and citizens may hesitate to share sensitive information.\n\n\n\nRaison d’etre for financial contracts, intermediaries, rating agencies, and regulatory frameworks\n→ They exist to manage these frictions, to reduce uncertainty, and to allocate capital more efficiently."
+  },
+  {
+    "objectID": "lectures/lecture_08/03_machine_learning.html#the-impact-of-ai-in-finance",
+    "href": "lectures/lecture_08/03_machine_learning.html#the-impact-of-ai-in-finance",
+    "title": "Machine Learning",
+    "section": "3.3. The impact of AI in finance",
+    "text": "3.3. The impact of AI in finance\n\nTraditional finance\nTraditional financial businesses have long relied on information to assess risk, allocate capital, and optimize decision-making.\n\n\n\n\n\n\n\nApplication Area\nDescription\n\n\n\n\nCredit scoring & lending\nTraditional banks evaluate borrower creditworthiness using historical financial information.\n\n\nInvestment advisory\nFinancial advisors and wealth management firms analyze market trends and client portfolios.\n\n\nTrading & market making\nInvestment banks and hedge funds leverage proprietary research and asset returns data to execute trades.\n\n\nFraud & compliance\nFinancial institutions analyze transaction patterns and user behavior to identify anomalies, such as unauthorized transactions or money laundering attempts.\n\n\n\n\n\nThe value proposition of AI in Finance\n\nThe value proposition of Machine Learning in finance is  to reduce information frictions through superior data-driven prediction\n\nIn modern economies, information is stored in the form of data.\n→ Large amounts of data being produced with relevant signals for financial applications:\n\ndigital traces (e.g., transactions),\ninvestment/trading behavior,\ncustomer details,\nmarket signals,\nsensory data (smart wearables, warehouse trackers, etc.),\nsocial media, etc..\n\nApplying Machine Learning to financial applications will leverage such pools of data to improve prediction.\n\nInformation frictions\nRelevant Prediction problems everywhere in finance:\n\nIncomplete information: AI may enhance forecasting accuracy (bank run, sentiment, market movements)\nAsymmetric information: AI may help mitigate issues of:\n\nScreening: Predict risk of default (adverse selection).\n\nMonitoring: Detect anomalous activity (moral hazard).\n\n\nObfuscated information: AI may uncover hidden insights (triangulation)\n\n\n\n\nPrediction applications\n\n1. Credit Scoring\nPredicting default\n\nPrediction: ML predicts likelihood of loan default more accurately than traditional rule-based credit models by identifying complex patterns in borrower behavior.\n\nHow ML Reduces Cost:\n\nAutomates the credit assessment process, reducing manual underwriting costs.\nLowers default rates by improving risk assessment.\nEnables financial institutions to extend credit to underserved customers by analyzing alternative data (e.g., transaction history, utility bill payments).\n\n\nExample: ML-based credit models allow fintech lenders to approve loans faster while maintaining risk control, increasing financial inclusion.\n\n\n\n2. Fraud Detection\nPredicting illicit activities\n\nPrediction Aspect: ML predicts fraudulent transactions in real-time by detecting anomalies in spending behavior and transaction patterns.\n\nHow ML Reduces Cost:\n\nReduces financial losses from fraud by flagging suspicious transactions before they are processed.\nDecreases the reliance on manual fraud detection teams, lowering operational costs.\nImproves customer experience by reducing false positives in fraud detection systems.\n\n\nExample: ML-based fraud detection systems in credit card transactions use anomaly detection to prevent unauthorized transactions, reducing fraud-related losses for banks and consumers.\n\n\n\n3. Algorithmic Trading\nPredict market movements and best-responses\n\nPrediction Aspect: ML models analyze historical market data, news sentiment, and macroeconomic indicators to predict asset price movements and execute trades accordingly.\n\nHow ML Reduces Cost:\n\nMinimizes human error and emotional biases in trading decisions.\nReduces the need for large trading teams by automating strategy execution.\nOptimizes trade execution, reducing slippage and transaction costs.\n\n\nExample: Hedge funds and proprietary trading firms use reinforcement learning models to develop adaptive trading strategies that dynamically adjust to changing market conditions, improving profitability.\n\n\n\n4. Customer Service\nPredict customer needs\n\nPrediction Aspect: ML predicts customer inquiries and automates responses through Natural Language Processing (NLP), reducing the need for human intervention.\n\nHow ML Reduces Cost:\n\nCuts customer support expenses by replacing human agents with AI-powered chatbots.\nReduces response time, improving customer satisfaction and retention.\nAllows 24/7 customer service at a fraction of the cost of human-operated call centers.\n\n\nExample: AI-powered virtual assistants like Erica (Bank of America) and Cleo help customers check balances, track expenses, and receive financial recommendations, lowering operational costs for banks while enhancing user experience.\n\n\n\n\nThe integration of AI\nEveryone is after it\n\nIncumbents leveraging data access (banks, payments, insurance, asset managers, etc.)\nNewcomers exploiting new data opportunities\n\nFintech (neo banks, robo advisors, platforms, etc.): alternative data, superior prediction\nBigTech (apple pay, amazon credit, etc.): massive data, superior prediction, computing power, user base\n\n\n\n\nTrends\n\nLending\n\nTraditional banking: AI is used to refine profiling and pricing of loan products\n\nJPMorgan Chase 1st in AI Evident Index.\n\nNew businesses:\n\nFintech lending platforms incorporate alternative data for credit scoring\n\nRocket Mortgage for mortgages\nUpstart for personal/car loans\nKlarna for BNPL\n\nPeer-to-peer lending platforms leverage AI-driven risk assessment models\n\nLendingClub, Prosper\n\nBigTech lending leveraging activity data on the platform\n\nAmazon\n\n\n\n\n\nInvestment\n\nWealth management: Robo-advisors apply machine learning to portfolio management and asset allocation\n\nBetterment for financial advice\nWealthfront for automated investing\n\nCrowdfunding: AI enhances risk assessment in crowdfunding platforms\n\nKickstarter, Seedrs\n\n\n\n\nTrading\n\nAlgorithmic trading uses AI for market-making and high-frequency trading\n\nRenaissance Technologies, Citadel Securities\n\n\nAI-driven sentiment analysis interprets news, reports, and social media for trading insights\n\nKavout\n\n\n\n\nFraud Detection & Compliance\n\nAI models identify patterns of fraudulent transactions in real-time\n\nVisa, Mastercard\n\n\nAI supports compliance efforts in areas such as AML (Anti-Money Laundering) and KYC (Know Your Customer)\n\nComplyAdvantage for AML\nFeedzai for fraud"
+  },
+  {
+    "objectID": "lectures/lecture_08/03_machine_learning.html#information-barriers",
+    "href": "lectures/lecture_08/03_machine_learning.html#information-barriers",
+    "title": "Machine Learning",
+    "section": "4.1. Information barriers",
+    "text": "4.1. Information barriers\n\nTrade-off between data sharing & privacy: Incentives to share vs. risk of exposure.\n\nData ownership & control: Who owns financial data—customers or firms?\n\nOpen Data policies\n\nOpen Banking & Open Finance: Expanding access to financial data.\n\nCosts vs. benefits: Interoperability challenges, regulatory hurdles, incentives to innovate.\n\nCompatibility issues: Ensuring seamless integration of AI across financial institutions."
+  },
+  {
+    "objectID": "lectures/lecture_08/03_machine_learning.html#ethics-and-fairness",
+    "href": "lectures/lecture_08/03_machine_learning.html#ethics-and-fairness",
+    "title": "Machine Learning",
+    "section": "4.2 Ethics and fairness",
+    "text": "4.2 Ethics and fairness\n\nData-path dependencies and embedded biases\nJoy Buolamwini, 2023 - Unmasking AI: My Mission to Protect What Is Human in a World of Machines\n\n\n\n\n\nTriangulation\nYves-Alexandre de Montjoie et al. - Unique in the shopping mall - Science, 2015\n\n\n\n\n\nWinners and losers of AI adoption: improving prediction technology has both extensive and intensive margin effects\nFuster et al. - Predictably unequal? - Journal of Finance"
+  },
+  {
+    "objectID": "lectures/lecture_08/03_machine_learning.html#toxic-data",
+    "href": "lectures/lecture_08/03_machine_learning.html#toxic-data",
+    "title": "Machine Learning",
+    "section": "4.3. Toxic data",
+    "text": "4.3. Toxic data\n\nTuring’s nightmare: AI-generated content may contaminate original data.\nContribution halt: AI-usage may block the natural human production of data\n\nAcemoglu et al., 2025: Wikipedia activity drop after ChatGPT\n\nAI Model Collapse: Chained dependence on flawed data may amplify error and destroy information value.\n\nShumailov et al., 2024\nGeorg and Roukny, 2025\n\nWatermarking data: Preventing AI-generated content from contaminating financial data."
+  },
+  {
+    "objectID": "lectures/lecture_08/03_machine_learning.html#agentic-ai",
+    "href": "lectures/lecture_08/03_machine_learning.html#agentic-ai",
+    "title": "Machine Learning",
+    "section": "4.4. Agentic AI",
+    "text": "4.4. Agentic AI\n\nAutonomous AI agents: When decision is coupled with predictions.\n\nFlash crashes & AI-driven volatility: Historical examples of AI-induced market instability.\nAlgorithmic collusion\n\nCalvano et al., 2020 - Artificial Intelligence, Algorithmic Pricing, and Collusion - American Economic Review\n\nAI Alignment"
+  },
+  {
+    "objectID": "lectures/lecture_08/03_machine_learning.html#why-policy-and-regulation-matter",
+    "href": "lectures/lecture_08/03_machine_learning.html#why-policy-and-regulation-matter",
+    "title": "Machine Learning",
+    "section": "Why Policy and Regulation Matter",
+    "text": "Why Policy and Regulation Matter\nRegulation must evolve with technology — from Basel I (credit risk) to DORA, MiCA, and now the AI Act.\n\nAI and ML transform how financial intermediation operates: who holds information, how risk is priced, how accountability is ensured.\n\nTraditional prudential, conduct, and market integrity frameworks were designed for human decision-making.\n\nML introduces new information frictions: opacity, data dependence, feedback loops.\n\nRegulators now face questions of explainability, accountability, and fairness."
+  },
+  {
+    "objectID": "lectures/lecture_08/03_machine_learning.html#recent-policy-efforts-on-ai-in-banking",
+    "href": "lectures/lecture_08/03_machine_learning.html#recent-policy-efforts-on-ai-in-banking",
+    "title": "Machine Learning",
+    "section": "Recent Policy Efforts on AI in Banking",
+    "text": "Recent Policy Efforts on AI in Banking\n\n1. EU Artificial Intelligence Act (2024)\n\nFirst comprehensive AI regulation globally.\n\nRisk-based approach: minimal, limited, high, and unacceptable risk categories.\n\nFinancial services (e.g., credit scoring, insurance underwriting) are “high-risk”.\n\nRequires:\n\nHuman oversight and transparency\n\nData quality and bias controls\n\nRobust documentation and governance\n\n\nEntered into force 1 August 2024; high-risk rules phase in by 2026.\n\nImplication for banks: ML credit models, robo-advice, and AML monitoring now fall under AI compliance regimes.\n\n\n2. European Banking Authority (EBA) – Special Topic on AI (2024/2025)\n\nEBA mapped AI use across EU banks:\n\nRegression, decision trees, NLP, neural networks.\n\n~40% already using General-Purpose AI (GPAI).\n\n\nFocus areas:\n\nGovernance and validation of models.\n\nExplainability and internal control functions.\n\nSupervisory coordination under the EU AI Act.\n\n\nLays groundwork for supervisory expectations on AI model risk.\n\nEmbeds AI into the prudential supervision toolkit.\n\n\n\n\n3. Financial Stability Board (FSB) – Global Monitoring (2024)\n\nReport: “Monitoring Adoption of Artificial Intelligence and Related Risks.”\n\nHighlights systemic risks:\n\nConcentration in third-party providers (e.g., cloud, data).\n\nModel risk and correlated errors.\n\nCyber and operational dependencies.\n\n\nEncourages jurisdictions to align AI risk management with financial stability objectives.\n\nTakeaway: AI regulation extends beyond conduct — it’s a macroprudential issue.\n\n\n4. ESMA Supervisory Statement (May 2024)\n\nInvestment firms and banks remain fully responsible for AI decisions.\n\nNo delegation of accountability to algorithms.\n\nRequires governance documentation and model explainability.\n\nPrinciple: “Responsibility cannot be outsourced to AI.”"
+  },
+  {
+    "objectID": "lectures/lecture_08/03_machine_learning.html#mapping-policy-objectives-to-ai-challenges",
+    "href": "lectures/lecture_08/03_machine_learning.html#mapping-policy-objectives-to-ai-challenges",
+    "title": "Machine Learning",
+    "section": "Mapping Policy Objectives to AI Challenges",
+    "text": "Mapping Policy Objectives to AI Challenges\n\n\n\n\n\n\n\n\nObjective\nAI-Driven Challenge\nRegulatory Response\n\n\n\n\nFinancial stability\nAlgorithmic risk & model drift\nFSB monitoring, Basel governance\n\n\nConsumer protection\nBias in credit scoring\nEU AI Act, FEAT, GDPR\n\n\nMarket integrity\nManipulative algorithms\nMiFID II, ESMA guidance\n\n\nOperational resilience\nCloud & model dependency\nDORA\n\n\nCompetition & data concentration\nBigTech data dominance\nOpen Data / PSD3 proposals"
+  },
+  {
+    "objectID": "lectures/lecture_08/03_machine_learning.html#common-policy-themes",
+    "href": "lectures/lecture_08/03_machine_learning.html#common-policy-themes",
+    "title": "Machine Learning",
+    "section": "Common Policy Themes",
+    "text": "Common Policy Themes\n\nAccountability: Human oversight for algorithmic decisions.\n\nExplainability: Transparent and auditable models.\n\nFairness: Avoid bias in data-driven decisions.\n\nData governance: Secure, lawful, and interoperable data use.\n\nCross-border consistency: Prevent regulatory arbitrage.\n\nRegulation of AI is regulation of information governance."
+  },
+  {
+    "objectID": "assignment.html",
+    "href": "assignment.html",
+    "title": "Assignment — Analyzing a FinTech Company",
+    "section": "",
+    "text": "Objective\nThis assignment invites you to connect the theory of modern banking and digital transformation with real-world FinTech business models.\nYou will analyze the economics of a selected FinTech company and report on the related value propositions, challenges and vulnerabilities.\n\n\n\nInstructions\n\nPick one FinTech company from the list below.\n\nStudy the economics of its business model in light of the concepts and models discussed in class.\n\nBe prepared to discuss your analysis in the written exam, where some questions will directly refer to your chosen company.\n\n\n\n\n\n\n\n\nStructure your analysis around the following\n\n\n\n\nFriction:\nIdentify the information governance setup and the information friction the Fintech addresses (e.g., information asymmetry, incompleteness, confidentiality)\nValue Proposition:\nUnderstand how does the company create value and relate it to the above friction. Identify its technological and economic innovation.\nRevenue Model:\nMap out the main way the company makes money. In particular, unpack the allocation of fees and the underlying welfare implications.\nTheoretical Link:\nRelate the company to a model from the course which best helps understand the business model or its role in and challenge for the financial ecosystem.\nChallenges: Using the appropriate model and the details of the company, list out the main issues faced by the companies. Be ready to deeply unpack each item.\n\nPolicy / Regulation: e.g., compliance, data governance, systemic risk, competition.\n\nIndustry: e.g., scalability, competition with incumbents, market sustainability.\n\nVulnerabilities & Threats:\nStrictly referring to the class material and the model chosen, assess the main risks or vulnerabilities faced by the company?\n\n\n\n\n\n\n\nFinTech List\nChoose one of the following companies:\n\n\n\nCompany\nSegment\n\n\n\n\nKlarna\nBuy Now, Pay Later (BNPL)\n\n\nCircle\nBlockchain & Stablecoin Infrastructure\n\n\nRevolut\nNeobank / Financial Super-App\n\n\nUpstart\nAI-Based Lending / Credit Scoring\n\n\nPayPal\nPayment Platform\n\n\nRobinhood\nRetail Investing Platform\n\n\n\n\n\n\nDeliverable\n\nFormat: Study can be done in group; reporting is done independently; synthesis expected within the written exam.\n\nEvaluation: Clarity of reasoning, depth of economic analysis, and ability to connect theory with real-world fintech cases."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Modern Banking and Financial Technology",
+    "section": "",
+    "text": "This website accompanies the course of Modern Banking and Financial Technology (B-KUL-HMA68A)."
+  },
+  {
+    "objectID": "index.html#news-announcements",
+    "href": "index.html#news-announcements",
+    "title": "Modern Banking and Financial Technology",
+    "section": "News & Announcements",
+    "text": "News & Announcements\n\n24/11/2025\n\nMaterial for Lecture 10 is available\n\n\n\n\n23/11/2025\n\nDue to the strike: lectures 09 and 10 have been swapped\nMaterial and recording for Lecture 09 is available\n\n\n\n\n14/11/2025\n\nMaterial and recording for Lecture 08 is available\n\n\n\n\n10/11/2025\n\nMaterial for Lecture 07 is available\n\n\n\n\n03/11/2025\n\nMaterial for Lecture 06 is available\nAnnouncement for the Assignment is available here\n\n\n\n\n20/10/2025\n\nMaterial and recording for Lecture 05 is available\n\n\n\n\n17/10/2025\n\nMaterial and recording for Lecture 04 is available\n\n\n\n\n10/10/2025\n\nMaterial and recording for Lecture 03 is available\nNew: All Day TA is available for the course.\n\nAll Day TA is an interactive AI tutor trained on the course material and synced with the course schedule for learning support.\n\n\n\n\n\n03/10/2025\n\nMaterial for Lecture 02 is available\nRecordings available for\n\nLast part of Lecture 01 (credit card, payment model and information\nLecture 02\n\n\n\n\n\n25/09/2025\n\nThe course is live\nMaterial for Lecture 01 is available"
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Professor: Tarik Roukny (tarik.roukny@kuleuven.be)\nLectures: Mondays\n\nTime blocks for sessions\n\n08.30 AM - 10.30 AM\n10.30 PM - 12.30 PM\n\nRoom HER1 - 04.4207\n\nOffice hours: by email appointment."
+  },
+  {
+    "objectID": "syllabus.html#course-information",
+    "href": "syllabus.html#course-information",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Professor: Tarik Roukny (tarik.roukny@kuleuven.be)\nLectures: Mondays\n\nTime blocks for sessions\n\n08.30 AM - 10.30 AM\n10.30 PM - 12.30 PM\n\nRoom HER1 - 04.4207\n\nOffice hours: by email appointment."
+  },
+  {
+    "objectID": "syllabus.html#course-description",
+    "href": "syllabus.html#course-description",
+    "title": "Syllabus",
+    "section": "Course Description",
+    "text": "Course Description\nThis course is a compulsory course for the International and Sustainable Finance Track in the Master of Business Administration curriculum at the Faculty of Economics and Business, Brussels Campus, KU Leuven.\nThe course objectives are:\n\nTo train students to produce scientifically based solutions to modern banking issues\nTo introduce trends in financial technologies\nTo provide students with a wide range of technological and policy challenges and opportunities in banking and finance\nTo induce both macro and micro assessments of the impact of new technologies for banking and the economy\n\nThe course features a balance between traditional banking issues (intermediation, money, payments, instruments, deposits, financial contracts, financial stability, liquidity, monetary policy, interest rates, bank runs, regulation, bail outs) and modern banking issues (digitalisation, platforms, crypto, AI, DeFi, smart contracts, shadow banking, macroprudential policy, Big Tech, open finance, CBDC). The ultimate objective is to convey a deep grasp of the past-present-future of the industry in order to prepare students for the ever changing landscape of banking and technology.\n\nPrerequisites\nThis course does not have mandatory prerequisites. It is however advised to have sufficient knowledge of basic economic modelling and completed the following courses first:\n\nFinancial Markets and Institutions\nCorporate Finance."
+  },
+  {
+    "objectID": "syllabus.html#organization",
+    "href": "syllabus.html#organization",
+    "title": "Syllabus",
+    "section": "Organization",
+    "text": "Organization\nThis course consists of 6 ECTS amounting to 40 contact hours. Sessions are split between core material, live discussions, and guest lectures. All sessions are integral to the course.\n\nMaterial\nThe class addresses the one key dimension of banking and financial technology: information frictions. As such, the material starts with the role played by information in every aspect of modern banking. Three key topics in the development of fintech are then studied: platforms, machine learning and crypto.\n\n\nOverview\nMap of topics\n\n\n\n\n\n\n\nSide\nTopics\n\n\n\n\nModern Banking\nMoney  Payment  Deposit  Systemic Risk  Policy & Regulation\n\n\nPlatforms\nDigital Platforms  Fintech Platforms  Bigtech  Open Banking\n\n\nMachine Learning\nHistory  Economics of ML  Technology of ML  Application of ML in Finance\n\n\nCrypto\nDistributed Ledger Technolonies  Smart Contracts  Stablecoins  Decentralised Finance  Central Bank Digital Currencies"
+  },
+  {
+    "objectID": "lectures/lecture_08/lecture_08.html",
+    "href": "lectures/lecture_08/lecture_08.html",
+    "title": "Lecture 08",
+    "section": "",
+    "text": "Page: HTML\nSlides: Reveal.js PDF"
+  },
+  {
+    "objectID": "lectures/lecture_08/lecture_08.html#machine-learning",
+    "href": "lectures/lecture_08/lecture_08.html#machine-learning",
+    "title": "Lecture 08",
+    "section": "",
+    "text": "Page: HTML\nSlides: Reveal.js PDF"
+  },
+  {
+    "objectID": "lectures/lecture_01/lecture_01.html",
+    "href": "lectures/lecture_01/lecture_01.html",
+    "title": "Lecture 01",
+    "section": "",
+    "text": "Page: HTML\nSlides: Reveal.js PDF"
+  },
+  {
+    "objectID": "lectures/lecture_01/lecture_01.html#banking",
+    "href": "lectures/lecture_01/lecture_01.html#banking",
+    "title": "Lecture 01",
+    "section": "",
+    "text": "Page: HTML\nSlides: Reveal.js PDF"
+  },
+  {
+    "objectID": "lectures/lecture_01/lecture_01.html#money",
+    "href": "lectures/lecture_01/lecture_01.html#money",
+    "title": "Lecture 01",
+    "section": "2. Money",
+    "text": "2. Money\nPage: HTML\nSlides Reveal.js PDF"
+  },
+  {
+    "objectID": "lectures/lecture_01/lecture_01.html#payments",
+    "href": "lectures/lecture_01/lecture_01.html#payments",
+    "title": "Lecture 01",
+    "section": "3. Payments",
+    "text": "3. Payments\nPage: HTML\nSlides Reveal.js PDF\n\nRecordings\n\nCredit Cards\n\n \n\n\n\nA Model of Payments\n\n \n\n\n\nInformation in Payments"
+  },
+  {
+    "objectID": "lectures/lecture_01/01_banking.html",
+    "href": "lectures/lecture_01/01_banking.html",
+    "title": "Banking",
+    "section": "",
+    "text": "Definition of banking\nOrigins of banking\nModern banking"
+  },
+  {
+    "objectID": "lectures/lecture_01/01_banking.html#definition",
+    "href": "lectures/lecture_01/01_banking.html#definition",
+    "title": "Banking",
+    "section": "Definition",
+    "text": "Definition\n\nA financial institution whose current operations consist of granting loans and receiving deposits from the public.\n— Freixas and Rochet (2008)\n\n\nBreaking Down the Definition\n\nCurrent → main operations\n\nGranting loans → credit creation\n\nDeposits → savings + money\nWhat makes bank unique!\nPublic → uninformed depositors\nThis means that access to payments → public good\n\n\n\nWhy Regulate Banks?\n\nProtect depositors from loss and fraud\n\nEnsure trust in money & payments\n\nStability: banks sit at the core of financial system"
+  },
+  {
+    "objectID": "lectures/lecture_01/01_banking.html#money-changing",
+    "href": "lectures/lecture_01/01_banking.html#money-changing",
+    "title": "Banking",
+    "section": "Money Changing",
+    "text": "Money Changing\nMoney changing = the business of exchanging one form of money for another.\n\nActivities\n1. Exchange of Different Currencies\nIn ancient marketplaces (Athens, Rome, medieval fairs in Champagne or Bruges).\n\nMerchants brought coins from different regions.\n\nCoins differed in:\n\nMetal content (gold, silver, copper)\n\nWeight\n\nPurity\n\nMoney changers exchanged at agreed rates\n\n2. Authentication & Valuation\n\nCounterfeiting was common.\n\nMoney changers assessed authenticity by weighing coins and testing their metallic content.\n\nReputation and trust were crucial.\n\n\n\nEtymology\n\nGreek: trapeza = scale\n\nItalian: banco = bench (for coins)\n\nWhen a money changer failed → the bench was broken\nItalian: bancarotta = broken bench (→ bankruptcy)\n\n\n\n\nFrom Money Changing to Safekeeping\nMoney changers gradually expanded their role:\n\nDeposits: merchants left coins in safekeeping.\n\nReduced risk of loss/robery\n\n\nTransfers: debts settled via ledger entries (no physical coin movement).\n\nCredit: loans granted from pooled reserves.\n\nFirst bankers\n\nScriveners: literate advisors, brokers, lenders, deposit-takers\n\nGoldsmiths (17th c. England): safes for goldware → accepted deposits\n\nEarly trust-based intermediaries\n\nNote: Deposits with no return\n\nEarly deposits = zero or negative return\n\nPurpose: safety, not investment\n\nBankers had to maintain confidence not to misuse deposits"
+  },
+  {
+    "objectID": "lectures/lecture_01/01_banking.html#timeline",
+    "href": "lectures/lecture_01/01_banking.html#timeline",
+    "title": "Banking",
+    "section": "Timeline",
+    "text": "Timeline\n\n1. Early Banking Practices\n\nMesopotamia (2000 BCE)\n\nHammurabi’s Code (Babylon) → regulated loans & debt\n\nLaw 100: “If a merchant gives silver as a loan at interest, he shall take only 1 shekel of silver as interest on 1 shekel; if he takes more, he shall forfeit all.”\n\n\nLaw 117: “If a man be in debt and he sell his wife, son, or daughter, they shall serve for three years in the house of the purchaser or creditor; in the fourth year they shall regain their freedom.”\n\n\nAncient Greece: trapeza (money changers)\n\n\n\n2. Medieval & Renaissance (10th-15th c.)\n\nTemplars (12th–14th c.):\n\nCheque-like instruments for crusaders & pilgrims\n\nFirst international financial system\n\n\nItalian city-states (12th–15th c.): Florence, Venice, Genoa = trade hubs\n\nMedici Bank (1397–1494): first multinational bank\n\nPacioli’s innovation (1494): double-entry bookkeeping\n\n\n\n\n3. Colonial Expansion (15th–17th c.)\nFinance to support growth of trade\n\nBanco di San Giorgio (1407) – Genoa - First public bank\n\nManaged public debt, accepted deposits\n\n\nBank of Amsterdam (1609)\n\nStandardized coinage, clearing bank, proto-central bank\n\n\nVenetian banks: financed global trade & wars\n\n\n\n4. Industrial Revolution (19th c.)\n\nSavings & cooperative banks\n\nCheque system spread\n\n\n\n5. Rise of Modern Banking (20th - today c.)\n\nPost-WWII → retail banking boom\n\nChecking accounts, mortgages, consumer credit\n\n\nRegulation after crises (e.g., 1929)\n\nGlobalisation → multinational banking groups\nTechnological Innovation\n\n1950s: Payment cards (Diners Club, later Visa/MasterCard)\n\n1967: ATMs (Barclays, UK)\n\n1973: SWIFT messaging system"
+  },
+  {
+    "objectID": "lectures/lecture_01/references_money_payment.html",
+    "href": "lectures/lecture_01/references_money_payment.html",
     "title": "Modern Banking and Financial Technology",
     "section": "",
     "text": "Cecchetti, S. G., & Schoenholtz, K. L. (2017). Money, banking, and financial markets (5th ed.). New York, NY: McGraw-Hill Education.\nFreixas, X., & Rochet, J.-C. (2008). Microeconomics of banking (3rd ed.). Cambridge, MA: MIT Press.\nGraeber, D. (2011). Debt: The first 5,000 years. Brooklyn, NY: Melville House.\nKocherlakota, N. R. (1998). Money is memory. Journal of Economic Theory, 81(2), 232–251.\nLagos, R., & Wright, R. (2005). A unified framework for monetary theory and policy analysis. Journal of Political Economy, 113(3), 463–484.\nMerton, R. C. (1993). Operation and regulation in financial intermediation: A functional perspective. In P. Englund (Ed.), Operation and regulation of financial markets (pp. 17–67). Stockholm: The Economic Council.\nNosal, E., & Rocheteau, G. (2011). Money, payments, and liquidity. Cambridge, MA: MIT Press. Rochet, J.-C., & Tirole, J. (2003). Platform competition in two-sided markets. Journal of the European Economic Association, 1(4), 990–1029."
   },
   {
-    "objectID": "lectures/lecture_01/03_payment.html#what-are-the-different-forms-of-payment",
-    "href": "lectures/lecture_01/03_payment.html#what-are-the-different-forms-of-payment",
-    "title": "Payments",
-    "section": "1. What are the Different Forms of Payment?",
-    "text": "1. What are the Different Forms of Payment?"
+    "objectID": "lectures/lecture_07/lecture_07.html",
+    "href": "lectures/lecture_07/lecture_07.html",
+    "title": "Lecture 07",
+    "section": "",
+    "text": "Slides: PDF\n\n\n\nSlides: PDF"
   },
   {
-    "objectID": "lectures/lecture_01/03_payment.html#how-payments-work-today",
-    "href": "lectures/lecture_01/03_payment.html#how-payments-work-today",
-    "title": "Payments",
-    "section": "2. How Payments Work Today?",
-    "text": "2. How Payments Work Today?"
+    "objectID": "lectures/lecture_07/lecture_07.html#platforms-and-open-banking",
+    "href": "lectures/lecture_07/lecture_07.html#platforms-and-open-banking",
+    "title": "Lecture 07",
+    "section": "",
+    "text": "Slides: PDF\n\n\n\nSlides: PDF"
   },
   {
-    "objectID": "lectures/lecture_01/03_payment.html#what-is-special-about-the-economics-of-payments",
-    "href": "lectures/lecture_01/03_payment.html#what-is-special-about-the-economics-of-payments",
-    "title": "Payments",
-    "section": "3. What is Special About the Economics of Payments?",
-    "text": "3. What is Special About the Economics of Payments?"
+    "objectID": "lectures/lecture_09/042_defi.html#what-is-defi",
+    "href": "lectures/lecture_09/042_defi.html#what-is-defi",
+    "title": "Decentralised Finance (DeFi)",
+    "section": "What is DeFi?",
+    "text": "What is DeFi?"
   },
   {
-    "objectID": "lectures/lecture_01/03_payment.html#should-payment-systems-be-centralised",
-    "href": "lectures/lecture_01/03_payment.html#should-payment-systems-be-centralised",
-    "title": "Payments",
-    "section": "4. Should Payment Systems Be Centralised?",
-    "text": "4. Should Payment Systems Be Centralised?"
+    "objectID": "lectures/lecture_09/042_defi.html#why-would-we-need-defi",
+    "href": "lectures/lecture_09/042_defi.html#why-would-we-need-defi",
+    "title": "Decentralised Finance (DeFi)",
+    "section": "Why Would We Need DeFi?",
+    "text": "Why Would We Need DeFi?"
   },
   {
-    "objectID": "lectures/lecture_01/03_payment.html#commodity-money",
-    "href": "lectures/lecture_01/03_payment.html#commodity-money",
-    "title": "Payments",
-    "section": "1. Commodity Money",
-    "text": "1. Commodity Money\nFirst forms of money = money with intrinsic value\nExamples: shells (global), silk (China), whale teeth (Fiji), salt (Venice)\nNecessary characteristics:\n\nCan be made into standardized quantities → unit of account\nDurable → store of value\nHigh value relative to weight/size → easily transportable\nDivisible into small quantities → easy to trade\n\nBest candidate: gold"
+    "objectID": "lectures/lecture_09/042_defi.html#what-are-the-new-actors-in-defi",
+    "href": "lectures/lecture_09/042_defi.html#what-are-the-new-actors-in-defi",
+    "title": "Decentralised Finance (DeFi)",
+    "section": "What are the New Actors in DeFi?",
+    "text": "What are the New Actors in DeFi?"
   },
   {
-    "objectID": "lectures/lecture_01/03_payment.html#paper-money",
-    "href": "lectures/lecture_01/03_payment.html#paper-money",
-    "title": "Payments",
-    "section": "2. Paper Money",
-    "text": "2. Paper Money\n\nOrigins\n\nInitially: credit notes (promises against commodity money)\n\nReduced transportation costs\n\nLeveraged parallel technology: paper\n\nFirst Introductions\n\nChina: 7th century (Tang dynasty)\n\nTang dynasty (618–907): shortage of coins → acceptance of paper notes\n\nTraders deposited metallic currency with corporations → received bearer notes (hequan)\n\nAuthorities adopted and generalized the system → “flying money”\n\nEarly example of state involvement in paper money\n\n\nEurope: Sweden, 1656\n\n1660: debasement of coinage → citizens rushed for old coins\n\nStockholms Banco (Palmstruch): massive issuance of banknotes (not linked to any deposit!)\nNotes became popular (lighter than copper coins)\n\nOver-issuance under royal pressure to finance wars\n\nLoss of confidence → redemption crisis → bank failure\n\nPalmstruch imprisoned (died 1671)\n\n\n\n\nPaper Money and Wars\nIn the 18th century: paper money emerged as a massive means to to finance wars of independence\n\nUS Independence (Continentals)\n\nFrench Revolution (Assignats)\n\nBenefits: expanded funding capacity, paid salaries and supplies\nRisks: over-issuance with no explicit backing → hyperinflation\nAfter wars: partial return to gold standard (mix of coins and notes)"
+    "objectID": "lectures/lecture_09/042_defi.html#what-are-the-main-risks-in-defi",
+    "href": "lectures/lecture_09/042_defi.html#what-are-the-main-risks-in-defi",
+    "title": "Decentralised Finance (DeFi)",
+    "section": "What are the Main Risks in DeFi?",
+    "text": "What are the Main Risks in DeFi?"
   },
   {
-    "objectID": "lectures/lecture_01/03_payment.html#fiat-money",
-    "href": "lectures/lecture_01/03_payment.html#fiat-money",
-    "title": "Payments",
-    "section": "3. Fiat Money",
-    "text": "3. Fiat Money\nDefinition: Money whose value comes from government decree (no intrinsic value)\n\nLegal tender enforced by law: must be accepted for payments &gt; “This note is a legal tender for all debts, public and private”\nAccepted for taxes → critical for stability\n\nBenefits: reduced coordination and transaction costs\nRisks: concentration of power, inflation risk, time inconsistency - If a government prints too much money → threatens its value - When time inconsistency is internalized, investment in projects decrease\n\n“Ultimately, if a fiat currency is to outperform a commodity currency, policymakers must be credibly committed… As long as the government stands behind its paper money and doesn’t issue too much of it, we will use it.”\n— Cecchetti & Schoenholtz\n\n\nCore principle: money is about trust"
+    "objectID": "lectures/lecture_09/042_defi.html#should-defi-be-regulated-differently",
+    "href": "lectures/lecture_09/042_defi.html#should-defi-be-regulated-differently",
+    "title": "Decentralised Finance (DeFi)",
+    "section": "Should DeFi be Regulated Differently?",
+    "text": "Should DeFi be Regulated Differently?"
   },
   {
-    "objectID": "lectures/lecture_01/03_payment.html#digital-money",
-    "href": "lectures/lecture_01/03_payment.html#digital-money",
-    "title": "Payments",
-    "section": "4. Digital Money",
-    "text": "4. Digital Money\nDefinition: Monetary value represented by a claim on issuer (e.g., bank)\nCharacteristics:\n\nStored digitally\n\nIssued on receipt of funds\n\nAccepted as means of payment beyond issuer\n\nAdvantages:\n\nFast, often instantaneous transfers\n\nBorderless reach\n\nForms\n\nElectronic funds transfers\n\nStored-value cards (e.g., gift cards)\n\nBank deposits, central bank reserves ®\n\nSynchronisation problem: adoption of new medium requires coordination between buyers and merchants (see network effects and platforms)"
+    "objectID": "lectures/lecture_09/042_defi.html#computer-in-the-financial-sky",
+    "href": "lectures/lecture_09/042_defi.html#computer-in-the-financial-sky",
+    "title": "Decentralised Finance (DeFi)",
+    "section": "Computer in the financial sky",
+    "text": "Computer in the financial sky\n\nBlockchain as the computer in the sky.\nDeFi commonly refers to the set of financial applications running on the blockchain machine."
   },
   {
-    "objectID": "lectures/lecture_01/03_payment.html#outside-vs.-inside-money",
-    "href": "lectures/lecture_01/03_payment.html#outside-vs.-inside-money",
-    "title": "Payments",
-    "section": "Outside vs. Inside Money",
-    "text": "Outside vs. Inside Money\nWhile in principle a payment may be made with an asset, in practice virtually all modern payments are\nOutside money\n\nFiat or asset-backed money\nNet positive asset supply\nExamples: central bank currency, gold, government bonds\n\nInside money\n\nPrivate credit circulating as medium of exchange\n\nZero net supply within private sector:\n\nasset of one agent ~ liability of another\n\n\nExample: demand deposits\n\nModern infrastructures must interact with both outside and inside money"
+    "objectID": "lectures/lecture_09/042_defi.html#definition",
+    "href": "lectures/lecture_09/042_defi.html#definition",
+    "title": "Decentralised Finance (DeFi)",
+    "section": "Definition",
+    "text": "Definition\nDecentralized Finance (DeFi) is an open digital ecosystem where financial services are produced through automated protocols in order to eliminate financial intermediation.\nDeFi inherits the blockchain properties: - A set of public, interoperable and autonomous protocols which are universally accessible - Developed, maintained and used by an open pool of pseudonymous agents rather than a set of unique legal entities."
   },
   {
-    "objectID": "lectures/lecture_01/03_payment.html#token-based-vs.-account-based-systems",
-    "href": "lectures/lecture_01/03_payment.html#token-based-vs.-account-based-systems",
-    "title": "Payments",
-    "section": "Token-Based vs. Account-Based Systems",
-    "text": "Token-Based vs. Account-Based Systems\nToken-based\n\nPhysical or digital tokens (coins, notes, e-tokens)\n\nVerification: authenticity of the token\n\nAdvantage: anonymity\n\nRisk: counterfeiting\n\nAccount-based\n\nOperate through account records (banks, cards, decentralized ledgers)\n\nVerification: identity of account holder + transaction record\n\nAdvantage: safety, efficiency, lower costs\nRisk: tampering, un-authorized entries, exclusion\n\n\nHistorically\nBoth systems have long coexisted (e.g., banknotes + deposits)\n\nLimitations of physical tokens (coins/metal): costly and risky for large/long-distance payments\nMedieval fairs: banks cleared merchant balances → early clearing systems\n\nAccount-based systems start in Venice 14th, transfers for clients of the same bank\nWith increase in economic activity → growth and need for more payment options\n\nClearinghouses appear to enable transfers between different banks (clearing and settlements)\n\n\nDevelopment of clearinghouses laid foundations for central banks\n\n19th century US & Europe: clearinghouses expanded into modern account-based systems"
+    "objectID": "lectures/lecture_09/042_defi.html#example-how-defi-handles-exchanges",
+    "href": "lectures/lecture_09/042_defi.html#example-how-defi-handles-exchanges",
+    "title": "Decentralised Finance (DeFi)",
+    "section": "Example: how DeFi handles exchanges",
+    "text": "Example: how DeFi handles exchanges\nSwap of securities (tokens): Ether x USDC\nTraditional model of centralized exchanges (CEX)\n\n\n\n\n\n\n\nCustomers\nExchange\n\n\n\n\nSign in\nMatches orders\n\n\nDeposit\nSettles\n\n\nSubmit orders  buy / sell\nClears\n\n\n\n\n\n\nDecentralized exchanges (DEX) operate with Automated Market Makers (AMM)\n\n\n\n\n\n\n\n\n\nBuyers/Sellers\nAMM protocol\nLiquidity providers\nGovernance protocol\n\n\n\n\nSwap tokens\nSet prices\nDeposit tokens\n\n\n\n\nExecute exchanges\nFee revenue\n\n\n\n\nManage liquidity balances  liquidity pool\n\n\n\n\n\n\n\n\nKey parts: - An automated market maker (smart contract) handles exchanges directly with buyers and sellers\n→ No matching or asset custody by a central authority - Liquidity pool hosts reserves of tokens\n→ Provisioned by liquidity providers for profit (fee) - Anyone can push a request to the protocol\n→ AMM accesses the pool of tokens to meet the request and updates the reserve balances\n→ Each transaction comes with a fee that is then redistributed to the liquidity providers. - Governance: the protocol is updated through voting by holders of governance tokens"
   },
   {
-    "objectID": "lectures/lecture_01/03_payment.html#backbone-of-modern-payment-systems",
-    "href": "lectures/lecture_01/03_payment.html#backbone-of-modern-payment-systems",
-    "title": "Payments",
-    "section": "Backbone of Modern Payment Systems",
-    "text": "Backbone of Modern Payment Systems\n\n\n\nBanks hold accounts at the central bank to enable interbank transfers (reserves)\n\nNon-member banks can access indirectly via correspondent banks\n\nExamples of central bank payment systems\n\nFedwire (US)\n\nTARGET (EU)\n\nCHIPS (UK)\n\nRetail payments\nSimilar to account transfers within a bank but through the reserves of the central bank.\nIn addition to direct transfers:\n\nPaper checks\n\nCredit cards"
+    "objectID": "lectures/lecture_09/042_defi.html#the-crypto-value-proposition",
+    "href": "lectures/lecture_09/042_defi.html#the-crypto-value-proposition",
+    "title": "Decentralised Finance (DeFi)",
+    "section": "The crypto value proposition",
+    "text": "The crypto value proposition\nDeFi value proposition is a new information governance model &gt; Technology that shifts in the information structure upon which financial services can be deployed.\nGoal of Cryptography and DLT: - Offer a guarantee of information publicly in absence of a central authority - Technological solution to an information problem - Claim: for contracts strictly relying on such information: no need for intermediation\n\nExample: digital payments\nKey friction in payments: the privacy value (confidentiality) of transaction information\nTraditional payment systems and the Bitcoin model offer two different solutions to this problem.\n\n\n\nUnder the crypto information structure - NO confidential information - Source of power in intermediated markets - ❗Misleading claims - Transparency - From confidentiality to pseudonymity - Replicability of standard financial instruments - Absence of confidentiality restricts contracting space\nInformation and economics\n\nDifferent information structures\n\n\n↓ Different market dynamics \n\n\n↓ Different policy treatments\n\nDifferent information structures / different economic forces / different policy treatments\n\n\n\n\n\n\n\n\n\n\nFriction Fix\nWelfare Gains\nWelfare Losses\n\n\n\n\nTraditional Payments\nConfidentiality\nLiability of parties Dispute resolution Screening (AML/KYC)\n Centralized control  Market power Lack of innovation Single point failure\n\n\nBitcoin, Ethereum\nPseudonymity\nNo rent  No arbitrary control  Innovation  Resilient\nNo dispute resolution  No Screening (AML/KYC) Limited contracting space"
   },
   {
-    "objectID": "lectures/lecture_01/03_payment.html#settlement-systems",
-    "href": "lectures/lecture_01/03_payment.html#settlement-systems",
-    "title": "Payments",
-    "section": "Settlement Systems",
-    "text": "Settlement Systems\nA crucial dimension of payment: how and when payments are considered final.\n\nSettlement defines the moment when a payment is irrevocable and unconditional.\n\nDifferent infrastructures handle settlement differently, reflecting trade-offs between speed, liquidity, efficiency, and cost.\n\n2 main types of settlement systems:\n\nReal-Time Gross Settlement\nAutomated Clearing House\n\n\n1. RTGS – Real-Time Gross Settlement\nDefinition: Payments settled individually, in real-time, with finality\n\n“Gross” = each transaction processed separately\n\nFeatures:\n\nImmediate settlement between banks\n\nIrrevocable and final once processed\n\nEliminates settlement risk\n\nExamples: Fedwire (US), TARGET2 (Eurozone), BOJ-NET (Japan), CHAPS (UK)\nUse cases: large-value, time-critical payments (interbank transfers, securities settlement)\nDrawback: liquidity-intensive (banks must hold sufficient balances at central bank)\nRTGS Example: TARGET2\n\nPan-European RTGS system operated by the Eurosystem\n\nSettles payments in central bank money\n\nHandles large-value and urgent transactions across the Eurozone\n\nBackbone of European financial stability infrastructure\n\n\n\n2. ACH – Automated Clearing House\nDefinition: Batch-processing system with net settlement (end-of-day or periodic)\nFeatures:\n\nPayments grouped into batches\n\nSettlement deferred\n\nCost-efficient, less liquidity needed compared to RTGS\n\nExamples: Nacha ACH (US), SEPA Credit Transfer/Direct Debit (EU)\nUse cases: low-value, high-volume payments (salaries, utility bills, e-commerce)\nDrawback: slower than RTGS; settlement not instantaneous\nACH Example: SEPA (Single Euro Payments Area)\nSingle integrated EU market for euro payments with same rules and costs across participating countries. Launched 2008, fully implemented by 2014.\nScope(euro-denominated payments only): 36 countries: EU + EFTA (Iceland, Norway, Liechtenstein, Switzerland) + Monaco, San Marino, Andorra, Vatican\nSEPA Instruments\n\nSEPA Credit Transfer (SCT): Standardized euro transfers, usually settled next day (D+1)\n\nSEPA Direct Debit (SDD): Framework for recurring payments (utilities, subscriptions)\n\nWorks across borders\n(Belgian account can authorize a French firm)\n\n\nSCT Instant (SCT Inst): &lt;10 seconds Real-time euro payments (up to €100,000, 24/7/365)\n\nIntroduced 2017\nUsed in P2P and e-commerce\n\n\n\n\nPolicy and Stability of Settlements\n\nCentral banks typically operate RTGS systems → backbone of financial stability\n\nACH networks: usually under central bank oversight, but often run by banking associations or private operators\n\nGrowing interest in faster payments:\n\nFaster Payments (UK)\n\nFedNow (US)\n\nPIX (Brazil)\n\nThese systems blur the line between ACH (retail, deferred) and RTGS (wholesale, immediate)\nKey point:\nRTGS and ACH are complementary\n\nRTGS = speed and finality, but costly\n\nACH = efficiency and scale, but slower"
+    "objectID": "lectures/lecture_09/042_defi.html#the-defi-stack",
+    "href": "lectures/lecture_09/042_defi.html#the-defi-stack",
+    "title": "Decentralised Finance (DeFi)",
+    "section": "3.1 The DeFi stack",
+    "text": "3.1 The DeFi stack\n\n\n\n\n\n\n\n\nLayer\nDescription\nExamples\n\n\n\n\nSettlement Layer\nProcesses and records all transactions securely and transparently.\nEthereum, Binance Smart Chain, Solana\n\n\nAsset Layer\nTokens or digital assets that represent value on the blockchain and can be traded or used in DeFi protocols.\nETH, BTC, Stablecoins (USDC, DAI), Wrapped Assets\n\n\nProtocol Layer\nSmart contracts defining financial logic for decentralized services.\nUniswap, Aave, Compound, MakerDAO\n\n\nApplication Layer\nUser-facing interfaces and dApps (decentralized applications) that interact with protocols.\nMetaMask, Argent, Zerion, Yearn Finance\n\n\nAggregation Layer\nPlatforms that combine multiple DeFi services.\n1inch, Zapper, DeFi Saver, Yearn"
   },
   {
-    "objectID": "lectures/lecture_01/03_payment.html#credit-cards",
-    "href": "lectures/lecture_01/03_payment.html#credit-cards",
-    "title": "Payments",
-    "section": "Credit Cards",
-    "text": "Credit Cards\nDefinition: A credit card payment is a retail payment instrument in which:\n\nA cardholder authorizes a purchase of goods or services using a credit card issued by a bank (the issuer).\nThe merchant receives payment through its bank (the acquirer) via a card network (e.g., Visa, Mastercard).\nThe issuer extends credit to the cardholder by settling the transaction on their behalf, while the cardholder agrees to repay the issuer (in full or in part, with possible interest).\n\nCredit Cards operate on top of the interbank payment backbone\nA single purchase involves multiple layers of:\n\nNetworks\n\nClearing and settlement arrangements\n\nContracts and liability rules\n\nCreates complexity and interdependencies well beyond the buyer and seller\n\n\nKey Players in Credit Card Payments\n\n\n\nIssuing bank\n\nThe bank that issues the credit card to the customer\n\nExtends credit and guarantees payment to the merchant (through the network)\n\nAcquiring bank (merchant’s bank)\n\nProvides payment services to the merchant\n\nCollects authorization requests and forwards them through the network\n\nEnsures merchant receives funds (minus fees)\n\nCard network\n\nConnects issuers and acquirers\n\nRoutes authorization, clearing, and settlement messages\n\nExamples: Visa, Mastercard, American Express, Discover\n\n\n\nSteps in a Credit Card Payment\n\nAuthorization\nAuthentication\nClearing\nSettlement\n\n\n\n\n\nAuthorization & Authentication\n\nCardholder presents card details to merchant\nVerification of cardholder identity\n\nMethods: PIN, signature, 3-D Secure (e.g., SMS/biometric code for online payments)\n\n\nMerchant sends request to acquiring bank → card network → issuing bank\n\nIssuing bank checks available credit and approves or declines\n\nClearing\n\nTransaction details transmitted through the card network\n\nIssuing and acquiring banks reconcile transaction records\n\nSettlement\n\nMerchant receives funds (minus fees), cardholder owes issuer\n\nActual transfer of funds between issuing and acquiring banks via interbank payment system\n\n\n\n\nOpen vs. Closed Loop Systems\n\n\n\nOpen-loop systems\n\nInvolve multiple intermediaries: issuer, acquirer, card network, merchant\n\nWidely used global models\n\nExamples: Visa, Mastercard\n\n\n\n\nClosed-loop systems\n\nIssuer and network are the same entity\n\nMerchant often contracts directly with the card provider\n\nExamples: American Express, Discover"
+    "objectID": "lectures/lecture_09/042_defi.html#protocols",
+    "href": "lectures/lecture_09/042_defi.html#protocols",
+    "title": "Decentralised Finance (DeFi)",
+    "section": "3.2 Protocols",
+    "text": "3.2 Protocols\n\n\n\n\n\n\n\n\nCategory\nDescription\nExamples\n\n\n\n\nStablecoins\nCrypto assets w/ value pegged to a given asset (e.g., US dollar).\nUSDT (Tether) USDC (Circle) Dai (MakerDAO)\n\n\nExchanges (DEX)\nExchange of tokens via liquidity\nUniswapSushiswapCurve\n\n\nCredit\nCredit services via liquidity pools (collateralized or flash loans).\nCompound  Aave\n\n\nDerivatives/Insurance\nFutures and synthetic exposures provided by liquidity pools with collateralized positions.\ndYdX Synthetix\n\n\nPortfolio Management\nVaults of assets governed and managed by smart contracts.\nSet Protocol PieDAO\n\n\n\nExchange in traditional setting and in DeFi\n\n\n\nLending in traditional setting and in DeFi\n\n❗ Large collateral requirements to compensate limited information"
   },
   {
-    "objectID": "lectures/lecture_01/03_payment.html#economics-of-payment-platforms",
-    "href": "lectures/lecture_01/03_payment.html#economics-of-payment-platforms",
-    "title": "Payments",
-    "section": "Economics of Payment Platforms",
-    "text": "Economics of Payment Platforms\n\n2 key ingredients\nNetwork externalities:\n\nMore cardholders → more valuable for merchants.\nMore merchants → more valuable for cardholders.\nMore on this in Platform part\n\nPricing structure matters more than total price:\n\nWho pays what (consumer vs merchant) influences adoption.\nA card scheme must balance both sides to achieve adoption.\n\n\n\nRochet & Tirole’s Framework\n\n\n\nRochet and Tirole (2003) introduced a fundamental model of payments which influenced the rest of the digital economy.\n\n\nEnvironment\nEconomy\n\nBuyers (cardholder)\nSellers (merchants)\nPayment card system (monopoly platform)\n\nBusiness model\n\nFees per transaction:\n\n\\(a_b\\) to buyers (cardholders)\n\n\\(a_s\\) to sellers (merchants)\n\n\nPer-transaction cost: \\(c\\).\n\nAgents\n\n\n\n\n\n\n\n\nRole\nUtility Function\nParticipation\n\n\n\n\nBuyer\n\\(u_b = (\\beta_b - a_b)\\, n_s\\)\n\\(n_b = N_b(u_b), \\quad N_b'(\\cdot) &gt; 0\\)\n\n\nSeller\n\\(u_s = (\\beta_s - a_s)\\, n_b\\)\n\\(n_s = N_s(u_s), \\quad N_s'(\\cdot) &gt; 0\\)\n\n\n\nUtilities scale with the other side’s size: acceptance/usage externality → network effect\nPlatform profit\nTransactions (simple network tech): \\(T(n_b,n_s) = n_b\\,n_s=N_b(u_b)\\,N_s(u_s)\\).\n\\[\n\\Pi(a_b,a_s) = (a_b+a_s-c)\\,T(n_b,n_s)\n\\]\n\n\nEquilibrium\nPlatform sets fees to maximizes profits\n\nStart by differentiating profit w.r.t. \\(a_b\\) (buyer fee):\n\n\\[\n\\frac{\\partial \\Pi}{\\partial a_b}\n= N_s\\Big[N_b + (a_b+a_s-c)N_b'(u_b)\\frac{\\partial u_b}{\\partial a_b}\\Big]\n\\]\nwith \\(\\frac{\\partial u_b}{\\partial a_b}=-n_s\\).\n\nSet to zero and isolate fees and costs:\n\n\\[\nN_s\\Big[N_b + (a_b+a_s-c)N_b'(u_b)(-n_s)\\Big] = 0\\\\\n\\\\\n\\rightarrow\n\\frac{1}{a_b+a_s-c} = -\\frac{N_b'(u_b)}{N_b(u_b)}\\,n_s\n\\]\n\nDefine semi-elasticity in utility space:\n\n\\[\n\\varepsilon_b^{u} = -\\frac{N_b'(u_b)}{N_b(u_b)}u_b\n\\]\nwhere: \\(u_b = (\\beta_b - a_b)\\, n_s\\)\n\\[\n\\rightarrow \\varepsilon_b^{u} = -\\frac{N_b'(u_b)\\,(\\beta_b - a_b)\\, n_s}{N_b(u_b)} \\quad \\leftrightarrow \\frac{\\varepsilon_b^{u}}{\\beta_b-a_b} = -\\frac{N_b'(u_b)}{N_b(u_b)}\\,n_s\n\\]\n\nPlug elasticity expression in previous expression:\n\n\\[\n\\boxed{\\frac{1}{a_b+a_s-c} = \\frac{\\varepsilon_b^{u}}{\\beta_b-a_b}}\n\\]\nBy symmetry for the seller fee:\n\\[\n\\boxed{\\frac{1}{a_b+a_s-c} = \\frac{\\varepsilon_s^{u}}{\\beta_s-a_s}}\n\\]\nExpress condition in terms of fee elasticities\nDefine fee elasticity:\n\\[\n\\eta_b^{a} = -\\frac{N_b’(u_b)}{N_b(u_b)}\\frac{\\partial u_b}{\\partial a_b}\\,a_b\n\\]\nSince \\(\\partial u_b/\\partial a_b = -n_s,\\) we get:\n\\[\\eta_b^{a} = \\frac{N_b’(u_b)}{N_b(u_b)}\\,n_s\\,a_b = \\frac{a_b}{\\beta_b-a_b}\\,\\varepsilon_b^{u}\n\\]\nPlug back:\n\\[\n\\boxed{a_b+a_s-c = \\frac{a_b}{\\eta_b^{a}}}\n\\]\nSimilarly:\n\\[\n\\boxed{a_b+a_s-c = \\frac{a_s}{\\eta_s^{a}}}\n\\]\n\n\nMain Result\n\nBalancing condition\n\\[\\boxed{\\frac{a_b}{\\eta_b^{a}} = \\frac{a_s}{\\eta_s^{a}}}\n\\quad\\Longleftrightarrow\\quad\n\\boxed{\\frac{\\beta_b-a_b}{\\varepsilon_b^{u}} = \\frac{\\beta_s-a_s}{\\varepsilon_s^{u}}}\\]\nIntuition\nRaising \\(a_b\\) changes\n\nProfit via markup \\(a_b + a_s - c\\)\nQuantity \\(T(n_b,n_s)\\) via adoption elasticity \\(\\varepsilon_b^{\\,u}\\) ↑ when \\(a_b\\) ↑\n\nWhich also impacts seller side since \\(\\varepsilon_s^{\\,u}\\) ↑ given that \\(n_b\\) ↓\n\nWhich in turn would again impact the buyer side \\(\\varepsilon_b^{\\,u}\\) ↑ when \\(n_s\\) ↓ → Network Effects\n\n\n\n\n→ Optimal pricing must balance those marginal trade-offs across sides.\n\n\n\nImplication of \\(\\boxed{\\frac{a_b}{\\eta_b^{a}} = \\frac{a_s}{\\eta_s^{a}}}\\)\n\nThe more price-sensitive side gets a lower (even negative) price\nThe less elastic side bears more\n\nIn payments\n\nBuyers (cardholders) usually have many alternatives: cash, debit, bank transfer, other cards.\n→ If fees rise, they can easily switch → high elasticity.\nMerchants face a tough choice: refusing cards can mean losing sales to all card-preferring buyers. → Their participation is relatively inelastic.\n\nThat’s why empirically \\(\\eta_b^a &gt; \\eta_s^a\\), which in the model leads to \\(a_b&lt;a_s\\).\n\nThis explains why consumers (price sensitive) pay less and evend get rewards while merchant (less elastic) pay higher fees.\n\n\n\n\nDiscussion\nRochet & Tirole’s key insight: - Optimal pricing structure balances participation on both sides. - Platform may subsidize one side to attract the other.\nIn traditional monopoly settings, the Lerner rule is the benchmark in industrial organization: it links market power in pricing (mark up) directly to demand elasticity.\n\\[\\frac{p - c}{p} = \\frac{1}{\\eta}\\]\nwhere \\(p = a_b + a_s\\) → price level\nIntuition: price–cost margin must equal the inverse demand elasticity.\nIn two-sided markets:\n\nPrice structure is the key!\n\nWhat matters is the division of fees (who pays what), not just the total.\n\nThe monopoly platform must balance margins across both sides: \\(\\frac{a_b}{\\eta_b^{a}} = \\frac{a_s}{\\eta_s^{a}}\\)\n\nEach side’s demand elasticity already reflects network externalities.\n\nNo single Lerner condition holds — instead, a balancing condition across sides emerges.\n\n\nThis explains why cardholders may receive subsidies (negative price, rewards) while merchants pay fees: the platform redistributes to maximize joint adoption.\n\nTension: Social vs Private Optimum\n\nPrivate platform objective: maximize profit = transaction volume × (fees – costs).\nSocial planner objective: maximize total welfare (consumer surplus + merchant surplus – costs).\nDistortion arises because platforms may overcharge one side or underprovide adoption.\n\nPolicy Implications\n\nRegulators care because fee structure affects adoption and social welfare.\nKey issues:\n\nInterchange fee caps (EU, Australia).\nPromoting access for smaller merchants.\nEncouraging innovation while avoiding excessive merchant fees."
+    "objectID": "lectures/lecture_09/042_defi.html#some-statistics",
+    "href": "lectures/lecture_09/042_defi.html#some-statistics",
+    "title": "Decentralised Finance (DeFi)",
+    "section": "3.3 Some statistics",
+    "text": "3.3 Some statistics\n\nMultiple seasons\nSignificant growth and uptake at times\nStill limited compared to the rest of the financial world\n\nTotal Value Locked in DeFi protocols\n\n source: DeFi LLama\nFunds Locked in Stablecoins\n\n\n\nsource: DeFi LLama\nTotal Value Locked in DEX and lending\n\n\n\nsource: DeFi LLama"
   },
   {
-    "objectID": "lectures/lecture_01/03_payment.html#payments-as-information-flows",
-    "href": "lectures/lecture_01/03_payment.html#payments-as-information-flows",
-    "title": "Payments",
-    "section": "Payments as Information Flows",
-    "text": "Payments as Information Flows\n\nEach digital transaction creates a data trail:\n\nWho pays whom\n\nWhen, where, how much\n\nPurpose of payment (explicit or inferred)\n\n\nThis information has:\n\nEconomic uses (credit scoring, targeted services)\n\nRegulatory uses (AML, taxation, supervision)\n\nPrivacy implications (surveillance, autonomy)"
+    "objectID": "lectures/lecture_09/042_defi.html#the-new-intermediaries",
+    "href": "lectures/lecture_09/042_defi.html#the-new-intermediaries",
+    "title": "Decentralised Finance (DeFi)",
+    "section": "The new intermediaries",
+    "text": "The new intermediaries\nThe solution to expanding contracting power is to introduce new forms of intermediation: information bridges\n\nOracles\nRamps\n\nTrade-off: verification vs contracting power\n\nOracles\nDefinition\nOracles provide the necessary bridge to unify off-chain and on-chain worlds - Service that connects smart contracts with external data sources.\nOracles expand the contracting space of DeFi applications at the cost of on-chain (public) verification.\n\n\n\nApplications\n\nPrice Feeds\n\nOracles fetch and deliver real-time price data for assets (e.g., cryptocurrencies, commodities) to DeFi platforms.\n\nExample: collateral and liquidation thresholds.\n\n\n\nExternal Event Verification\n\nOracles confirm external events, such as sports results or weather conditions, enabling platforms like prediction markets or insurance dApps.\n\nCross-Chain Communication\n\nSome oracles facilitate interactions between different blockchains, making cross-chain DeFi products possible.\n\n\nThe private and social costs of unverifiable information\n\nCentralization\nInefficiency\nVulnerabilities\n\nOpportunities for public interventions: traditional market failures in information markets - Public oracle - Licensed oracles - Regulated oracle markets\n\n\nRamps & Tokenisation\nDefinition\n\nTokenization refers to the process of generating a digital represantion of traditional assets on a blockchain by on and off ramps.\n\nFSB(2023)\nBenefits - Automation and trade speed & efficiency - New contracting opportunities: information space and composability\nApplications - Cross-border payments currently relying on banks (correspondent) and message platforms (swift) - Foreign exchanges (payment vs payment) - Mortgage-backed-securities (dozen intermediaries in the process)\nChallenges - Some economic frictions not resolved (moral hazard and adverse selection) - Legal challenges: who has what right? - Technical challenges: design of ramps (cf. Oracles) \n\nTokenization continuum\nNot all digital assets offer the same tokenization value: - Worse candidates: syndicated loans or commercial real estate. - Better candidates: FX or MBS\n\n\n\nBIS (2024)"
   },
   {
-    "objectID": "lectures/lecture_01/03_payment.html#centralized-ledgers",
-    "href": "lectures/lecture_01/03_payment.html#centralized-ledgers",
-    "title": "Payments",
-    "section": "Centralized Ledgers",
-    "text": "Centralized Ledgers\nDefinition: a single entity maintains official records of accounts and transactions.\n\nExamples:\n\nCommercial bank deposit ledgers\n\nCentral bank RTGS systems (TARGET2, Fedwire)\n\n\nAdvantages\n\nEfficiency → one authoritative record\n\nControl → enforcement of rules, compliance\n\nAuditability → straightforward oversight\n\nPrivacy Concerns\n\nCentralized systems require identity verification (KYC/AML).\n\nEvery transaction linked to an account holder.\n\nTrade-off: anonymity lost, traceability gained.\n\nContrast:\n\nToken-based systems (cash, coins): privacy by design, no ledger.\n\nAccount-based systems (deposits, CBDCs): inherently tied to identities."
+    "objectID": "lectures/lecture_09/042_defi.html#a-new-policy-framework",
+    "href": "lectures/lecture_09/042_defi.html#a-new-policy-framework",
+    "title": "Decentralised Finance (DeFi)",
+    "section": "5.1 A New Policy Framework?",
+    "text": "5.1 A New Policy Framework?\nShould DeFi receive a different policy treatment?\n↳ How do DeFi services differ in their treatment of information frictions?\nClaim: Understanding the shift in information structure sheds light on - the scope of DeFi applications - risks and inefficiencies (new and old) - appropriate policy approaches (warranted and feasible actions)\nElements of reflection - Limits on policy enforcement power and information acquisition - Computer in the sky: no shutting down, no liability, etc. - New targets: validators, protocols and oracles. - Eligible proposals: warranted & feasible - Warranted - Several frictions can be best addressed by the private sector - Find cases with limits to the production of private solutions - ↳ likely benefits from public support. - Feasible - Subset of warranted actions satisfying the technological constraints of DeFi"
   },
   {
-    "objectID": "lectures/lecture_01/03_payment.html#privacy-trade-off",
-    "href": "lectures/lecture_01/03_payment.html#privacy-trade-off",
-    "title": "Payments",
-    "section": "Privacy Trade-Off",
-    "text": "Privacy Trade-Off\n\nIndividuals: value privacy for autonomy, consumption, political activity.\n\nStates & regulators: value transparency to combat illicit finance, tax evasion.\n\nBanks & platforms: monetize data (advertising, credit scoring).\n\nMore centralization → more control and efficiency, but less privacy.\nMore privacy (cash, decentralized tokens) → harder regulation, higher risk of illicit use.\n\nCurrent Debates\nBalance privacy rights with financial integrity and security.\nCentral Bank Digital Currencies (CBDC)\n\nLikely built on centralized or semi-centralized ledgers.\n\nKey design question: allow anonymity like cash, or ensure full traceability?\n\nCryptocurrencies\n\nPromise decentralization and privacy.\n\nIn reality: pseudonymous, not anonymous.\n\nExchanges pressured to apply KYC/AML.\n\nBigTech platforms\n\nCentralize payment data for billions of users.\n\nRaise concerns about surveillance capitalism and private concentration of financial data."
+    "objectID": "lectures/lecture_09/042_defi.html#major-risks-associated-with-defi",
+    "href": "lectures/lecture_09/042_defi.html#major-risks-associated-with-defi",
+    "title": "Decentralised Finance (DeFi)",
+    "section": "5.2 Major Risks Associated With DeFi",
+    "text": "5.2 Major Risks Associated With DeFi\nDeFi recreates core financial functions—trading, lending, liquidity provision — but without traditional intermediaries or enforcement mechanisms.\nThis produces a distinctive risk landscape:\n\n\n\n\n\n\n\nRisk Category\nDescription\n\n\n\n\nSmart Contract & Protocol Risk\nBugs, exploits, flash-loan attacks.Code replaces institutions → vulnerabilities are immediate and global.\n\n\nGovernance & Centralisation Risk\nConcentrated voting power (whales, VCs). Hidden centralisation in admin keys, upgradeability, sequencers.\n\n\nOracle & Data Integrity Risk\nOff-chain data cannot be perfectly verified. Oracle manipulation → mispriced collateral, forced liquidations.\n\n\nLiquidity & Market Structure Risk\nAMMs can break under stress (impermanent loss, liquidity dry-ups). Fragmented liquidity across chains → unstable price discovery.\n\n\nInterconnectedness & Contagion\nProtocols heavily interlinked (collateral loops, rehypothecation). Failure of one stablecoin or protocol → instant systemic spillovers.\n\n\nRegulatory & Compliance Risk\nPseudonymous participation → AML/KYC gaps. Liability unclear across validators, developers, and front-end operators."
   },
   {
-    "objectID": "lectures/lecture_02/04_deposits.html#what-are-deposits",
-    "href": "lectures/lecture_02/04_deposits.html#what-are-deposits",
+    "objectID": "lectures/lecture_09/042_defi.html#why-stablecoins-create-structural-risks-in-defi",
+    "href": "lectures/lecture_09/042_defi.html#why-stablecoins-create-structural-risks-in-defi",
+    "title": "Decentralised Finance (DeFi)",
+    "section": "5.3 Why Stablecoins Create Structural Risks in DeFi",
+    "text": "5.3 Why Stablecoins Create Structural Risks in DeFi\nStablecoins are both the weakest link and the most feasible regulatory touchpoint\n→ hence the focus of MiCAR and the Genius Act.\nStablecoins are the monetary foundation of DeFi. They act as unit of account, settlement asset, and core collateral across protocols.\nBecause they mimic money without public guarantees, they introduce systemic vulnerabilities:\n\n\n\n\n\n\n\nStablecoin Risk\nDescription\n\n\n\n\nRun Risk & Redemption Externalities\nFragile confidence in reserves → sudden redemptions.Forced liquidation of assets → fire sales affecting broader markets.\n\n\nOpacity & Information Asymmetry\nUsers cannot fully verify reserve quality or composition.Solvency uncertainty increases → panic amplifies.\n\n\nPeg Instability & Propagation\nDepeggings spill into AMMs, lending markets, and cross-chain bridges.Triggers liquidation cascades and liquidity spirals.\n\n\nCollateral Channel Risk\nStablecoins widely used as collateral.Value drops → reduced collateralization → mass liquidations.\n\n\nCentralisation & Operational Risk\nIssuers concentrate key operational and governance functions.Sanctions, banking outages, or governance failures can freeze DeFi activity."
+  },
+  {
+    "objectID": "lectures/lecture_09/042_defi.html#recent-regulatory-developments-micar-the-u.s.-genius-act",
+    "href": "lectures/lecture_09/042_defi.html#recent-regulatory-developments-micar-the-u.s.-genius-act",
+    "title": "Decentralised Finance (DeFi)",
+    "section": "5.4 Recent Regulatory Developments: MiCAR & the U.S. “Genius Act”",
+    "text": "5.4 Recent Regulatory Developments: MiCAR & the U.S. “Genius Act”\nBoth initiatives show how policymakers test the limits of enforceability, accountability, and information acquisition in decentralized settings.\n\n5.4.1 EU – Markets in Crypto-Assets Regulation (MiCAR, 2024–2025)\nFocus: Stablecoins & centralized service providers\n\nEU-wide licensing for CASPs (exchanges, custodians, brokers).\n\nStrong reserve, governance, and disclosure rules for ARTs & EMTs.\n\nMarket abuse and consumer protection frameworks imported from traditional finance.\n\nDeFi carve-out: MiCAR targets intermediated services only.\n\nMandates an EU DeFi report & potential rulemaking (2025–26).\n\n\nRelevance: MiCAR regulates where enforcement is technologically feasible—centralized issuers, service providers, and verifiable reserves.\n\n\n5.4.2 U.S. – The “Genius Act” (2024 Proposal)\nFocus: Stablecoins + responsibilities in DeFi\n\nFederal or state licensing for stablecoin issuers.\n\nMandatory 1:1 HQLA reserves and redemption rights.\n\nMonthly attestations → reduces information asymmetry.\n\nDefines obligations for:\n\nFront-end operators,\n\nProtocol controllers,\n\nLarge validators / governance actors.\n\n\nEmphasis on systemic risk, operational resilience, illicit finance.\n\nRelevance: Tackles the liability-under-pseudonymity problem and uses stablecoins as an anchor for broader DeFi oversight."
+  },
+  {
+    "objectID": "lectures/lecture_09/042_defi.html#open-policy-issues",
+    "href": "lectures/lecture_09/042_defi.html#open-policy-issues",
+    "title": "Decentralised Finance (DeFi)",
+    "section": "5.5 Open policy issues",
+    "text": "5.5 Open policy issues\n\nHow much decentralisation is good for the economy?\n\nCentralisation of DeFi\n\nHow to enforce liabilities in a pseudonymous ecosystem? (public-private issue)\n\nAML-KYC\n\nHow to manage unverifiable information? (public-private issue)\n\nEmbedding off chain information introduces a new information friction\nPolicing oracles and ramps (new intermediaries)\n\nRecovering the value of traditional frameworks\n\n\nHow to think about macro-prudential regimes in absence of enforcement powers?\n\nInterconnected protocols\nMisaligned incentives to audit\nContagion to the real economy"
+  },
+  {
+    "objectID": "lectures/lecture_02/04_deposits.html",
+    "href": "lectures/lecture_02/04_deposits.html",
     "title": "Deposits",
-    "section": "1. What are deposits?",
-    "text": "1. What are deposits?"
-  },
-  {
-    "objectID": "lectures/lecture_02/04_deposits.html#why-do-we-need-deposits",
-    "href": "lectures/lecture_02/04_deposits.html#why-do-we-need-deposits",
-    "title": "Deposits",
-    "section": "2. Why do we need deposits?",
-    "text": "2. Why do we need deposits?"
-  },
-  {
-    "objectID": "lectures/lecture_02/04_deposits.html#what-is-the-risk-of-offering-deposits",
-    "href": "lectures/lecture_02/04_deposits.html#what-is-the-risk-of-offering-deposits",
-    "title": "Deposits",
-    "section": "3. What is the risk of offering deposits?",
-    "text": "3. What is the risk of offering deposits?"
-  },
-  {
-    "objectID": "lectures/lecture_02/04_deposits.html#how-can-we-prevent-such-risk",
-    "href": "lectures/lecture_02/04_deposits.html#how-can-we-prevent-such-risk",
-    "title": "Deposits",
-    "section": "4. How can we prevent such risk?",
-    "text": "4. How can we prevent such risk?"
-  },
-  {
-    "objectID": "lectures/lecture_02/04_deposits.html#what-are-shadow-banks",
-    "href": "lectures/lecture_02/04_deposits.html#what-are-shadow-banks",
-    "title": "Deposits",
-    "section": "5. What are shadow banks?",
-    "text": "5. What are shadow banks?"
+    "section": "",
+    "text": "Value of Deposits\nA Model of Deposits\nThe Fragility of Deposits\nPolicy Implications\nShadow Banks\nInformation and Runs"
   },
   {
     "objectID": "lectures/lecture_02/04_deposits.html#what-is-a-deposit",
@@ -994,32 +1218,11 @@
     "text": "Page: HTML\nSlides: Reveal.js PDF"
   },
   {
-    "objectID": "lectures/lecture_03/05_credit.html#what-is-a-debt-contract",
-    "href": "lectures/lecture_03/05_credit.html#what-is-a-debt-contract",
+    "objectID": "lectures/lecture_03/05_credit.html",
+    "href": "lectures/lecture_03/05_credit.html",
     "title": "Credit",
-    "section": "What is a debt contract?",
-    "text": "What is a debt contract?"
-  },
-  {
-    "objectID": "lectures/lecture_03/05_credit.html#why-are-debt-contracts-so-prevalent",
-    "href": "lectures/lecture_03/05_credit.html#why-are-debt-contracts-so-prevalent",
-    "title": "Credit",
-    "section": "Why are debt contracts so prevalent?",
-    "text": "Why are debt contracts so prevalent?"
-  },
-  {
-    "objectID": "lectures/lecture_03/05_credit.html#when-do-debt-markets-fail",
-    "href": "lectures/lecture_03/05_credit.html#when-do-debt-markets-fail",
-    "title": "Credit",
-    "section": "When do debt markets fail?",
-    "text": "When do debt markets fail?"
-  },
-  {
-    "objectID": "lectures/lecture_03/05_credit.html#why-do-we-need-banks-for-credit",
-    "href": "lectures/lecture_03/05_credit.html#why-do-we-need-banks-for-credit",
-    "title": "Credit",
-    "section": "Why do we need banks for credit?",
-    "text": "Why do we need banks for credit?"
+    "section": "",
+    "text": "Financial contracts\nThe cheapness of debt\nThe failure of credit markets\nThe structure of credit markets"
   },
   {
     "objectID": "lectures/lecture_03/05_credit.html#overview-of-the-lecture",
@@ -1099,220 +1302,17 @@
     "text": "Discussion\n\nPaper Impact\n\nA foundational contribution to the modern theory of financial intermediation.\nProvided a microeconomic justification for why banks and markets coexist:\n\nBanks = delegated monitors under moral hazard.\nMarkets = arm’s-length financiers when incentives are self-enforcing.\n\n\nThe paper reframed finance as a problem of information governance, not just capital allocation.\nConceptual Breakthroughs\n\nIntroduced the notion of pledgeable income: &gt; Only the part of project returns consistent with incentives can be pledged to investors.\nExplained the hierarchy of finance:\n\nInternal finance (self-enforcing),\nIntermediated finance (requires monitoring),\nMarket finance (transparent, large-scale).\n\nLinked firm size, transparency, and financing mode:\n\nSmall, opaque → bank-dependent.\n\nLarge, visible → market-based.\n\n\n\n\nMonitoring as Information Production\n\nIn Holmström & Tirole (1997), banks monitor borrowers to prevent shirking.\n\nMonitoring does not only enforce effort — it also generates information and data about:\n\nborrower performance,\nbusiness viability,\nrepayment behavior.\n\n\nIn modern terms: monitoring = data production about creditworthiness and operations.\n\n\nThe Private Nature of Monitoring Data\n\nThe information a bank collects through monitoring is proprietary.\n\nIt represents private capital in the form of data:\n\ncostly to produce,\n\nand difficult for competitors to replicate.\n\nThis informational advantage can lock customers in:\n\nBorrowers may stay with their bank because the bank knows them best.\n\nCompeting lenders cannot easily assess risk without similar data.\n\n\n→ Private information → informational rents → market power.\n\n\nPolicy Implication: Open Data and Interoperability\n\nFrom a social efficiency perspective, data about borrower quality is non-rival: once produced, it could improve credit allocation if shared.\nHowever, private ownership of monitoring data leads to under-sharing and barriers to entry.\n\nThis motivates open data policies such as:\n\nOpen Banking / Open Finance:\nregulated data-sharing between financial institutions to enable competition and switching.\nStandardized APIs and interoperability frameworks:\nreduce information asymmetry while preserving privacy and security.\n\n\n\nEconomic Trade-Off\n\n Open Data Policies \n\n\n\n\n\n\n\n\nBenefit\nCost\n\n\n\n\nReduces switching costs and enhances competition\nWeakens private incentives to monitor and collect data\n\n\nImproves market contestability\nUnravelling: may reduce banks’ willingness to lend to no-data borrowers\n\n\n\nThe policy challenge:\nBalance the benefits of open access to data with the need to preserve monitoring incentives that sustain credit to informationally intensive sectors.\n\n\nModern Relevance\nAI and machine learning\nTechnologies to detect patterns of shirking or misuse of funds (reduce moral hazard).\nAs such they can reduce the cost of monitoring (\\(K\\)) thereby expanding further access to monitored credit\nData-driven economy\nMonitoring rents are becoming data rents.\n\nFintechs and BigTechs enter credit markets not through capital, but through informational advantage.\n\nOpen banking and data portability are policy tools designed to:\n\nlower barriers to entry,\n\nprevent informational monopolies,\n\nand reintroduce competition in the monitoring layer of finance.\n\n\nThe underlying principle remains Holmström–Tirole’s insight:\n\nInformation is costly to produce and privately valuable\nPublic policy must decide when to privatize it and when to share it."
   },
   {
-    "objectID": "lectures/lecture_08/03_machine_learning.html#what-is-machine-learning",
-    "href": "lectures/lecture_08/03_machine_learning.html#what-is-machine-learning",
-    "title": "Machine Learning",
-    "section": "What is Machine Learning?",
-    "text": "What is Machine Learning?"
-  },
-  {
-    "objectID": "lectures/lecture_08/03_machine_learning.html#why-is-machine-learning-relevant-for-banking",
-    "href": "lectures/lecture_08/03_machine_learning.html#why-is-machine-learning-relevant-for-banking",
-    "title": "Machine Learning",
-    "section": "Why is Machine Learning relevant for Banking?",
-    "text": "Why is Machine Learning relevant for Banking?"
-  },
-  {
-    "objectID": "lectures/lecture_08/03_machine_learning.html#what-are-the-main-challenges-of-machine-learning",
-    "href": "lectures/lecture_08/03_machine_learning.html#what-are-the-main-challenges-of-machine-learning",
-    "title": "Machine Learning",
-    "section": "What are the Main Challenges of Machine Learning?",
-    "text": "What are the Main Challenges of Machine Learning?"
-  },
-  {
-    "objectID": "lectures/lecture_08/03_machine_learning.html#ai-as-a-research-field",
-    "href": "lectures/lecture_08/03_machine_learning.html#ai-as-a-research-field",
-    "title": "Machine Learning",
-    "section": "1.1. AI as a research field",
-    "text": "1.1. AI as a research field\n\n\n\n\nEarly ambitions (1950s-1960s):\n\nAI as the quest to create human-like intelligence in machines.\nThe Turing Test (Turing, 1950): Can machines think?\nDartmouth Conference (1956) – the birth of AI as a field.\n\nFirst wave (1950s-1980s): Symbolic AI and expert systems\n\nAI mostly rule-based, following logic and heuristics.\n\nExamples: ELIZA, chatbot (1960s); MYCIN medical diagnosis system (1970s).\n\n\nLimitations: brittle logic, poor adaptability, lack of learning ability.\n\nAI Winters (1970s, 1980s-1990s)\n\nOverpromises vs. underperformance.\nFailure of expert systems to scale due to increasing complexity.\nRestricted funding.\n\nSecond wave (1990s-2010s): Machine Learning revolution\n\nShift from rule-based AI to data-driven models.\n\nRise of statistical approaches, including decision trees and neural networks.\n\n1997: Deep Blue beats Garry Kasparov in chess.\n\nThird wave (2010s-2020s): Deep Learning and modern AI\n\nExplosion of computing power and data.\nBreakthrough in Deep Learning\n\n2012: AlexNet wins the ImageNet competition\n\nAI applications expand into speech, vision, and finance (e.g., fraud detection, algorithmic trading).\n\nFourth wave (2020s-present): Generative AI, Large Language Models (LLMs)\n\nThe rise of foundation models trained on massive datasets (GPT, BERT, Claude, Gemini).\n\n2020: OpenAI introduces GPT-3, capable of human-like text generation.\n\n2022: ChatGPT launches, sparking mainstream adoption of generative AI.\n\n\nLLMs in finance: Used for document processing, risk assessment, and fraud detection.\n\nRegulatory agenda: misinformation, privacy, AI bias, copyright concerns.\n\n\n\nHistory of AI - Main Takeways\n\nWinters\nMarket adjustment from enthusiasm and structural limitations of new tech\n\n\n“The problem of artificial intelligence has vexed researchers for decades. Even simple tasks such as digit recognition—challenges that we as humans overcome so effortlessly—proved extremely difficult to program.”\n– Mullainathan & Spiess (2017)\n\n\nThe Machine Learning Revolution\nChanges in fundamental approaches with the advent of computational power & data\n→from deduction to induction\n\n\n“Introspection into how our mind solves these problems failed to translate into procedures. The real breakthrough came once we stopped trying to deduce these rules. Instead, the problem was turned into an inductive one: rather than hand-curating the rules, we simply let the data tell us which rules work best.”\n– Mullainathan & Spiess (2017)\n\nExample: Face recognition\n\n\n\nNo hard-wired rules to scan for certain pixel combinations, based on human understanding of what constitutes a face.\nInstead, leverage large dataset of photos labeled with a face or not to estimate a function \\(f(x)\\) that predicts the presence \\(y\\) of a face from pixels \\(x\\)."
-  },
-  {
-    "objectID": "lectures/lecture_08/03_machine_learning.html#the-two-ai-schools",
-    "href": "lectures/lecture_08/03_machine_learning.html#the-two-ai-schools",
-    "title": "Machine Learning",
-    "section": "1.2. The two AI schools",
-    "text": "1.2. The two AI schools\n\nGood Old-Fashioned AI (GOFAI) vs Modern AI\n\n\n\n\n\n\n\n\n\n\nAI Approach\nDescription\nStrengths\nWeaknesses\n\n\n\n\nSymbolic AI\nRules, logic,  and symbolic reasoning\n- Transparency  - Interpretability  - Computationally light\n- Hard to scale  - Inflexible (no learning)  - Human efforts\n\n\nMachine Learning\nStatistical learning  w/ or w/o guidance\n- Adaptability  - Scalability  - Learns w/o predefined rules\n- Data & computation power  - Opacity (“black box”)  - Hidden biases\n\n\n\nKey distinction:\n\nSymbolic AI: explicit programming → If X, then Y\nMachine Learning: implicit programming → Code how to learn\n\nExample: Translation\n\nSymbolic AI: Hard-coded grammar rules and mappings between languages.\n\nMachine Learning: Learns linguistic patterns from translated text corpora (e.g., Google translate, GPT, BERT)."
-  },
-  {
-    "objectID": "lectures/lecture_08/03_machine_learning.html#dominance-of-machine-learning",
-    "href": "lectures/lecture_08/03_machine_learning.html#dominance-of-machine-learning",
-    "title": "Machine Learning",
-    "section": "1.3. Dominance of Machine Learning",
-    "text": "1.3. Dominance of Machine Learning\n\nML’s superior performance in key applications\n\nImage recognition (e.g., facial recognition, medical imaging).\n\nNatural language processing (e.g., chatbots, voice assistants).\n\nFinancial applications (e.g., risk assessment, fraud detection).\n\n\n“The success of machine learning at intelligence tasks is largely due to its ability to discover complex structures that were not specified in advance. It manages to fit complex and very flexible functional forms to the data without simply overfitting; it finds functions that work well out-of-sample.”\n– Mullainathan & Spiess (2017)\n\n\n\nClasses of ML models\nThere 3 broad classes of learning: supervised, unsupervised, reinforcement.\n\nSupervised Learning\nThe model learns from labeled data (i.e., input-output pairs).\n\nRegression: learning a continuous value (e.g., stock prices, real estate values).\nClassification: learning a categorical label (e.g., credit approval, fraud detection).\n\nUnsupervised Learning\nThe model learns from unlabeled data to find hidden patterns or groupings.\n\nClustering: Grouping data points based on similarities (e.g., customer segmentation).\nDimensionality reduction: Reducing the number of features while preserving the most important information (e.g., PCA).\n\nReinforcement Learning\nThe model learns through interactions with an environment and feedback from its actions.\n\nAlgorithmic trading\nRobo-advisor\n\n\n\n\nVisual intuition\nRaw data  \nSupervised learning\nNecessary dimension: Labelled data \n\nSupervised learning\n\n\nUnsupervised learning  \n\n\nMachine Learning Workflow\n\nProblem Definition (Prediction)\nData\n\nCollection\nPreparation: missing values, encoding of categorical variables, etc.\nExploration\nFeature engineering: select suitable features for the predictions\nSplit (see below): training versus evaluation\n\nLearning\n\nModel selection\nTraining\nEvaluation\nTuning\n\nDeployment\n\n\n\nWhy ML dominates modern AI?\nData and computation drive AI progress in Machine Learning\n\nDigitalisation of the economy \\(\\rightarrow\\) data availability \\(\\uparrow\\)\nbig data, user-generated content, etc.\n\nAdvances in computing power and algorithmic performances\ncloud computing, GPUs, TPUs, etc.\ndeep learning, transformers, etc.\n\n\nWhat’s the difference with standard econometrics?\nMachine learning solves a different problem:\nPrediction (\\(Y\\)) vs Estimation (\\(\\beta\\)):\n\\[Y = \\beta_0 + \\beta_1 X\\]\n\nTraditional economic applications: Estimation\n→produce good estimates of \\(\\beta\\) to model the relationship between \\(Y\\) and \\(X\\).\nMachine learning applications: Prediction\n→ produce a good predictor of \\(Y\\) given \\(X\\)\n\nPrediction vs Causality\n\n\n\nGenAI\nGenerative AI (LLMs, GPTs, etc.) builds on the same foundation as traditional machine learning: learning from data to make predictions.\nBeyond Prediction, GenAI generates new data (text, images, etc.) by sampling from the probability distribution learned for prediction.\nIn other words:\n\n\n\n\nModern machine learning is fundamentally about prediction.\n\nPrediction involves learning a probability distribution over possible outcomes.\n\nOnce this probability distribution is learned, the model can be used not only to predict but also to generate new outputs.\n\nThis is the essence of Generative AI: producing new content by sampling from the learned distribution.\n\n\n\n\n\n\n\n\nLimitations remain\n\nExplainability problem: Hard to understand how ML models produce outputs.\n\nData dependency: Requires large, high-quality datasets.\n\nEthical concerns: Bias, fairness, privacy issues."
-  },
-  {
-    "objectID": "lectures/lecture_08/03_machine_learning.html#the-technology-of-ml",
-    "href": "lectures/lecture_08/03_machine_learning.html#the-technology-of-ml",
-    "title": "Machine Learning",
-    "section": "2.1. The technology of ML",
-    "text": "2.1. The technology of ML\n\nEconomics 101: what is a technology?\n\nA technology = a tool that reduces the cost of producing some good or service.\n\nExamples:\n\nSteam engine: \\(\\downarrow\\) cost of transportation and manufacturing.\nPrinting press: \\(\\downarrow\\) cost of information dissemination.\nElectricity: \\(\\downarrow\\) cost of mechanical power and lighting.\n\n\n\nWhat cost does Machine Learning reduce?\n\nMachine Learning reduces the cost of prediction\n\n\nPrediction: infer missing data (past, present, future).\nTraditionally expensive due to:\n\nHuman expertise (analysts, forecasters).\nManual data collection and limited statistical modeling.\nLimited computing power.\n\n\n\n\nThe decision ecosystem\n\n Agrawal, A., Gans, J., & Goldfarb, A. (2022).\n\n\n💡GenAI = Prediction + Action💡\n\n\n\nComplements and substitutes to prediction\n\n\n\n\n\n\n\nComplements\nSubstitutes\n\n\n\n\nInfrastructure & compute power\nRules-based systems\n\n\nData production & access\nTraditional prediction models\n\n\nHuman expertise (Causality & Strategy)\nHuman forecasters & analysts\n\n\nEthical & regulatory compliance\nRedundant or low-quality data"
-  },
-  {
-    "objectID": "lectures/lecture_08/03_machine_learning.html#key-complement-to-ml-data",
-    "href": "lectures/lecture_08/03_machine_learning.html#key-complement-to-ml-data",
-    "title": "Machine Learning",
-    "section": "2.2. Key complement to ML: Data",
-    "text": "2.2. Key complement to ML: Data\n\nThe value of data\n\nData conditions the growth of Machine Learning\n\nExistence of data determines applicability\nQuality (labeling) and quantity determines power\n\nFirms with superior data access have a significant and self-improving competitive advantage.\n\nFlywheel effect\n\n\n\n\n\nThe organization of data: production and access\n\nData as a competitive moat: incumbent firm want exclusive access to data\n\nFlywheel & Network effects\nEntry barriers\nWinner-take-all\n\nData-sharing: opening data access has trade-offs\n\nImproves competition\nSubject to privacy preferences\nDistorts incentives to produce data\n\n\nRegulations and data-production/sharing frameworks shape the economics of AI development."
-  },
-  {
-    "objectID": "lectures/lecture_08/03_machine_learning.html#the-limits-of-ml-and-ai-snake-oil",
-    "href": "lectures/lecture_08/03_machine_learning.html#the-limits-of-ml-and-ai-snake-oil",
-    "title": "Machine Learning",
-    "section": "2.3. The limits of ML and “AI snake oil”",
-    "text": "2.3. The limits of ML and “AI snake oil”\n\nTurning problems into prediction problems\nThe Art of Machine Learning:\n\nReframe problem as prediction task\nFind reliable data sources to improve performance through prediction (historical, alternative, feed, etc.)\n\nExamples:\n\nTranslation: Predict the most likely correct translation using same copies of digital books.\n\nSelf-driving cars: Predict most likely human action using sensory data.\nFinance: Predict likelihood of fraudulent activity using historical transaction data.\n\n\n\nLimits of predictions\nNot all problems are prediction problems: role of reasoning, causality, or logic.\nNot all prediction problems are ML problems: unfit data to perform prediction (e.g., early days of COVID-19)\nSymbolic AI vs ML:\n\nSymbolic AI (rule-based) does not need data but lacks adaptability.\n\nML leverages data but struggles with causality and reasoning.\n\n\n\nAI Snake Oil Argument (Arvind Narayanan, 2024)\nSome AI solutions are hyped but lack real economic value.\nExample: AI for job interviews, grant allocation → unreliable and pseudoscientific.\nLesson: AI-ML works best where prediction is\n\nGenuinely feasible: it relies on credible data input\nUseful: the prediction environment is not too volatile"
-  },
-  {
-    "objectID": "lectures/lecture_08/03_machine_learning.html#the-ai-bandwagon",
-    "href": "lectures/lecture_08/03_machine_learning.html#the-ai-bandwagon",
-    "title": "Machine Learning",
-    "section": "3.1. The AI bandwagon",
-    "text": "3.1. The AI bandwagon\n\n\n\nConsultant speach for any X industry\n\nEfficiency Gains: AI automates processes, streamlines operational costs.\nBetter Decision-Making: AI improves risk assessment, document treatment and anomaly detection.\nEnhanced Customer Experience: Chatbots, personalized recommendations, and automated services.\n\n… anything specific to finance?"
-  },
-  {
-    "objectID": "lectures/lecture_08/03_machine_learning.html#prediction-in-finance",
-    "href": "lectures/lecture_08/03_machine_learning.html#prediction-in-finance",
-    "title": "Machine Learning",
-    "section": "3.2. Prediction in finance",
-    "text": "3.2. Prediction in finance\n\nFinance is about the allocation of capital and risk.  The main barrier to achieving an efficient equilibrium is information frictions.\n\nUnderstanding the role of AI in finance begins with understanding that every financial innovation—from credit rating to AI or blockchain—is ultimately a response to an information problem.\n\nThe nature of financial information\nFinancial systems exist because information is imperfect, incomplete, or costly to obtain.\n\n\n\n\n\n\n\nMarket Friction\nDescription\n\n\n\n\nBank runs\nBanks don’t know when depositors will withdraw their funds.\n\n\nAsymmetric information\nBorrowers know more about their ability to repay than lenders.\n\n\nAdverse selection\nInvestors struggle to distinguish good projects from bad.\n\n\nMoral hazard\nIndividuals may take hidden risks once insured.\n\n\nConfidentiality\nCompanies and citizens may hesitate to share sensitive information.\n\n\n\nRaison d’etre for financial contracts, intermediaries, rating agencies, and regulatory frameworks\n→ They exist to manage these frictions, to reduce uncertainty, and to allocate capital more efficiently."
-  },
-  {
-    "objectID": "lectures/lecture_08/03_machine_learning.html#the-impact-of-ai-in-finance",
-    "href": "lectures/lecture_08/03_machine_learning.html#the-impact-of-ai-in-finance",
-    "title": "Machine Learning",
-    "section": "3.3. The impact of AI in finance",
-    "text": "3.3. The impact of AI in finance\n\nTraditional finance\nTraditional financial businesses have long relied on information to assess risk, allocate capital, and optimize decision-making.\n\n\n\n\n\n\n\nApplication Area\nDescription\n\n\n\n\nCredit scoring & lending\nTraditional banks evaluate borrower creditworthiness using historical financial information.\n\n\nInvestment advisory\nFinancial advisors and wealth management firms analyze market trends and client portfolios.\n\n\nTrading & market making\nInvestment banks and hedge funds leverage proprietary research and asset returns data to execute trades.\n\n\nFraud & compliance\nFinancial institutions analyze transaction patterns and user behavior to identify anomalies, such as unauthorized transactions or money laundering attempts.\n\n\n\n\n\nThe value proposition of AI in Finance\n\nThe value proposition of Machine Learning in finance is  to reduce information frictions through superior data-driven prediction\n\nIn modern economies, information is stored in the form of data.\n→ Large amounts of data being produced with relevant signals for financial applications:\n\ndigital traces (e.g., transactions),\ninvestment/trading behavior,\ncustomer details,\nmarket signals,\nsensory data (smart wearables, warehouse trackers, etc.),\nsocial media, etc..\n\nApplying Machine Learning to financial applications will leverage such pools of data to improve prediction.\n\nInformation frictions\nRelevant Prediction problems everywhere in finance:\n\nIncomplete information: AI may enhance forecasting accuracy (bank run, sentiment, market movements)\nAsymmetric information: AI may help mitigate issues of:\n\nScreening: Predict risk of default (adverse selection).\n\nMonitoring: Detect anomalous activity (moral hazard).\n\n\nObfuscated information: AI may uncover hidden insights (triangulation)\n\n\n\n\nPrediction applications\n\n1. Credit Scoring\nPredicting default\n\nPrediction: ML predicts likelihood of loan default more accurately than traditional rule-based credit models by identifying complex patterns in borrower behavior.\n\nHow ML Reduces Cost:\n\nAutomates the credit assessment process, reducing manual underwriting costs.\nLowers default rates by improving risk assessment.\nEnables financial institutions to extend credit to underserved customers by analyzing alternative data (e.g., transaction history, utility bill payments).\n\n\nExample: ML-based credit models allow fintech lenders to approve loans faster while maintaining risk control, increasing financial inclusion.\n\n\n\n2. Fraud Detection\nPredicting illicit activities\n\nPrediction Aspect: ML predicts fraudulent transactions in real-time by detecting anomalies in spending behavior and transaction patterns.\n\nHow ML Reduces Cost:\n\nReduces financial losses from fraud by flagging suspicious transactions before they are processed.\nDecreases the reliance on manual fraud detection teams, lowering operational costs.\nImproves customer experience by reducing false positives in fraud detection systems.\n\n\nExample: ML-based fraud detection systems in credit card transactions use anomaly detection to prevent unauthorized transactions, reducing fraud-related losses for banks and consumers.\n\n\n\n3. Algorithmic Trading\nPredict market movements and best-responses\n\nPrediction Aspect: ML models analyze historical market data, news sentiment, and macroeconomic indicators to predict asset price movements and execute trades accordingly.\n\nHow ML Reduces Cost:\n\nMinimizes human error and emotional biases in trading decisions.\nReduces the need for large trading teams by automating strategy execution.\nOptimizes trade execution, reducing slippage and transaction costs.\n\n\nExample: Hedge funds and proprietary trading firms use reinforcement learning models to develop adaptive trading strategies that dynamically adjust to changing market conditions, improving profitability.\n\n\n\n4. Customer Service\nPredict customer needs\n\nPrediction Aspect: ML predicts customer inquiries and automates responses through Natural Language Processing (NLP), reducing the need for human intervention.\n\nHow ML Reduces Cost:\n\nCuts customer support expenses by replacing human agents with AI-powered chatbots.\nReduces response time, improving customer satisfaction and retention.\nAllows 24/7 customer service at a fraction of the cost of human-operated call centers.\n\n\nExample: AI-powered virtual assistants like Erica (Bank of America) and Cleo help customers check balances, track expenses, and receive financial recommendations, lowering operational costs for banks while enhancing user experience.\n\n\n\n\nThe integration of AI\nEveryone is after it\n\nIncumbents leveraging data access (banks, payments, insurance, asset managers, etc.)\nNewcomers exploiting new data opportunities\n\nFintech (neo banks, robo advisors, platforms, etc.): alternative data, superior prediction\nBigTech (apple pay, amazon credit, etc.): massive data, superior prediction, computing power, user base\n\n\n\n\nTrends\n\nLending\n\nTraditional banking: AI is used to refine profiling and pricing of loan products\n\nJPMorgan Chase 1st in AI Evident Index.\n\nNew businesses:\n\nFintech lending platforms incorporate alternative data for credit scoring\n\nRocket Mortgage for mortgages\nUpstart for personal/car loans\nKlarna for BNPL\n\nPeer-to-peer lending platforms leverage AI-driven risk assessment models\n\nLendingClub, Prosper\n\nBigTech lending leveraging activity data on the platform\n\nAmazon\n\n\n\n\n\nInvestment\n\nWealth management: Robo-advisors apply machine learning to portfolio management and asset allocation\n\nBetterment for financial advice\nWealthfront for automated investing\n\nCrowdfunding: AI enhances risk assessment in crowdfunding platforms\n\nKickstarter, Seedrs\n\n\n\n\nTrading\n\nAlgorithmic trading uses AI for market-making and high-frequency trading\n\nRenaissance Technologies, Citadel Securities\n\n\nAI-driven sentiment analysis interprets news, reports, and social media for trading insights\n\nKavout\n\n\n\n\nFraud Detection & Compliance\n\nAI models identify patterns of fraudulent transactions in real-time\n\nVisa, Mastercard\n\n\nAI supports compliance efforts in areas such as AML (Anti-Money Laundering) and KYC (Know Your Customer)\n\nComplyAdvantage for AML\nFeedzai for fraud"
-  },
-  {
-    "objectID": "lectures/lecture_08/03_machine_learning.html#information-barriers",
-    "href": "lectures/lecture_08/03_machine_learning.html#information-barriers",
-    "title": "Machine Learning",
-    "section": "4.1. Information barriers",
-    "text": "4.1. Information barriers\n\nTrade-off between data sharing & privacy: Incentives to share vs. risk of exposure.\n\nData ownership & control: Who owns financial data—customers or firms?\n\nOpen Data policies\n\nOpen Banking & Open Finance: Expanding access to financial data.\n\nCosts vs. benefits: Interoperability challenges, regulatory hurdles, incentives to innovate.\n\nCompatibility issues: Ensuring seamless integration of AI across financial institutions."
-  },
-  {
-    "objectID": "lectures/lecture_08/03_machine_learning.html#ethics-and-fairness",
-    "href": "lectures/lecture_08/03_machine_learning.html#ethics-and-fairness",
-    "title": "Machine Learning",
-    "section": "4.2 Ethics and fairness",
-    "text": "4.2 Ethics and fairness\n\nData-path dependencies and embedded biases\nJoy Buolamwini, 2023 - Unmasking AI: My Mission to Protect What Is Human in a World of Machines\n\n\n\n\n\nTriangulation\nYves-Alexandre de Montjoie et al. - Unique in the shopping mall - Science, 2015\n\n\n\n\n\nWinners and losers of AI adoption: improving prediction technology has both extensive and intensive margin effects\nFuster et al. - Predictably unequal? - Journal of Finance"
-  },
-  {
-    "objectID": "lectures/lecture_08/03_machine_learning.html#toxic-data",
-    "href": "lectures/lecture_08/03_machine_learning.html#toxic-data",
-    "title": "Machine Learning",
-    "section": "4.3. Toxic data",
-    "text": "4.3. Toxic data\n\nTuring’s nightmare: AI-generated content may contaminate original data.\nContribution halt: AI-usage may block the natural human production of data\n\nAcemoglu et al., 2025: Wikipedia activity drop after ChatGPT\n\nAI Model Collapse: Chained dependence on flawed data may amplify error and destroy information value.\n\nShumailov et al., 2024\nGeorg and Roukny, 2025\n\nWatermarking data: Preventing AI-generated content from contaminating financial data."
-  },
-  {
-    "objectID": "lectures/lecture_08/03_machine_learning.html#agentic-ai",
-    "href": "lectures/lecture_08/03_machine_learning.html#agentic-ai",
-    "title": "Machine Learning",
-    "section": "4.4. Agentic AI",
-    "text": "4.4. Agentic AI\n\nAutonomous AI agents: When decision is coupled with predictions.\n\nFlash crashes & AI-driven volatility: Historical examples of AI-induced market instability.\nAlgorithmic collusion\n\nCalvano et al., 2020 - Artificial Intelligence, Algorithmic Pricing, and Collusion - American Economic Review\n\nAI Alignment"
-  },
-  {
-    "objectID": "lectures/lecture_08/03_machine_learning.html#why-policy-and-regulation-matter",
-    "href": "lectures/lecture_08/03_machine_learning.html#why-policy-and-regulation-matter",
-    "title": "Machine Learning",
-    "section": "Why Policy and Regulation Matter",
-    "text": "Why Policy and Regulation Matter\nRegulation must evolve with technology — from Basel I (credit risk) to DORA, MiCA, and now the AI Act.\n\nAI and ML transform how financial intermediation operates: who holds information, how risk is priced, how accountability is ensured.\n\nTraditional prudential, conduct, and market integrity frameworks were designed for human decision-making.\n\nML introduces new information frictions: opacity, data dependence, feedback loops.\n\nRegulators now face questions of explainability, accountability, and fairness."
-  },
-  {
-    "objectID": "lectures/lecture_08/03_machine_learning.html#recent-policy-efforts-on-ai-in-banking",
-    "href": "lectures/lecture_08/03_machine_learning.html#recent-policy-efforts-on-ai-in-banking",
-    "title": "Machine Learning",
-    "section": "Recent Policy Efforts on AI in Banking",
-    "text": "Recent Policy Efforts on AI in Banking\n\n1. EU Artificial Intelligence Act (2024)\n\nFirst comprehensive AI regulation globally.\n\nRisk-based approach: minimal, limited, high, and unacceptable risk categories.\n\nFinancial services (e.g., credit scoring, insurance underwriting) are “high-risk”.\n\nRequires:\n\nHuman oversight and transparency\n\nData quality and bias controls\n\nRobust documentation and governance\n\n\nEntered into force 1 August 2024; high-risk rules phase in by 2026.\n\nImplication for banks: ML credit models, robo-advice, and AML monitoring now fall under AI compliance regimes.\n\n\n2. European Banking Authority (EBA) – Special Topic on AI (2024/2025)\n\nEBA mapped AI use across EU banks:\n\nRegression, decision trees, NLP, neural networks.\n\n~40% already using General-Purpose AI (GPAI).\n\n\nFocus areas:\n\nGovernance and validation of models.\n\nExplainability and internal control functions.\n\nSupervisory coordination under the EU AI Act.\n\n\nLays groundwork for supervisory expectations on AI model risk.\n\nEmbeds AI into the prudential supervision toolkit.\n\n\n\n\n3. Financial Stability Board (FSB) – Global Monitoring (2024)\n\nReport: “Monitoring Adoption of Artificial Intelligence and Related Risks.”\n\nHighlights systemic risks:\n\nConcentration in third-party providers (e.g., cloud, data).\n\nModel risk and correlated errors.\n\nCyber and operational dependencies.\n\n\nEncourages jurisdictions to align AI risk management with financial stability objectives.\n\nTakeaway: AI regulation extends beyond conduct — it’s a macroprudential issue.\n\n\n4. ESMA Supervisory Statement (May 2024)\n\nInvestment firms and banks remain fully responsible for AI decisions.\n\nNo delegation of accountability to algorithms.\n\nRequires governance documentation and model explainability.\n\nPrinciple: “Responsibility cannot be outsourced to AI.”"
-  },
-  {
-    "objectID": "lectures/lecture_08/03_machine_learning.html#mapping-policy-objectives-to-ai-challenges",
-    "href": "lectures/lecture_08/03_machine_learning.html#mapping-policy-objectives-to-ai-challenges",
-    "title": "Machine Learning",
-    "section": "Mapping Policy Objectives to AI Challenges",
-    "text": "Mapping Policy Objectives to AI Challenges\n\n\n\n\n\n\n\n\nObjective\nAI-Driven Challenge\nRegulatory Response\n\n\n\n\nFinancial stability\nAlgorithmic risk & model drift\nFSB monitoring, Basel governance\n\n\nConsumer protection\nBias in credit scoring\nEU AI Act, FEAT, GDPR\n\n\nMarket integrity\nManipulative algorithms\nMiFID II, ESMA guidance\n\n\nOperational resilience\nCloud & model dependency\nDORA\n\n\nCompetition & data concentration\nBigTech data dominance\nOpen Data / PSD3 proposals"
-  },
-  {
-    "objectID": "lectures/lecture_08/03_machine_learning.html#common-policy-themes",
-    "href": "lectures/lecture_08/03_machine_learning.html#common-policy-themes",
-    "title": "Machine Learning",
-    "section": "Common Policy Themes",
-    "text": "Common Policy Themes\n\nAccountability: Human oversight for algorithmic decisions.\n\nExplainability: Transparent and auditable models.\n\nFairness: Avoid bias in data-driven decisions.\n\nData governance: Secure, lawful, and interoperable data use.\n\nCross-border consistency: Prevent regulatory arbitrage.\n\nRegulation of AI is regulation of information governance."
-  },
-  {
-    "objectID": "lectures/lecture_08/lecture_08.html",
-    "href": "lectures/lecture_08/lecture_08.html",
-    "title": "Lecture 08",
+    "objectID": "lectures/lecture_10/lecture_10.html",
+    "href": "lectures/lecture_10/lecture_10.html",
+    "title": "Lecture 10",
     "section": "",
-    "text": "Page: HTML\nSlides: Reveal.js PDF"
+    "text": "Slides: PDF"
   },
   {
-    "objectID": "lectures/lecture_08/lecture_08.html#machine-learning",
-    "href": "lectures/lecture_08/lecture_08.html#machine-learning",
-    "title": "Lecture 08",
+    "objectID": "lectures/lecture_10/lecture_10.html#machine-learning-pt.2",
+    "href": "lectures/lecture_10/lecture_10.html#machine-learning-pt.2",
+    "title": "Lecture 10",
     "section": "",
-    "text": "Page: HTML\nSlides: Reveal.js PDF"
-  },
-  {
-    "objectID": "lectures/lecture_08/03_machine_learning.html",
-    "href": "lectures/lecture_08/03_machine_learning.html",
-    "title": "Machine Learning",
-    "section": "",
-    "text": "Introduction to AI\nEconomics of Machine Learning\nAI & Finance\nChallenges\nPolicy & Regulation"
-  },
-  {
-    "objectID": "lectures/lecture_01/02_money.html",
-    "href": "lectures/lecture_01/02_money.html",
-    "title": "Money",
-    "section": "",
-    "text": "Origins of Money\nA Model of Money\nThe Need for Money\nThe Value of Money\nThe Definition of Money\nThe Governance of Money"
-  },
-  {
-    "objectID": "lectures/lecture_01/03_payment.html",
-    "href": "lectures/lecture_01/03_payment.html",
-    "title": "Payments",
-    "section": "",
-    "text": "Means of Payment\nPayment Infrastructures\nA Model of Payment\nInformation in Payments"
-  },
-  {
-    "objectID": "lectures/lecture_05/02_platform.html",
-    "href": "lectures/lecture_05/02_platform.html",
-    "title": "Platforms",
-    "section": "",
-    "text": "Introduction\nNetwork Effects\nPlatforms\nBigTech"
-  },
-  {
-    "objectID": "lectures/lecture_04/06_policy.html",
-    "href": "lectures/lecture_04/06_policy.html",
-    "title": "Policy & Regulation",
-    "section": "",
-    "text": "Foundations\nMain pillars of regulation\nInstitutional architecture\nEmerging challenges"
-  },
-  {
-    "objectID": "lectures/lecture_05/01_intro.html",
-    "href": "lectures/lecture_05/01_intro.html",
-    "title": "Intro to Financial Technologies",
-    "section": "",
-    "text": "Information Governance in Banking\nAdoption of Financial Technologies"
-  },
-  {
-    "objectID": "lectures/lecture_03/05_credit.html",
-    "href": "lectures/lecture_03/05_credit.html",
-    "title": "Credit",
-    "section": "",
-    "text": "Financial contracts\nThe cheapness of debt\nThe failure of credit markets\nThe structure of credit markets"
-  },
-  {
-    "objectID": "lectures/lecture_02/04_deposits.html",
-    "href": "lectures/lecture_02/04_deposits.html",
-    "title": "Deposits",
-    "section": "",
-    "text": "Value of Deposits\nA Model of Deposits\nThe Fragility of Deposits\nPolicy Implications\nShadow Banks\nInformation and Runs"
-  },
-  {
-    "objectID": "lectures/lecture_01/01_banking.html",
-    "href": "lectures/lecture_01/01_banking.html",
-    "title": "Banking",
-    "section": "",
-    "text": "Definition of banking\nOrigins of banking\nModern banking"
+    "text": "Slides: PDF"
   }
 ]

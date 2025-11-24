@@ -29,16 +29,16 @@ website:
             text: Lecture 07 - Platforms pt. 2
           - href: 'lectures/lecture_08/lecture_08.qmd'
             text: Lecture 08 - Machine Learning pt. 1
-          - href: ''
-            text: Lecture 09 - Machine Learning pt. 2
-          - href: ''
-            text: Lecture 10 - Crypto pt. 1
+          - href: 'lectures/lecture_09/lecture_09.qmd'
+            text: Lecture 09 - Crypto pt. 1
+          - href: 'lectures/lecture_10/lecture_10.qmd'
+            text: Lecture 10 - Machine Learning pt. 2
           - href: ''
             text: Lecture 11 - Crypto pt. 2
       - href: 'https://app.alldayta.com/katholieke-universiteit-leuven/mbft'
         text: All Day TA
       - href: assignment.qmd
-        text: Assignment (**NEW**)
+        text: Assignment
 
 format:
   html:
