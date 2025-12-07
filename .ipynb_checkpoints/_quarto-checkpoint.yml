@@ -33,7 +33,7 @@ website:
             text: Lecture 09 - Crypto pt. 1
           - href: 'lectures/lecture_10/lecture_10.qmd'
             text: Lecture 10 - Machine Learning pt. 2
-          - href: ''
+          - href: 'lectures/lecture_11/lecture_11.qmd'
             text: Lecture 11 - Crypto pt. 2
       - href: 'https://app.alldayta.com/katholieke-universiteit-leuven/mbft'
         text: All Day TA

@@ -145,7 +145,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="dropdown-item" href="./lectures/lecture_10/lecture_10.html">
  <span class="dropdown-text">Lecture 10 - Machine Learning pt.&nbsp;2</span></a>
   </li>  
-        <li class="dropdown-header">Lecture 11 - Crypto pt.&nbsp;2</li>
+        <li>
+    <a class="dropdown-item" href="./lectures/lecture_11/lecture_11.html">
+ <span class="dropdown-text">Lecture 11 - Crypto pt.&nbsp;2</span></a>
+  </li>  
     </ul>
   </li>
   <li class="nav-item">
@@ -280,19 +283,19 @@ ul.task-list li input[type="checkbox"] {
 <tr class="even">
 <td>01/12/2025</td>
 <td>10</td>
-<td><strong>Machine Learning</strong> <br>Guest lecture <br> [<code>swapped down</code> ↓]</td>
+<td><del><strong>Machine Learning</strong></del> <br>Guest lecture <br> [<code>swapped down</code> ↓]</td>
 <td>The Technology of ML<br>ML Application in Finance</td>
 </tr>
 <tr class="odd">
 <td>08/12/2025</td>
 <td>11</td>
-<td><strong>Crypto</strong> <br>Guest lecture</td>
-<td>Central Bank Digital Currencies</td>
+<td><del><strong>Crypto</strong></del> <br>Guest lecture</td>
+<td>Central Bank Digital Currencies <br> Stable coins</td>
 </tr>
 <tr class="even">
 <td>15/12/2025</td>
 <td></td>
-<td><strong>Q&amp;A</strong></td>
+<td></td>
 <td></td>
 </tr>
 </tbody>
@@ -393,7 +396,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/trkrkn\.github\.io\/mbft\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

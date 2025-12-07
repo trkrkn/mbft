@@ -145,7 +145,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="dropdown-item" href="./lectures/lecture_10/lecture_10.html">
  <span class="dropdown-text">Lecture 10 - Machine Learning pt.&nbsp;2</span></a>
   </li>  
-        <li class="dropdown-header">Lecture 11 - Crypto pt.&nbsp;2</li>
+        <li>
+    <a class="dropdown-item" href="./lectures/lecture_11/lecture_11.html">
+ <span class="dropdown-text">Lecture 11 - Crypto pt.&nbsp;2</span></a>
+  </li>  
     </ul>
   </li>
   <li class="nav-item">
@@ -204,6 +207,13 @@ ul.task-list li input[type="checkbox"] {
 <p>This website accompanies the course of <a href="https://onderwijsaanbod.kuleuven.be/2025/syllabi/e/HMA68AE.htm">Modern Banking and Financial Technology (B-KUL-HMA68A)</a>.</p>
 <section id="news-announcements" class="level2">
 <h2 class="anchored" data-anchor-id="news-announcements">News &amp; Announcements</h2>
+<ul>
+<li><strong>07/12/2025</strong>
+<ul>
+<li>Material for <strong>Lecture 11</strong> is available</li>
+</ul></li>
+</ul>
+<hr>
 <ul>
 <li><strong>24/11/2025</strong>
 <ul>
@@ -382,7 +392,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/trkrkn\.github\.io\/mbft\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

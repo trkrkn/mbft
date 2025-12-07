@@ -15,6 +15,6 @@ title: "Schedule Fall 2025"
 | 10/11/2025 | 7  | ~~**Platforms**~~ <br>Guest lecture | Fintech Platforms<br>Open Banking                                  |
 | 17/11/2025 <br> `recorded` | 8  | ~~**Machine Learning**~~         | History<br>Economics of ML<br>Policy                                   |
 | 24/11/2025 <br> `recorded`| 9  | ~~**Crypto**~~ <br> [`swapped up` &uarr;] |The Technology of DLT<br>Decentralised Finance<br>Policy |
-| 01/12/2025 | 10 | **Machine Learning** <br>Guest lecture <br> [`swapped down` &darr;]                  | The Technology of ML<br>ML Application in Finance              |
-| 08/12/2025 | 11 | **Crypto** <br>Guest lecture| Central Bank Digital Currencies                                       |
-| 15/12/2025 |    | **Q&A**                      |                                                                        |
+| 01/12/2025 | 10 | ~~**Machine Learning**~~ <br>Guest lecture <br> [`swapped down` &darr;]                  | The Technology of ML<br>ML Application in Finance              |
+| 08/12/2025 | 11 | ~~**Crypto**~~ <br>Guest lecture| Central Bank Digital Currencies  <br> Stable coins                                     |
+| 15/12/2025 |    |                     |                                                                        |

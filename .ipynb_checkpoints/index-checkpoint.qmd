@@ -5,6 +5,12 @@ title: "Modern Banking and Financial Technology"
 This website accompanies the course of [Modern Banking and Financial Technology (B-KUL-HMA68A)](https://onderwijsaanbod.kuleuven.be/2025/syllabi/e/HMA68AE.htm).
 
 ## News & Announcements
+
+- **07/12/2025**
+    - Material for **Lecture 11** is available 
+
+---
+
 - **24/11/2025**
     - Material for **Lecture 10** is available 
 
