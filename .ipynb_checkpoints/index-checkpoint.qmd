@@ -6,6 +6,11 @@ This website accompanies the course of [Modern Banking and Financial Technology 
 
 ## News & Announcements
 
+- **06/01/2026**
+    - Sample of exam questions is available [here](sample-exam.qmd)
+
+---
+
 - **07/12/2025**
     - Material for **Lecture 11** is available 
 
