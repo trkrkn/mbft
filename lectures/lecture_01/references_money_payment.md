@@ -2,6 +2,8 @@ Cecchetti, S. G., & Schoenholtz, K. L. (2017). Money, banking, and financial mar
 
 Freixas, X., & Rochet, J.-C. (2008). Microeconomics of banking (3rd ed.). Cambridge, MA: MIT Press. 
 
+Goetzmann, W. (2017). Money changes everything: How finance made civilization possible. Princeton University Press.
+
 Graeber, D. (2011). Debt: The first 5,000 years. Brooklyn, NY: Melville House.
 
 Kocherlakota, N. R. (1998). Money is memory. Journal of Economic Theory, 81(2), 232–251.

@@ -1,0 +1,50 @@
+---
+title: "Sample Exam Questions"
+format: html
+---
+
+The following provides an indicative (non-exhaustive) list of typical exam questions. The questions are thematically grouped.
+
+## Money, Payments, and Digital Money
+
+> - *What is the fundamental economic role of money in a modern economy?*
+- *Why does the memory dimension of money interact with population growth. Explain using the framework of Kocherlakota.*
+- *Explain the key difference between Bitcoin and a Central Bank Digital Currency (CBDC) from a monetary policy perspective.*
+- *Give one advantage and one limitation of Bitcoin as a means of payment.*
+- *Explain the difference between money as a store of value and money as a unit of account. Why does this distinction matter for cryptocurrencies?*
+- *What problem do payment systems primarily aim to solve?*
+
+
+## Banks, Deposits, and Financial Stability
+
+> - *What makes bank deposits economically distinct from other financial liabilities?*
+- *Explain why bank deposits are subject to self-fulfilling runs.*
+- *Why are bank runs fundamentally an incomplete information problem?*
+- *Using the Diamond–Dybvig framework, explain the value of deposit insurance*
+- *What moral hazard concern does deposit insurance create?*
+
+
+## Platforms, BigTech, and Network Effects
+
+> - *What are network effects, and why are they particularly strong in digital financial platforms?*
+- *Why do network effects raise concerns for competition policy?*
+- *Give one example of a financial service where network effects can lead to market concentration.*
+- *What is a multi-sided platform?*
+- *What is the difference between price structure and price level? Why does it matter?*
+- *Explain the winner-takes-all phenomenon in platform markets. Give a platform strategy related to it.*
+
+## Credit Markets, Information, and Machine Learning
+
+> - *What is the core information friction behind credit rationing?*
+- *Using the model of Stiglitz and Weiss, explain how adverse selection affects banks’ ability to price loans?* 
+- *What type of cost does machine learning primarily reduce in financial markets?*
+- *Inside the framework of Stiglitz and Weiss, explain how can machine learning help address the issue of adverse selection.*
+- *Why can the adoption of machine learning lead to winner–loser reallocation among borrowers?*
+- *How can regulatory requirements (e.g. explainability) constrain the use of machine learning in banking?*
+
+## DeFi, Crypto, and Regulation
+
+> - *How does the information structure of DeFi differ from that of traditional financial systems?*
+- *Why is credit screening particularly difficult in DeFi lending protocols?*
+- *What is the difference between microprudential and macroprudential regulation?*
+- *Why does DeFi pose challenges for traditional financial regulation frameworks?*

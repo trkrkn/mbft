@@ -39,7 +39,8 @@ website:
         text: All Day TA
       - href: assignment.qmd
         text: Assignment
-
+      - href: sample-exam.qmd
+        text: Sample Exam Questions
 format:
   html:
     theme: cosmo
