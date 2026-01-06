@@ -159,6 +159,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../../assignment.html"> 
 <span class="menu-text">Assignment</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../sample-exam.html"> 
+<span class="menu-text">Sample Exam Questions</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -199,7 +203,7 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#platforms" id="toc-platforms" class="nav-link" data-scroll-target="#platforms">3. Platforms</a>
   <ul class="collapse">
-  <li><a href="#defining-a-platform-precisely" id="toc-defining-a-platform-precisely" class="nav-link" data-scroll-target="#defining-a-platform-precisely">Defining a Platform Precisely</a></li>
+  <li><a href="#defining-a-platform-formally" id="toc-defining-a-platform-formally" class="nav-link" data-scroll-target="#defining-a-platform-formally">Defining a Platform Formally</a></li>
   <li><a href="#what-is-and-what-is-not-a-platform" id="toc-what-is-and-what-is-not-a-platform" class="nav-link" data-scroll-target="#what-is-and-what-is-not-a-platform">What Is and What Is Not a Platform</a></li>
   <li><a href="#platform-challenges-and-strategies" id="toc-platform-challenges-and-strategies" class="nav-link" data-scroll-target="#platform-challenges-and-strategies">Platform Challenges and Strategies</a>
   <ul class="collapse">
@@ -285,17 +289,26 @@ ul.task-list li input[type="checkbox"] {
 <p>Platforms are <strong>not new</strong></p>
 <center>
 <img src="figures/champagne.png" width="800"><br>Champagne Fairs
-<center>
+</center>
 <p><strong>12th-century Champagne fairs</strong></p>
 <p>The <strong>Count of Champagne</strong> used to organize regular trade fairs.</p>
-<p>These fairs provided: - A safe and efficient environment for merchants - Impartial contract enforcement - Guaranteed payment systems (notary bills)</p>
+<p>These fairs provided:</p>
+<ul>
+<li>A safe and efficient environment for merchants</li>
+<li>Impartial contract enforcement</li>
+<li>Guaranteed payment systems (notary bills)</li>
+</ul>
 <p>The Count acted as a <strong>trusted market-maker</strong>, earning revenue by taking a <strong>small share of each transaction</strong>.</p>
 <p>→ This institutional design <strong>internalized externalities</strong> among traders and reduced transaction costs.</p>
-</center></center></section>
+</section>
 <section id="today" class="level3">
 <h3 class="anchored" data-anchor-id="today">Today</h3>
 <p><strong>Digital platforms</strong> perform similar roles: they facilitate interaction, trust, and exchange.</p>
-<p><strong>Core function:</strong> reduce information, search, and trust frictions to make interaction possible. - Modern examples: <code>Visa</code>, <code>PayPal</code>, <code>Revolut</code>, or <code>Ethereum</code>. - Beyond finance: <code>Facebook</code>, <code>Instagram</code>, <code>Amazon</code>, <code>Google</code>, <code>Airbnb</code>, <code>Uber</code>, etc.</p>
+<p><strong>Core function:</strong> reduce information, search, and trust frictions to make interaction possible.</p>
+<ul>
+<li>Modern examples: <code>Visa</code>, <code>PayPal</code>, <code>Revolut</code>, or <code>Ethereum</code>.</li>
+<li>Beyond finance: <code>Facebook</code>, <code>Instagram</code>, <code>Amazon</code>, <code>Google</code>, <code>Airbnb</code>, <code>Uber</code>, etc.</li>
+</ul>
 <p><strong>Starting point of the literature</strong>: Rochet and Tirole (2003) - <em>see Payment Lecture</em></p>
 <pre><code>    Merchants and buyers interact via credit card platforms which charges different fees</code></pre>
 </section>
@@ -303,7 +316,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="the-foundation-of-platforms">The Foundation of Platforms</h3>
 <blockquote class="blockquote">
 <p>“A platform can be roughly seen as an <strong>entity that enables interactions between users</strong> so as to <strong>generate value</strong> from these interactions.”</p>
-<p>– <em>(Belleflamme &amp; Peitz, 2021)</em></p>
+<p>– <em>Belleflamme &amp; Peitz (2021)</em></p>
 </blockquote>
 </section>
 <section id="key-ingredients" class="level3">
@@ -408,7 +421,12 @@ ul.task-list li input[type="checkbox"] {
 <center>
 <b>The more active one group is, the more (or less) valuable the platform becomes for the other.</b>
 </center>
-<p>Cross-group effects are the hallmark of <strong><code>multi-sided platforms</code></strong> - platforms that link distinct categories of users: - buyers ↔︎ sellers (cf.&nbsp;<em>Payment</em> lecture) - lenders ↔︎ borrowers - advertisers ↔︎ viewers</p>
+<p>Cross-group effects are the hallmark of <strong><code>multi-sided platforms</code></strong> - platforms that link distinct categories of users:</p>
+<ul>
+<li>buyers ↔︎ sellers (cf.&nbsp;<em>Payment</em> lecture)</li>
+<li>lenders ↔︎ borrowers</li>
+<li>advertisers ↔︎ viewers</li>
+</ul>
 <p>Indirect effects can be different depending on whether participation on one side raises or lowers the other side’s utility:</p>
 <ol type="1">
 <li><strong>Positive</strong></li>
@@ -444,7 +462,17 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="negative-cross-group-effects">Negative Cross-Group Effects</h3>
 <p>Additional participants on one side <strong>reduce</strong> the attractiveness of the platform for the other side.</p>
 <p><u>Channels</u>: crowding, nuisance, reduced quality</p>
-<p><u>Example</u>: - An <strong>ad-funded media platform</strong> - More advertisers generate revenue but also increase ad clutter, reducing viewer satisfaction. - A <strong>retail trading app</strong> offering sponsored investment products - The more financial advertisers promote products, the more users may perceive bias or spam, lowering their trust and engagement.</p>
+<p><u>Example</u>:</p>
+<ul>
+<li>An <strong>ad-funded media platform</strong>
+<ul>
+<li>More advertisers generate revenue but also increase ad clutter, reducing viewer satisfaction.</li>
+</ul></li>
+<li>A <strong>retail trading app</strong> offering sponsored investment products
+<ul>
+<li>The more financial advertisers promote products, the more users may perceive bias or spam, lowering their trust and engagement.</li>
+</ul></li>
+</ul>
 <p><strong>Effect:</strong> The system oscillates — more of one group crowds out the other.</p>
 <p>The platform must balance the <strong>monetization side</strong> and the <strong>user-experience side</strong>, often through pricing, quotas, or targeting algorithms.</p>
 <p>When attraction in one direction coexists with repulsion in the other, we observe an <strong><code>attraction/repulsion pendulum</code></strong> .</p>
@@ -459,7 +487,19 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="asymmetric-cross-group-effects">Asymmetric Cross-Group Effects</h3>
 <p>Participation of one group increases the value for another group, but <strong>not vice versa</strong>.</p>
 <p><u>Channels</u>: information or learning spillovers</p>
-<p><u>Example</u>: - A <strong>Q&amp;A site</strong>: - Experts’ answers benefit learners - But additional learners contribute little to experts’ utility - <strong>Analysts or rating agencies</strong> publishing reports - Retail investors gain from better information - Yet their presence provides limited benefit to analysts</p>
+<p><u>Example</u>:</p>
+<ul>
+<li>A <strong>Q&amp;A site</strong>:
+<ul>
+<li>Experts’ answers benefit learners</li>
+<li>But additional learners contribute little to experts’ utility</li>
+</ul></li>
+<li><strong>Analysts or rating agencies</strong> publishing reports
+<ul>
+<li>Retail investors gain from better information</li>
+<li>Yet their presence provides limited benefit to analysts</li>
+</ul></li>
+</ul>
 <p>Such <strong><code>attraction spillovers</code></strong> are common when one group mainly <em>consumes</em> information produced by another or when “professional” groups interact with “amateur” groups.</p>
 <p><strong>Note:</strong> Spillovers often motivate “freemium” models: value created on one side (free users) justifies monetization elsewhere.</p>
 <section id="attraction-spillovers" class="level4">
@@ -513,29 +553,44 @@ ul.task-list li input[type="checkbox"] {
 <section id="interactions-between-within--and-cross-group-effects" class="level2">
 <h2 class="anchored" data-anchor-id="interactions-between-within--and-cross-group-effects">Interactions Between Within- and Cross-Group Effects</h2>
 <p>In practice, platforms often exhibit <strong>both</strong> types simultaneously.</p>
-<p><strong>Peer-to-peer finance (e.g., LendingClub, Ethereum)</strong> - Cross-group: borrowers ↔︎ lenders, liquidity providers ↔︎ traders.<br>
-- Within-group: more lenders produce more data and reputation effects (positive), but also competition for deals (potentially negative).</p>
-<p><strong>Financial exchanges</strong> - Traders and issuers are distinct groups (cross-group).<br>
-- Within each side, participants also generate informational or congestion effects.</p>
+<p><strong>Peer-to-peer finance (e.g., LendingClub, Ethereum)</strong></p>
+<ul>
+<li>Cross-group: borrowers ↔︎ lenders, liquidity providers ↔︎ traders.<br>
+</li>
+<li>Within-group: more lenders produce more data and reputation effects (positive), but also competition for deals (potentially negative).</li>
+</ul>
+<p><strong>Financial exchanges</strong></p>
+<ul>
+<li>Traders and issuers are distinct groups (cross-group).<br>
+</li>
+<li>Within each side, participants also generate informational or congestion effects.</li>
+</ul>
 <p>→ The interplay of these forces determines a platform’s sustainability and market structure.</p>
 </section>
 </section>
 <section id="platforms" class="level1">
 <h1>3. Platforms</h1>
-<section id="defining-a-platform-precisely" class="level2">
-<h2 class="anchored" data-anchor-id="defining-a-platform-precisely">Defining a Platform Precisely</h2>
+<section id="defining-a-platform-formally" class="level2">
+<h2 class="anchored" data-anchor-id="defining-a-platform-formally">Defining a Platform Formally</h2>
 <blockquote class="blockquote">
 <p>A <em>platform</em> is an entity that <strong>brings together economic agents</strong> and <strong>actively manages network effects</strong> between them.</p>
-<p>– (Belleflamme &amp; Peitz, 2021)</p>
+<p>– Belleflamme &amp; Peitz (2021)</p>
 </blockquote>
-<p><strong>Two requirements:</strong> 1. <strong>Facilitation:</strong> enables interactions linked by network effects.<br>
-2. <strong>Active management:</strong> uses instruments (pricing, algorithms, access rules) to internalize or steer those effects.</p>
+<p><strong>Two requirements:</strong></p>
+<ol type="1">
+<li><strong>Facilitation:</strong> enables interactions linked by network effects.<br>
+</li>
+<li><strong>Active management:</strong> uses instruments (pricing, algorithms, access rules) to internalize or steer those effects.</li>
+</ol>
 </section>
 <section id="what-is-and-what-is-not-a-platform" class="level2">
 <h2 class="anchored" data-anchor-id="what-is-and-what-is-not-a-platform">What Is and What Is Not a Platform</h2>
-<p>To qualify as a platform, both conditions must hold:<br>
-(1) <strong>Network effects</strong> are present,<br>
-(2) They are <strong>actively managed</strong>.</p>
+<p>To qualify as a platform, both conditions must hold:</p>
+<ol type="1">
+<li><strong>Network effects</strong> are present,<br>
+</li>
+<li>They are <strong>actively managed</strong>.</li>
+</ol>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 13%">
@@ -713,14 +768,23 @@ Each side values the platform only if the other side is already present.
 <section id="mechanism-from-symmetry-to-dominance" class="level4">
 <h4 class="anchored" data-anchor-id="mechanism-from-symmetry-to-dominance">Mechanism: From Symmetry to Dominance</h4>
 <p>Even when competing platforms are <strong>initially symmetric</strong> in technology or quality, random fluctuations or minor historical advantages can determine the outcome. If users prefer to join the platform where “everyone else” already is (<strong><code>attraction loop/spiral</code></strong>), small early leads become self-fulfilling.</p>
-<p><strong>Core logic:</strong><br>
-1. Users’ value from joining increases with existing participation.<br>
-2. Early adoption raises perceived future value.<br>
-3. Expectations of dominance attract further adoption. 4. Competing platforms are eventually marginalized.</p>
-<p>Technically, such systems exhibit <strong>multiple equilibria</strong>:<br>
-- A low-adoption equilibrium (failure to reach critical mass).<br>
-- A high-adoption equilibrium (mass adoption).<br>
-- Once the threshold is crossed, <strong>coordination on one platform</strong> becomes stable.</p>
+<p><strong>Core logic:</strong></p>
+<ol type="1">
+<li>Users’ value from joining increases with existing participation.<br>
+</li>
+<li>Early adoption raises perceived future value.<br>
+</li>
+<li>Expectations of dominance attract further adoption.</li>
+<li>Competing platforms are eventually marginalized.</li>
+</ol>
+<p>Technically, such systems exhibit <strong>multiple equilibria</strong>:</p>
+<ul>
+<li>A low-adoption equilibrium (failure to reach critical mass).<br>
+</li>
+<li>A high-adoption equilibrium (mass adoption).<br>
+</li>
+<li>Once the threshold is crossed, <strong>coordination on one platform</strong> becomes stable.</li>
+</ul>
 </section>
 <section id="platform-strategies-to-reach-the-tipping-point" class="level4">
 <h4 class="anchored" data-anchor-id="platform-strategies-to-reach-the-tipping-point">Platform Strategies to Reach the Tipping Point</h4>
@@ -752,11 +816,20 @@ Each side values the platform only if the other side is already present.
 </section>
 <section id="coordination-failures-and-path-dependence" class="level4">
 <h4 class="anchored" data-anchor-id="coordination-failures-and-path-dependence">Coordination Failures and Path Dependence</h4>
-<p>The dynamics of Winner-Takes-All mean that the market can also be locked into <strong>suboptimal equilibria</strong>: - Users may coordinate on a platform that is <em>not</em> technologically superior but merely achieved scale first.<br>
-- Competing platforms struggle to attract enough users to trigger their own network effects.<br>
-- Interoperability and multi-homing (joining several platforms) can mitigate dominance but are often limited by design or regulation.</p>
-<p>In financial markets, this path dependence explains why: - Legacy infrastructures (<code>SWIFT</code>, <code>Visa</code>) remain dominant despite technological alternatives.<br>
-- New entrants often must integrate <em>through</em> incumbents rather than compete <em>against</em> them.</p>
+<p>The dynamics of Winner-Takes-All mean that the market can also be locked into <strong>suboptimal equilibria</strong>:</p>
+<ul>
+<li>Users may coordinate on a platform that is <em>not</em> technologically superior but merely achieved scale first.<br>
+</li>
+<li>Competing platforms struggle to attract enough users to trigger their own network effects.<br>
+</li>
+<li>Interoperability and multi-homing (joining several platforms) can mitigate dominance but are often limited by design or regulation.</li>
+</ul>
+<p>In financial markets, this path dependence explains why:</p>
+<ul>
+<li>Legacy infrastructures (<code>SWIFT</code>, <code>Visa</code>) remain dominant despite technological alternatives.<br>
+</li>
+<li>New entrants often must integrate <em>through</em> incumbents rather than compete <em>against</em> them.</li>
+</ul>
 </section>
 </section>
 <section id="implications-for-policy-and-regulation" class="level3">
@@ -805,7 +878,7 @@ Each side values the platform only if the other side is already present.
 <center>
 Data generation <br>↓<br> Collection <br>↓<br> Preparation <br>↓<br> Analysis <br>↓<br> Improved service <br>↓<br> More usage <br>↓<br> More data
 </center>
-<p>→ Data create <strong>self-reinforcing feedback loops</strong>:</p>
+<p><br> → Data create <strong>self-reinforcing feedback loops</strong>:</p>
 <center>
 More users <br>↓<br> More data <br>↓<br> Platform learns more <br>↓<br> Service improves <br>↓<br> New users join / User use more
 </center>
@@ -1142,21 +1215,34 @@ More users <br>↓<br> More data <br>↓<br> Platform learns more <br>↓<br> Se
 <center>
 Competition thus shifts from <b>bank vs.&nbsp;bank</b> to <b>ecosystem vs.&nbsp;ecosystem.</b>
 </center>
-<p><strong>Policy implications:</strong> - Antitrust frameworks must consider <strong>network-based market power</strong>, where dominance arises from data and user coordination rather than pricing.<br>
-- Promote <strong>interoperability</strong> and <strong>open standards</strong> (e.g., PSD3, ISO 20022) to lower switching costs.<br>
-- Assess <strong>platform envelopment</strong> strategies — when firms extend from one market into another using shared data or infrastructure (e.g., Amazon from retail to payments and credit).</p>
+<p><strong>Policy implications:</strong></p>
+<ul>
+<li>Antitrust frameworks must consider <strong>network-based market power</strong>, where dominance arises from data and user coordination rather than pricing.<br>
+</li>
+<li>Promote <strong>interoperability</strong> and <strong>open standards</strong> (e.g., PSD3, ISO 20022) to lower switching costs.<br>
+</li>
+<li>Assess <strong>platform envelopment</strong> strategies — when firms extend from one market into another using shared data or infrastructure (e.g., Amazon from retail to payments and credit).</li>
+</ul>
 </section>
 <section id="systemic-risk-and-financial-stability" class="level3">
 <h3 class="anchored" data-anchor-id="systemic-risk-and-financial-stability">3. Systemic Risk and Financial Stability</h3>
 <p>The concentration of activity in a few platforms introduces <strong>new systemic vulnerabilities</strong>:</p>
-<p><strong>Operational dependence:</strong><br>
-- Banks and financial institutions rely heavily on a small number of technology providers (e.g., AWS, Google Cloud, SWIFT).<br>
-- Outages or cyber incidents in these infrastructures could cascade through the financial system.</p>
-<p><strong>Liquidity and coordination risks:</strong><br>
-- In payment and trading platforms, congestion or outages can trigger system-wide disruptions.<br>
-- The same positive feedback that accelerates adoption can accelerate <em>runs</em> or <em>withdrawals</em> in stress episodes (e.g., crypto exchanges).</p>
-<p><strong>Procyclicality of algorithms:</strong><br>
-- Automated credit scoring and trading systems may amplify market cycles by reacting similarly to shared data or signals.</p>
+<p><strong>Operational dependence:</strong></p>
+<ul>
+<li>Banks and financial institutions rely heavily on a small number of technology providers (e.g., AWS, Google Cloud, SWIFT).<br>
+</li>
+<li>Outages or cyber incidents in these infrastructures could cascade through the financial system.</li>
+</ul>
+<p><strong>Liquidity and coordination risks:</strong></p>
+<ul>
+<li>In payment and trading platforms, congestion or outages can trigger system-wide disruptions.<br>
+</li>
+<li>The same positive feedback that accelerates adoption can accelerate <em>runs</em> or <em>withdrawals</em> in stress episodes (e.g., crypto exchanges).</li>
+</ul>
+<p><strong>Procyclicality of algorithms:</strong></p>
+<ul>
+<li>Automated credit scoring and trading systems may amplify market cycles by reacting similarly to shared data or signals.</li>
+</ul>
 <p><strong>Policy implications:</strong></p>
 <ul>
 <li>Expand <strong>macroprudential supervision</strong> to cover <em>critical digital infrastructures</em> (cloud, payment APIs, digital identity).<br>
@@ -1390,8 +1476,12 @@ Competition thus shifts from <b>bank vs.&nbsp;bank</b> to <b>ecosystem vs.&nbsp;
 </tr>
 </tbody>
 </table>
-<p>The boundary between finance and technology is thus becoming <strong>bidirectional</strong>: - Banks learn to behave like platforms (connecting users, managing data flows).<br>
-- BigTechs evolve into financial intermediaries (storing value, allocating credit).</p>
+<p>The boundary between finance and technology is thus becoming <strong>bidirectional</strong>:</p>
+<ul>
+<li>Banks learn to behave like platforms (connecting users, managing data flows).<br>
+</li>
+<li>BigTechs evolve into financial intermediaries (storing value, allocating credit).</li>
+</ul>
 <p>This convergence challenges regulators to define <strong>where the financial system begins and ends</strong>, and how to preserve <strong>stability, competition, and data integrity</strong> in a world where <em>platforms mediate nearly all interactions</em>.</p>
 
 

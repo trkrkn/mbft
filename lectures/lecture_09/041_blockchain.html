@@ -222,6 +222,10 @@ window.Quarto = {
     <a class="nav-link" href="../../assignment.html"> 
 <span class="menu-text">Assignment</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../sample-exam.html"> 
+<span class="menu-text">Sample Exam Questions</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -237,12 +241,7 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#key-questions" id="toc-key-questions" class="nav-link active" data-scroll-target="#key-questions">4 key questions</a></li>
-  <li><a href="#what-is-a-distributed-ledger" id="toc-what-is-a-distributed-ledger" class="nav-link" data-scroll-target="#what-is-a-distributed-ledger">What is a Distributed Ledger ?</a></li>
-  <li><a href="#how-do-blockchains-work" id="toc-how-do-blockchains-work" class="nav-link" data-scroll-target="#how-do-blockchains-work">How do Blockchains work ?</a></li>
-  <li><a href="#what-is-the-value-of-blockchain-technologies" id="toc-what-is-the-value-of-blockchain-technologies" class="nav-link" data-scroll-target="#what-is-the-value-of-blockchain-technologies">What is the Value of Blockchain Technologies ?</a></li>
-  <li><a href="#what-are-the-main-challenges-of-blockchains" id="toc-what-are-the-main-challenges-of-blockchains" class="nav-link" data-scroll-target="#what-are-the-main-challenges-of-blockchains">What are the Main Challenges of Blockchains ?</a></li>
-  <li><a href="#map" id="toc-map" class="nav-link" data-scroll-target="#map">Map</a></li>
+  <li><a href="#map" id="toc-map" class="nav-link active" data-scroll-target="#map">Map</a></li>
   <li><a href="#the-what" id="toc-the-what" class="nav-link" data-scroll-target="#the-what">1. The <code>what</code></a>
   <ul class="collapse">
   <li><a href="#distributed-systems" id="toc-distributed-systems" class="nav-link" data-scroll-target="#distributed-systems">1.1 Distributed systems</a></li>
@@ -312,21 +311,6 @@ window.Quarto = {
 </header>
 
 
-<section id="key-questions" class="level2">
-<h2 class="anchored" data-anchor-id="key-questions">4 key questions</h2>
-</section>
-<section id="what-is-a-distributed-ledger" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-a-distributed-ledger">What is a Distributed Ledger ?</h2>
-</section>
-<section id="how-do-blockchains-work" class="level2">
-<h2 class="anchored" data-anchor-id="how-do-blockchains-work">How do Blockchains work ?</h2>
-</section>
-<section id="what-is-the-value-of-blockchain-technologies" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-the-value-of-blockchain-technologies">What is the Value of Blockchain Technologies ?</h2>
-</section>
-<section id="what-are-the-main-challenges-of-blockchains" class="level2">
-<h2 class="anchored" data-anchor-id="what-are-the-main-challenges-of-blockchains">What are the Main Challenges of Blockchains ?</h2>
-</section>
 <section id="map" class="level1">
 <h1>Map</h1>
 <ol type="1">
@@ -349,8 +333,17 @@ window.Quarto = {
 </center>
 <p><strong>Coordination</strong> obtains by <strong>messaging</strong> over the network of nodes</p>
 <p>The system acts as a <strong>single coherent system</strong></p>
-<p><strong>Key dimensions</strong>: - <code>fault tolerance</code> - <code>liveness</code> - <code>scalability</code></p>
-<p><strong>Example</strong>: The Internet - <u>Goal</u>: transfer of information (<code>TCP</code>/<code>IP</code> protocols, etc.) - <u>Killer application</u>: e-mail</p>
+<p><strong>Key dimensions</strong>:</p>
+<ul>
+<li><code>fault tolerance</code></li>
+<li><code>liveness</code></li>
+<li><code>scalability</code></li>
+</ul>
+<p><strong>Example</strong>: The Internet</p>
+<ul>
+<li><u>Goal</u>: transfer of information (<code>TCP</code>/<code>IP</code> protocols, etc.)</li>
+<li><u>Killer application</u>: e-mail</li>
+</ul>
 </section>
 <section id="distributed-ledgers" class="level2">
 <h2 class="anchored" data-anchor-id="distributed-ledgers">1.2 Distributed ledgers</h2>
@@ -360,8 +353,17 @@ window.Quarto = {
 </center>
 <p><strong>Use cases</strong>: where maintaining a <strong>consistent</strong> and <strong>immutable</strong> record of data is <strong>critical</strong>.</p>
 <p><strong>Example</strong>: ledger of transactions</p>
-<p><strong>Additional key dimensions</strong>: - <code>synchronization</code> - <code>consensus</code> - <code>tamper-proof</code></p>
-<p><strong>Example</strong>: The <code>Bitcoin</code> protocol - <u>Goal</u>: transfer of token ownership - <u>Killer application</u>: <em>to be determined</em>…</p>
+<p><strong>Additional key dimensions</strong>:</p>
+<ul>
+<li><code>synchronization</code></li>
+<li><code>consensus</code></li>
+<li><code>tamper-proof</code></li>
+</ul>
+<p><strong>Example</strong>: The <code>Bitcoin</code> protocol</p>
+<ul>
+<li><u>Goal</u>: transfer of token ownership</li>
+<li><u>Killer application</u>: <em>to be determined</em>…</li>
+</ul>
 </section>
 <section id="elements-of-a-dlt" class="level2">
 <h2 class="anchored" data-anchor-id="elements-of-a-dlt">1.3 Elements of a DLT</h2>
@@ -422,7 +424,12 @@ window.Quarto = {
 </section>
 <section id="decentralisation-spectrum" class="level2">
 <h2 class="anchored" data-anchor-id="decentralisation-spectrum">1.5 Decentralisation spectrum</h2>
-<p>DLT allow for <strong>degrees of decentralization</strong> as a function of the rights of <strong>nodes</strong> and <strong>users</strong>: - Visibility (<code>read</code>) - Access (<code>write</code>) - Liability (<code>identity</code>)</p>
+<p>DLT allow for <strong>degrees of decentralization</strong> as a function of the rights of <strong>nodes</strong> and <strong>users</strong>:</p>
+<ul>
+<li>Visibility (<code>read</code>)</li>
+<li>Access (<code>write</code>)</li>
+<li>Liability (<code>identity</code>)</li>
+</ul>
 <p><strong>Main dimensions:</strong></p>
 <table class="caption-top table">
 <colgroup>
@@ -526,8 +533,17 @@ Backward approach here:
 2. `how` to guarantee records of new data  -->
 <section id="crypto-guarantees" class="level2">
 <h2 class="anchored" data-anchor-id="crypto-guarantees">2.1 Crypto guarantees</h2>
-<p>Transaction records require: - An origin and a destination - Authorization</p>
-<p>The ledger guarantees - Anyone can freely create an identity (=address) - Everything is public and verifiable - Historical records are immutable</p>
+<p>Transaction records require:</p>
+<ul>
+<li>An origin and a destination</li>
+<li>Authorization</li>
+</ul>
+<p>The ledger guarantees</p>
+<ul>
+<li>Anyone can freely create an identity (=address)</li>
+<li>Everything is public and verifiable</li>
+<li>Historical records are immutable</li>
+</ul>
 <p><strong>Transaction record</strong></p>
 <table class="caption-top table">
 <colgroup>
@@ -567,16 +583,30 @@ Backward approach here:
 </tr>
 </tbody>
 </table>
-<p><strong>Properties</strong>: - Pseudonymity - Signature - Immutatbiliy</p>
-<p>We obtain this using <strong>elements of cryptography</strong> 1. <code>Key pairs</code> 2. <code>Public signatures</code> 3. <code>Hash functions</code></p>
+<p><strong>Properties</strong>:</p>
+<ul>
+<li>Pseudonymity</li>
+<li>Signature</li>
+<li>Immutatbiliy</li>
+</ul>
+<p>We obtain this using <strong>elements of cryptography</strong></p>
+<ol type="1">
+<li><code>Key pairs</code></li>
+<li><code>Public signatures</code></li>
+<li><code>Hash functions</code></li>
+</ol>
 <center>
-<i><b>This is the secret sauce</b></i><b>
-</b></center><b>
+<i><b>This is the secret sauce</b></i>
+</center>
 <section id="key-pairs" class="level3">
 <h3 class="anchored" data-anchor-id="key-pairs">2.1.1 Key pairs</h3>
-<p>In <strong>public-key cryptography</strong>, there are 2 keys: 1. <code>PrivKey</code>: the <strong>private key</strong> 2. <code>PubKey</code>: the <strong>public key</strong></p>
+<p>In <strong>public-key cryptography</strong>, there are 2 keys:</p>
+<ol type="1">
+<li><code>PrivKey</code>: the <strong>private key</strong></li>
+<li><code>PubKey</code>: the <strong>public key</strong></li>
+</ol>
 <p>such that</p>
-<pre><code>    PubKey = G . PrivKey</code></pre>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>    PubKey <span class="op">=</span> G . PrivKey</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Properties:</p>
 <ul>
 <li><strong>Costless verification</strong>: <code>PubKey</code> can be easily derived from the <code>PrivKey</code>.</li>
@@ -602,7 +632,11 @@ Public Key: cb13730df21015340f89b11fa53dc29d3ec5889e04696750da781bec434896636097
 <li><strong>Messages</strong> (transactions) need to reference an adresses via <strong>signatures</strong></li>
 <li>Signatures need to be <strong>verifiable</strong>: everyone can <strong>confirm the validity</strong> of a signature</li>
 </ul>
-<p><strong>Crypto signatures</strong> rely on 2 functions: 1. <code>Sign()</code> 2. <code>Verify()</code></p>
+<p><strong>Crypto signatures</strong> rely on 2 functions:</p>
+<ol type="1">
+<li><code>Sign()</code></li>
+<li><code>Verify()</code></li>
+</ol>
 <p>Given a message <code>x</code> (transaction): - The <strong>private key</strong> signs the message</p>
 <div class="sourceCode" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>    Signature <span class="op">=</span> Sign(x, PrivKey)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
@@ -729,7 +763,7 @@ Hash 2 : ca99955423385031e1bed17148a89666114d8fe4e67dfdff57f28fdf7c2ffc91
 </tbody>
 </table>
 </center></center></section>
-</b></section><b>
+</section>
 <section id="economic-guarantees" class="level2">
 <h2 class="anchored" data-anchor-id="economic-guarantees">2.2 Economic guarantees</h2>
 <p>How to ensure new records are valid?</p>
@@ -756,12 +790,21 @@ Hash 2 : ca99955423385031e1bed17148a89666114d8fe4e67dfdff57f28fdf7c2ffc91
 </section>
 <section id="example-of-record-validity-in-payments" class="level4">
 <h4 class="anchored" data-anchor-id="example-of-record-validity-in-payments">Example of record validity in payments</h4>
-<p>A transaction is <strong>valid</strong> if: 1. Transfer between <strong>existing</strong> addresses 2. <strong>Amount</strong> under the balance of the originator (<strong>no double spending</strong>) 3. <strong>Authorized</strong> (signature) by the originator</p>
+<p>A transaction is <strong>valid</strong> if:</p>
+<ol type="1">
+<li>Transfer between <strong>existing</strong> addresses</li>
+<li><strong>Amount</strong> under the balance of the originator (<strong>no double spending</strong>)</li>
+<li><strong>Authorized</strong> (signature) by the originator</li>
+</ol>
 </section>
 </section>
 <section id="blockchain-vulnerabilities" class="level3">
 <h3 class="anchored" data-anchor-id="blockchain-vulnerabilities">2.2.2 Blockchain vulnerabilities</h3>
-<p><strong>Pseudonymity</strong> and <strong>universal</strong> access at <strong>zero-cost</strong> to become a <strong>validator</strong> introduces <strong>critical vulnerabilities</strong>: - <strong>Malicious or faulty behavior</strong>: <code>Byzantine fault tolerance</code> - <strong>Majority control</strong>: <code>Sybil attacks</code></p>
+<p><strong>Pseudonymity</strong> and <strong>universal</strong> access at <strong>zero-cost</strong> to become a <strong>validator</strong> introduces <strong>critical vulnerabilities</strong>:</p>
+<ul>
+<li><strong>Malicious or faulty behavior</strong>: <code>Byzantine fault tolerance</code></li>
+<li><strong>Majority control</strong>: <code>Sybil attacks</code></li>
+</ul>
 <p>These are the main barriers to achieving correct consensus.</p>
 <section id="pseudonymity-byzantine-fault-tolerance" class="level4">
 <h4 class="anchored" data-anchor-id="pseudonymity-byzantine-fault-tolerance">Pseudonymity &amp; <code>Byzantine Fault Tolerance</code></h4>
@@ -783,9 +826,10 @@ Hash 2 : ca99955423385031e1bed17148a89666114d8fe4e67dfdff57f28fdf7c2ffc91
 <li><strong>Selection of a validator</strong> to propose a block conditional upon some <strong>cost</strong> faced by the validator (ex-ante / ex-post)</li>
 <li><strong>Rewards to a validator</strong> from proposing a block conditional upon <strong>references from blocks downstream</strong></li>
 </ul>
-<p><strong>Intuition</strong>: - Prevents <code>Sybil attacks</code> by making participation in validation costly, rendering it infeasible for an attacker to create enough fake identities to influence the network (<code>51% attack</code>).</p>
+<p><strong>Intuition</strong>:</p>
 <ul>
-<li>Ensures <code>Byzantine Fault Tolerance</code> by making it economically prohibitive to attach new blocks to faulty records.</li>
+<li><p>Prevents <code>Sybil attacks</code> by making participation in validation costly, rendering it infeasible for an attacker to create enough fake identities to influence the network (<code>51% attack</code>).</p></li>
+<li><p>Ensures <code>Byzantine Fault Tolerance</code> by making it economically prohibitive to attach new blocks to faulty records.</p></li>
 </ul>
 <p><strong>Examples</strong></p>
 <ul>
@@ -871,14 +915,21 @@ In case of <strong>misconduct</strong>, stakes are <strong>slashed</strong>.</li
 </section>
 </section>
 </section>
-</b></section><b>
+</section>
 <section id="discussion" class="level1">
 <h1>Discussion</h1>
 <section id="the-evolving-technological-landscape" class="level3">
 <h3 class="anchored" data-anchor-id="the-evolving-technological-landscape">The evolving technological landscape</h3>
 <section id="the-how-1" class="level4">
 <h4 class="anchored" data-anchor-id="the-how-1">The <code>How</code></h4>
-<p>Development of infrastructure: - <strong>Blockchain Trilemma</strong>: Balancing <strong>decentralization</strong>, <strong>security</strong>, and <strong>scalability</strong>. Innovations like Layer 2 solutions, sharding, and consensus protocol improvements. - <strong>Hash properties</strong>: continuous update of hash function to ensure properties like pre-image resistance are not violated. - <strong>MEV (Miner/Maximal Extractable Value)</strong>: Understanding how miners (or validators in PoS systems) can extract additional value through transaction ordering. This can have implications for market fairness and transparency. - <strong>Interoperability Solutions</strong>: Update on technologies that allow different blockchains to communicate, such as Polkadot, Cosmos, and bridges. - <strong>Privacy-Preserving Technologies</strong>: Zero-knowledge proofs (e.g., zk-SNARKs) and confidential transactions. Impact on anti-money laundering (AML) and compliance.</p>
+<p>Development of infrastructure:</p>
+<ul>
+<li><strong>Blockchain Trilemma</strong>: Balancing <strong>decentralization</strong>, <strong>security</strong>, and <strong>scalability</strong>. Innovations like Layer 2 solutions, sharding, and consensus protocol improvements.</li>
+<li><strong>Hash properties</strong>: continuous update of hash function to ensure properties like pre-image resistance are not violated.</li>
+<li><strong>MEV (Miner/Maximal Extractable Value)</strong>: Understanding how miners (or validators in PoS systems) can extract additional value through transaction ordering. This can have implications for market fairness and transparency.</li>
+<li><strong>Interoperability Solutions</strong>: Update on technologies that allow different blockchains to communicate, such as Polkadot, Cosmos, and bridges.</li>
+<li><strong>Privacy-Preserving Technologies</strong>: Zero-knowledge proofs (e.g., zk-SNARKs) and confidential transactions. Impact on anti-money laundering (AML) and compliance.</li>
+</ul>
 </section>
 <section id="the-why-1" class="level4">
 <h4 class="anchored" data-anchor-id="the-why-1">The <code>Why</code></h4>
@@ -946,7 +997,7 @@ In case of <strong>misconduct</strong>, stakes are <strong>slashed</strong>.</li
 </section>
 </section>
 
-</b></main><b> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -1367,9 +1418,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-</b></div><b> <!-- /content -->
+</div> <!-- /content -->
 
 
 
 
-</b></body></html>
+</body></html>

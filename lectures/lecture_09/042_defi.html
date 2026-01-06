@@ -188,6 +188,10 @@ window.Quarto = {
     <a class="nav-link" href="../../assignment.html"> 
 <span class="menu-text">Assignment</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../sample-exam.html"> 
+<span class="menu-text">Sample Exam Questions</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -203,14 +207,8 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#key-questions" id="toc-key-questions" class="nav-link active" data-scroll-target="#key-questions">5 key questions</a></li>
-  <li><a href="#what-is-defi" id="toc-what-is-defi" class="nav-link" data-scroll-target="#what-is-defi">What is DeFi?</a></li>
-  <li><a href="#why-would-we-need-defi" id="toc-why-would-we-need-defi" class="nav-link" data-scroll-target="#why-would-we-need-defi">Why Would We Need DeFi?</a></li>
-  <li><a href="#what-are-the-new-actors-in-defi" id="toc-what-are-the-new-actors-in-defi" class="nav-link" data-scroll-target="#what-are-the-new-actors-in-defi">What are the New Actors in DeFi?</a></li>
-  <li><a href="#what-are-the-main-risks-in-defi" id="toc-what-are-the-main-risks-in-defi" class="nav-link" data-scroll-target="#what-are-the-main-risks-in-defi">What are the Main Risks in DeFi?</a></li>
-  <li><a href="#should-defi-be-regulated-differently" id="toc-should-defi-be-regulated-differently" class="nav-link" data-scroll-target="#should-defi-be-regulated-differently">Should DeFi be Regulated Differently?</a></li>
-  <li><a href="#map" id="toc-map" class="nav-link" data-scroll-target="#map">Map</a></li>
-  <li><a href="#what-is-defi-1" id="toc-what-is-defi-1" class="nav-link" data-scroll-target="#what-is-defi-1">1. <code>What</code> is DeFi?</a>
+  <li><a href="#map" id="toc-map" class="nav-link active" data-scroll-target="#map">Map</a></li>
+  <li><a href="#what-is-defi" id="toc-what-is-defi" class="nav-link" data-scroll-target="#what-is-defi">1. <code>What</code> is DeFi?</a>
   <ul class="collapse">
   <li><a href="#computer-in-the-financial-sky" id="toc-computer-in-the-financial-sky" class="nav-link" data-scroll-target="#computer-in-the-financial-sky">Computer in the <code>financial</code> sky</a></li>
   <li><a href="#definition" id="toc-definition" class="nav-link" data-scroll-target="#definition">Definition</a></li>
@@ -278,24 +276,6 @@ window.Quarto = {
 </header>
 
 
-<section id="key-questions" class="level2">
-<h2 class="anchored" data-anchor-id="key-questions">5 key questions</h2>
-</section>
-<section id="what-is-defi" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-defi">What is DeFi?</h2>
-</section>
-<section id="why-would-we-need-defi" class="level2">
-<h2 class="anchored" data-anchor-id="why-would-we-need-defi">Why Would We Need DeFi?</h2>
-</section>
-<section id="what-are-the-new-actors-in-defi" class="level2">
-<h2 class="anchored" data-anchor-id="what-are-the-new-actors-in-defi">What are the New Actors in DeFi?</h2>
-</section>
-<section id="what-are-the-main-risks-in-defi" class="level2">
-<h2 class="anchored" data-anchor-id="what-are-the-main-risks-in-defi">What are the Main Risks in DeFi?</h2>
-</section>
-<section id="should-defi-be-regulated-differently" class="level2">
-<h2 class="anchored" data-anchor-id="should-defi-be-regulated-differently">Should DeFi be Regulated Differently?</h2>
-</section>
 <section id="map" class="level1">
 <h1>Map</h1>
 <ol type="1">
@@ -307,7 +287,7 @@ window.Quarto = {
 <li>Policy discussions</li>
 </ol>
 </section>
-<section id="what-is-defi-1" class="level1">
+<section id="what-is-defi" class="level1">
 <h1>1. <code>What</code> is DeFi?</h1>
 <section id="computer-in-the-financial-sky" class="level2">
 <h2 class="anchored" data-anchor-id="computer-in-the-financial-sky">Computer in the <code>financial</code> sky</h2>
@@ -319,7 +299,11 @@ window.Quarto = {
 <section id="definition" class="level2">
 <h2 class="anchored" data-anchor-id="definition">Definition</h2>
 <p>Decentralized Finance (DeFi) is an <strong>open</strong> <strong>digital</strong> ecosystem where financial services are produced through <strong>automated protocols</strong> in order to eliminate <strong>financial intermediation</strong>.</p>
-<p>DeFi inherits the blockchain properties: - A set of <strong>public, interoperable and autonomous protocols</strong> which are <strong>universally accessible</strong> - Developed, maintained and used by an <strong>open pool of pseudonymous agents</strong> rather than a set of unique legal entities.</p>
+<p>DeFi inherits the blockchain properties:</p>
+<ul>
+<li>A set of <strong>public, interoperable and autonomous protocols</strong> which are <strong>universally accessible</strong></li>
+<li>Developed, maintained and used by an <strong>open pool of pseudonymous agents</strong> rather than a set of unique legal entities.</li>
+</ul>
 </section>
 <section id="example-how-defi-handles-exchanges" class="level2">
 <h2 class="anchored" data-anchor-id="example-how-defi-handles-exchanges">Example: how DeFi handles exchanges</h2>
@@ -393,28 +377,61 @@ window.Quarto = {
 </table>
 <center>
 <img src="figures/dex.png" width="500">
-<center>
-<p><strong>Key parts:</strong> - An <strong>automated market maker</strong> (<code>smart contract</code>) handles exchanges directly with buyers and sellers<br>
-→ No matching or asset custody by a central authority - <strong>Liquidity pool</strong> hosts reserves of tokens<br>
-→ Provisioned by <strong>liquidity providers</strong> for profit (fee) - <strong>Anyone</strong> can push a request to the protocol<br>
+</center>
+<p><strong>Key parts:</strong></p>
+<ul>
+<li>An <strong>automated market maker</strong> (<code>smart contract</code>) handles exchanges directly with buyers and sellers<br>
+→ No matching or asset custody by a central authority</li>
+<li><strong>Liquidity pool</strong> hosts reserves of tokens<br>
+→ Provisioned by <strong>liquidity providers</strong> for profit (fee)</li>
+<li><strong>Anyone</strong> can push a request to the protocol<br>
 → AMM accesses the pool of tokens to meet the request and updates the reserve balances<br>
-→ Each transaction comes with a fee that is then redistributed to the liquidity providers. - <strong>Governance</strong>: the protocol is updated through voting by holders of governance tokens</p>
-</center></center></section>
+→ Each transaction comes with a fee that is then redistributed to the liquidity providers.</li>
+<li><strong>Governance</strong>: the protocol is updated through voting by holders of governance tokens</li>
+</ul>
+</section>
 </section>
 <section id="why-defi" class="level1">
 <h1>2. <code>Why</code> DeFi?</h1>
 <section id="the-crypto-value-proposition" class="level2">
 <h2 class="anchored" data-anchor-id="the-crypto-value-proposition">The crypto value proposition</h2>
-<p><strong>DeFi value proposition</strong> is a new <strong>information governance</strong> model &gt; Technology that <strong>shifts in the information structure</strong> upon which financial services can be deployed.</p>
-<p><strong>Goal of Cryptography and DLT</strong>: - Offer a <strong>guarantee</strong> of information <strong>publicly</strong> in <strong>absence of a central authority</strong> - Technological solution to an information problem - <u>Claim</u>: for contracts strictly relying on such information: <strong>no need for intermediation</strong></p>
+<p><strong>DeFi value proposition</strong> is a new <strong>information governance</strong> model</p>
+<blockquote class="blockquote">
+<p>Technology that <strong>shifts in the information structure</strong> upon which financial services can be deployed.</p>
+</blockquote>
+<p><strong>Goal of Cryptography and DLT</strong>:</p>
+<ul>
+<li>Offer a <strong>guarantee</strong> of information <strong>publicly</strong> in <strong>absence of a central authority</strong>
+<ul>
+<li>Technological solution to an information problem</li>
+</ul></li>
+<li><u>Claim</u>: for contracts strictly relying on such information: <strong>no need for intermediation</strong></li>
+</ul>
 <section id="example-digital-payments" class="level3">
 <h3 class="anchored" data-anchor-id="example-digital-payments">Example: digital payments</h3>
 <p><u><b>Key friction in payments</b></u>: the privacy value (<strong>confidentiality</strong>) of transaction information</p>
 <p>Traditional payment systems and the Bitcoin model offer two <strong>different solutions to this problem</strong>.</p>
 <center>
-<img src="figures/payments.png" width="1200">
-<center>
-<p><strong>Under the crypto information structure</strong> - NO <strong>confidential</strong> information - Source of power in intermediated markets - ❗Misleading claims - <strong>Transparency</strong> - From confidentiality to <strong>pseudonymity</strong> - <strong>Replicability</strong> of standard financial instruments - Absence of confidentiality <strong>restricts</strong> contracting space</p>
+<img src="figures/payments.png" width="600">
+</center>
+<p><strong>Under the crypto information structure</strong></p>
+<ul>
+<li>NO <strong>confidential</strong> information
+<ul>
+<li>Source of power in intermediated markets</li>
+</ul></li>
+<li>❗Misleading claims
+<ul>
+<li><strong>Transparency</strong>
+<ul>
+<li>From confidentiality to <strong>pseudonymity</strong></li>
+</ul></li>
+<li><strong>Replicability</strong> of standard financial instruments
+<ul>
+<li>Absence of confidentiality <strong>restricts</strong> contracting space</li>
+</ul></li>
+</ul></li>
+</ul>
 <p><strong>Information and economics</strong></p>
 <center>
 <b>Different information structures</b>
@@ -425,7 +442,6 @@ window.Quarto = {
 <center>
 ↓ <br><b>Different policy treatments</b>
 </center>
-<p><strong>Different information structures / different economic forces / different policy treatments</strong></p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 25%">
@@ -456,7 +472,7 @@ window.Quarto = {
 </tr>
 </tbody>
 </table>
-</center></center></section>
+</section>
 </section>
 </section>
 <section id="defi-world" class="level1">
@@ -550,16 +566,16 @@ window.Quarto = {
 </table>
 <p><strong>Exchange in traditional setting and in DeFi</strong></p>
 <center>
-<img src="figures/exchange-2.png" width="1000">
-<center>
+<img src="figures/exchange-2.png" width="700">
+</center>
 <p><strong>Lending in traditional setting and in DeFi</strong></p>
 <ul>
 <li>❗ Large <strong>collateral</strong> requirements to compensate <strong>limited information</strong></li>
 </ul>
 <center>
-<img src="figures/lending.png" width="1000">
-<center>
-</center></center></center></center></section>
+<img src="figures/lending.png" width="700">
+</center>
+</section>
 <section id="some-statistics" class="level2">
 <h2 class="anchored" data-anchor-id="some-statistics">3.3 Some statistics</h2>
 <ul>
@@ -569,31 +585,42 @@ window.Quarto = {
 </ul>
 <p><strong>Total Value Locked in DeFi protocols</strong></p>
 <center>
-<p><img src="figures/stats_tvl.png" width="1000"> source: DeFi LLama</p>
+<img src="figures/stats_tvl.png" width="700"><br> source: DeFi LLama
+</center>
 <p><strong>Funds Locked in Stablecoins</strong></p>
 <center>
-<img src="figures/stablecoins.png" width="1000">
-<center>
-<p>source: DeFi LLama</p>
+<img src="figures/stablecoins.png" width="700"><br> source: DeFi LLama
+</center>
 <p><strong>Total Value Locked in DEX and lending</strong></p>
 <center>
-<img src="figures/stats_dex_lend.png" width="1000">
+<img src="figures/stats_dex_lend.png" width="700"><br> source: DeFi LLama
 <center>
-<p>source: DeFi LLama</p>
-</center></center></center></center></center></section>
+</center></center></section>
 </section>
 <section id="the-future-of-defi" class="level1">
 <h1>4. The future of DeFi</h1>
 <p>The fundamental challenge</p>
-<p><strong>Recall the binary information structure</strong> - <strong>Public (<code>on-chain</code>)</strong> - Verification at (almost) zero cost - Transaction transparency: any activity on DeFi is public and can be contracted upon. - <strong>Private (<code>off-chain</code>)</strong> - Infinitely costly to verify - Pseudonymity: identity-related information cannot be contracted upon in DeFi</p>
+<p><strong>Recall the binary information structure</strong></p>
+<ul>
+<li><strong>Public (<code>on-chain</code>)</strong>
+<ul>
+<li>Verification at (almost) zero cost</li>
+<li>Transaction transparency: any activity on DeFi is public and can be contracted upon.</li>
+</ul></li>
+<li><strong>Private (<code>off-chain</code>)</strong>
+<ul>
+<li>Infinitely costly to verify</li>
+<li>Pseudonymity: identity-related information cannot be contracted upon in DeFi</li>
+</ul></li>
+</ul>
 <p><span class="math inline">\(\exists~\)</span> <strong>bound on the contracting space</strong> and the <strong>scope of applications</strong> for DeFi protocols.</p>
 <p><strong>→ The smart contract challenge</strong></p>
 <center>
 <b>Verification vs Contracting power</b>
 </center>
 <center>
-<img src="figures/no-oracles.png" width="1000">
-<center>
+<img src="figures/no-oracles.png" width="700">
+</center>
 <center>
 → Growth perspective for DeFi?
 </center>
@@ -614,8 +641,8 @@ window.Quarto = {
 <p>Oracles provide the necessary <strong>bridge to unify <code>off-chain</code> and <code>on-chain</code> worlds</strong> - Service that <strong>connects smart contracts</strong> with <strong>external data sources</strong>.</p>
 <p>Oracles <strong>expand the contracting space</strong> of DeFi applications at the cost of <strong>on-chain (public) verification</strong>.</p>
 <center>
-<img src="figures/oracles.png" width="1200">
-<center>
+<img src="figures/oracles.png" width="700">
+</center>
 <p><strong>Applications</strong></p>
 <ol type="1">
 <li><strong>Price Feeds</strong>
@@ -641,8 +668,13 @@ window.Quarto = {
 <li>Inefficiency</li>
 <li>Vulnerabilities</li>
 </ul>
-<p><strong>Opportunities for public interventions</strong>: traditional market failures in information markets - Public oracle - Licensed oracles - Regulated oracle markets</p>
-</center></center></section>
+<p><strong>Opportunities for public interventions</strong>: traditional market failures in information markets</p>
+<ul>
+<li>Public oracle</li>
+<li>Licensed oracles</li>
+<li>Regulated oracle markets</li>
+</ul>
+</section>
 <section id="ramps-tokenisation" class="level3">
 <h3 class="anchored" data-anchor-id="ramps-tokenisation">Ramps &amp; Tokenisation</h3>
 <p><strong>Definition</strong></p>
@@ -650,9 +682,22 @@ window.Quarto = {
 <p>Tokenization refers to the process of generating a <strong>digital represantion of traditional assets</strong> on a blockchain by <strong>on and off ramps</strong>.</p>
 </blockquote>
 <p>FSB(2023)</p>
-<p><strong>Benefits</strong> - Automation and trade speed &amp; efficiency - New contracting opportunities: information space and composability</p>
-<p><strong>Applications</strong> - Cross-border payments currently relying on banks (correspondent) and message platforms (swift) - Foreign exchanges (payment vs payment) - Mortgage-backed-securities (dozen intermediaries in the process)</p>
-<p><strong>Challenges</strong> - Some economic frictions not resolved (moral hazard and adverse selection) - Legal challenges: who has what <strong>right</strong>? - Technical challenges: <strong>design of ramps</strong> (cf.&nbsp;Oracles) <!-- 
+<p><strong>Benefits</strong></p>
+<ul>
+<li>Automation and trade speed &amp; efficiency</li>
+<li>New contracting opportunities: information space and composability</li>
+</ul>
+<p><strong>Applications</strong></p>
+<ul>
+<li>Cross-border payments currently relying on banks (correspondent) and message platforms (swift)</li>
+<li>Foreign exchanges (payment vs payment)</li>
+<li>Mortgage-backed-securities (dozen intermediaries in the process)</li>
+</ul>
+<p><strong>Challenges</strong></p>
+<ul>
+<li>Some economic frictions not resolved (moral hazard and adverse selection)</li>
+<li>Legal challenges: who has what <strong>right</strong>?</li>
+<li>Technical challenges: <strong>design of ramps</strong> (cf.&nbsp;Oracles) <!-- 
 > allow for aggregating multiple assets on a common trading platform with token-specific rules (smart contracts)
 > allow for smart contracts: expansion of contracting spaces and composability
 
@@ -662,18 +707,23 @@ becomes an executable object. Users can directly transfer their money without me
 first, or let transactions be executed through smart contracts, which allows for automation and
 composability.
 
-other examples:  --></p>
+other examples:  --></li>
+</ul>
 <section id="tokenization-continuum" class="level4">
 <h4 class="anchored" data-anchor-id="tokenization-continuum">Tokenization continuum</h4>
-<p>Not all digital assets offer the same tokenization value: - Worse candidates: syndicated loans or commercial real estate. - Better candidates: FX or MBS</p>
+<p>Not all digital assets offer the same tokenization value:</p>
+<ul>
+<li>Worse candidates: syndicated loans or commercial real estate.</li>
+<li>Better candidates: FX or MBS</li>
+</ul>
 <center>
-<img src="figures/tokenization-continuum.png" width="1000">
+<img src="figures/tokenization-continuum.png" width="700">
 <center>
 <p>BIS (2024)</p>
 </center></center></section>
 </section>
 </section>
-</center></center></section>
+</section>
 <section id="policy-discussion" class="level1">
 <h1>5. Policy discussion</h1>
 <blockquote class="blockquote">
@@ -684,8 +734,35 @@ other examples:  --></p>
 <h2 class="anchored" data-anchor-id="a-new-policy-framework">5.1 A New Policy Framework?</h2>
 <p><strong>Should DeFi receive a different policy treatment?</strong></p>
 <p>↳ How do DeFi services differ in their treatment of information frictions?</p>
-<p><strong>Claim:</strong> Understanding the shift in information structure sheds light on - the scope of DeFi applications - risks and inefficiencies (new and old) - appropriate policy approaches (warranted and feasible actions)</p>
-<p><strong>Elements of reflection</strong> - <strong>Limits on policy enforcement power and information acquisition</strong> - Computer in the sky: no shutting down, no liability, etc. - <strong>New targets</strong>: validators, protocols and oracles. - <strong>Eligible proposals:</strong> warranted &amp; feasible - <strong>Warranted</strong> - Several frictions can be best addressed by the private sector - Find cases with limits to the production of private solutions - ↳ likely benefits from public support. - <strong>Feasible</strong> - Subset of warranted actions satisfying the technological constraints of DeFi</p>
+<p><strong>Claim:</strong> Understanding the shift in information structure sheds light on</p>
+<ul>
+<li>the scope of DeFi applications</li>
+<li>risks and inefficiencies (new and old)</li>
+<li>appropriate policy approaches (warranted and feasible actions)</li>
+</ul>
+<p><strong>Elements of reflection</strong></p>
+<ul>
+<li><strong>Limits on policy enforcement power and information acquisition</strong>
+<ul>
+<li>Computer in the sky: no shutting down, no liability, etc.</li>
+</ul></li>
+<li><strong>New targets</strong>: validators, protocols and oracles.</li>
+<li><strong>Eligible proposals:</strong> warranted &amp; feasible
+<ul>
+<li><strong>Warranted</strong>
+<ul>
+<li>Several frictions can be best addressed by the private sector</li>
+<li>Find cases with limits to the production of private solutions
+<ul>
+<li>↳ likely benefits from public support.</li>
+</ul></li>
+</ul></li>
+<li><strong>Feasible</strong>
+<ul>
+<li>Subset of warranted actions satisfying the technological constraints of DeFi</li>
+</ul></li>
+</ul></li>
+</ul>
 </section>
 <section id="major-risks-associated-with-defi" class="level2">
 <h2 class="anchored" data-anchor-id="major-risks-associated-with-defi">5.2 Major Risks Associated With DeFi</h2>
